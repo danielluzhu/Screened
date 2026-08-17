@@ -1,0 +1,213 @@
+#!/usr/bin/env python3
+"""Build a static, read-only copy of the site into dist/ for GitHub Pages.
+
+The Bun server does three things Pages cannot: it serves data.json at
+/api/data, it hands the same HTML shell to every /film/<slug> style URL, and
+it shells out to the Python writers to edit Favorites.numbers. Only the first
+two can be reproduced statically:
+
+  * /api/data becomes a plain dist/api/data.json file,
+  * every slug that exists in data.json gets a real directory with an
+    index.html, so Pages answers 200 instead of 404 and no redirect tricks are
+    needed,
+  * the write endpoints have nowhere to go, so static.js strips the editing
+    UI and blocks non-GET fetches.
+
+Pages serves the site from /<repo>/ rather than /, so every absolute path in
+the HTML and JS is rewritten to sit under that base.
+
+Output goes to docs/, which is one of the two roots Pages can publish from
+directly, so a push to main is the whole deploy.
+
+    python3 scripts/build_static.py [base-path]     # default /Screened
+"""
+
+import json
+import os
+import re
+import shutil
+import sys
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+PUBLIC = ROOT / "public"
+OUT = ROOT / "docs"
+
+BASE = (sys.argv[1] if len(sys.argv) > 1 else os.environ.get("BASE_PATH", "/Screened")).rstrip("/")
+
+# Client-resolved routes: the server hands each one a shell and the page reads
+# the slug back out of location.pathname.
+ROUTES = ("film", "show", "character", "director", "year")
+# Directories under public/ that the pages link to with absolute paths.
+ASSETS = ("posters", "logos", "characters", "shows")
+
+
+def rewrite_js(src: str) -> str:
+    # The one read endpoint becomes a file. Do this before the general pass so
+    # the extensionless /api/data never reaches it.
+    src = src.replace('"/api/data"', f'"{BASE}/api/data.json"')
+
+    # Absolute references — "/posters/x.jpg", `/film/${slug}`, "/api/rating".
+    names = "|".join(ROUTES + ASSETS + ("api",))
+    src = re.sub(
+        rf"""(["'`])/({names})(?=[/"'`])""",
+        lambda m: f"{m.group(1)}{BASE}/{m.group(2)}",
+        src,
+    )
+
+    # Slugs are read back off the URL, so the base has to come off first. Pages
+    # serves these as directories, hence the trailing slash strip.
+    src = re.sub(
+        r'location\.pathname\.replace\(/\^\\/(' + "|".join(ROUTES) + r')\\/\?/, ""\)',
+        lambda m: (
+            f'location.pathname.replace(/^\\{BASE}\\/{m.group(1)}\\/?/, "")'
+            '.replace(/\\/$/, "")'
+        ),
+        src,
+    )
+
+    # Bare "back to the index" links.
+    src = re.sub(r'(\.href\s*=\s*)"/"', rf'\1"{BASE}/"', src)
+    return src
+
+
+def rewrite_html(src: str, title: str | None = None) -> str:
+    src = re.sub(r'(\b(?:href|src)=")/', rf"\1{BASE}/", src)
+    if title:
+        src = re.sub(r"<title>.*?</title>", f"<title>{esc(title)}</title>", src, count=1, flags=re.S)
+    return src.replace("</body>", f'  <script src="{BASE}/static.js"></script>\n  </body>')
+
+
+def esc(s: str) -> str:
+    return (
+        str(s).replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;").replace('"', "&quot;")
+    )
+
+
+def main() -> int:
+    if OUT.exists():
+        shutil.rmtree(OUT)
+    shutil.copytree(PUBLIC, OUT)
+
+    # Rewrite everything copied out of public/ in place.
+    for path in OUT.rglob("*"):
+        if path.suffix == ".js":
+            path.write_text(rewrite_js(path.read_text()))
+        elif path.suffix == ".html":
+            path.write_text(rewrite_html(path.read_text()))
+
+    data = json.loads((ROOT / "data.json").read_text())
+    api = OUT / "api"
+    api.mkdir()
+    shutil.copyfile(ROOT / "data.json", api / "data.json")
+
+    # One real directory per slug, built from the same shell the server serves.
+    shells = {r: (PUBLIC / f"{r}.html").read_text() for r in ROUTES}
+    counts = {}
+    for route, items, key, title_of in (
+        ("film", data["films"], "slug", lambda f: f"{f.get('title', '?')} ({f.get('year') or '—'}) — Screened"),
+        ("show", data["shows"], "slug", lambda s: f"{s.get('name', '?')} — Screened"),
+        ("character", data["characters"], "slug", lambda c: f"{c.get('name', '?')} — Screened"),
+        ("director", data["directors"], "slug", lambda d: f"{d.get('name', '?')} — Screened"),
+        ("year", data["years"], "year", lambda y: f"{y.get('year')} in film — Screened"),
+    ):
+        n = 0
+        for item in items:
+            slug = str(item.get(key) or "").strip()
+            if not slug:
+                continue
+            page = OUT / route / slug
+            page.mkdir(parents=True, exist_ok=True)
+            (page / "index.html").write_text(rewrite_html(shells[route], title_of(item)))
+            n += 1
+        counts[route] = n
+
+    # Suggestions is a plain page, not a slug route.
+    sug = OUT / "suggestions"
+    sug.mkdir(exist_ok=True)
+    (sug / "index.html").write_text(
+        rewrite_html((PUBLIC / "suggestions.html").read_text(), "What to watch next — Screened")
+    )
+
+    (OUT / "static.js").write_text(STATIC_JS.replace("__BASE__", BASE))
+    (OUT / "404.html").write_text(rewrite_html(NOT_FOUND, "Not found — Screened"))
+    (OUT / ".nojekyll").write_text("")
+
+    total = sum(counts.values()) + 2
+    print(f"built {total} pages into {OUT.relative_to(ROOT)}/ at base {BASE}/")
+    print("  " + ", ".join(f"{k}: {v}" for k, v in counts.items()))
+    return 0
+
+
+STATIC_JS = """\
+// The published site is a read-only mirror. There is no Bun server and no
+// Favorites.numbers behind it, so the editing UI is stripped out rather than
+// left in place to fail on click.
+(() => {
+  const GONE = ".add-toggle,.add-form,.edit-title,.edit-details,.add-suggestion,.add-other";
+
+  function neuter() {
+    document.querySelectorAll(GONE).forEach((n) => n.remove());
+    // Ratings render as <select>; swap each for the badge it already looks like.
+    document.querySelectorAll("select.badge").forEach((sel) => {
+      const badge = document.createElement("span");
+      badge.className = "badge";
+      badge.dataset.tier = sel.value;
+      badge.textContent = sel.value;
+      if (sel.title) badge.title = sel.title;
+      sel.replaceWith(badge);
+    });
+  }
+
+  // Content renders after fetch, and re-renders on filter changes.
+  new MutationObserver(neuter).observe(document.documentElement, {
+    childList: true,
+    subtree: true,
+  });
+  document.addEventListener("DOMContentLoaded", neuter);
+  neuter();
+
+  // Nothing should be able to POST to an endpoint that isn't there.
+  const inner = window.fetch;
+  window.fetch = (input, init) => {
+    const method = String(
+      init?.method ?? (input instanceof Request ? input.method : "GET")
+    ).toUpperCase();
+    if (method !== "GET" && method !== "HEAD") {
+      return Promise.resolve(
+        new Response(
+          JSON.stringify({ ok: false, error: "This is a read-only copy of the site." }),
+          { status: 405, headers: { "content-type": "application/json" } }
+        )
+      );
+    }
+    return inner(input, init);
+  };
+})();
+"""
+
+NOT_FOUND = """\
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Not found — Screened</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><text y='14' font-size='14'>🎬</text></svg>" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="masthead">
+      <div class="wrap"><h1>Not found</h1></div>
+    </header>
+    <main class="wrap">
+      <p class="empty">That page isn't part of the published site.</p>
+      <p><a class="back" href="/">← All films</a></p>
+    </main>
+  </body>
+</html>
+"""
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

@@ -36,6 +36,26 @@ with a bare environment, and both Bun and the `python3` helpers the server
 spawns have to be findable. `TimeoutStopSec=30` gives an in-flight rating write
 time to finish rewriting the document instead of being killed halfway.
 
+## Published site
+
+A read-only copy is published at <https://danielluzhu.github.io/Screened/> from
+the `docs/` folder on `main`. Rebuild it after changing the data, then push:
+
+```sh
+python3 scripts/build_static.py     # regenerates docs/
+git add -A docs && git commit -m "rebuild site" && git push
+```
+
+Pages serves static files only, so the copy differs from the local server in two
+ways: `/api/data` becomes `docs/api/data.json`, and every `/film/<slug>` style
+route is written out as a real directory with an `index.html` rather than being
+resolved per request. The rating dropdowns and the add/edit forms are stripped
+by `docs/static.js` — writing to `Favorites.numbers` needs the Python helpers,
+which only exist locally. Edit locally, rebuild, push.
+
+The build takes the base path as its one argument (`/Screened` by default);
+pass `/` if the site ever moves to a custom domain.
+
 ## Data
 
 `Favorites.numbers` is the source of truth. `scripts/extract.py` reads it and

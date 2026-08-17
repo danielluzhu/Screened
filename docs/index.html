@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Favorites — films, shows, characters</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><text y='14' font-size='14'>🎬</text></svg>" />
+    <link rel="stylesheet" href="/Screened/styles.css" />
+  </head>
+  <body>
+    <header class="masthead">
+      <div class="wrap">
+        <h1>Favorites</h1>
+        <p class="tagline">
+          Films, shows, and characters I keep coming back to — a place to fanboy or critique.
+        </p>
+        <nav class="tabs" id="tabs">
+          <button class="tab is-active" data-view="films">Films</button>
+          <button class="tab" data-view="franchises">Franchises</button>
+          <button class="tab" data-view="characters">Characters</button>
+          <button class="tab" data-view="shows">Shows</button>
+          <button class="tab" data-view="music">Music</button>
+          <!-- Its own page, not a view: the ranking is computed server-side. -->
+          <a class="tab tab-link" href="/Screened/suggestions">What to watch next</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="wrap" id="main">
+      <section id="view-films" class="view">
+        <div class="controls">
+          <input
+            id="search"
+            type="search"
+            placeholder="Search titles…"
+            autocomplete="off"
+            aria-label="Search films"
+          />
+          <select id="region" aria-label="Filter by region"></select>
+          <select id="genre" aria-label="Filter by genre"></select>
+          <select id="service" aria-label="Filter by streaming service"></select>
+          <select id="sort" aria-label="Sort films">
+            <option value="tier">Sort: tier</option>
+            <option value="year-desc">Sort: newest</option>
+            <option value="year-asc">Sort: oldest</option>
+            <option value="title">Sort: A–Z</option>
+          </select>
+          <span class="count" id="count"></span>
+          <button type="button" class="add-toggle" id="add-toggle" aria-expanded="false">
+            + Add film
+          </button>
+        </div>
+
+        <form id="add-form" class="add-form" hidden>
+          <div class="fields">
+            <label>
+              Title <span class="req" aria-hidden="true">*</span>
+              <input name="title" required autocomplete="off" placeholder="Drive My Car" />
+            </label>
+            <label>
+              Year
+              <input name="year" inputmode="numeric" autocomplete="off" placeholder="2021" />
+            </label>
+            <label>
+              Director
+              <input name="director" autocomplete="off" placeholder="Ryusuke Hamaguchi" />
+            </label>
+            <label>
+              Country
+              <input name="country" autocomplete="off" placeholder="Japanese" />
+            </label>
+            <label>
+              Rating
+              <select name="tier" id="add-tier">
+                <option value="?" selected>Unrated</option>
+                <option value="S">S — Evangelize</option>
+                <option value="A">A — Great film</option>
+                <option value="B">B — Good</option>
+                <option value="C">C — Something missing</option>
+                <option value="D">D — Advise against</option>
+                <option value="E">E — Could not finish</option>
+                <option value="F">F — Waste of time</option>
+              </select>
+            </label>
+          </div>
+          <div class="add-actions">
+            <button type="submit" class="primary">Add film</button>
+            <button type="button" id="add-cancel">Cancel</button>
+            <span class="hint">
+              Leave the rating unset to decide later. The poster is fetched automatically.
+            </span>
+          </div>
+        </form>
+
+        <div id="films"></div>
+      </section>
+
+      <section id="view-franchises" class="view" hidden>
+        <p class="lede" id="franchise-lede"></p>
+        <div id="franchises"></div>
+      </section>
+
+      <section id="view-characters" class="view" hidden>
+        <div class="controls">
+          <select id="char-sort" aria-label="Sort characters">
+            <option value="tier">Sort: tier</option>
+            <option value="name">Sort: A–Z</option>
+            <option value="show">Sort: show</option>
+          </select>
+          <span class="count" id="char-count"></span>
+          <button type="button" class="add-toggle" id="char-toggle" aria-expanded="false">
+            + Add character
+          </button>
+        </div>
+
+        <form id="char-form" class="add-form" hidden>
+          <div class="fields">
+            <label>
+              Name <span class="req" aria-hidden="true">*</span>
+              <input name="name" required autocomplete="off" placeholder="Gojo Satoru" />
+            </label>
+            <label>
+              Show
+              <input name="show" autocomplete="off" placeholder="JJK" />
+            </label>
+            <label>
+              Why they're a favourite
+              <input name="why" autocomplete="off" placeholder="Optional — you can write more later" />
+            </label>
+          </div>
+          <div class="add-actions">
+            <button type="submit" class="primary">Add character</button>
+            <button type="button" id="char-cancel">Cancel</button>
+            <span class="hint">The portrait is fetched automatically from the show's wiki.</span>
+          </div>
+        </form>
+
+        <div id="characters" class="grid is-tiles"></div>
+      </section>
+
+      <section id="view-shows" class="view" hidden>
+        <div class="controls">
+          <span class="count" id="show-count"></span>
+          <button type="button" class="add-toggle" id="show-toggle" aria-expanded="false">
+            + Add show
+          </button>
+        </div>
+
+        <form id="show-form" class="add-form" hidden>
+          <div class="fields">
+            <label>
+              Show <span class="req" aria-hidden="true">*</span>
+              <input name="name" required autocomplete="off" placeholder="Vinland Saga" />
+            </label>
+          </div>
+          <div class="add-actions">
+            <button type="submit" class="primary">Add show</button>
+            <button type="button" id="show-cancel">Cancel</button>
+            <span class="hint">
+              Years, seasons, author, country and poster are filled in automatically.
+            </span>
+          </div>
+        </form>
+
+        <div id="shows" class="grid is-tiles-wide"></div>
+      </section>
+
+      <section id="view-music" class="view" hidden>
+        <div class="controls">
+          <input
+            id="music-search"
+            type="search"
+            placeholder="Search songs, artists, albums…"
+            autocomplete="off"
+            aria-label="Search music"
+          />
+          <select id="music-artist" aria-label="Filter by artist"></select>
+          <select id="music-album" aria-label="Filter by album"></select>
+          <select id="music-country" aria-label="Filter by country"></select>
+          <select id="music-genre" aria-label="Filter by album genre"></select>
+          <select id="music-sort" aria-label="Sort music">
+            <option value="tier">Sort: tier</option>
+            <option value="year-desc">Sort: newest</option>
+            <option value="year-asc">Sort: oldest</option>
+            <option value="song">Sort: A–Z</option>
+            <option value="artist">Sort: artist</option>
+          </select>
+          <span class="count" id="music-count"></span>
+          <button type="button" class="add-toggle" id="music-toggle" aria-expanded="false">
+            + Add song
+          </button>
+        </div>
+
+        <form id="music-form" class="add-form" hidden>
+          <div class="fields">
+            <label>
+              Song <span class="req" aria-hidden="true">*</span>
+              <input name="song" required autocomplete="off" placeholder="Bohemian Rhapsody" />
+            </label>
+            <label>
+              Artist
+              <input name="artist" autocomplete="off" placeholder="Queen" />
+            </label>
+            <label>
+              Album
+              <input name="album" autocomplete="off" placeholder="Optional — looked up for you" />
+            </label>
+          </div>
+          <div class="add-actions">
+            <button type="submit" class="primary">Add song</button>
+            <button type="button" id="music-cancel">Cancel</button>
+            <span class="hint">
+              Album, year, country and the album's genre are filled in automatically.
+            </span>
+          </div>
+        </form>
+
+        <div id="music" class="grid is-tiles-wide"></div>
+      </section>
+    </main>
+
+    <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+
+    <footer class="wrap foot">
+      <dl class="legend">
+        <dt><span class="badge" data-tier="S">S</span></dt><dd>Evangelize</dd>
+        <dt><span class="badge" data-tier="A">A</span></dt><dd>Great film</dd>
+        <dt><span class="badge" data-tier="B">B</span></dt><dd>Good</dd>
+        <dt><span class="badge" data-tier="C">C</span></dt><dd>Something missing that does not let me enjoy</dd>
+        <dt><span class="badge" data-tier="D">D</span></dt><dd>Would advise against watching without disclaimer</dd>
+        <dt><span class="badge" data-tier="E">E</span></dt><dd>Could not finish</dd>
+        <dt><span class="badge" data-tier="F">F</span></dt><dd>Waste of time</dd>
+        <dt><span class="badge" data-tier="?">?</span></dt><dd>Unrated</dd>
+      </dl>
+      <p>
+        Click any tier badge to change a rating — edits are written straight back into
+        <code>Favorites.numbers</code>, with a backup kept in <code>backups/</code>.
+      </p>
+    </footer>
+
+    <script src="/Screened/app.js"></script>
+    <script src="/Screened/static.js"></script>
+  </body>
+</html>
