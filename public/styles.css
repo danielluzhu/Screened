@@ -1,0 +1,1846 @@
+/* Black, always — not "dark unless your OS says otherwise". The light palette
+   that used to sit behind `prefers-color-scheme: light` is gone: with poster
+   tiles carrying the page, artwork reads against black and a light background
+   fought it.
+
+   Panels step up from pure black rather than down from grey, so cards and the
+   tier badges still separate from the page. Everything below is checked
+   against #000: --text ~18:1, --muted ~8:1, --accent ~11:1, all well past the
+   4.5:1 floor. `color-scheme` keeps native controls and scrollbars dark. */
+:root {
+  --bg: #000000;
+  --panel: #101014;
+  --panel-2: #191920;
+  --line: #2c2c35;
+  --text: #f0f1f5;
+  --muted: #9aa2b4;
+  --accent: #e0b34a;
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font: 16px/1.5 ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+.wrap {
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.masthead {
+  border-bottom: 1px solid var(--line);
+  background: linear-gradient(180deg, var(--panel), var(--bg));
+  padding: 36px 0 0;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2.1rem;
+  letter-spacing: -0.02em;
+}
+
+.tagline {
+  margin: 6px 0 20px;
+  color: var(--muted);
+}
+
+.tabs {
+  display: flex;
+  gap: 4px;
+}
+
+.tab {
+  appearance: none;
+  border: 1px solid transparent;
+  border-bottom: none;
+  background: none;
+  color: var(--muted);
+  font: inherit;
+  font-weight: 600;
+  padding: 10px 16px;
+  border-radius: 8px 8px 0 0;
+  cursor: pointer;
+}
+
+.tab:hover {
+  color: var(--text);
+}
+
+.tab.is-active {
+  background: var(--bg);
+  border-color: var(--line);
+  color: var(--text);
+  margin-bottom: -1px;
+}
+
+main {
+  padding: 28px 20px 40px;
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+input[type="search"],
+select {
+  appearance: none;
+  background: var(--panel);
+  color: var(--text);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 9px 12px;
+  font: inherit;
+}
+
+input[type="search"] {
+  flex: 1 1 220px;
+  min-width: 0;
+}
+
+input[type="search"]:focus-visible,
+select:focus-visible,
+.tab:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.count {
+  color: var(--muted);
+  font-size: 0.9rem;
+  margin-left: auto;
+}
+
+.tier-group {
+  margin-bottom: 28px;
+}
+
+.tier-head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0 0 12px;
+  font-size: 0.95rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.tier-head::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: var(--line);
+}
+
+.badge {
+  display: inline-grid;
+  place-items: center;
+  min-width: 26px;
+  height: 26px;
+  padding: 0 7px;
+  border-radius: 6px;
+  background: var(--panel-2);
+  border: 1px solid var(--line);
+  color: var(--text);
+  font-weight: 700;
+  font-size: 0.85rem;
+  letter-spacing: 0;
+}
+
+/* Top of the scale gets the accent; the rest stay neutral. */
+.badge[data-tier="0"],
+.badge[data-tier="S"] {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #14161b;
+}
+
+/* The tier badge on a film card doubles as the rating editor. */
+select.badge {
+  appearance: none;
+  cursor: pointer;
+  text-align: center;
+  text-align-last: center;
+  padding: 0 6px;
+  height: 26px;
+  min-width: 34px;
+  font-weight: 700;
+  font-size: 0.85rem;
+  line-height: 1;
+}
+
+select.badge:hover {
+  border-color: var(--accent);
+}
+
+select.badge.is-saving {
+  opacity: 0.5;
+}
+
+select.badge.is-saved {
+  animation: flash 0.9s ease-out;
+}
+
+@keyframes flash {
+  from {
+    box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 55%, transparent);
+  }
+  to {
+    box-shadow: 0 0 0 3px transparent;
+  }
+}
+
+.toast {
+  position: fixed;
+  left: 50%;
+  bottom: 24px;
+  transform: translateX(-50%);
+  background: var(--panel);
+  color: var(--text);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 10px 16px;
+  box-shadow: 0 8px 24px rgb(0 0 0 / 0.35);
+  font-size: 0.9rem;
+  z-index: 10;
+}
+
+.toast[data-kind="error"] {
+  border-color: #b4443c;
+}
+
+.lede {
+  color: var(--muted);
+  margin: 0 0 20px;
+}
+
+.franchise {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 14px 16px;
+  margin-bottom: 12px;
+}
+
+.franchise h3 {
+  margin: 0 0 4px;
+  font-size: 1.05rem;
+}
+
+.franchise .n {
+  color: var(--muted);
+  font-weight: 400;
+  font-size: 0.85rem;
+}
+
+.franchise ol {
+  margin: 10px 0 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 6px;
+}
+
+.franchise li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.franchise li .yr {
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+  font-size: 0.87rem;
+  min-width: 3.2em;
+}
+
+.franchise li .dir {
+  color: var(--muted);
+  font-size: 0.87rem;
+  margin-left: auto;
+  text-align: right;
+}
+
+.others {
+  margin-top: 10px;
+  border-top: 1px solid var(--line);
+  padding-top: 8px;
+}
+
+.others summary {
+  cursor: pointer;
+  color: var(--muted);
+  font-size: 0.87rem;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 2px 0;
+}
+
+.others summary::-webkit-details-marker {
+  display: none;
+}
+
+.others summary::before {
+  content: "▸";
+  font-size: 0.8em;
+  transition: transform 0.15s ease;
+}
+
+.others[open] summary::before {
+  transform: rotate(90deg);
+}
+
+.others summary:hover {
+  color: var(--text);
+}
+
+.others summary:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+.others ol {
+  margin-top: 8px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 10px;
+}
+
+.film {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 12px 14px;
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+/* --- tiles ---
+   Every grid uses this card: the art fills it and the details sit on a scrim
+   over the bottom. The .film row above is still used by the film, director and
+   suggestions pages.
+
+   Two aspects, chosen by what the art actually is. Tall for film posters and
+   character portraits; wide for shows, whose art is mostly a banner (1280×320
+   up to 9215×2000 — a 2:3 crop would leave a sliver), and for music, which has
+   no art at all and would otherwise be a tall empty box. */
+.grid.is-tiles {
+  grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+  gap: 14px;
+}
+
+.grid.is-tiles-wide {
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 14px;
+}
+
+.tile {
+  position: relative;
+  aspect-ratio: 2 / 3;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  background: var(--panel-2);
+  /* Keeps the scrim from blending with whatever sits behind the card. */
+  isolation: isolate;
+}
+
+/* 3:2 rather than 16:9. The overlay grows with its content, and at 16:9 a
+   three-line scrim covered nearly the whole card — the extra height is what
+   keeps the artwork visible. */
+.tile.is-wide {
+  aspect-ratio: 3 / 2;
+}
+
+/* Show banners carry their wordmark low in the frame, which is exactly where
+   the scrim lands. Bias the crop upward so the logo clears it. */
+.tile.is-wide .tile-art {
+  object-position: center 32%;
+}
+
+/* Less headroom on a wide tile: the scrim is a bigger share of a short card,
+   so it starts closer to the text. */
+.tile.is-wide .tile-overlay {
+  padding-top: 18px;
+}
+
+.tile-art {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* No artwork — every music tile, a few films, three shows. The tile stays a
+   plain panel behind the scrim rather than showing a broken-image slot. */
+.tile-art.is-blank {
+  background: var(--panel-2);
+}
+
+/* The overlay has to stay readable over a poster of any colour, so it is
+   always light text on a dark gradient — in both themes, deliberately. */
+.tile-overlay {
+  position: absolute;
+  inset: auto 0 0 0;
+  padding: 30px 12px 11px;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.92) 0%,
+    rgba(0, 0, 0, 0.78) 45%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  color: #fff;
+}
+
+.tile .title {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.tile a.title-text {
+  color: #fff;
+}
+
+.tile .native {
+  color: rgba(255, 255, 255, 0.72);
+  font-size: 0.82rem;
+  margin-top: 1px;
+}
+
+.tile .meta {
+  color: rgba(255, 255, 255, 0.78);
+  font-size: 0.84rem;
+  margin-top: 3px;
+  overflow-wrap: anywhere;
+}
+
+/* A character's "why" is free prose and a show's author line can run long;
+   clamp so the scrim can't climb up and swallow the artwork. */
+.tile .note {
+  color: rgba(255, 255, 255, 0.72);
+  font-size: 0.82rem;
+  font-style: italic;
+  margin-top: 4px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  overflow: hidden;
+}
+
+/* Year and director links inherit the overlay's colour; the underline on hover
+   is what marks them as links, since a second colour would fight the poster. */
+.tile .meta a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.tile .meta a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.tile .edit-title {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.tile:hover .edit-title {
+  opacity: 1;
+}
+
+.tile .edit-title:hover {
+  color: #fff;
+}
+
+.tile .badge {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  z-index: 1;
+  /* A <select> sizes itself to its widest option, which here is "Remove" —
+     harmless in a flex row, but a wide gold slab across the top of a poster.
+     The tier is one character; the menu is unaffected. */
+  width: 34px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.45);
+}
+
+.poster {
+  width: 52px;
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+  border-radius: 4px;
+  background: var(--panel-2);
+  flex: none;
+}
+
+.poster-sm {
+  width: 30px;
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+  border-radius: 3px;
+  background: var(--panel-2);
+  flex: none;
+}
+
+/* Placeholder keeps cards aligned when a film has no poster. */
+.poster.is-blank,
+.poster-sm.is-blank {
+  border: 1px dashed var(--line);
+  background: transparent;
+}
+
+.film-body {
+  min-width: 0;
+}
+
+.film .title {
+  font-weight: 600;
+  overflow-wrap: anywhere;
+}
+
+.film .meta {
+  color: var(--muted);
+  font-size: 0.87rem;
+  margin-top: 2px;
+}
+
+.film .note {
+  color: var(--muted);
+  font-size: 0.87rem;
+  font-style: italic;
+  margin-top: 4px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 10px;
+}
+
+.card {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 14px;
+}
+
+.card .name {
+  font-weight: 600;
+}
+
+.card .sub {
+  color: var(--muted);
+  font-size: 0.87rem;
+  margin-top: 2px;
+}
+
+.empty {
+  color: var(--muted);
+  padding: 30px 0;
+  text-align: center;
+}
+
+.foot {
+  border-top: 1px solid var(--line);
+  padding-top: 16px;
+  padding-bottom: 30px;
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 0.9em;
+}
+
+.franchise li.other {
+  color: var(--muted);
+}
+
+.franchise li.other .ttl {
+  opacity: 0.85;
+}
+
+.add-toggle {
+  appearance: none;
+  background: var(--panel);
+  color: var(--text);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 9px 14px;
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.add-toggle:hover {
+  border-color: var(--accent);
+}
+
+.add-toggle:focus-visible,
+.add-form button:focus-visible,
+.add-form input:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.add-form {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 16px;
+  margin-bottom: 24px;
+}
+
+.add-form .fields {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 12px;
+}
+
+.add-form label {
+  display: grid;
+  gap: 4px;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.add-form .req {
+  color: var(--accent);
+}
+
+.add-form input,
+.add-form select {
+  background: var(--bg);
+  color: var(--text);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 9px 12px;
+  font: inherit;
+}
+
+.add-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 14px;
+  flex-wrap: wrap;
+}
+
+.add-form button {
+  appearance: none;
+  background: var(--panel-2);
+  color: var(--text);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 9px 16px;
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.add-form button.primary {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #14161b;
+}
+
+.add-form button[disabled] {
+  opacity: 0.6;
+  cursor: default;
+}
+
+.add-actions .hint {
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+/* .genres / .genre-tag lived here: the click-to-filter chips that used to sit
+   on a film card. The tile shows no genres, and the film page's own chips are
+   .genre-chips / .chip, so nothing referenced these any more. */
+
+.tier-meaning {
+  text-transform: none;
+  letter-spacing: 0;
+  font-size: 0.85rem;
+  opacity: 0.8;
+}
+
+.legend {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 6px 10px;
+  align-items: center;
+  margin: 0 0 14px;
+  max-width: 560px;
+}
+
+.legend dt {
+  margin: 0;
+}
+
+.legend dd {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.film .title {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+}
+
+.title-text {
+  overflow-wrap: anywhere;
+}
+
+.edit-title {
+  appearance: none;
+  background: none;
+  border: none;
+  color: var(--muted);
+  font: inherit;
+  font-size: 0.8rem;
+  line-height: 1;
+  padding: 2px 4px;
+  border-radius: 4px;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.12s ease;
+}
+
+.film:hover .edit-title,
+.edit-title:focus-visible {
+  opacity: 1;
+}
+
+.edit-title:hover {
+  color: var(--accent);
+}
+
+.edit-title:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 1px;
+}
+
+.title-input {
+  width: 100%;
+  background: var(--bg);
+  color: var(--text);
+  border: 1px solid var(--accent);
+  border-radius: 6px;
+  padding: 4px 6px;
+  font: inherit;
+  font-weight: 600;
+}
+
+.film .native {
+  color: var(--muted);
+  font-size: 0.9rem;
+  margin-top: 1px;
+}
+
+a.title-text {
+  color: inherit;
+  text-decoration: none;
+}
+
+a.title-text:hover,
+.franchise a.ttl:hover {
+  color: var(--accent);
+  text-decoration: underline;
+}
+
+.franchise a.ttl {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* --- film page --- */
+.film-masthead {
+  padding: 20px 0;
+}
+
+.back {
+  color: var(--muted);
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.back:hover {
+  color: var(--text);
+}
+
+.film-page {
+  padding-bottom: 60px;
+}
+
+.film-head {
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+  margin: 24px 0 20px;
+  flex-wrap: wrap;
+}
+
+.film-poster {
+  width: 180px;
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+  border-radius: 8px;
+  background: var(--panel-2);
+  flex: none;
+}
+
+.film-heading {
+  min-width: 0;
+  flex: 1 1 260px;
+}
+
+.film-heading h1 {
+  margin: 0;
+  font-size: 1.9rem;
+  letter-spacing: -0.02em;
+}
+
+.native-big {
+  margin: 4px 0 0;
+  color: var(--muted);
+  font-size: 1.1rem;
+}
+
+.rating-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.rating-meaning {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.facts {
+  display: block;
+  margin-bottom: 28px;
+}
+
+.facts > .hint {
+  display: block;
+  margin: 0 0 10px;
+}
+
+.edit-details {
+  appearance: none;
+  background: none;
+  color: var(--muted);
+  border: 0;
+  padding: 0;
+  font: inherit;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.edit-details:hover {
+  color: var(--accent);
+}
+
+.edit-details:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* Same panel as the read-only facts, so editing happens in place. */
+.details-form {
+  display: grid;
+  gap: 14px;
+  padding: 16px;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+}
+
+.detail-field {
+  display: grid;
+  gap: 5px;
+}
+
+.detail-label {
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.detail-field input {
+  background: var(--panel-2);
+  color: var(--text);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 9px 12px;
+  font: inherit;
+  width: 100%;
+  max-width: 560px;
+}
+
+/* A year is four characters; a full-width box for it reads as a mistake. */
+.detail-field.narrow input {
+  max-width: 160px;
+}
+
+.detail-field input:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.genre-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-top: 2px;
+}
+
+.genre-chips .chip {
+  appearance: none;
+  background: var(--panel-2);
+  color: var(--muted);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 2px 9px;
+  font: inherit;
+  font-size: 0.75rem;
+  line-height: 1.6;
+  cursor: pointer;
+}
+
+.genre-chips .chip:hover {
+  color: var(--text);
+  border-color: var(--accent);
+}
+
+.genre-chips .chip.is-on {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #14161b;
+}
+
+.genre-chips .chip:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 1px;
+}
+
+.detail-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.detail-actions button {
+  appearance: none;
+  background: var(--accent);
+  border: 1px solid var(--accent);
+  color: #14161b;
+  border-radius: 8px;
+  padding: 9px 18px;
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.detail-actions button.ghost {
+  background: var(--panel-2);
+  border-color: var(--line);
+  color: var(--text);
+}
+
+.detail-actions button[disabled] {
+  opacity: 0.6;
+  cursor: default;
+}
+
+.film-facts {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 8px 18px;
+  margin: 0 0 10px;
+  padding: 16px;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+}
+
+.film-facts dt {
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.film-facts dd {
+  margin: 0;
+}
+
+.related {
+  margin-bottom: 28px;
+}
+
+.related h2,
+.critique h2 {
+  font-size: 1.05rem;
+  margin: 0 0 10px;
+}
+
+/* Quoted from Wikipedia. Set apart from Notes and Full analysis — a rule down
+   the side and a credit underneath — so someone else's words are never mistaken
+   for the sheet's own. */
+.summary {
+  margin: 22px 0;
+  border-left: 3px solid var(--line);
+  padding-left: 14px;
+}
+
+.summary h2 {
+  font-size: 1.05rem;
+  margin: 0 0 8px;
+}
+
+.summary-text {
+  margin: 0;
+  color: var(--text);
+  max-width: 68ch;
+}
+
+.summary-credit {
+  margin: 8px 0 0;
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.summary-credit a {
+  color: inherit;
+}
+
+.summary-credit a:hover {
+  color: var(--accent);
+}
+
+.related ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 6px;
+}
+
+.related li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.related a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.related a:hover {
+  color: var(--accent);
+  text-decoration: underline;
+}
+
+.critique textarea {
+  width: 100%;
+  background: var(--panel);
+  color: var(--text);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 14px;
+  font: inherit;
+  line-height: 1.6;
+  resize: vertical;
+}
+
+.critique textarea:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.critique-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.critique-actions button {
+  appearance: none;
+  background: var(--accent);
+  border: 1px solid var(--accent);
+  color: #14161b;
+  border-radius: 8px;
+  padding: 9px 18px;
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.critique-actions button[disabled] {
+  opacity: 0.6;
+  cursor: default;
+}
+
+.director-link {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px dotted var(--line);
+}
+
+.director-link:hover {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+
+.director-name {
+  margin: 24px 0 4px;
+  font-size: 1.9rem;
+  letter-spacing: -0.02em;
+}
+
+.director-section {
+  margin-bottom: 28px;
+}
+
+.director-section h2 {
+  font-size: 1.05rem;
+  margin: 0 0 10px;
+}
+
+.director-section ol {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0;
+  display: grid;
+  gap: 6px;
+}
+
+.director-section li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.director-section li .yr {
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+  font-size: 0.87rem;
+  min-width: 3.2em;
+}
+
+.director-section li.other {
+  color: var(--muted);
+}
+
+.director-section a.ttl {
+  color: inherit;
+  text-decoration: none;
+}
+
+.director-section a.ttl:hover {
+  color: var(--accent);
+  text-decoration: underline;
+}
+
+.hint {
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.streaming {
+  margin-bottom: 28px;
+}
+
+.streaming h2 {
+  font-size: 1.05rem;
+  margin: 0 0 10px;
+}
+
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+a.service {
+  display: inline-block;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 6px 14px;
+  color: var(--text);
+  text-decoration: none;
+  font-size: 0.88rem;
+  font-weight: 600;
+}
+
+a.service:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.streaming .hint {
+  margin: 10px 0 0;
+}
+
+.services-sm {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-top: 6px;
+}
+
+a.service-sm {
+  background: transparent;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 1px 8px;
+  color: var(--muted);
+  text-decoration: none;
+  font-size: 0.72rem;
+  line-height: 1.6;
+  white-space: nowrap;
+}
+
+a.service-sm:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
+.service-more {
+  color: var(--muted);
+  font-size: 0.72rem;
+  align-self: center;
+}
+
+/* --- streaming chips ---------------------------------------------------
+   Deliberately unlike the genre pills: brand-coloured, logo-first, and they
+   leave the site, so they should not read as another filter. */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.service-logo {
+  height: 13px;
+  width: auto;
+  max-width: 74px;
+  display: block;
+}
+
+a.service-sm {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  background: var(--panel-2);
+  border: 1px solid var(--line);
+  border-radius: 5px;
+  padding: 4px 8px;
+  min-height: 23px;
+}
+
+a.service-sm:hover {
+  border-color: var(--brand, var(--accent));
+  background: color-mix(in srgb, var(--brand, var(--accent)) 14%, transparent);
+}
+
+.streaming a.service {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  border-radius: 6px;
+  padding: 8px 14px;
+}
+
+.streaming .service-logo {
+  height: 17px;
+  max-width: 96px;
+}
+
+.streaming a.service:hover {
+  border-color: var(--brand, var(--accent));
+  background: color-mix(in srgb, var(--brand, var(--accent)) 14%, transparent);
+}
+
+/* Brand colours, used for the hover tint and as a left edge marker. */
+[data-service="Netflix"]     { --brand: #e50914; }
+[data-service="Crunchyroll"] { --brand: #f47521; }
+[data-service="Prime Video"] { --brand: #00a8e1; }
+[data-service="Disney+"]     { --brand: #0063e5; }
+[data-service="Hulu"]        { --brand: #1ce783; }
+[data-service="HBO Max"]     { --brand: #7b4ae2; }
+[data-service="Paramount+"]  { --brand: #0064ff; }
+[data-service="Apple TV"]    { --brand: #9aa2b4; }
+[data-service="Plex"]        { --brand: #e5a00d; }
+
+a.service-sm[data-service],
+.streaming a.service[data-service] {
+  border-left: 3px solid var(--brand, var(--line));
+}
+
+/* Wordmarks are near-black or near-white. The page is always dark now, so this
+   inversion is unconditional rather than behind a prefers-color-scheme query;
+   the four brands listed already ship a light-on-dark mark. */
+.service-logo {
+  filter: brightness(0) invert(1);
+}
+
+[data-service="Netflix"] .service-logo,
+[data-service="Crunchyroll"] .service-logo,
+[data-service="Plex"] .service-logo,
+[data-service="Hulu"] .service-logo {
+  filter: none;
+}
+
+.year-link {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px dotted var(--line);
+}
+
+.year-link:hover {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+
+.year-nav {
+  display: flex;
+  gap: 16px;
+  margin: 0 0 20px;
+}
+
+.year-nav a {
+  color: var(--muted);
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.year-nav a:hover {
+  color: var(--accent);
+}
+
+li.gross {
+  color: var(--muted);
+  align-items: baseline;
+}
+
+li.gross .rank {
+  min-width: 2.2em;
+  font-variant-numeric: tabular-nums;
+  font-size: 0.85rem;
+}
+
+li.gross .box {
+  margin-left: auto;
+  font-variant-numeric: tabular-nums;
+  font-size: 0.87rem;
+}
+
+li.gross.is-watched {
+  color: var(--text);
+}
+
+li.gross .seen {
+  background: var(--accent);
+  color: #14161b;
+  border-radius: 999px;
+  padding: 1px 8px;
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+
+/* --- notes vs spoiler analysis --- */
+.spoilers {
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--panel);
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+.spoilers > summary {
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 16px;
+  font-weight: 600;
+}
+
+.spoilers > summary::-webkit-details-marker {
+  display: none;
+}
+
+.spoilers > summary::before {
+  content: "▸";
+  color: var(--muted);
+  font-size: 0.85em;
+  transition: transform 0.15s ease;
+}
+
+.spoilers[open] > summary::before {
+  transform: rotate(90deg);
+}
+
+.spoilers > summary:hover {
+  background: var(--panel-2);
+}
+
+.spoilers > summary:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: -2px;
+}
+
+.spoiler-warn {
+  background: #b4443c;
+  color: #fff;
+  border-radius: 999px;
+  padding: 1px 9px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.spoiler-has {
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 400;
+  margin-left: auto;
+}
+
+.critique.inner {
+  padding: 0 16px 16px;
+}
+
+.critique.inner textarea {
+  background: var(--bg);
+}
+
+.tier-count {
+  /* No margin-left:auto — the ::after rule draws a flex-filling line after
+     this, and auto margin would collapse it. */
+  color: var(--muted);
+  font-size: 0.8rem;
+  text-transform: none;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+/* --- What to watch next ------------------------------------------------ */
+
+/* A tab that leaves the page rather than switching views. */
+.tab-link {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.taste {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 14px 16px;
+  margin-bottom: 26px;
+}
+
+.taste h2 {
+  font-size: 1.05rem;
+  margin: 0 0 10px;
+}
+
+.taste-row {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 6px;
+}
+
+.taste-label {
+  color: var(--muted);
+  font-size: 0.85rem;
+  min-width: 5.5em;
+}
+
+.taste-chip {
+  background: var(--panel-2);
+  color: var(--muted);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 2px 9px;
+  font-size: 0.78rem;
+  line-height: 1.6;
+  text-decoration: none;
+}
+
+a.taste-chip:hover {
+  color: var(--text);
+  border-color: var(--accent);
+}
+
+.sug-section {
+  margin-bottom: 32px;
+}
+
+.sug-section h2 {
+  font-size: 1.05rem;
+  margin: 0 0 10px;
+}
+
+.sug-filters {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 12px;
+}
+
+.sug-filter {
+  appearance: none;
+  background: var(--panel);
+  color: var(--muted);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 5px 12px;
+  font: inherit;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.sug-filter:hover {
+  color: var(--text);
+}
+
+.sug-filter.is-active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #14161b;
+  font-weight: 600;
+}
+
+.sug-filter:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.sug-grid {
+  display: grid;
+  /* Wide enough that a poster plus a two-line reason still reads as one card. */
+  grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+  gap: 10px;
+}
+
+.suggestion {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 14px 16px;
+}
+
+.sug-poster {
+  width: 62px;
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+  border-radius: 4px;
+  background: var(--panel-2);
+  flex: none;
+}
+
+.sug-poster.is-blank {
+  border: 1px dashed var(--line);
+  background: transparent;
+}
+
+.sug-body {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 0;
+  flex: 1;
+}
+
+.sug-head {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.sug-title {
+  font-weight: 600;
+  overflow-wrap: anywhere;
+}
+
+.sug-year {
+  color: var(--muted);
+  font-size: 0.87rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.chip-soon {
+  background: var(--panel-2);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--muted);
+  font-size: 0.72rem;
+  padding: 1px 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.sug-sub {
+  color: var(--muted);
+  font-size: 0.87rem;
+}
+
+.sug-genres {
+  color: var(--muted);
+  font-size: 0.8rem;
+}
+
+.reasons {
+  list-style: none;
+  margin: 4px 0 0;
+  padding: 0;
+  display: grid;
+  gap: 4px;
+}
+
+.reason {
+  font-size: 0.85rem;
+  line-height: 1.45;
+  padding-left: 14px;
+  position: relative;
+}
+
+/* A dot per reason, coloured by which signal it came from. */
+.reason::before {
+  content: "";
+  position: absolute;
+  left: 2px;
+  top: 0.55em;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--muted);
+}
+
+.reason-director::before {
+  background: var(--accent);
+}
+
+.reason-franchise::before {
+  background: #6f9dd8;
+}
+
+.reason-genre::before {
+  background: #7fb08a;
+}
+
+.match {
+  height: 3px;
+  border-radius: 2px;
+  background: var(--panel-2);
+  overflow: hidden;
+  margin-top: 8px;
+}
+
+.match-fill {
+  height: 100%;
+  background: var(--accent);
+  opacity: 0.7;
+}
+
+.sug-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 2px;
+}
+
+.add-suggestion {
+  appearance: none;
+  background: var(--panel-2);
+  color: var(--text);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 6px 12px;
+  font: inherit;
+  font-size: 0.87rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.add-suggestion:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.add-suggestion:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.add-suggestion.is-added,
+.add-suggestion[disabled] {
+  opacity: 0.7;
+  cursor: default;
+  border-color: var(--line);
+  color: var(--muted);
+}
+
+.sug-link {
+  color: var(--muted);
+  font-size: 0.8rem;
+  text-decoration: none;
+  margin-left: auto;
+}
+
+.sug-link:hover {
+  color: var(--accent);
+}
+
+.backlog {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 6px;
+}
+
+.backlog-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 8px 12px;
+}
+
+.backlog-body {
+  min-width: 0;
+}
+
+.backlog-head {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+
+.backlog-head .ttl {
+  color: inherit;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.backlog-head .ttl:hover {
+  color: var(--accent);
+  text-decoration: underline;
+}
+
+.backlog-head .yr {
+  color: var(--muted);
+  font-size: 0.85rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.backlog-why {
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.backlog-why.is-quiet {
+  opacity: 0.6;
+  font-style: italic;
+}
+
+.hint-foot {
+  border-top: 1px solid var(--line);
+  padding-top: 14px;
+  margin-bottom: 30px;
+}
+
+/* Adding an unwatched film straight from a director's page. */
+.add-other {
+  appearance: none;
+  background: none;
+  color: var(--muted);
+  border: 1px solid transparent;
+  border-radius: 6px;
+  padding: 1px 8px;
+  font: inherit;
+  font-size: 0.8rem;
+  cursor: pointer;
+  margin-left: auto;
+  opacity: 0;
+}
+
+.director-section li.other:hover .add-other,
+.add-other:focus-visible {
+  opacity: 1;
+}
+
+.add-other:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
+.add-other:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 1px;
+}
+
+.add-other.is-added {
+  opacity: 1;
+  color: var(--muted);
+  cursor: default;
+  border-color: transparent;
+}
+
+.reason-region::before {
+  background: #b98ab5;
+}

@@ -1,0 +1,19 @@
+# Snapshot copies of Favorites.numbers — git history already versions the real file
+backups/
+
+# Runtime lock held while rewriting the Numbers document
+.favorites.lock
+
+# Regenerable Wikidata lookup caches
+scripts/.wikidata-cache.json
+scripts/.wikidata-music-cache.json
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Local Claude Code settings
+.claude/settings.local.json
+
+node_modules/
+.DS_Store

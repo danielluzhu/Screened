@@ -1,0 +1,12 @@
+{
+  "name": "favorites",
+  "version": "1.0.0",
+  "description": "A site tracking my favorite films, shows, and characters",
+  "private": true,
+  "scripts": {
+    "start": "bun run server.ts",
+    "dev": "bun --watch server.ts",
+    "extract": "python3 scripts/extract.py"
+  },
+  "type": "module"
+}

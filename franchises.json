@@ -1,0 +1,1605 @@
+{
+  "Avatar": {
+    "films": [
+      {
+        "director": "James Cameron",
+        "qid": "Q24871",
+        "title": "Avatar",
+        "watched": true,
+        "year": 2009
+      },
+      {
+        "director": "James Cameron",
+        "qid": "Q3604746",
+        "title": "Avatar: The Way of Water",
+        "watched": true,
+        "year": 2022
+      },
+      {
+        "director": "James Cameron",
+        "qid": "Q29580929",
+        "title": "Avatar: Fire and Ash",
+        "watched": false,
+        "year": 2025
+      }
+    ],
+    "qid": "Q73966879"
+  },
+  "Avengers": {
+    "films": [
+      {
+        "director": "Joss Whedon",
+        "qid": "Q182218",
+        "title": "The Avengers",
+        "watched": false,
+        "year": 2011
+      },
+      {
+        "director": "Joss Whedon",
+        "qid": "Q14171368",
+        "title": "Avengers: Age of Ultron",
+        "watched": false,
+        "year": 2015
+      },
+      {
+        "director": "Anthony Russo, Joe Russo",
+        "qid": "Q23780914",
+        "title": "Avengers: Infinity War",
+        "watched": true,
+        "year": 2018
+      },
+      {
+        "director": "Anthony Russo, Joe Russo",
+        "qid": "Q23781155",
+        "title": "Avengers: Endgame",
+        "watched": false,
+        "year": 2019
+      }
+    ],
+    "qid": "Q20021634"
+  },
+  "Concrete Universe": {
+    "films": [
+      {
+        "director": null,
+        "qid": "Q106514501",
+        "title": "Concrete Utopia",
+        "watched": true,
+        "year": 2023
+      },
+      {
+        "director": "Heo Myeong-haeng",
+        "qid": "Q123469290",
+        "title": "Badland Hunters",
+        "watched": false,
+        "year": 2024
+      }
+    ],
+    "qid": "Q123469332"
+  },
+  "Crazy Rich Asians": {
+    "films": [
+      {
+        "director": null,
+        "qid": "Q29588623",
+        "title": "Crazy Rich Asians",
+        "watched": true,
+        "year": 2018
+      }
+    ],
+    "qid": "Q65091047"
+  },
+  "Dune": {
+    "films": [
+      {
+        "director": "David Lynch",
+        "qid": "Q114819",
+        "title": "Dune",
+        "watched": false,
+        "year": 1984
+      },
+      {
+        "director": "Denis Villeneuve",
+        "qid": "Q60834962",
+        "title": "Dune",
+        "watched": false,
+        "year": 2021
+      },
+      {
+        "director": "Denis Villeneuve",
+        "qid": "Q109228991",
+        "title": "Dune: Part Two",
+        "watched": true,
+        "year": 2023
+      }
+    ],
+    "qid": "Q18011049"
+  },
+  "Father Knows Best trilogy": {
+    "films": [
+      {
+        "director": "Ang Lee",
+        "qid": "Q702270",
+        "title": "Pushing Hands",
+        "watched": true,
+        "year": 1991
+      },
+      {
+        "director": "Ang Lee",
+        "qid": "Q182071",
+        "title": "The Wedding Banquet",
+        "watched": false,
+        "year": 1993
+      },
+      {
+        "director": "Ang Lee",
+        "qid": "Q696905",
+        "title": "Eat Drink Man Woman",
+        "watched": true,
+        "year": 1994
+      }
+    ],
+    "qid": "Q96095963"
+  },
+  "Finding Nemo": {
+    "films": [
+      {
+        "director": "Andrew Stanton",
+        "qid": "Q132863",
+        "title": "Finding Nemo",
+        "watched": true,
+        "year": 2003
+      },
+      {
+        "director": "Andrew Stanton, Angus MacLane",
+        "qid": "Q9321426",
+        "title": "Finding Dory",
+        "watched": false,
+        "year": 2015
+      }
+    ],
+    "qid": "Q135895766"
+  },
+  "Ghost in the Shell": {
+    "films": [
+      {
+        "director": "Mamoru Oshii",
+        "qid": "Q1066948",
+        "title": "Ghost in the Shell",
+        "watched": true,
+        "year": 1995
+      },
+      {
+        "director": "Mamoru Oshii",
+        "qid": "Q23034444",
+        "title": "Ghost in the Shell 2.0",
+        "watched": false,
+        "year": 2008
+      }
+    ],
+    "qid": "Q92580"
+  },
+  "Harold & Kumar": {
+    "films": [
+      {
+        "director": null,
+        "qid": "Q607643",
+        "title": "Harold & Kumar Go to White Castle",
+        "watched": true,
+        "year": 2004
+      },
+      {
+        "director": "Jon Hurwitz, Hayden Schlossberg",
+        "qid": "Q1165259",
+        "title": "Harold & Kumar Escape from Guantanamo Bay",
+        "watched": false,
+        "year": 2008
+      },
+      {
+        "director": "Todd Strauss-Schulson",
+        "qid": "Q43408",
+        "title": "A Very Harold & Kumar Christmas",
+        "watched": false,
+        "year": 2011
+      }
+    ],
+    "qid": "Q5659857"
+  },
+  "Infernal Affairs": {
+    "films": [
+      {
+        "director": "Andrew Lau, Alan Mak",
+        "qid": "Q714057",
+        "title": "Infernal Affairs",
+        "watched": true,
+        "year": 2002
+      },
+      {
+        "director": "Andrew Lau, Alan Mak",
+        "qid": "Q767751",
+        "title": "Infernal Affairs II",
+        "watched": false,
+        "year": 2003
+      },
+      {
+        "director": "Andrew Lau, Alan Mak",
+        "qid": "Q248354",
+        "title": "Infernal Affairs III",
+        "watched": false,
+        "year": 2003
+      }
+    ],
+    "qid": "Q6029465"
+  },
+  "Ip Man": {
+    "films": [
+      {
+        "director": null,
+        "qid": "Q573743",
+        "title": "Ip Man",
+        "watched": true,
+        "year": 2008
+      },
+      {
+        "director": null,
+        "qid": "Q1193433",
+        "title": "Ip Man 2",
+        "watched": true,
+        "year": 2010
+      },
+      {
+        "director": null,
+        "qid": "Q19757672",
+        "title": "Ip Man 3",
+        "watched": true,
+        "year": 2015
+      },
+      {
+        "director": null,
+        "qid": "Q54958357",
+        "title": "Ip Man 4: The Finale",
+        "watched": true,
+        "year": 2019
+      }
+    ],
+    "qid": "Q19840232"
+  },
+  "Kung Fu Panda": {
+    "films": [
+      {
+        "director": null,
+        "qid": "Q129193",
+        "title": "Kung Fu Panda",
+        "watched": true,
+        "year": 2008
+      },
+      {
+        "director": "Jennifer Yuh Nelson",
+        "qid": "Q487447",
+        "title": "Kung Fu Panda 2",
+        "watched": false,
+        "year": 2011
+      },
+      {
+        "director": "Jennifer Yuh Nelson, Alessandro Carloni",
+        "qid": "Q15055043",
+        "title": "Kung Fu Panda 3",
+        "watched": false,
+        "year": 2016
+      },
+      {
+        "director": "Rodolphe Guenoden",
+        "qid": "Q22678100",
+        "title": "Kung Fu Panda: Secrets of the Scroll",
+        "watched": false,
+        "year": 2016
+      },
+      {
+        "director": "Mike Mitchell",
+        "qid": "Q114707487",
+        "title": "Kung Fu Panda 4",
+        "watched": false,
+        "year": 2024
+      }
+    ],
+    "qid": "Q2081372"
+  },
+  "Love trilogy": {
+    "films": [
+      {
+        "director": "Wong Kar-wai",
+        "qid": "Q1306553",
+        "title": "Days of Being Wild",
+        "watched": false,
+        "year": 1990
+      },
+      {
+        "director": "Wong Kar-wai",
+        "qid": "Q1056853",
+        "title": "In the Mood for Love",
+        "watched": true,
+        "year": 2000
+      },
+      {
+        "director": "Wong Kar-wai",
+        "qid": "Q164702",
+        "title": "2046",
+        "watched": false,
+        "year": 2004
+      }
+    ],
+    "qid": "Q18124780"
+  },
+  "Marvel Cinematic Universe": {
+    "films": [
+      {
+        "director": "Jon Favreau",
+        "qid": "Q192724",
+        "title": "Iron Man",
+        "watched": false,
+        "year": 2008
+      },
+      {
+        "director": "Louis Leterrier",
+        "qid": "Q466611",
+        "title": "The Incredible Hulk",
+        "watched": false,
+        "year": 2008
+      },
+      {
+        "director": "Jon Favreau",
+        "qid": "Q205028",
+        "title": "Iron Man 2",
+        "watched": false,
+        "year": 2010
+      },
+      {
+        "director": "Joe Johnston",
+        "qid": "Q275120",
+        "title": "Captain America: The First Avenger",
+        "watched": false,
+        "year": 2011
+      },
+      {
+        "director": "Joss Whedon",
+        "qid": "Q182218",
+        "title": "The Avengers",
+        "watched": false,
+        "year": 2011
+      },
+      {
+        "director": "Kenneth Branagh",
+        "qid": "Q217020",
+        "title": "Thor",
+        "watched": false,
+        "year": 2011
+      },
+      {
+        "director": "Shane Black",
+        "qid": "Q209538",
+        "title": "Iron Man 3",
+        "watched": false,
+        "year": 2013
+      },
+      {
+        "director": "Alan Taylor",
+        "qid": "Q1201853",
+        "title": "Thor: The Dark World",
+        "watched": false,
+        "year": 2013
+      },
+      {
+        "director": "Anthony Russo, Joe Russo",
+        "qid": "Q1765358",
+        "title": "Captain America: The Winter Soldier",
+        "watched": false,
+        "year": 2014
+      },
+      {
+        "director": "James Gunn",
+        "qid": "Q5887360",
+        "title": "Guardians of the Galaxy",
+        "watched": false,
+        "year": 2014
+      },
+      {
+        "director": "Peyton Reed, Edgar Wright",
+        "qid": "Q5901134",
+        "title": "Ant-Man",
+        "watched": false,
+        "year": 2015
+      },
+      {
+        "director": "Joss Whedon",
+        "qid": "Q14171368",
+        "title": "Avengers: Age of Ultron",
+        "watched": false,
+        "year": 2015
+      },
+      {
+        "director": "Anthony Russo, Joe Russo",
+        "qid": "Q18407657",
+        "title": "Captain America: Civil War",
+        "watched": false,
+        "year": 2016
+      },
+      {
+        "director": "Scott Derrickson",
+        "qid": "Q18406872",
+        "title": "Doctor Strange",
+        "watched": false,
+        "year": 2016
+      },
+      {
+        "director": "Taika Waititi",
+        "qid": "Q50649511",
+        "title": "Team Thor",
+        "watched": false,
+        "year": 2016
+      },
+      {
+        "director": "James Gunn",
+        "qid": "Q20001199",
+        "title": "Guardians of the Galaxy Vol. 2",
+        "watched": false,
+        "year": 2017
+      },
+      {
+        "director": "Jon Watts",
+        "qid": "Q23010088",
+        "title": "Spider-Man: Homecoming",
+        "watched": false,
+        "year": 2017
+      },
+      {
+        "director": "Taika Waititi",
+        "qid": "Q22665878",
+        "title": "Thor: Ragnarok",
+        "watched": false,
+        "year": 2017
+      },
+      {
+        "director": "Peyton Reed",
+        "qid": "Q22957393",
+        "title": "Ant-Man and the Wasp",
+        "watched": false,
+        "year": 2018
+      },
+      {
+        "director": "Anthony Russo, Joe Russo",
+        "qid": "Q23780914",
+        "title": "Avengers: Infinity War",
+        "watched": true,
+        "year": 2018
+      },
+      {
+        "director": "Ryan Coogler",
+        "qid": "Q23780734",
+        "title": "Black Panther",
+        "watched": false,
+        "year": 2018
+      },
+      {
+        "director": "Taika Waititi",
+        "qid": "Q104771053",
+        "title": "Team Darryl",
+        "watched": false,
+        "year": 2018
+      },
+      {
+        "director": "Anthony Russo, Joe Russo",
+        "qid": "Q23781155",
+        "title": "Avengers: Endgame",
+        "watched": false,
+        "year": 2019
+      },
+      {
+        "director": "Ryan Fleck, Anna Boden",
+        "qid": "Q23781129",
+        "title": "Captain Marvel",
+        "watched": false,
+        "year": 2019
+      },
+      {
+        "director": "Jon Watts",
+        "qid": "Q27985819",
+        "title": "Spider-Man: Far From Home",
+        "watched": false,
+        "year": 2019
+      },
+      {
+        "director": "Cate Shortland",
+        "qid": "Q23894626",
+        "title": "Black Widow",
+        "watched": false,
+        "year": 2021
+      },
+      {
+        "director": "Sam Raimi",
+        "qid": "Q64211112",
+        "title": "Doctor Strange in the Multiverse of Madness",
+        "watched": false,
+        "year": 2021
+      },
+      {
+        "director": "Chloé Zhao",
+        "qid": "Q23894629",
+        "title": "Eternals",
+        "watched": false,
+        "year": 2021
+      },
+      {
+        "director": "Destin Daniel Cretton",
+        "qid": "Q65768589",
+        "title": "Shang-Chi and the Legend of the Ten Rings",
+        "watched": false,
+        "year": 2021
+      },
+      {
+        "director": "Jon Watts",
+        "qid": "Q68934496",
+        "title": "Spider-Man: No Way Home",
+        "watched": false,
+        "year": 2021
+      },
+      {
+        "director": "Taika Waititi",
+        "qid": "Q65768604",
+        "title": "Thor: Love and Thunder",
+        "watched": false,
+        "year": 2021
+      },
+      {
+        "director": "Ryan Coogler",
+        "qid": "Q54860489",
+        "title": "Black Panther: Wakanda Forever",
+        "watched": false,
+        "year": 2022
+      },
+      {
+        "director": null,
+        "qid": "Q120674541",
+        "title": "Ms. Marvel Part 1",
+        "watched": false,
+        "year": 2022
+      },
+      {
+        "director": null,
+        "qid": "Q120676402",
+        "title": "Ms. Marvel Part 2",
+        "watched": false,
+        "year": 2022
+      },
+      {
+        "director": null,
+        "qid": "Q120677518",
+        "title": "Ms. Marvel Part 3",
+        "watched": false,
+        "year": 2022
+      },
+      {
+        "director": "Jon Watts",
+        "qid": "Q113471777",
+        "title": "Spider-Man: No Way Home - The More Fun Stuff Version",
+        "watched": false,
+        "year": 2022
+      },
+      {
+        "director": "James Gunn",
+        "qid": "Q106729096",
+        "title": "The Guardians of the Galaxy Holiday Special",
+        "watched": false,
+        "year": 2022
+      },
+      {
+        "director": "Michael Giacchino",
+        "qid": "Q111426635",
+        "title": "Werewolf by Night",
+        "watched": false,
+        "year": 2022
+      },
+      {
+        "director": "Peyton Reed",
+        "qid": "Q105359456",
+        "title": "Ant-Man and the Wasp: Quantumania",
+        "watched": false,
+        "year": 2023
+      },
+      {
+        "director": "James Gunn",
+        "qid": "Q29226331",
+        "title": "Guardians of the Galaxy Vol. 3",
+        "watched": false,
+        "year": 2023
+      },
+      {
+        "director": "Nia DaCosta",
+        "qid": "Q89474225",
+        "title": "The Marvels",
+        "watched": false,
+        "year": 2023
+      },
+      {
+        "director": "Shawn Levy",
+        "qid": "Q102180106",
+        "title": "Deadpool & Wolverine",
+        "watched": false,
+        "year": 2024
+      },
+      {
+        "director": "Julius Onah",
+        "qid": "Q112322116",
+        "title": "Captain America: Brave New World",
+        "watched": false,
+        "year": 2025
+      },
+      {
+        "director": "Matt Shakman",
+        "qid": "Q105105219",
+        "title": "The Fantastic Four: First Steps",
+        "watched": false,
+        "year": 2025
+      },
+      {
+        "director": "Jake Schreier",
+        "qid": "Q112322474",
+        "title": "Thunderbolts*",
+        "watched": false,
+        "year": 2025
+      },
+      {
+        "director": "Destin Daniel Cretton",
+        "qid": "Q113244935",
+        "title": "Spider-Man: Brand New Day",
+        "watched": false,
+        "year": 2026
+      }
+    ],
+    "qid": "Q642878"
+  },
+  "Marvel Cinematic Universe Phase Three": {
+    "films": [
+      {
+        "director": "Anthony Russo, Joe Russo",
+        "qid": "Q18407657",
+        "title": "Captain America: Civil War",
+        "watched": false,
+        "year": 2016
+      },
+      {
+        "director": "Scott Derrickson",
+        "qid": "Q18406872",
+        "title": "Doctor Strange",
+        "watched": false,
+        "year": 2016
+      },
+      {
+        "director": "James Gunn",
+        "qid": "Q20001199",
+        "title": "Guardians of the Galaxy Vol. 2",
+        "watched": false,
+        "year": 2017
+      },
+      {
+        "director": "Jon Watts",
+        "qid": "Q23010088",
+        "title": "Spider-Man: Homecoming",
+        "watched": false,
+        "year": 2017
+      },
+      {
+        "director": "Taika Waititi",
+        "qid": "Q22665878",
+        "title": "Thor: Ragnarok",
+        "watched": false,
+        "year": 2017
+      },
+      {
+        "director": "Peyton Reed",
+        "qid": "Q22957393",
+        "title": "Ant-Man and the Wasp",
+        "watched": false,
+        "year": 2018
+      },
+      {
+        "director": "Anthony Russo, Joe Russo",
+        "qid": "Q23780914",
+        "title": "Avengers: Infinity War",
+        "watched": true,
+        "year": 2018
+      },
+      {
+        "director": "Ryan Coogler",
+        "qid": "Q23780734",
+        "title": "Black Panther",
+        "watched": false,
+        "year": 2018
+      },
+      {
+        "director": "Anthony Russo, Joe Russo",
+        "qid": "Q23781155",
+        "title": "Avengers: Endgame",
+        "watched": false,
+        "year": 2019
+      },
+      {
+        "director": "Ryan Fleck, Anna Boden",
+        "qid": "Q23781129",
+        "title": "Captain Marvel",
+        "watched": false,
+        "year": 2019
+      },
+      {
+        "director": "Jon Watts",
+        "qid": "Q27985819",
+        "title": "Spider-Man: Far From Home",
+        "watched": false,
+        "year": 2019
+      }
+    ],
+    "qid": "Q51963836"
+  },
+  "Once Upon a Time in China": {
+    "films": [
+      {
+        "director": "Tsui Hark",
+        "qid": "Q947446",
+        "title": "Once Upon a Time in China",
+        "watched": true,
+        "year": 1991
+      },
+      {
+        "director": "Tsui Hark",
+        "qid": "Q747034",
+        "title": "Once Upon a Time in China II",
+        "watched": false,
+        "year": 1992
+      },
+      {
+        "director": "Wong Jing",
+        "qid": "Q752051",
+        "title": "Last Hero in China",
+        "watched": false,
+        "year": 1993
+      },
+      {
+        "director": "Tsui Hark",
+        "qid": "Q259332",
+        "title": "Once Upon a Time in China III",
+        "watched": false,
+        "year": 1993
+      },
+      {
+        "director": "Yuen Bun",
+        "qid": "Q3148591",
+        "title": "Once Upon a Time in China IV",
+        "watched": false,
+        "year": 1993
+      },
+      {
+        "director": "Tsui Hark",
+        "qid": "Q3148590",
+        "title": "Once Upon a Time in China V",
+        "watched": false,
+        "year": 1994
+      },
+      {
+        "director": "Sammo Hung",
+        "qid": "Q691478",
+        "title": "Once Upon a Time in China and America",
+        "watched": false,
+        "year": 1997
+      }
+    ],
+    "qid": "Q7091868"
+  },
+  "Planet of the Apes": {
+    "films": [
+      {
+        "director": "Franklin J. Schaffner",
+        "qid": "Q59534",
+        "title": "Planet of the Apes",
+        "watched": false,
+        "year": 1968
+      },
+      {
+        "director": "Ted Post",
+        "qid": "Q469620",
+        "title": "Beneath the Planet of the Apes",
+        "watched": false,
+        "year": 1970
+      },
+      {
+        "director": "Don Taylor",
+        "qid": "Q469639",
+        "title": "Escape from the Planet of the Apes",
+        "watched": false,
+        "year": 1971
+      },
+      {
+        "director": "J. Lee Thompson",
+        "qid": "Q469646",
+        "title": "Conquest of the Planet of the Apes",
+        "watched": false,
+        "year": 1972
+      },
+      {
+        "director": "J. Lee Thompson",
+        "qid": "Q469654",
+        "title": "Battle for the Planet of the Apes",
+        "watched": false,
+        "year": 1973
+      },
+      {
+        "director": null,
+        "qid": "Q24521674",
+        "title": "Behind the Planet of the Apes",
+        "watched": false,
+        "year": 1998
+      },
+      {
+        "director": "Tim Burton",
+        "qid": "Q469624",
+        "title": "Planet of the Apes",
+        "watched": false,
+        "year": 2001
+      },
+      {
+        "director": null,
+        "qid": "Q243983",
+        "title": "Rise of the Planet of the Apes",
+        "watched": true,
+        "year": 2011
+      },
+      {
+        "director": null,
+        "qid": "Q11220194",
+        "title": "Dawn of the Planet of the Apes",
+        "watched": true,
+        "year": 2014
+      },
+      {
+        "director": null,
+        "qid": "Q19938437",
+        "title": "War for the Planet of the Apes",
+        "watched": true,
+        "year": 2017
+      },
+      {
+        "director": null,
+        "qid": "Q114314695",
+        "title": "Kingdom of the Planet of the Apes",
+        "watched": true,
+        "year": 2024
+      }
+    ],
+    "qid": "Q731663"
+  },
+  "Pokémon": {
+    "films": [
+      {
+        "director": "Kunihiko Yuyama",
+        "qid": "Q834799",
+        "title": "Pokémon: The First Movie",
+        "watched": true,
+        "year": 1998
+      },
+      {
+        "director": "Kunihiko Yuyama",
+        "qid": "Q868048",
+        "title": "Pokémon The Movie 2000",
+        "watched": false,
+        "year": 1999
+      },
+      {
+        "director": "Kunihiko Yuyama",
+        "qid": "Q890665",
+        "title": "Pokémon 3: The Movie",
+        "watched": false,
+        "year": 2000
+      },
+      {
+        "director": "Kunihiko Yuyama",
+        "qid": "Q2477539",
+        "title": "Pokémon: Mewtwo Returns",
+        "watched": false,
+        "year": 2000
+      },
+      {
+        "director": "Kunihiko Yuyama",
+        "qid": "Q82579",
+        "title": "Pokémon 4Ever",
+        "watched": false,
+        "year": 2001
+      },
+      {
+        "director": "Kunihiko Yuyama",
+        "qid": "Q890656",
+        "title": "Pokémon Heroes",
+        "watched": false,
+        "year": 2002
+      },
+      {
+        "director": "Kunihiko Yuyama",
+        "qid": "Q890650",
+        "title": "Pokémon: Jirachi, Wish Maker",
+        "watched": false,
+        "year": 2003
+      },
+      {
+        "director": "Kunihiko Yuyama",
+        "qid": "Q515045",
+        "title": "Pokémon: Destiny Deoxys",
+        "watched": false,
+        "year": 2004
+      },
+      {
+        "director": "Kunihiko Yuyama",
+        "qid": "Q890720",
+        "title": "Pokémon: Lucario and the Mystery of Mew",
+        "watched": false,
+        "year": 2005
+      },
+      {
+        "director": "Kunihiko Yuyama",
+        "qid": "Q1150608",
+        "title": "Pokémon Ranger and the Temple of the Sea",
+        "watched": false,
+        "year": 2006
+      },
+      {
+        "director": "Kunihiko Yuyama",
+        "qid": "Q2194608",
+        "title": "Pokémon: The Mastermind of Mirage Pokémon",
+        "watched": false,
+        "year": 2006
+      },
+      {
+        "director": "Kunihiko Yuyama",
+        "qid": "Q890660",
+        "title": "Pokémon: The Rise of Darkrai",
+        "watched": false,
+        "year": 2007
+      },
+      {
+        "director": "Kunihiko Yuyama",
+        "qid": "Q890657",
+        "title": "Pokémon: Giratina & the Sky Warrior",
+        "watched": false,
+        "year": 2008
+      },
+      {
+        "director": "Kunihiko Yuyama",
+        "qid": "Q1204250",
+        "title": "Pokémon: Arceus and the Jewel of Life",
+        "watched": false,
+        "year": 2009
+      },
+      {
+        "director": "Kunihiko Yuyama",
+        "qid": "Q1354560",
+        "title": "Pokémon: Zoroark: Master of Illusions",
+        "watched": false,
+        "year": 2010
+      },
+      {
+        "director": "Kunihiko Yuyama",
+        "qid": "Q1184859",
+        "title": "Pokémon the Movie: Kyurem vs. the Sword of Justice",
+        "watched": false,
+        "year": 2012
+      },
+      {
+        "director": "Kunihiko Yuyama",
+        "qid": "Q864031",
+        "title": "Pokémon the Movie: Genesect and the Legend Awakened",
+        "watched": false,
+        "year": 2013
+      },
+      {
+        "director": "Kunihiko Yuyama",
+        "qid": "Q15304052",
+        "title": "Pokémon the Movie: Diancie and the Cocoon of Destruction",
+        "watched": false,
+        "year": 2014
+      },
+      {
+        "director": "Kunihiko Yuyama",
+        "qid": "Q18815806",
+        "title": "Pokémon the Movie: Hoopa and the Clash of Ages",
+        "watched": false,
+        "year": 2015
+      },
+      {
+        "director": "Kunihiko Yuyama",
+        "qid": "Q21825325",
+        "title": "Pokémon the Movie: Volcanion and the Mechanical Marvel",
+        "watched": false,
+        "year": 2016
+      },
+      {
+        "director": "Kunihiko Yuyama",
+        "qid": "Q28016163",
+        "title": "Pokémon the Movie: I Choose You!",
+        "watched": false,
+        "year": 2017
+      },
+      {
+        "director": "Tetsuo Yajima",
+        "qid": "Q48928053",
+        "title": "Pokémon the Movie: The Power of Us",
+        "watched": false,
+        "year": 2018
+      },
+      {
+        "director": "Rob Letterman",
+        "qid": "Q47492499",
+        "title": "Detective Pikachu",
+        "watched": false,
+        "year": 2019
+      },
+      {
+        "director": "Kunihiko Yuyama",
+        "qid": "Q60332508",
+        "title": "Pokémon: Mewtwo Strikes Back – Evolution",
+        "watched": false,
+        "year": 2019
+      },
+      {
+        "director": "Tetsuo Yajima",
+        "qid": "Q81583691",
+        "title": "Pokémon the Movie: Secrets of the Jungle",
+        "watched": false,
+        "year": 2020
+      }
+    ],
+    "qid": "Q97138261"
+  },
+  "Police Story": {
+    "films": [
+      {
+        "director": "Jackie Chan",
+        "qid": "Q594033",
+        "title": "Police Story",
+        "watched": true,
+        "year": 1985
+      },
+      {
+        "director": "Jackie Chan",
+        "qid": "Q378013",
+        "title": "Police Story 2",
+        "watched": false,
+        "year": 1988
+      },
+      {
+        "director": "Stanley Tong",
+        "qid": "Q1144956",
+        "title": "Supercop",
+        "watched": false,
+        "year": 1992
+      },
+      {
+        "director": "Stanley Tong",
+        "qid": "Q1144962",
+        "title": "First Strike",
+        "watched": false,
+        "year": 1996
+      },
+      {
+        "director": "Benny Chan",
+        "qid": "Q863762",
+        "title": "New Police Story",
+        "watched": false,
+        "year": 2004
+      }
+    ],
+    "qid": "Q7209522"
+  },
+  "Rurouni Kenshin": {
+    "films": [
+      {
+        "director": "Keishi Ōtomo",
+        "qid": "Q2750748",
+        "title": "Rurouni Kenshin",
+        "watched": true,
+        "year": 2012
+      },
+      {
+        "director": "Keishi Ōtomo",
+        "qid": "Q15284383",
+        "title": "Rurouni Kenshin: Kyoto Inferno",
+        "watched": false,
+        "year": 2014
+      },
+      {
+        "director": "Keishi Ōtomo",
+        "qid": "Q15284388",
+        "title": "Rurouni Kenshin: The Legend Ends",
+        "watched": false,
+        "year": 2014
+      },
+      {
+        "director": "Keishi Ōtomo",
+        "qid": "Q104870018",
+        "title": "Rurouni Kenshin: The Beginning",
+        "watched": false,
+        "year": 2021
+      },
+      {
+        "director": "Keishi Ōtomo",
+        "qid": "Q103820244",
+        "title": "Rurouni Kenshin: The Final",
+        "watched": false,
+        "year": 2021
+      }
+    ],
+    "qid": "Q68969220"
+  },
+  "Spider-Man in film": {
+    "films": [
+      {
+        "director": "E.W. Swackhamer",
+        "qid": "Q1831060",
+        "title": "The Amazing Spider-Man",
+        "watched": false,
+        "year": 1977
+      },
+      {
+        "director": null,
+        "qid": "Q28135875",
+        "title": "Spider-Man",
+        "watched": false,
+        "year": 1978
+      },
+      {
+        "director": "Ron Satlof",
+        "qid": "Q2395231",
+        "title": "Spider-Man Strikes Back",
+        "watched": false,
+        "year": 1978
+      },
+      {
+        "director": "Don McDougall",
+        "qid": "Q8882774",
+        "title": "Spider-Man: The Dragon's Challenge",
+        "watched": false,
+        "year": 1979
+      },
+      {
+        "director": "Sam Raimi",
+        "qid": "Q484442",
+        "title": "Spider-Man",
+        "watched": false,
+        "year": 2002
+      },
+      {
+        "director": "Sam Raimi",
+        "qid": "Q190145",
+        "title": "Spider-Man 2",
+        "watched": false,
+        "year": 2004
+      },
+      {
+        "director": "Sam Raimi",
+        "qid": "Q182212",
+        "title": "Spider-Man 3",
+        "watched": false,
+        "year": 2007
+      },
+      {
+        "director": "Marc Webb",
+        "qid": "Q229808",
+        "title": "The Amazing Spider-Man",
+        "watched": false,
+        "year": 2012
+      },
+      {
+        "director": "Marc Webb",
+        "qid": "Q4254026",
+        "title": "The Amazing Spider-Man 2",
+        "watched": false,
+        "year": 2014
+      },
+      {
+        "director": "Jon Watts",
+        "qid": "Q23010088",
+        "title": "Spider-Man: Homecoming",
+        "watched": false,
+        "year": 2017
+      },
+      {
+        "director": "Peter Ramsey, Rodney Rothman, Bob Persichetti",
+        "qid": "Q29588607",
+        "title": "Spider-Man: Into the Spider-Verse",
+        "watched": false,
+        "year": 2018
+      },
+      {
+        "director": "Jon Watts",
+        "qid": "Q27985819",
+        "title": "Spider-Man: Far From Home",
+        "watched": false,
+        "year": 2019
+      },
+      {
+        "director": "Jon Watts",
+        "qid": "Q68934496",
+        "title": "Spider-Man: No Way Home",
+        "watched": false,
+        "year": 2021
+      },
+      {
+        "director": null,
+        "qid": "Q76448600",
+        "title": "Spider-Man: Across the Spider-Verse",
+        "watched": true,
+        "year": 2022
+      },
+      {
+        "director": "Jon Watts",
+        "qid": "Q113471777",
+        "title": "Spider-Man: No Way Home - The More Fun Stuff Version",
+        "watched": false,
+        "year": 2022
+      }
+    ],
+    "qid": "Q2307877"
+  },
+  "Spider-Verse": {
+    "films": [
+      {
+        "director": "Peter Ramsey, Rodney Rothman, Bob Persichetti",
+        "qid": "Q29588607",
+        "title": "Spider-Man: Into the Spider-Verse",
+        "watched": false,
+        "year": 2018
+      },
+      {
+        "director": "Justin K. Thompson",
+        "qid": "Q76448600",
+        "title": "Spider-Man: Across the Spider-Verse",
+        "watched": true,
+        "year": 2022
+      },
+      {
+        "director": "Bob Persichetti, Justin K. Thompson",
+        "qid": "Q110152284",
+        "title": "Spider-Man: Beyond the Spider-Verse",
+        "watched": false,
+        "year": 2024
+      },
+      {
+        "director": null,
+        "qid": "Q119411066",
+        "title": "The Spider Within: A Spider-Verse Story",
+        "watched": false,
+        "year": 2024
+      }
+    ],
+    "qid": "Q99601314"
+  },
+  "The Infinity Saga": {
+    "films": [
+      {
+        "director": "Jon Favreau",
+        "qid": "Q192724",
+        "title": "Iron Man",
+        "watched": false,
+        "year": 2008
+      },
+      {
+        "director": "Louis Leterrier",
+        "qid": "Q466611",
+        "title": "The Incredible Hulk",
+        "watched": false,
+        "year": 2008
+      },
+      {
+        "director": "Jon Favreau",
+        "qid": "Q205028",
+        "title": "Iron Man 2",
+        "watched": false,
+        "year": 2010
+      },
+      {
+        "director": "Joe Johnston",
+        "qid": "Q275120",
+        "title": "Captain America: The First Avenger",
+        "watched": false,
+        "year": 2011
+      },
+      {
+        "director": "Joss Whedon",
+        "qid": "Q182218",
+        "title": "The Avengers",
+        "watched": false,
+        "year": 2011
+      },
+      {
+        "director": "Kenneth Branagh",
+        "qid": "Q217020",
+        "title": "Thor",
+        "watched": false,
+        "year": 2011
+      },
+      {
+        "director": "Shane Black",
+        "qid": "Q209538",
+        "title": "Iron Man 3",
+        "watched": false,
+        "year": 2013
+      },
+      {
+        "director": "Alan Taylor",
+        "qid": "Q1201853",
+        "title": "Thor: The Dark World",
+        "watched": false,
+        "year": 2013
+      },
+      {
+        "director": "Anthony Russo, Joe Russo",
+        "qid": "Q1765358",
+        "title": "Captain America: The Winter Soldier",
+        "watched": false,
+        "year": 2014
+      },
+      {
+        "director": "James Gunn",
+        "qid": "Q5887360",
+        "title": "Guardians of the Galaxy",
+        "watched": false,
+        "year": 2014
+      },
+      {
+        "director": "Peyton Reed, Edgar Wright",
+        "qid": "Q5901134",
+        "title": "Ant-Man",
+        "watched": false,
+        "year": 2015
+      },
+      {
+        "director": "Joss Whedon",
+        "qid": "Q14171368",
+        "title": "Avengers: Age of Ultron",
+        "watched": false,
+        "year": 2015
+      },
+      {
+        "director": "Anthony Russo, Joe Russo",
+        "qid": "Q18407657",
+        "title": "Captain America: Civil War",
+        "watched": false,
+        "year": 2016
+      },
+      {
+        "director": "Scott Derrickson",
+        "qid": "Q18406872",
+        "title": "Doctor Strange",
+        "watched": false,
+        "year": 2016
+      },
+      {
+        "director": "James Gunn",
+        "qid": "Q20001199",
+        "title": "Guardians of the Galaxy Vol. 2",
+        "watched": false,
+        "year": 2017
+      },
+      {
+        "director": "Jon Watts",
+        "qid": "Q23010088",
+        "title": "Spider-Man: Homecoming",
+        "watched": false,
+        "year": 2017
+      },
+      {
+        "director": "Taika Waititi",
+        "qid": "Q22665878",
+        "title": "Thor: Ragnarok",
+        "watched": false,
+        "year": 2017
+      },
+      {
+        "director": "Peyton Reed",
+        "qid": "Q22957393",
+        "title": "Ant-Man and the Wasp",
+        "watched": false,
+        "year": 2018
+      },
+      {
+        "director": "Anthony Russo, Joe Russo",
+        "qid": "Q23780914",
+        "title": "Avengers: Infinity War",
+        "watched": true,
+        "year": 2018
+      },
+      {
+        "director": "Ryan Coogler",
+        "qid": "Q23780734",
+        "title": "Black Panther",
+        "watched": false,
+        "year": 2018
+      },
+      {
+        "director": "Anthony Russo, Joe Russo",
+        "qid": "Q23781155",
+        "title": "Avengers: Endgame",
+        "watched": false,
+        "year": 2019
+      },
+      {
+        "director": "Ryan Fleck, Anna Boden",
+        "qid": "Q23781129",
+        "title": "Captain Marvel",
+        "watched": false,
+        "year": 2019
+      },
+      {
+        "director": "Jon Watts",
+        "qid": "Q27985819",
+        "title": "Spider-Man: Far From Home",
+        "watched": false,
+        "year": 2019
+      }
+    ],
+    "qid": "Q63405798"
+  },
+  "Toy Story": {
+    "films": [
+      {
+        "director": "John Lasseter",
+        "qid": "Q171048",
+        "title": "Toy Story",
+        "watched": true,
+        "year": 1995
+      },
+      {
+        "director": "John Lasseter, Lee Unkrich, Ash Brannon",
+        "qid": "Q187266",
+        "title": "Toy Story 2",
+        "watched": false,
+        "year": 1999
+      },
+      {
+        "director": "Tad Stones, Steve Loter",
+        "qid": "Q1703163",
+        "title": "Buzz Lightyear of Star Command: The Adventure Begins",
+        "watched": false,
+        "year": 2000
+      },
+      {
+        "director": "Lee Unkrich",
+        "qid": "Q187278",
+        "title": "Toy Story 3",
+        "watched": false,
+        "year": 2010
+      },
+      {
+        "director": "Josh Cooley, John Lasseter",
+        "qid": "Q18517638",
+        "title": "Toy Story 4",
+        "watched": false,
+        "year": 2019
+      },
+      {
+        "director": "Valerie LaPointe",
+        "qid": "Q89375091",
+        "title": "Lamp Life",
+        "watched": false,
+        "year": 2022
+      },
+      {
+        "director": "Angus MacLane",
+        "qid": "Q104409060",
+        "title": "Lightyear",
+        "watched": false,
+        "year": 2022
+      },
+      {
+        "director": "Andrew Stanton",
+        "qid": "Q113641997",
+        "title": "Toy Story 5",
+        "watched": false,
+        "year": 2026
+      }
+    ],
+    "qid": "Q2316015"
+  },
+  "Train to Busan": {
+    "films": [
+      {
+        "director": "Yeon Sang-ho",
+        "qid": "Q25207551",
+        "title": "Seoul Station",
+        "watched": false,
+        "year": 2016
+      },
+      {
+        "director": "Yeon Sang-ho",
+        "qid": "Q20948236",
+        "title": "Train to Busan",
+        "watched": true,
+        "year": 2016
+      },
+      {
+        "director": "Yeon Sang-ho",
+        "qid": "Q65061643",
+        "title": "Peninsula",
+        "watched": false,
+        "year": 2020
+      }
+    ],
+    "qid": "Q114763523"
+  },
+  "Wuxia Trilogy": {
+    "films": [
+      {
+        "director": "Zhang Yimou",
+        "qid": "Q260379",
+        "title": "Hero",
+        "watched": false,
+        "year": 2002
+      },
+      {
+        "director": "Zhang Yimou",
+        "qid": "Q369388",
+        "title": "House of Flying Daggers",
+        "watched": true,
+        "year": 2004
+      },
+      {
+        "director": "Zhang Yimou",
+        "qid": "Q51737",
+        "title": "Curse of the Golden Flower",
+        "watched": false,
+        "year": 2006
+      }
+    ],
+    "qid": "Q97068183"
+  },
+  "Yi Sun-sin trilogy": {
+    "films": [
+      {
+        "director": "Kim Han-min",
+        "qid": "Q16930989",
+        "title": "The Admiral: Roaring Currents",
+        "watched": true,
+        "year": 2014
+      },
+      {
+        "director": "Kim Han-min",
+        "qid": "Q97218226",
+        "title": "Hansan: Rising Dragon",
+        "watched": false,
+        "year": 2022
+      },
+      {
+        "director": "Kim Han-min",
+        "qid": "Q112591987",
+        "title": "Noryang",
+        "watched": false,
+        "year": 2023
+      }
+    ],
+    "qid": "Q111833034"
+  },
+  "Zootopia": {
+    "films": [
+      {
+        "director": "Byron Howard, Jared Bush",
+        "qid": "Q15270647",
+        "title": "Zootopia",
+        "watched": true,
+        "year": 2016
+      },
+      {
+        "director": "Jared Bush, Byron Howard",
+        "qid": "Q116764712",
+        "title": "Zootopia 2",
+        "watched": false,
+        "year": 2025
+      }
+    ],
+    "qid": "Q137809739"
+  }
+}

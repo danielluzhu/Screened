@@ -1,0 +1,44 @@
+no match (19):
+  - 18x2 Beyond Youthful Days
+  - Hero
+  - Howls Moving Castle
+  - The God Father
+  - Yiyi
+  - Harold and Kumar Escape from Guantanamo Bay
+  - Hi Mom
+  - Gatsby
+  - Dragon
+  - A journey of a thousand miles
+  - Legend of Hei
+  - Legend of Hei 2
+  - Mugen Train
+  - Havoc of Heaven
+  - Neko Samurai
+  - Kiki Delivery Service
+  - - Red Cliff
+  - Hustle (BBall movie)
+  - halt and catch
+
+ambiguous, left blank (15):
+  - Old Boy (2003) — 5 candidates
+  - The Dark Night (2008) — 2 candidates
+  - Us and Them (2018) — 3 candidates
+  - Demon Slayer (2024) — 4 candidates
+  - The Monster (2023) — 3 candidates
+  - Ballerina (2023) — 4 candidates
+  - Mulan (2000) — 3 candidates
+  - Brokeback Mountain (?) — 2 candidates
+  - Obsession (2026) — 3 candidates
+  - The Challenger (2026) — 5 candidates
+  - The Banker (?) — 5 candidates
+  - White Snake (?) — 5 candidates
+  - Enter the Fat Dragon (?) — 2 candidates
+  - To Live (?) — 6 candidates
+  - odyssey (2026) — 2 candidates
+
+saved
+exit 0
+
+duplicate rows in the Films sheet (left as-is):
+  - mulan
+  - concrete utopia
