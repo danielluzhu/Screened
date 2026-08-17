@@ -1,11 +1,17 @@
 // The published site is a read-only mirror. There is no Bun server and no
-// Favorites.numbers behind it, so the editing UI is stripped out rather than
-// left in place to fail on click.
+// Favorites.numbers behind it, so the editing UI is taken out of reach rather
+// than left in place to fail on click.
 (() => {
-  const GONE = ".add-toggle,.add-form,.edit-title,.edit-details,.add-suggestion,.add-other";
+  // Hidden, not removed. app.js finishes wiring these up after its data fetch
+  // resolves — which is after this script runs — and setUpAddForm() throws on a
+  // missing node, killing init() before it ever renders the film list.
+  const style = document.createElement("style");
+  style.textContent =
+    ".add-toggle,.add-form,.edit-title,.edit-details,.add-suggestion,.add-other" +
+    "{display:none!important}";
+  (document.head ?? document.documentElement).append(style);
 
   function neuter() {
-    document.querySelectorAll(GONE).forEach((n) => n.remove());
     // Ratings render as <select>; swap each for the badge it already looks like.
     document.querySelectorAll("select.badge").forEach((sel) => {
       const badge = document.createElement("span");

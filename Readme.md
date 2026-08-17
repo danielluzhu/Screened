@@ -50,9 +50,11 @@ git add -A docs && git commit -m "rebuild site" && git push
 Pages serves static files only, so the copy differs from the local server in two
 ways: `/api/data` becomes `docs/api/data.json`, and every `/film/<slug>` style
 route is written out as a real directory with an `index.html` rather than being
-resolved per request. The rating dropdowns and the add/edit forms are stripped
-by `docs/static.js` — writing to `Favorites.numbers` needs the Python helpers,
-which only exist locally. Edit locally, rebuild, push.
+resolved per request. Writing to `Favorites.numbers` needs the Python helpers,
+which only exist locally, so `docs/static.js` renders the rating dropdowns as
+plain badges and hides the add/edit forms. It hides rather than removes them:
+`app.js` looks those nodes up by id after its data fetch resolves, and a missing
+one throws before the film list ever renders. Edit locally, rebuild, push.
 
 The build takes the base path as its one argument (`/Screened` by default);
 pass `/` if the site ever moves to a custom domain.
