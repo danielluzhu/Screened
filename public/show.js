@@ -50,6 +50,19 @@ function streamingRow(item) {
   return box;
 }
 
+
+// Artwork that links to the item's own page. The title beside it already links
+// to the same place, so this one is hidden from assistive tech and skipped when
+// tabbing rather than read out and stopped at twice.
+function artLink(art, href) {
+  const link = text("a", "art-link");
+  link.href = href;
+  link.setAttribute("aria-hidden", "true");
+  link.tabIndex = -1;
+  link.append(art);
+  return link;
+}
+
 function render(show, data) {
   document.title = `${show.name} — Favorites`;
   const main = el("main");
@@ -101,7 +114,7 @@ function render(show, data) {
         img.src = `/characters/${character.photo}`;
         img.alt = "";
         img.loading = "lazy";
-        li.append(img);
+        li.append(artLink(img, `/character/${character.slug}`));
       }
       const link = text("a", null, character.name);
       link.href = `/character/${character.slug}`;

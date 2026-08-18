@@ -188,12 +188,25 @@ function streamingChips(item, limit = 4) {
   return wrap;
 }
 
-function poster(film, cls = "poster") {
+
+// Artwork that links to the item's own page. The title beside or over the art
+// already links to the same place, so this one is hidden from assistive tech
+// and skipped when tabbing rather than read out and stopped at twice.
+function artLink(art, href) {
+  const link = text("a", "art-link");
+  link.href = href;
+  link.setAttribute("aria-hidden", "true");
+  link.tabIndex = -1;
+  link.append(art);
+  return link;
+}
+
+function poster(film, cls = "poster", href = null) {
   if (!film.poster) {
     // Keep the same footprint so rows stay aligned without an image.
     const blank = text("div", `${cls} is-blank`);
     blank.setAttribute("aria-hidden", "true");
-    return blank;
+    return href ? artLink(blank, href) : blank;
   }
   const img = document.createElement("img");
   img.className = cls;
@@ -201,7 +214,7 @@ function poster(film, cls = "poster") {
   img.alt = `${film.title} poster`;
   img.loading = "lazy";
   img.decoding = "async";
-  return img;
+  return href ? artLink(img, href) : img;
 }
 
 async function renameFilm(film, newTitle, titleEl) {
@@ -267,9 +280,10 @@ function titleField(film) {
 // `wide` picks the aspect ratio, which follows what the art actually is: film
 // posters and character portraits are tall, show banners are wide, and a music
 // tile has no art at all so a tall empty box would just be dead space.
-function tile({ art, badge, title, lines = [], wide = false }) {
+function tile({ art, badge, title, lines = [], wide = false, href = null }) {
   const card = text("article", wide ? "tile is-wide" : "tile");
 
+  let node;
   if (art) {
     const img = document.createElement("img");
     img.className = "tile-art";
@@ -279,12 +293,14 @@ function tile({ art, badge, title, lines = [], wide = false }) {
     img.alt = "";
     img.loading = "lazy";
     img.decoding = "async";
-    card.append(img);
+    node = img;
   } else {
     const blank = text("div", "tile-art is-blank");
     blank.setAttribute("aria-hidden", "true");
-    card.append(blank);
+    node = blank;
   }
+  // The art is the biggest target on the card; clicking it used to do nothing.
+  card.append(href ? artLink(node, href) : node);
 
   if (badge) card.append(badge);
 
@@ -317,6 +333,7 @@ function filmCard(film) {
   }
 
   return tile({
+    href: `/film/${film.slug}`,
     art: film.poster ? `/posters/${film.poster}` : null,
     badge: tierSelect(film),
     title: titleField(film),
@@ -439,7 +456,12 @@ function renderFranchises() {
     badge.title = TIER_MEANING[film.tier] ?? film.tier;
     const link = text("a", "ttl", film.title);
     link.href = `/film/${film.slug}`;
-    li.append(poster(film, "poster-sm"), badge, text("span", "yr", film.year ?? "—"), link);
+    li.append(
+      poster(film, "poster-sm", `/film/${film.slug}`),
+      badge,
+      text("span", "yr", film.year ?? "—"),
+      link
+    );
     if (film.director) li.append(text("span", "dir", film.director));
     return li;
   };
@@ -534,6 +556,7 @@ function characterCard(character) {
   // the posters do; the handful of landscape ones crop to centre, which is
   // where a character's face tends to be anyway.
   return tile({
+    href: `/character/${character.slug}`,
     art: character.photo ? `/characters/${character.photo}` : null,
     badge: characterTierSelect(character),
     title,
@@ -698,6 +721,7 @@ function showCard(show) {
   // show's own page.
   return tile({
     wide: true,
+    href: `/show/${show.slug}`,
     art: show.photo ? `/shows/${show.photo}` : null,
     title,
     lines: [

@@ -105,6 +105,14 @@ of its own to read them on.
 The `.film` row card still exists — the film, director and suggestions pages use
 it.
 
+The artwork is a link to the item's own page, everywhere it appears: the tiles,
+the row cards, the director and year lists, and the backlog. It is the biggest
+target on a card and clicking it used to do nothing. The title beside or over
+the art already links to the same place, so the wrapper (`.art-link`) is
+`aria-hidden` and `tabindex="-1"` — otherwise every card would be read out twice
+and take two tab stops to get past. Suggestion cards are the exception: those
+films aren't in the list, carry no slug, and have no page to reach.
+
 ### Theme
 
 Black, always. The `prefers-color-scheme: light` palette is gone: the page is

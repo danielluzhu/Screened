@@ -18,6 +18,19 @@ function text(tag, cls, value) {
   return node;
 }
 
+
+// Artwork that links to the item's own page. The title beside it already links
+// to the same place, so this one is hidden from assistive tech and skipped when
+// tabbing rather than read out and stopped at twice.
+function artLink(art, href) {
+  const link = text("a", "art-link");
+  link.href = href;
+  link.setAttribute("aria-hidden", "true");
+  link.tabIndex = -1;
+  link.append(art);
+  return link;
+}
+
 function watchedRow(film) {
   const li = document.createElement("li");
 
@@ -27,11 +40,11 @@ function watchedRow(film) {
     img.src = `/posters/${film.poster}`;
     img.alt = "";
     img.loading = "lazy";
-    li.append(img);
+    li.append(artLink(img, `/film/${film.slug}`));
   } else {
     const blank = text("div", "poster-sm is-blank");
     blank.setAttribute("aria-hidden", "true");
-    li.append(blank);
+    li.append(artLink(blank, `/film/${film.slug}`));
   }
 
   const badge = text("span", "badge", film.tier);

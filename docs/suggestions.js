@@ -160,6 +160,19 @@ function suggestionCard(entry, best) {
   return card;
 }
 
+
+// Artwork that links to the film's own page. The title beside it already links
+// to the same place, so this one is hidden from assistive tech and skipped when
+// tabbing rather than read out and stopped at twice.
+function artLink(art, href) {
+  const link = text("a", "art-link");
+  link.href = href;
+  link.setAttribute("aria-hidden", "true");
+  link.tabIndex = -1;
+  link.append(art);
+  return link;
+}
+
 function backlogRow(entry) {
   const li = text("li", "backlog-row");
 
@@ -169,11 +182,11 @@ function backlogRow(entry) {
     img.src = `/Screened/posters/${entry.poster}`;
     img.alt = "";
     img.loading = "lazy";
-    li.append(img);
+    li.append(artLink(img, `/Screened/film/${entry.slug}`));
   } else {
     const blank = text("div", "poster-sm is-blank");
     blank.setAttribute("aria-hidden", "true");
-    li.append(blank);
+    li.append(artLink(blank, `/Screened/film/${entry.slug}`));
   }
 
   const body = text("div", "backlog-body");

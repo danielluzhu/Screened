@@ -21,6 +21,19 @@ function text(tag, cls, value) {
 const money = (n) =>
   n >= 1e9 ? `$${(n / 1e9).toFixed(2)}B` : n >= 1e6 ? `$${Math.round(n / 1e6)}M` : `$${n.toLocaleString()}`;
 
+
+// Artwork that links to the item's own page. The title beside it already links
+// to the same place, so this one is hidden from assistive tech and skipped when
+// tabbing rather than read out and stopped at twice.
+function artLink(art, href) {
+  const link = text("a", "art-link");
+  link.href = href;
+  link.setAttribute("aria-hidden", "true");
+  link.tabIndex = -1;
+  link.append(art);
+  return link;
+}
+
 function watchedRow(film) {
   const li = document.createElement("li");
   if (film.poster) {
@@ -29,11 +42,11 @@ function watchedRow(film) {
     img.src = `/Screened/posters/${film.poster}`;
     img.alt = "";
     img.loading = "lazy";
-    li.append(img);
+    li.append(artLink(img, `/Screened/film/${film.slug}`));
   } else {
     const blank = text("div", "poster-sm is-blank");
     blank.setAttribute("aria-hidden", "true");
-    li.append(blank);
+    li.append(artLink(blank, `/Screened/film/${film.slug}`));
   }
   const badge = text("span", "badge", film.tier);
   badge.dataset.tier = film.tier;

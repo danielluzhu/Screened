@@ -1993,3 +1993,24 @@ a.taste-chip:hover {
 .year-chip.is-empty .year-chip-y {
   font-weight: 500;
 }
+
+/* Artwork that doubles as a link to the item's own page. It only carries the
+   click — the art keeps its own sizing, so wrapping it changes no layout. */
+.art-link {
+  display: block;
+  flex: none;
+  line-height: 0;
+  color: inherit;
+  text-decoration: none;
+}
+
+/* On a tile the art is absolutely positioned, so the link has to fill the card
+   for the whole poster to be clickable — the overlay stays above it. */
+.tile .art-link {
+  position: absolute;
+  inset: 0;
+}
+
+.tile:hover .tile-art {
+  opacity: 0.92;
+}
