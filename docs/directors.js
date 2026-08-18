@@ -21,18 +21,34 @@ function text(tag, cls, value) {
 }
 
 let DATA = null;
-const state = { query: "", sort: "count" };
+const state = { query: "", sort: "rating" };
 
-// A director's best tier decides where they sort when counts tie — two films
-// each says less than what those films were.
-function bestRank(director) {
-  const order = DATA.tierOrder ?? [];
-  let best = order.length;
+// Every tier except "?" — anything you've actually put a rating against.
+const ratedTiers = () => (DATA.tierOrder ?? []).filter((t) => t !== "?");
+
+function tierProfile(director) {
+  const counts = new Map();
   for (const film of director.films) {
-    const i = order.indexOf(film.tier);
-    if (i !== -1 && i < best) best = i;
+    counts.set(film.tier, (counts.get(film.tier) ?? 0) + 1);
   }
-  return best;
+  return counts;
+}
+
+const ratedCount = (director) => director.films.filter((f) => f.tier !== "?").length;
+
+// Rated films decide the order and better tiers win outright: more S films puts
+// you ahead however many A films the other has, more A breaks that tie, and so
+// on down the scale. Volume only matters within a tier. A director whose films
+// are all unrated has nothing to rank on and falls to the bottom, which is
+// where the count sort used to bury a single S film behind eight "?"s.
+function byRating(a, b) {
+  const left = tierProfile(a);
+  const right = tierProfile(b);
+  for (const tier of ratedTiers()) {
+    const diff = (right.get(tier) ?? 0) - (left.get(tier) ?? 0);
+    if (diff) return diff;
+  }
+  return 0;
 }
 
 function visible() {
@@ -47,11 +63,19 @@ function visible() {
 
   if (state.sort === "name") {
     list.sort((a, b) => a.name.localeCompare(b.name));
-  } else {
+  } else if (state.sort === "count") {
     list.sort(
       (a, b) =>
         b.films.length - a.films.length ||
-        bestRank(a) - bestRank(b) ||
+        byRating(a, b) ||
+        a.name.localeCompare(b.name)
+    );
+  } else {
+    list.sort(
+      (a, b) =>
+        byRating(a, b) ||
+        ratedCount(b) - ratedCount(a) ||
+        b.films.length - a.films.length ||
         a.name.localeCompare(b.name)
     );
   }
@@ -93,7 +117,11 @@ function card(director) {
 
   const meta = text("p", "dir-meta");
   const n = director.films.length;
-  meta.append(text("span", null, `${n} watched`));
+  const scored = ratedCount(director);
+  // Say how many are rated when some aren't, since that is what the order runs on.
+  meta.append(
+    text("span", null, scored === n ? `${n} watched` : `${scored} rated of ${n} watched`)
+  );
   // What they've made that isn't in the list yet — the reason to open the page.
   if (director.others?.length) {
     meta.append(text("span", "dir-more", `${director.others.length} more to see`));
@@ -151,6 +179,7 @@ async function init() {
   const sort = document.createElement("select");
   sort.id = "dir-sort";
   sort.setAttribute("aria-label", "Sort directors");
+  sort.append(new Option("Sort: by rating", "rating"));
   sort.append(new Option("Sort: most watched", "count"));
   sort.append(new Option("Sort: A–Z", "name"));
   sort.addEventListener("change", (e) => {

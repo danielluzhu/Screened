@@ -322,11 +322,19 @@ any summary that came out under five sentences because the article is a stub.
 existed at `/director/<slug>` and `/year/<year>` — before these there was no way
 to reach one except from a film.
 
-Directors sort by how many of their films are in the list, tie-broken by the
-best tier they reached, since two films each says less than what those films
-were. Each card carries a badge per tier with a count, so a director you rate
-consistently reads differently from one you rate all over the place, plus how
-many of their other films aren't in the list yet.
+Directors sort on what you've rated, better tiers first: more `S` films puts a
+director ahead however many `A` films the next one has, more `A` breaks that
+tie, and so on down the scale. Volume only counts within a tier. Films still
+sitting at `?` don't rank at all, so the 57 directors you've watched but never
+rated fall below the 99 you have — under the old count-first sort, one `S` film
+lost to eight unrated ones. *Most watched* and *A–Z* are still there in the
+sort control.
+
+Each card carries a badge per tier with a count, so a director you rate
+consistently reads differently from one you rate all over the place, and says
+`N rated of M watched` whenever those differ — that first number is what the
+order runs on. It also shows how many of their other films aren't in the list
+yet.
 
 Years group into decades. A year page exists for anything with box-office
 figures, not only years you've watched from, so the index defaults to the 46
