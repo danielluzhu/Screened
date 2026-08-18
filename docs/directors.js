@@ -20,6 +20,17 @@ function text(tag, cls, value) {
   return node;
 }
 
+// The name beside the portrait links to the same page, so the portrait's own
+// link is hidden from assistive tech and skipped when tabbing.
+function artLink(art, href) {
+  const link = text("a", "art-link");
+  link.href = href;
+  link.setAttribute("aria-hidden", "true");
+  link.tabIndex = -1;
+  link.append(art);
+  return link;
+}
+
 let DATA = null;
 const state = { query: "", sort: "rating" };
 
@@ -85,9 +96,26 @@ function visible() {
 function card(director) {
   const li = text("li", "dir-card");
 
+  const head = text("div", "dir-head");
+  if (director.photo) {
+    const img = document.createElement("img");
+    img.className = "dir-photo";
+    img.src = `/Screened/portraits/${director.photo}`;
+    img.alt = "";
+    img.loading = "lazy";
+    img.decoding = "async";
+    head.append(artLink(img, `/Screened/director/${director.slug}`));
+  } else {
+    // Same footprint either way, so a row of cards doesn't step around.
+    const blank = text("div", "dir-photo is-blank");
+    blank.setAttribute("aria-hidden", "true");
+    head.append(blank);
+  }
+
   const link = text("a", "dir-name", director.name);
   link.href = `/Screened/director/${director.slug}`;
-  li.append(link);
+  head.append(link);
+  li.append(head);
 
   // One badge per tier they land in, with how many films sit there.
   const counts = new Map();

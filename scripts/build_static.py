@@ -39,7 +39,7 @@ BASE = (sys.argv[1] if len(sys.argv) > 1 else os.environ.get("BASE_PATH", "/Scre
 # the slug back out of location.pathname.
 ROUTES = ("film", "show", "character", "director", "year", "other")
 # Directories under public/ that the pages link to with absolute paths.
-ASSETS = ("posters", "logos", "characters", "shows")
+ASSETS = ("posters", "logos", "characters", "shows", "portraits")
 # Pages that are not per-item routes but still need their own directory.
 STANDALONE = (
     ("suggestions", "What to watch next — Screened"),

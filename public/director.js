@@ -111,7 +111,35 @@ function render(director) {
   const main = el("main");
   main.replaceChildren();
 
-  main.append(text("h1", "director-name", director.name));
+  const head = text("div", "director-head");
+  if (director.photo) {
+    const img = document.createElement("img");
+    img.className = "director-photo";
+    img.src = `/portraits/${director.photo}`;
+    img.alt = `${director.name}`;
+    img.loading = "lazy";
+    head.append(img);
+  }
+  head.append(text("h1", "director-name", director.name));
+  main.append(head);
+
+  // Commons hosts only freely licensed media, but CC BY-SA still wants the
+  // credit visible — so it goes under the portrait rather than in a comment.
+  if (director.photo && director.photoCredit) {
+    const credit = text("p", "photo-credit");
+    const { author, licence } = director.photoCredit;
+    credit.append(
+      document.createTextNode(
+        `Portrait${author ? ` by ${author}` : ""}${licence ? ` · ${licence}` : ""} · via `
+      )
+    );
+    const link = text("a", null, "Wikimedia Commons");
+    link.href = "https://commons.wikimedia.org/";
+    link.target = "_blank";
+    link.rel = "noopener noreferrer";
+    credit.append(link);
+    main.append(credit);
+  }
 
   const seen = director.films.length;
   const rated = director.films.filter((f) => f.tier && f.tier !== "?").length;

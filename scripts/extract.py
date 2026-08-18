@@ -33,6 +33,8 @@ DIRECTORS = os.path.join(ROOT, "directors.json")
 # read this, and folding 40KB gzipped into the payload every page fetches to
 # serve one page type is a poor trade.
 OTHER_FILMS = os.path.join(ROOT, "other-films.json")
+# Written by scripts/director_photos.py. Absent until that has run.
+DIRECTOR_PHOTOS = os.path.join(ROOT, "director-photos.json")
 CHAR_PHOTOS = os.path.join(ROOT, "character-photos.json")
 SHOW_PHOTOS = os.path.join(ROOT, "show-photos.json")
 STREAMING = os.path.join(ROOT, "streaming.json")
@@ -312,6 +314,11 @@ def main():
         with open(DIRECTORS) as fh:
             filmographies = json.load(fh)
 
+    portraits = {}
+    if os.path.exists(DIRECTOR_PHOTOS):
+        with open(DIRECTOR_PHOTOS) as fh:
+            portraits = json.load(fh)
+
     directors = []
     # Films credited to a director that aren't in the list. Keyed by Wikidata id
     # so one film credited to two directors is one page, not two.
@@ -331,12 +338,22 @@ def main():
                 record["by"].append(name)
             others.append({"title": m["title"], "year": m["year"], "key": key})
         others.sort(key=lambda f: (f["year"] is None, f["year"] or 0, f["title"]))
+        shot = portraits.get(name) or {}
         directors.append(
             {
                 "name": name,
                 "slug": film_slug(name),
                 "films": sorted((entry(f) for f in group), key=sort_key),
                 "others": others,
+                # None until director_photos.py has run. The licence and author
+                # travel with it because these are CC-licensed and the credit
+                # has to be shown.
+                "photo": shot.get("photo"),
+                "photoCredit": (
+                    {"licence": shot.get("licence"), "author": shot.get("author")}
+                    if shot.get("photo")
+                    else None
+                ),
             }
         )
     directors.sort(key=lambda d: (-len(d["films"]), d["name"]))
@@ -487,6 +504,7 @@ def main():
         f"wrote {DST}: {len(films)} films, {len(characters)} characters, "
         f"{len(shows)} shows, {len(franchises)} franchises, {len(directors)} directors, "
         f"{len(other_films)} other films, "
+        f"{sum(1 for d in directors if d['photo'])} director photos, "
         f"{len(years)} years, {len(music)} songs"
     )
 

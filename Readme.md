@@ -341,6 +341,40 @@ figures, not only years you've watched from, so the index defaults to the 46
 years you have watched and can show all 107 — the extra ones muted, because
 they're worth reaching but aren't part of the list.
 
+### Director portraits
+
+```sh
+python3 scripts/director_photos.py                    # any that are missing
+python3 scripts/director_photos.py --only "Ang Lee"
+python3 scripts/director_photos.py --force            # re-fetch everything
+```
+
+Wikidata carries the portrait directly as `P18`, so this needs none of the
+article matching `posters.py` does for films — the director's own item names the
+file and Commons serves a thumb. It cannot pick the wrong picture the way a
+title search can.
+
+Directors that `directors.py` already resolved have a qid. The rest are searched
+for by name and only accepted when the label matches exactly, the item is a
+human (`P31=Q5`), and its occupations include directing — otherwise an actor of
+the same name would end up as the portrait. Unmatched directors are listed at the
+end of the run rather than guessed at.
+
+`wikidata.claim_values` returns only entity ids and timestamps, so it drops `P18`
+— a `commonsMedia` value is a plain string. `director_photos.py` reads those
+itself rather than widening the shared helper, which `autofill.py` relies on for
+that filtering.
+
+Thumbnails are requested at 320px, which covers the 260px cards. Asking for much
+more is counterproductive: above roughly 340px Commons stops generating a thumb
+for the portraits that are small to begin with and hands back the original, which
+took one 35KB portrait to 180KB and the set from 5MB to 27MB.
+
+**Unlike the posters, these are freely licensed** — Commons hosts no fair-use
+media. The licence and author come back with the image, are stored in
+`director-photos.json`, and are shown under the portrait, because CC BY-SA needs
+the credit visible.
+
 ### Other films
 
 Every film in a director's Wikidata filmography that isn't in your list gets its

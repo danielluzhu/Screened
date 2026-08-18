@@ -29116,7 +29116,12 @@
           "year": 2023,
           "slug": "the-boy-and-the-heron-2023"
         }
-      ]
+      ],
+      "photo": "hayao-miyazaki.jpg",
+      "photoCredit": {
+        "licence": "CC BY 2.0",
+        "author": "Natasha Baucas at https://www.flickr.com/photos/sdnatasha/"
+      }
     },
     {
       "name": "Ang Lee",
@@ -29232,7 +29237,12 @@
           "year": 2019,
           "slug": "gemini-man-2019"
         }
-      ]
+      ],
+      "photo": "ang-lee.jpg",
+      "photoCredit": {
+        "licence": "CC BY-SA 2.0",
+        "author": "nicolas genin"
+      }
     },
     {
       "name": "Zhang Yimou",
@@ -29413,7 +29423,12 @@
           "year": 2026,
           "slug": "scare-out-2026"
         }
-      ]
+      ],
+      "photo": "zhang-yimou.jpg",
+      "photoCredit": {
+        "licence": "CC BY 2.0",
+        "author": "Dick Thomas Johnson from Tokyo, Japan"
+      }
     },
     {
       "name": "Christopher Nolan",
@@ -29518,7 +29533,12 @@
           "year": null,
           "slug": "larceny"
         }
-      ]
+      ],
+      "photo": "christopher-nolan.jpg",
+      "photoCredit": {
+        "licence": "CC BY-SA 4.0",
+        "author": "Republic of Korea"
+      }
     },
     {
       "name": "Wilson Yip",
@@ -29653,7 +29673,12 @@
           "year": 2017,
           "slug": "paradox-2017"
         }
-      ]
+      ],
+      "photo": "wilson-yip.jpg",
+      "photoCredit": {
+        "licence": "CC BY-SA 2.0",
+        "author": "GabboT"
+      }
     },
     {
       "name": "Bong Joon-ho",
@@ -29735,7 +29760,12 @@
           "year": null,
           "slug": "ally"
         }
-      ]
+      ],
+      "photo": "bong-joon-ho.jpg",
+      "photoCredit": {
+        "licence": "CC BY 4.0",
+        "author": "Kevin Paul"
+      }
     },
     {
       "name": "John Woo",
@@ -29942,7 +29972,12 @@
           "year": null,
           "slug": "the-time-you-need-a-friend"
         }
-      ]
+      ],
+      "photo": "john-woo.jpg",
+      "photoCredit": {
+        "licence": "CC BY-SA 2.0",
+        "author": null
+      }
     },
     {
       "name": "Johnnie To",
@@ -30244,7 +30279,12 @@
           "year": 2022,
           "slug": "septet-the-story-of-hong-kong-2022"
         }
-      ]
+      ],
+      "photo": "johnnie-to.jpg",
+      "photoCredit": {
+        "licence": "CC BY 2.0",
+        "author": "Dick Thomas Johnson from Tokyo, Japan"
+      }
     },
     {
       "name": "Wong Kar-wai",
@@ -30346,7 +30386,12 @@
           "year": null,
           "slug": "the-hand"
         }
-      ]
+      ],
+      "photo": "wong-kar-wai.jpg",
+      "photoCredit": {
+        "licence": "CC BY 2.0",
+        "author": "derivative work: Tabercil ( talk ) Wong Kar-wai at 2008 TIFF.jpg : lukeisback.com"
+      }
     },
     {
       "name": "Akira Kurosawa",
@@ -30520,7 +30565,12 @@
           "year": 1993,
           "slug": "madadayo-1993"
         }
-      ]
+      ],
+      "photo": "akira-kurosawa.jpg",
+      "photoCredit": {
+        "licence": "Public domain",
+        "author": "映画の友 (Eiga no tomo)"
+      }
     },
     {
       "name": "Andrew Stanton",
@@ -30574,7 +30624,12 @@
           "year": 2026,
           "slug": "toy-story-5-2026"
         }
-      ]
+      ],
+      "photo": "andrew-stanton.jpg",
+      "photoCredit": {
+        "licence": "CC BY-SA 4.0",
+        "author": "Sarah K Joyce"
+      }
     },
     {
       "name": "Byron Howard",
@@ -30618,7 +30673,12 @@
           "year": 2021,
           "slug": "encanto-2021"
         }
-      ]
+      ],
+      "photo": "byron-howard.jpg",
+      "photoCredit": {
+        "licence": "CC BY-SA 4.0",
+        "author": "Boungawa"
+      }
     },
     {
       "name": "Chen Kaige",
@@ -30752,7 +30812,12 @@
           "year": 2025,
           "slug": "the-volunteers-peace-at-last-2025"
         }
-      ]
+      ],
+      "photo": "chen-kaige.jpg",
+      "photoCredit": {
+        "licence": "CC BY 2.0",
+        "author": "Dick Thomas Johnson"
+      }
     },
     {
       "name": "Damien Chazelle",
@@ -30775,7 +30840,12 @@
           "slug": "la-la-land-2016"
         }
       ],
-      "others": []
+      "others": [],
+      "photo": "damien-chazelle.jpg",
+      "photoCredit": {
+        "licence": "CC BY-SA 2.0",
+        "author": "isabelle VERONESE from ELBEUF, France"
+      }
     },
     {
       "name": "Edward Yang",
@@ -30829,7 +30899,12 @@
           "year": 1996,
           "slug": "mahjong-1996"
         }
-      ]
+      ],
+      "photo": "edward-yang.jpg",
+      "photoCredit": {
+        "licence": "Public domain",
+        "author": "吳繼昌"
+      }
     },
     {
       "name": "Haruo Sotozaki",
@@ -30863,7 +30938,12 @@
           "year": 2024,
           "slug": "demon-slayer-kimetsu-no-yaiba-to-the-hashira-training-2024"
         }
-      ]
+      ],
+      "photo": "haruo-sotozaki.jpg",
+      "photoCredit": {
+        "licence": "CC BY-SA 3.0",
+        "author": "Gage Skidmore"
+      }
     },
     {
       "name": "Hirokazu Koreeda",
@@ -30972,7 +31052,12 @@
           "year": null,
           "slug": "last-scene"
         }
-      ]
+      ],
+      "photo": "hirokazu-koreeda.jpg",
+      "photoCredit": {
+        "licence": "CC BY 4.0",
+        "author": "Kevin Paul"
+      }
     },
     {
       "name": "James Cameron",
@@ -31076,7 +31161,12 @@
           "year": 2026,
           "slug": "billie-eilish-hit-me-hard-and-soft-the-tour-live-in-3d-2026"
         }
-      ]
+      ],
+      "photo": "james-cameron.jpg",
+      "photoCredit": {
+        "licence": "CC BY 4.0",
+        "author": "Kevin Paul"
+      }
     },
     {
       "name": "Jared Bush",
@@ -31105,7 +31195,12 @@
           "year": 2021,
           "slug": "encanto-2021"
         }
-      ]
+      ],
+      "photo": "jared-bush.jpg",
+      "photoCredit": {
+        "licence": "CC0",
+        "author": "Boungawa"
+      }
     },
     {
       "name": "Jia Ling",
@@ -31128,7 +31223,9 @@
           "slug": "yolo-2024"
         }
       ],
-      "others": []
+      "others": [],
+      "photo": null,
+      "photoCredit": null
     },
     {
       "name": "Jiaozi",
@@ -31151,7 +31248,12 @@
           "slug": "ne-zha-2-2025"
         }
       ],
-      "others": []
+      "others": [],
+      "photo": "jiaozi.png",
+      "photoCredit": {
+        "licence": "CC BY 4.0",
+        "author": "China News Service"
+      }
     },
     {
       "name": "Jordan Peele",
@@ -31180,7 +31282,12 @@
           "year": 2019,
           "slug": "us-2019"
         }
-      ]
+      ],
+      "photo": "jordan-peele.jpg",
+      "photoCredit": {
+        "licence": "CC BY 2.0",
+        "author": "Kevin Edwards from Palo Alto"
+      }
     },
     {
       "name": "Kenji Tanigaki",
@@ -31214,7 +31321,12 @@
           "year": 2006,
           "slug": "master-of-thunder-2006"
         }
-      ]
+      ],
+      "photo": "kenji-tanigaki.jpg",
+      "photoCredit": {
+        "licence": "CC BY-SA 4.0",
+        "author": "Sara Komatsu"
+      }
     },
     {
       "name": "Lee Unkrich",
@@ -31258,7 +31370,12 @@
           "year": null,
           "slug": "coco-2"
         }
-      ]
+      ],
+      "photo": "lee-unkrich.jpg",
+      "photoCredit": {
+        "licence": "CC BY-SA 2.0",
+        "author": "nicolas genin from Paris, France"
+      }
     },
     {
       "name": "Makoto Shinkai",
@@ -31322,7 +31439,12 @@
           "year": null,
           "slug": "disaster-trilogy"
         }
-      ]
+      ],
+      "photo": "makoto-shinkai.jpg",
+      "photoCredit": {
+        "licence": "CC BY-SA 3.0",
+        "author": "Ilya Voyager"
+      }
     },
     {
       "name": "Matt Reeves",
@@ -31376,7 +31498,12 @@
           "year": 2028,
           "slug": "the-batman-part-ii-2028"
         }
-      ]
+      ],
+      "photo": "matt-reeves.jpg",
+      "photoCredit": {
+        "licence": "CC BY-SA 2.0",
+        "author": "Matt_Reeves.jpg : Ronald Woan derivative work: Nightscream ( talk )"
+      }
     },
     {
       "name": "Mtjj",
@@ -31399,7 +31526,9 @@
           "slug": "the-legend-of-hei-2-2025"
         }
       ],
-      "others": []
+      "others": [],
+      "photo": null,
+      "photoCredit": null
     },
     {
       "name": "Satoshi Kon",
@@ -31433,7 +31562,9 @@
           "year": 2003,
           "slug": "tokyo-godfathers-2003"
         }
-      ]
+      ],
+      "photo": null,
+      "photoCredit": null
     },
     {
       "name": "Stephen Chow",
@@ -31507,7 +31638,12 @@
           "year": 2026,
           "slug": "kung-fu-soccer-2026"
         }
-      ]
+      ],
+      "photo": "stephen-chow.jpg",
+      "photoCredit": {
+        "licence": "CC BY 3.0",
+        "author": "Kit Liew"
+      }
     },
     {
       "name": "Tsui Hark",
@@ -31771,7 +31907,12 @@
           "year": 2025,
           "slug": "legends-of-the-condor-heroes-the-gallants-2025"
         }
-      ]
+      ],
+      "photo": "tsui-hark.jpg",
+      "photoCredit": {
+        "licence": "CC BY 2.0",
+        "author": "Raffi Asdourian"
+      }
     },
     {
       "name": "Wu Jing",
@@ -31810,7 +31951,12 @@
           "year": null,
           "slug": "wolf-warriors-3"
         }
-      ]
+      ],
+      "photo": "wu-jing.jpg",
+      "photoCredit": {
+        "licence": "CC BY-SA 4.0",
+        "author": "celinahoran"
+      }
     },
     {
       "name": "Alan Mak",
@@ -31926,7 +32072,9 @@
           "year": null,
           "slug": "the-procurator"
         }
-      ]
+      ],
+      "photo": null,
+      "photoCredit": null
     },
     {
       "name": "Amp Wong",
@@ -31941,7 +32089,9 @@
           "slug": "white-snake-2019"
         }
       ],
-      "others": []
+      "others": [],
+      "photo": null,
+      "photoCredit": null
     },
     {
       "name": "Andrew Lau",
@@ -32177,7 +32327,12 @@
           "year": 2025,
           "slug": "the-dumpling-queen-2025"
         }
-      ]
+      ],
+      "photo": "andrew-lau.jpg",
+      "photoCredit": {
+        "licence": "CC BY-SA 4.0",
+        "author": "MAICHANGUWAILI"
+      }
     },
     {
       "name": "Aneesh Chaganty",
@@ -32198,7 +32353,12 @@
           "year": 2020,
           "slug": "run-2020"
         }
-      ]
+      ],
+      "photo": "aneesh-chaganty.jpg",
+      "photoCredit": {
+        "licence": "CC BY 2.0",
+        "author": "RISE"
+      }
     },
     {
       "name": "Anselm Chan",
@@ -32213,7 +32373,12 @@
           "slug": "the-last-dance-2024"
         }
       ],
-      "others": []
+      "others": [],
+      "photo": "anselm-chan.jpg",
+      "photoCredit": {
+        "licence": "CC BY 2.0",
+        "author": "Dick Thomas Johnson from Tokyo, Japan"
+      }
     },
     {
       "name": "Anthony Russo",
@@ -32269,7 +32434,12 @@
           "year": 2025,
           "slug": "the-electric-state-2025"
         }
-      ]
+      ],
+      "photo": "anthony-russo.jpg",
+      "photoCredit": {
+        "licence": "CC BY-SA 3.0",
+        "author": "Gage Skidmore"
+      }
     },
     {
       "name": "Ao Shen",
@@ -32300,7 +32470,9 @@
           "year": 2025,
           "slug": "escape-from-the-outland-2025"
         }
-      ]
+      ],
+      "photo": null,
+      "photoCredit": null
     },
     {
       "name": "Barry Cook",
@@ -32336,7 +32508,9 @@
           "year": 2013,
           "slug": "walking-with-dinosaurs-2013"
         }
-      ]
+      ],
+      "photo": null,
+      "photoCredit": null
     },
     {
       "name": "Baz Luhrmann",
@@ -32387,7 +32561,12 @@
           "year": 2025,
           "slug": "epic-elvis-presley-in-concert-2025"
         }
-      ]
+      ],
+      "photo": "baz-luhrmann.jpg",
+      "photoCredit": {
+        "licence": "CC BY-SA 2.0",
+        "author": "Eva Rinaldi"
+      }
     },
     {
       "name": "Byun Sung-hyun",
@@ -32402,7 +32581,9 @@
           "slug": "good-news-2025"
         }
       ],
-      "others": []
+      "others": [],
+      "photo": null,
+      "photoCredit": null
     },
     {
       "name": "Celine Song",
@@ -32423,7 +32604,12 @@
           "year": 2025,
           "slug": "materialists-2025"
         }
-      ]
+      ],
+      "photo": "celine-song.jpg",
+      "photoCredit": {
+        "licence": "CC BY-SA 3.0",
+        "author": "Elena Ternovaja"
+      }
     },
     {
       "name": "Chao Xi",
@@ -32438,7 +32624,9 @@
           "slug": "crystal-sky-of-yesterday-2018"
         }
       ],
-      "others": []
+      "others": [],
+      "photo": null,
+      "photoCredit": null
     },
     {
       "name": "Choi Dong-hun",
@@ -32489,7 +32677,12 @@
           "year": 2024,
           "slug": "alienoid-2-2024"
         }
-      ]
+      ],
+      "photo": "choi-dong-hun.jpg",
+      "photoCredit": {
+        "licence": "CC BY 3.0",
+        "author": "ItsNEWKorea"
+      }
     },
     {
       "name": "Chris Appelhans",
@@ -32504,7 +32697,12 @@
           "slug": "kpop-demon-hunters-2025"
         }
       ],
-      "others": []
+      "others": [],
+      "photo": "chris-appelhans.jpg",
+      "photoCredit": {
+        "licence": "CC BY 4.0",
+        "author": "Kevin Paul"
+      }
     },
     {
       "name": "Chris Sanders",
@@ -32540,7 +32738,12 @@
           "year": 2020,
           "slug": "the-call-of-the-wild-2020"
         }
-      ]
+      ],
+      "photo": "chris-sanders.jpg",
+      "photoCredit": {
+        "licence": "CC BY 2.0",
+        "author": "Pat Loika"
+      }
     },
     {
       "name": "Chris Weitz",
@@ -32591,7 +32794,12 @@
           "year": 2018,
           "slug": "operation-finale-2018"
         }
-      ]
+      ],
+      "photo": "chris-weitz.jpg",
+      "photoCredit": {
+        "licence": "CC BY-SA 2.0",
+        "author": "Twilight_20091110_Crillon_Hotel_Paris_004.jpg : nicolas genin derivative work: Scarce ( talk )"
+      }
     },
     {
       "name": "Chun Zhang",
@@ -32606,7 +32814,9 @@
           "slug": "big-fish-begonia-2016"
         }
       ],
-      "others": []
+      "others": [],
+      "photo": null,
+      "photoCredit": null
     },
     {
       "name": "Chung Mong-hong",
@@ -32657,7 +32867,9 @@
           "year": 2024,
           "slug": "the-embers-2024"
         }
-      ]
+      ],
+      "photo": null,
+      "photoCredit": null
     },
     {
       "name": "Clement Cheung",
@@ -32672,7 +32884,9 @@
           "slug": "gallants-2010"
         }
       ],
-      "others": []
+      "others": [],
+      "photo": null,
+      "photoCredit": null
     },
     {
       "name": "Cui Rui",
@@ -32687,7 +32901,9 @@
           "slug": "lost-in-the-stars-2022"
         }
       ],
-      "others": []
+      "others": [],
+      "photo": null,
+      "photoCredit": null
     },
     {
       "name": "Curry Barker",
@@ -32702,7 +32918,12 @@
           "slug": "obsession-2026"
         }
       ],
-      "others": []
+      "others": [],
+      "photo": "curry-barker.jpg",
+      "photoCredit": {
+        "licence": "CC BY-SA 4.0",
+        "author": "Nguyk"
+      }
     },
     {
       "name": "Danny Leiner",
@@ -32743,7 +32964,12 @@
           "year": 2009,
           "slug": "balls-out-gary-the-tennis-coach-2009"
         }
-      ]
+      ],
+      "photo": "danny-leiner.jpg",
+      "photoCredit": {
+        "licence": "CC BY 2.0",
+        "author": "Canadian Film Centre from Toronto, Canada"
+      }
     },
     {
       "name": "Dante Lam",
@@ -32904,7 +33130,12 @@
           "year": 2025,
           "slug": "operation-hadal-2025"
         }
-      ]
+      ],
+      "photo": "dante-lam.jpg",
+      "photoCredit": {
+        "licence": "CC BY 4.0",
+        "author": "China News Service"
+      }
     },
     {
       "name": "David Silverman",
@@ -32919,7 +33150,12 @@
           "slug": "monsters-inc-2001"
         }
       ],
-      "others": []
+      "others": [],
+      "photo": "david-silverman.jpg",
+      "photoCredit": {
+        "licence": "CC BY-SA 3.0",
+        "author": "Original uploader was en:User:Derdingle"
+      }
     },
     {
       "name": "Denis Villeneuve",
@@ -33020,7 +33256,12 @@
           "year": null,
           "slug": "bond-26"
         }
-      ]
+      ],
+      "photo": "denis-villeneuve.jpg",
+      "photoCredit": {
+        "licence": "CC BY 2.0",
+        "author": "Raph_PH"
+      }
     },
     {
       "name": "Derek Kwok",
@@ -33081,7 +33322,12 @@
           "year": null,
           "slug": "the-unleashed-blaze"
         }
-      ]
+      ],
+      "photo": "derek-kwok.jpg",
+      "photoCredit": {
+        "licence": "CC BY-SA 4.0",
+        "author": "MAICHANGUWAILI"
+      }
     },
     {
       "name": "Derek Tsang",
@@ -33112,7 +33358,12 @@
           "year": 2016,
           "slug": "soul-mate-2016"
         }
-      ]
+      ],
+      "photo": "derek-tsang.jpg",
+      "photoCredit": {
+        "licence": "CC BY-SA 2.0",
+        "author": "alanine"
+      }
     },
     {
       "name": "Destin Daniel Cretton",
@@ -33127,7 +33378,12 @@
           "slug": "shang-chi-and-the-legend-of-the-ten-rings-2021"
         }
       ],
-      "others": []
+      "others": [],
+      "photo": "destin-daniel-cretton.jpg",
+      "photoCredit": {
+        "licence": "CC BY-SA 3.0",
+        "author": "Georges Biard"
+      }
     },
     {
       "name": "Ding Sheng",
@@ -33178,7 +33434,12 @@
           "year": 2019,
           "slug": "s-w-a-t-2019"
         }
-      ]
+      ],
+      "photo": "ding-sheng.png",
+      "photoCredit": {
+        "licence": "CC BY 2.5",
+        "author": "rayofsunshine"
+      }
     },
     {
       "name": "Er Cheng",
@@ -33193,7 +33454,9 @@
           "slug": "hidden-blade-2023"
         }
       ],
-      "others": []
+      "others": [],
+      "photo": null,
+      "photoCredit": null
     },
     {
       "name": "Francis Ford Coppola",
@@ -33374,7 +33637,12 @@
           "year": 2024,
           "slug": "megalopolis-2024"
         }
-      ]
+      ],
+      "photo": "francis-ford-coppola.jpg",
+      "photoCredit": {
+        "licence": "Public domain",
+        "author": "The White House"
+      }
     },
     {
       "name": "Frant Gwo",
@@ -33410,7 +33678,12 @@
           "year": 2023,
           "slug": "the-wandering-earth-2-2023"
         }
-      ]
+      ],
+      "photo": "frant-gwo.jpg",
+      "photoCredit": {
+        "licence": "CC BY 4.0",
+        "author": "中国新闻社"
+      }
     },
     {
       "name": "George Nolfi",
@@ -33425,7 +33698,9 @@
           "slug": "the-banker-2020"
         }
       ],
-      "others": []
+      "others": [],
+      "photo": null,
+      "photoCredit": null
     },
     {
       "name": "Giddens Ko",
@@ -33461,7 +33736,12 @@
           "year": 2023,
           "slug": "miss-shampoo-2023"
         }
-      ]
+      ],
+      "photo": "giddens-ko.jpg",
+      "photoCredit": {
+        "licence": "CC BY-SA 4.0",
+        "author": "Rico Shen"
+      }
     },
     {
       "name": "Guan Hu",
@@ -33527,7 +33807,9 @@
           "year": 2025,
           "slug": "dongji-rescue-2025"
         }
-      ]
+      ],
+      "photo": null,
+      "photoCredit": null
     },
     {
       "name": "Hayden Schlossberg",
@@ -33553,7 +33835,12 @@
           "year": 2012,
           "slug": "american-reunion-2012"
         }
-      ]
+      ],
+      "photo": "hayden-schlossberg.jpg",
+      "photoCredit": {
+        "licence": "CC BY-SA 2.0",
+        "author": "Eva Rinaldi"
+      }
     },
     {
       "name": "Isao Takahata",
@@ -33624,7 +33911,12 @@
           "year": 2013,
           "slug": "the-tale-of-the-princess-kaguya-2013"
         }
-      ]
+      ],
+      "photo": "isao-takahata.jpg",
+      "photoCredit": {
+        "licence": "CC BY-SA 3.0",
+        "author": "Boungawa"
+      }
     },
     {
       "name": "Jackie Chan",
@@ -33740,7 +34032,12 @@
           "year": 2015,
           "slug": "who-am-i-2015-2015"
         }
-      ]
+      ],
+      "photo": "jackie-chan.jpg",
+      "photoCredit": {
+        "licence": "CC BY-SA 4.0",
+        "author": "Segolene Liger"
+      }
     },
     {
       "name": "Jang Hoon",
@@ -33771,7 +34068,9 @@
           "year": 2011,
           "slug": "the-front-line-2011"
         }
-      ]
+      ],
+      "photo": null,
+      "photoCredit": null
     },
     {
       "name": "Jeremiah Zagar",
@@ -33786,7 +34085,9 @@
           "slug": "hustle-2022"
         }
       ],
-      "others": []
+      "others": [],
+      "photo": null,
+      "photoCredit": null
     },
     {
       "name": "Jiang Wen",
@@ -33837,7 +34138,12 @@
           "year": 2025,
           "slug": "let-the-music-fly-2025"
         }
-      ]
+      ],
+      "photo": "jiang-wen.jpg",
+      "photoCredit": {
+        "licence": "CC BY 3.0",
+        "author": "Étienne ANDRÉ"
+      }
     },
     {
       "name": "Joaquim Dos Santos",
@@ -33873,7 +34179,12 @@
           "year": 2010,
           "slug": "superman-shazam-the-return-of-black-adam-2010"
         }
-      ]
+      ],
+      "photo": "joaquim-dos-santos.jpg",
+      "photoCredit": {
+        "licence": "CC BY-SA 3.0",
+        "author": "Gage Skidmore"
+      }
     },
     {
       "name": "Joe Russo",
@@ -33929,7 +34240,12 @@
           "year": 2025,
           "slug": "the-electric-state-2025"
         }
-      ]
+      ],
+      "photo": "joe-russo.jpg",
+      "photoCredit": {
+        "licence": "CC BY-SA 3.0",
+        "author": "Gage Skidmore"
+      }
     },
     {
       "name": "John Lasseter",
@@ -34045,7 +34361,12 @@
           "year": 2019,
           "slug": "toy-story-4-2019"
         }
-      ]
+      ],
+      "photo": "john-lasseter.jpg",
+      "photoCredit": {
+        "licence": "CC BY 2.0",
+        "author": "Vanessa Lua"
+      }
     },
     {
       "name": "John Stevenson",
@@ -34071,7 +34392,12 @@
           "year": 2018,
           "slug": "gnomeo-and-juliet-2-sherlock-gnomes-2018"
         }
-      ]
+      ],
+      "photo": "john-stevenson.jpg",
+      "photoCredit": {
+        "licence": "CC BY-SA 4.0",
+        "author": "Levinasstroar"
+      }
     },
     {
       "name": "Jon Hurwitz",
@@ -34097,7 +34423,12 @@
           "year": 2012,
           "slug": "american-reunion-2012"
         }
-      ]
+      ],
+      "photo": "jon-hurwitz.jpg",
+      "photoCredit": {
+        "licence": "CC BY-SA 2.0",
+        "author": "Eva Rinaldi"
+      }
     },
     {
       "name": "Jon M. Chu",
@@ -34168,7 +34499,12 @@
           "year": 2025,
           "slug": "wicked-for-good-2025"
         }
-      ]
+      ],
+      "photo": "jon-m-chu.jpg",
+      "photoCredit": {
+        "licence": "CC BY 4.0",
+        "author": "Kevin Paul"
+      }
     },
     {
       "name": "Jonathan Entwistle",
@@ -34183,7 +34519,9 @@
           "slug": "karate-kid-legends-2025"
         }
       ],
-      "others": []
+      "others": [],
+      "photo": null,
+      "photoCredit": null
     },
     {
       "name": "Justin Chon",
@@ -34214,7 +34552,12 @@
           "year": null,
           "slug": "jamojaya"
         }
-      ]
+      ],
+      "photo": "justin-chon.jpg",
+      "photoCredit": {
+        "licence": "CC BY-SA 2.0",
+        "author": "Britany Star from Boom City, USA"
+      }
     },
     {
       "name": "Justin K. Thompson",
@@ -34235,7 +34578,9 @@
           "year": 2024,
           "slug": "spider-man-beyond-the-spider-verse-2024"
         }
-      ]
+      ],
+      "photo": null,
+      "photoCredit": null
     },
     {
       "name": "Katsuhiro Otomo",
@@ -34291,7 +34636,12 @@
           "year": null,
           "slug": "q131274921"
         }
-      ]
+      ],
+      "photo": "katsuhiro-otomo.jpg",
+      "photoCredit": {
+        "licence": "CC BY-SA 4.0",
+        "author": "Selbymay"
+      }
     },
     {
       "name": "Keishi Ōtomo",
@@ -34377,7 +34727,12 @@
           "year": 2025,
           "slug": "hero-s-island-2025"
         }
-      ]
+      ],
+      "photo": "keishi-tomo.jpg",
+      "photoCredit": {
+        "licence": "CC BY 2.0",
+        "author": "Dick Thomas Johnson from Tokyo, Japan"
+      }
     },
     {
       "name": "Kemp Powers",
@@ -34392,7 +34747,12 @@
           "slug": "spider-man-across-the-spider-verse-2023"
         }
       ],
-      "others": []
+      "others": [],
+      "photo": "kemp-powers.png",
+      "photoCredit": {
+        "licence": "CC BY 3.0",
+        "author": "4DX"
+      }
     },
     {
       "name": "Kenji Iwaizawa",
@@ -34407,7 +34767,9 @@
           "slug": "100-meters-2025"
         }
       ],
-      "others": []
+      "others": [],
+      "photo": null,
+      "photoCredit": null
     },
     {
       "name": "Kim Han-min",
@@ -34458,7 +34820,12 @@
           "year": null,
           "slug": "the-sword-rebirth-of-the-red-wolf"
         }
-      ]
+      ],
+      "photo": "kim-han-min.jpg",
+      "photoCredit": {
+        "licence": "CC BY 3.0",
+        "author": "Lotte Entertainment"
+      }
     },
     {
       "name": "Kim Sang-man",
@@ -34473,7 +34840,9 @@
           "slug": "uprising-2024"
         }
       ],
-      "others": []
+      "others": [],
+      "photo": null,
+      "photoCredit": null
     },
     {
       "name": "Kim Sung-su",
@@ -34524,7 +34893,9 @@
           "year": 2016,
           "slug": "asura-the-city-of-madness-2016"
         }
-      ]
+      ],
+      "photo": null,
+      "photoCredit": null
     },
     {
       "name": "Kinji Fukasaku",
@@ -34850,7 +35221,12 @@
           "year": 2003,
           "slug": "battle-royale-ii-requiem-2003"
         }
-      ]
+      ],
+      "photo": "kinji-fukasaku.jpg",
+      "photoCredit": {
+        "licence": "Public domain",
+        "author": "映画評論社"
+      }
     },
     {
       "name": "Kunihiko Yuyama",
@@ -35046,7 +35422,9 @@
           "year": null,
           "slug": "pok-mon-pikachu-pichu"
         }
-      ]
+      ],
+      "photo": null,
+      "photoCredit": null
     },
     {
       "name": "Larry Charles",
@@ -35061,7 +35439,12 @@
           "slug": "borat-2006"
         }
       ],
-      "others": []
+      "others": [],
+      "photo": "larry-charles.jpg",
+      "photoCredit": {
+        "licence": "CC BY-SA 2.0",
+        "author": "Jeff Karpala from Brampton, Canada"
+      }
     },
     {
       "name": "Lau Kar-leung",
@@ -35202,7 +35585,9 @@
           "year": 2003,
           "slug": "drunken-monkey-2003"
         }
-      ]
+      ],
+      "photo": null,
+      "photoCredit": null
     },
     {
       "name": "Lauren Montgomery",
@@ -35217,7 +35602,9 @@
           "slug": "avatar-aang-the-last-airbender-2026"
         }
       ],
-      "others": []
+      "others": [],
+      "photo": null,
+      "photoCredit": null
     },
     {
       "name": "Lee Byeong-heon",
@@ -35253,7 +35640,12 @@
           "year": 2023,
           "slug": "dream-2023"
         }
-      ]
+      ],
+      "photo": "lee-byeong-heon.png",
+      "photoCredit": {
+        "licence": "CC BY 3.0",
+        "author": "ItsNEWKorea"
+      }
     },
     {
       "name": "Lee Chi-Ngai",
@@ -35268,7 +35660,9 @@
           "slug": "lost-and-found-1996"
         }
       ],
-      "others": []
+      "others": [],
+      "photo": null,
+      "photoCredit": null
     },
     {
       "name": "Lee Chung-hyun",
@@ -35283,7 +35677,9 @@
           "slug": "ballerina-2023"
         }
       ],
-      "others": []
+      "others": [],
+      "photo": null,
+      "photoCredit": null
     },
     {
       "name": "Lee Lik-chee",
@@ -35374,7 +35770,12 @@
           "year": null,
           "slug": "q85879450"
         }
-      ]
+      ],
+      "photo": "lee-lik-chee.jpg",
+      "photoCredit": {
+        "licence": "CC BY-SA 3.0",
+        "author": ".mw-parser-output .ubx-floatdefault[dir=\"ltr\"],.mw-parser-output .ubx-floatopposite[dir=\"rtl\"],.mw-parser-output .ubx-floatleft{float:left}.mw-parser-output .ubx-floatdefault[dir=\"rtl\"],.mw-parser-output .ubx-floatopposite[dir=\"ltr\"],.mw-parser-output .ubx-floatright{float:right}.mw-parser-output .ubx-floatnone{float:none} Iflwlou 拍攝"
+      }
     },
     {
       "name": "Liu Jiayin",
@@ -35389,7 +35790,9 @@
           "slug": "all-ears-2023"
         }
       ],
-      "others": []
+      "others": [],
+      "photo": null,
+      "photoCredit": null
     },
     {
       "name": "Liu Kuo",
@@ -35404,7 +35807,9 @@
           "slug": "the-wind-guardians-2018"
         }
       ],
-      "others": []
+      "others": [],
+      "photo": null,
+      "photoCredit": null
     },
     {
       "name": "Liu Xiang",
@@ -35419,7 +35824,9 @@
           "slug": "lost-in-the-stars-2022"
         }
       ],
-      "others": []
+      "others": [],
+      "photo": null,
+      "photoCredit": null
     },
     {
       "name": "Lo Wei",
@@ -35565,7 +35972,9 @@
           "year": 1983,
           "slug": "fearless-hyena-part-ii-1983"
         }
-      ]
+      ],
+      "photo": null,
+      "photoCredit": null
     },
     {
       "name": "Longman Leung",
@@ -35580,7 +35989,12 @@
           "slug": "cold-war-1994-2026"
         }
       ],
-      "others": []
+      "others": [],
+      "photo": "longman-leung.png",
+      "photoCredit": {
+        "licence": "CC BY 3.0",
+        "author": "SET News"
+      }
     },
     {
       "name": "Lou Ye",
@@ -35646,7 +36060,12 @@
           "year": 2024,
           "slug": "an-unfinished-film-2024"
         }
-      ]
+      ],
+      "photo": "lou-ye.jpg",
+      "photoCredit": {
+        "licence": "CC BY 3.0",
+        "author": "udntv Art 《藝想世界》"
+      }
     },
     {
       "name": "Lulu Wang",
@@ -35667,7 +36086,12 @@
           "year": 2014,
           "slug": "posthumous-2014"
         }
-      ]
+      ],
+      "photo": "lulu-wang.jpg",
+      "photoCredit": {
+        "licence": "CC BY-SA 2.0",
+        "author": "MiamiFilmFestival"
+      }
     },
     {
       "name": "Maggie Kang",
@@ -35682,7 +36106,12 @@
           "slug": "kpop-demon-hunters-2025"
         }
       ],
-      "others": []
+      "others": [],
+      "photo": "maggie-kang.jpg",
+      "photoCredit": {
+        "licence": "CC BY 4.0",
+        "author": "Kevin Paul"
+      }
     },
     {
       "name": "Mamoru Oshii",
@@ -35828,7 +36257,12 @@
           "year": 2015,
           "slug": "t-ky-mukokuseki-sh-jo-2015"
         }
-      ]
+      ],
+      "photo": "mamoru-oshii.jpg",
+      "photoCredit": {
+        "licence": "CC BY-SA 4.0",
+        "author": "Niccolò Caranti"
+      }
     },
     {
       "name": "Mark Osborne",
@@ -35874,7 +36308,12 @@
           "year": 2015,
           "slug": "the-little-prince-2015"
         }
-      ]
+      ],
+      "photo": "mark-osborne.jpg",
+      "photoCredit": {
+        "licence": "CC BY-SA 4.0",
+        "author": "Dulce Osuna"
+      }
     },
     {
       "name": "Martin Campbell",
@@ -36000,7 +36439,12 @@
           "year": 2025,
           "slug": "cleaner-2025"
         }
-      ]
+      ],
+      "photo": "martin-campbell.jpg",
+      "photoCredit": {
+        "licence": "CC BY 2.0",
+        "author": "PopCultureGeek.com"
+      }
     },
     {
       "name": "Michihito Fujii",
@@ -36076,7 +36520,9 @@
           "year": null,
           "slug": "shake-hands"
         }
-      ]
+      ],
+      "photo": null,
+      "photoCredit": null
     },
     {
       "name": "Miloš Forman",
@@ -36172,7 +36618,12 @@
           "year": 2006,
           "slug": "goya-s-ghosts-2006"
         }
-      ]
+      ],
+      "photo": "milo-forman.jpg",
+      "photoCredit": {
+        "licence": "CC BY-SA 3.0",
+        "author": "che (Please credit as \"Petr Novák, Wikipedia\" in case you use this outside Wikimedia projects.)"
+      }
     },
     {
       "name": "Mo Dai",
@@ -36187,7 +36638,9 @@
           "slug": "fireflies-in-the-sun-2021"
         }
       ],
-      "others": []
+      "others": [],
+      "photo": null,
+      "photoCredit": null
     },
     {
       "name": "Naoko Yamada",
@@ -36228,7 +36681,9 @@
           "year": 2024,
           "slug": "the-colors-within-2024"
         }
-      ]
+      ],
+      "photo": null,
+      "photoCredit": null
     },
     {
       "name": "Nick Cheuk",
@@ -36243,7 +36698,12 @@
           "slug": "time-still-turns-the-pages-2023"
         }
       ],
-      "others": []
+      "others": [],
+      "photo": "nick-cheuk.png",
+      "photoCredit": {
+        "licence": "CC BY 3.0",
+        "author": "am730"
+      }
     },
     {
       "name": "Niki Caro",
@@ -36294,7 +36754,12 @@
           "year": null,
           "slug": "memory-desire"
         }
-      ]
+      ],
+      "photo": "niki-caro.jpg",
+      "photoCredit": {
+        "licence": "CC BY-SA 4.0",
+        "author": "AndrewLister1"
+      }
     },
     {
       "name": "Ning Hao",
@@ -36309,7 +36774,12 @@
           "slug": "the-hutong-cowboy-2024"
         }
       ],
-      "others": []
+      "others": [],
+      "photo": "ning-hao.jpg",
+      "photoCredit": {
+        "licence": "CC BY-SA 4.0",
+        "author": "Dian Li"
+      }
     },
     {
       "name": "Nishikant Kamat",
@@ -36324,7 +36794,12 @@
           "slug": "drishyam-2015"
         }
       ],
-      "others": []
+      "others": [],
+      "photo": "nishikant-kamat.jpg",
+      "photoCredit": {
+        "licence": "CC BY 3.0",
+        "author": "Bollywood Hungama"
+      }
     },
     {
       "name": "Pang Ho-cheung",
@@ -36410,7 +36885,12 @@
           "year": 2019,
           "slug": "missbehavior-2019"
         }
-      ]
+      ],
+      "photo": "pang-ho-cheung.jpg",
+      "photoCredit": {
+        "licence": "CC BY 2.0",
+        "author": "Tom Purves from Toronto, Canada"
+      }
     },
     {
       "name": "Park Chan-wook",
@@ -36516,7 +36996,12 @@
           "year": null,
           "slug": "the-brigands-of-rattlecreek"
         }
-      ]
+      ],
+      "photo": "park-chan-wook.jpg",
+      "photoCredit": {
+        "licence": "CC BY-SA 4.0",
+        "author": "YantsImages"
+      }
     },
     {
       "name": "Paul Thomas Anderson",
@@ -36531,7 +37016,12 @@
           "slug": "one-battle-after-another-2025"
         }
       ],
-      "others": []
+      "others": [],
+      "photo": "paul-thomas-anderson.jpg",
+      "photoCredit": {
+        "licence": "CC BY 3.0",
+        "author": "Lyn Fairly Media"
+      }
     },
     {
       "name": "Pete Docter",
@@ -36546,7 +37036,12 @@
           "slug": "monsters-inc-2001"
         }
       ],
-      "others": []
+      "others": [],
+      "photo": "pete-docter.jpg",
+      "photoCredit": {
+        "licence": "CC BY-SA 2.0",
+        "author": "nicolas genin from Paris, France"
+      }
     },
     {
       "name": "Peter Chan",
@@ -36642,7 +37137,12 @@
           "year": 2024,
           "slug": "she-s-got-no-name-2024"
         }
-      ]
+      ],
+      "photo": "peter-chan.jpg",
+      "photoCredit": {
+        "licence": "CC BY-SA 4.0",
+        "author": "Gabriel Hutchinson"
+      }
     },
     {
       "name": "Quentin Tarantino",
@@ -36733,7 +37233,12 @@
           "year": null,
           "slug": "reservoir-dogs-sundance-institute-1991-june-film-lab"
         }
-      ]
+      ],
+      "photo": "quentin-tarantino.jpg",
+      "photoCredit": {
+        "licence": "CC BY-SA 3.0",
+        "author": "Gage Skidmore"
+      }
     },
     {
       "name": "Rajkumar Hirani",
@@ -36774,7 +37279,12 @@
           "year": 2023,
           "slug": "dunki-2023"
         }
-      ]
+      ],
+      "photo": "rajkumar-hirani.jpg",
+      "photoCredit": {
+        "licence": "CC BY 3.0",
+        "author": "Bollywood Hungama"
+      }
     },
     {
       "name": "Randall Park",
@@ -36789,7 +37299,12 @@
           "slug": "shortcomings-2023"
         }
       ],
-      "others": []
+      "others": [],
+      "photo": "randall-park.jpg",
+      "photoCredit": {
+        "licence": "CC BY-SA 2.0",
+        "author": "Greg2600"
+      }
     },
     {
       "name": "Rene Liu",
@@ -36804,7 +37319,9 @@
           "slug": "us-and-them-2018"
         }
       ],
-      "others": []
+      "others": [],
+      "photo": null,
+      "photoCredit": null
     },
     {
       "name": "Rich Moore",
@@ -36840,7 +37357,12 @@
           "year": 2027,
           "slug": "untitled-jack-and-the-beanstalk-project-2027"
         }
-      ]
+      ],
+      "photo": "rich-moore.jpg",
+      "photoCredit": {
+        "licence": "CC BY-SA 2.0",
+        "author": "Gage Skidmore"
+      }
     },
     {
       "name": "Rob Cohen",
@@ -36855,7 +37377,12 @@
           "slug": "dragon-the-bruce-lee-story-1993"
         }
       ],
-      "others": []
+      "others": [],
+      "photo": "rob-cohen.jpg",
+      "photoCredit": {
+        "licence": "Public domain",
+        "author": "U.S. Navy photo by Photographer's Mate 3rd Class Tyler J. Clements"
+      }
     },
     {
       "name": "Robert Zemeckis",
@@ -36996,7 +37523,12 @@
           "year": 2024,
           "slug": "here-2024"
         }
-      ]
+      ],
+      "photo": "robert-zemeckis.jpg",
+      "photoCredit": {
+        "licence": "CC BY 2.0",
+        "author": "Dick Thomas Johnson from Tokyo, Japan"
+      }
     },
     {
       "name": "Ronny Yu",
@@ -37087,7 +37619,9 @@
           "year": 2013,
           "slug": "saving-general-yang-2013"
         }
-      ]
+      ],
+      "photo": null,
+      "photoCredit": null
     },
     {
       "name": "Rupert Wyatt",
@@ -37123,7 +37657,12 @@
           "year": 2025,
           "slug": "desert-warrior-2025"
         }
-      ]
+      ],
+      "photo": "rupert-wyatt.jpg",
+      "photoCredit": {
+        "licence": "CC BY 4.0",
+        "author": "Zafer"
+      }
     },
     {
       "name": "Ryan Coogler",
@@ -37138,7 +37677,12 @@
           "slug": "black-panther-2018"
         }
       ],
-      "others": []
+      "others": [],
+      "photo": "ryan-coogler.jpg",
+      "photoCredit": {
+        "licence": "CC BY 4.0",
+        "author": "Kevin Paul"
+      }
     },
     {
       "name": "Ryusuke Hamaguchi",
@@ -37199,7 +37743,12 @@
           "year": 2026,
           "slug": "all-of-a-sudden-2026"
         }
-      ]
+      ],
+      "photo": "ryusuke-hamaguchi.png",
+      "photoCredit": {
+        "licence": "CC BY-SA 4.0",
+        "author": "Heiyinmatthewlo"
+      }
     },
     {
       "name": "S. S. Rajamouli",
@@ -37275,7 +37824,12 @@
           "year": 2017,
           "slug": "baahubali-2-the-conclusion-2017"
         }
-      ]
+      ],
+      "photo": "s-s-rajamouli.jpg",
+      "photoCredit": {
+        "licence": "CC BY 3.0",
+        "author": "Bollywood Hungama"
+      }
     },
     {
       "name": "Sammo Hung",
@@ -37290,7 +37844,12 @@
           "slug": "enter-the-fat-dragon-1978"
         }
       ],
-      "others": []
+      "others": [],
+      "photo": "sammo-hung.jpg",
+      "photoCredit": {
+        "licence": "CC BY 3.0",
+        "author": "am730"
+      }
     },
     {
       "name": "Sean Baker",
@@ -37341,7 +37900,12 @@
           "year": 2021,
           "slug": "red-rocket-2021"
         }
-      ]
+      ],
+      "photo": "sean-baker.jpg",
+      "photoCredit": {
+        "licence": "CC BY-SA 4.0",
+        "author": "Frank Sun"
+      }
     },
     {
       "name": "Sean Wang",
@@ -37356,7 +37920,9 @@
           "slug": "d-di-2024"
         }
       ],
-      "others": []
+      "others": [],
+      "photo": null,
+      "photoCredit": null
     },
     {
       "name": "Shen Ao",
@@ -37371,7 +37937,9 @@
           "slug": "dead-to-rights-2025"
         }
       ],
-      "others": []
+      "others": [],
+      "photo": null,
+      "photoCredit": null
     },
     {
       "name": "Takeshi Watanabe",
@@ -37386,7 +37954,9 @@
           "slug": "neko-samurai-2014"
         }
       ],
-      "others": []
+      "others": [],
+      "photo": null,
+      "photoCredit": null
     },
     {
       "name": "Tang Cheng",
@@ -37407,7 +37977,9 @@
           "year": 1960,
           "slug": "where-is-mama-1960"
         }
-      ]
+      ],
+      "photo": null,
+      "photoCredit": null
     },
     {
       "name": "Todd Phillips",
@@ -37488,7 +38060,12 @@
           "year": 2024,
           "slug": "joker-folie-deux-2024"
         }
-      ]
+      ],
+      "photo": "todd-phillips.jpg",
+      "photoCredit": {
+        "licence": "CC0",
+        "author": "Thierry Sollerot from Vernon (Eure, Hte Normandie), FRANCE"
+      }
     },
     {
       "name": "Tony Bancroft",
@@ -37524,7 +38101,12 @@
           "year": 2017,
           "slug": "bunyan-and-babe-2017"
         }
-      ]
+      ],
+      "photo": "tony-bancroft.jpg",
+      "photoCredit": {
+        "licence": "CC BY-SA 4.0",
+        "author": "CaseyJNewell"
+      }
     },
     {
       "name": "Um Tae-hwa",
@@ -37550,7 +38132,12 @@
           "year": 2016,
           "slug": "vanishing-time-a-boy-who-returned-2016"
         }
-      ]
+      ],
+      "photo": "um-tae-hwa.png",
+      "photoCredit": {
+        "licence": "CC BY 3.0",
+        "author": "롯데엔터테인먼트 (Lotte Entertainment)"
+      }
     },
     {
       "name": "Wan Laiming",
@@ -37611,7 +38198,9 @@
           "year": 1958,
           "slug": "the-red-flower-1958"
         }
-      ]
+      ],
+      "photo": null,
+      "photoCredit": null
     },
     {
       "name": "Wang Jing",
@@ -37626,7 +38215,9 @@
           "slug": "the-best-is-yet-to-come-2020"
         }
       ],
-      "others": []
+      "others": [],
+      "photo": null,
+      "photoCredit": null
     },
     {
       "name": "Wes Ball",
@@ -37657,7 +38248,12 @@
           "year": 2018,
           "slug": "maze-runner-the-death-cure-2018"
         }
-      ]
+      ],
+      "photo": "wes-ball.jpg",
+      "photoCredit": {
+        "licence": "CC BY-SA 2.0",
+        "author": "Gage Skidmore from Peoria, AZ, United States of America"
+      }
     },
     {
       "name": "Wim Wenders",
@@ -37938,7 +38534,12 @@
           "year": null,
           "slug": "twelve-miles-to-trona"
         }
-      ]
+      ],
+      "photo": "wim-wenders.jpg",
+      "photoCredit": {
+        "licence": "CC BY-SA 3.0",
+        "author": "Martin Kraft"
+      }
     },
     {
       "name": "Wong Jing",
@@ -37953,7 +38554,12 @@
           "slug": "enter-the-fat-dragon-2020"
         }
       ],
-      "others": []
+      "others": [],
+      "photo": "wong-jing.jpg",
+      "photoCredit": {
+        "licence": "CC BY-SA 4.0",
+        "author": "Tombus20032000"
+      }
     },
     {
       "name": "Xavier Gens",
@@ -37968,7 +38574,12 @@
           "slug": "under-paris-2024"
         }
       ],
-      "others": []
+      "others": [],
+      "photo": "xavier-gens.png",
+      "photoCredit": {
+        "licence": "CC BY-SA 2.0",
+        "author": "Iñigo Royo"
+      }
     },
     {
       "name": "Xu Lei",
@@ -37983,7 +38594,9 @@
           "slug": "the-hutong-cowboy-2024"
         }
       ],
-      "others": []
+      "others": [],
+      "photo": null,
+      "photoCredit": null
     },
     {
       "name": "Xuan Liang",
@@ -37998,7 +38611,9 @@
           "slug": "big-fish-begonia-2016"
         }
       ],
-      "others": []
+      "others": [],
+      "photo": null,
+      "photoCredit": null
     },
     {
       "name": "Yang Zhigang",
@@ -38013,7 +38628,9 @@
           "slug": "dahufa-2017"
         }
       ],
-      "others": []
+      "others": [],
+      "photo": null,
+      "photoCredit": null
     },
     {
       "name": "Yasuo Furuhata",
@@ -38028,7 +38645,9 @@
           "slug": "riding-alone-for-thousands-of-miles-2005"
         }
       ],
-      "others": []
+      "others": [],
+      "photo": null,
+      "photoCredit": null
     },
     {
       "name": "Yeon Sang-ho",
@@ -38089,7 +38708,12 @@
           "year": 2026,
           "slug": "colony-2026"
         }
-      ]
+      ],
+      "photo": "yeon-sang-ho.jpg",
+      "photoCredit": {
+        "licence": "CC BY-SA 4.0",
+        "author": "John Sears"
+      }
     },
     {
       "name": "Yu Shui",
@@ -38104,7 +38728,9 @@
           "slug": "nobody-2025"
         }
       ],
-      "others": []
+      "others": [],
+      "photo": null,
+      "photoCredit": null
     },
     {
       "name": "Yuen Woo-ping",
@@ -38270,7 +38896,12 @@
           "year": null,
           "slug": "the-close-encounter-of-the-vampire"
         }
-      ]
+      ],
+      "photo": "yuen-woo-ping.jpg",
+      "photoCredit": {
+        "licence": "CC BY-SA 2.0",
+        "author": "Slackerwood [Photo Credit: Debbie Cerda, for use with attribution]"
+      }
     },
     {
       "name": "Zhao Ji",
@@ -38285,7 +38916,9 @@
           "slug": "white-snake-2019"
         }
       ],
-      "others": []
+      "others": [],
+      "photo": null,
+      "photoCredit": null
     }
   ],
   "characters": [

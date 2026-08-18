@@ -2014,3 +2014,60 @@ a.taste-chip:hover {
 .tile:hover .tile-art {
   opacity: 0.92;
 }
+
+/* --- Director portraits -------------------------------------------------- */
+
+.dir-head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.dir-photo {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex: none;
+  background: var(--panel-2);
+}
+
+.dir-photo.is-blank {
+  border: 1px dashed var(--line);
+  background: transparent;
+}
+
+.director-head {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin: 24px 0 4px;
+}
+
+.director-head .director-name {
+  margin: 0;
+}
+
+.director-photo {
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex: none;
+  background: var(--panel-2);
+  border: 1px solid var(--line);
+}
+
+.photo-credit {
+  margin: 0 0 10px;
+  color: var(--muted);
+  font-size: 0.78rem;
+}
+
+.photo-credit a {
+  color: inherit;
+}
+
+.photo-credit a:hover {
+  color: var(--accent);
+}
