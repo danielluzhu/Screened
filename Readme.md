@@ -308,6 +308,23 @@ Films whose article can't be confidently identified are skipped rather than
 guessed at, the same rule `posters.py` uses, and listed at the end along with
 any summary that came out under five sentences because the article is a stub.
 
+### Directors and Years
+
+`/directors` and `/years` are indexes over the per-item pages that already
+existed at `/director/<slug>` and `/year/<year>` — before these there was no way
+to reach one except from a film.
+
+Directors sort by how many of their films are in the list, tie-broken by the
+best tier they reached, since two films each says less than what those films
+were. Each card carries a badge per tier with a count, so a director you rate
+consistently reads differently from one you rate all over the place, plus how
+many of their other films aren't in the list yet.
+
+Years group into decades. A year page exists for anything with box-office
+figures, not only years you've watched from, so the index defaults to the 46
+years you have watched and can show all 107 — the extra ones muted, because
+they're worth reaching but aren't part of the list.
+
 ### What to watch next
 
 `/suggestions` ranks films you haven't seen against your own ratings. Two lists:

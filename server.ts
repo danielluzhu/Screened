@@ -395,6 +395,20 @@ const server = Bun.serve({
       });
     }
 
+    // Indexes of every director and every year. Checked before the per-item
+    // routes below; "/directors" is not "/director" and never falls through.
+    if (path === "/directors") {
+      return new Response(file(join(ROOT, "public", "directors.html")), {
+        headers: { "content-type": MIME[".html"], "cache-control": "no-store" },
+      });
+    }
+
+    if (path === "/years") {
+      return new Response(file(join(ROOT, "public", "years.html")), {
+        headers: { "content-type": MIME[".html"], "cache-control": "no-store" },
+      });
+    }
+
     if (path === "/year" || path.startsWith("/year/")) {
       return new Response(file(join(ROOT, "public", "year.html")), {
         headers: { "content-type": MIME[".html"], "cache-control": "no-store" },

@@ -40,6 +40,12 @@ BASE = (sys.argv[1] if len(sys.argv) > 1 else os.environ.get("BASE_PATH", "/Scre
 ROUTES = ("film", "show", "character", "director", "year")
 # Directories under public/ that the pages link to with absolute paths.
 ASSETS = ("posters", "logos", "characters", "shows")
+# Pages that are not per-item routes but still need their own directory.
+STANDALONE = (
+    ("suggestions", "What to watch next — Screened"),
+    ("directors", "Directors — Screened"),
+    ("years", "Years — Screened"),
+)
 
 
 def rewrite_js(src: str) -> str:
@@ -122,18 +128,20 @@ def main() -> int:
             n += 1
         counts[route] = n
 
-    # Suggestions is a plain page, not a slug route.
-    sug = OUT / "suggestions"
-    sug.mkdir(exist_ok=True)
-    (sug / "index.html").write_text(
-        rewrite_html((PUBLIC / "suggestions.html").read_text(), "What to watch next — Screened")
-    )
+    # Plain pages, not slug routes: each gets the same real-directory treatment
+    # so /directors and /years answer 200 rather than 404.
+    for name, page_title in STANDALONE:
+        out = OUT / name
+        out.mkdir(exist_ok=True)
+        (out / "index.html").write_text(
+            rewrite_html((PUBLIC / f"{name}.html").read_text(), page_title)
+        )
 
     (OUT / "static.js").write_text(STATIC_JS.replace("__BASE__", BASE))
     (OUT / "404.html").write_text(rewrite_html(NOT_FOUND, "Not found — Screened"))
     (OUT / ".nojekyll").write_text("")
 
-    total = sum(counts.values()) + 2
+    total = sum(counts.values()) + len(STANDALONE) + 1
     print(f"built {total} pages into {OUT.relative_to(ROOT)}/ at base {BASE}/")
     print("  " + ", ".join(f"{k}: {v}" for k, v in counts.items()))
     return 0

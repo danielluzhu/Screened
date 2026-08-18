@@ -1861,3 +1861,135 @@ a.taste-chip:hover {
 .reason-region::before {
   background: #b98ab5;
 }
+
+/* --- Directors and Years indexes ---------------------------------------- */
+
+.dir-grid {
+  list-style: none;
+  margin: 18px 0 0;
+  padding: 0;
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+}
+
+.dir-card {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 12px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.dir-name {
+  color: var(--text);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.05rem;
+}
+
+.dir-name:hover {
+  color: var(--accent);
+}
+
+.dir-tiers {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+/* Badge plus its count, kept together so a wrap never splits the pair. */
+.dir-tier {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  white-space: nowrap;
+}
+
+.dir-tier-n {
+  color: var(--muted);
+  font-size: 0.8rem;
+}
+
+/* Titles are context, not the point of the card — two lines, then clipped. */
+.dir-films {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.85rem;
+  line-height: 1.45;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.dir-meta {
+  margin: 0;
+  display: flex;
+  gap: 10px;
+  color: var(--muted);
+  font-size: 0.85rem;
+  margin-top: auto;
+}
+
+.dir-more::before {
+  content: "·";
+  margin-right: 10px;
+}
+
+.decade {
+  margin: 0 0 26px;
+}
+
+.decade-head {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  margin: 0 0 10px;
+  font-size: 1.15rem;
+}
+
+.year-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.year-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 7px 11px;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--text);
+  text-decoration: none;
+}
+
+.year-chip:hover {
+  border-color: var(--accent);
+}
+
+.year-chip-y {
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+}
+
+.year-chip-n {
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+
+/* Years with box-office figures but nothing watched: still a page, still worth
+   reaching, just not part of the list. */
+.year-chip.is-empty {
+  opacity: 0.55;
+}
+
+.year-chip.is-empty .year-chip-y {
+  font-weight: 500;
+}
