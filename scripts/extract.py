@@ -29,6 +29,10 @@ DST = os.path.join(ROOT, "data.json")
 POSTERS = os.path.join(ROOT, "posters.json")
 FRANCHISES = os.path.join(ROOT, "franchises.json")
 DIRECTORS = os.path.join(ROOT, "directors.json")
+# Written alongside data.json. Kept out of it because only the /other/ pages
+# read this, and folding 40KB gzipped into the payload every page fetches to
+# serve one page type is a poor trade.
+OTHER_FILMS = os.path.join(ROOT, "other-films.json")
 CHAR_PHOTOS = os.path.join(ROOT, "character-photos.json")
 SHOW_PHOTOS = os.path.join(ROOT, "show-photos.json")
 STREAMING = os.path.join(ROOT, "streaming.json")
@@ -309,13 +313,23 @@ def main():
             filmographies = json.load(fh)
 
     directors = []
+    # Films credited to a director that aren't in the list. Keyed by Wikidata id
+    # so one film credited to two directors is one page, not two.
+    other_index = {}
     for name, group in watched_by_director.items():
         known = {norm_title(f["title"]) for f in group}
-        others = [
-            {"title": m["title"], "year": m["year"]}
-            for m in filmographies.get(name, {}).get("films", [])
-            if not m["watched"] and norm_title(m["title"]) not in known
-        ]
+        others = []
+        for m in filmographies.get(name, {}).get("films", []):
+            if m["watched"] or norm_title(m["title"]) in known:
+                continue
+            key = m.get("qid") or f"{norm_title(m['title'])}|{m['year'] or ''}"
+            record = other_index.setdefault(
+                key,
+                {"title": m["title"], "year": m["year"], "qid": m.get("qid"), "by": []},
+            )
+            if name not in record["by"]:
+                record["by"].append(name)
+            others.append({"title": m["title"], "year": m["year"], "key": key})
         others.sort(key=lambda f: (f["year"] is None, f["year"] or 0, f["title"]))
         directors.append(
             {
@@ -326,6 +340,28 @@ def main():
             }
         )
     directors.sort(key=lambda d: (-len(d["films"]), d["name"]))
+
+    # Each of these gets its own page at /other/<slug>. They are deliberately
+    # kept out of `films`, so nothing here lands in the list as unrated — the
+    # only way in is the Add button, which stays a deliberate click.
+    other_films = []
+    seen_other = {}
+    for record in other_index.values():
+        base = film_slug(record["title"], record["year"])
+        n = seen_other.get(base, 0) + 1
+        seen_other[base] = n
+        record["slug"] = base if n == 1 else f"{base}-{n}"
+        record["directors"] = [
+            {"name": who, "slug": film_slug(who)} for who in record.pop("by")
+        ]
+        other_films.append(record)
+    other_films.sort(key=lambda f: (f["title"].lower(), f["year"] or 0))
+
+    # Point each director's list at the page that was just built for it.
+    slug_of = {key: rec["slug"] for key, rec in other_index.items()}
+    for director in directors:
+        for other in director["others"]:
+            other["slug"] = slug_of[other.pop("key")]
 
     # A page per year: films watched from it, plus that year's biggest earners.
     box_office = {}
@@ -443,9 +479,14 @@ def main():
         json.dump(data, fh, indent=2, ensure_ascii=False)
         fh.write("\n")
 
+    with open(OTHER_FILMS, "w") as fh:
+        json.dump(other_films, fh, indent=2, ensure_ascii=False)
+        fh.write("\n")
+
     print(
         f"wrote {DST}: {len(films)} films, {len(characters)} characters, "
         f"{len(shows)} shows, {len(franchises)} franchises, {len(directors)} directors, "
+        f"{len(other_films)} other films, "
         f"{len(years)} years, {len(music)} songs"
     )
 

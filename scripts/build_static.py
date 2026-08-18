@@ -37,7 +37,7 @@ BASE = (sys.argv[1] if len(sys.argv) > 1 else os.environ.get("BASE_PATH", "/Scre
 
 # Client-resolved routes: the server hands each one a shell and the page reads
 # the slug back out of location.pathname.
-ROUTES = ("film", "show", "character", "director", "year")
+ROUTES = ("film", "show", "character", "director", "year", "other")
 # Directories under public/ that the pages link to with absolute paths.
 ASSETS = ("posters", "logos", "characters", "shows")
 # Pages that are not per-item routes but still need their own directory.
@@ -106,6 +106,9 @@ def main() -> int:
     api = OUT / "api"
     api.mkdir()
     shutil.copyfile(ROOT / "data.json", api / "data.json")
+    # Fetched only by the /other/ pages; see extract.py.
+    other_films = json.loads((ROOT / "other-films.json").read_text())
+    shutil.copyfile(ROOT / "other-films.json", api / "other-films.json")
 
     # One real directory per slug, built from the same shell the server serves.
     shells = {r: (PUBLIC / f"{r}.html").read_text() for r in ROUTES}
@@ -116,6 +119,13 @@ def main() -> int:
         ("character", data["characters"], "slug", lambda c: f"{c.get('name', '?')} — Screened"),
         ("director", data["directors"], "slug", lambda d: f"{d.get('name', '?')} — Screened"),
         ("year", data["years"], "year", lambda y: f"{y.get('year')} in film — Screened"),
+        # Not in the list, but each has a page so a filmography can be browsed.
+        (
+            "other",
+            other_films,
+            "slug",
+            lambda f: f"{f.get('title', '?')} ({f.get('year') or '—'}) — not in the list — Screened",
+        ),
     ):
         n = 0
         for item in items:

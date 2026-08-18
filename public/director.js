@@ -98,7 +98,11 @@ function otherRow(film, director) {
   add.title = `Add ${film.title} to your list, unrated`;
   add.setAttribute("aria-label", `Add ${film.title} to your list`);
   add.addEventListener("click", () => addFilm(film, director, add));
-  li.append(text("span", "yr", film.year ?? "—"), text("span", "ttl", film.title), add);
+  // Each of these has a page of its own; it is not in the list, and opening it
+  // doesn't put it there.
+  const link = text("a", "ttl", film.title);
+  link.href = `/other/${film.slug}`;
+  li.append(text("span", "yr", film.year ?? "—"), link, add);
   return li;
 }
 

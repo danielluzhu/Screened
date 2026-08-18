@@ -341,6 +341,27 @@ figures, not only years you've watched from, so the index defaults to the 46
 years you have watched and can show all 107 — the extra ones muted, because
 they're worth reaching but aren't part of the list.
 
+### Other films
+
+Every film in a director's Wikidata filmography that isn't in your list gets its
+own page at `/other/<slug>` — 1,246 of them — so a filmography is browsable
+rather than a flat list of titles. Each page carries the year, its directors
+(linked), a Wikidata link, and the rest of that director's work either side of
+the line.
+
+**These are not in the list.** They live in `other-films.json`, never in
+`films`, and carry no tier, so nothing here reaches the `?` bucket or the Films
+tab. The Add button on the page is the only way in, and it stays a deliberate
+click; the published copy hides it, since writing needs the Python helpers.
+
+They're keyed by Wikidata id, so a film credited to two of your directors is one
+page rather than two — 1,283 filmography entries collapse to 1,246 pages.
+
+`other-films.json` is a separate file rather than a key in `data.json` on
+purpose: it is 41KB gzipped and only the `/other/` pages read it. Folding it in
+would have put that on every page fetch, a 19% increase on the payload the home
+page already pulls.
+
 ### What to watch next
 
 `/suggestions` ranks films you haven't seen against your own ratings. Two lists:

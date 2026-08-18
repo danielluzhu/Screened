@@ -155,6 +155,14 @@ const server = Bun.serve({
     const url = new URL(req.url);
     let path = decodeURIComponent(url.pathname);
 
+    // Only the /other/ pages read this, so it is its own fetch rather than
+    // weight on every page's /api/data.
+    if (path === "/api/other-films.json") {
+      return Response.json(await file(join(ROOT, "other-films.json")).json(), {
+        headers: { "cache-control": "no-store" },
+      });
+    }
+
     if (path === "/api/data") {
       return Response.json(await loadData(), { headers: { "cache-control": "no-store" } });
     }
@@ -423,6 +431,14 @@ const server = Bun.serve({
 
     if (path === "/character" || path.startsWith("/character/")) {
       return new Response(file(join(ROOT, "public", "character.html")), {
+        headers: { "content-type": MIME[".html"], "cache-control": "no-store" },
+      });
+    }
+
+    // A page for each film in a director's filmography that isn't in the list.
+    // Served from its own route so these never mix with /film/<slug>.
+    if (path === "/other" || path.startsWith("/other/")) {
+      return new Response(file(join(ROOT, "public", "other.html")), {
         headers: { "content-type": MIME[".html"], "cache-control": "no-store" },
       });
     }
