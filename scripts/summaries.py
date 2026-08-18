@@ -6,9 +6,13 @@
     python3 scripts/summaries.py --force            # refetch ones already saved
     python3 scripts/summaries.py --dry-run          # print, don't write
     python3 scripts/summaries.py --lead-only        # skip the slow reception pass
+    python3 scripts/summaries.py --resplit          # re-sort stored text, offline
 
 The text is Wikipedia's, not ours and not invented: the lead section for what
-the film is, then its critical response for how it landed. Writing these from a
+the film is, then its critical response for how it landed. Each summary is
+stored in two halves — `story` and `reception` — because the film page shows
+them as separate blocks; the halves are decided per sentence by content, since
+a Wikipedia lead usually closes on scores and takings. Writing these from a
 model's own memory would mean inventing box-office figures and review scores for
 189 films, most of them not English-language — so this quotes a source instead
 and records the article it came from.
@@ -162,8 +166,48 @@ def lead_sentences(intro):
     return all_of[:LEAD_OPENING] + all_of[-LEAD_CLOSING:]
 
 
+# Sentences that are about how the film landed rather than what it is. A
+# Wikipedia lead habitually closes on scores and takings, so the structural
+# halves (lead vs Reception section) do not line up with the two kinds of
+# reading — classify by content instead.
+RECEPTION_MARKERS = (
+    r"rotten tomatoes", r"metacritic", r"cinemascore",
+    r"\bcritics?\b", r"\bcritical\b", r"\breviews?\b", r"\breviewers?\b",
+    r"\bacclaim", r"\bpraise", r"\bpanned\b", r"\bcriticis", r"\bcriticiz",
+    r"\bbox office\b", r"\bgross", r"\bearned\b", r"\bbudget\b",
+    r"\brevenue\b", r"\bopening weekend\b", r"\bmillion\b", r"\bbillion\b",
+    r"[$\u20ac\u00a3\u00a5\u20a9\u20b9]",
+    r"\baward", r"\bnominat", r"\boscars?\b", r"academy award",
+    r"golden globe", r"\bbafta\b", r"palme d'or", r"\bgrand prix\b",
+    r"\baudiences?\b", r"\bviewership\b",
+    # Rankings and best-of lists are reception, and so is a quoted critic.
+    r"\branked\b", r"\brated\b", r"\bpolls?\b", r"\bconsensus\b",
+    r"\bgreatest films?\b", r"\bbest films?\b", r"\bbest movies?\b",
+    r"\baccolade", r"\bstated:", r"\bwrote:", r"\bsaid:", r"\bcalled it\b",
+    r"\bdescribed it as\b",
+)
+RECEPTION_RE = re.compile("|".join(RECEPTION_MARKERS), re.IGNORECASE)
+
+
+def partition(picked):
+    """Split chosen sentences into what the film is and how it landed.
+
+    The opening sentence is always "X is a YEAR film directed by ..." — it
+    stays on the story side whatever else it happens to mention.
+    """
+    story, reception = [], []
+    for i, sentence in enumerate(picked):
+        (reception if i and RECEPTION_RE.search(sentence) else story).append(sentence)
+    return " ".join(story), " ".join(reception)
+
+
 def compose(text):
-    """5–10 sentences: what the film is, then how it was received."""
+    """5–10 sentences in two halves: what the film is, then how it landed.
+
+    The halves are returned apart because they read differently — the story is
+    the premise, the reception is scores and takings — and the film page shows
+    them as separate blocks.
+    """
     lead = lead_sentences(intro_of(text))
 
     received = []
@@ -173,20 +217,26 @@ def compose(text):
             received = sentences(body)[:FROM_RECEPTION]
             break
 
-    picked = lead + received
     # Short lead and no reception section: take more of the article's opening
     # rather than return something under the floor.
-    if len(picked) < MIN_SENTENCES:
-        picked = sentences(intro_of(text))[:MAX_SENTENCES]
-    picked = picked[:MAX_SENTENCES]
+    if len(lead) + len(received) < MIN_SENTENCES:
+        lead = sentences(intro_of(text))[:MAX_SENTENCES]
+        received = []
 
-    summary = " ".join(picked)
-    if len(summary) > MAX_CHARS:
-        # Trim whole sentences, never mid-word.
-        while len(summary) > MAX_CHARS and len(picked) > MIN_SENTENCES:
-            picked.pop()
-            summary = " ".join(picked)
-    return summary, len(picked), bool(received)
+    lead = lead[:MAX_SENTENCES]
+    received = received[: max(0, MAX_SENTENCES - len(lead))]
+
+    # Trim whole sentences, never mid-word, and drop reception before story:
+    # losing the last score costs less than losing what the film is about.
+    while (
+        len(" ".join(lead + received)) > MAX_CHARS
+        and len(lead) + len(received) > MIN_SENTENCES
+    ):
+        (received or lead).pop()
+
+    picked = lead + received
+    story, reception = partition(picked)
+    return " ".join(picked), story, reception, len(picked), bool(received)
 
 
 def url_for(article):
@@ -241,11 +291,56 @@ def resolve_articles(films, index):
     return articles
 
 
+def resplit(dry_run=False):
+    """Sort the summaries already on disk into story and reception halves.
+
+    No network: the sentences were chosen when they were fetched, so this only
+    decides which half each one belongs in. Backfills entries written before
+    the split existed, and re-runs cheaply whenever the markers change.
+    """
+    if not os.path.exists(DST):
+        sys.exit("no summaries.json yet — run without --resplit first")
+    with open(DST) as fh:
+        index = json.load(fh)
+
+    changed = 0
+    for entry in index.values():
+        summary = entry.get("summary")
+        if not summary:
+            continue
+        was = entry.get("reception")
+        if isinstance(was, bool):
+            # Older schema used this field for "found a reception section".
+            entry.setdefault("hasReception", was)
+            was = None
+        story, reception = partition(sentences(summary))
+        entry.setdefault("hasReception", bool(reception))
+        if entry.get("story") != story or was != reception:
+            changed += 1
+        entry["story"] = story
+        entry["reception"] = reception
+
+    print(f"{changed} of {len(index)} entries re-split")
+    if dry_run:
+        print("--dry-run: nothing written")
+        return 0
+    tmp = DST + ".tmp"
+    with open(tmp, "w") as fh:
+        json.dump(index, fh, indent=2, ensure_ascii=False, sort_keys=True)
+        fh.write("\n")
+    os.replace(tmp, DST)
+    return 0
+
+
 def main():
     args = sys.argv[1:]
     force = "--force" in args
     dry_run = "--dry-run" in args
     lead_only = "--lead-only" in args
+
+    # Offline: re-sort what is already stored, no fetching.
+    if "--resplit" in args:
+        return resplit(dry_run)
 
     only_title = only_year = None
     if "--film" in args:
@@ -296,11 +391,15 @@ def main():
         if (title, year) not in articles:
             skipped.append(f"{title} ({year})" if year else title)
 
-    def record(title, year, article, summary, count, had_reception):
+    def record(title, year, article, summary, story, reception, count, had_reception):
         index[io.film_key(title, year)] = {
+            "story": story,
+            "reception": reception,
+            # The sentences in their original order, so anything still reading
+            # the single old field keeps working.
             "summary": summary,
             "sentences": count,
-            "reception": had_reception,
+            "hasReception": had_reception,
             "article": article,
             "url": url_for(article),
             "source": "Wikipedia (CC BY-SA 4.0)",
@@ -319,11 +418,11 @@ def main():
             skipped.append(label)
             print(f"  ! {label} — no lead section", flush=True)
             continue
-        summary, count, _ = compose(intro)
+        summary, story, reception, count, _ = compose(intro)
         if not summary:
             skipped.append(label)
             continue
-        record(title, year, article, summary, count, False)
+        record(title, year, article, summary, story, reception, count, False)
         written += 1
     if written and not dry_run:
         save()
@@ -338,7 +437,7 @@ def main():
         need = [
             (f, a)
             for f, a in pending
-            if not (index.get(io.film_key(*f)) or {}).get("reception")
+            if not (index.get(io.film_key(*f)) or {}).get("hasReception")
         ]
         print(f"pass 2: reception for {len(need)} film(s)")
         for n, ((title, year), article) in enumerate(need, 1):
@@ -347,10 +446,10 @@ def main():
             if not text:
                 print(f"  ! {label} — full text unavailable, keeping the lead", flush=True)
                 continue
-            summary, count, had_reception = compose(text)
+            summary, story, reception, count, had_reception = compose(text)
             if not summary:
                 continue
-            record(title, year, article, summary, count, had_reception)
+            record(title, year, article, summary, story, reception, count, had_reception)
             if not had_reception:
                 no_reception.append(label)
             print(

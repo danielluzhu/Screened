@@ -260,14 +260,30 @@ copy.
 ### Summaries
 
 Each film page carries 5–10 sentences on what the film is and how it was
-received, under a *Summary* heading above your own Notes.
+received, under a *Summary* heading above your own Notes, split into a **Story**
+block and a **Reception** block.
 
 ```sh
 python3 scripts/summaries.py                  # every film missing one
 python3 scripts/summaries.py --film "Parasite" --year 2019
 python3 scripts/summaries.py --lead-only      # skip the slow reception pass
+python3 scripts/summaries.py --resplit        # re-sort stored text, no network
 python3 scripts/summaries.py --dry-run
 ```
+
+The two halves are decided per sentence by content, not by which section the
+sentence came from. A Wikipedia lead habitually closes on scores, takings and
+awards, so splitting structurally would leave those sitting in the premise —
+`RECEPTION_MARKERS` in `summaries.py` is what sorts them. The opening sentence
+is always "X is a YEAR film directed by …", so it stays with the story whatever
+else it mentions. Both halves are stored in `summaries.json`, along with
+`summary` — the same sentences in their original order, kept for anything
+reading the older single field.
+
+`--resplit` re-sorts what is already on disk without fetching anything, so
+adjusting the markers costs one offline run rather than 185 Wikipedia requests.
+Films whose summary has no reception content at all (14 of them) simply render
+the one block.
 
 **The text is Wikipedia's, not invented.** Writing these from a model's own
 memory would mean making up box-office figures and review scores for 190-odd

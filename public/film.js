@@ -93,11 +93,28 @@ function streamingRow(item) {
 // words — the two should never be mistaken for each other.
 function summaryBox(film) {
   const entry = film.summary;
-  if (!entry?.summary) return null;
+  if (!entry?.summary && !entry?.story) return null;
 
   const box = text("section", "summary");
   box.append(text("h2", null, "Summary"));
-  box.append(text("p", "summary-text", entry.summary));
+
+  // What the film is and how it landed are different kinds of reading — a
+  // premise versus scores and takings — so they get their own blocks. Entries
+  // written before summaries.py split them carry only the joined text.
+  const parts = entry.story
+    ? [
+        ["Story", entry.story],
+        ["Reception", entry.reception],
+      ]
+    : [[null, entry.summary]];
+
+  for (const [label, body] of parts) {
+    if (!body) continue;
+    const part = text("div", "summary-part");
+    if (label) part.append(text("h3", "summary-label", label));
+    part.append(text("p", "summary-text", body));
+    box.append(part);
+  }
 
   const credit = text("p", "summary-credit");
   credit.append(document.createTextNode("From "));
