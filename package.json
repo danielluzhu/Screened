@@ -1,7 +1,7 @@
 {
-  "name": "favorites",
+  "name": "screened",
   "version": "1.0.0",
-  "description": "A site tracking my favorite films, shows, and characters",
+  "description": "Screened — a site tracking my favorite films, shows, and characters",
   "private": true,
   "scripts": {
     "start": "bun run server.ts",

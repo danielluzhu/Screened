@@ -1,7 +1,15 @@
-This is a website that tracks my favorite films, shows, characters.
+# Screened
+
+A website that tracks my favorite films, shows and characters.
 <https://danielluzhu.github.io/Screened/>
 
 Basically a place for me to fanboy or critique.
+
+Two names that deliberately did not change with it: `Favorites.numbers` is the
+Numbers document itself — the source of truth, and a file that exists under that
+name outside this repo — and the `favorites` systemd unit and tmux session are
+running processes on this box. Renaming either is a separate job from renaming
+the site, and touches the write path rather than the branding.
 
 ## Running
 
@@ -112,6 +120,19 @@ the art already links to the same place, so the wrapper (`.art-link`) is
 `aria-hidden` and `tabindex="-1"` — otherwise every card would be read out twice
 and take two tab stops to get past. Suggestion cards are the exception: those
 films aren't in the list, carry no slug, and have no page to reach.
+
+### Masthead
+
+The wordmark sits under a gold eyebrow and over a short gradient rule, with a
+warm glow behind it — light thrown from a projector, which is the one image the
+name earns. The glow is anchored to the content column rather than the viewport,
+so it stays behind the title instead of drifting to whatever is right of centre
+on a wide screen, and it's scoped off `.film-masthead`, where the header is only
+a back link.
+
+The tabs lost their folder borders for a single underline indicator, gold on the
+active one. Fewer lines competing with the artwork below, and one unambiguous
+mark for where you are.
 
 ### Theme
 

@@ -14,7 +14,7 @@ import urllib.parse
 import urllib.request
 
 API = "https://www.wikidata.org/w/api.php"
-UA = "FavoritesSite/1.0 (personal film list)"
+UA = "ScreenedSite/1.0 (personal film list)"
 
 _last_call = [0.0]
 MIN_GAP = 1.2  # seconds between requests; the API 429s well below its docs

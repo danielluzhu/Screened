@@ -343,7 +343,7 @@ async function init() {
     el("main").replaceChildren(text("p", "empty", `Couldn't load the data (${err.message}).`));
     return;
   }
-  document.title = "What to watch next — Favorites";
+  document.title = "What to watch next — Screened";
   render(data);
 }
 

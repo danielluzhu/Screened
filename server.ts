@@ -509,4 +509,4 @@ const server = Bun.serve({
   },
 });
 
-console.log(`Favorites running at http://localhost:${server.port}`);
+console.log(`Screened running at http://localhost:${server.port}`);

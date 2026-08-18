@@ -36,9 +36,73 @@ body {
 }
 
 .masthead {
+  position: relative;
   border-bottom: 1px solid var(--line);
   background: linear-gradient(180deg, var(--panel), var(--bg));
-  padding: 36px 0 0;
+  padding: 52px 0 0;
+  overflow: hidden;
+}
+
+/* Light thrown from a projector, which is the one image the name earns. Sits
+   behind the text, never takes a click, and is skipped on the detail pages
+   where the masthead is only a back link. */
+.masthead:not(.film-masthead) > .wrap::before {
+  content: "";
+  position: absolute;
+  top: -300px;
+  left: -140px;
+  width: 760px;
+  max-width: 130%;
+  height: 520px;
+  background: radial-gradient(
+    ellipse 55% 50% at 40% 100%,
+    rgba(255, 214, 138, 0.26),
+    rgba(224, 179, 74, 0.09) 42%,
+    rgba(224, 179, 74, 0.025) 64%,
+    transparent 78%
+  );
+  pointer-events: none;
+}
+
+/* Above the glow. */
+.masthead > .wrap {
+  position: relative;
+}
+
+.eyebrow {
+  margin: 0 0 10px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--accent);
+  opacity: 0.85;
+}
+
+.masthead + main {
+  margin-top: 26px;
+}
+
+.wordmark {
+  margin: 0;
+  font-size: clamp(2.6rem, 7vw, 4rem);
+  line-height: 0.95;
+  font-weight: 700;
+  letter-spacing: -0.035em;
+  color: var(--text);
+}
+
+/* A thin gate of light under the wordmark: bright where the title starts, gone
+   by the time it reaches the edge. */
+.wordmark::after {
+  content: "";
+  display: block;
+  width: 180px;
+  max-width: 60%;
+  height: 2px;
+  margin-top: 18px;
+  border-radius: 2px;
+  background: linear-gradient(90deg, var(--accent), rgba(224, 179, 74, 0));
 }
 
 h1 {
@@ -48,37 +112,68 @@ h1 {
 }
 
 .tagline {
-  margin: 6px 0 20px;
+  margin: 16px 0 0;
+  max-width: 46ch;
   color: var(--muted);
+  font-size: 1.02rem;
+  line-height: 1.55;
+  text-wrap: pretty;
 }
 
 .tabs {
   display: flex;
-  gap: 4px;
+  flex-wrap: wrap;
+  gap: 2px;
+  margin-top: 30px;
 }
 
 .tab {
+  position: relative;
   appearance: none;
-  border: 1px solid transparent;
-  border-bottom: none;
+  border: 0;
   background: none;
   color: var(--muted);
   font: inherit;
   font-weight: 600;
-  padding: 10px 16px;
+  font-size: 0.95rem;
+  padding: 12px 14px 14px;
   border-radius: 8px 8px 0 0;
   cursor: pointer;
+  transition: color 0.16s ease;
+}
+
+/* The indicator, drawn flush with the masthead's own bottom border. */
+.tab::after {
+  content: "";
+  position: absolute;
+  left: 14px;
+  right: 14px;
+  bottom: 0;
+  height: 2px;
+  border-radius: 2px;
+  background: transparent;
+  transition: background-color 0.16s ease;
 }
 
 .tab:hover {
   color: var(--text);
 }
 
+.tab:hover::after {
+  background: var(--line);
+}
+
+.tab:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: -3px;
+}
+
 .tab.is-active {
-  background: var(--bg);
-  border-color: var(--line);
   color: var(--text);
-  margin-bottom: -1px;
+}
+
+.tab.is-active::after {
+  background: var(--accent);
 }
 
 main {

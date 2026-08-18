@@ -72,7 +72,7 @@ function grossRow(film, rank) {
 }
 
 function render(entry, data) {
-  document.title = `${entry.year} — Favorites`;
+  document.title = `${entry.year} — Screened`;
   const main = el("main");
   main.replaceChildren();
 

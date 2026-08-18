@@ -64,7 +64,7 @@ function artLink(art, href) {
 }
 
 function render(show, data) {
-  document.title = `${show.name} — Favorites`;
+  document.title = `${show.name} — Screened`;
   const main = el("main");
   main.replaceChildren();
 

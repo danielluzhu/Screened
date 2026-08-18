@@ -129,7 +129,7 @@ function summaryBox(film) {
 }
 
 function render(film, data) {
-  document.title = `${film.title} — Favorites`;
+  document.title = `${film.title} — Screened`;
   const main = el("main");
   main.replaceChildren();
 

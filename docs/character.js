@@ -29,7 +29,7 @@ async function post(url, body) {
 }
 
 function render(character, data) {
-  document.title = `${character.name} — Favorites`;
+  document.title = `${character.name} — Screened`;
   const main = el("main");
   main.replaceChildren();
 

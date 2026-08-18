@@ -107,7 +107,7 @@ function otherRow(film, director) {
 }
 
 function render(director) {
-  document.title = `${director.name} — Favorites`;
+  document.title = `${director.name} — Screened`;
   const main = el("main");
   main.replaceChildren();
 
