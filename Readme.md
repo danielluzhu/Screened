@@ -133,6 +133,11 @@ The tabs lost their folder borders for a single underline indicator, gold on the
 active one. Fewer lines competing with the artwork below, and one unambiguous
 mark for where you are.
 
+`.tabs` carries a negative left margin of exactly one tab's side padding, so the
+first tab's text sits on the same left edge as the eyebrow, wordmark and tagline
+above it. Without it the row started 15px inside the rest of the header, which
+is small enough to look like a mistake rather than a margin.
+
 ### Theme
 
 Black, always. The `prefers-color-scheme: light` palette is gone: the page is
@@ -194,6 +199,25 @@ it matched *Yiyi* to *The Wandering Earth*.
 
 Images land in `public/posters/` with an index in `posters.json`. Films without
 one render a dashed placeholder rather than shifting the layout.
+
+A few arrive with a thin white frame around the artwork. The tiles crop to 2:3
+with `object-fit: cover`, so a frame on whichever axis *isn't* cropped survives,
+and against a black page two white pixels read as a bar across the card — which
+is what *Ip Man* looked like:
+
+```sh
+python3 scripts/trim_posters.py --dry-run    # report
+python3 scripts/trim_posters.py              # trim them
+```
+
+It removes a *frame*, never a background. An edge has to be light and flat along
+its whole length, and at most 3% of that dimension — a frame always is, a
+light-coloured poster like *Forrest Gump* never is, so its white margin loses ten
+pixels and its artwork nothing. Flatness is measured between the 5th and 95th
+percentile of the line rather than its outright range: JPEG noise puts a clean
+white line anywhere in 245-255, and one stray dark pixel shouldn't save a border.
+That last detail is what first let *Ip Man*'s bottom edge through. 49 of 296
+posters had one. Needs Pillow.
 
 Note these are non-free posters that Wikipedia hosts under fair use. A local copy
 for a private list is comparable use; check that still holds before putting this

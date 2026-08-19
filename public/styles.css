@@ -140,6 +140,10 @@ h1 {
   flex-wrap: wrap;
   gap: 2px;
   margin-top: 30px;
+  /* Pull the row back by one tab's side padding so the first tab's text sits on
+     the same left edge as the eyebrow, wordmark and tagline above it, rather
+     than 14px inside them. */
+  margin-left: -14px;
 }
 
 .tab {
