@@ -83,28 +83,7 @@ body {
   margin-top: 26px;
 }
 
-/* Every page that is its own destination in the nav carries the same bar: the
-   wordmark home, then the same tabs, with the current one marked. Shorter than
-   the home masthead — the eyebrow and tagline are the front page's pitch, and
-   repeating them above a list of directors would only push the list down. */
-.masthead-sub {
-  padding: 22px 0 0;
-}
-
-.masthead-sub .wordmark {
-  font-size: 1.45rem;
-  letter-spacing: -0.02em;
-}
-
-/* No gradient rule under a wordmark this size. */
-.masthead-sub .wordmark::after {
-  display: none;
-}
-
-.masthead-sub .tabs {
-  margin-top: 16px;
-}
-
+/* The wordmark links home from every page that isn't the front page. */
 .wordmark-link {
   display: inline-block;
   text-decoration: none;

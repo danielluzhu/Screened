@@ -346,14 +346,18 @@ any summary that came out under five sentences because the article is a stub.
 existed at `/director/<slug>` and `/year/<year>` — before these there was no way
 to reach one except from a film.
 
-They and `/suggestions` carry the site's own top bar rather than a lone back
-link: the wordmark home, then the same tabs the front page shows, with the
-current one marked `is-active` and `aria-current`. The four front-page views are
-tabs of one page, so from here they are links to `/#franchises` and the rest,
-which the front page reads off the hash on load. The bar is shorter than the
-home masthead — the eyebrow, tagline and projector glow are the front page's
-pitch, and repeating them above a list of directors would only push the list
-down.
+They and `/suggestions` carry the front page's masthead verbatim — eyebrow,
+wordmark, tagline, glow and tabs — with the current tab marked `is-active` and
+`aria-current`. Above the tab row the three render byte-identical to the front
+page. The wordmark is a link rather than an `h1` here, since each of these pages
+already has its own `h1` in the body.
+
+The four front-page views are tabs of one page, so from these pages they are
+links to `/#franchises` and the rest, which the front page reads off the hash on
+load.
+
+The detail pages — `/film/<slug>` and the rest — still use `.film-masthead`, a
+back link and nothing else.
 
 Directors sort on what you've rated, better tiers first: more `S` films puts a
 director ahead however many `A` films the next one has, more `A` breaks that
