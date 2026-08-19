@@ -40,11 +40,16 @@ BASE = (sys.argv[1] if len(sys.argv) > 1 else os.environ.get("BASE_PATH", "/Scre
 ROUTES = ("film", "show", "character", "director", "year", "other")
 # Directories under public/ that the pages link to with absolute paths.
 ASSETS = ("posters", "logos", "characters", "shows", "portraits")
-# Pages that are not per-item routes but still need their own directory.
+# Pages that are not per-item routes but still need their own directory, as
+# (url segment, source file in public/, title). The three views share the front
+# page's markup — app.js picks which one to show from the path.
 STANDALONE = (
-    ("suggestions", "What to watch next — Screened"),
-    ("directors", "Directors — Screened"),
-    ("years", "Years — Screened"),
+    ("suggestions", "suggestions.html", "What to watch next — Screened"),
+    ("directors", "directors.html", "Directors — Screened"),
+    ("years", "years.html", "Years — Screened"),
+    ("franchises", "index.html", "Franchises — Screened"),
+    ("characters", "index.html", "Characters — Screened"),
+    ("shows", "index.html", "Shows — Screened"),
 )
 
 
@@ -140,11 +145,13 @@ def main() -> int:
 
     # Plain pages, not slug routes: each gets the same real-directory treatment
     # so /directors and /years answer 200 rather than 404.
-    for name, page_title in STANDALONE:
+    for name, source, page_title in STANDALONE:
         out = OUT / name
-        out.mkdir(exist_ok=True)
+        # characters/ and shows/ already exist as image directories; the page
+        # sits alongside the artwork rather than replacing it.
+        out.mkdir(parents=True, exist_ok=True)
         (out / "index.html").write_text(
-            rewrite_html((PUBLIC / f"{name}.html").read_text(), page_title)
+            rewrite_html((PUBLIC / source).read_text(), page_title)
         )
 
     (OUT / "static.js").write_text(STATIC_JS.replace("__BASE__", BASE))

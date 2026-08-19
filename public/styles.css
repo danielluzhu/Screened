@@ -147,6 +147,9 @@ h1 {
   appearance: none;
   border: 0;
   background: none;
+  /* Every tab is a link now, so the underline the indicator provides is the
+     only one wanted. */
+  text-decoration: none;
   color: var(--muted);
   font: inherit;
   font-weight: 600;
@@ -1596,11 +1599,6 @@ li.gross .seen {
 /* --- What to watch next ------------------------------------------------ */
 
 /* A tab that leaves the page rather than switching views. */
-.tab-link {
-  text-decoration: none;
-  display: inline-block;
-}
-
 .taste {
   background: var(--panel);
   border: 1px solid var(--line);

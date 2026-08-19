@@ -403,6 +403,16 @@ const server = Bun.serve({
       });
     }
 
+    // Franchises, Characters and Shows are views of the front page's markup,
+    // each on its own URL so every tab in the nav navigates the same way.
+    // Exact matches only: "/characters/itachi.webp" is an image and still falls
+    // through to the static handler below, as does "/shows/bleach.jpg".
+    if (path === "/franchises" || path === "/characters" || path === "/shows") {
+      return new Response(file(join(ROOT, "public", "index.html")), {
+        headers: { "content-type": MIME[".html"], "cache-control": "no-store" },
+      });
+    }
+
     // Indexes of every director and every year. Checked before the per-item
     // routes below; "/directors" is not "/director" and never falls through.
     if (path === "/directors") {

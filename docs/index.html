@@ -17,15 +17,13 @@
           and somewhere to complain.
         </p>
         <nav class="tabs" id="tabs">
-          <button class="tab is-active" data-view="films">Films</button>
-          <button class="tab" data-view="franchises">Franchises</button>
-          <button class="tab" data-view="characters">Characters</button>
-          <button class="tab" data-view="shows">Shows</button>
-          <!-- Own pages, not views: each is an index over the detail pages. -->
-          <a class="tab tab-link" href="/Screened/directors">Directors</a>
-          <a class="tab tab-link" href="/Screened/years">Years</a>
-          <!-- Its own page, not a view: the ranking is computed server-side. -->
-          <a class="tab tab-link" href="/Screened/suggestions">What to watch next</a>
+          <a class="tab is-active" data-view="films" href="/Screened/" aria-current="page">Films</a>
+          <a class="tab" data-view="franchises" href="/Screened/franchises">Franchises</a>
+          <a class="tab" data-view="characters" href="/Screened/characters">Characters</a>
+          <a class="tab" data-view="shows" href="/Screened/shows">Shows</a>
+          <a class="tab" href="/Screened/directors">Directors</a>
+          <a class="tab" href="/Screened/years">Years</a>
+          <a class="tab" href="/Screened/suggestions">What to watch next</a>
         </nav>
       </div>
     </header>

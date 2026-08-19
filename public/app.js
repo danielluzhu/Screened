@@ -902,14 +902,31 @@ function setupAddForm() {
   });
 }
 
+const VIEWS = ["films", "franchises", "characters", "shows"];
+
+// Each of these is its own URL — /franchises, /characters, /shows — served the
+// same HTML, with the view picked here. Matching on the end of the path rather
+// than the whole of it keeps this working under the /Screened base the
+// published copy is served from, with no rewriting.
+function currentView() {
+  const path = location.pathname.replace(/\/$/, "");
+  for (const name of VIEWS) {
+    if (path.endsWith(`/${name}`)) return name;
+  }
+  // Links from before these were pages.
+  const hash = location.hash.slice(1);
+  return VIEWS.includes(hash) ? hash : "films";
+}
+
 function setView(view) {
   for (const tab of el("tabs").children) {
     tab.classList.toggle("is-active", tab.dataset.view === view);
+    if (tab.dataset.view === view) tab.setAttribute("aria-current", "page");
+    else tab.removeAttribute("aria-current");
   }
-  for (const name of ["films", "franchises", "characters", "shows"]) {
+  for (const name of VIEWS) {
     el(`view-${name}`).hidden = name !== view;
   }
-  location.hash = view === "films" ? "" : view;
 }
 
 function fail(message) {
@@ -996,11 +1013,6 @@ async function init() {
     renderCharacters();
   });
 
-  el("tabs").addEventListener("click", (e) => {
-    const tab = e.target.closest(".tab");
-    if (tab) setView(tab.dataset.view);
-  });
-
   setupAddForm();
   setupCharacterForm();
   setupShowForm();
@@ -1009,8 +1021,7 @@ async function init() {
   safely("characters", renderCharacters);
   safely("shows", renderShows);
 
-  const hash = location.hash.slice(1);
-  if (["franchises", "characters", "shows"].includes(hash)) setView(hash);
+  setView(currentView());
 }
 
 init();
