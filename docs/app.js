@@ -1,22 +1,11 @@
 const el = (id) => document.getElementById(id);
 
-let DATA = { films: [], characters: [], shows: [], music: [], tierOrder: [], regions: [] };
+let DATA = { films: [], characters: [], shows: [], tierOrder: [], regions: [] };
 
 const state = { query: "", region: "all", genre: "all", service: "all", sort: "tier" };
 
 // Characters have their own sort; "tier" is the ranked view.
 const charState = { sort: "tier" };
-
-// Music mirrors the films filters, with artist/album/country/genre in place of
-// region/genre. The genre filtered on is the album's, not the single's.
-const musicState = {
-  query: "",
-  artist: "all",
-  album: "all",
-  country: "all",
-  genre: "all",
-  sort: "tier",
-};
 
 function text(tag, cls, value) {
   const node = document.createElement(tag);
@@ -278,8 +267,7 @@ function titleField(film) {
 // the filters and on the detail pages, not drawn over artwork.
 //
 // `wide` picks the aspect ratio, which follows what the art actually is: film
-// posters and character portraits are tall, show banners are wide, and a music
-// tile has no art at all so a tall empty box would just be dead space.
+// posters and character portraits are tall, show banners are wide.
 function tile({ art, badge, title, lines = [], wide = false, href = null }) {
   const card = text("article", wide ? "tile is-wide" : "tile");
 
@@ -826,8 +814,6 @@ async function reload() {
   DATA = await res.json();
   renderFilms();
   renderFranchises();
-  fillMusicFilters();
-  renderMusic();
 }
 
 // The poster is fetched after the film is added, so watch for it to appear
@@ -916,256 +902,11 @@ function setupAddForm() {
   });
 }
 
-// --- music ----------------------------------------------------------------
-
-async function saveSongRating(song, tier, select) {
-  const previous = song.tier;
-  song.tier = tier;
-  select.dataset.tier = tier;
-  select.classList.add("is-saving");
-  select.disabled = true;
-  try {
-    const res = await fetch("/Screened/api/music/rating", {
-      method: "POST",
-      headers: { "content-type": "application/json" },
-      // Artist included so the write hits the right row when titles repeat.
-      body: JSON.stringify({ song: song.song, artist: song.artist, tier }),
-    });
-    const result = await res.json().catch(() => ({ ok: false, error: `HTTP ${res.status}` }));
-    if (!res.ok || !result.ok) throw new Error(result.error || `HTTP ${res.status}`);
-    select.classList.add("is-saved");
-    setTimeout(() => select.classList.remove("is-saved"), 900);
-    toast(`${song.song} → ${tier}`);
-    if (musicState.sort === "tier") renderMusic();
-  } catch (err) {
-    song.tier = previous;
-    select.value = previous;
-    select.dataset.tier = previous;
-    toast(`Couldn't save ${song.song}: ${err.message}`, "error");
-  } finally {
-    select.classList.remove("is-saving");
-    select.disabled = false;
-  }
-}
-
-function songCard(song) {
-  const select = tierBadgeSelect(song.tier ?? "?", song.song, { meanings: false });
-  select.addEventListener("change", () => saveSongRating(song, select.value, select));
-
-  const facts = [song.album, song.year ? String(song.year) : null, song.country].filter(Boolean);
-
-  // Nothing fetches cover art, so every music tile is the artless variant: the
-  // scrim over a plain panel. Wide, because a tall box of nothing is just a
-  // hole in the grid. Genres stay on the card here — unlike a film, a song has
-  // no page of its own to read them on.
-  return tile({
-    wide: true,
-    art: null,
-    badge: select,
-    title: text("div", "title", song.song),
-    lines: [
-      song.artist ? text("div", "meta", song.artist) : null,
-      facts.length ? text("div", "meta", facts.join(" · ")) : null,
-      song.genres?.length ? text("div", "note", song.genres.join(", ")) : null,
-    ],
-  });
-}
-
-function visibleMusic() {
-  const q = musicState.query.trim().toLowerCase();
-  return DATA.music.filter((s) => {
-    if (musicState.artist !== "all" && !(s.artists ?? []).includes(musicState.artist)) return false;
-    if (musicState.album !== "all" && s.album !== musicState.album) return false;
-    if (musicState.country !== "all" && s.country !== musicState.country) return false;
-    if (musicState.genre !== "all" && !(s.genres ?? []).includes(musicState.genre)) return false;
-    if (!q) return true;
-    return (
-      s.song.toLowerCase().includes(q) ||
-      (s.artist ?? "").toLowerCase().includes(q) ||
-      (s.album ?? "").toLowerCase().includes(q) ||
-      (s.country ?? "").toLowerCase().includes(q) ||
-      (s.note ?? "").toLowerCase().includes(q) ||
-      (s.genres ?? []).some((g) => g.toLowerCase().includes(q))
-    );
-  });
-}
-
-function renderMusic() {
-  const host = el("music");
-  host.replaceChildren();
-
-  const songs = visibleMusic();
-  el("music-count").textContent = `${songs.length} of ${DATA.music.length} songs`;
-
-  if (!DATA.music.length) {
-    host.className = "";
-    host.append(
-      text("p", "empty", "No music yet — add a song and the rest is looked up for you.")
-    );
-    return;
-  }
-  if (!songs.length) {
-    host.className = "";
-    host.append(text("p", "empty", "Nothing matches that."));
-    return;
-  }
-
-  if (musicState.sort === "tier") {
-    host.className = "";
-    const groups = new Map();
-    for (const s of songs) {
-      const tier = s.tier ?? "?";
-      if (!groups.has(tier)) groups.set(tier, []);
-      groups.get(tier).push(s);
-    }
-    const tiers = [...groups.keys()].sort((a, b) => tierRank(a) - tierRank(b));
-    for (const tier of tiers) {
-      const section = text("section", "tier-group");
-      const head = text("h2", "tier-head");
-      const badge = text("span", "badge", tier);
-      badge.dataset.tier = tier;
-      const inTier = groups.get(tier).length;
-      head.append(
-        badge,
-        text("span", null, tier === "?" ? "unrated" : `tier ${tier}`),
-        text("span", "tier-count", `${inTier} song${inTier === 1 ? "" : "s"}`)
-      );
-      section.append(head);
-
-      const grid = text("div", "grid is-tiles-wide");
-      const sorted = [...groups.get(tier)].sort((a, b) => a.song.localeCompare(b.song));
-      for (const s of sorted) grid.append(songCard(s));
-      section.append(grid);
-      host.append(section);
-    }
-    return;
-  }
-
-  host.className = "grid is-tiles-wide";
-  const sorted = [...songs];
-  if (musicState.sort === "song") sorted.sort((a, b) => a.song.localeCompare(b.song));
-  if (musicState.sort === "artist") {
-    sorted.sort(
-      (a, b) => (a.artist ?? "").localeCompare(b.artist ?? "") || a.song.localeCompare(b.song)
-    );
-  }
-  // Songs with no year sink to the bottom of either year sort.
-  if (musicState.sort === "year-desc") sorted.sort((a, b) => (b.year ?? -Infinity) - (a.year ?? -Infinity));
-  if (musicState.sort === "year-asc") sorted.sort((a, b) => (a.year ?? Infinity) - (b.year ?? Infinity));
-  for (const s of sorted) host.append(songCard(s));
-}
-
-function setupMusicForm() {
-  const form = el("music-form");
-  const toggle = el("music-toggle");
-
-  const show = (open) => {
-    form.hidden = !open;
-    toggle.setAttribute("aria-expanded", String(open));
-    toggle.textContent = open ? "− Add song" : "+ Add song";
-    if (open) form.elements.song.focus();
-  };
-
-  toggle.addEventListener("click", () => show(form.hidden));
-  el("music-cancel").addEventListener("click", () => {
-    form.reset();
-    show(false);
-  });
-
-  form.addEventListener("submit", async (event) => {
-    event.preventDefault();
-    const submit = form.querySelector("button[type=submit]");
-    const data = Object.fromEntries(new FormData(form));
-    const song = String(data.song ?? "").trim();
-    if (!song) return;
-
-    const send = (allowDuplicate) =>
-      fetch("/Screened/api/music", {
-        method: "POST",
-        headers: { "content-type": "application/json" },
-        body: JSON.stringify({
-          song,
-          artist: String(data.artist ?? "").trim() || null,
-          album: String(data.album ?? "").trim() || null,
-          allowDuplicate,
-        }),
-      }).then(async (res) => [res, await res.json().catch(() => ({ ok: false, error: `HTTP ${res.status}` }))]);
-
-    submit.disabled = true;
-    submit.textContent = "Adding…";
-    try {
-      let [res, result] = await send(false);
-      if (res.status === 409) {
-        if (!confirm(`"${song}" is already in your music. Add again anyway?`)) return;
-        [res, result] = await send(true);
-      }
-      if (!res.ok || !result.ok) throw new Error(result.error || `HTTP ${res.status}`);
-      form.reset();
-      show(false);
-      await reload();
-      toast(`Added ${song} — looking up the album…`);
-      awaitSongDetails(song);
-    } catch (err) {
-      toast(`Couldn't add ${song}: ${err.message}`, "error");
-    } finally {
-      submit.disabled = false;
-      submit.textContent = "Add song";
-    }
-  });
-}
-
-// The Wikidata lookup runs detached after the row is written, so poll for it
-// the same way a new film waits on its poster.
-async function awaitSongDetails(song, tries = 10) {
-  const needle = song.trim().toLowerCase();
-  for (let i = 0; i < tries; i++) {
-    await new Promise((r) => setTimeout(r, 3000));
-    const fresh = await (await fetch("/Screened/api/data.json")).json();
-    const found = (fresh.music ?? []).find((s) => s.song.trim().toLowerCase() === needle);
-    if (found?.album || found?.year || found?.genres?.length) {
-      DATA = fresh;
-      fillMusicFilters();
-      renderMusic();
-      toast(`Found details for ${song}`);
-      return;
-    }
-  }
-}
-
-// Rebuilt whenever the data changes: a new song can introduce a new artist,
-// album, country or genre, and a stale <select> would hide it.
-function fillMusicFilters() {
-  const counts = (pick) => {
-    const tally = new Map();
-    for (const s of DATA.music) {
-      for (const v of pick(s)) tally.set(v, (tally.get(v) ?? 0) + 1);
-    }
-    return tally;
-  };
-
-  for (const [id, key, values, pick, label] of [
-    ["music-artist", "artist", DATA.musicArtists ?? [], (s) => s.artists ?? [], "artists"],
-    ["music-album", "album", DATA.musicAlbums ?? [], (s) => (s.album ? [s.album] : []), "albums"],
-    ["music-country", "country", DATA.musicCountries ?? [], (s) => (s.country ? [s.country] : []), "countries"],
-    ["music-genre", "genre", DATA.musicGenres ?? [], (s) => s.genres ?? [], "genres"],
-  ]) {
-    const select = el(id);
-    const tally = counts(pick);
-    const covered = DATA.music.filter((s) => pick(s).length).length;
-    select.replaceChildren();
-    select.append(new Option(`All ${label} (${covered})`, "all"));
-    for (const v of values) select.append(new Option(`${v} (${tally.get(v) ?? 0})`, v));
-    // A filter whose value has since vanished would silently match nothing.
-    if (musicState[key] !== "all" && !values.includes(musicState[key])) musicState[key] = "all";
-    select.value = musicState[key];
-  }
-}
-
 function setView(view) {
   for (const tab of el("tabs").children) {
     tab.classList.toggle("is-active", tab.dataset.view === view);
   }
-  for (const name of ["films", "franchises", "characters", "shows", "music"]) {
+  for (const name of ["films", "franchises", "characters", "shows"]) {
     el(`view-${name}`).hidden = name !== view;
   }
   location.hash = view === "films" ? "" : view;
@@ -1255,23 +996,6 @@ async function init() {
     renderCharacters();
   });
 
-  fillMusicFilters();
-  el("music-search").addEventListener("input", (e) => {
-    musicState.query = e.target.value;
-    renderMusic();
-  });
-  for (const [id, key] of [
-    ["music-artist", "artist"],
-    ["music-album", "album"],
-    ["music-country", "country"],
-    ["music-genre", "genre"],
-    ["music-sort", "sort"],
-  ]) {
-    el(id).addEventListener("change", (e) => {
-      musicState[key] = e.target.value;
-      renderMusic();
-    });
-  }
   el("tabs").addEventListener("click", (e) => {
     const tab = e.target.closest(".tab");
     if (tab) setView(tab.dataset.view);
@@ -1280,15 +1004,13 @@ async function init() {
   setupAddForm();
   setupCharacterForm();
   setupShowForm();
-  setupMusicForm();
   safely("films", renderFilms);
   safely("franchises", renderFranchises);
   safely("characters", renderCharacters);
   safely("shows", renderShows);
-  safely("music", renderMusic);
 
   const hash = location.hash.slice(1);
-  if (["franchises", "characters", "shows", "music"].includes(hash)) setView(hash);
+  if (["franchises", "characters", "shows"].includes(hash)) setView(hash);
 }
 
 init();

@@ -46,7 +46,7 @@ body {
 /* Light thrown from a projector, which is the one image the name earns. Sits
    behind the text, never takes a click, and is skipped on the detail pages
    where the masthead is only a back link. */
-.masthead:not(.film-masthead) > .wrap::before {
+.masthead-home > .wrap::before {
   content: "";
   position: absolute;
   top: -300px;
@@ -81,6 +81,42 @@ body {
 
 .masthead + main {
   margin-top: 26px;
+}
+
+/* Every page that is its own destination in the nav carries the same bar: the
+   wordmark home, then the same tabs, with the current one marked. Shorter than
+   the home masthead — the eyebrow and tagline are the front page's pitch, and
+   repeating them above a list of directors would only push the list down. */
+.masthead-sub {
+  padding: 22px 0 0;
+}
+
+.masthead-sub .wordmark {
+  font-size: 1.45rem;
+  letter-spacing: -0.02em;
+}
+
+/* No gradient rule under a wordmark this size. */
+.masthead-sub .wordmark::after {
+  display: none;
+}
+
+.masthead-sub .tabs {
+  margin-top: 16px;
+}
+
+.wordmark-link {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.wordmark-link:hover .wordmark {
+  color: var(--accent);
+}
+
+.wordmark {
+  transition: color 0.16s ease;
 }
 
 .wordmark {
@@ -436,8 +472,7 @@ select.badge.is-saved {
 
    Two aspects, chosen by what the art actually is. Tall for film posters and
    character portraits; wide for shows, whose art is mostly a banner (1280×320
-   up to 9215×2000 — a 2:3 crop would leave a sliver), and for music, which has
-   no art at all and would otherwise be a tall empty box. */
+   up to 9215×2000 — a 2:3 crop would leave a sliver). */
 .grid.is-tiles {
   grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
   gap: 14px;
@@ -487,8 +522,8 @@ select.badge.is-saved {
   object-fit: cover;
 }
 
-/* No artwork — every music tile, a few films, three shows. The tile stays a
-   plain panel behind the scrim rather than showing a broken-image slot. */
+/* No artwork — a few films, three shows. The tile stays a plain panel behind
+   the scrim rather than showing a broken-image slot. */
 .tile-art.is-blank {
   background: var(--panel-2);
 }
@@ -2165,4 +2200,14 @@ a.taste-chip:hover {
 
 .photo-credit a:hover {
   color: var(--accent);
+}
+
+/* Only ever present on the published copy, inserted by static.js. */
+.static-note {
+  margin: 0 0 18px;
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  border-left: 2px solid var(--accent);
+  border-radius: 6px;
+  background: var(--panel);
 }

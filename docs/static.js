@@ -23,13 +23,35 @@
     });
   }
 
+  // Say where the missing controls went, once, on any page that had some. The
+  // pages re-render after their fetch, so this is idempotent and re-applied.
+  const HID = ".add-toggle,.add-form,.add-suggestion,.add-other,.edit-title,.edit-details";
+  function note() {
+    if (document.getElementById("static-note")) return;
+    if (!document.querySelector(HID)) return;
+    const host = document.getElementById("main");
+    if (!host) return;
+    const line = document.createElement("p");
+    line.id = "static-note";
+    line.className = "hint static-note";
+    line.textContent =
+      "Read-only copy — adding a film and changing a rating happen on the local site, " +
+      "which writes them back into the spreadsheet.";
+    host.prepend(line);
+  }
+
+  const apply = () => {
+    neuter();
+    note();
+  };
+
   // Content renders after fetch, and re-renders on filter changes.
-  new MutationObserver(neuter).observe(document.documentElement, {
+  new MutationObserver(apply).observe(document.documentElement, {
     childList: true,
     subtree: true,
   });
-  document.addEventListener("DOMContentLoaded", neuter);
-  neuter();
+  document.addEventListener("DOMContentLoaded", apply);
+  apply();
 
   // Nothing should be able to POST to an endpoint that isn't there.
   const inner = window.fetch;

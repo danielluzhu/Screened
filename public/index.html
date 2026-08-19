@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="/styles.css" />
   </head>
   <body>
-    <header class="masthead">
+    <header class="masthead masthead-home">
       <div class="wrap">
         <p class="eyebrow">A personal record</p>
         <h1 class="wordmark">Screened</h1>
@@ -21,7 +21,6 @@
           <button class="tab" data-view="franchises">Franchises</button>
           <button class="tab" data-view="characters">Characters</button>
           <button class="tab" data-view="shows">Shows</button>
-          <button class="tab" data-view="music">Music</button>
           <!-- Own pages, not views: each is an index over the detail pages. -->
           <a class="tab tab-link" href="/directors">Directors</a>
           <a class="tab tab-link" href="/years">Years</a>
@@ -170,58 +169,6 @@
         <div id="shows" class="grid is-tiles-wide"></div>
       </section>
 
-      <section id="view-music" class="view" hidden>
-        <div class="controls">
-          <input
-            id="music-search"
-            type="search"
-            placeholder="Search songs, artists, albums…"
-            autocomplete="off"
-            aria-label="Search music"
-          />
-          <select id="music-artist" aria-label="Filter by artist"></select>
-          <select id="music-album" aria-label="Filter by album"></select>
-          <select id="music-country" aria-label="Filter by country"></select>
-          <select id="music-genre" aria-label="Filter by album genre"></select>
-          <select id="music-sort" aria-label="Sort music">
-            <option value="tier">Sort: tier</option>
-            <option value="year-desc">Sort: newest</option>
-            <option value="year-asc">Sort: oldest</option>
-            <option value="song">Sort: A–Z</option>
-            <option value="artist">Sort: artist</option>
-          </select>
-          <span class="count" id="music-count"></span>
-          <button type="button" class="add-toggle" id="music-toggle" aria-expanded="false">
-            + Add song
-          </button>
-        </div>
-
-        <form id="music-form" class="add-form" hidden>
-          <div class="fields">
-            <label>
-              Song <span class="req" aria-hidden="true">*</span>
-              <input name="song" required autocomplete="off" placeholder="Bohemian Rhapsody" />
-            </label>
-            <label>
-              Artist
-              <input name="artist" autocomplete="off" placeholder="Queen" />
-            </label>
-            <label>
-              Album
-              <input name="album" autocomplete="off" placeholder="Optional — looked up for you" />
-            </label>
-          </div>
-          <div class="add-actions">
-            <button type="submit" class="primary">Add song</button>
-            <button type="button" id="music-cancel">Cancel</button>
-            <span class="hint">
-              Album, year, country and the album's genre are filled in automatically.
-            </span>
-          </div>
-        </form>
-
-        <div id="music" class="grid is-tiles-wide"></div>
-      </section>
     </main>
 
     <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>

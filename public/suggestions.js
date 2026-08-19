@@ -65,12 +65,12 @@ async function addFilm(entry, button) {
     });
     const result = await res.json().catch(() => ({ ok: false, error: `HTTP ${res.status}` }));
     if (!res.ok || !result.ok) throw new Error(result.error || `HTTP ${res.status}`);
-    button.textContent = "✓ In your list";
+    button.textContent = "✓ In your unrated";
     button.classList.add("is-added");
-    toast(`Added ${entry.title} — looking for a poster…`);
+    toast(`Added ${entry.title} to unrated — looking for a poster…`);
   } catch (err) {
     button.disabled = false;
-    button.textContent = "+ Add to list";
+    button.textContent = "+ Add to unrated";
     toast(`Couldn't add ${entry.title}: ${err.message}`, "error");
   }
 }
@@ -144,8 +144,9 @@ function suggestionCard(entry, best) {
   body.append(meter);
 
   const actions = text("div", "sug-actions");
-  const add = text("button", "add-suggestion", "+ Add to list");
+  const add = text("button", "add-suggestion", "+ Add to unrated");
   add.type = "button";
+  add.title = `Add ${entry.title} to your list unrated — the queue below`;
   add.addEventListener("click", () => addFilm(entry, add));
   actions.append(add);
   if (entry.qid) {
@@ -262,7 +263,9 @@ function render(data) {
       "lede",
       films.length
         ? `Ranked from the ${suggestions.rated} films you've rated — who directed them, which ` +
-          `series they belong to, where they were made, and which genres you keep rating highly.`
+          `series they belong to, where they were made, and which genres you keep rating highly. ` +
+          `Adding one puts it in your list unrated, which is the same queue as the unrated ` +
+          `films further down.`
         : "Nothing to suggest yet. Rate a few films and this fills itself in."
     )
   );
@@ -313,7 +316,12 @@ function render(data) {
     const section = text("section", "sug-section");
     section.append(text("h2", null, "Already on your list, unrated"));
     section.append(
-      text("p", "hint", `${backlog.length} films you've added but not rated, best match first.`)
+      text(
+        "p",
+        "hint",
+        `${backlog.length} films you've added but not rated, best match first — ` +
+          `unrated is the watch-next queue, and anything added above lands here.`
+      )
     );
     const ol = text("ol", "backlog");
     for (const entry of backlog) ol.append(backlogRow(entry));

@@ -97,7 +97,6 @@ Two aspect ratios, picked by what the art actually is:
 | --- | --- | --- |
 | Films, Characters | 2:3 | posters, and portraits are tall far more often than not |
 | Shows | 3:2 | art is mostly a banner — 1280×320 up to 9215×2000 |
-| Music | 3:2 | no cover art at all; a tall empty box is just a hole in the grid |
 
 Show art carries its wordmark low in the frame, right where the scrim lands, so
 wide tiles bias the crop upward (`object-position: center 32%`). Wide tiles
@@ -107,8 +106,8 @@ whole card.
 Chips don't go on tiles. Genres and streaming services are filters and detail
 pages instead; the film service filter is built from what `streaming.json`
 actually found, so a service nothing is on never shows up as a dead option. The
-one exception is music genres, which stay on the card because a song has no page
-of its own to read them on.
+(The Music tab was the one exception, keeping its genres on the card because a
+song had no page of its own to read them on.)
 
 The `.film` row card still exists — the film, director and suggestions pages use
 it.
@@ -259,15 +258,19 @@ The badges deliberately don't show the scale's wording the way the film ones do
 
 ### Music
 
-The Music sheet mirrors Films: artist sits where the director does, album where
-the franchise does. Country is the artist's; **genre is the album's**, which is
-what the tab filters on — a single's own genre tags are patchier than the
-record's. The sheet is created on first use, so a document without it is fine;
-the tab just renders empty.
+**The Music tab is gone from the site.** The pipeline behind it is not: the
+Music sheet, `/api/music`, `add_song.py`, `set_song_tier.py` and
+`music_autofill.py` all still work, and `extract.py` still reads the sheet into
+`data.json`. Only the UI was removed, so putting the tab back is markup and a
+render function rather than a rebuild. What follows describes that pipeline.
 
-Add a song from the Music tab with just a title and artist. Album, year,
-country and genre are looked up afterwards, detached, the same way a new film
-waits on its poster:
+The Music sheet mirrors Films: artist sits where the director does, album where
+the franchise does. Country is the artist's; **genre is the album's** — a
+single's own genre tags are patchier than the record's. The sheet is created on
+first use, so a document without it is fine.
+
+Songs are added with just a title and artist. Album, year, country and genre are
+looked up afterwards, detached, the same way a new film waits on its poster:
 
 ```sh
 python3 scripts/music_autofill.py                 # every song missing fields
@@ -342,6 +345,15 @@ any summary that came out under five sentences because the article is a stub.
 `/directors` and `/years` are indexes over the per-item pages that already
 existed at `/director/<slug>` and `/year/<year>` — before these there was no way
 to reach one except from a film.
+
+They and `/suggestions` carry the site's own top bar rather than a lone back
+link: the wordmark home, then the same tabs the front page shows, with the
+current one marked `is-active` and `aria-current`. The four front-page views are
+tabs of one page, so from here they are links to `/#franchises` and the rest,
+which the front page reads off the hash on load. The bar is shorter than the
+home masthead — the eyebrow, tagline and projector glow are the front page's
+pitch, and repeating them above a list of directors would only push the list
+down.
 
 Directors sort on what you've rated, better tiers first: more `S` films puts a
 director ahead however many `A` films the next one has, more `A` breaks that
