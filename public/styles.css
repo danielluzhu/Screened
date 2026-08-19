@@ -898,10 +898,6 @@ a.title-text:hover,
 }
 
 /* --- film page --- */
-.film-masthead {
-  padding: 20px 0;
-}
-
 .back {
   color: var(--muted);
   text-decoration: none;

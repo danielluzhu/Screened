@@ -389,8 +389,17 @@ Old `#franchises` links still resolve, through the same function.
 still falls through to the static handler, and in `docs/` the page sits in the
 directory alongside the artwork.
 
-The detail pages — `/film/<slug>` and the rest — still use `.film-masthead`, a
-back link and nothing else.
+The detail pages carry it too. `/film/<slug>`, `/year/<n>`, `/director/<slug>`,
+`/character/<slug>`, `/show/<slug>` and `/other/<slug>` each mark the section
+they belong to, so the bar says where you are rather than only where you can go
+— a year page lights *Years*, a film page *Films*. The `.back` link they used to
+carry instead is gone: the tabs cover it, and each page's own body still links
+back to whatever it belongs to.
+
+That is one masthead on every page of the site. It's checked by screenshotting
+the strip above the tab row on each kind of page and comparing pixels against the
+front page — thirteen of them, none differing by more than antialiasing on the
+eyebrow's text (±1 per channel, 0 pixels differing by more than 3).
 
 Directors sort on what you've rated, better tiers first: more `S` films puts a
 director ahead however many `A` films the next one has, more `A` breaks that
