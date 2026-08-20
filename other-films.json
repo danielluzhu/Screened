@@ -3548,18 +3548,6 @@
     ]
   },
   {
-    "title": "Flash Point",
-    "year": 2007,
-    "qid": "Q544642",
-    "slug": "flash-point-2007",
-    "directors": [
-      {
-        "name": "Wilson Yip",
-        "slug": "wilson-yip"
-      }
-    ]
-  },
-  {
     "title": "Flight",
     "year": 2012,
     "qid": "Q564298",
@@ -4244,18 +4232,6 @@
       {
         "name": "Zhang Yimou",
         "slug": "zhang-yimou"
-      }
-    ]
-  },
-  {
-    "title": "Happy Together",
-    "year": 1997,
-    "qid": "Q1204213",
-    "slug": "happy-together-1997",
-    "directors": [
-      {
-        "name": "Wong Kar-wai",
-        "slug": "wong-kar-wai"
       }
     ]
   },

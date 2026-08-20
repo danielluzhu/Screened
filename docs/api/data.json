@@ -986,14 +986,6 @@
           "slug": "avatar-the-way-of-water-2022"
         },
         {
-          "title": "Hustle",
-          "year": 2022,
-          "tier": "?",
-          "director": "Jeremiah Zagar",
-          "poster": "hustle-2022.jpg",
-          "slug": "hustle-2022"
-        },
-        {
           "title": "Lost in the Stars",
           "year": 2022,
           "tier": "?",
@@ -4399,6 +4391,14 @@
       "year": 2007,
       "films": [
         {
+          "title": "Flash Point",
+          "year": 2007,
+          "tier": "?",
+          "director": "Wilson Yip",
+          "poster": "flash-point-2007.jpg",
+          "slug": "flash-point-2007"
+        },
+        {
           "title": "Lust, Caution",
           "year": 2007,
           "tier": "?",
@@ -6491,6 +6491,14 @@
           "director": "Hayao Miyazaki",
           "poster": "princess-mononoke-1997.png",
           "slug": "princess-mononoke-1997"
+        },
+        {
+          "title": "Happy Together",
+          "year": 1997,
+          "tier": "?",
+          "director": "Wong Kar-wai",
+          "poster": "happy-together-1997.jpg",
+          "slug": "happy-together-1997"
         },
         {
           "title": "Perfect Blue",
@@ -17966,6 +17974,31 @@
         "country": "Taiwan"
       },
       {
+        "title": "Happy Together",
+        "year": 1997,
+        "directors": [
+          "Wong Kar-wai"
+        ],
+        "franchises": [],
+        "genres": [],
+        "regions": [],
+        "sources": [
+          "your list"
+        ],
+        "box": null,
+        "score": 3.667,
+        "reasons": [
+          {
+            "kind": "director",
+            "name": "Wong Kar-wai",
+            "text": "You rated In the Mood for Love (S) and Chungking Express (A) by Wong Kar-wai"
+          }
+        ],
+        "slug": "happy-together-1997",
+        "poster": "happy-together-1997.jpg",
+        "country": null
+      },
+      {
         "title": "Red Cliff",
         "year": 2008,
         "directors": [
@@ -18004,6 +18037,31 @@
         "slug": "red-cliff-2008",
         "poster": "red-cliff-2008.jpg",
         "country": "Chinese"
+      },
+      {
+        "title": "Flash Point",
+        "year": 2007,
+        "directors": [
+          "Wilson Yip"
+        ],
+        "franchises": [],
+        "genres": [],
+        "regions": [],
+        "sources": [
+          "your list"
+        ],
+        "box": null,
+        "score": 3.3,
+        "reasons": [
+          {
+            "kind": "director",
+            "name": "Wilson Yip",
+            "text": "You rated Ip Man (S) and Ip Man 4: The Finale (S) by Wilson Yip"
+          }
+        ],
+        "slug": "flash-point-2007",
+        "poster": "flash-point-2007.jpg",
+        "country": null
       },
       {
         "title": "Our Little Sister",
@@ -20188,40 +20246,6 @@
         ],
         "slug": "gook-2017",
         "poster": "gook-2017.jpg",
-        "country": "American"
-      },
-      {
-        "title": "Hustle",
-        "year": 2022,
-        "directors": [
-          "Jeremiah Zagar"
-        ],
-        "franchises": [],
-        "genres": [
-          "Drama"
-        ],
-        "regions": [
-          "USA"
-        ],
-        "sources": [
-          "your list"
-        ],
-        "box": null,
-        "score": 1.02,
-        "reasons": [
-          {
-            "kind": "genre",
-            "name": "Drama",
-            "text": "Drama — genres you rate well"
-          },
-          {
-            "kind": "region",
-            "name": "USA",
-            "text": "From USA, where you've rated 45 films"
-          }
-        ],
-        "slug": "hustle-2022",
-        "poster": "hustle-2022.jpg",
         "country": "American"
       },
       {
@@ -27329,38 +27353,6 @@
       "franchises": []
     },
     {
-      "title": "Hustle",
-      "year": 2022,
-      "tier": "?",
-      "country": "American",
-      "region": "USA",
-      "note": "John Rec",
-      "director": "Jeremiah Zagar",
-      "directors": [
-        "Jeremiah Zagar"
-      ],
-      "poster": "hustle-2022.jpg",
-      "nativeTitle": null,
-      "critique": null,
-      "analysis": null,
-      "summary": {
-        "article": "Hustle (2022 film)",
-        "hasReception": true,
-        "reception": "The film received positive reviews from critics, with Sandler's performance singled out for praise. At the 29th Screen Actors Guild Awards, he received a nomination for the Outstanding Performance by a Male Actor in a Leading Role, his first SAG nomination in his career. On review aggregator Rotten Tomatoes, the film has an approval rating of 94% based on 174 reviews, with an average rating of 7.2/10. It is the highest rated film made by Happy Madison Productions on the website. The website's consensus reads, \"Hustle doesn't have any fancy moves, but it doesn't need them—Adam Sandler's everyman charm makes this easy layup fun to watch.\" Metacritic, which uses a weighted average, assigned the film a score of 68 out of 100, based on 41 critics, indicating \"generally favorable\" reviews. Sandler's performance was singled out for praise.",
-        "sentences": 9,
-        "source": "Wikipedia (CC BY-SA 4.0)",
-        "story": "Hustle is a 2022 American  sports comedy-drama film directed by Jeremiah Zagar, written by Taylor Materne and Will Fetters, and co-produced by and starring Adam Sandler as a down-on-his-luck National Basketball Association (NBA) scout who discovers a raw but talented basketball player in Spain (Juancho Hernangómez) and tries to prepare him for the NBA draft. The film also stars Queen Latifah, Ben Foster, Robert Duvall, Heidi Gardner, and current NBA player Anthony Edwards. LeBron James produced the film through his SpringHill Company banner.",
-        "summary": "Hustle is a 2022 American  sports comedy-drama film directed by Jeremiah Zagar, written by Taylor Materne and Will Fetters, and co-produced by and starring Adam Sandler as a down-on-his-luck National Basketball Association (NBA) scout who discovers a raw but talented basketball player in Spain (Juancho Hernangómez) and tries to prepare him for the NBA draft. The film also stars Queen Latifah, Ben Foster, Robert Duvall, Heidi Gardner, and current NBA player Anthony Edwards. LeBron James produced the film through his SpringHill Company banner. The film received positive reviews from critics, with Sandler's performance singled out for praise. At the 29th Screen Actors Guild Awards, he received a nomination for the Outstanding Performance by a Male Actor in a Leading Role, his first SAG nomination in his career. On review aggregator Rotten Tomatoes, the film has an approval rating of 94% based on 174 reviews, with an average rating of 7.2/10. It is the highest rated film made by Happy Madison Productions on the website. The website's consensus reads, \"Hustle doesn't have any fancy moves, but it doesn't need them—Adam Sandler's everyman charm makes this easy layup fun to watch.\" Metacritic, which uses a weighted average, assigned the film a score of 68 out of 100, based on 41 critics, indicating \"generally favorable\" reviews. Sandler's performance was singled out for praise.",
-        "url": "https://en.wikipedia.org/wiki/Hustle_(2022_film)"
-      },
-      "streaming": [],
-      "slug": "hustle-2022",
-      "genres": [
-        "Drama"
-      ],
-      "franchises": []
-    },
-    {
       "title": "RRR",
       "year": 2022,
       "tier": "?",
@@ -29003,6 +28995,48 @@
       "slug": "once-upon-a-time-in-the-middle-east",
       "genres": [],
       "franchises": []
+    },
+    {
+      "title": "Flash Point",
+      "year": 2007,
+      "tier": "?",
+      "country": null,
+      "region": "Unknown",
+      "note": null,
+      "director": "Wilson Yip",
+      "directors": [
+        "Wilson Yip"
+      ],
+      "poster": "flash-point-2007.jpg",
+      "nativeTitle": null,
+      "critique": null,
+      "analysis": null,
+      "summary": null,
+      "streaming": [],
+      "slug": "flash-point-2007",
+      "genres": [],
+      "franchises": []
+    },
+    {
+      "title": "Happy Together",
+      "year": 1997,
+      "tier": "?",
+      "country": null,
+      "region": "Unknown",
+      "note": null,
+      "director": "Wong Kar-wai",
+      "directors": [
+        "Wong Kar-wai"
+      ],
+      "poster": "happy-together-1997.jpg",
+      "nativeTitle": null,
+      "critique": null,
+      "analysis": null,
+      "summary": null,
+      "streaming": [],
+      "slug": "happy-together-1997",
+      "genres": [],
+      "franchises": []
     }
   ],
   "directors": [
@@ -29431,6 +29465,149 @@
       }
     },
     {
+      "name": "Wilson Yip",
+      "slug": "wilson-yip",
+      "films": [
+        {
+          "title": "Flash Point",
+          "year": 2007,
+          "tier": "?",
+          "director": "Wilson Yip",
+          "poster": "flash-point-2007.jpg",
+          "slug": "flash-point-2007"
+        },
+        {
+          "title": "Ip Man",
+          "year": 2008,
+          "tier": "S",
+          "director": "Wilson Yip",
+          "poster": "ip-man-2008.jpg",
+          "slug": "ip-man-2008"
+        },
+        {
+          "title": "Ip Man 2",
+          "year": 2010,
+          "tier": "A",
+          "director": "Wilson Yip",
+          "poster": "ip-man-2-2010.jpg",
+          "slug": "ip-man-2-2010"
+        },
+        {
+          "title": "Ip Man 3",
+          "year": 2015,
+          "tier": "C",
+          "director": "Wilson Yip",
+          "poster": "ip-man-3-2015.jpg",
+          "slug": "ip-man-3-2015"
+        },
+        {
+          "title": "Ip Man 4: The Finale",
+          "year": 2019,
+          "tier": "S",
+          "director": "Wilson Yip",
+          "poster": "ip-man-4-the-finale-2019.png",
+          "slug": "ip-man-4-the-finale-2019"
+        }
+      ],
+      "others": [
+        {
+          "title": "01:00 A.M.",
+          "year": 1995,
+          "slug": "01-00-a-m-1995"
+        },
+        {
+          "title": "Mongkok Story",
+          "year": 1996,
+          "slug": "mongkok-story-1996"
+        },
+        {
+          "title": "Midnight Zone",
+          "year": 1997,
+          "slug": "midnight-zone-1997"
+        },
+        {
+          "title": "Teaching Sucks!",
+          "year": 1997,
+          "slug": "teaching-sucks-1997"
+        },
+        {
+          "title": "Bio Zombie",
+          "year": 1998,
+          "slug": "bio-zombie-1998"
+        },
+        {
+          "title": "Bullets Over Summer",
+          "year": 1999,
+          "slug": "bullets-over-summer-1999"
+        },
+        {
+          "title": "Skyline Cruisers",
+          "year": 2000,
+          "slug": "skyline-cruisers-2000"
+        },
+        {
+          "title": "2002",
+          "year": 2001,
+          "slug": "2002-2001"
+        },
+        {
+          "title": "Dry Wood Fierce Fire",
+          "year": 2002,
+          "slug": "dry-wood-fierce-fire-2002"
+        },
+        {
+          "title": "The Mummy, Aged 19",
+          "year": 2002,
+          "slug": "the-mummy-aged-19-2002"
+        },
+        {
+          "title": "Leaving Me Loving You",
+          "year": 2004,
+          "slug": "leaving-me-loving-you-2004"
+        },
+        {
+          "title": "The White Dragon",
+          "year": 2004,
+          "slug": "the-white-dragon-2004"
+        },
+        {
+          "title": "SPL: Sha Po Lang",
+          "year": 2005,
+          "slug": "spl-sha-po-lang-2005"
+        },
+        {
+          "title": "Dragon Tiger Gate",
+          "year": 2006,
+          "slug": "dragon-tiger-gate-2006"
+        },
+        {
+          "title": "A Chinese Ghost Story",
+          "year": 2011,
+          "slug": "a-chinese-ghost-story-2011"
+        },
+        {
+          "title": "Magic to Win",
+          "year": 2011,
+          "slug": "magic-to-win-2011"
+        },
+        {
+          "title": "Triumph in the Skies",
+          "year": 2015,
+          "slug": "triumph-in-the-skies-2015"
+        },
+        {
+          "title": "Paradox",
+          "year": 2017,
+          "slug": "paradox-2017"
+        }
+      ],
+      "photo": "wilson-yip.jpg",
+      "photoCredit": {
+        "licence": "CC BY-SA 2.0",
+        "author": "GabboT"
+      }
+    },
+    {
       "name": "Christopher Nolan",
       "slug": "christopher-nolan",
       "films": [
@@ -29541,143 +29718,113 @@
       }
     },
     {
-      "name": "Wilson Yip",
-      "slug": "wilson-yip",
+      "name": "Wong Kar-wai",
+      "slug": "wong-kar-wai",
       "films": [
         {
-          "title": "Ip Man",
-          "year": 2008,
-          "tier": "S",
-          "director": "Wilson Yip",
-          "poster": "ip-man-2008.jpg",
-          "slug": "ip-man-2008"
+          "title": "Ashes of Time",
+          "year": 1994,
+          "tier": "?",
+          "director": "Wong Kar-wai",
+          "poster": "ashes-of-time-1994.jpg",
+          "slug": "ashes-of-time-1994"
         },
         {
-          "title": "Ip Man 2",
-          "year": 2010,
+          "title": "Chungking Express",
+          "year": 1994,
           "tier": "A",
-          "director": "Wilson Yip",
-          "poster": "ip-man-2-2010.jpg",
-          "slug": "ip-man-2-2010"
+          "director": "Wong Kar-wai",
+          "poster": "chungking-express-1994.jpg",
+          "slug": "chungking-express-1994"
         },
         {
-          "title": "Ip Man 3",
-          "year": 2015,
-          "tier": "C",
-          "director": "Wilson Yip",
-          "poster": "ip-man-3-2015.jpg",
-          "slug": "ip-man-3-2015"
+          "title": "Happy Together",
+          "year": 1997,
+          "tier": "?",
+          "director": "Wong Kar-wai",
+          "poster": "happy-together-1997.jpg",
+          "slug": "happy-together-1997"
         },
         {
-          "title": "Ip Man 4: The Finale",
-          "year": 2019,
+          "title": "In the Mood for Love",
+          "year": 2000,
           "tier": "S",
-          "director": "Wilson Yip",
-          "poster": "ip-man-4-the-finale-2019.png",
-          "slug": "ip-man-4-the-finale-2019"
+          "director": "Wong Kar-wai",
+          "poster": "in-the-mood-for-love-2000.jpg",
+          "slug": "in-the-mood-for-love-2000"
         }
       ],
       "others": [
         {
-          "title": "01:00 A.M.",
+          "title": "As Tears Go By",
+          "year": 1988,
+          "slug": "as-tears-go-by-1988"
+        },
+        {
+          "title": "Days of Being Wild",
+          "year": 1990,
+          "slug": "days-of-being-wild-1990"
+        },
+        {
+          "title": "Fallen Angels",
           "year": 1995,
-          "slug": "01-00-a-m-1995"
+          "slug": "fallen-angels-1995"
         },
         {
-          "title": "Mongkok Story",
+          "title": "wkw/tk/1996@7'55''hk.net",
           "year": 1996,
-          "slug": "mongkok-story-1996"
+          "slug": "wkw-tk-1996-7-55-hk-net-1996"
         },
         {
-          "title": "Midnight Zone",
-          "year": 1997,
-          "slug": "midnight-zone-1997"
-        },
-        {
-          "title": "Teaching Sucks!",
-          "year": 1997,
-          "slug": "teaching-sucks-1997"
-        },
-        {
-          "title": "Bio Zombie",
-          "year": 1998,
-          "slug": "bio-zombie-1998"
-        },
-        {
-          "title": "Bullets Over Summer",
-          "year": 1999,
-          "slug": "bullets-over-summer-1999"
-        },
-        {
-          "title": "Skyline Cruisers",
+          "title": "Hua Yang De Nian Hua",
           "year": 2000,
-          "slug": "skyline-cruisers-2000"
+          "slug": "hua-yang-de-nian-hua-2000"
         },
         {
-          "title": "2002",
+          "title": "The Hire: The Follow",
           "year": 2001,
-          "slug": "2002-2001"
+          "slug": "the-hire-the-follow-2001"
         },
         {
-          "title": "Dry Wood Fierce Fire",
-          "year": 2002,
-          "slug": "dry-wood-fierce-fire-2002"
-        },
-        {
-          "title": "The Mummy, Aged 19",
-          "year": 2002,
-          "slug": "the-mummy-aged-19-2002"
-        },
-        {
-          "title": "Leaving Me Loving You",
+          "title": "2046",
           "year": 2004,
-          "slug": "leaving-me-loving-you-2004"
+          "slug": "2046-2004"
         },
         {
-          "title": "The White Dragon",
+          "title": "Eros",
           "year": 2004,
-          "slug": "the-white-dragon-2004"
+          "slug": "eros-2004"
         },
         {
-          "title": "SPL: Sha Po Lang",
-          "year": 2005,
-          "slug": "spl-sha-po-lang-2005"
-        },
-        {
-          "title": "Dragon Tiger Gate",
-          "year": 2006,
-          "slug": "dragon-tiger-gate-2006"
-        },
-        {
-          "title": "Flash Point",
+          "title": "My Blueberry Nights",
           "year": 2007,
-          "slug": "flash-point-2007"
+          "slug": "my-blueberry-nights-2007"
         },
         {
-          "title": "A Chinese Ghost Story",
-          "year": 2011,
-          "slug": "a-chinese-ghost-story-2011"
+          "title": "There's Only One Sun",
+          "year": 2007,
+          "slug": "there-s-only-one-sun-2007"
         },
         {
-          "title": "Magic to Win",
-          "year": 2011,
-          "slug": "magic-to-win-2011"
+          "title": "To Each His Own Cinema",
+          "year": 2007,
+          "slug": "to-each-his-own-cinema-2007"
         },
         {
-          "title": "Triumph in the Skies",
-          "year": 2015,
-          "slug": "triumph-in-the-skies-2015"
+          "title": "The Grandmaster",
+          "year": 2013,
+          "slug": "the-grandmaster-2013"
         },
         {
-          "title": "Paradox",
-          "year": 2017,
-          "slug": "paradox-2017"
+          "title": "The Hand",
+          "year": null,
+          "slug": "the-hand"
         }
       ],
-      "photo": "wilson-yip.jpg",
+      "photo": "wong-kar-wai.jpg",
       "photoCredit": {
-        "licence": "CC BY-SA 2.0",
-        "author": "GabboT"
+        "licence": "CC BY 2.0",
+        "author": "derivative work: Tabercil ( talk ) Wong Kar-wai at 2008 TIFF.jpg : lukeisback.com"
       }
     },
     {
@@ -30284,113 +30431,6 @@
       "photoCredit": {
         "licence": "CC BY 2.0",
         "author": "Dick Thomas Johnson from Tokyo, Japan"
-      }
-    },
-    {
-      "name": "Wong Kar-wai",
-      "slug": "wong-kar-wai",
-      "films": [
-        {
-          "title": "Ashes of Time",
-          "year": 1994,
-          "tier": "?",
-          "director": "Wong Kar-wai",
-          "poster": "ashes-of-time-1994.jpg",
-          "slug": "ashes-of-time-1994"
-        },
-        {
-          "title": "Chungking Express",
-          "year": 1994,
-          "tier": "A",
-          "director": "Wong Kar-wai",
-          "poster": "chungking-express-1994.jpg",
-          "slug": "chungking-express-1994"
-        },
-        {
-          "title": "In the Mood for Love",
-          "year": 2000,
-          "tier": "S",
-          "director": "Wong Kar-wai",
-          "poster": "in-the-mood-for-love-2000.jpg",
-          "slug": "in-the-mood-for-love-2000"
-        }
-      ],
-      "others": [
-        {
-          "title": "As Tears Go By",
-          "year": 1988,
-          "slug": "as-tears-go-by-1988"
-        },
-        {
-          "title": "Days of Being Wild",
-          "year": 1990,
-          "slug": "days-of-being-wild-1990"
-        },
-        {
-          "title": "Fallen Angels",
-          "year": 1995,
-          "slug": "fallen-angels-1995"
-        },
-        {
-          "title": "wkw/tk/1996@7'55''hk.net",
-          "year": 1996,
-          "slug": "wkw-tk-1996-7-55-hk-net-1996"
-        },
-        {
-          "title": "Happy Together",
-          "year": 1997,
-          "slug": "happy-together-1997"
-        },
-        {
-          "title": "Hua Yang De Nian Hua",
-          "year": 2000,
-          "slug": "hua-yang-de-nian-hua-2000"
-        },
-        {
-          "title": "The Hire: The Follow",
-          "year": 2001,
-          "slug": "the-hire-the-follow-2001"
-        },
-        {
-          "title": "2046",
-          "year": 2004,
-          "slug": "2046-2004"
-        },
-        {
-          "title": "Eros",
-          "year": 2004,
-          "slug": "eros-2004"
-        },
-        {
-          "title": "My Blueberry Nights",
-          "year": 2007,
-          "slug": "my-blueberry-nights-2007"
-        },
-        {
-          "title": "There's Only One Sun",
-          "year": 2007,
-          "slug": "there-s-only-one-sun-2007"
-        },
-        {
-          "title": "To Each His Own Cinema",
-          "year": 2007,
-          "slug": "to-each-his-own-cinema-2007"
-        },
-        {
-          "title": "The Grandmaster",
-          "year": 2013,
-          "slug": "the-grandmaster-2013"
-        },
-        {
-          "title": "The Hand",
-          "year": null,
-          "slug": "the-hand"
-        }
-      ],
-      "photo": "wong-kar-wai.jpg",
-      "photoCredit": {
-        "licence": "CC BY 2.0",
-        "author": "derivative work: Tabercil ( talk ) Wong Kar-wai at 2008 TIFF.jpg : lukeisback.com"
       }
     },
     {
@@ -34069,23 +34109,6 @@
           "slug": "the-front-line-2011"
         }
       ],
-      "photo": null,
-      "photoCredit": null
-    },
-    {
-      "name": "Jeremiah Zagar",
-      "slug": "jeremiah-zagar",
-      "films": [
-        {
-          "title": "Hustle",
-          "year": 2022,
-          "tier": "?",
-          "director": "Jeremiah Zagar",
-          "poster": "hustle-2022.jpg",
-          "slug": "hustle-2022"
-        }
-      ],
-      "others": [],
       "photo": null,
       "photoCredit": null
     },

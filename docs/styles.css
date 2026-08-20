@@ -107,8 +107,10 @@ body {
   margin: 0;
   font-size: clamp(2rem, 5vw, 2.9rem);
   line-height: 1;
-  font-weight: 700;
-  letter-spacing: -0.035em;
+  font-weight: 400;
+  /* Looser than it was: the tight tracking was set against a bold weight, and
+     at regular it closed the letters up. */
+  letter-spacing: -0.015em;
   color: var(--text);
 }
 
