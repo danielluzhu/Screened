@@ -112,6 +112,11 @@ song had no page of its own to read them on.)
 The `.film` row card still exists — the film, director and suggestions pages use
 it.
 
+On a film's own page the title runs full width above the poster rather than
+beside it, so it starts on the same left edge as the tabs and everything else
+in the column. The poster and the facts panel then share the row below, which
+also fills the space that sat empty to the poster's right.
+
 The artwork is a link to the item's own page, everywhere it appears: the tiles,
 the row cards, the director and year lists, and the backlog. It is the biggest
 target on a card and clicking it used to do nothing. The title beside or over
@@ -396,10 +401,18 @@ they belong to, so the bar says where you are rather than only where you can go
 carry instead is gone: the tabs cover it, and each page's own body still links
 back to whatever it belongs to.
 
-That is one masthead on every page of the site. It's checked by screenshotting
-the strip above the tab row on each kind of page and comparing pixels against the
-front page — thirteen of them, none differing by more than antialiasing on the
-eyebrow's text (±1 per channel, 0 pixels differing by more than 3).
+That is one masthead on every page of the site, 251px of it. It's checked by
+screenshotting the strip above the tab row on each kind of page and comparing
+pixels against the front page — thirteen of them, none differing by more than
+antialiasing (0 pixels differing by more than 3 per channel).
+
+Two things that comparison caught, both invisible until measured. The gradient
+rule under the wordmark was sized `max-width: 60%`, which resolved against a
+full-width `h1` on the front page and a `fit-content` link everywhere else, so
+the gradient was drawn over two different widths and came out a shade different
+on each; it is `min(180px, 40vw)` now, which no container can change. And the
+comparison strip has to stop above the tab row — below it the pages differ by
+design, because a different tab is lit.
 
 Directors sort on what you've rated, better tiers first: more `S` films puts a
 director ahead however many `A` films the next one has, more `A` breaks that

@@ -39,7 +39,7 @@ body {
   position: relative;
   border-bottom: 1px solid var(--line);
   background: linear-gradient(180deg, var(--panel), var(--bg));
-  padding: 52px 0 0;
+  padding: 34px 0 0;
   overflow: hidden;
 }
 
@@ -70,7 +70,7 @@ body {
 }
 
 .eyebrow {
-  margin: 0 0 10px;
+  margin: 0 0 8px;
   font-size: 0.72rem;
   font-weight: 600;
   letter-spacing: 0.22em;
@@ -85,7 +85,8 @@ body {
 
 /* The wordmark links home from every page that isn't the front page. */
 .wordmark-link {
-  display: inline-block;
+  display: block;
+  width: fit-content;
   text-decoration: none;
   color: inherit;
 }
@@ -99,9 +100,13 @@ body {
 }
 
 .wordmark {
+  /* Block on both pages: an h1 on the front page, a span inside the link
+     everywhere else. Left inline, the span sits on a baseline and lands a pixel
+     off the h1, which shows up when the two headers are compared. */
+  display: block;
   margin: 0;
-  font-size: clamp(2.6rem, 7vw, 4rem);
-  line-height: 0.95;
+  font-size: clamp(2rem, 5vw, 2.9rem);
+  line-height: 1;
   font-weight: 700;
   letter-spacing: -0.035em;
   color: var(--text);
@@ -112,10 +117,13 @@ body {
 .wordmark::after {
   content: "";
   display: block;
-  width: 180px;
-  max-width: 60%;
+  /* Sized against the viewport, not the parent: the wordmark is a full-width
+     h1 on the front page and a fit-content link elsewhere, so a percentage
+     here drew the gradient over two different widths and the rule came out a
+     shade different on each. */
+  width: min(180px, 40vw);
   height: 2px;
-  margin-top: 18px;
+  margin-top: 12px;
   border-radius: 2px;
   background: linear-gradient(90deg, var(--accent), rgba(224, 179, 74, 0));
 }
@@ -127,7 +135,7 @@ h1 {
 }
 
 .tagline {
-  margin: 16px 0 0;
+  margin: 12px 0 0;
   max-width: 46ch;
   color: var(--muted);
   font-size: 1.02rem;
@@ -139,7 +147,7 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   gap: 2px;
-  margin-top: 30px;
+  margin-top: 20px;
   /* Pull the row back by one tab's side padding so the first tab's text sits on
      the same left edge as the eyebrow, wordmark and tagline above it, rather
      than 14px inside them. */
@@ -931,7 +939,7 @@ a.title-text:hover,
 
 .film-heading {
   min-width: 0;
-  flex: 1 1 260px;
+  margin-bottom: 18px;
 }
 
 .film-heading h1 {
@@ -961,6 +969,14 @@ a.title-text:hover,
 .facts {
   display: block;
   margin-bottom: 28px;
+}
+
+/* facts() wraps the list in this section, so it — not the list — is the flex
+   item beside the poster, and it takes the rest of the row. */
+.film-head > .facts {
+  flex: 1 1 320px;
+  min-width: 0;
+  margin-bottom: 0;
 }
 
 .facts > .hint {
@@ -1100,7 +1116,7 @@ a.title-text:hover,
   display: grid;
   grid-template-columns: max-content 1fr;
   gap: 8px 18px;
-  margin: 0 0 10px;
+  margin: 0;
   padding: 16px;
   background: var(--panel);
   border: 1px solid var(--line);

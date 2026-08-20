@@ -169,11 +169,15 @@ function render(film, data) {
   });
   rating.append(select, meaning);
   heading.append(rating);
-  head.append(heading);
-  main.append(head);
+  // The title runs full width above, so it starts on the same left edge as the
+  // tabs and everything else on the page rather than beside the poster.
+  main.append(heading);
 
   const franchiseNames = film.franchises ?? [];
-  main.append(facts(film, data));
+  // Poster and facts sit side by side, which also fills the space that used to
+  // be empty to the poster's right.
+  head.append(facts(film, data));
+  main.append(head);
 
   const overview = summaryBox(film);
   if (overview) main.append(overview);
