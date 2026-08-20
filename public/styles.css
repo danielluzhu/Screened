@@ -306,6 +306,23 @@ select.badge {
   line-height: 1;
 }
 
+/* The add control: a badge-shaped picker on a film that is not in the list yet,
+   so it reads as an empty slot rather than a rating already given. */
+select.badge.is-add {
+  background: transparent;
+  border-style: dashed;
+  color: var(--muted);
+  /* Pinned, for the same reason the rating badge is: a select is as wide as its
+     widest option, and these sit in a row rather than a corner. */
+  width: 34px;
+  flex: none;
+}
+
+select.badge.is-add:hover {
+  border-color: var(--accent);
+  color: var(--text);
+}
+
 select.badge:hover {
   border-color: var(--accent);
 }

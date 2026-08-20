@@ -58,10 +58,16 @@ git add -A docs && git commit -m "rebuild site" && git push
 Pages serves static files only, so the copy differs from the local server in two
 ways: `/api/data` becomes `docs/api/data.json`, and every `/film/<slug>` style
 route is written out as a real directory with an `index.html` rather than being
-resolved per request. Writing to `Favorites.numbers` needs the Python helpers,
-which only exist locally, so `docs/static.js` renders the rating dropdowns as
-plain badges and hides the add/edit forms. It hides rather than removes them:
-`app.js` looks those nodes up by id after its data fetch resolves, and a missing
+resolved per request.
+
+Writing to `Favorites.numbers` needs the Python helpers, which only exist
+locally, so `docs/static.js` deals with the write controls — but not uniformly,
+because they aren't the same kind of thing. The **rating control stays**: it is
+how a tier is shown, the scale is worth being able to open and read, and the
+`fetch` guard turns the write into a revert and a toast saying where to make the
+change. The **add and edit forms are hidden**: those are large, and a form that
+can only fail is worse than no form. It hides rather than removes them, since
+`app.js` looks those nodes up by id after its data fetch resolves and a missing
 one throws before the film list ever renders. Edit locally, rebuild, push.
 
 The build takes the base path as its one argument (`/Screened` by default);
@@ -466,6 +472,19 @@ took one 35KB portrait to 180KB and the set from 5MB to 27MB.
 media. The licence and author come back with the image, are stored in
 `director-photos.json`, and are shown under the portrait, because CC BY-SA needs
 the credit visible.
+
+### Adding a film at a tier
+
+A film that isn't in the list — one of a director's other films, whether in the
+list on their page or on its own page — carries a dashed badge with a `+` in it.
+Picking a tier adds the film at that tier; picking `?` adds it unrated, which is
+the watch-next queue. On success the control becomes the badge it just earned,
+so the row reads the same as one that was always in the list.
+
+The options are single characters with the meaning on each one's tooltip, for
+the same reason the rating badge is pinned to a fixed width: a `<select>` is as
+wide as its widest option, and `C — Something missing that does not let me
+enjoy` stretched the control most of the way across the page.
 
 ### Other films
 

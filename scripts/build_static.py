@@ -165,9 +165,12 @@ def main() -> int:
 
 
 STATIC_JS = """\
-// The published site is a read-only mirror. There is no Bun server and no
-// Favorites.numbers behind it, so the editing UI is taken out of reach rather
-// than left in place to fail on click.
+// The published site is a read-only mirror: no Bun server, no
+// Favorites.numbers. The rating control stays exactly as it is — it is how a
+// tier is shown, and the scale is worth being able to open and read — but the
+// write behind it cannot land here, so it reverts and says why. The add and
+// edit forms are hidden instead: those are large, and a form that can only fail
+// is worse than no form.
 (() => {
   // Hidden, not removed. app.js finishes wiring these up after its data fetch
   // resolves — which is after this script runs — and setUpAddForm() throws on a
@@ -178,21 +181,12 @@ STATIC_JS = """\
     "{display:none!important}";
   (document.head ?? document.documentElement).append(style);
 
-  function neuter() {
-    // Ratings render as <select>; swap each for the badge it already looks like.
-    document.querySelectorAll("select.badge").forEach((sel) => {
-      const badge = document.createElement("span");
-      badge.className = "badge";
-      badge.dataset.tier = sel.value;
-      badge.textContent = sel.value;
-      if (sel.title) badge.title = sel.title;
-      sel.replaceWith(badge);
-    });
-  }
-
   // Say where the missing controls went, once, on any page that had some. The
   // pages re-render after their fetch, so this is idempotent and re-applied.
-  const HID = ".add-toggle,.add-form,.add-suggestion,.add-other,.edit-title,.edit-details";
+  const HID =
+    ".add-toggle,.add-form,.add-suggestion,.add-other,.edit-title,.edit-details," +
+    // The add picker stays visible, but its write can't land here either.
+    "select.badge.is-add";
   function note() {
     if (document.getElementById("static-note")) return;
     if (!document.querySelector(HID)) return;
@@ -208,7 +202,6 @@ STATIC_JS = """\
   }
 
   const apply = () => {
-    neuter();
     note();
   };
 
@@ -229,7 +222,10 @@ STATIC_JS = """\
     if (method !== "GET" && method !== "HEAD") {
       return Promise.resolve(
         new Response(
-          JSON.stringify({ ok: false, error: "This is a read-only copy of the site." }),
+          JSON.stringify({
+            ok: false,
+            error: "read-only copy, so the change wasn't saved — make it on the local site",
+          }),
           { status: 405, headers: { "content-type": "application/json" } }
         )
       );

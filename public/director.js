@@ -70,34 +70,65 @@ function toast(message, kind = "info") {
 
 // Their other films are the obvious thing to want on your list, so each one
 // can be added from here. It lands unrated, with this director filled in.
-async function addFilm(film, director, button) {
-  button.disabled = true;
-  button.textContent = "Adding…";
+const TIERS = ["S", "A", "B", "C", "D", "E", "F", "?"];
+
+async function addFilm(film, director, tier, control) {
+  control.disabled = true;
   try {
     const res = await fetch("/api/film", {
       method: "POST",
       headers: { "content-type": "application/json" },
-      body: JSON.stringify({ title: film.title, year: film.year ?? null, director, tier: "?" }),
+      body: JSON.stringify({ title: film.title, year: film.year ?? null, director, tier }),
     });
     const result = await res.json().catch(() => ({ ok: false, error: `HTTP ${res.status}` }));
     if (!res.ok || !result.ok) throw new Error(result.error || `HTTP ${res.status}`);
-    button.textContent = "✓ Added";
-    button.classList.add("is-added");
-    toast(`Added ${film.title} — looking for a poster…`);
+    // It's in the list now, so the control becomes the badge it earned.
+    const badge = text("span", "badge", tier);
+    badge.dataset.tier = tier;
+    badge.title = tier === "?" ? "Unrated" : TIER_MEANING[tier] ?? tier;
+    control.replaceWith(badge);
+    toast(
+      tier === "?"
+        ? `Added ${film.title}, unrated — looking for a poster…`
+        : `Added ${film.title} at ${tier} — looking for a poster…`
+    );
   } catch (err) {
-    button.disabled = false;
-    button.textContent = "+ Add";
+    control.disabled = false;
+    control.value = "";
     toast(`Couldn't add ${film.title}: ${err.message}`, "error");
   }
 }
 
+// Not in the list yet, so this picks the tier to add it at rather than changing
+// one. Unrated is first: it's the usual answer, and it's the watch-next queue.
+function addControl(film, director) {
+  const select = document.createElement("select");
+  select.className = "badge is-add";
+  select.title = `Add ${film.title} to your list`;
+  select.setAttribute("aria-label", `Add ${film.title} to your list`);
+  // Single characters, with the meaning on each option's tooltip. A <select>
+  // takes the width of its widest option, and a row of "C — Something missing
+  // that does not let me enjoy" stretched the control across the page.
+  select.append(new Option("+", "", true, true));
+  const unrated = new Option("?", "?");
+  unrated.title = "Add unrated — the watch-next queue";
+  select.append(unrated);
+  for (const tier of TIERS) {
+    if (tier === "?") continue;
+    const option = new Option(tier, tier);
+    option.title = `Add at ${tier} — ${TIER_MEANING[tier] ?? tier}`;
+    select.append(option);
+  }
+  select.addEventListener("change", () => {
+    if (!select.value) return;
+    addFilm(film, director, select.value, select);
+  });
+  return select;
+}
+
 function otherRow(film, director) {
   const li = text("li", "other");
-  const add = text("button", "add-other", "+ Add");
-  add.type = "button";
-  add.title = `Add ${film.title} to your list, unrated`;
-  add.setAttribute("aria-label", `Add ${film.title} to your list`);
-  add.addEventListener("click", () => addFilm(film, director, add));
+  const add = addControl(film, director);
   // Each of these has a page of its own; it is not in the list, and opening it
   // doesn't put it there.
   const link = text("a", "ttl", film.title);
