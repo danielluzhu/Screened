@@ -281,14 +281,47 @@ function render(data) {
     const best = films[0].score || 1;
 
     let active = "all";
+    let director = "all";
+    let genre = "all";
+
     const draw = () => {
-      const shown =
-        active === "all"
-          ? films
-          : films.filter((f) => (f.reasons ?? []).some((r) => r.kind === active));
+      const shown = films.filter((f) => {
+        if (active !== "all" && !(f.reasons ?? []).some((r) => r.kind === active)) return false;
+        if (director !== "all" && !(f.directors ?? []).includes(director)) return false;
+        if (genre !== "all" && !(f.genres ?? []).includes(genre)) return false;
+        return true;
+      });
       grid.replaceChildren(...shown.map((f) => suggestionCard(f, best)));
-      count.textContent = `${shown.length} film${shown.length === 1 ? "" : "s"}`;
-      if (!shown.length) grid.append(text("p", "empty", "Nothing under this heading yet."));
+      count.textContent =
+        shown.length === films.length
+          ? `${films.length} film${films.length === 1 ? "" : "s"}`
+          : `${shown.length} of ${films.length} films`;
+      if (!shown.length) {
+        grid.append(text("p", "empty", "Nothing matches that combination."));
+      }
+    };
+
+    // Facets built from the suggestions themselves, most-used first, so the
+    // list leads with the ones worth picking and never offers a dead option.
+    const facet = (label, pick, onPick) => {
+      const tally = new Map();
+      for (const film of films) {
+        for (const value of pick(film)) tally.set(value, (tally.get(value) ?? 0) + 1);
+      }
+      const select = document.createElement("select");
+      select.setAttribute("aria-label", `Filter by ${label}`);
+      const covered = films.filter((f) => pick(f).length).length;
+      select.append(new Option(`All ${label} (${covered})`, "all"));
+      for (const [value, n] of [...tally].sort(
+        (a, b) => b[1] - a[1] || a[0].localeCompare(b[0])
+      )) {
+        select.append(new Option(`${value} (${n})`, value));
+      }
+      select.addEventListener("change", (event) => {
+        onPick(event.target.value);
+        draw();
+      });
+      return select;
     };
 
     for (const filter of FILTERS) {
@@ -304,6 +337,11 @@ function render(data) {
       });
       bar.append(button);
     }
+
+    bar.append(
+      facet("directors", (f) => f.directors ?? [], (v) => (director = v)),
+      facet("genres", (f) => f.genres ?? [], (v) => (genre = v))
+    );
     bar.append(count);
 
     section.append(text("h2", null, "New to you"));

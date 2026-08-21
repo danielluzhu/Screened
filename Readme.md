@@ -513,6 +513,16 @@ page already pulls.
 films that aren't in the sheet at all, and the unrated films already sitting in
 it — a 70-film backlog needs a top as much as anything else does.
 
+*New to you* filters three ways at once: the reason a film is being suggested
+(the buttons), and a director and a genre (the two dropdowns). The dropdowns are
+built from the suggestions themselves, most-used first with counts, so they never
+offer an option that matches nothing, and the count reads `N of M` whenever a
+filter is on. All three combine — *Drama*, by *Wong Kar-wai*, suggested because
+of a director you like.
+
+The backlog below it isn't filtered by these; the bar belongs to the section it
+sits in.
+
 Nothing is fetched when the page loads. The candidates are what the other
 scripts already wrote:
 
