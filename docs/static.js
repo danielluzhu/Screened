@@ -10,14 +10,13 @@
   // missing node, killing init() before it ever renders the film list.
   const style = document.createElement("style");
   style.textContent =
-    ".add-toggle,.add-form,.edit-title,.edit-details,.add-suggestion,.add-other" +
-    "{display:none!important}";
+    ".add-toggle,.add-form,.edit-title,.edit-details" + "{display:none!important}";
   (document.head ?? document.documentElement).append(style);
 
   // Say where the missing controls went, once, on any page that had some. The
   // pages re-render after their fetch, so this is idempotent and re-applied.
   const HID =
-    ".add-toggle,.add-form,.add-suggestion,.add-other,.edit-title,.edit-details," +
+    ".add-toggle,.add-form,.edit-title,.edit-details," +
     // The add picker stays visible, but its write can't land here either.
     "select.badge.is-add";
   function note() {

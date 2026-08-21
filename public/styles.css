@@ -1771,6 +1771,14 @@ a.taste-chip:hover {
 .sug-title {
   font-weight: 600;
   overflow-wrap: anywhere;
+  /* A queue card's title is a link when the film is already on the list and a
+     plain span when it isn't; both should read the same. */
+  color: inherit;
+  text-decoration: none;
+}
+
+a.sug-title:hover {
+  color: var(--accent);
 }
 
 .sug-year {
@@ -2222,4 +2230,16 @@ a.taste-chip:hover {
   border-left: 2px solid var(--accent);
   border-radius: 6px;
   background: var(--panel);
+}
+
+/* Marks a queue card as a film already on the list, waiting on a rating. */
+.chip-owned {
+  padding: 2px 8px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: var(--panel-2);
+  color: var(--muted);
+  font-size: 0.72rem;
+  font-weight: 600;
+  white-space: nowrap;
 }

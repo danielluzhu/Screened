@@ -49,30 +49,103 @@ const KNOWN_DIRECTORS = new Set();
 
 // Adding straight from a suggestion is the whole point of the page, so it uses
 // the same endpoint as the Add film form and lands unrated.
-async function addFilm(entry, button) {
-  button.disabled = true;
-  button.textContent = "Adding…";
-  try {
-    const res = await fetch("/Screened/api/film", {
-      method: "POST",
-      headers: { "content-type": "application/json" },
-      body: JSON.stringify({
-        title: entry.title,
-        year: entry.year ?? null,
-        director: (entry.directors ?? []).join(", ") || null,
-        tier: "?",
-      }),
-    });
-    const result = await res.json().catch(() => ({ ok: false, error: `HTTP ${res.status}` }));
-    if (!res.ok || !result.ok) throw new Error(result.error || `HTTP ${res.status}`);
-    button.textContent = "✓ In your unrated";
-    button.classList.add("is-added");
-    toast(`Added ${entry.title} to unrated — looking for a poster…`);
-  } catch (err) {
-    button.disabled = false;
-    button.textContent = "+ Add to unrated";
-    toast(`Couldn't add ${entry.title}: ${err.message}`, "error");
+const TIERS = ["S", "A", "B", "C", "D", "E", "F", "?"];
+
+// Single characters with the meaning on each option's tooltip: a <select> is as
+// wide as its widest option, and the spelled-out tiers stretch it across a card.
+function tierOptions(select, { includeUnrated, verb }) {
+  if (includeUnrated) {
+    const unrated = new Option("?", "?");
+    unrated.title = `${verb} unrated — the watch-later queue`;
+    select.append(unrated);
   }
+  for (const tier of TIERS) {
+    if (tier === "?") continue;
+    const option = new Option(tier, tier);
+    option.title = `${verb} at ${tier} — ${TIER_MEANING[tier] ?? tier}`;
+    select.append(option);
+  }
+}
+
+function settle(control, tier, message) {
+  const badge = text("span", "badge", tier);
+  badge.dataset.tier = tier;
+  badge.title = TIER_MEANING[tier] ?? tier;
+  control.replaceWith(badge);
+  toast(message);
+}
+
+// Not in the list yet: pick a tier to add it at, or ? for unrated.
+function addControl(entry) {
+  const select = document.createElement("select");
+  select.className = "badge is-add";
+  select.title = `Add ${entry.title} to your list`;
+  select.setAttribute("aria-label", `Add ${entry.title} to your list`);
+  select.append(new Option("+", "", true, true));
+  tierOptions(select, { includeUnrated: true, verb: "Add" });
+  select.addEventListener("change", async () => {
+    const tier = select.value;
+    if (!tier) return;
+    select.disabled = true;
+    try {
+      const res = await fetch("/Screened/api/film", {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify({
+          title: entry.title,
+          year: entry.year ?? null,
+          director: (entry.directors ?? []).join(", ") || null,
+          tier,
+        }),
+      });
+      const result = await res.json().catch(() => ({ ok: false, error: `HTTP ${res.status}` }));
+      if (!res.ok || !result.ok) throw new Error(result.error || `HTTP ${res.status}`);
+      settle(
+        select,
+        tier,
+        tier === "?"
+          ? `Added ${entry.title} to unrated — looking for a poster…`
+          : `Added ${entry.title} at ${tier} — looking for a poster…`
+      );
+    } catch (err) {
+      select.disabled = false;
+      select.value = "";
+      toast(`Couldn't add ${entry.title}: ${err.message}`, "error");
+    }
+  });
+  return select;
+}
+
+// Already in the list and unrated: the thing to do is rate it, which is also
+// what takes it off this queue.
+function rateControl(entry) {
+  const select = document.createElement("select");
+  select.className = "badge";
+  select.dataset.tier = "?";
+  select.title = `Rate ${entry.title}`;
+  select.setAttribute("aria-label", `Rate ${entry.title}`);
+  select.append(new Option("?", "?", true, true));
+  tierOptions(select, { includeUnrated: false, verb: "Rate" });
+  select.addEventListener("change", async () => {
+    const tier = select.value;
+    if (tier === "?") return;
+    select.disabled = true;
+    try {
+      const res = await fetch("/Screened/api/rating", {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify({ title: entry.title, year: entry.year ?? null, tier }),
+      });
+      const result = await res.json().catch(() => ({ ok: false, error: `HTTP ${res.status}` }));
+      if (!res.ok || !result.ok) throw new Error(result.error || `HTTP ${res.status}`);
+      settle(select, tier, `${entry.title} → ${tier}`);
+    } catch (err) {
+      select.disabled = false;
+      select.value = "?";
+      toast(`Couldn't rate ${entry.title}: ${err.message}`, "error");
+    }
+  });
+  return select;
 }
 
 function reasonList(entry) {
@@ -105,10 +178,16 @@ function suggestionCard(entry, best) {
 
   const body = text("div", "sug-body");
   const head = text("div", "sug-head");
-  const title = text("span", "sug-title", entry.title);
+  // An unrated film is already in the list, so it has a page; a recommendation
+  // does not.
+  const title = entry.owned
+    ? text("a", "sug-title", entry.title)
+    : text("span", "sug-title", entry.title);
+  if (entry.owned) title.href = `/Screened/film/${entry.slug}`;
   head.append(title);
   if (entry.year) head.append(text("span", "sug-year", String(entry.year)));
   if (entry.upcoming) head.append(text("span", "chip-soon", "not out yet"));
+  if (entry.owned) head.append(text("span", "chip-owned", "on your list"));
   body.append(head);
 
   const who = (entry.directors ?? []).filter(Boolean);
@@ -144,10 +223,9 @@ function suggestionCard(entry, best) {
   body.append(meter);
 
   const actions = text("div", "sug-actions");
-  const add = text("button", "add-suggestion", "+ Add to unrated");
-  add.type = "button";
-  add.title = `Add ${entry.title} to your list unrated — the queue below`;
-  add.addEventListener("click", () => addFilm(entry, add));
+  // Already in the list: the thing to do is rate it. Not in the list yet: the
+  // thing to do is add it, at a tier or unrated.
+  const add = entry.owned ? rateControl(entry) : addControl(entry);
   actions.append(add);
   if (entry.qid) {
     const look = text("a", "sug-link", "Wikidata ↗");
@@ -162,53 +240,6 @@ function suggestionCard(entry, best) {
 }
 
 
-// Artwork that links to the film's own page. The title beside it already links
-// to the same place, so this one is hidden from assistive tech and skipped when
-// tabbing rather than read out and stopped at twice.
-function artLink(art, href) {
-  const link = text("a", "art-link");
-  link.href = href;
-  link.setAttribute("aria-hidden", "true");
-  link.tabIndex = -1;
-  link.append(art);
-  return link;
-}
-
-function backlogRow(entry) {
-  const li = text("li", "backlog-row");
-
-  if (entry.poster) {
-    const img = document.createElement("img");
-    img.className = "poster-sm";
-    img.src = `/Screened/posters/${entry.poster}`;
-    img.alt = "";
-    img.loading = "lazy";
-    li.append(artLink(img, `/Screened/film/${entry.slug}`));
-  } else {
-    const blank = text("div", "poster-sm is-blank");
-    blank.setAttribute("aria-hidden", "true");
-    li.append(artLink(blank, `/Screened/film/${entry.slug}`));
-  }
-
-  const body = text("div", "backlog-body");
-  const head = text("div", "backlog-head");
-  const link = text("a", "ttl", entry.title);
-  link.href = `/Screened/film/${entry.slug}`;
-  head.append(link);
-  if (entry.year) head.append(text("span", "yr", String(entry.year)));
-  body.append(head);
-
-  const first = (entry.reasons ?? [])[0];
-  body.append(
-    text(
-      "div",
-      first ? "backlog-why" : "backlog-why is-quiet",
-      first ? first.text : "Nothing to go on yet — rate more of what you've seen"
-    )
-  );
-  li.append(body);
-  return li;
-}
 
 function tasteStrip(taste) {
   const box = text("section", "taste");
@@ -253,6 +284,13 @@ function render(data) {
   const suggestions = data.suggestions ?? {};
   const films = suggestions.films ?? [];
   const backlog = suggestions.unrated ?? [];
+  // Unrated is the watch-later queue, so those films are ranked alongside the
+  // recommendations rather than parked below them. Both scores come out of the
+  // same pass in extract.py, so they compare directly.
+  const queue = [
+    ...films.map((f) => ({ ...f, owned: false })),
+    ...backlog.map((f) => ({ ...f, owned: true })),
+  ].sort((a, b) => (b.score ?? 0) - (a.score ?? 0));
   const main = el("main");
   main.replaceChildren();
 
@@ -264,8 +302,8 @@ function render(data) {
       films.length
         ? `Ranked from the ${suggestions.rated} films you've rated — who directed them, which ` +
           `series they belong to, where they were made, and which genres you keep rating highly. ` +
-          `Adding one puts it in your list unrated, which is the same queue as the unrated ` +
-          `films further down.`
+          `Films already on your list but unrated are ranked in here too: unrated is the ` +
+          `watch-later queue.`
         : "Nothing to suggest yet. Rate a few films and this fills itself in."
     )
   );
@@ -273,29 +311,31 @@ function render(data) {
   const strip = tasteStrip(suggestions.taste ?? {});
   if (strip) main.append(strip);
 
-  if (films.length) {
+  if (queue.length) {
     const section = text("section", "sug-section");
     const bar = text("div", "sug-filters");
     const count = text("span", "count", "");
     const grid = text("div", "sug-grid");
-    const best = films[0].score || 1;
+    const best = queue[0].score || 1;
 
     let active = "all";
     let director = "all";
     let genre = "all";
 
     const draw = () => {
-      const shown = films.filter((f) => {
+      const shown = queue.filter((f) => {
         if (active !== "all" && !(f.reasons ?? []).some((r) => r.kind === active)) return false;
         if (director !== "all" && !(f.directors ?? []).includes(director)) return false;
         if (genre !== "all" && !(f.genres ?? []).includes(genre)) return false;
         return true;
       });
       grid.replaceChildren(...shown.map((f) => suggestionCard(f, best)));
+      const onList = shown.filter((f) => f.owned).length;
       count.textContent =
-        shown.length === films.length
-          ? `${films.length} film${films.length === 1 ? "" : "s"}`
-          : `${shown.length} of ${films.length} films`;
+        (shown.length === queue.length
+          ? `${queue.length} film${queue.length === 1 ? "" : "s"}`
+          : `${shown.length} of ${queue.length} films`) +
+        (onList ? ` · ${onList} already on your list` : "");
       if (!shown.length) {
         grid.append(text("p", "empty", "Nothing matches that combination."));
       }
@@ -305,12 +345,12 @@ function render(data) {
     // list leads with the ones worth picking and never offers a dead option.
     const facet = (label, pick, onPick) => {
       const tally = new Map();
-      for (const film of films) {
+      for (const film of queue) {
         for (const value of pick(film)) tally.set(value, (tally.get(value) ?? 0) + 1);
       }
       const select = document.createElement("select");
       select.setAttribute("aria-label", `Filter by ${label}`);
-      const covered = films.filter((f) => pick(f).length).length;
+      const covered = queue.filter((f) => pick(f).length).length;
       select.append(new Option(`All ${label} (${covered})`, "all"));
       for (const [value, n] of [...tally].sort(
         (a, b) => b[1] - a[1] || a[0].localeCompare(b[0])
@@ -344,26 +384,9 @@ function render(data) {
     );
     bar.append(count);
 
-    section.append(text("h2", null, "New to you"));
+    section.append(text("h2", null, "The queue"));
     section.append(bar, grid);
     draw();
-    main.append(section);
-  }
-
-  if (backlog.length) {
-    const section = text("section", "sug-section");
-    section.append(text("h2", null, "Already on your list, unrated"));
-    section.append(
-      text(
-        "p",
-        "hint",
-        `${backlog.length} films you've added but not rated, best match first — ` +
-          `unrated is the watch-next queue, and anything added above lands here.`
-      )
-    );
-    const ol = text("ol", "backlog");
-    for (const entry of backlog) ol.append(backlogRow(entry));
-    section.append(ol);
     main.append(section);
   }
 

@@ -509,19 +509,20 @@ page already pulls.
 
 ### What to watch next
 
-`/suggestions` ranks films you haven't seen against your own ratings. Two lists:
-films that aren't in the sheet at all, and the unrated films already sitting in
-it — a 70-film backlog needs a top as much as anything else does.
+`/suggestions` ranks films you haven't seen against your own ratings — one
+queue, holding both films that aren't in the sheet at all and the unrated films
+already sitting in it. Unrated is the watch-later shelf, so those belong in the
+ranking rather than parked under it; both scores come out of the same pass in
+`extract.py`, so they compare directly. A card that is already on the list says
+so, links to its page, and offers a rating rather than an add — rating it is
+also what takes it off the queue.
 
-*New to you* filters three ways at once: the reason a film is being suggested
-(the buttons), and a director and a genre (the two dropdowns). The dropdowns are
-built from the suggestions themselves, most-used first with counts, so they never
-offer an option that matches nothing, and the count reads `N of M` whenever a
-filter is on. All three combine — *Drama*, by *Wong Kar-wai*, suggested because
-of a director you like.
-
-The backlog below it isn't filtered by these; the bar belongs to the section it
-sits in.
+The queue filters three ways at once: the reason a film is being suggested (the
+buttons), and a director and a genre (the two dropdowns). The dropdowns are built
+from the queue itself, most-used first with counts, so they never offer an option
+that matches nothing, and the count reads `N of M · K already on your list`
+whenever a filter is on. All three combine — *Drama*, by *Wong Kar-wai*,
+suggested because of a director you like.
 
 Nothing is fetched when the page loads. The candidates are what the other
 scripts already wrote:
