@@ -68,10 +68,16 @@ def rewrite_js(src: str) -> str:
 
     # Slugs are read back off the URL, so the base has to come off first. Pages
     # serves these as directories, hence the trailing slash strip.
+    #
+    # The base is escaped for a regex literal rather than assumed to start with
+    # a slash: at base "/" it is the empty string, and prefixing a backslash to
+    # nothing produced /^\\/film/, which matches a literal backslash and left
+    # every detail page unable to find its own slug.
+    escaped_base = BASE.replace("/", "\\/")
     src = re.sub(
         r'location\.pathname\.replace\(/\^\\/(' + "|".join(ROUTES) + r')\\/\?/, ""\)',
         lambda m: (
-            f'location.pathname.replace(/^\\{BASE}\\/{m.group(1)}\\/?/, "")'
+            f'location.pathname.replace(/^{escaped_base}\\/{m.group(1)}\\/?/, "")'
             '.replace(/\\/$/, "")'
         ),
         src,

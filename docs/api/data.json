@@ -5048,6 +5048,14 @@
           "slug": "kung-fu-hustle-2004"
         },
         {
+          "title": "2046",
+          "year": 2004,
+          "tier": "?",
+          "director": "Wong Kar-wai",
+          "poster": "2046-2004.jpg",
+          "slug": "2046-2004"
+        },
+        {
           "title": "House of Flying Daggers",
           "year": 2004,
           "tier": "?",
@@ -13814,57 +13822,6 @@
         "upcoming": false
       },
       {
-        "title": "2046",
-        "year": 2004,
-        "directors": [
-          "Wong Kar-wai"
-        ],
-        "franchises": [
-          "Love trilogy"
-        ],
-        "genres": [
-          "Romance",
-          "Drama"
-        ],
-        "regions": [
-          "Hong Kong",
-          "China",
-          "France",
-          "Italy",
-          "Germany"
-        ],
-        "sources": [
-          "director",
-          "franchise"
-        ],
-        "score": 8.531,
-        "reasons": [
-          {
-            "kind": "director",
-            "name": "Wong Kar-wai",
-            "text": "You rated In the Mood for Love (S) and Chungking Express (A) by Wong Kar-wai"
-          },
-          {
-            "kind": "franchise",
-            "name": "Love trilogy",
-            "text": "Part of Love trilogy, where you rated In the Mood for Love (S)"
-          },
-          {
-            "kind": "genre",
-            "name": "Romance, Drama",
-            "text": "Romance, Drama — genres you rate well"
-          },
-          {
-            "kind": "region",
-            "name": "Hong Kong",
-            "text": "From Hong Kong, where you've rated 16 films"
-          }
-        ],
-        "qid": "Q164702",
-        "poster": "2046-2004.jpg",
-        "upcoming": false
-      },
-      {
         "title": "The Wedding Banquet",
         "year": 1993,
         "directors": [
@@ -13948,6 +13905,47 @@
           }
         ],
         "qid": "Q19840443",
+        "poster": null,
+        "upcoming": false
+      },
+      {
+        "title": "Fallen Angels",
+        "year": 1995,
+        "directors": [
+          "Wong Kar-wai"
+        ],
+        "franchises": [],
+        "genres": [
+          "Drama",
+          "Romance",
+          "Crime",
+          "Comedy"
+        ],
+        "regions": [
+          "Hong Kong"
+        ],
+        "sources": [
+          "director"
+        ],
+        "score": 6.207,
+        "reasons": [
+          {
+            "kind": "director",
+            "name": "Wong Kar-wai",
+            "text": "You rated In the Mood for Love (S) and Chungking Express (A) by Wong Kar-wai"
+          },
+          {
+            "kind": "genre",
+            "name": "Crime, Romance, Comedy",
+            "text": "Crime, Romance, Comedy — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "Hong Kong",
+            "text": "From Hong Kong, where you've rated 16 films"
+          }
+        ],
+        "qid": "Q1353408",
         "poster": null,
         "upcoming": false
       },
@@ -17972,6 +17970,31 @@
         "slug": "crouching-tiger-hidden-dragon-2000",
         "poster": "crouching-tiger-hidden-dragon-2000.png",
         "country": "Taiwan"
+      },
+      {
+        "title": "2046",
+        "year": 2004,
+        "directors": [
+          "Wong Kar-wai"
+        ],
+        "franchises": [],
+        "genres": [],
+        "regions": [],
+        "sources": [
+          "your list"
+        ],
+        "box": null,
+        "score": 3.667,
+        "reasons": [
+          {
+            "kind": "director",
+            "name": "Wong Kar-wai",
+            "text": "You rated In the Mood for Love (S) and Chungking Express (A) by Wong Kar-wai"
+          }
+        ],
+        "slug": "2046-2004",
+        "poster": "2046-2004.jpg",
+        "country": null
       },
       {
         "title": "Happy Together",
@@ -27675,7 +27698,7 @@
       "poster": "odyssey-2026.jpg",
       "nativeTitle": null,
       "critique": null,
-      "analysis": "the hero is a war criminal. \ntries to show the regret of a war criminal, but we mainly experience the suffering of the hero, not those he hurts. \nwe do not know a name in Troy. \n\nThis is the american meme \"we are the terrorists\" but only because gas prices rose after attacking Iran 2026, not from the attacks on Iran previously, or Iraq, Afghanistan, Yemen, Libya, Syria, Somalia ...",
+      "analysis": "The story largely focuses on Odysesus, the clever war hero who conquered Troy, and unravels with his internal grief from the war. \n\nHowever ultimately the only reason he cares is because his world is falling apart. we learn nothing about the Trojans who lost their city, nor do we see Odysesus learn to spare anyone. \n\nHe is ultimately not welcome at home and his solution is killing the suitors.\n\nWhat was the sin? He was already at war, and already trying to kill the enemy. \n\nthe hero is a war criminal. \ntries to show the regret of a war criminal, but we mainly experience the suffering of the hero, not those he hurts. \nwe do not know a name in Troy. \n\nThis is the american meme \"we are the terrorists\" but only because gas prices rose after attacking Iran 2026, not from the attacks on Iran previously, or Iraq, Afghanistan, Yemen, Libya, Syria, Somalia ...",
       "summary": {
         "article": "The Odyssey (2026 film)",
         "hasReception": true,
@@ -29037,6 +29060,27 @@
       "slug": "happy-together-1997",
       "genres": [],
       "franchises": []
+    },
+    {
+      "title": "2046",
+      "year": 2004,
+      "tier": "?",
+      "country": null,
+      "region": "Unknown",
+      "note": null,
+      "director": "Wong Kar-wai",
+      "directors": [
+        "Wong Kar-wai"
+      ],
+      "poster": "2046-2004.jpg",
+      "nativeTitle": null,
+      "critique": null,
+      "analysis": null,
+      "summary": null,
+      "streaming": [],
+      "slug": "2046-2004",
+      "genres": [],
+      "franchises": []
     }
   ],
   "directors": [
@@ -29608,6 +29652,119 @@
       }
     },
     {
+      "name": "Wong Kar-wai",
+      "slug": "wong-kar-wai",
+      "films": [
+        {
+          "title": "Ashes of Time",
+          "year": 1994,
+          "tier": "?",
+          "director": "Wong Kar-wai",
+          "poster": "ashes-of-time-1994.jpg",
+          "slug": "ashes-of-time-1994"
+        },
+        {
+          "title": "Chungking Express",
+          "year": 1994,
+          "tier": "A",
+          "director": "Wong Kar-wai",
+          "poster": "chungking-express-1994.jpg",
+          "slug": "chungking-express-1994"
+        },
+        {
+          "title": "Happy Together",
+          "year": 1997,
+          "tier": "?",
+          "director": "Wong Kar-wai",
+          "poster": "happy-together-1997.jpg",
+          "slug": "happy-together-1997"
+        },
+        {
+          "title": "In the Mood for Love",
+          "year": 2000,
+          "tier": "S",
+          "director": "Wong Kar-wai",
+          "poster": "in-the-mood-for-love-2000.jpg",
+          "slug": "in-the-mood-for-love-2000"
+        },
+        {
+          "title": "2046",
+          "year": 2004,
+          "tier": "?",
+          "director": "Wong Kar-wai",
+          "poster": "2046-2004.jpg",
+          "slug": "2046-2004"
+        }
+      ],
+      "others": [
+        {
+          "title": "As Tears Go By",
+          "year": 1988,
+          "slug": "as-tears-go-by-1988"
+        },
+        {
+          "title": "Days of Being Wild",
+          "year": 1990,
+          "slug": "days-of-being-wild-1990"
+        },
+        {
+          "title": "Fallen Angels",
+          "year": 1995,
+          "slug": "fallen-angels-1995"
+        },
+        {
+          "title": "wkw/tk/1996@7'55''hk.net",
+          "year": 1996,
+          "slug": "wkw-tk-1996-7-55-hk-net-1996"
+        },
+        {
+          "title": "Hua Yang De Nian Hua",
+          "year": 2000,
+          "slug": "hua-yang-de-nian-hua-2000"
+        },
+        {
+          "title": "The Hire: The Follow",
+          "year": 2001,
+          "slug": "the-hire-the-follow-2001"
+        },
+        {
+          "title": "Eros",
+          "year": 2004,
+          "slug": "eros-2004"
+        },
+        {
+          "title": "My Blueberry Nights",
+          "year": 2007,
+          "slug": "my-blueberry-nights-2007"
+        },
+        {
+          "title": "There's Only One Sun",
+          "year": 2007,
+          "slug": "there-s-only-one-sun-2007"
+        },
+        {
+          "title": "To Each His Own Cinema",
+          "year": 2007,
+          "slug": "to-each-his-own-cinema-2007"
+        },
+        {
+          "title": "The Grandmaster",
+          "year": 2013,
+          "slug": "the-grandmaster-2013"
+        },
+        {
+          "title": "The Hand",
+          "year": null,
+          "slug": "the-hand"
+        }
+      ],
+      "photo": "wong-kar-wai.jpg",
+      "photoCredit": {
+        "licence": "CC BY 2.0",
+        "author": "derivative work: Tabercil ( talk ) Wong Kar-wai at 2008 TIFF.jpg : lukeisback.com"
+      }
+    },
+    {
       "name": "Christopher Nolan",
       "slug": "christopher-nolan",
       "films": [
@@ -29715,116 +29872,6 @@
       "photoCredit": {
         "licence": "CC BY-SA 4.0",
         "author": "Republic of Korea"
-      }
-    },
-    {
-      "name": "Wong Kar-wai",
-      "slug": "wong-kar-wai",
-      "films": [
-        {
-          "title": "Ashes of Time",
-          "year": 1994,
-          "tier": "?",
-          "director": "Wong Kar-wai",
-          "poster": "ashes-of-time-1994.jpg",
-          "slug": "ashes-of-time-1994"
-        },
-        {
-          "title": "Chungking Express",
-          "year": 1994,
-          "tier": "A",
-          "director": "Wong Kar-wai",
-          "poster": "chungking-express-1994.jpg",
-          "slug": "chungking-express-1994"
-        },
-        {
-          "title": "Happy Together",
-          "year": 1997,
-          "tier": "?",
-          "director": "Wong Kar-wai",
-          "poster": "happy-together-1997.jpg",
-          "slug": "happy-together-1997"
-        },
-        {
-          "title": "In the Mood for Love",
-          "year": 2000,
-          "tier": "S",
-          "director": "Wong Kar-wai",
-          "poster": "in-the-mood-for-love-2000.jpg",
-          "slug": "in-the-mood-for-love-2000"
-        }
-      ],
-      "others": [
-        {
-          "title": "As Tears Go By",
-          "year": 1988,
-          "slug": "as-tears-go-by-1988"
-        },
-        {
-          "title": "Days of Being Wild",
-          "year": 1990,
-          "slug": "days-of-being-wild-1990"
-        },
-        {
-          "title": "Fallen Angels",
-          "year": 1995,
-          "slug": "fallen-angels-1995"
-        },
-        {
-          "title": "wkw/tk/1996@7'55''hk.net",
-          "year": 1996,
-          "slug": "wkw-tk-1996-7-55-hk-net-1996"
-        },
-        {
-          "title": "Hua Yang De Nian Hua",
-          "year": 2000,
-          "slug": "hua-yang-de-nian-hua-2000"
-        },
-        {
-          "title": "The Hire: The Follow",
-          "year": 2001,
-          "slug": "the-hire-the-follow-2001"
-        },
-        {
-          "title": "2046",
-          "year": 2004,
-          "slug": "2046-2004"
-        },
-        {
-          "title": "Eros",
-          "year": 2004,
-          "slug": "eros-2004"
-        },
-        {
-          "title": "My Blueberry Nights",
-          "year": 2007,
-          "slug": "my-blueberry-nights-2007"
-        },
-        {
-          "title": "There's Only One Sun",
-          "year": 2007,
-          "slug": "there-s-only-one-sun-2007"
-        },
-        {
-          "title": "To Each His Own Cinema",
-          "year": 2007,
-          "slug": "to-each-his-own-cinema-2007"
-        },
-        {
-          "title": "The Grandmaster",
-          "year": 2013,
-          "slug": "the-grandmaster-2013"
-        },
-        {
-          "title": "The Hand",
-          "year": null,
-          "slug": "the-hand"
-        }
-      ],
-      "photo": "wong-kar-wai.jpg",
-      "photoCredit": {
-        "licence": "CC BY 2.0",
-        "author": "derivative work: Tabercil ( talk ) Wong Kar-wai at 2008 TIFF.jpg : lukeisback.com"
       }
     },
     {
