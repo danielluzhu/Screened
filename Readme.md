@@ -71,7 +71,31 @@ can only fail is worse than no form. It hides rather than removes them, since
 one throws before the film list ever renders. Edit locally, rebuild, push.
 
 The build takes the base path as its one argument (`/Screened` by default);
-pass `/` if the site ever moves to a custom domain.
+pass `/` if the site is served from a domain's root.
+
+### On Vercel
+
+`vercel.json` builds the same static copy at base `/` and serves `docs/` as
+files. Nothing runs there:
+
+```json
+"buildCommand": "python3 scripts/build_static.py /",
+"outputDirectory": "docs"
+```
+
+Without it Vercel finds a `package.json` whose `start` is `bun run server.ts`,
+deploys that as a serverless function, and the function crashes —
+`FUNCTION_INVOCATION_FAILED`. It could not have worked however it were
+configured: `server.ts` binds a port, which serverless doesn't do, and every
+write path shells out to Python to edit `Favorites.numbers`, which needs a
+writable disk that outlives the request. Vercel gets the same read-only copy
+GitHub Pages does.
+
+The base matters, and the root case was broken. `build_static.py` escaped the
+base by prefixing a backslash to it, which is right for `/Screened` but at base
+`/` the base is the empty string, so the slug regex came out matching a literal
+backslash and every detail page failed to find its own slug. The base is escaped
+for a regex literal now, and both bases are checked.
 
 ## Data
 
