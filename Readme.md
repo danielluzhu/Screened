@@ -184,6 +184,29 @@ Contrast against `#000` is roughly 18:1 for body text, 8:1 for muted text and
 The tile scrim is the one thing that was already theme-independent — light text
 on a dark gradient, because a poster can be any colour.
 
+### The short list
+
+Films picked out to watch next — a hand-made counterpart to the ranked queue on
+`/suggestions`, which is generated. The ★ on any film's tile puts it on the list
+and takes it off again, and `/shortlist` is the view.
+
+It lives in `Favorites.numbers`, in a **Short list** column appended after
+`Full analysis`, because it is a decision you made rather than something a
+script worked out — the same reason ratings and critiques live there. The column
+is created on first use by `numbers_io.ensure_column`, so a document without it
+reads as nothing shortlisted, and a save backs the document up first like any
+other write.
+
+```sh
+python3 scripts/set_shortlist.py --list          # what's on it
+echo '{"title": "Yi Yi", "year": 2000, "on": true}' | python3 scripts/set_shortlist.py
+```
+
+The view splits into *To watch* and *Watched since*: a film you rated is still on
+the list until you take it off, and it shouldn't sit among the ones you haven't
+seen. Nothing enforces that only unrated films go on it — the list is yours —
+but that split is what it's shaped for.
+
 ### Editing ratings
 
 Click any tier badge on the Films tab to change a rating. The change is written

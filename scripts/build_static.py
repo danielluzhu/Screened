@@ -47,6 +47,7 @@ STANDALONE = (
     ("suggestions", "suggestions.html", "What to watch next — Screened"),
     ("directors", "directors.html", "Directors — Screened"),
     ("years", "years.html", "Years — Screened"),
+    ("shortlist", "index.html", "Short list — Screened"),
     ("franchises", "index.html", "Franchises — Screened"),
     ("characters", "index.html", "Characters — Screened"),
     ("shows", "index.html", "Shows — Screened"),

@@ -23,6 +23,20 @@ BACKUPS = os.path.join(ROOT, "backups")
 # Films sheet layout. Columns 4 and 5 are added by scripts/add_columns.py.
 COL_TITLE, COL_YEAR, COL_TIER, COL_COUNTRY, COL_NOTES, COL_DIRECTOR = range(6)
 COL_FRANCHISE, COL_GENRE, COL_NATIVE, COL_CRITIQUE, COL_ANALYSIS = 6, 7, 8, 9, 10
+# The short list: films picked out to watch next. Appended after the fact, so
+# rows written before it exists read as blank, which is "not on it".
+COL_SHORTLIST = 11
+SHORTLIST_HEADER = "Short list"
+# What a ticked cell holds. Numbers will show a checkbox if the column is
+# formatted as one; a plain "yes" reads the same either way.
+SHORTLIST_ON = "yes"
+
+
+def is_shortlisted(value):
+    """Whether a Short list cell counts as ticked."""
+    if isinstance(value, bool):
+        return value
+    return str(value or "").strip().lower() in {"yes", "y", "true", "1", "x", "✓"}
 
 # Characters sheet layout. Tier was appended after the fact, so rows written
 # before it exists read as blank and are treated as unrated.

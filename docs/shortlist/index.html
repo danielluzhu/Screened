@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Short list — Screened</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><text y='14' font-size='14'>🎬</text></svg>" />
+    <link rel="stylesheet" href="/Screened/styles.css" />
+  </head>
+  <body>
+    <header class="masthead masthead-home">
+      <div class="wrap">
+        <p class="eyebrow">A personal record</p>
+        <h1 class="wordmark">Screened</h1>
+        <p class="tagline">
+          Films, shows and characters I keep coming back to — somewhere to fanboy,
+          and somewhere to complain.
+        </p>
+        <nav class="tabs" id="tabs">
+          <a class="tab is-active" data-view="films" href="/Screened/" aria-current="page">Films</a>
+          <a class="tab" data-view="shortlist" href="/Screened/shortlist">Short list</a>
+          <a class="tab" data-view="franchises" href="/Screened/franchises">Franchises</a>
+          <a class="tab" data-view="characters" href="/Screened/characters">Characters</a>
+          <a class="tab" data-view="shows" href="/Screened/shows">Shows</a>
+          <a class="tab" href="/Screened/directors">Directors</a>
+          <a class="tab" href="/Screened/years">Years</a>
+          <a class="tab" href="/Screened/suggestions">What to watch next</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="wrap" id="main">
+      <section id="view-films" class="view">
+        <div class="controls">
+          <input
+            id="search"
+            type="search"
+            placeholder="Search titles…"
+            autocomplete="off"
+            aria-label="Search films"
+          />
+          <select id="region" aria-label="Filter by region"></select>
+          <select id="genre" aria-label="Filter by genre"></select>
+          <select id="service" aria-label="Filter by streaming service"></select>
+          <select id="sort" aria-label="Sort films">
+            <option value="tier">Sort: tier</option>
+            <option value="year-desc">Sort: newest</option>
+            <option value="year-asc">Sort: oldest</option>
+            <option value="title">Sort: A–Z</option>
+          </select>
+          <span class="count" id="count"></span>
+          <button type="button" class="add-toggle" id="add-toggle" aria-expanded="false">
+            + Add film
+          </button>
+        </div>
+
+        <form id="add-form" class="add-form" hidden>
+          <div class="fields">
+            <label>
+              Title <span class="req" aria-hidden="true">*</span>
+              <input name="title" required autocomplete="off" placeholder="Drive My Car" />
+            </label>
+            <label>
+              Year
+              <input name="year" inputmode="numeric" autocomplete="off" placeholder="2021" />
+            </label>
+            <label>
+              Director
+              <input name="director" autocomplete="off" placeholder="Ryusuke Hamaguchi" />
+            </label>
+            <label>
+              Country
+              <input name="country" autocomplete="off" placeholder="Japanese" />
+            </label>
+            <label>
+              Rating
+              <select name="tier" id="add-tier">
+                <option value="?" selected>Unrated</option>
+                <option value="S">S — Evangelize</option>
+                <option value="A">A — Great film</option>
+                <option value="B">B — Good</option>
+                <option value="C">C — Something missing</option>
+                <option value="D">D — Advise against</option>
+                <option value="E">E — Could not finish</option>
+                <option value="F">F — Waste of time</option>
+              </select>
+            </label>
+          </div>
+          <div class="add-actions">
+            <button type="submit" class="primary">Add film</button>
+            <button type="button" id="add-cancel">Cancel</button>
+            <span class="hint">
+              Leave the rating unset to decide later. The poster is fetched automatically.
+            </span>
+          </div>
+        </form>
+
+        <div id="films"></div>
+      </section>
+
+      <section id="view-shortlist" class="view" hidden>
+        <p class="lede">
+          Films you've picked out to watch next — the ★ on any film puts it here
+          and takes it off again.
+        </p>
+        <div class="controls">
+          <span class="count" id="shortlist-count"></span>
+        </div>
+        <div id="shortlist"></div>
+      </section>
+
+      <section id="view-franchises" class="view" hidden>
+        <p class="lede" id="franchise-lede"></p>
+        <div id="franchises"></div>
+      </section>
+
+      <section id="view-characters" class="view" hidden>
+        <div class="controls">
+          <select id="char-sort" aria-label="Sort characters">
+            <option value="tier">Sort: tier</option>
+            <option value="name">Sort: A–Z</option>
+            <option value="show">Sort: show</option>
+          </select>
+          <span class="count" id="char-count"></span>
+          <button type="button" class="add-toggle" id="char-toggle" aria-expanded="false">
+            + Add character
+          </button>
+        </div>
+
+        <form id="char-form" class="add-form" hidden>
+          <div class="fields">
+            <label>
+              Name <span class="req" aria-hidden="true">*</span>
+              <input name="name" required autocomplete="off" placeholder="Gojo Satoru" />
+            </label>
+            <label>
+              Show
+              <input name="show" autocomplete="off" placeholder="JJK" />
+            </label>
+            <label>
+              Why they're a favourite
+              <input name="why" autocomplete="off" placeholder="Optional — you can write more later" />
+            </label>
+          </div>
+          <div class="add-actions">
+            <button type="submit" class="primary">Add character</button>
+            <button type="button" id="char-cancel">Cancel</button>
+            <span class="hint">The portrait is fetched automatically from the show's wiki.</span>
+          </div>
+        </form>
+
+        <div id="characters" class="grid is-tiles"></div>
+      </section>
+
+      <section id="view-shows" class="view" hidden>
+        <div class="controls">
+          <span class="count" id="show-count"></span>
+          <button type="button" class="add-toggle" id="show-toggle" aria-expanded="false">
+            + Add show
+          </button>
+        </div>
+
+        <form id="show-form" class="add-form" hidden>
+          <div class="fields">
+            <label>
+              Show <span class="req" aria-hidden="true">*</span>
+              <input name="name" required autocomplete="off" placeholder="Vinland Saga" />
+            </label>
+          </div>
+          <div class="add-actions">
+            <button type="submit" class="primary">Add show</button>
+            <button type="button" id="show-cancel">Cancel</button>
+            <span class="hint">
+              Years, seasons, author, country and poster are filled in automatically.
+            </span>
+          </div>
+        </form>
+
+        <div id="shows" class="grid is-tiles-wide"></div>
+      </section>
+
+    </main>
+
+    <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+
+    <footer class="wrap foot">
+      <dl class="legend">
+        <dt><span class="badge" data-tier="S">S</span></dt><dd>Evangelize</dd>
+        <dt><span class="badge" data-tier="A">A</span></dt><dd>Great film</dd>
+        <dt><span class="badge" data-tier="B">B</span></dt><dd>Good</dd>
+        <dt><span class="badge" data-tier="C">C</span></dt><dd>Something missing that does not let me enjoy</dd>
+        <dt><span class="badge" data-tier="D">D</span></dt><dd>Would advise against watching without disclaimer</dd>
+        <dt><span class="badge" data-tier="E">E</span></dt><dd>Could not finish</dd>
+        <dt><span class="badge" data-tier="F">F</span></dt><dd>Waste of time</dd>
+        <dt><span class="badge" data-tier="?">?</span></dt><dd>Unrated</dd>
+      </dl>
+      <p>
+        Click any tier badge to change a rating — edits are written straight back into
+        <code>Favorites.numbers</code>, with a backup kept in <code>backups/</code>.
+      </p>
+    </footer>
+
+    <script src="/Screened/app.js"></script>
+    <script src="/Screened/static.js"></script>
+  </body>
+</html>

@@ -120,6 +120,49 @@ function tierBadgeSelect(tier, label, { meanings = true } = {}) {
   return select;
 }
 
+// The short list is a decision rather than a rating, so it gets its own mark:
+// on the tile opposite the tier, filled when the film is on it.
+function shortlistToggle(film) {
+  const button = text("button", "pin", "★");
+  button.type = "button";
+  const paint = () => {
+    button.classList.toggle("is-on", Boolean(film.shortlisted));
+    button.title = film.shortlisted
+      ? `${film.title} is on your short list — click to take it off`
+      : `Put ${film.title} on your short list`;
+    button.setAttribute("aria-pressed", String(Boolean(film.shortlisted)));
+    button.setAttribute("aria-label", button.title);
+  };
+  paint();
+
+  button.addEventListener("click", async (event) => {
+    event.preventDefault();
+    event.stopPropagation();
+    const next = !film.shortlisted;
+    button.disabled = true;
+    try {
+      const res = await fetch("/api/film/shortlist", {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify({ title: film.title, year: film.year, on: next }),
+      });
+      const result = await res.json().catch(() => ({ ok: false, error: `HTTP ${res.status}` }));
+      if (!res.ok || !result.ok) throw new Error(result.error || `HTTP ${res.status}`);
+      film.shortlisted = next;
+      paint();
+      toast(next ? `${film.title} → short list` : `${film.title} off the short list`);
+      // The short list view is a filter over the same films, so it has to
+      // lose the card that just left it.
+      if (currentView() === "shortlist") renderShortlist();
+    } catch (err) {
+      toast(`Couldn't update ${film.title}: ${err.message}`, "error");
+    } finally {
+      button.disabled = false;
+    }
+  });
+  return button;
+}
+
 function tierSelect(film) {
   const label = film.year ? `${film.title} (${film.year})` : film.title;
   const select = tierBadgeSelect(film.tier, label);
@@ -268,7 +311,7 @@ function titleField(film) {
 //
 // `wide` picks the aspect ratio, which follows what the art actually is: film
 // posters and character portraits are tall, show banners are wide.
-function tile({ art, badge, title, lines = [], wide = false, href = null }) {
+function tile({ art, badge, pin = null, title, lines = [], wide = false, href = null }) {
   const card = text("article", wide ? "tile is-wide" : "tile");
 
   let node;
@@ -291,6 +334,7 @@ function tile({ art, badge, title, lines = [], wide = false, href = null }) {
   card.append(href ? artLink(node, href) : node);
 
   if (badge) card.append(badge);
+  if (pin) card.append(pin);
 
   const overlay = text("div", "tile-overlay");
   overlay.append(title);
@@ -324,6 +368,7 @@ function filmCard(film) {
     href: `/film/${film.slug}`,
     art: film.poster ? `/posters/${film.poster}` : null,
     badge: tierSelect(film),
+    pin: shortlistToggle(film),
     title: titleField(film),
     lines: [
       // Original-language title for films not made in English.
@@ -414,6 +459,50 @@ function renderFilms() {
   const grid = text("div", "grid is-tiles");
   for (const f of sorted) grid.append(filmCard(f));
   host.append(grid);
+}
+
+// The short list, in the order the films sit in the sheet. Unrated first,
+// because that's what the list is for; anything rated has been watched and is
+// only still here because it hasn't been taken off.
+function renderShortlist() {
+  const host = el("shortlist");
+  host.replaceChildren();
+
+  const picked = DATA.films.filter((f) => f.shortlisted);
+  const waiting = picked.filter((f) => f.tier === "?");
+  const seen = picked.filter((f) => f.tier !== "?");
+  el("shortlist-count").textContent = picked.length
+    ? `${picked.length} film${picked.length === 1 ? "" : "s"}` +
+      (seen.length ? ` · ${seen.length} now rated` : "")
+    : "";
+
+  if (!picked.length) {
+    host.append(
+      text(
+        "p",
+        "empty",
+        "Nothing on the short list yet — hit the ★ on a film to put it here."
+      )
+    );
+    return;
+  }
+
+  const section = (label, films, hint) => {
+    if (!films.length) return;
+    const box = text("section", "tier-group");
+    const head = text("h2", "tier-head");
+    head.append(text("span", null, label));
+    head.append(text("span", "tier-count", `${films.length}`));
+    box.append(head);
+    if (hint) box.append(text("p", "hint", hint));
+    const grid = text("div", "grid is-tiles");
+    for (const film of films) grid.append(filmCard(film));
+    box.append(grid);
+    host.append(box);
+  };
+
+  section("To watch", waiting, null);
+  section("Watched since", seen, "Rated now — take them off with the ★.");
 }
 
 function renderFranchises() {
@@ -813,6 +902,7 @@ async function reload() {
   const res = await fetch("/api/data");
   DATA = await res.json();
   renderFilms();
+  renderShortlist();
   renderFranchises();
 }
 
@@ -902,7 +992,7 @@ function setupAddForm() {
   });
 }
 
-const VIEWS = ["films", "franchises", "characters", "shows"];
+const VIEWS = ["films", "shortlist", "franchises", "characters", "shows"];
 
 // Each of these is its own URL — /franchises, /characters, /shows — served the
 // same HTML, with the view picked here. Matching on the end of the path rather
@@ -1017,6 +1107,7 @@ async function init() {
   setupCharacterForm();
   setupShowForm();
   safely("films", renderFilms);
+  safely("shortlist", renderShortlist);
   safely("franchises", renderFranchises);
   safely("characters", renderCharacters);
   safely("shows", renderShows);

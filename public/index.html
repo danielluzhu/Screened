@@ -18,6 +18,7 @@
         </p>
         <nav class="tabs" id="tabs">
           <a class="tab is-active" data-view="films" href="/" aria-current="page">Films</a>
+          <a class="tab" data-view="shortlist" href="/shortlist">Short list</a>
           <a class="tab" data-view="franchises" href="/franchises">Franchises</a>
           <a class="tab" data-view="characters" href="/characters">Characters</a>
           <a class="tab" data-view="shows" href="/shows">Shows</a>
@@ -95,6 +96,17 @@
         </form>
 
         <div id="films"></div>
+      </section>
+
+      <section id="view-shortlist" class="view" hidden>
+        <p class="lede">
+          Films you've picked out to watch next — the ★ on any film puts it here
+          and takes it off again.
+        </p>
+        <div class="controls">
+          <span class="count" id="shortlist-count"></span>
+        </div>
+        <div id="shortlist"></div>
       </section>
 
       <section id="view-franchises" class="view" hidden>

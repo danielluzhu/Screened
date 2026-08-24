@@ -214,6 +214,26 @@ const server = Bun.serve({
       return Response.json({ ...result, posterPending: true });
     }
 
+    // The short list: films picked out to watch next. A decision, not a
+    // rating, so it has its own column and its own endpoint.
+    if (path === "/api/film/shortlist") {
+      if (req.method !== "POST") return new Response("method not allowed", { status: 405 });
+      let body: Record<string, unknown>;
+      try {
+        body = await req.json();
+      } catch {
+        return Response.json({ ok: false, error: "invalid JSON" }, { status: 400 });
+      }
+      if (!String(body.title ?? "").trim()) {
+        return Response.json({ ok: false, error: "title is required" }, { status: 400 });
+      }
+      const result: WriteResult = await (chain = chain.then(() =>
+        runScript("set_shortlist.py", body)
+      ) as Promise<WriteResult>);
+      const status = result.ok ? 200 : result.error?.endsWith("is not in the list") ? 404 : 500;
+      return Response.json(result, { status });
+    }
+
     if (path === "/api/film/critique") {
       if (req.method !== "POST") return new Response("method not allowed", { status: 405 });
       let body: Record<string, unknown>;
@@ -407,7 +427,12 @@ const server = Bun.serve({
     // each on its own URL so every tab in the nav navigates the same way.
     // Exact matches only: "/characters/itachi.webp" is an image and still falls
     // through to the static handler below, as does "/shows/bleach.jpg".
-    if (path === "/franchises" || path === "/characters" || path === "/shows") {
+    if (
+      path === "/shortlist" ||
+      path === "/franchises" ||
+      path === "/characters" ||
+      path === "/shows"
+    ) {
       return new Response(file(join(ROOT, "public", "index.html")), {
         headers: { "content-type": MIME[".html"], "cache-control": "no-store" },
       });

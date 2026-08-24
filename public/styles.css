@@ -2243,3 +2243,49 @@ a.sug-title:hover {
   font-weight: 600;
   white-space: nowrap;
 }
+
+/* --- Short list ---------------------------------------------------------- */
+
+/* Opposite the tier badge on a tile: the tier is a judgement, this is an
+   intention, and they shouldn't be mistaken for each other. */
+.pin {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  z-index: 1;
+  appearance: none;
+  display: inline-grid;
+  place-items: center;
+  width: 26px;
+  height: 26px;
+  padding: 0;
+  border-radius: 6px;
+  border: 1px solid var(--line);
+  background: rgba(0, 0, 0, 0.55);
+  color: var(--muted);
+  font-size: 0.8rem;
+  line-height: 1;
+  cursor: pointer;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.45);
+  transition: color 0.16s ease, border-color 0.16s ease;
+}
+
+.pin:hover {
+  color: var(--text);
+  border-color: var(--accent);
+}
+
+.pin.is-on {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
+.pin:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.pin:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 1px;
+}

@@ -14,7 +14,7 @@ from numbers_parser import Document
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import recommend  # noqa: E402
-from numbers_io import slug as film_slug  # noqa: E402
+from numbers_io import is_shortlisted, slug as film_slug  # noqa: E402
 
 # Wikidata's "part of the series" (P179) covers studio catalogues and critics'
 # lists as well as actual franchises. These aren't franchises, so drop them.
@@ -144,8 +144,11 @@ def main():
 
     films = []
     for row in sheets["Films"][1:]:
-        cols = (list(map(clean, row)) + [None] * 11)[:11]
-        title, year, tier, country, note, director, franchise, genre, native, critique, analysis = cols
+        cols = (list(map(clean, row)) + [None] * 12)[:12]
+        (
+            title, year, tier, country, note, director, franchise, genre, native,
+            critique, analysis, shortlist,
+        ) = cols
         if not title:
             continue
         films.append(
@@ -164,6 +167,9 @@ def main():
                 "poster": poster_for(posters, title, year),
                 "nativeTitle": str(native) if native else None,
                 "critique": str(critique) if critique else None,
+                # Hand-picked to watch next. Blank on every row until the column
+                # exists, which reads as not on it.
+                "shortlisted": is_shortlisted(shortlist),
                 "analysis": str(analysis) if analysis else None,
                 # Wikipedia's words, kept separate from critique/analysis, which
                 # are the sheet's own. None until summaries.py has run.
@@ -505,6 +511,7 @@ def main():
         f"{len(shows)} shows, {len(franchises)} franchises, {len(directors)} directors, "
         f"{len(other_films)} other films, "
         f"{sum(1 for d in directors if d['photo'])} director photos, "
+        f"{sum(1 for f in films if f['shortlisted'])} shortlisted, "
         f"{len(years)} years, {len(music)} songs"
     )
 
