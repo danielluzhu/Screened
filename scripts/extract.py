@@ -42,11 +42,16 @@ SERVICE_LOGOS = os.path.join(ROOT, "service-logos.json")
 SUMMARIES = os.path.join(ROOT, "summaries.json")
 BOX_OFFICE = os.path.join(ROOT, "box-office.json")
 
-# The Country column is typed by hand, so the same place shows up several ways.
-# Raw values are preserved on each film; this map only drives grouping/filters.
+# The Country column is typed by hand on the Films sheet, so the same place
+# shows up several ways. The Shows sheet is filled from Wikidata and Wikipedia
+# instead, which spell it their own way again ("mainland China", "United
+# States"). Raw values are preserved on each row; this map only drives
+# grouping and filters.
 REGIONS = {
     "china": "China",
     "chinese": "China",
+    "mainland china": "China",
+    "people's republic of china": "China",
     "hk": "Hong Kong",
     "hong kong": "Hong Kong",
     "taiwan": "Taiwan",
@@ -58,6 +63,8 @@ REGIONS = {
     "south korea": "Korea",
     "american": "USA",
     "usa": "USA",
+    "united states": "USA",
+    "united states of america": "USA",
     "india": "India",
     "indian": "India",
     "french": "France",
@@ -233,8 +240,8 @@ def main():
 
     shows = []
     for row in sheets["Shows"][1:]:
-        cols = (list(map(clean, row)) + [None] * 6)[:6]
-        name, native, years, seasons, author, country = cols
+        cols = (list(map(clean, row)) + [None] * 9)[:9]
+        name, native, years, seasons, author, country, episodes, genre, fmt = cols
         if not name:
             continue
         shows.append(
@@ -243,8 +250,14 @@ def main():
                 "nativeTitle": str(native) if native else None,
                 "years": str(years) if years else None,
                 "seasons": str(seasons) if seasons else None,
+                "episodes": str(episodes) if episodes else None,
                 "author": str(author) if author else None,
                 "country": str(country) if country else None,
+                # Same normalization as films, so one region filter can serve
+                # both: the sheet says "mainland China", the filter says China.
+                "region": REGIONS.get(str(country).lower(), "Unknown") if country else "Unknown",
+                "genres": [g.strip() for g in str(genre).split(",") if g.strip()] if genre else [],
+                "format": str(fmt) if fmt else None,
                 "photo": show_photos.get(str(name)),
                 "streaming": streaming["shows"].get(str(name), []),
                 "slug": film_slug(name),
@@ -487,12 +500,25 @@ def main():
         "musicGenres": by_count(lambda s: s["genres"]),
         "franchiseFilmCount": sum(1 for f in films if f["franchises"]),
         "tierOrder": TIER_ORDER,
-        "regions": sorted({f["region"] for f in films}),
+        # Films and shows share both vocabularies, so each filter is built
+        # once and each page counts its own rows against it.
+        "regions": sorted({f["region"] for f in films} | {s["region"] for s in shows}),
         # Most-used genres first, so the filter leads with the useful ones.
         "genres": [
             g
             for g, _ in sorted(
-                Counter(g for f in films for g in f["genres"]).items(),
+                Counter(
+                    g for item in [*films, *shows] for g in item["genres"]
+                ).items(),
+                key=lambda kv: (-kv[1], kv[0]),
+            )
+        ],
+        # Drawn or filmed, most-used first. Derived rather than declared: a
+        # sheet with no shows in it shouldn't offer the filter at all.
+        "showFormats": [
+            f
+            for f, _ in sorted(
+                Counter(s["format"] for s in shows if s["format"]).items(),
                 key=lambda kv: (-kv[1], kv[0]),
             )
         ],

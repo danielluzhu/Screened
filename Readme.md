@@ -320,6 +320,13 @@ python3 scripts/consolidate_genres.py            # show what would change
 python3 scripts/consolidate_genres.py --apply    # write it back
 ```
 
+Labels that name a medium as well as a genre are handled by rule rather than
+by listing every genre against every medium: `thriller anime`,
+`drama television series` and `mystery fiction` have the medium stripped and
+what remains resolved as a label in its own right. Anime keeps its medium,
+which is what the hand-written anime entries do too. Films rarely needed this;
+the Shows pull does, constantly.
+
 `autofill.py` and `recommend.py` both fold through `genres.canonical()`, so a
 fresh Wikidata pull can't grow the list back past 20, and `set_details.py`
 rejects a genre typed on a film's page that isn't in the canon. A new Wikidata
@@ -337,6 +344,62 @@ tier by default and can also sort by name or show.
 
 The badges deliberately don't show the scale's wording the way the film ones do
 — "Could not finish" is about a film, not about Levi.
+
+### Shows
+
+The Shows sheet holds nine columns — show, original title, years, seasons,
+episodes, author, country, genre and format — and only the first is typed by
+hand. `scripts/shows.py` fills the rest:
+
+```sh
+python3 scripts/shows.py            # dry run: report what it would write
+python3 scripts/shows.py --apply    # write it, and regenerate data.json
+python3 scripts/shows.py --only "Bleach" --apply    # one show
+```
+
+Wikidata answers first. It is asked for a television or anime series
+specifically, because "Death Note" otherwise resolves to the manga, which has
+different dates and no seasons. For an adaptation the author comes from the
+source work, so Bleach credits Tite Kubo rather than the studio.
+
+**Wikipedia fills the gaps**, through `scripts/infobox.py`. The gaps are not
+rare: Bleach carries a start date and no end date, Paranoia Agent no season
+count, and "Had I Not Seen the Sun" has no Wikidata item at all. Each field is
+taken from the article's infobox only where Wikidata left it blank, so the two
+can't fight over a fact they both have. Years are the exception — a start year
+on its own is not a run, so where the article knows when a series finished and
+the two agree on when it began, its span wins whole.
+
+Two infobox families cover television: live-action series use
+`{{Infobox television}}`, anime articles split the same facts across
+`{{Infobox animanga/Header}}` and `{{Infobox animanga/Video}}`, and both are
+read. Parsing them with a regex doesn't survive contact with real articles —
+fields hold nested templates, references and piped links, all full of the `|`
+that separates one field from the next — so the scanner tracks template and
+link depth and splits only at the top.
+
+**Genres are the film vocabulary**, folded through `genres.canonical()`. A
+series arrives labelled by medium as much as by genre ("thriller anime",
+"drama television series", "mystery fiction"), so the medium is stripped and
+what remains is resolved as a label in its own right; anime keeps its medium
+because `Anime` is in the canon and is worth filtering on. A show and a film
+that share a genre therefore share a filter value.
+
+**Format is two values**, Animated or Live action, from what Wikidata says the
+series is an instance of, falling back to which infobox family the article
+uses. Two, because that is the whole of the distinction being drawn — a filter
+with a long tail of production techniques would be worse at the one question
+it is asked.
+
+The Shows tab filters on region, genre and format. Only values some show
+actually has are offered, the way the film service filter works: thirteen shows
+against nine regions and twenty genres would otherwise be mostly dead options.
+Each carries its count. Region reuses the film normalization, so the sheet's
+"mainland China" and "United States" — Wikidata's spelling, not the hand-typed
+one on the Films sheet — filter as China and USA.
+
+Seasons and episodes reach the tile; genre, format and author sit on the show's
+own page, since chips don't go on tiles.
 
 ### Music
 

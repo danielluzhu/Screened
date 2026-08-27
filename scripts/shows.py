@@ -5,22 +5,31 @@
     python3 scripts/shows.py --apply    # write it
 
 Fills: full series name, original-language title, years on air, number of
-seasons, original author, and country of origin.
+seasons and of episodes, original author, country of origin, genre, and
+whether the series is animated or live action.
 
 Matching requires the item to be a television/anime series — searching "Death
 Note" otherwise lands on the manga, which has different dates and no seasons.
 For adaptations the author comes from the source work (P144 -> P50), so Bleach
 credits Tite Kubo rather than the studio.
 
+Wikidata is asked first and Wikipedia's infobox fills in the rest — see
+infobox.py, which exists because the gaps are not rare: Bleach has a start
+date and no end date, Paranoia Agent no season count, and "Had I Not Seen the
+Sun" no Wikidata item at all.
+
 Posters come from the show's Fandom wiki, falling back to Wikipedia.
 """
 import json
 import os
+import re
 import sys
 import urllib.parse
 
 import autofill
 import character_photos as chars
+import genres as G
+import infobox
 import numbers_io as io
 import posters
 
@@ -29,6 +38,8 @@ OUT = os.path.join(ROOT, "public", "shows")
 INDEX = os.path.join(ROOT, "show-photos.json")
 
 COL_NAME, COL_NATIVE, COL_YEARS, COL_SEASONS, COL_AUTHOR, COL_COUNTRY = range(6)
+# Appended after the fact, so rows written before they existed read as blank.
+COL_EPISODES, COL_GENRE, COL_FORMAT = 6, 7, 8
 HEADERS = {
     COL_NAME: "Show",
     COL_NATIVE: "Original title",
@@ -36,6 +47,25 @@ HEADERS = {
     COL_SEASONS: "Seasons",
     COL_AUTHOR: "Author",
     COL_COUNTRY: "Country",
+    COL_EPISODES: "Episodes",
+    COL_GENRE: "Genre",
+    COL_FORMAT: "Format",
+}
+
+# Drawn or filmed. Two values, because that is the whole of the distinction
+# being drawn — a filter with a long tail of production techniques would be
+# worse at the one question it is asked ("is this anime or not?").
+ANIMATED, LIVE_ACTION = "Animated", "Live action"
+
+# Instance-of ids that mean the series is drawn. A series whose type is none of
+# these is taken as live action rather than left blank: every show here is one
+# or the other, and an unset cell reads as "not filled in yet".
+ANIMATED_TYPES = {
+    "Q63952888",   # anime television series
+    "Q117467246",  # anime television series (newer id)
+    "Q581714",     # animated series
+    "Q11086742",   # animated television series
+    "Q202866",     # animated film
 }
 
 # Items that count as a series. Without this, "Death Note" resolves to the manga.
@@ -104,6 +134,13 @@ def values(claims, prop):
     return out
 
 
+def quantity(found):
+    """A Wikidata quantity claim as a plain whole number string, or None."""
+    if found and isinstance(found[0], dict) and "amount" in found[0]:
+        return str(int(float(found[0]["amount"].lstrip("+"))))
+    return None
+
+
 def author_of(claims):
     """Original creator. For adaptations that's the author of the source work."""
     direct = values(claims, "P50")
@@ -115,6 +152,127 @@ def author_of(claims):
         if found:
             return found
     return values(claims, "P170") or values(claims, "P58")
+
+
+def genres_of(claims):
+    """Canonical genres for a series, folded through the film vocabulary.
+
+    Wikidata labels a series by medium as well as genre ("thriller anime",
+    "drama television series"); genres.canonical strips the medium and keeps
+    the genre, so a show and a film that share a genre share a filter value.
+
+    An adaptation often carries none of its own, the genre sitting on the
+    source work instead — that is where One-Punch Man's Action and Comedy are.
+    """
+    ids = values(claims, "P136")
+    if not ids:
+        for source in values(claims, "P144"):
+            ids = values(raw_claims(source), "P136")
+            if ids:
+                break
+    if not ids:
+        return []
+    labels = autofill.labels(sorted(set(ids)))
+    return G.canonical_list(labels.get(i, "") for i in ids)
+
+
+def format_of(entity, claims, found_genres):
+    """ANIMATED or LIVE_ACTION, from what the series is an instance of."""
+    types = set(entity.get("types", [])) | set(values(claims, "P31"))
+    if types & ANIMATED_TYPES:
+        return ANIMATED
+    if "Anime" in found_genres or "Animation" in found_genres:
+        return ANIMATED
+    return LIVE_ACTION
+
+
+def article_for(name):
+    """The English Wikipedia article about the series, or None."""
+    for article in posters.search_articles(f"{name} television series", None, limit=6):
+        if posters.title_matches(name, article):
+            return article
+    return None
+
+
+def wiki_details(name):
+    """What the article's infobox says, in the same shape as the Wikidata pull.
+
+    Only ever used to fill a field Wikidata left empty — see merge() — so the
+    two sources can't fight over a fact they both have.
+    """
+    article = article_for(name)
+    text = infobox.wikitext(article) if article else None
+    if not text:
+        return {}
+
+    tv = infobox.template(text, "Infobox television")
+    # Anime articles split the infobox in two: the title and genre sit in the
+    # header, the broadcast run in the video box below it.
+    head = infobox.template(text, "Infobox animanga/Header")
+    video = infobox.template(text, "Infobox animanga/Video")
+
+    native = infobox.plain(head.get("ja_kanji", ""))
+    if not native and tv.get("native_name"):
+        # A Chinese-language series nests its titles in {{Infobox Chinese}};
+        # the traditional form is the one the sheet carries elsewhere.
+        chinese = infobox.template(tv["native_name"], "Infobox Chinese")
+        native = infobox.plain(chinese.get("t") or chinese.get("s") or "")
+        if not native:
+            native = next(iter(infobox.items(tv["native_name"])), None)
+
+    start = infobox.year(tv.get("first_aired") or video.get("first"))
+    end = infobox.year(tv.get("last_aired") or video.get("last"))
+    labels = infobox.items(tv.get("genre") or head.get("genre") or "")
+
+    return {
+        "native": native or None,
+        "years": span(start, end),
+        "seasons": infobox.count(tv.get("num_seasons")),
+        "episodes": infobox.count(tv.get("num_episodes") or video.get("episodes")),
+        "country": infobox.plain(tv.get("country", "")) or None,
+        "genres": G.canonical_list(labels),
+        # The header infobox is only ever used by anime articles, which makes
+        # its presence a more reliable tell than any genre label.
+        "format": ANIMATED if head else (LIVE_ACTION if tv else None),
+        "source": article,
+    }
+
+
+def span(start, end):
+    """A run of years as the sheet writes it: "2004", or "2004\u20132012"."""
+    if start and end and end != start:
+        return f"{start}\u2013{end}"
+    return str(start) if start else None
+
+
+def merge(wikidata, wiki):
+    """Wikidata's answer, with Wikipedia filling in whatever it left blank."""
+    merged = dict(wikidata)
+    for key, value in (wiki or {}).items():
+        if key == "source":
+            continue
+        if not merged.get(key) and value:
+            merged[key] = value
+
+    # A start year on its own is not a run. Wikidata has no end date for
+    # several of these — Bleach reads as "2004" — and the field isn't blank,
+    # so the fill above leaves it that way. Where the article knows when the
+    # series finished and the two agree on when it began, take its span.
+    span_from_wiki = (wiki or {}).get("years")
+    years = str(merged.get("years") or "")
+    if span_from_wiki and years and "\u2013" not in years and span_from_wiki.startswith(years):
+        merged["years"] = span_from_wiki
+    return merged
+
+
+def series_name(name, article):
+    """The article's title, when it is the row's own name better capitalized.
+
+    Only ever the same name — anything else is left alone, since renaming a row
+    to a different series would orphan its photo and its characters.
+    """
+    bare = re.sub(r"\s*\([^)]*\)$", "", article or "").strip()
+    return bare if bare.lower() == name.strip().lower() else name
 
 
 def photo_for(name):
@@ -164,7 +322,17 @@ def main():
     for name in names:
         qid, ent = series_entity(name)
         if not qid:
-            print(f"  {name:18} -> no series match", flush=True)
+            # No Wikidata item — a new or a regional series often has none.
+            # The article usually exists regardless, so fall back to it whole
+            # rather than leaving the row blank.
+            wiki = wiki_details(name)
+            if not wiki:
+                print(f"  {name:18} -> no series match", flush=True)
+                continue
+            found[name] = merge(
+                {"qid": None, "label": series_name(name, wiki["source"]), "genres": []}, wiki
+            )
+            print(f"  {name:18} -> wikipedia: {wiki['source']}", flush=True)
             continue
         claims = raw_claims(qid)
 
@@ -173,16 +341,14 @@ def main():
         ]
         end = [autofill.year_of(t) for t in values(claims, "P582")]
         start = min([y for y in start if y], default=None)
-        end = min([y for y in end if y], default=None)
-        if start and end and end != start:
-            years = f"{start}–{end}"
-        elif start:
-            years = str(start)
-        else:
-            years = None
+        # The last of the end dates, not the first: a series with a date per
+        # season would otherwise be recorded as finishing after season one.
+        end = max([y for y in end if y], default=None)
+        years = span(start, end)
 
-        seasons = values(claims, "P2437")
-        seasons = str(int(float(seasons[0]["amount"].lstrip("+")))) if seasons and isinstance(seasons[0], dict) and "amount" in seasons[0] else None
+        seasons = quantity(values(claims, "P2437"))
+        episodes = quantity(values(claims, "P1113"))
+        found_genres = genres_of(claims)
 
         author_ids = author_of(claims)
         country_ids = values(claims, "P495")
@@ -194,21 +360,28 @@ def main():
                 native = entry.get("text")
                 break
 
-        found[name] = {
-            "qid": qid,
-            "label": ent.get("label") or name,
-            "native": native,
-            "years": years,
-            "seasons": seasons,
-            "author": ", ".join(labels[a] for a in author_ids if a in labels) or None,
-            "country": labels.get(country_ids[0]) if country_ids else None,
-        }
+        found[name] = merge(
+            {
+                "qid": qid,
+                "label": ent.get("label") or name,
+                "native": native,
+                "years": years,
+                "seasons": seasons,
+                "episodes": episodes,
+                "author": ", ".join(labels[a] for a in author_ids if a in labels) or None,
+                "country": labels.get(country_ids[0]) if country_ids else None,
+                "genres": found_genres,
+                "format": format_of(ent, claims, found_genres),
+            },
+            wiki_details(name),
+        )
         autofill.save_cache()
         info = found[name]
         print(
             f"  {name:18} -> {info['label']} | {info['years'] or '?'} | "
-            f"{info['seasons'] or '?'} seasons | {info['author'] or '?'} | {info['country'] or '?'}"
-            f" | {info['native'] or ''}",
+            f"{info['seasons'] or '?'} seasons | {info['episodes'] or '?'} eps | "
+            f"{info['author'] or '?'} | {info['country'] or '?'} | {info['format']} | "
+            f"{', '.join(info['genres']) or '?'} | {info['native'] or ''}",
             flush=True,
         )
 
@@ -247,11 +420,8 @@ def main():
 
     with io.editing() as (doc, _films):
         tbl = shows_table(doc)
-        if tbl.num_cols <= COL_COUNTRY:
-            tbl.add_column(COL_COUNTRY + 1 - tbl.num_cols)
         for col, header in HEADERS.items():
-            if not tbl.cell(0, col).value:
-                tbl.write(0, col, header)
+            io.ensure_column(tbl, col, header)
         for i, values_row in enumerate(tbl.rows(values_only=True)):
             if i == 0 or not values_row[COL_NAME]:
                 continue
@@ -270,9 +440,13 @@ def main():
                 (COL_SEASONS, "seasons"),
                 (COL_AUTHOR, "author"),
                 (COL_COUNTRY, "country"),
+                (COL_EPISODES, "episodes"),
+                (COL_FORMAT, "format"),
             ):
-                if info[key]:
+                if info.get(key):
                     tbl.write(i, col, info[key])
+            if info.get("genres"):
+                tbl.write(i, COL_GENRE, ", ".join(info["genres"]))
 
     save_index()
     extract.main()

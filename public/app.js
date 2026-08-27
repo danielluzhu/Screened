@@ -7,6 +7,10 @@ const state = { query: "", region: "all", genre: "all", service: "all", sort: "t
 // Characters have their own sort; "tier" is the ranked view.
 const charState = { sort: "tier" };
 
+// Shows aren't tiered, so they filter rather than sort. Region and genre reuse
+// the film vocabularies; format is the one thing only a show is asked.
+const showState = { region: "all", genre: "all", format: "all" };
+
 function text(tag, cls, value) {
   const node = document.createElement(tag);
   if (cls) node.className = cls;
@@ -786,6 +790,7 @@ function showCard(show) {
   const bits = [
     show.years,
     show.seasons ? `${show.seasons} season${show.seasons === "1" ? "" : "s"}` : null,
+    show.episodes ? `${show.episodes} ep${show.episodes === "1" ? "" : "s"}` : null,
     show.country,
   ].filter(Boolean);
 
@@ -881,21 +886,80 @@ function setupShowForm() {
   });
 }
 
+// The three filters over the Shows page. Only values some show actually has
+// are offered — thirteen shows against nine regions and twenty genres would
+// otherwise be mostly dead options — and each carries its count, so the size
+// of a category is visible before you pick it.
+function setupShowFilters(countBy) {
+  const regionCounts = countBy(DATA.shows, (s) => (s.region ? [s.region] : []));
+  const genreCounts = countBy(DATA.shows, (s) => s.genres ?? []);
+  const formatCounts = countBy(DATA.shows, (s) => (s.format ? [s.format] : []));
+  const byCount = (a, b) => b[1] - a[1] || a[0].localeCompare(b[0]);
+
+  const fill = (id, all, entries, onPick) => {
+    const select = el(id);
+    if (!select) return;
+    select.append(new Option(all, "all"));
+    for (const [value, n] of entries) select.append(new Option(`${value} (${n})`, value));
+    select.addEventListener("change", (event) => {
+      onPick(event.target.value);
+      renderShows();
+    });
+  };
+
+  fill(
+    "show-region",
+    `All regions (${DATA.shows.length})`,
+    [...regionCounts].sort(byCount),
+    (value) => (showState.region = value)
+  );
+  fill(
+    "show-genre",
+    `All genres (${DATA.shows.filter((s) => (s.genres ?? []).length).length})`,
+    // In the shared order, so the list reads the same here as on the films
+    // page; only the counts beside each genre are the shows' own.
+    (DATA.genres ?? []).filter((g) => genreCounts.has(g)).map((g) => [g, genreCounts.get(g)]),
+    (value) => (showState.genre = value)
+  );
+  fill(
+    "show-format",
+    `Animated and live action (${[...formatCounts.values()].reduce((a, b) => a + b, 0)})`,
+    (DATA.showFormats ?? []).filter((f) => formatCounts.has(f)).map((f) => [f, formatCounts.get(f)]),
+    (value) => (showState.format = value)
+  );
+}
+
+function visibleShows() {
+  return DATA.shows.filter((s) => {
+    if (showState.region !== "all" && s.region !== showState.region) return false;
+    if (showState.genre !== "all" && !(s.genres ?? []).includes(showState.genre)) return false;
+    if (showState.format !== "all" && s.format !== showState.format) return false;
+    return true;
+  });
+}
+
 function renderShows() {
   const host = el("shows");
   host.replaceChildren();
+
+  const shows = visibleShows();
   const count = el("show-count");
   if (count) {
-    const n = DATA.shows.length;
-    count.textContent = `${n} show${n === 1 ? "" : "s"}`;
+    const all = DATA.shows.length;
+    count.textContent =
+      shows.length === all
+        ? `${all} show${all === 1 ? "" : "s"}`
+        : `${shows.length} of ${all} shows`;
   }
-  if (!DATA.shows.length) {
+  if (!shows.length) {
     host.className = "";
-    host.append(text("p", "empty", "No shows yet."));
+    // Told apart, because an empty grid means two different things: nothing
+    // added yet, or nothing left after filtering.
+    host.append(text("p", "empty", DATA.shows.length ? "Nothing matches that." : "No shows yet."));
     return;
   }
   host.className = "grid is-tiles-wide";
-  for (const s of DATA.shows) host.append(showCard(s));
+  for (const s of shows) host.append(showCard(s));
 }
 
 async function reload() {
@@ -1047,24 +1111,31 @@ async function init() {
 
   // Counts in the filter labels, so the size of each category is visible
   // before you pick it.
-  const countBy = (pick) => {
+  const countBy = (rows, pick) => {
     const tally = new Map();
-    for (const film of DATA.films) {
-      for (const value of pick(film)) tally.set(value, (tally.get(value) ?? 0) + 1);
+    for (const row of rows) {
+      for (const value of pick(row)) tally.set(value, (tally.get(value) ?? 0) + 1);
     }
     return tally;
   };
-  const regionCounts = countBy((f) => (f.region ? [f.region] : []));
-  const genreCounts = countBy((f) => f.genres ?? []);
+  const regionCounts = countBy(DATA.films, (f) => (f.region ? [f.region] : []));
+  const genreCounts = countBy(DATA.films, (f) => f.genres ?? []);
 
+  // Both vocabularies are shared with the Shows page, so each option is only
+  // offered where a film actually carries it — otherwise a region or a genre
+  // that only a show has would sit here reading "(0)".
   const region = el("region");
   region.append(new Option(`All regions (${DATA.films.length})`, "all"));
-  for (const r of DATA.regions) region.append(new Option(`${r} (${regionCounts.get(r) ?? 0})`, r));
+  for (const r of DATA.regions) {
+    if (regionCounts.has(r)) region.append(new Option(`${r} (${regionCounts.get(r)})`, r));
+  }
 
   const genre = el("genre");
   const anyGenre = DATA.films.filter((f) => (f.genres ?? []).length).length;
   genre.append(new Option(`All genres (${anyGenre})`, "all"));
-  for (const g of DATA.genres ?? []) genre.append(new Option(`${g} (${genreCounts.get(g) ?? 0})`, g));
+  for (const g of DATA.genres ?? []) {
+    if (genreCounts.has(g)) genre.append(new Option(`${g} (${genreCounts.get(g)})`, g));
+  }
   genre.addEventListener("change", (e) => {
     state.genre = e.target.value;
     renderFilms();
@@ -1072,7 +1143,7 @@ async function init() {
 
   // Services come from what streaming.json actually found, not from the logo
   // list, so a service nothing is on never appears as a dead option.
-  const serviceCounts = countBy((f) => [
+  const serviceCounts = countBy(DATA.films, (f) => [
     ...new Set((f.streaming ?? []).map((s) => s.name)),
   ]);
   const service = el("service");
@@ -1103,6 +1174,7 @@ async function init() {
     renderCharacters();
   });
 
+  setupShowFilters(countBy);
   setupAddForm();
   setupCharacterForm();
   setupShowForm();

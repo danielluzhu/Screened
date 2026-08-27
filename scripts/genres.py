@@ -98,11 +98,13 @@ ALIASES = {
     "fantasy anime": ["Anime", "Fantasy"],
     "fantasy anime and manga": ["Anime", "Fantasy"],
     "isekai": ["Anime", "Fantasy"],
+    "gag anime": ["Anime", "Comedy"],
     "mystery anime": ["Anime", "Mystery"],
     "science fiction anime": ["Anime", "Science fiction"],
     "supernatural anime": ["Anime", "Supernatural"],
     "thriller anime": ["Anime", "Thriller"],
     # --- narrower labels folded upward ------------------------------------
+    "alternate history": ["Science fiction", "Historical"],
     "american football": ["Sport"],
     "animated": ["Animation"],
     "anti-war": ["War"],
@@ -124,9 +126,11 @@ ALIASES = {
     "historical play": ["Historical"],
     "kaiju": ["Science fiction"],
     "kung fu": ["Martial arts"],
+    "lgbt-related": ["LGBTQ"],
     "lgbtq-related": ["LGBTQ"],
     "live-action/animated": ["Animation"],
     "magic realist": ["Fantasy"],
+    "mecha": ["Science fiction"],
     "medical drama": ["Drama"],
     "mockumentary": ["Comedy"],
     "neo-noir": ["Noir"],
@@ -136,7 +140,11 @@ ALIASES = {
     "political thriller": ["Thriller"],
     "post-apocalyptic": ["Dystopian"],
     "prison": ["Crime"],
+    "psychological": ["Thriller"],
+    "psychological drama": ["Drama"],
+    "psychological horror": ["Horror"],
     "psychological thriller": ["Thriller"],
+    "romantic": ["Romance"],
     "samurai": ["Martial arts"],
     "speculative fiction": ["Science fiction"],
     "splatter": ["Horror"],
@@ -145,6 +153,7 @@ ALIASES = {
     "techno-horror": ["Horror"],
     "teen": ["Coming-of-age"],
     "time-travel": ["Science fiction"],
+    "urban fantasy": ["Fantasy"],
     "traditionally animated": ["Animation"],
     "wuxia": ["Martial arts"],
     "zombie": ["Horror"],
@@ -190,9 +199,40 @@ assert not set(RETIRED) & set(CANON), "a retired genre is still in CANON"
 _ORDER = {name: i for i, name in enumerate(CANON)}
 
 
+# Wikidata names a series by its medium as much as by its genre — "thriller
+# anime", "drama television series", "mystery fiction". Films largely escaped
+# this (autofill.GENRE_NOISE strips a trailing "film"), but the Shows pull
+# cannot: nearly every label it returns arrives wearing one of these. Listing
+# each genre against each medium would be a hundred entries that say nothing
+# the parts don't, so the medium is stripped and what remains is resolved as a
+# label in its own right. Anime keeps its medium — it is in CANON and is worth
+# filtering on — which is what the hand-written anime entries above do too.
+_MEDIA = [
+    ("anime and manga", ["Anime"]),
+    ("anime", ["Anime"]),
+    ("television series", []),
+    ("television", []),
+    ("tv series", []),
+    ("series", []),
+    ("fiction", []),
+]
+
+
 def canonical(name):
     """The canonical genres for one source label; [] if it isn't a genre."""
-    return ALIASES.get(str(name).strip().lower(), [])
+    label = str(name).strip().lower()
+    if label in ALIASES:
+        return ALIASES[label]
+    # An explicit alias always wins, so stripping can't override a deliberate
+    # split: "science fiction" resolves above rather than losing its "fiction".
+    for suffix, medium in _MEDIA:
+        if not label.endswith(suffix):
+            continue
+        base = label[: -len(suffix)].strip(" -")
+        found = canonical(base) if base else []
+        if found:
+            return _fold(medium + found)
+    return []
 
 
 def canonical_list(names):

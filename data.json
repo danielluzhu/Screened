@@ -39318,10 +39318,18 @@
     {
       "name": "Bleach",
       "nativeTitle": "BLEACH",
-      "years": "2004",
-      "seasons": null,
+      "years": "2004–2012",
+      "seasons": "16",
+      "episodes": "406",
       "author": "Tite Kubo",
       "country": "Japan",
+      "region": "Japan",
+      "genres": [
+        "Anime",
+        "Action",
+        "Fantasy"
+      ],
+      "format": "Animated",
       "photo": "bleach.webp",
       "streaming": [
         {
@@ -39357,8 +39365,18 @@
       "nativeTitle": "NARUTO -ナルト-",
       "years": "2002–2007",
       "seasons": "9",
+      "episodes": "220",
       "author": "Masashi Kishimoto",
       "country": "Japan",
+      "region": "Japan",
+      "genres": [
+        "Anime",
+        "Action",
+        "Adventure",
+        "Comedy",
+        "Martial arts"
+      ],
+      "format": "Animated",
       "photo": "naruto.png",
       "streaming": [
         {
@@ -39389,8 +39407,18 @@
       "nativeTitle": "コードギアス 反逆のルルーシュ",
       "years": "2006–2007",
       "seasons": "2",
+      "episodes": "50",
       "author": "Ichirō Ōkouchi",
       "country": "Japan",
+      "region": "Japan",
+      "genres": [
+        "Science fiction",
+        "Historical",
+        "Anime",
+        "Drama",
+        "Thriller"
+      ],
+      "format": "Animated",
       "photo": "code-geass.webp",
       "streaming": [
         {
@@ -39415,9 +39443,18 @@
       "name": "Death Note",
       "nativeTitle": null,
       "years": "2006–2007",
-      "seasons": null,
+      "seasons": "1",
+      "episodes": "37",
       "author": "Tsugumi Ohba",
       "country": "Japan",
+      "region": "Japan",
+      "genres": [
+        "Anime",
+        "Thriller",
+        "Mystery",
+        "Fantasy"
+      ],
+      "format": "Animated",
       "photo": "death-note.webp",
       "streaming": [
         {
@@ -39448,8 +39485,16 @@
       "nativeTitle": "ワンパンマン",
       "years": "2015",
       "seasons": "3",
+      "episodes": "24",
       "author": "One",
       "country": "Japan",
+      "region": "Japan",
+      "genres": [
+        "Anime",
+        "Action",
+        "Comedy"
+      ],
+      "format": "Animated",
       "photo": "one-punch-man.webp",
       "streaming": [
         {
@@ -39480,8 +39525,15 @@
       "nativeTitle": "妄想代理人",
       "years": "2004",
       "seasons": null,
+      "episodes": "13",
       "author": "Satoshi Kon",
       "country": "Japan",
+      "region": "Japan",
+      "genres": [
+        "Anime",
+        "Horror"
+      ],
+      "format": "Animated",
       "photo": "paranoia-agent.png",
       "streaming": [
         {
@@ -39502,8 +39554,17 @@
       "nativeTitle": "寄生獣 セイの格率",
       "years": "2014–2015",
       "seasons": "1",
+      "episodes": "24",
       "author": "Hitoshi Iwaaki",
       "country": "Japan",
+      "region": "Japan",
+      "genres": [
+        "Anime",
+        "Horror",
+        "Science fiction",
+        "Thriller"
+      ],
+      "format": "Animated",
       "photo": "parasyte.webp",
       "streaming": [
         {
@@ -39520,12 +39581,20 @@
       "slug": "parasyte-the-maxim"
     },
     {
-      "name": "Had I not seen the sun",
-      "nativeTitle": null,
-      "years": null,
-      "seasons": null,
+      "name": "Had I Not Seen the Sun",
+      "nativeTitle": "如果我不曾見過太陽",
+      "years": "2025",
+      "seasons": "2",
+      "episodes": "20",
       "author": null,
-      "country": null,
+      "country": "Taiwan",
+      "region": "Taiwan",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "format": "Live action",
       "photo": null,
       "streaming": [],
       "slug": "had-i-not-seen-the-sun"
@@ -39535,8 +39604,15 @@
       "nativeTitle": "逐玉",
       "years": "2026",
       "seasons": "1",
+      "episodes": "40",
       "author": null,
       "country": "mainland China",
+      "region": "China",
+      "genres": [
+        "Historical",
+        "Romance"
+      ],
+      "format": "Live action",
       "photo": "pursuit-of-jade.jpg",
       "streaming": [],
       "slug": "pursuit-of-jade"
@@ -39546,8 +39622,15 @@
       "nativeTitle": null,
       "years": "2023–2026",
       "seasons": "2",
+      "episodes": "18",
       "author": null,
       "country": "United States",
+      "region": "USA",
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "format": "Live action",
       "photo": null,
       "streaming": [],
       "slug": "beef"
@@ -39557,8 +39640,17 @@
       "nativeTitle": "Il problema dei 3 corpi",
       "years": "2024",
       "seasons": "1",
+      "episodes": "8",
       "author": "Liu Cixin",
       "country": "United States",
+      "region": "USA",
+      "genres": [
+        "Science fiction",
+        "Fantasy",
+        "Thriller",
+        "Drama"
+      ],
+      "format": "Live action",
       "photo": "3-body-problem.png",
       "streaming": [],
       "slug": "3-body-problem"
@@ -39566,13 +39658,39 @@
     {
       "name": "Halt and Catch Fire",
       "nativeTitle": null,
-      "years": null,
-      "seasons": null,
-      "author": null,
-      "country": null,
-      "photo": null,
+      "years": "2014–2017",
+      "seasons": "4",
+      "episodes": "40",
+      "author": "Chris Cantwell",
+      "country": "United States",
+      "region": "USA",
+      "genres": [
+        "Drama",
+        "Historical"
+      ],
+      "format": "Live action",
+      "photo": "halt-and-catch-fire.jpg",
       "streaming": [],
       "slug": "halt-and-catch-fire"
+    },
+    {
+      "name": "The Apothecary Diaries",
+      "nativeTitle": "薬屋のひとりごと",
+      "years": "2023",
+      "seasons": "2",
+      "episodes": "24",
+      "author": "Hyuganatsu",
+      "country": "Japan",
+      "region": "Japan",
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Romance"
+      ],
+      "format": "Animated",
+      "photo": "the-apothecary-diaries.png",
+      "streaming": [],
+      "slug": "the-apothecary-diaries"
     }
   ],
   "franchises": [
@@ -41105,10 +41223,10 @@
     "Fantasy",
     "Adventure",
     "Romance",
-    "Martial arts",
     "Science fiction",
-    "Crime",
+    "Martial arts",
     "Historical",
+    "Crime",
     "Anime",
     "Dystopian",
     "Family",
@@ -41118,5 +41236,9 @@
     "Mystery",
     "Animation",
     "Musical"
+  ],
+  "showFormats": [
+    "Animated",
+    "Live action"
   ]
 }

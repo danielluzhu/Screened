@@ -154,6 +154,9 @@
 
       <section id="view-shows" class="view" hidden>
         <div class="controls">
+          <select id="show-region" aria-label="Filter shows by region"></select>
+          <select id="show-genre" aria-label="Filter shows by genre"></select>
+          <select id="show-format" aria-label="Filter shows by animated or live action"></select>
           <span class="count" id="show-count"></span>
           <button type="button" class="add-toggle" id="show-toggle" aria-expanded="false">
             + Add show
@@ -171,7 +174,8 @@
             <button type="submit" class="primary">Add show</button>
             <button type="button" id="show-cancel">Cancel</button>
             <span class="hint">
-              Years, seasons, author, country and poster are filled in automatically.
+              Years, seasons, episodes, author, country, genre, format and poster
+              are filled in automatically.
             </span>
           </div>
         </form>

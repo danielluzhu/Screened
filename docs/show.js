@@ -87,11 +87,17 @@ function render(show, data) {
   const seasons = show.seasons
     ? `${show.seasons} season${show.seasons === "1" ? "" : "s"}`
     : null;
+  const episodes = show.episodes
+    ? `${show.episodes} episode${show.episodes === "1" ? "" : "s"}`
+    : null;
   for (const pair of [
     row("Years", show.years),
     row("Seasons", seasons),
+    row("Episodes", episodes),
+    row("Format", show.format),
     row("Author", show.author),
     row("Country", show.country),
+    row("Genres", (show.genres ?? []).join(", ")),
   ]) {
     if (pair) dl.append(...pair);
   }
