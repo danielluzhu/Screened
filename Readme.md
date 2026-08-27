@@ -45,6 +45,31 @@ with a bare environment, and both Bun and the `python3` helpers the server
 spawns have to be findable. `TimeoutStopSec=30` gives an in-flight rating write
 time to finish rewriting the document instead of being killed halfway.
 
+**`Restart=always`, not `on-failure`.** systemd counts SIGTERM, SIGINT, SIGHUP,
+SIGPIPE and a zero exit as *clean*, so `on-failure` watches without acting while
+a stray `pkill`, an OOM sweep or a tidy shutdown takes the site down — and
+leaves it down. That is not a hypothetical: a `pkill -f "bun run server.ts"`
+during a build once left the service dead for two hours with systemd reporting
+nothing wrong. `always` covers every way the process can end. An explicit
+`systemctl stop` is still honoured and is *not* restarted, so manual control
+survives.
+
+**No start rate limit** (`StartLimitIntervalSec=0`). The default gives up
+permanently after five restarts in sixty seconds, and a unit parked in `failed`
+is the one state this service must never reach — "keep it running" has to hold
+at 3am with nobody watching. The trade is real: a genuinely broken `server.ts`
+now retries every three seconds forever rather than stopping, so a crash loop
+shows up in `journalctl -u favorites -f` instead of in a dead unit. Restore
+`StartLimitBurst=5` with `StartLimitIntervalSec=60` to have it give up again.
+
+Supervision is process-level. A server that is alive but wedged still counts as
+"running" to systemd; catching that needs a health check, which is a timer
+curling `/api/data` and restarting on failure, and isn't set up.
+
+Verified by killing it: SIGTERM back in 4s, SIGKILL back and serving in 4s,
+`systemctl stop` stays down, and the `multi-user.target.wants` symlink brings it
+up on boot.
+
 ## Published site
 
 A read-only copy is published at <https://danielluzhu.github.io/Screened/> from
