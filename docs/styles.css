@@ -2263,11 +2263,15 @@ a.sug-title:hover {
   border: 1px solid var(--line);
   background: rgba(0, 0, 0, 0.55);
   color: var(--muted);
-  font-size: 0.8rem;
+  /* Bigger and lighter than the star it replaced: + and − are two thin
+     strokes rather than a solid shape, so at the star's 0.8rem/600 they read
+     as specks of dust on the artwork instead of as a control. */
+  font-size: 1.15rem;
+  font-weight: 400;
   line-height: 1;
   cursor: pointer;
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.45);
-  transition: color 0.16s ease, border-color 0.16s ease;
+  transition: color 0.16s ease, border-color 0.16s ease, background-color 0.16s ease;
 }
 
 .pin:hover {
@@ -2275,9 +2279,12 @@ a.sug-title:hover {
   border-color: var(--accent);
 }
 
+/* On the list. The glyph carries the state now, so this only has to confirm
+   it — the filled star used to do the whole job on its own. */
 .pin.is-on {
   color: var(--accent);
   border-color: var(--accent);
+  background: rgba(0, 0, 0, 0.72);
 }
 
 .pin:disabled {

@@ -126,11 +126,19 @@ function tierBadgeSelect(tier, label, { meanings = true } = {}) {
 
 // The short list is a decision rather than a rating, so it gets its own mark:
 // on the tile opposite the tier, filled when the film is on it.
+//
+// Plus and minus, not a star. A star is the universal mark for a favourite,
+// which is the one thing this isn't — the short list is "watch this next", and
+// half of what's on it hasn't been seen, let alone loved. Not a tick either,
+// however common + → ✓ is elsewhere: this page has a "Watched since" section
+// on it, so a tick would read as watched and trade one confusion for another.
+// + adds, − takes away, and neither says anything about how good the film is.
 function shortlistToggle(film) {
-  const button = text("button", "pin", "★");
+  const button = text("button", "pin");
   button.type = "button";
   const paint = () => {
     button.classList.toggle("is-on", Boolean(film.shortlisted));
+    button.textContent = film.shortlisted ? "−" : "+";
     button.title = film.shortlisted
       ? `${film.title} is on your short list — click to take it off`
       : `Put ${film.title} on your short list`;
@@ -485,7 +493,7 @@ function renderShortlist() {
       text(
         "p",
         "empty",
-        "Nothing on the short list yet — hit the ★ on a film to put it here."
+        "Nothing on the short list yet — hit the + on a film to put it here."
       )
     );
     return;
@@ -506,7 +514,7 @@ function renderShortlist() {
   };
 
   section("To watch", waiting, null);
-  section("Watched since", seen, "Rated now — take them off with the ★.");
+  section("Watched since", seen, "Rated now — take them off with the −.");
 }
 
 function renderFranchises() {

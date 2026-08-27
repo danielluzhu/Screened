@@ -212,8 +212,15 @@ on a dark gradient, because a poster can be any colour.
 ### The short list
 
 Films picked out to watch next — a hand-made counterpart to the ranked queue on
-`/suggestions`, which is generated. The ★ on any film's tile puts it on the list
-and takes it off again, and `/shortlist` is the view.
+`/suggestions`, which is generated. The + on any film's tile puts it on the list
+and the − takes it off, and `/shortlist` is the view.
+
+**Plus and minus, not a star.** A star is the universal mark for a favourite,
+which is the one thing this isn't: the short list is "watch this next", and half
+of what's on it hasn't been seen, let alone loved. Nor a tick, however common
++ → ✓ is elsewhere — the short list page carries a "Watched since" section, so a
+tick would read as watched and trade one confusion for another. Plus adds, minus
+takes away, and neither says anything about how good the film is.
 
 It lives in `Favorites.numbers`, in a **Short list** column appended after
 `Full analysis`, because it is a decision you made rather than something a
