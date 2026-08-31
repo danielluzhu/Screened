@@ -39864,6 +39864,25 @@
       "photo": "blue-lock.png",
       "streaming": [],
       "slug": "blue-lock"
+    },
+    {
+      "name": "Queen Mantis",
+      "nativeTitle": "사마귀",
+      "years": "2025",
+      "seasons": "1",
+      "episodes": "8",
+      "author": null,
+      "country": "South Korea",
+      "region": "Korea",
+      "genres": [
+        "Crime",
+        "Mystery",
+        "Thriller"
+      ],
+      "format": "Live action",
+      "photo": "queen-mantis.png",
+      "streaming": [],
+      "slug": "queen-mantis"
     }
   ],
   "franchises": [
@@ -41391,21 +41410,21 @@
   "genres": [
     "Drama",
     "Action",
-    "Comedy",
     "Thriller",
+    "Comedy",
     "Fantasy",
     "Adventure",
     "Romance",
     "Science fiction",
     "Martial arts",
-    "Historical",
     "Crime",
+    "Historical",
     "Anime",
     "Dystopian",
     "Family",
+    "Mystery",
     "War",
     "Coming-of-age",
-    "Mystery",
     "Horror",
     "Animation",
     "Musical"
