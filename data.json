@@ -1966,12 +1966,12 @@
           "slug": "avengers-infinity-war-2018"
         },
         {
-          "title": "Mowgli",
+          "title": "Mowgli: Legend of the Jungle",
           "year": 2018,
           "tier": "C",
-          "director": null,
-          "poster": null,
-          "slug": "mowgli-2018"
+          "director": "Andy Serkis",
+          "poster": "mowgli-legend-of-the-jungle-2018.jpg",
+          "slug": "mowgli-legend-of-the-jungle-2018"
         },
         {
           "title": "Crystal Sky of Yesterday",
@@ -13802,7 +13802,7 @@
           "director",
           "franchise"
         ],
-        "score": 8.681,
+        "score": 8.673,
         "reasons": [
           {
             "kind": "director",
@@ -13851,7 +13851,7 @@
           "director",
           "franchise"
         ],
-        "score": 6.724,
+        "score": 6.717,
         "reasons": [
           {
             "kind": "director",
@@ -13935,7 +13935,7 @@
         "sources": [
           "director"
         ],
-        "score": 6.207,
+        "score": 6.201,
         "reasons": [
           {
             "kind": "director",
@@ -14129,7 +14129,7 @@
           "director",
           "franchise"
         ],
-        "score": 5.673,
+        "score": 5.657,
         "reasons": [
           {
             "kind": "director",
@@ -14176,7 +14176,7 @@
           "director",
           "franchise"
         ],
-        "score": 5.673,
+        "score": 5.657,
         "reasons": [
           {
             "kind": "director",
@@ -14224,7 +14224,7 @@
           "director",
           "franchise"
         ],
-        "score": 5.433,
+        "score": 5.419,
         "reasons": [
           {
             "kind": "director",
@@ -14263,7 +14263,7 @@
         "sources": [
           "director"
         ],
-        "score": 5.399,
+        "score": 5.388,
         "reasons": [
           {
             "kind": "director",
@@ -14304,7 +14304,7 @@
         "sources": [
           "director"
         ],
-        "score": 5.348,
+        "score": 5.342,
         "reasons": [
           {
             "kind": "director",
@@ -14383,7 +14383,7 @@
         "sources": [
           "director"
         ],
-        "score": 5.229,
+        "score": 5.222,
         "reasons": [
           {
             "kind": "director",
@@ -14635,6 +14635,44 @@
         "upcoming": false
       },
       {
+        "title": "The Young Dragons",
+        "year": 1974,
+        "directors": [
+          "John Woo"
+        ],
+        "franchises": [],
+        "genres": [
+          "Martial arts"
+        ],
+        "regions": [
+          "Hong Kong"
+        ],
+        "sources": [
+          "director"
+        ],
+        "score": 4.831,
+        "reasons": [
+          {
+            "kind": "director",
+            "name": "John Woo",
+            "text": "You rated Hard Boiled (A) by John Woo"
+          },
+          {
+            "kind": "genre",
+            "name": "Martial arts",
+            "text": "Martial arts — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "Hong Kong",
+            "text": "From Hong Kong, where you've rated 16 films"
+          }
+        ],
+        "qid": "Q3233407",
+        "poster": null,
+        "upcoming": false
+      },
+      {
         "title": "Memories of Murder",
         "year": 2003,
         "directors": [
@@ -14653,7 +14691,7 @@
         "sources": [
           "director"
         ],
-        "score": 4.835,
+        "score": 4.83,
         "reasons": [
           {
             "kind": "director",
@@ -14696,7 +14734,7 @@
         "sources": [
           "director"
         ],
-        "score": 4.832,
+        "score": 4.808,
         "reasons": [
           {
             "kind": "director",
@@ -14719,44 +14757,6 @@
         "upcoming": false
       },
       {
-        "title": "The Young Dragons",
-        "year": 1974,
-        "directors": [
-          "John Woo"
-        ],
-        "franchises": [],
-        "genres": [
-          "Martial arts"
-        ],
-        "regions": [
-          "Hong Kong"
-        ],
-        "sources": [
-          "director"
-        ],
-        "score": 4.831,
-        "reasons": [
-          {
-            "kind": "director",
-            "name": "John Woo",
-            "text": "You rated Hard Boiled (A) by John Woo"
-          },
-          {
-            "kind": "genre",
-            "name": "Martial arts",
-            "text": "Martial arts — genres you rate well"
-          },
-          {
-            "kind": "region",
-            "name": "Hong Kong",
-            "text": "From Hong Kong, where you've rated 16 films"
-          }
-        ],
-        "qid": "Q3233407",
-        "poster": null,
-        "upcoming": false
-      },
-      {
         "title": "The Wind Rises",
         "year": 2013,
         "directors": [
@@ -14773,7 +14773,7 @@
         "sources": [
           "director"
         ],
-        "score": 4.803,
+        "score": 4.792,
         "reasons": [
           {
             "kind": "director",
@@ -14813,7 +14813,7 @@
         "sources": [
           "director"
         ],
-        "score": 4.789,
+        "score": 4.777,
         "reasons": [
           {
             "kind": "director",
@@ -15008,7 +15008,7 @@
         "sources": [
           "director"
         ],
-        "score": 4.538,
+        "score": 4.515,
         "reasons": [
           {
             "kind": "director",
@@ -15046,7 +15046,7 @@
         "sources": [
           "director"
         ],
-        "score": 4.538,
+        "score": 4.515,
         "reasons": [
           {
             "kind": "director",
@@ -15065,45 +15065,6 @@
           }
         ],
         "qid": "Q63981780",
-        "poster": null,
-        "upcoming": false
-      },
-      {
-        "title": "The Garden of Words",
-        "year": 2013,
-        "directors": [
-          "Makoto Shinkai"
-        ],
-        "franchises": [],
-        "genres": [
-          "Drama",
-          "Coming-of-age"
-        ],
-        "regions": [
-          "Japan"
-        ],
-        "sources": [
-          "director"
-        ],
-        "score": 4.363,
-        "reasons": [
-          {
-            "kind": "director",
-            "name": "Makoto Shinkai",
-            "text": "You rated Your Name (A) and Weathering with You (B) by Makoto Shinkai"
-          },
-          {
-            "kind": "genre",
-            "name": "Coming-of-age, Drama",
-            "text": "Coming-of-age, Drama — genres you rate well"
-          },
-          {
-            "kind": "region",
-            "name": "Japan",
-            "text": "From Japan, where you've rated 13 films"
-          }
-        ],
-        "qid": "Q6434185",
         "poster": null,
         "upcoming": false
       },
@@ -15150,6 +15111,45 @@
         "upcoming": false
       },
       {
+        "title": "The Garden of Words",
+        "year": 2013,
+        "directors": [
+          "Makoto Shinkai"
+        ],
+        "franchises": [],
+        "genres": [
+          "Drama",
+          "Coming-of-age"
+        ],
+        "regions": [
+          "Japan"
+        ],
+        "sources": [
+          "director"
+        ],
+        "score": 4.352,
+        "reasons": [
+          {
+            "kind": "director",
+            "name": "Makoto Shinkai",
+            "text": "You rated Your Name (A) and Weathering with You (B) by Makoto Shinkai"
+          },
+          {
+            "kind": "genre",
+            "name": "Coming-of-age, Drama",
+            "text": "Coming-of-age, Drama — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "Japan",
+            "text": "From Japan, where you've rated 13 films"
+          }
+        ],
+        "qid": "Q6434185",
+        "poster": null,
+        "upcoming": false
+      },
+      {
         "title": "Children Who Chase Lost Voices",
         "year": 2011,
         "directors": [
@@ -15167,7 +15167,7 @@
         "sources": [
           "director"
         ],
-        "score": 4.349,
+        "score": 4.342,
         "reasons": [
           {
             "kind": "director",
@@ -15207,7 +15207,7 @@
         "sources": [
           "director"
         ],
-        "score": 4.299,
+        "score": 4.288,
         "reasons": [
           {
             "kind": "director",
@@ -15335,7 +15335,7 @@
         "sources": [
           "director"
         ],
-        "score": 4.098,
+        "score": 4.075,
         "reasons": [
           {
             "kind": "director",
@@ -15374,7 +15374,7 @@
         "sources": [
           "director"
         ],
-        "score": 4.098,
+        "score": 4.075,
         "reasons": [
           {
             "kind": "director",
@@ -15415,7 +15415,7 @@
         "sources": [
           "director"
         ],
-        "score": 3.955,
+        "score": 3.945,
         "reasons": [
           {
             "kind": "director",
@@ -15454,7 +15454,7 @@
         "sources": [
           "director"
         ],
-        "score": 3.926,
+        "score": 3.915,
         "reasons": [
           {
             "kind": "director",
@@ -15493,7 +15493,7 @@
         "sources": [
           "director"
         ],
-        "score": 3.926,
+        "score": 3.915,
         "reasons": [
           {
             "kind": "director",
@@ -15578,7 +15578,7 @@
         "sources": [
           "director"
         ],
-        "score": 3.898,
+        "score": 3.887,
         "reasons": [
           {
             "kind": "director",
@@ -15619,7 +15619,7 @@
         "sources": [
           "director"
         ],
-        "score": 3.882,
+        "score": 3.875,
         "reasons": [
           {
             "kind": "director",
@@ -15658,7 +15658,7 @@
         "sources": [
           "director"
         ],
-        "score": 3.874,
+        "score": 3.862,
         "reasons": [
           {
             "kind": "director",
@@ -15775,7 +15775,7 @@
           "director",
           "box office"
         ],
-        "score": 3.689,
+        "score": 3.677,
         "reasons": [
           {
             "kind": "director",
@@ -15936,7 +15936,7 @@
           "director",
           "box office"
         ],
-        "score": 3.568,
+        "score": 3.563,
         "reasons": [
           {
             "kind": "director",
@@ -15980,7 +15980,7 @@
         "sources": [
           "director"
         ],
-        "score": 3.564,
+        "score": 3.552,
         "reasons": [
           {
             "kind": "director",
@@ -16023,7 +16023,7 @@
           "director",
           "franchise"
         ],
-        "score": 3.564,
+        "score": 3.552,
         "reasons": [
           {
             "kind": "director",
@@ -16062,7 +16062,7 @@
         "sources": [
           "director"
         ],
-        "score": 3.546,
+        "score": 3.534,
         "reasons": [
           {
             "kind": "director",
@@ -16178,7 +16178,7 @@
         "sources": [
           "director"
         ],
-        "score": 3.438,
+        "score": 3.415,
         "reasons": [
           {
             "kind": "director",
@@ -16201,40 +16201,6 @@
         "upcoming": false
       },
       {
-        "title": "The Escapist",
-        "year": 2008,
-        "directors": [
-          "Rupert Wyatt"
-        ],
-        "franchises": [],
-        "genres": [
-          "Crime",
-          "Drama"
-        ],
-        "regions": [
-          "UK"
-        ],
-        "sources": [
-          "director"
-        ],
-        "score": 3.424,
-        "reasons": [
-          {
-            "kind": "director",
-            "name": "Rupert Wyatt",
-            "text": "You rated Rise of the Planet of the Apes (A) by Rupert Wyatt"
-          },
-          {
-            "kind": "genre",
-            "name": "Crime, Drama",
-            "text": "Crime, Drama — genres you rate well"
-          }
-        ],
-        "qid": "Q955057",
-        "poster": null,
-        "upcoming": false
-      },
-      {
         "title": "Valmont",
         "year": 1989,
         "directors": [
@@ -16253,7 +16219,7 @@
         "sources": [
           "director"
         ],
-        "score": 3.421,
+        "score": 3.409,
         "reasons": [
           {
             "kind": "director",
@@ -16364,45 +16330,6 @@
         "upcoming": false
       },
       {
-        "title": "Escape From The Outland",
-        "year": 2025,
-        "directors": [
-          "Ao Shen"
-        ],
-        "franchises": [],
-        "genres": [
-          "War",
-          "Adventure"
-        ],
-        "regions": [
-          "China"
-        ],
-        "sources": [
-          "director"
-        ],
-        "score": 3.346,
-        "reasons": [
-          {
-            "kind": "director",
-            "name": "Ao Shen",
-            "text": "You rated No More Bets (A) by Ao Shen"
-          },
-          {
-            "kind": "genre",
-            "name": "Adventure, War",
-            "text": "Adventure, War — genres you rate well"
-          },
-          {
-            "kind": "region",
-            "name": "China",
-            "text": "From China, where you've rated 19 films"
-          }
-        ],
-        "qid": "Q137589538",
-        "poster": null,
-        "upcoming": false
-      },
-      {
         "title": "Tangled Ever After",
         "year": 2012,
         "directors": [
@@ -16492,6 +16419,45 @@
         "upcoming": false
       },
       {
+        "title": "Escape From The Outland",
+        "year": 2025,
+        "directors": [
+          "Ao Shen"
+        ],
+        "franchises": [],
+        "genres": [
+          "War",
+          "Adventure"
+        ],
+        "regions": [
+          "China"
+        ],
+        "sources": [
+          "director"
+        ],
+        "score": 3.329,
+        "reasons": [
+          {
+            "kind": "director",
+            "name": "Ao Shen",
+            "text": "You rated No More Bets (A) by Ao Shen"
+          },
+          {
+            "kind": "genre",
+            "name": "Adventure, War",
+            "text": "Adventure, War — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "China",
+            "text": "From China, where you've rated 19 films"
+          }
+        ],
+        "qid": "Q137589538",
+        "poster": null,
+        "upcoming": false
+      },
+      {
         "title": "Badland Hunters",
         "year": 2024,
         "directors": [
@@ -16552,7 +16518,7 @@
         "sources": [
           "director"
         ],
-        "score": 3.322,
+        "score": 3.314,
         "reasons": [
           {
             "kind": "director",
@@ -16818,7 +16784,7 @@
         "sources": [
           "director"
         ],
-        "score": 3.251,
+        "score": 3.243,
         "reasons": [
           {
             "kind": "director",
@@ -16832,6 +16798,40 @@
           }
         ],
         "qid": "Q1214524",
+        "poster": null,
+        "upcoming": false
+      },
+      {
+        "title": "The Escapist",
+        "year": 2008,
+        "directors": [
+          "Rupert Wyatt"
+        ],
+        "franchises": [],
+        "genres": [
+          "Crime",
+          "Drama"
+        ],
+        "regions": [
+          "UK"
+        ],
+        "sources": [
+          "director"
+        ],
+        "score": 3.212,
+        "reasons": [
+          {
+            "kind": "director",
+            "name": "Rupert Wyatt",
+            "text": "You rated Rise of the Planet of the Apes (A) by Rupert Wyatt"
+          },
+          {
+            "kind": "genre",
+            "name": "Crime, Drama",
+            "text": "Crime, Drama — genres you rate well"
+          }
+        ],
+        "qid": "Q955057",
         "poster": null,
         "upcoming": false
       },
@@ -16854,7 +16854,7 @@
         "sources": [
           "director"
         ],
-        "score": 3.199,
+        "score": 3.188,
         "reasons": [
           {
             "kind": "director",
@@ -16896,7 +16896,7 @@
         "sources": [
           "director"
         ],
-        "score": 3.18,
+        "score": 3.173,
         "reasons": [
           {
             "kind": "director",
@@ -16939,7 +16939,7 @@
         "sources": [
           "director"
         ],
-        "score": 3.167,
+        "score": 3.159,
         "reasons": [
           {
             "kind": "director",
@@ -17022,7 +17022,7 @@
         "sources": [
           "box office"
         ],
-        "score": 2.454,
+        "score": 2.451,
         "reasons": [
           {
             "kind": "genre",
@@ -17064,7 +17064,7 @@
         "sources": [
           "box office"
         ],
-        "score": 2.432,
+        "score": 2.428,
         "reasons": [
           {
             "kind": "genre",
@@ -17188,7 +17188,7 @@
         "sources": [
           "box office"
         ],
-        "score": 2.149,
+        "score": 2.142,
         "reasons": [
           {
             "kind": "genre",
@@ -17272,7 +17272,7 @@
         "sources": [
           "box office"
         ],
-        "score": 2.104,
+        "score": 2.098,
         "reasons": [
           {
             "kind": "genre",
@@ -17292,53 +17292,6 @@
         ],
         "qid": "Q327685",
         "poster": "the-karate-kid-2010.jpg",
-        "upcoming": false
-      },
-      {
-        "title": "Assassin's Creed",
-        "year": 2016,
-        "directors": [
-          "Justin Kurzel"
-        ],
-        "franchises": [],
-        "genres": [
-          "Action",
-          "Adventure",
-          "Science fiction",
-          "Fantasy"
-        ],
-        "regions": [
-          "USA",
-          "Spain",
-          "France",
-          "UK",
-          "Hong Kong",
-          "Taiwan",
-          "Malta"
-        ],
-        "sources": [
-          "box office"
-        ],
-        "score": 2.097,
-        "reasons": [
-          {
-            "kind": "genre",
-            "name": "Fantasy, Action, Adventure",
-            "text": "Fantasy, Action, Adventure — genres you rate well"
-          },
-          {
-            "kind": "region",
-            "name": "Taiwan",
-            "text": "From Taiwan, where you've rated 4 films"
-          },
-          {
-            "kind": "popular",
-            "name": "",
-            "text": "One of 2016's biggest earners"
-          }
-        ],
-        "qid": "Q18816889",
-        "poster": null,
         "upcoming": false
       },
       {
@@ -17384,40 +17337,49 @@
         "upcoming": false
       },
       {
-        "title": "Umizaru 3: The Last Message",
-        "year": 2010,
+        "title": "Assassin's Creed",
+        "year": 2016,
         "directors": [
-          "Eiichirō Hasumi"
+          "Justin Kurzel"
         ],
         "franchises": [],
         "genres": [
-          "Drama"
+          "Action",
+          "Adventure",
+          "Science fiction",
+          "Fantasy"
         ],
         "regions": [
-          "Japan"
+          "USA",
+          "Spain",
+          "France",
+          "UK",
+          "Hong Kong",
+          "Taiwan",
+          "Malta"
         ],
         "sources": [
           "box office"
         ],
-        "score": 2.083,
+        "score": 2.089,
         "reasons": [
           {
             "kind": "genre",
-            "name": "Drama",
-            "text": "Drama — genres you rate well"
+            "name": "Fantasy, Action, Adventure",
+            "text": "Fantasy, Action, Adventure — genres you rate well"
           },
           {
             "kind": "region",
-            "name": "Japan",
-            "text": "From Japan, where you've rated 13 films"
+            "name": "Taiwan",
+            "text": "From Taiwan, where you've rated 4 films"
           },
           {
             "kind": "popular",
             "name": "",
-            "text": "One of 2010's biggest earners"
+            "text": "One of 2016's biggest earners"
           }
         ],
-        "qid": "Q17039529",
+        "qid": "Q18816889",
         "poster": null,
         "upcoming": false
       },
@@ -17440,7 +17402,7 @@
         "sources": [
           "box office"
         ],
-        "score": 2.07,
+        "score": 2.062,
         "reasons": [
           {
             "kind": "genre",
@@ -17459,6 +17421,44 @@
           }
         ],
         "qid": "Q107270",
+        "poster": null,
+        "upcoming": false
+      },
+      {
+        "title": "Umizaru 3: The Last Message",
+        "year": 2010,
+        "directors": [
+          "Eiichirō Hasumi"
+        ],
+        "franchises": [],
+        "genres": [
+          "Drama"
+        ],
+        "regions": [
+          "Japan"
+        ],
+        "sources": [
+          "box office"
+        ],
+        "score": 2.06,
+        "reasons": [
+          {
+            "kind": "genre",
+            "name": "Drama",
+            "text": "Drama — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "Japan",
+            "text": "From Japan, where you've rated 13 films"
+          },
+          {
+            "kind": "popular",
+            "name": "",
+            "text": "One of 2010's biggest earners"
+          }
+        ],
+        "qid": "Q17039529",
         "poster": null,
         "upcoming": false
       },
@@ -17485,7 +17485,7 @@
         "sources": [
           "box office"
         ],
-        "score": 2.06,
+        "score": 2.054,
         "reasons": [
           {
             "kind": "genre",
@@ -17529,7 +17529,7 @@
           "your list"
         ],
         "box": null,
-        "score": 6.02,
+        "score": 6.008,
         "reasons": [
           {
             "kind": "director",
@@ -17698,7 +17698,7 @@
           "your list"
         ],
         "box": null,
-        "score": 4.707,
+        "score": 4.701,
         "reasons": [
           {
             "kind": "director",
@@ -17783,7 +17783,7 @@
           "your list"
         ],
         "box": null,
-        "score": 4.389,
+        "score": 4.384,
         "reasons": [
           {
             "kind": "director",
@@ -17827,7 +17827,7 @@
           "your list"
         ],
         "box": null,
-        "score": 4.265,
+        "score": 4.255,
         "reasons": [
           {
             "kind": "director",
@@ -17870,7 +17870,7 @@
           "your list"
         ],
         "box": null,
-        "score": 4.212,
+        "score": 4.207,
         "reasons": [
           {
             "kind": "director",
@@ -17912,7 +17912,7 @@
           "your list"
         ],
         "box": null,
-        "score": 4.2,
+        "score": 4.194,
         "reasons": [
           {
             "kind": "director",
@@ -17956,7 +17956,7 @@
           "your list"
         ],
         "box": null,
-        "score": 4.19,
+        "score": 4.181,
         "reasons": [
           {
             "kind": "director",
@@ -18111,7 +18111,7 @@
           "your list"
         ],
         "box": null,
-        "score": 3.199,
+        "score": 3.188,
         "reasons": [
           {
             "kind": "director",
@@ -18151,7 +18151,7 @@
           "your list"
         ],
         "box": null,
-        "score": 3.054,
+        "score": 3.043,
         "reasons": [
           {
             "kind": "director",
@@ -18225,7 +18225,7 @@
           "your list"
         ],
         "box": null,
-        "score": 2.886,
+        "score": 2.875,
         "reasons": [
           {
             "kind": "director",
@@ -18271,7 +18271,7 @@
           "your list"
         ],
         "box": null,
-        "score": 2.877,
+        "score": 2.867,
         "reasons": [
           {
             "kind": "director",
@@ -18311,7 +18311,7 @@
           "your list"
         ],
         "box": null,
-        "score": 2.858,
+        "score": 2.835,
         "reasons": [
           {
             "kind": "director",
@@ -18350,7 +18350,7 @@
           "your list"
         ],
         "box": null,
-        "score": 2.858,
+        "score": 2.835,
         "reasons": [
           {
             "kind": "director",
@@ -18391,7 +18391,7 @@
           "your list"
         ],
         "box": null,
-        "score": 2.828,
+        "score": 2.82,
         "reasons": [
           {
             "kind": "director",
@@ -18470,7 +18470,7 @@
           "your list"
         ],
         "box": null,
-        "score": 2.464,
+        "score": 2.452,
         "reasons": [
           {
             "kind": "genre",
@@ -18506,7 +18506,7 @@
           "your list"
         ],
         "box": null,
-        "score": 2.454,
+        "score": 2.446,
         "reasons": [
           {
             "kind": "genre",
@@ -18616,7 +18616,7 @@
           "your list"
         ],
         "box": null,
-        "score": 2.343,
+        "score": 2.335,
         "reasons": [
           {
             "kind": "genre",
@@ -18650,7 +18650,7 @@
           "your list"
         ],
         "box": null,
-        "score": 2.338,
+        "score": 2.315,
         "reasons": [
           {
             "kind": "genre",
@@ -18732,41 +18732,6 @@
         "country": "Japanese"
       },
       {
-        "title": "A Silent Voice",
-        "year": 2016,
-        "directors": [
-          "Naoko Yamada"
-        ],
-        "franchises": [],
-        "genres": [
-          "Drama",
-          "Coming-of-age"
-        ],
-        "regions": [
-          "Japan"
-        ],
-        "sources": [
-          "your list"
-        ],
-        "box": null,
-        "score": 2.163,
-        "reasons": [
-          {
-            "kind": "genre",
-            "name": "Coming-of-age, Drama",
-            "text": "Coming-of-age, Drama — genres you rate well"
-          },
-          {
-            "kind": "region",
-            "name": "Japan",
-            "text": "From Japan, where you've rated 13 films"
-          }
-        ],
-        "slug": "a-silent-voice-2016",
-        "poster": "a-silent-voice-2016.jpg",
-        "country": "Japanese"
-      },
-      {
         "title": "Crystal Sky of Yesterday",
         "year": 2018,
         "directors": [
@@ -18799,6 +18764,41 @@
         "slug": "crystal-sky-of-yesterday-2018",
         "poster": null,
         "country": "Chinese"
+      },
+      {
+        "title": "A Silent Voice",
+        "year": 2016,
+        "directors": [
+          "Naoko Yamada"
+        ],
+        "franchises": [],
+        "genres": [
+          "Drama",
+          "Coming-of-age"
+        ],
+        "regions": [
+          "Japan"
+        ],
+        "sources": [
+          "your list"
+        ],
+        "box": null,
+        "score": 2.152,
+        "reasons": [
+          {
+            "kind": "genre",
+            "name": "Coming-of-age, Drama",
+            "text": "Coming-of-age, Drama — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "Japan",
+            "text": "From Japan, where you've rated 13 films"
+          }
+        ],
+        "slug": "a-silent-voice-2016",
+        "poster": "a-silent-voice-2016.jpg",
+        "country": "Japanese"
       },
       {
         "title": "Suzhou River",
@@ -18854,7 +18854,7 @@
           "your list"
         ],
         "box": null,
-        "score": 2.074,
+        "score": 2.062,
         "reasons": [
           {
             "kind": "genre",
@@ -18890,7 +18890,7 @@
           "your list"
         ],
         "box": null,
-        "score": 2.069,
+        "score": 2.061,
         "reasons": [
           {
             "kind": "genre",
@@ -19002,7 +19002,7 @@
           "your list"
         ],
         "box": null,
-        "score": 1.956,
+        "score": 1.95,
         "reasons": [
           {
             "kind": "director",
@@ -19023,43 +19023,6 @@
         "slug": "the-dark-knight-2008",
         "poster": "the-dark-knight-2008.jpg",
         "country": "American"
-      },
-      {
-        "title": "Fist of Fury",
-        "year": 1972,
-        "directors": [
-          "Lo Wei"
-        ],
-        "franchises": [],
-        "genres": [
-          "Action",
-          "Drama",
-          "Romance",
-          "Martial arts"
-        ],
-        "regions": [
-          "China"
-        ],
-        "sources": [
-          "your list"
-        ],
-        "box": null,
-        "score": 1.919,
-        "reasons": [
-          {
-            "kind": "genre",
-            "name": "Romance, Martial arts, Drama",
-            "text": "Romance, Martial arts, Drama — genres you rate well"
-          },
-          {
-            "kind": "region",
-            "name": "China",
-            "text": "From China, where you've rated 19 films"
-          }
-        ],
-        "slug": "fist-of-fury-1972",
-        "poster": "fist-of-fury-1972.jpg",
-        "country": "China"
       },
       {
         "title": "Havoc in Heaven",
@@ -19098,6 +19061,43 @@
         "country": "Chinese"
       },
       {
+        "title": "Fist of Fury",
+        "year": 1972,
+        "directors": [
+          "Lo Wei"
+        ],
+        "franchises": [],
+        "genres": [
+          "Action",
+          "Drama",
+          "Romance",
+          "Martial arts"
+        ],
+        "regions": [
+          "China"
+        ],
+        "sources": [
+          "your list"
+        ],
+        "box": null,
+        "score": 1.913,
+        "reasons": [
+          {
+            "kind": "genre",
+            "name": "Romance, Martial arts, Drama",
+            "text": "Romance, Martial arts, Drama — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "China",
+            "text": "From China, where you've rated 19 films"
+          }
+        ],
+        "slug": "fist-of-fury-1972",
+        "poster": "fist-of-fury-1972.jpg",
+        "country": "China"
+      },
+      {
         "title": "Big Fish & Begonia",
         "year": 2016,
         "directors": [
@@ -19117,7 +19117,7 @@
           "your list"
         ],
         "box": null,
-        "score": 1.908,
+        "score": 1.901,
         "reasons": [
           {
             "kind": "genre",
@@ -19155,7 +19155,7 @@
           "your list"
         ],
         "box": null,
-        "score": 1.904,
+        "score": 1.899,
         "reasons": [
           {
             "kind": "genre",
@@ -19189,7 +19189,7 @@
           "your list"
         ],
         "box": null,
-        "score": 1.898,
+        "score": 1.875,
         "reasons": [
           {
             "kind": "genre",
@@ -19496,6 +19496,42 @@
         "country": "Japanese"
       },
       {
+        "title": "Neko Samurai",
+        "year": 2014,
+        "directors": [
+          "Takeshi Watanabe"
+        ],
+        "franchises": [],
+        "genres": [
+          "Comedy",
+          "Historical",
+          "Drama"
+        ],
+        "regions": [
+          "Japan"
+        ],
+        "sources": [
+          "your list"
+        ],
+        "box": null,
+        "score": 1.745,
+        "reasons": [
+          {
+            "kind": "genre",
+            "name": "Comedy, Drama, Historical",
+            "text": "Comedy, Drama, Historical — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "Japan",
+            "text": "From Japan, where you've rated 13 films"
+          }
+        ],
+        "slug": "neko-samurai-2014",
+        "poster": null,
+        "country": "Japanese"
+      },
+      {
         "title": "All Ears",
         "year": 2023,
         "directors": [
@@ -19512,7 +19548,7 @@
           "your list"
         ],
         "box": null,
-        "score": 1.758,
+        "score": 1.735,
         "reasons": [
           {
             "kind": "genre",
@@ -19546,7 +19582,7 @@
           "your list"
         ],
         "box": null,
-        "score": 1.758,
+        "score": 1.735,
         "reasons": [
           {
             "kind": "genre",
@@ -19562,78 +19598,6 @@
         "slug": "yi-yi-2000",
         "poster": "yi-yi-2000.jpg",
         "country": "Chinese"
-      },
-      {
-        "title": "Neko Samurai",
-        "year": 2014,
-        "directors": [
-          "Takeshi Watanabe"
-        ],
-        "franchises": [],
-        "genres": [
-          "Comedy",
-          "Historical",
-          "Drama"
-        ],
-        "regions": [
-          "Japan"
-        ],
-        "sources": [
-          "your list"
-        ],
-        "box": null,
-        "score": 1.753,
-        "reasons": [
-          {
-            "kind": "genre",
-            "name": "Comedy, Drama, Historical",
-            "text": "Comedy, Drama, Historical — genres you rate well"
-          },
-          {
-            "kind": "region",
-            "name": "Japan",
-            "text": "From Japan, where you've rated 13 films"
-          }
-        ],
-        "slug": "neko-samurai-2014",
-        "poster": null,
-        "country": "Japanese"
-      },
-      {
-        "title": "Farewell my Concubine",
-        "year": 1993,
-        "directors": [
-          "Chen Kaige"
-        ],
-        "franchises": [],
-        "genres": [
-          "Drama",
-          "Romance",
-          "Historical"
-        ],
-        "regions": [
-          "China"
-        ],
-        "sources": [
-          "your list"
-        ],
-        "box": null,
-        "score": 1.728,
-        "reasons": [
-          {
-            "kind": "genre",
-            "name": "Romance, Drama, Historical",
-            "text": "Romance, Drama, Historical — genres you rate well"
-          },
-          {
-            "kind": "region",
-            "name": "China",
-            "text": "From China, where you've rated 19 films"
-          }
-        ],
-        "slug": "farewell-my-concubine-1993",
-        "poster": "farewell-my-concubine-1993.jpg",
-        "country": "China"
       },
       {
         "title": "Good News",
@@ -19671,6 +19635,42 @@
         "country": "South Korea"
       },
       {
+        "title": "Farewell my Concubine",
+        "year": 1993,
+        "directors": [
+          "Chen Kaige"
+        ],
+        "franchises": [],
+        "genres": [
+          "Drama",
+          "Romance",
+          "Historical"
+        ],
+        "regions": [
+          "China"
+        ],
+        "sources": [
+          "your list"
+        ],
+        "box": null,
+        "score": 1.72,
+        "reasons": [
+          {
+            "kind": "genre",
+            "name": "Romance, Drama, Historical",
+            "text": "Romance, Drama, Historical — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "China",
+            "text": "From China, where you've rated 19 films"
+          }
+        ],
+        "slug": "farewell-my-concubine-1993",
+        "poster": "farewell-my-concubine-1993.jpg",
+        "country": "China"
+      },
+      {
         "title": "Extreme Job",
         "year": 2019,
         "directors": [
@@ -19704,40 +19704,6 @@
         "slug": "extreme-job-2019",
         "poster": "extreme-job-2019.jpg",
         "country": "Korea"
-      },
-      {
-        "title": "Drishyam",
-        "year": 2015,
-        "directors": [
-          "Nishikant Kamat"
-        ],
-        "franchises": [],
-        "genres": [
-          "Drama"
-        ],
-        "regions": [
-          "India"
-        ],
-        "sources": [
-          "your list"
-        ],
-        "box": null,
-        "score": 1.698,
-        "reasons": [
-          {
-            "kind": "genre",
-            "name": "Drama",
-            "text": "Drama — genres you rate well"
-          },
-          {
-            "kind": "region",
-            "name": "India",
-            "text": "From India, where you've rated 1 films"
-          }
-        ],
-        "slug": "drishyam-2015",
-        "poster": "drishyam-2015.jpg",
-        "country": "Indian"
       },
       {
         "title": "Hidden Blade",
@@ -19774,6 +19740,40 @@
         "country": "Chinese"
       },
       {
+        "title": "Drishyam",
+        "year": 2015,
+        "directors": [
+          "Nishikant Kamat"
+        ],
+        "franchises": [],
+        "genres": [
+          "Drama"
+        ],
+        "regions": [
+          "India"
+        ],
+        "sources": [
+          "your list"
+        ],
+        "box": null,
+        "score": 1.675,
+        "reasons": [
+          {
+            "kind": "genre",
+            "name": "Drama",
+            "text": "Drama — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "India",
+            "text": "From India, where you've rated 1 films"
+          }
+        ],
+        "slug": "drishyam-2015",
+        "poster": "drishyam-2015.jpg",
+        "country": "Indian"
+      },
+      {
         "title": "A Taxi Driver",
         "year": 2017,
         "directors": [
@@ -19792,7 +19792,7 @@
           "your list"
         ],
         "box": null,
-        "score": 1.669,
+        "score": 1.662,
         "reasons": [
           {
             "kind": "genre",
@@ -19828,7 +19828,7 @@
           "your list"
         ],
         "box": null,
-        "score": 1.669,
+        "score": 1.662,
         "reasons": [
           {
             "kind": "genre",
@@ -19971,7 +19971,7 @@
           "your list"
         ],
         "box": null,
-        "score": 1.41,
+        "score": 1.404,
         "reasons": [
           {
             "kind": "genre",
@@ -19987,40 +19987,6 @@
         "slug": "the-eight-hundred-2020",
         "poster": "the-eight-hundred-2020.jpg",
         "country": "China"
-      },
-      {
-        "title": "Ikiru",
-        "year": 1952,
-        "directors": [
-          "Akira Kurosawa"
-        ],
-        "franchises": [],
-        "genres": [
-          "Drama"
-        ],
-        "regions": [
-          "Japan"
-        ],
-        "sources": [
-          "your list"
-        ],
-        "box": null,
-        "score": 1.348,
-        "reasons": [
-          {
-            "kind": "genre",
-            "name": "Drama",
-            "text": "Drama — genres you rate well"
-          },
-          {
-            "kind": "region",
-            "name": "Japan",
-            "text": "From Japan, where you've rated 13 films"
-          }
-        ],
-        "slug": "ikiru-1952",
-        "poster": "ikiru-1952.jpg",
-        "country": "Japanese"
       },
       {
         "title": "The Wind Guardians",
@@ -20041,7 +20007,7 @@
           "your list"
         ],
         "box": null,
-        "score": 1.348,
+        "score": 1.337,
         "reasons": [
           {
             "kind": "genre",
@@ -20079,7 +20045,7 @@
           "your list"
         ],
         "box": null,
-        "score": 1.337,
+        "score": 1.329,
         "reasons": [
           {
             "kind": "genre",
@@ -20095,6 +20061,40 @@
         "slug": "the-battle-at-lake-changjin-2021",
         "poster": "the-battle-at-lake-changjin-2021.png",
         "country": "China"
+      },
+      {
+        "title": "Ikiru",
+        "year": 1952,
+        "directors": [
+          "Akira Kurosawa"
+        ],
+        "franchises": [],
+        "genres": [
+          "Drama"
+        ],
+        "regions": [
+          "Japan"
+        ],
+        "sources": [
+          "your list"
+        ],
+        "box": null,
+        "score": 1.325,
+        "reasons": [
+          {
+            "kind": "genre",
+            "name": "Drama",
+            "text": "Drama — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "Japan",
+            "text": "From Japan, where you've rated 13 films"
+          }
+        ],
+        "slug": "ikiru-1952",
+        "poster": "ikiru-1952.jpg",
+        "country": "Japanese"
       },
       {
         "title": "Joker",
@@ -20115,7 +20115,7 @@
           "your list"
         ],
         "box": null,
-        "score": 1.211,
+        "score": 1.203,
         "reasons": [
           {
             "kind": "genre",
@@ -20152,7 +20152,7 @@
           "your list"
         ],
         "box": null,
-        "score": 1.131,
+        "score": 1.125,
         "reasons": [
           {
             "kind": "genre",
@@ -20188,7 +20188,7 @@
           "your list"
         ],
         "box": null,
-        "score": 1.1,
+        "score": 1.092,
         "reasons": [
           {
             "kind": "genre",
@@ -20227,7 +20227,7 @@
           "your list"
         ],
         "box": null,
-        "score": 1.04,
+        "score": 1.035,
         "reasons": [
           {
             "kind": "genre",
@@ -20261,7 +20261,7 @@
           "your list"
         ],
         "box": null,
-        "score": 1.02,
+        "score": 0.997,
         "reasons": [
           {
             "kind": "genre",
@@ -20473,8 +20473,8 @@
         },
         {
           "name": "Drama",
-          "affinity": 0.9,
-          "count": 58
+          "affinity": 0.87,
+          "count": 59
         }
       ],
       "regions": [
@@ -29357,23 +29357,37 @@
       "franchises": []
     },
     {
-      "title": "Mowgli",
+      "title": "Mowgli: Legend of the Jungle",
       "year": 2018,
       "tier": "C",
-      "country": null,
-      "region": "Unknown",
+      "country": "United Kingdom",
+      "region": "UK",
       "note": null,
-      "director": null,
-      "directors": [],
-      "poster": null,
+      "director": "Andy Serkis",
+      "directors": [
+        "Andy Serkis"
+      ],
+      "poster": "mowgli-legend-of-the-jungle-2018.jpg",
       "nativeTitle": null,
       "critique": null,
       "shortlisted": false,
       "analysis": null,
-      "summary": null,
+      "summary": {
+        "article": "Mowgli: Legend of the Jungle",
+        "hasReception": true,
+        "reception": "It received mixed reviews from critics, who praised the cast, visual effects, and Serkis's direction, but many compared it unfavorably to the Disney film and criticized the uneven tone, calling it a \"messy—if ambitious—misfire\". On review aggregator Rotten Tomatoes, the film holds an approval rating of 52% based on 107 reviews, with an average rating of 5.5/10. The website's critical consensus reads: \"Mowgli: Legend of the Jungle brings impressive special effects to bear on the darker side of its classic source material, but loses track of the story's heart along the way\". On Metacritic, the film has a weighted average score of 51 out of 100, based on 22 critics, indicating \"mixed or average reviews\". Kate Erbland of IndieWire gave the film a \"C+\" and wrote: \"Too dark for kids, too tame for adults.",
+        "sentences": 9,
+        "source": "Wikipedia (CC BY-SA 4.0)",
+        "story": "Mowgli: Legend of the Jungle (also known and stylized on screen simply as Mowgli) is a 2018 adventure drama film directed by Andy Serkis with a screenplay by Callie Kloves, based on stories collected in All the Mowgli Stories by Rudyard Kipling. The film stars Rohan Chand, Matthew Rhys, and Freida Pinto, along with voice and motion-capture performances from Christian Bale, Cate Blanchett, Benedict Cumberbatch, Naomie Harris, and Serkis. In this film, an orphaned human boy who was raised by wolves, sets out on a journey to find a human village while evading Shere Khan. The film was released in select theaters on 29 November, followed by its subsequent digital Netflix release on 7 December of the same year.",
+        "summary": "Mowgli: Legend of the Jungle (also known and stylized on screen simply as Mowgli) is a 2018 adventure drama film directed by Andy Serkis with a screenplay by Callie Kloves, based on stories collected in All the Mowgli Stories by Rudyard Kipling. The film stars Rohan Chand, Matthew Rhys, and Freida Pinto, along with voice and motion-capture performances from Christian Bale, Cate Blanchett, Benedict Cumberbatch, Naomie Harris, and Serkis. In this film, an orphaned human boy who was raised by wolves, sets out on a journey to find a human village while evading Shere Khan. The film was released in select theaters on 29 November, followed by its subsequent digital Netflix release on 7 December of the same year. It received mixed reviews from critics, who praised the cast, visual effects, and Serkis's direction, but many compared it unfavorably to the Disney film and criticized the uneven tone, calling it a \"messy—if ambitious—misfire\". On review aggregator Rotten Tomatoes, the film holds an approval rating of 52% based on 107 reviews, with an average rating of 5.5/10. The website's critical consensus reads: \"Mowgli: Legend of the Jungle brings impressive special effects to bear on the darker side of its classic source material, but loses track of the story's heart along the way\". On Metacritic, the film has a weighted average score of 51 out of 100, based on 22 critics, indicating \"mixed or average reviews\". Kate Erbland of IndieWire gave the film a \"C+\" and wrote: \"Too dark for kids, too tame for adults.",
+        "url": "https://en.wikipedia.org/wiki/Mowgli:_Legend_of_the_Jungle"
+      },
       "streaming": [],
-      "slug": "mowgli-2018",
-      "genres": [],
+      "slug": "mowgli-legend-of-the-jungle-2018",
+      "genres": [
+        "Adventure",
+        "Drama"
+      ],
       "franchises": []
     }
   ],
@@ -32714,6 +32728,23 @@
         "licence": "CC BY-SA 4.0",
         "author": "MAICHANGUWAILI"
       }
+    },
+    {
+      "name": "Andy Serkis",
+      "slug": "andy-serkis",
+      "films": [
+        {
+          "title": "Mowgli: Legend of the Jungle",
+          "year": 2018,
+          "tier": "C",
+          "director": "Andy Serkis",
+          "poster": "mowgli-legend-of-the-jungle-2018.jpg",
+          "slug": "mowgli-legend-of-the-jungle-2018"
+        }
+      ],
+      "others": [],
+      "photo": null,
+      "photoCredit": null
     },
     {
       "name": "Aneesh Chaganty",
@@ -39836,7 +39867,7 @@
       "episodes": "34",
       "author": "Charlie Brooker",
       "country": "United Kingdom",
-      "region": "Unknown",
+      "region": "UK",
       "genres": [
         "Science fiction",
         "Drama",
@@ -41469,6 +41500,7 @@
     "Japan",
     "Korea",
     "Taiwan",
+    "UK",
     "USA",
     "Unknown"
   ],
