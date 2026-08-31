@@ -39827,6 +39827,26 @@
       "photo": null,
       "streaming": [],
       "slug": "badly-in-love"
+    },
+    {
+      "name": "Black Mirror",
+      "nativeTitle": null,
+      "years": "2011–2014",
+      "seasons": "7",
+      "episodes": "34",
+      "author": "Charlie Brooker",
+      "country": "United Kingdom",
+      "region": "Unknown",
+      "genres": [
+        "Science fiction",
+        "Drama",
+        "Dystopian",
+        "Thriller"
+      ],
+      "format": "Live action",
+      "photo": null,
+      "streaming": [],
+      "slug": "black-mirror"
     }
   ],
   "franchises": [
