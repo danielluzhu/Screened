@@ -39898,6 +39898,21 @@
       "photo": null,
       "streaming": [],
       "slug": "kiss-or-die"
+    },
+    {
+      "name": "Terrace House",
+      "nativeTitle": "テラスハウス",
+      "years": "2012–2020",
+      "seasons": null,
+      "episodes": null,
+      "author": null,
+      "country": "Japan",
+      "region": "Japan",
+      "genres": [],
+      "format": "Live action",
+      "photo": "terrace-house.jpg",
+      "streaming": [],
+      "slug": "terrace-house"
     }
   ],
   "franchises": [
