@@ -20297,6 +20297,23 @@
         "country": "Chinese"
       },
       {
+        "title": "96 minutes",
+        "year": null,
+        "directors": [],
+        "franchises": [],
+        "genres": [],
+        "regions": [],
+        "sources": [
+          "your list"
+        ],
+        "box": null,
+        "score": 0.0,
+        "reasons": [],
+        "slug": "96-minutes",
+        "poster": null,
+        "country": null
+      },
+      {
         "title": "Get Out",
         "year": 2017,
         "directors": [
@@ -29272,6 +29289,26 @@
       "summary": null,
       "streaming": [],
       "slug": "2046-2004",
+      "genres": [],
+      "franchises": []
+    },
+    {
+      "title": "96 minutes",
+      "year": null,
+      "tier": "?",
+      "country": null,
+      "region": "Unknown",
+      "note": null,
+      "director": null,
+      "directors": [],
+      "poster": null,
+      "nativeTitle": null,
+      "critique": null,
+      "shortlisted": false,
+      "analysis": null,
+      "summary": null,
+      "streaming": [],
+      "slug": "96-minutes",
       "genres": [],
       "franchises": []
     }
