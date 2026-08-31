@@ -1966,6 +1966,14 @@
           "slug": "avengers-infinity-war-2018"
         },
         {
+          "title": "Mowgli",
+          "year": 2018,
+          "tier": "C",
+          "director": null,
+          "poster": null,
+          "slug": "mowgli-2018"
+        },
+        {
           "title": "Crystal Sky of Yesterday",
           "year": 2018,
           "tier": "?",
@@ -20373,7 +20381,7 @@
         "country": null
       }
     ],
-    "rated": 115,
+    "rated": 116,
     "taste": {
       "directors": [
         {
@@ -29345,6 +29353,26 @@
       "summary": null,
       "streaming": [],
       "slug": "5-centimeters-per-second",
+      "genres": [],
+      "franchises": []
+    },
+    {
+      "title": "Mowgli",
+      "year": 2018,
+      "tier": "C",
+      "country": null,
+      "region": "Unknown",
+      "note": null,
+      "director": null,
+      "directors": [],
+      "poster": null,
+      "nativeTitle": null,
+      "critique": null,
+      "shortlisted": false,
+      "analysis": null,
+      "summary": null,
+      "streaming": [],
+      "slug": "mowgli-2018",
       "genres": [],
       "franchises": []
     }
