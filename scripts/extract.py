@@ -69,6 +69,12 @@ REGIONS = {
     "indian": "India",
     "french": "France",
     "france": "France",
+    "uk": "UK",
+    "u.k.": "UK",
+    "britain": "UK",
+    "british": "UK",
+    "england": "UK",
+    "united kingdom": "UK",
 }
 
 # Display order only. The old numeric tiers (0/1) were folded into S/A by
