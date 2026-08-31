@@ -39847,6 +39847,23 @@
       "photo": null,
       "streaming": [],
       "slug": "black-mirror"
+    },
+    {
+      "name": "Blue Lock",
+      "nativeTitle": "ブルーロック",
+      "years": "2022",
+      "seasons": "3",
+      "episodes": "38",
+      "author": "Muneyuki Kaneshiro",
+      "country": "Japan",
+      "region": "Japan",
+      "genres": [
+        "Thriller"
+      ],
+      "format": "Animated",
+      "photo": "blue-lock.png",
+      "streaming": [],
+      "slug": "blue-lock"
     }
   ],
   "franchises": [
