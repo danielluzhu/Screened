@@ -39913,6 +39913,24 @@
       "photo": "terrace-house.jpg",
       "streaming": [],
       "slug": "terrace-house"
+    },
+    {
+      "name": "When Life Gives You Tangerines",
+      "nativeTitle": "폭싹 속았수다",
+      "years": "2025",
+      "seasons": "1",
+      "episodes": "16",
+      "author": "Lim Sang-chun",
+      "country": "South Korea",
+      "region": "Korea",
+      "genres": [
+        "Romance",
+        "Drama"
+      ],
+      "format": "Live action",
+      "photo": "when-life-gives-you-tangerines.png",
+      "streaming": [],
+      "slug": "when-life-gives-you-tangerines"
     }
   ],
   "franchises": [
