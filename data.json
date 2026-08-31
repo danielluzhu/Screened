@@ -39792,6 +39792,26 @@
       "photo": "the-apothecary-diaries.png",
       "streaming": [],
       "slug": "the-apothecary-diaries"
+    },
+    {
+      "name": "Squid Game",
+      "nativeTitle": "오징어 게임",
+      "years": "2021–2025",
+      "seasons": "3",
+      "episodes": "22",
+      "author": "Hwang Dong-hyeok",
+      "country": "South Korea",
+      "region": "Korea",
+      "genres": [
+        "Thriller",
+        "Action",
+        "Mystery",
+        "Drama"
+      ],
+      "format": "Live action",
+      "photo": "squid-game.png",
+      "streaming": [],
+      "slug": "squid-game"
     }
   ],
   "franchises": [
@@ -41333,8 +41353,8 @@
     "Family",
     "War",
     "Coming-of-age",
-    "Horror",
     "Mystery",
+    "Horror",
     "Animation",
     "Musical"
   ],

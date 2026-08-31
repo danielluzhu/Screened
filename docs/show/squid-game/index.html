@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Squid Game — Screened</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><text y='14' font-size='14'>🎬</text></svg>" />
+    <link rel="stylesheet" href="/Screened/styles.css" />
+  </head>
+  <body>
+    <header class="masthead masthead-home">
+      <div class="wrap">
+        <p class="eyebrow">A personal record</p>
+        <a class="wordmark-link" href="/Screened/"><span class="wordmark">Screened</span></a>
+        <p class="tagline">
+          Films, shows and characters I keep coming back to — somewhere to fanboy,
+          and somewhere to complain.
+        </p>
+        <nav class="tabs">
+          <a class="tab" href="/Screened/">Films</a>
+          <a class="tab" href="/Screened/shortlist">Short list</a>
+          <a class="tab" href="/Screened/franchises">Franchises</a>
+          <a class="tab" href="/Screened/characters">Characters</a>
+          <a class="tab is-active" href="/Screened/shows" aria-current="page">Shows</a>
+          <a class="tab" href="/Screened/directors">Directors</a>
+          <a class="tab" href="/Screened/years">Years</a>
+          <a class="tab" href="/Screened/suggestions">What to watch next</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="wrap film-page" id="main">
+      <p class="empty" id="loading">Loading…</p>
+    </main>
+
+    <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+
+    <script src="/Screened/show.js"></script>
+    <script src="/Screened/static.js"></script>
+  </body>
+</html>
