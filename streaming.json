@@ -1,5 +1,17 @@
 {
   "films": {
+    "100 Meters|2025": [
+      {
+        "id": "81785821",
+        "name": "Netflix",
+        "url": "https://www.netflix.com/title/81785821"
+      },
+      {
+        "id": "666d3537262c3d4a6316466b",
+        "name": "Plex",
+        "url": "https://watch.plex.tv/movie/666d3537262c3d4a6316466b"
+      }
+    ],
     "12.12: The Day|2023": [
       {
         "id": "81778668",
@@ -27,6 +39,23 @@
         "id": "6521487ecba6bec8f787d004",
         "name": "Plex",
         "url": "https://watch.plex.tv/movie/6521487ecba6bec8f787d004"
+      }
+    ],
+    "2046|2004": [
+      {
+        "id": "70042371",
+        "name": "Netflix",
+        "url": "https://www.netflix.com/title/70042371"
+      },
+      {
+        "id": "umc.cmc.1egonyjm2kta171999oa0c8qf",
+        "name": "Apple TV",
+        "url": "https://tv.apple.com/movie/umc.cmc.1egonyjm2kta171999oa0c8qf"
+      },
+      {
+        "id": "5d77682861141d001fb136cd",
+        "name": "Plex",
+        "url": "https://watch.plex.tv/movie/5d77682861141d001fb136cd"
       }
     ],
     "3 Idiots|2009": [
@@ -148,7 +177,24 @@
         "url": "https://watch.plex.tv/movie/5d77682454c0f0001f301a42"
       }
     ],
+    "All Ears|2023": [
+      {
+        "id": "6236ebffcd0b91083d570b10",
+        "name": "Plex",
+        "url": "https://watch.plex.tv/movie/6236ebffcd0b91083d570b10"
+      }
+    ],
     "Anora|2025": [
+      {
+        "id": "81952362",
+        "name": "Netflix",
+        "url": "https://www.netflix.com/title/81952362"
+      },
+      {
+        "id": "amzn1.dv.gti.c3fe4c70-a2f4-4f32-8306-3613baeac4a7",
+        "name": "Prime Video",
+        "url": "https://www.amazon.com/dp/amzn1.dv.gti.c3fe4c70-a2f4-4f32-8306-3613baeac4a7"
+      },
       {
         "id": "umc.cmc.ka0xf4gk3tckil4x7x14hpcy",
         "name": "Apple TV",
@@ -187,6 +233,13 @@
         "id": "5d776b1e96b655001fe04e76",
         "name": "Plex",
         "url": "https://watch.plex.tv/movie/5d776b1e96b655001fe04e76"
+      }
+    ],
+    "Avatar Aang: The Last Airbender|2026": [
+      {
+        "id": "621895759fb119c33badc62d",
+        "name": "Plex",
+        "url": "https://watch.plex.tv/movie/621895759fb119c33badc62d"
       }
     ],
     "Avatar: The Way of Water|2022": [
@@ -296,6 +349,69 @@
         "url": "https://watch.plex.tv/movie/5d776ade7a53e9001e71240c"
       }
     ],
+    "Black Panther|2018": [
+      {
+        "id": "1GuXuYPj99Ke",
+        "name": "Disney+",
+        "url": "https://www.disneyplus.com/movies/_/1GuXuYPj99Ke"
+      },
+      {
+        "id": "umc.cmc.53u1tdqk891nlpuvdh8ne00pb",
+        "name": "Apple TV",
+        "url": "https://tv.apple.com/movie/umc.cmc.53u1tdqk891nlpuvdh8ne00pb"
+      },
+      {
+        "id": "5d776b05fb0d55001f559234",
+        "name": "Plex",
+        "url": "https://watch.plex.tv/movie/5d776b05fb0d55001f559234"
+      }
+    ],
+    "Blackberry|": [
+      {
+        "id": "umc.cmc.3l1hmmtt33myfoyr38vfg85js",
+        "name": "Apple TV",
+        "url": "https://tv.apple.com/movie/umc.cmc.3l1hmmtt33myfoyr38vfg85js"
+      },
+      {
+        "id": "6309f715039fb88ac14e0a1a",
+        "name": "Plex",
+        "url": "https://watch.plex.tv/movie/6309f715039fb88ac14e0a1a"
+      }
+    ],
+    "Borat|2006": [
+      {
+        "id": "70050506",
+        "name": "Netflix",
+        "url": "https://www.netflix.com/title/70050506"
+      },
+      {
+        "id": "umc.cmc.77y3nh5a0spyce0i55yh433p",
+        "name": "Apple TV",
+        "url": "https://tv.apple.com/movie/umc.cmc.77y3nh5a0spyce0i55yh433p"
+      },
+      {
+        "id": "5d776826961905001eb90fd1",
+        "name": "Plex",
+        "url": "https://watch.plex.tv/movie/5d776826961905001eb90fd1"
+      }
+    ],
+    "Brokeback Mountain|2005": [
+      {
+        "id": "70023965",
+        "name": "Netflix",
+        "url": "https://www.netflix.com/title/70023965"
+      },
+      {
+        "id": "umc.cmc.rgagpqyoonuqiddm96d66tu2",
+        "name": "Apple TV",
+        "url": "https://tv.apple.com/movie/umc.cmc.rgagpqyoonuqiddm96d66tu2"
+      },
+      {
+        "id": "5d776824eb5d26001f1dd003",
+        "name": "Plex",
+        "url": "https://watch.plex.tv/movie/5d776824eb5d26001f1dd003"
+      }
+    ],
     "Chungking Express|1994": [
       {
         "id": "60000632",
@@ -337,21 +453,33 @@
         "url": "https://watch.plex.tv/movie/5f646bb0b0268300400e1532"
       }
     ],
-    "Crazy Rich Asians|2016": [
+    "Creed 3|": [
       {
-        "id": "80239019",
-        "name": "Netflix",
-        "url": "https://www.netflix.com/title/80239019"
-      },
-      {
-        "id": "umc.cmc.6gjq3xvonledd0135dx4fqxqi",
+        "id": "umc.cmc.75azjpdoaw97ht8p1f4ew6dy7",
         "name": "Apple TV",
-        "url": "https://tv.apple.com/movie/umc.cmc.6gjq3xvonledd0135dx4fqxqi"
+        "url": "https://tv.apple.com/movie/umc.cmc.75azjpdoaw97ht8p1f4ew6dy7"
       },
       {
-        "id": "5d776d21ad5437001f7cde4d",
+        "id": "5e5d3b0bc20b28003df9e33f",
         "name": "Plex",
-        "url": "https://watch.plex.tv/movie/5d776d21ad5437001f7cde4d"
+        "url": "https://watch.plex.tv/movie/5e5d3b0bc20b28003df9e33f"
+      }
+    ],
+    "Creed|": [
+      {
+        "id": "80058397",
+        "name": "Netflix",
+        "url": "https://www.netflix.com/title/80058397"
+      },
+      {
+        "id": "umc.cmc.5qthudwvmhgqhqsm3lgp5efgl",
+        "name": "Apple TV",
+        "url": "https://tv.apple.com/movie/umc.cmc.5qthudwvmhgqhqsm3lgp5efgl"
+      },
+      {
+        "id": "5d776b577a53e9001e72283c",
+        "name": "Plex",
+        "url": "https://watch.plex.tv/movie/5d776b577a53e9001e72283c"
       }
     ],
     "Crouching Tiger, Hidden Dragon|2000": [
@@ -407,6 +535,13 @@
         "url": "https://watch.plex.tv/movie/5d776971f617c9002015fb21"
       }
     ],
+    "Dead to Rights|2025": [
+      {
+        "id": "6813a50765caad6d41643d2a",
+        "name": "Plex",
+        "url": "https://watch.plex.tv/movie/6813a50765caad6d41643d2a"
+      }
+    ],
     "Demon Slayer: Kimetsu no Yaiba – Infinity Castle|2025": [
       {
         "id": "G8DHV7809",
@@ -429,6 +564,40 @@
         "id": "5e1622cf5abc9c003f1ce556",
         "name": "Plex",
         "url": "https://watch.plex.tv/movie/5e1622cf5abc9c003f1ce556"
+      }
+    ],
+    "Dragon: The Bruce Lee Story|1993": [
+      {
+        "id": "459378",
+        "name": "Netflix",
+        "url": "https://www.netflix.com/title/459378"
+      },
+      {
+        "id": "umc.cmc.75leilt2xmesm3d7y2gqz2tj0",
+        "name": "Apple TV",
+        "url": "https://tv.apple.com/movie/umc.cmc.75leilt2xmesm3d7y2gqz2tj0"
+      },
+      {
+        "id": "5d776834880197001ec932b7",
+        "name": "Plex",
+        "url": "https://watch.plex.tv/movie/5d776834880197001ec932b7"
+      }
+    ],
+    "Drishyam|2015": [
+      {
+        "id": "80068117",
+        "name": "Netflix",
+        "url": "https://www.netflix.com/title/80068117"
+      },
+      {
+        "id": "umc.cmc.5kr1ftkcgllxfzgo85ea4tf38",
+        "name": "Apple TV",
+        "url": "https://tv.apple.com/movie/umc.cmc.5kr1ftkcgllxfzgo85ea4tf38"
+      },
+      {
+        "id": "5d776bc5ad5437001f7a982f",
+        "name": "Plex",
+        "url": "https://watch.plex.tv/movie/5d776bc5ad5437001f7a982f"
       }
     ],
     "Drive My Car|2021": [
@@ -538,6 +707,30 @@
         "url": "https://watch.plex.tv/movie/5d776842eb5d26001f1e3c66"
       }
     ],
+    "Enter the Fat Dragon|1978": [
+      {
+        "id": "20824723",
+        "name": "Netflix",
+        "url": "https://www.netflix.com/title/20824723"
+      },
+      {
+        "id": "5d7768bd96b655001fdc0809",
+        "name": "Plex",
+        "url": "https://watch.plex.tv/movie/5d7768bd96b655001fdc0809"
+      }
+    ],
+    "Enter the Fat Dragon|2020": [
+      {
+        "id": "umc.cmc.532jjr9fuxcghpx2t1qrifvtd",
+        "name": "Apple TV",
+        "url": "https://tv.apple.com/movie/umc.cmc.532jjr9fuxcghpx2t1qrifvtd"
+      },
+      {
+        "id": "5d776efcad5437001f8078bc",
+        "name": "Plex",
+        "url": "https://watch.plex.tv/movie/5d776efcad5437001f8078bc"
+      }
+    ],
     "Exiled|2006": [
       {
         "id": "70068644",
@@ -623,6 +816,13 @@
         "url": "https://watch.plex.tv/movie/5d776824961905001eb908dd"
       }
     ],
+    "Fireflies in the Sun|2021": [
+      {
+        "id": "6197982895488d82b96f3295",
+        "name": "Plex",
+        "url": "https://watch.plex.tv/movie/6197982895488d82b96f3295"
+      }
+    ],
     "Fist of Fury|1972": [
       {
         "id": "B075YHBNNK",
@@ -638,6 +838,23 @@
         "id": "5d9f3dc106d220001febeec0",
         "name": "Plex",
         "url": "https://watch.plex.tv/movie/5d9f3dc106d220001febeec0"
+      }
+    ],
+    "Flash Point|2007": [
+      {
+        "id": "70090313",
+        "name": "Netflix",
+        "url": "https://www.netflix.com/title/70090313"
+      },
+      {
+        "id": "umc.cmc.2e87higtm76je58bisgipuyxg",
+        "name": "Apple TV",
+        "url": "https://tv.apple.com/movie/umc.cmc.2e87higtm76je58bisgipuyxg"
+      },
+      {
+        "id": "5d9f356fe4fc29001eb66c28",
+        "name": "Plex",
+        "url": "https://watch.plex.tv/movie/5d9f356fe4fc29001eb66c28"
       }
     ],
     "Forrest Gump|1994": [
@@ -739,6 +956,23 @@
         "url": "https://watch.plex.tv/movie/5d776d11fb0d55001f596587"
       }
     ],
+    "Happy Together|1997": [
+      {
+        "id": "1154883",
+        "name": "Netflix",
+        "url": "https://www.netflix.com/title/1154883"
+      },
+      {
+        "id": "umc.cmc.1tc9skduvbxofsl43p89w5t68",
+        "name": "Apple TV",
+        "url": "https://tv.apple.com/movie/umc.cmc.1tc9skduvbxofsl43p89w5t68"
+      },
+      {
+        "id": "5d776d11fb0d55001f596480",
+        "name": "Plex",
+        "url": "https://watch.plex.tv/movie/5d776d11fb0d55001f596480"
+      }
+    ],
     "Hard Boiled|1992": [
       {
         "id": "70069755",
@@ -802,6 +1036,18 @@
         "id": "5f9bd37ad4c06e002dbe7277",
         "name": "Plex",
         "url": "https://watch.plex.tv/movie/5f9bd37ad4c06e002dbe7277"
+      }
+    ],
+    "Hidden Blade|2023": [
+      {
+        "id": "umc.cmc.57fkjwx0whx4cq1ailqnh0nvk",
+        "name": "Apple TV",
+        "url": "https://tv.apple.com/movie/umc.cmc.57fkjwx0whx4cq1ailqnh0nvk"
+      },
+      {
+        "id": "61c5c51ed271985598adf760",
+        "name": "Plex",
+        "url": "https://watch.plex.tv/movie/61c5c51ed271985598adf760"
       }
     ],
     "House of Flying Daggers|2004": [
@@ -1016,6 +1262,57 @@
         "url": "https://watch.plex.tv/movie/5d776f3c96b655001fe80905"
       }
     ],
+    "KPop Demon Hunters|2025": [
+      {
+        "id": "81498621",
+        "name": "Netflix",
+        "url": "https://www.netflix.com/title/81498621"
+      },
+      {
+        "id": "604b2748c03f34002dd97a16",
+        "name": "Plex",
+        "url": "https://watch.plex.tv/movie/604b2748c03f34002dd97a16"
+      }
+    ],
+    "Karate Kid: Legends|2025": [
+      {
+        "id": "82064961",
+        "name": "Netflix",
+        "url": "https://www.netflix.com/title/82064961"
+      },
+      {
+        "id": "umc.cmc.7ks2iw2xij2io3kyfye3cw8xp",
+        "name": "Apple TV",
+        "url": "https://tv.apple.com/movie/umc.cmc.7ks2iw2xij2io3kyfye3cw8xp"
+      },
+      {
+        "id": "5d776c719ab5440021516b43",
+        "name": "Plex",
+        "url": "https://watch.plex.tv/movie/5d776c719ab5440021516b43"
+      }
+    ],
+    "Kiki's Delivery Service|1989": [
+      {
+        "id": "60027106",
+        "name": "Netflix",
+        "url": "https://www.netflix.com/title/60027106"
+      },
+      {
+        "id": "feature/urn:hbo:feature:GXrHTGwYHRnUYOAEAAABC",
+        "name": "HBO Max",
+        "url": "https://play.max.com/video/watch/feature/urn:hbo:feature:GXrHTGwYHRnUYOAEAAABC"
+      },
+      {
+        "id": "umc.cmc.5w5rol5j2y9kaxsrrtbfme7dh",
+        "name": "Apple TV",
+        "url": "https://tv.apple.com/movie/umc.cmc.5w5rol5j2y9kaxsrrtbfme7dh"
+      },
+      {
+        "id": "5d77683fe6d55c002040ecbd",
+        "name": "Plex",
+        "url": "https://watch.plex.tv/movie/5d77683fe6d55c002040ecbd"
+      }
+    ],
     "Kingdom of the Planet of the Apes|2024": [
       {
         "id": "umc.cmc.3y4hvd802i9no2bgqo7gjjjzc",
@@ -1118,16 +1415,16 @@
         "url": "https://watch.plex.tv/movie/5d77686561141d001fb19ec7"
       }
     ],
-    "Lost and Found|1996": [
+    "Lost in the Stars|2022": [
       {
-        "id": "umc.cmc.qyt1fjhxkbxubekym44a0a2r",
-        "name": "Apple TV",
-        "url": "https://tv.apple.com/movie/umc.cmc.qyt1fjhxkbxubekym44a0a2r"
+        "id": "81711455",
+        "name": "Netflix",
+        "url": "https://www.netflix.com/title/81711455"
       },
       {
-        "id": "5d7769f3594b2b001e6aef75",
+        "id": "61fd09bd6a7f5d80c8c8a643",
         "name": "Plex",
-        "url": "https://watch.plex.tv/movie/5d7769f3594b2b001e6aef75"
+        "url": "https://watch.plex.tv/movie/61fd09bd6a7f5d80c8c8a643"
       }
     ],
     "Love in a Puff|2010": [
@@ -1159,11 +1456,50 @@
         "url": "https://watch.plex.tv/movie/5d77682ee6d55c002040bd4b"
       }
     ],
+    "Monsters, Inc.|2001": [
+      {
+        "id": "60004479",
+        "name": "Netflix",
+        "url": "https://www.netflix.com/title/60004479"
+      },
+      {
+        "id": "5vQuMGjgTZz5",
+        "name": "Disney+",
+        "url": "https://www.disneyplus.com/movies/_/5vQuMGjgTZz5"
+      },
+      {
+        "id": "umc.cmc.3ilsdzy6ghi4adtg3tnwf6jcb",
+        "name": "Apple TV",
+        "url": "https://tv.apple.com/movie/umc.cmc.3ilsdzy6ghi4adtg3tnwf6jcb"
+      },
+      {
+        "id": "5d776826151a60001f24a9cf",
+        "name": "Plex",
+        "url": "https://watch.plex.tv/movie/5d776826151a60001f24a9cf"
+      }
+    ],
     "Monster|2023": [
       {
         "id": "6553a44484472ebd49a38f5f",
         "name": "Plex",
         "url": "https://watch.plex.tv/movie/6553a44484472ebd49a38f5f"
+      }
+    ],
+    "Mowgli: Legend of the Jungle|2018": [
+      {
+        "id": "80993105",
+        "name": "Netflix",
+        "url": "https://www.netflix.com/title/80993105"
+      },
+      {
+        "id": "umc.cmc.xzx7rr52yp2rzqxktay1rotn",
+        "name": "Apple TV",
+        "url": "https://tv.apple.com/movie/umc.cmc.xzx7rr52yp2rzqxktay1rotn"
+      },
+      {
+        "id": "5d776c5a7a53e9001e740ec0",
+        "name": "Plex",
+        "url": "https://watch.plex.tv/movie/5d776c5a7a53e9001e740ec0"
       }
     ],
     "Mulan|1998": [
@@ -1290,6 +1626,18 @@
         "url": "https://watch.plex.tv/movie/648f97ecc97fb91f7d357991"
       }
     ],
+    "Nope|2022": [
+      {
+        "id": "umc.cmc.5wgdm57j2x5ikq82v129dvx9k",
+        "name": "Apple TV",
+        "url": "https://tv.apple.com/movie/umc.cmc.5wgdm57j2x5ikq82v129dvx9k"
+      },
+      {
+        "id": "5e16338fbc1372003ea68ab3",
+        "name": "Plex",
+        "url": "https://watch.plex.tv/movie/5e16338fbc1372003ea68ab3"
+      }
+    ],
     "Oldboy|2003": [
       {
         "id": "70024111",
@@ -1317,6 +1665,28 @@
         "id": "5d7768355af944001f1f9eb1",
         "name": "Plex",
         "url": "https://watch.plex.tv/movie/5d7768355af944001f1f9eb1"
+      }
+    ],
+    "One Battle After Another|2025": [
+      {
+        "id": "B0FR6PZZ2C",
+        "name": "Prime Video",
+        "url": "https://www.amazon.com/dp/B0FR6PZZ2C"
+      },
+      {
+        "id": "movie/bebe611d-8178-481a-a4f2-de743b5b135a",
+        "name": "HBO Max",
+        "url": "https://play.max.com/video/watch/movie/bebe611d-8178-481a-a4f2-de743b5b135a"
+      },
+      {
+        "id": "umc.cmc.66y1fmjq8p3jni6jntoj53id7",
+        "name": "Apple TV",
+        "url": "https://tv.apple.com/movie/umc.cmc.66y1fmjq8p3jni6jntoj53id7"
+      },
+      {
+        "id": "6562d1dbf8acedbdfebce1d1",
+        "name": "Plex",
+        "url": "https://watch.plex.tv/movie/6562d1dbf8acedbdfebce1d1"
       }
     ],
     "One Flew Over the Cuckoo's Nest|1975": [
@@ -1484,6 +1854,28 @@
         "url": "https://watch.plex.tv/movie/5d776d0d96b655001fe3dcba"
       }
     ],
+    "Ponyo|2008": [
+      {
+        "id": "70106454",
+        "name": "Netflix",
+        "url": "https://www.netflix.com/title/70106454"
+      },
+      {
+        "id": "feature/urn:hbo:feature:GXrWweQmaqDmqwwEAAAAm",
+        "name": "HBO Max",
+        "url": "https://play.max.com/video/watch/feature/urn:hbo:feature:GXrWweQmaqDmqwwEAAAAm"
+      },
+      {
+        "id": "umc.cmc.11anqj3fvjt8xg0vs137v8ob6",
+        "name": "Apple TV",
+        "url": "https://tv.apple.com/movie/umc.cmc.11anqj3fvjt8xg0vs137v8ob6"
+      },
+      {
+        "id": "5d776838151a60001f24e82f",
+        "name": "Plex",
+        "url": "https://watch.plex.tv/movie/5d776838151a60001f24e82f"
+      }
+    ],
     "Porco Rosso|1992": [
       {
         "id": "70019060",
@@ -1608,6 +2000,23 @@
         "url": "https://watch.plex.tv/movie/5d776838f59e580021898faa"
       }
     ],
+    "Riding Alone for Thousands of Miles|2005": [
+      {
+        "id": "70053127",
+        "name": "Netflix",
+        "url": "https://www.netflix.com/title/70053127"
+      },
+      {
+        "id": "umc.cmc.5r6dlfcnwgcjsv8xre24xa6z2",
+        "name": "Apple TV",
+        "url": "https://tv.apple.com/movie/umc.cmc.5r6dlfcnwgcjsv8xre24xa6z2"
+      },
+      {
+        "id": "5d9f3512d74e670020020a43",
+        "name": "Plex",
+        "url": "https://watch.plex.tv/movie/5d9f3512d74e670020020a43"
+      }
+    ],
     "Rise of the Planet of the Apes|2011": [
       {
         "id": "70155535",
@@ -1674,6 +2083,23 @@
         "id": "5d7768254de0ee001fcc83a9",
         "name": "Plex",
         "url": "https://watch.plex.tv/movie/5d7768254de0ee001fcc83a9"
+      }
+    ],
+    "Shang-Chi and the Legend of the Ten Rings|2021": [
+      {
+        "id": "5GyV9sf9Y041",
+        "name": "Disney+",
+        "url": "https://www.disneyplus.com/movies/_/5GyV9sf9Y041"
+      },
+      {
+        "id": "umc.cmc.1r6h2ku90p1e6jaznhnk0m5hd",
+        "name": "Apple TV",
+        "url": "https://tv.apple.com/movie/umc.cmc.1r6h2ku90p1e6jaznhnk0m5hd"
+      },
+      {
+        "id": "5d7770a7fb0d55001f5f5c83",
+        "name": "Plex",
+        "url": "https://watch.plex.tv/movie/5d7770a7fb0d55001f5f5c83"
       }
     ],
     "Shortcomings|2023": [
@@ -1778,6 +2204,18 @@
         "url": "https://watch.plex.tv/movie/5d776cc99ab544002151a735"
       }
     ],
+    "The Banker|2020": [
+      {
+        "id": "umc.cmc.2f8qhsa039voq5x0iwn1eixj1",
+        "name": "Apple TV",
+        "url": "https://tv.apple.com/movie/umc.cmc.2f8qhsa039voq5x0iwn1eixj1"
+      },
+      {
+        "id": "5d7770ddfb0d55001f5fab66",
+        "name": "Plex",
+        "url": "https://watch.plex.tv/movie/5d7770ddfb0d55001f5fab66"
+      }
+    ],
     "The Battle at Lake Changjin|2021": [
       {
         "id": "umc.cmc.lm8zaqzmh5tx52byi0ukqxuq",
@@ -1788,6 +2226,13 @@
         "id": "5fb23363168108002e5ac85a",
         "name": "Plex",
         "url": "https://watch.plex.tv/movie/5fb23363168108002e5ac85a"
+      }
+    ],
+    "The Best Is Yet to Come|2020": [
+      {
+        "id": "5d7770ba35102a0020ed9091",
+        "name": "Plex",
+        "url": "https://watch.plex.tv/movie/5d7770ba35102a0020ed9091"
       }
     ],
     "The Dark Knight|2008": [
@@ -1950,13 +2395,6 @@
         "url": "https://watch.plex.tv/movie/5d7768356f4521001ea9c249"
       }
     ],
-    "The Last Dance|2024": [
-      {
-        "id": "5d7769a096b655001fdd478f",
-        "name": "Plex",
-        "url": "https://watch.plex.tv/movie/5d7769a096b655001fdd478f"
-      }
-    ],
     "The Legend of Hei 2|2025": [
       {
         "id": "6854ddc4371c0b2a264d7158",
@@ -1988,7 +2426,7 @@
         "url": "https://watch.plex.tv/movie/5d7768811999bc0020dc726a"
       }
     ],
-    "The Story of David|1976": [
+    "The Story of David|": [
       {
         "id": "umc.cmc.7d9mhaklhczstzsf54j7nfiiz",
         "name": "Apple TV",
@@ -2017,6 +2455,23 @@
         "id": "653d0d95c96a964769a7cdd8",
         "name": "Plex",
         "url": "https://watch.plex.tv/movie/653d0d95c96a964769a7cdd8"
+      }
+    ],
+    "To Live|1994": [
+      {
+        "id": "60028524",
+        "name": "Netflix",
+        "url": "https://www.netflix.com/title/60028524"
+      },
+      {
+        "id": "umc.cmc.7j6ln6relis6lwh0drwfi03h0",
+        "name": "Apple TV",
+        "url": "https://tv.apple.com/movie/umc.cmc.7j6ln6relis6lwh0drwfi03h0"
+      },
+      {
+        "id": "5d776d13ad5437001f7cc4f5",
+        "name": "Plex",
+        "url": "https://watch.plex.tv/movie/5d776d13ad5437001f7cc4f5"
       }
     ],
     "Toy Story|1995": [
@@ -2061,6 +2516,18 @@
         "id": "5d776c3d51dd69001fe39387",
         "name": "Plex",
         "url": "https://watch.plex.tv/movie/5d776c3d51dd69001fe39387"
+      }
+    ],
+    "Under Paris|2024": [
+      {
+        "id": "81210788",
+        "name": "Netflix",
+        "url": "https://www.netflix.com/title/81210788"
+      },
+      {
+        "id": "608f3b24c022b4002def62a7",
+        "name": "Plex",
+        "url": "https://watch.plex.tv/movie/608f3b24c022b4002def62a7"
       }
     ],
     "WALL-E|2008": [
@@ -2122,6 +2589,23 @@
         "id": "5d7770aa96b655001fe9bda2",
         "name": "Plex",
         "url": "https://watch.plex.tv/movie/5d7770aa96b655001fe9bda2"
+      }
+    ],
+    "Whiplash|2014": [
+      {
+        "id": "70299275",
+        "name": "Netflix",
+        "url": "https://www.netflix.com/title/70299275"
+      },
+      {
+        "id": "umc.cmc.5enfz8k7msxo5wz2ufah31ch4",
+        "name": "Apple TV",
+        "url": "https://tv.apple.com/movie/umc.cmc.5enfz8k7msxo5wz2ufah31ch4"
+      },
+      {
+        "id": "5d776a87ad5437001f7809ad",
+        "name": "Plex",
+        "url": "https://watch.plex.tv/movie/5d776a87ad5437001f7809ad"
       }
     ],
     "Wolf Warrior 2|2017": [
@@ -2199,6 +2683,18 @@
         "url": "https://watch.plex.tv/movie/5d776bfffb0d55001f579a01"
       }
     ],
+    "Zootopia 2|2025": [
+      {
+        "id": "umc.cmc.6qp1q2seteiudk0w59ao7hk5t",
+        "name": "Apple TV",
+        "url": "https://tv.apple.com/movie/umc.cmc.6qp1q2seteiudk0w59ao7hk5t"
+      },
+      {
+        "id": "63d15b0b38992be08a0efa6f",
+        "name": "Plex",
+        "url": "https://watch.plex.tv/movie/63d15b0b38992be08a0efa6f"
+      }
+    ],
     "Zootopia|2016": [
       {
         "id": "80079258",
@@ -2223,6 +2719,49 @@
     ]
   },
   "shows": {
+    "3 Body Problem": [
+      {
+        "id": "81024821",
+        "name": "Netflix",
+        "url": "https://www.netflix.com/title/81024821"
+      },
+      {
+        "id": "5f57bdaf782ab300435487d0",
+        "name": "Plex",
+        "url": "https://watch.plex.tv/movie/5f57bdaf782ab300435487d0"
+      }
+    ],
+    "Badly in Love": [
+      {
+        "id": "81769466",
+        "name": "Netflix",
+        "url": "https://www.netflix.com/title/81769466"
+      }
+    ],
+    "Beef": [
+      {
+        "id": "81447461",
+        "name": "Netflix",
+        "url": "https://www.netflix.com/title/81447461"
+      },
+      {
+        "id": "61cdd57fcd8c10ae5aca39f4",
+        "name": "Plex",
+        "url": "https://watch.plex.tv/movie/61cdd57fcd8c10ae5aca39f4"
+      }
+    ],
+    "Black Mirror": [
+      {
+        "id": "70264888",
+        "name": "Netflix",
+        "url": "https://www.netflix.com/title/70264888"
+      },
+      {
+        "id": "5d9c0863ef619b002047f234",
+        "name": "Plex",
+        "url": "https://watch.plex.tv/movie/5d9c0863ef619b002047f234"
+      }
+    ],
     "Bleach": [
       {
         "id": "70204957",
@@ -2248,6 +2787,18 @@
         "id": "5d9c084902391c001f58594b",
         "name": "Plex",
         "url": "https://watch.plex.tv/movie/5d9c084902391c001f58594b"
+      }
+    ],
+    "Blue Lock": [
+      {
+        "id": "81640753",
+        "name": "Netflix",
+        "url": "https://www.netflix.com/title/81640753"
+      },
+      {
+        "id": "6117a7257843e7002c680b60",
+        "name": "Plex",
+        "url": "https://watch.plex.tv/movie/6117a7257843e7002c680b60"
       }
     ],
     "Code Geass Lelouch of the Rebellion": [
@@ -2287,6 +2838,25 @@
         "id": "5d9c086b02391c001f588f11",
         "name": "Plex",
         "url": "https://watch.plex.tv/movie/5d9c086b02391c001f588f11"
+      }
+    ],
+    "Halt and Catch Fire": [
+      {
+        "id": "70302182",
+        "name": "Netflix",
+        "url": "https://www.netflix.com/title/70302182"
+      },
+      {
+        "id": "5d9c07ea2192ba001f302993",
+        "name": "Plex",
+        "url": "https://watch.plex.tv/movie/5d9c07ea2192ba001f302993"
+      }
+    ],
+    "Kiss or Die": [
+      {
+        "id": "81908905",
+        "name": "Netflix",
+        "url": "https://www.netflix.com/title/81908905"
       }
     ],
     "Naruto": [
@@ -2355,6 +2925,85 @@
         "id": "5d9c084a3c3f87001f34bd1c",
         "name": "Plex",
         "url": "https://watch.plex.tv/movie/5d9c084a3c3f87001f34bd1c"
+      }
+    ],
+    "Pursuit of Jade": [
+      {
+        "id": "82706180",
+        "name": "Netflix",
+        "url": "https://www.netflix.com/title/82706180"
+      },
+      {
+        "id": "68094bf8e7767590be049e4d",
+        "name": "Plex",
+        "url": "https://watch.plex.tv/movie/68094bf8e7767590be049e4d"
+      }
+    ],
+    "Queen Mantis": [
+      {
+        "id": "82083709",
+        "name": "Netflix",
+        "url": "https://www.netflix.com/title/82083709"
+      }
+    ],
+    "Queen of Tears": [
+      {
+        "id": "81707950",
+        "name": "Netflix",
+        "url": "https://www.netflix.com/title/81707950"
+      },
+      {
+        "id": "638f9f5450f0397631c2207d",
+        "name": "Plex",
+        "url": "https://watch.plex.tv/movie/638f9f5450f0397631c2207d"
+      }
+    ],
+    "Squid Game": [
+      {
+        "id": "81040344",
+        "name": "Netflix",
+        "url": "https://www.netflix.com/title/81040344"
+      },
+      {
+        "id": "5e1612d6c2a81f001ed363b3",
+        "name": "Plex",
+        "url": "https://watch.plex.tv/movie/5e1612d6c2a81f001ed363b3"
+      }
+    ],
+    "Terrace House": [
+      {
+        "id": "80073651",
+        "name": "Netflix",
+        "url": "https://www.netflix.com/title/80073651"
+      }
+    ],
+    "The Apothecary Diaries": [
+      {
+        "id": "81712068",
+        "name": "Netflix",
+        "url": "https://www.netflix.com/title/81712068"
+      },
+      {
+        "id": "G3KHEVDJ7",
+        "name": "Crunchyroll",
+        "url": "https://www.crunchyroll.com/series/G3KHEVDJ7"
+      },
+      {
+        "id": "63edda20eaab3bc0ed18bff2",
+        "name": "Plex",
+        "url": "https://watch.plex.tv/movie/63edda20eaab3bc0ed18bff2"
+      }
+    ],
+    "When Life Gives You Tangerines": [
+      {
+        "id": "81681535",
+        "name": "Netflix",
+        "url": "https://www.netflix.com/title/81681535"
+      },
+      {
+        "id": "63d6c36cc0a321ad489085c6",
+        "name": "Plex",
+        "url": "https://watch.plex.tv/movie/63d6c36cc0a321ad489085c6"
       }
     ]
   }

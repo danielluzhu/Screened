@@ -23655,18 +23655,7 @@
         "summary": "Lost and Found (天涯海角 - Tiān Yá Hǎi Jiǎo, literally \"the ends of the world\") is a 1996 Hong Kong film written and directed by Lee Chi-Ngai. It stars Kelly Chan, Takeshi Kaneshiro and Michael Wong.",
         "url": "https://en.wikipedia.org/wiki/Lost_and_Found_(1996_film)"
       },
-      "streaming": [
-        {
-          "id": "umc.cmc.qyt1fjhxkbxubekym44a0a2r",
-          "name": "Apple TV",
-          "url": "https://tv.apple.com/movie/umc.cmc.qyt1fjhxkbxubekym44a0a2r"
-        },
-        {
-          "id": "5d7769f3594b2b001e6aef75",
-          "name": "Plex",
-          "url": "https://watch.plex.tv/movie/5d7769f3594b2b001e6aef75"
-        }
-      ],
+      "streaming": [],
       "slug": "lost-and-found-1996",
       "genres": [
         "Drama",
@@ -25435,13 +25424,7 @@
         "summary": "The Last Dance (Chinese: 破·地獄) is a 2024 Hong Kong drama film directed and written by Anselm Chan. Starring Dayo Wong, Michael Hui, Michelle Wai, and Chu Pak Hong, the film explores themes related to Hong Kong's deathcare and follows a wedding planner (Wong) who enters the funeral industry through a partnership with a traditional Taoist priest (Hui), seeking to understand the meaning of life and death through funeral rituals. Marking the third feature film as a director, Anselm Chan transitioned from comedy to drama after conceiving the story during the COVID-19 pandemic. The film broke numerous box office records, grossing over HK$122 million as of early December, making it the highest-grossing domestic film of all time in Hong Kong. The film was selected as Hong Kong's official entry for Best International Feature Film at the 98th Academy Awards, but it was not nominated. On the review aggregator website Rotten Tomatoes, 100% of 14 critics' reviews are positive, with an average rating of 7.7/10. Richard Kuipers of Variety described The Last Dance as \"lovely, life-affirming\", highlighting its poignant exploration of life and death through the unlikely partnership of a former wedding planner and a traditional Taoist priest, strengthened by the chemistry between Dayo Wong and Michael Hui, while also praising Michelle Wai as a \"particular standout\", along with the \"polished cinematography\" and \"terrific production design\", and noting the film's insightful commentary on gender roles and personal growth within the context of Hong Kong's deeply rooted Taoist funeral customs.",
         "url": "https://en.wikipedia.org/wiki/The_Last_Dance_(2024_film)"
       },
-      "streaming": [
-        {
-          "id": "5d7769a096b655001fdd478f",
-          "name": "Plex",
-          "url": "https://watch.plex.tv/movie/5d7769a096b655001fdd478f"
-        }
-      ],
+      "streaming": [],
       "slug": "the-last-dance-2024",
       "genres": [
         "Drama"
@@ -26240,6 +26223,16 @@
       },
       "streaming": [
         {
+          "id": "81952362",
+          "name": "Netflix",
+          "url": "https://www.netflix.com/title/81952362"
+        },
+        {
+          "id": "amzn1.dv.gti.c3fe4c70-a2f4-4f32-8306-3613baeac4a7",
+          "name": "Prime Video",
+          "url": "https://www.amazon.com/dp/amzn1.dv.gti.c3fe4c70-a2f4-4f32-8306-3613baeac4a7"
+        },
+        {
           "id": "umc.cmc.ka0xf4gk3tckil4x7x14hpcy",
           "name": "Apple TV",
           "url": "https://tv.apple.com/movie/umc.cmc.ka0xf4gk3tckil4x7x14hpcy"
@@ -26368,7 +26361,23 @@
         "summary": "Dragon: The Bruce Lee Story is a 1993 American biographical drama film directed by Rob Cohen. The film stars Jason Scott Lee, with a supporting cast including Lauren Holly, Nancy Kwan, and Robert Wagner. The film follows the life of actor and martial artist Bruce Lee (Jason) from his relocation to the United States from Hong Kong to his career as a martial arts teacher, and then as a television and film actor. A video game adaptation of the same name was released the following year. Dragon is dedicated to Brandon, who died several weeks before its release. The film received positive reception, with reviewers typically finding it entertaining despite criticisms of its veneration of Bruce. Peter Rainer from the Los Angeles Times described the depiction as \"hero-worshiping\", though he gave a favorable review, saying, \"you can forgive the way the film concocts and inflates incidents in Lee's life, because ... that's the way it is with larger-than-life actors: They prime you for larger-than-life stories.\" Roger Ebert said the martial arts sequences defy \"gravity and logic ... but what the heck: It's fun to watch,\" and Vincent Canby described it as \"an enjoyably hokey, big-budget theatrical film with a lot of kicks and the soul of a television movie\". Richard Harrington of The Washington Post praised the film's ability to appeal to more people than just fans of Bruce and martial arts, saying it also explored issues such as love, interracial romance, marriage and parenthood.",
         "url": "https://en.wikipedia.org/wiki/Dragon:_The_Bruce_Lee_Story"
       },
-      "streaming": [],
+      "streaming": [
+        {
+          "id": "459378",
+          "name": "Netflix",
+          "url": "https://www.netflix.com/title/459378"
+        },
+        {
+          "id": "umc.cmc.75leilt2xmesm3d7y2gqz2tj0",
+          "name": "Apple TV",
+          "url": "https://tv.apple.com/movie/umc.cmc.75leilt2xmesm3d7y2gqz2tj0"
+        },
+        {
+          "id": "5d776834880197001ec932b7",
+          "name": "Plex",
+          "url": "https://watch.plex.tv/movie/5d776834880197001ec932b7"
+        }
+      ],
       "slug": "dragon-the-bruce-lee-story-1993",
       "genres": [
         "Action",
@@ -26404,7 +26413,23 @@
         "summary": "Riding Alone for Thousands of Miles (simplified Chinese: 千里走单骑; traditional Chinese: 千里走單騎; pinyin: Qiān Lǐ Zǒu Dān Qí; Japanese: 単騎, 千里を走る) is a 2005 drama film directed by Zhang Yimou and Yasuo Furuhata, and starring Ken Takakura. It premiered at the Tokyo International Film Festival on 22 October 2005 and was released in China on 22 December. Written by Zou Jingzhi, the film tells the story of Gouichi Takata (Takakura), an aging Japanese father who, ever since his wife died, has not been in good terms with his son. It is a story about brotherly love and loyalty much told in Chinese folklore and operas. The film draws a parallel between the folk tale and Takata's quest to fulfill his son's wish. Riding Alone for Thousands of Miles has an approval rating of 80% on review aggregator website Rotten Tomatoes, based on 75 reviews, and an average rating of 7.1/10. The website's critical consensus states: \"Doesn't reach the heights of Zhang Yimou's best, but this is still a heartwarming tale of love and forgiveness from the acclaimed Chinese director\". Metacritic assigned the film a weighted average score of 73 out of 100, based on 21 critics, indicating \"generally favorable reviews\". San Diego Film Critics Society Awards, 2006\nBest Foreign Language Film\nBest Actor — Ken Takakura\nHong Kong Film Awards, 2007\nBest Asian Film",
         "url": "https://en.wikipedia.org/wiki/Riding_Alone_for_Thousands_of_Miles"
       },
-      "streaming": [],
+      "streaming": [
+        {
+          "id": "70053127",
+          "name": "Netflix",
+          "url": "https://www.netflix.com/title/70053127"
+        },
+        {
+          "id": "umc.cmc.5r6dlfcnwgcjsv8xre24xa6z2",
+          "name": "Apple TV",
+          "url": "https://tv.apple.com/movie/umc.cmc.5r6dlfcnwgcjsv8xre24xa6z2"
+        },
+        {
+          "id": "5d9f3512d74e670020020a43",
+          "name": "Plex",
+          "url": "https://watch.plex.tv/movie/5d9f3512d74e670020020a43"
+        }
+      ],
       "slug": "riding-alone-for-thousands-of-miles-2005",
       "genres": [
         "Drama"
@@ -26518,7 +26543,23 @@
         "summary": "Brokeback Mountain is a 2005 American independent neo-Western romantic drama film directed by Ang Lee and produced by Diana Ossana and James Schamus. Adapted from the 1997 short story by Annie Proulx, the screenplay was written by Ossana and Larry McMurtry. The film stars Heath Ledger, Jake Gyllenhaal, Anne Hathaway, and Michelle Williams. The film was selected for preservation in the United States National Film Registry by the Library of Congress as being \"culturally, historically, or aesthetically significant\" and was listed on the ballot for the American Film Institute's list of AFI's 100 Years...100 Movies (10th Anniversary Edition). Since then, it has been ranked by several publications, film critics and scholars as one of the best films of the 2000s, the 21st century and of all time. Brokeback Mountain was released to critical acclaim. On the review aggregator Rotten Tomatoes, the film holds an approval rating of 88% based on 253 reviews. The site's critical consensus reads, \"A beautifully epic Western, Brokeback Mountain's love story is imbued with heartbreaking universality, helped by moving performances by Heath Ledger and Jake Gyllenhaal.\" On Metacritic, the film has a rating of 87/100 based on 41 reviews, indicating \"universal acclaim\". David Ansen of Newsweek gave the film a positive review, praising the faithful screenplay.",
         "url": "https://en.wikipedia.org/wiki/Brokeback_Mountain"
       },
-      "streaming": [],
+      "streaming": [
+        {
+          "id": "70023965",
+          "name": "Netflix",
+          "url": "https://www.netflix.com/title/70023965"
+        },
+        {
+          "id": "umc.cmc.rgagpqyoonuqiddm96d66tu2",
+          "name": "Apple TV",
+          "url": "https://tv.apple.com/movie/umc.cmc.rgagpqyoonuqiddm96d66tu2"
+        },
+        {
+          "id": "5d776824eb5d26001f1dd003",
+          "name": "Plex",
+          "url": "https://watch.plex.tv/movie/5d776824eb5d26001f1dd003"
+        }
+      ],
       "slug": "brokeback-mountain-2005",
       "genres": [
         "Romance",
@@ -26675,7 +26716,18 @@
         "summary": "The Banker is a 2020 American period drama film directed, co-written and produced by George Nolfi. The film stars Anthony Mackie, Nicholas Hoult, Nia Long, Jessie T. Usher and Samuel L. Jackson. The story follows Joe Morris (Jackson) and Bernard Garrett (Mackie), two of the first African-American bankers in the United States. On Rotten Tomatoes, the film has an approval rating of 79% with an average score of 6.8/10, based on 77 reviews. The site's critical consensus reads: \"The Banker's timid approach to dramatizing its fact-based story is often outweighed by the trio of strong performances at its core.\" On Metacritic, the film has a weighted average score of 59 out of 100, based on 19 critics, indicating \"mixed or average\" reviews.",
         "url": "https://en.wikipedia.org/wiki/The_Banker_(2020_film)"
       },
-      "streaming": [],
+      "streaming": [
+        {
+          "id": "umc.cmc.2f8qhsa039voq5x0iwn1eixj1",
+          "name": "Apple TV",
+          "url": "https://tv.apple.com/movie/umc.cmc.2f8qhsa039voq5x0iwn1eixj1"
+        },
+        {
+          "id": "5d7770ddfb0d55001f5fab66",
+          "name": "Plex",
+          "url": "https://watch.plex.tv/movie/5d7770ddfb0d55001f5fab66"
+        }
+      ],
       "slug": "the-banker-2020",
       "genres": [
         "Drama"
@@ -26744,23 +26796,7 @@
       "shortlisted": false,
       "analysis": null,
       "summary": null,
-      "streaming": [
-        {
-          "id": "80239019",
-          "name": "Netflix",
-          "url": "https://www.netflix.com/title/80239019"
-        },
-        {
-          "id": "umc.cmc.6gjq3xvonledd0135dx4fqxqi",
-          "name": "Apple TV",
-          "url": "https://tv.apple.com/movie/umc.cmc.6gjq3xvonledd0135dx4fqxqi"
-        },
-        {
-          "id": "5d776d21ad5437001f7cde4d",
-          "name": "Plex",
-          "url": "https://watch.plex.tv/movie/5d776d21ad5437001f7cde4d"
-        }
-      ],
+      "streaming": [],
       "slug": "crazy-rich-asians-2016",
       "genres": [
         "Drama",
@@ -27103,7 +27139,18 @@
         "summary": "The Story of David is a 1976 two-part American television film dramatizing the Biblical story of King David. It stars Timothy Bottoms as the young David, Keith Michell as the older David, Anthony Quayle as King Saul, and Jane Seymour as Bathsheba. Produced by Columbia Pictures Television for the American Broadcasting Company (ABC-TV), it premiered on 9 April 1976, with its second part on the 11th. It was filmed in Israel and Spain. The Story of David is akin to a sequel to The Story of Jacob and Joseph (1974), also produced for ABC-TV (broadcast two years earlier) and involving many of the same cast and crew.",
         "url": "https://en.wikipedia.org/wiki/The_Story_of_David"
       },
-      "streaming": [],
+      "streaming": [
+        {
+          "id": "umc.cmc.7d9mhaklhczstzsf54j7nfiiz",
+          "name": "Apple TV",
+          "url": "https://tv.apple.com/movie/umc.cmc.7d9mhaklhczstzsf54j7nfiiz"
+        },
+        {
+          "id": "5d776b1623d5a3001f50c820",
+          "name": "Plex",
+          "url": "https://watch.plex.tv/movie/5d776b1623d5a3001f50c820"
+        }
+      ],
       "slug": "the-story-of-david",
       "genres": [],
       "franchises": []
@@ -27266,7 +27313,28 @@
         "summary": "Kiki's Delivery Service is a 1989 Japanese animated fantasy film written, produced, and directed by Hayao Miyazaki, based on Eiko Kadono's 1985 novel Kiki's Delivery Service. Animated by Studio Ghibli, the film stars Minami Takayama, Rei Sakuma, Kappei Yamaguchi, and Keiko Toda. The story follows Kiki (Takayama), a young witch who moves to the port city of Koriko with her cat Jiji (Sakuma) and starts a flying courier service. The Walt Disney Studios produced an English dub in 1997, which became the first film under a deal between Tokuma and Disney to be released in English. It was released to home media in 1998. At the review aggregator website Rotten Tomatoes, 98% of 47 reviews are positive for Kiki's Delivery Service, and the average rating is 8.1/10. The critics consensus reads, \"Kiki's Delivery Service is a heartwarming, gorgeously-rendered tale of a young witch discovering her place in the world.\" Metacritic, another aggregator, collected 15 reviews and calculated an average rating of 85 out of 100, signifying \"universal acclaim\". Initial reviews and reception for Kiki's Delivery Service were positive. Mark Schilling of The Japan Times gave a positive review, praising the realism of Kiki's character, as well as citing various scenes that emphasized it, and Japanese filmmaker Akira Kurosawa also showed admiration for the film.",
         "url": "https://en.wikipedia.org/wiki/Kiki's_Delivery_Service"
       },
-      "streaming": [],
+      "streaming": [
+        {
+          "id": "60027106",
+          "name": "Netflix",
+          "url": "https://www.netflix.com/title/60027106"
+        },
+        {
+          "id": "feature/urn:hbo:feature:GXrHTGwYHRnUYOAEAAABC",
+          "name": "HBO Max",
+          "url": "https://play.max.com/video/watch/feature/urn:hbo:feature:GXrHTGwYHRnUYOAEAAABC"
+        },
+        {
+          "id": "umc.cmc.5w5rol5j2y9kaxsrrtbfme7dh",
+          "name": "Apple TV",
+          "url": "https://tv.apple.com/movie/umc.cmc.5w5rol5j2y9kaxsrrtbfme7dh"
+        },
+        {
+          "id": "5d77683fe6d55c002040ecbd",
+          "name": "Plex",
+          "url": "https://watch.plex.tv/movie/5d77683fe6d55c002040ecbd"
+        }
+      ],
       "slug": "kiki-s-delivery-service-1989",
       "genres": [
         "Fantasy",
@@ -27551,7 +27619,18 @@
         "summary": "Enter the Fat Dragon (Chinese: 肥龍過江) is a 1978 Hong Kong martial arts film starring and directed by Sammo Hung. The film is mostly a parody of the Bruce Lee film Way of the Dragon (1972), and a satire of the Bruceploitation phenomenon of the 1970s. Its English title references another Bruce Lee film, Enter the Dragon (1973). In November 2017, it was announced that Donnie Yen would star in a remake of the film, directed by Kenji Tanigaki and Aman Chang. The film was released in 2020, but was not a remake.",
         "url": "https://en.wikipedia.org/wiki/Enter_the_Fat_Dragon_(1978_film)"
       },
-      "streaming": [],
+      "streaming": [
+        {
+          "id": "20824723",
+          "name": "Netflix",
+          "url": "https://www.netflix.com/title/20824723"
+        },
+        {
+          "id": "5d7768bd96b655001fdc0809",
+          "name": "Plex",
+          "url": "https://watch.plex.tv/movie/5d7768bd96b655001fdc0809"
+        }
+      ],
       "slug": "enter-the-fat-dragon-1978",
       "genres": [
         "Action",
@@ -27723,7 +27802,23 @@
         "summary": "To Live (活着, Huózhe), also known as Lifetimes, is a 1994 Chinese drama directed by Zhang Yimou and adapted from Yu Hua's 1993 novel of the same name. The film spans the 1940s–1970s, tracing the Xu family's survival through the Chinese Civil War, Great Leap Forward, and Cultural Revolution. It won numerous prestigious international awards, and despite domestic censorship, is widely respected for its portrayal of ordinary resilience under political duress. The film was denied a theatrical release in mainland China by the Chinese State Administration of Radio, Film, and Television due to its critical portrayal of policies and political campaigns. Zhang Yimou and Gong Li were each banned from filmmaking for two years as a consequence of the film's submission to Cannes without prior official approval, and the ban on the film itself was not lifted until late 2008. To Live received critical acclaim and various critics selected the film in their year end lists. To Live has an approval rating of 87% on review aggregator website Rotten Tomatoes, based on 23 reviews, and an average rating of 8.3/10. The website's critical consensus states: \"To Live (Huo zhe) offers a gut-wrenching overview of Chinese political upheaval through the lens of one family's unforgettable experiences\". Reviewing the film for the Chicago Sun-Times, Roger Ebert gave it three and a half stars out of four and praised it as a strong and energetic work covering four decades of Chinese history through the lives of ordinary people.",
         "url": "https://en.wikipedia.org/wiki/To_Live_(1994_film)"
       },
-      "streaming": [],
+      "streaming": [
+        {
+          "id": "60028524",
+          "name": "Netflix",
+          "url": "https://www.netflix.com/title/60028524"
+        },
+        {
+          "id": "umc.cmc.7j6ln6relis6lwh0drwfi03h0",
+          "name": "Apple TV",
+          "url": "https://tv.apple.com/movie/umc.cmc.7j6ln6relis6lwh0drwfi03h0"
+        },
+        {
+          "id": "5d776d13ad5437001f7cc4f5",
+          "name": "Plex",
+          "url": "https://watch.plex.tv/movie/5d776d13ad5437001f7cc4f5"
+        }
+      ],
       "slug": "to-live-1994",
       "genres": [
         "Drama"
@@ -28177,7 +28272,28 @@
         "summary": "Ponyo is a 2008 Japanese animated fantasy film written and directed by Hayao Miyazaki. It was animated by Studio Ghibli for the Nippon Television Network, Dentsu, Hakuhodo DY Media Partners, Buena Vista Home Entertainment, Mitsubishi, and distributed by Toho. The film stars Yuria Nara, Hiroki Doi, Tomoko Yamaguchi, Kazushige Nagashima, Yūki Amami, George Tokoro, Rumi Hiiragi, Akiko Yano, Kazuko Yoshiyuki and Tomoko Naraoka. It received critical acclaim for its uplifting themes, visual design, and simultaneous appeal towards young children and all audiences. An English-language version of the film was released on August 14, 2009, to 927 theatres across the U.S., the widest opening for a Studio Ghibli film in the U.S. It was produced by The Kennedy/Marshall Company and released by Walt Disney Studios Motion Pictures through their Walt Disney Pictures banner. Ponyo received critical acclaim. Rotten Tomatoes compiled 174 reviews and determined that 91% were positive, with an average score of 7.6/10. The critics consensus on the website states, \"While not Miyazaki's best film, Ponyo is a visually stunning fairy tale that's a sweetly poetic treat for children and Miyazaki fans of all ages.\" On Metacritic, the film has a weighted average score of 86 out of 100, based on 29 reviews, indicating \"universal acclaim\". The Japan Times gave the film four out of five stars, praised its simple thematic elements and its visual scheme, and compared the film to Miyazaki's classic animation My Neighbor Totoro.",
         "url": "https://en.wikipedia.org/wiki/Ponyo"
       },
-      "streaming": [],
+      "streaming": [
+        {
+          "id": "70106454",
+          "name": "Netflix",
+          "url": "https://www.netflix.com/title/70106454"
+        },
+        {
+          "id": "feature/urn:hbo:feature:GXrWweQmaqDmqwwEAAAAm",
+          "name": "HBO Max",
+          "url": "https://play.max.com/video/watch/feature/urn:hbo:feature:GXrWweQmaqDmqwwEAAAAm"
+        },
+        {
+          "id": "umc.cmc.11anqj3fvjt8xg0vs137v8ob6",
+          "name": "Apple TV",
+          "url": "https://tv.apple.com/movie/umc.cmc.11anqj3fvjt8xg0vs137v8ob6"
+        },
+        {
+          "id": "5d776838151a60001f24e82f",
+          "name": "Plex",
+          "url": "https://watch.plex.tv/movie/5d776838151a60001f24e82f"
+        }
+      ],
       "slug": "ponyo-2008",
       "genres": [
         "Fantasy",
@@ -28212,7 +28328,28 @@
         "summary": "One Battle After Another is a 2025 American action-comedy-thriller film written, directed, and produced by Paul Thomas Anderson. Inspired by the 1990 novel Vineland by Thomas Pynchon, the film's ensemble cast includes Leonardo DiCaprio, Sean Penn, Benicio del Toro, Regina Hall, Teyana Taylor, and Chase Infiniti (in her film debut). It follows a washed-up former revolutionary (DiCaprio) who is brought back into conflict when his enemy (Penn) resurfaces after sixteen years. It also received one win from a record seven nominations at the 32nd Actor Awards; three wins at the 31st Critics' Choice Awards, including Best Picture; four wins at the 83rd Golden Globes, including Best Motion Picture – Musical or Comedy; and six wins at the 79th British Academy Film Awards, including Best Film. The film was listed by the American Film Institute as one of the top ten films of 2025 and won five awards from the National Board of Review, including Best Film. The film received widespread acclaim, receiving reviews that were overwhelmingly positive, with multiple critics calling the film a \"masterpiece\". On the review aggregator website Rotten Tomatoes, 94% of 444 critics' reviews are positive, with an average rating of 8.9/10. The website's consensus reads: \"An epic screwball adventure teeming with awe-inspiring action set pieces, One Battle After Another is Paul Thomas Anderson's most entertaining film yet while also one of his most thematically rich.\" Metacritic, which uses a weighted average, assigned the film a score of 95 out of 100, based on 63 critics, indicating \"universal acclaim\".",
         "url": "https://en.wikipedia.org/wiki/One_Battle_After_Another"
       },
-      "streaming": [],
+      "streaming": [
+        {
+          "id": "B0FR6PZZ2C",
+          "name": "Prime Video",
+          "url": "https://www.amazon.com/dp/B0FR6PZZ2C"
+        },
+        {
+          "id": "movie/bebe611d-8178-481a-a4f2-de743b5b135a",
+          "name": "HBO Max",
+          "url": "https://play.max.com/video/watch/movie/bebe611d-8178-481a-a4f2-de743b5b135a"
+        },
+        {
+          "id": "umc.cmc.66y1fmjq8p3jni6jntoj53id7",
+          "name": "Apple TV",
+          "url": "https://tv.apple.com/movie/umc.cmc.66y1fmjq8p3jni6jntoj53id7"
+        },
+        {
+          "id": "6562d1dbf8acedbdfebce1d1",
+          "name": "Plex",
+          "url": "https://watch.plex.tv/movie/6562d1dbf8acedbdfebce1d1"
+        }
+      ],
       "slug": "one-battle-after-another-2025",
       "genres": [
         "Drama",
@@ -28249,7 +28386,23 @@
         "summary": "Whiplash is a 2014 American drama film written and directed by Damien Chazelle, and starring Miles Teller, J. K. Simmons, and Paul Reiser. Simmons won the Academy, Golden Globe, BAFTA, Critics' Choice, and Screen Actors Guild awards for Best Supporting Actor. Whiplash has since been assessed as one of the best films of the 21st century. On the review aggregation website Rotten Tomatoes, Whiplash scored 94% based on 304 reviews, with an average rating of 8.6/10. The site's critical consensus states, \"Intense, inspiring, and well-acted, Whiplash is a brilliant sophomore effort from director Damien Chazelle and a riveting vehicle for stars J. K. Simmons and Miles Teller.\" On Metacritic, it has a score of 89 out of 100, based on reviews from 49 critics, indicating \"universal acclaim\".",
         "url": "https://en.wikipedia.org/wiki/Whiplash_(2014_film)"
       },
-      "streaming": [],
+      "streaming": [
+        {
+          "id": "70299275",
+          "name": "Netflix",
+          "url": "https://www.netflix.com/title/70299275"
+        },
+        {
+          "id": "umc.cmc.5enfz8k7msxo5wz2ufah31ch4",
+          "name": "Apple TV",
+          "url": "https://tv.apple.com/movie/umc.cmc.5enfz8k7msxo5wz2ufah31ch4"
+        },
+        {
+          "id": "5d776a87ad5437001f7809ad",
+          "name": "Plex",
+          "url": "https://watch.plex.tv/movie/5d776a87ad5437001f7809ad"
+        }
+      ],
       "slug": "whiplash-2014",
       "genres": [
         "Musical",
@@ -28283,7 +28436,13 @@
         "summary": "Dead to Rights (simplified Chinese: 南京照相馆; traditional Chinese: 南京照相舘; lit. 'Nanjing Photographic Studio') is a 2025 Chinese historical drama film directed by Shen Ao. It stars Liu Haoran, Wang Chuanjun, Gao Ye, Wang Xiao, Zhou You, Yang Enyou, and Daichi Harashima. Set during the Nanjing Massacre, the film follows a group of civilians who seek refuge in a photographic studio amidst widespread brutality, who manage to expose the atrocities committed by the Imperial Japanese Army. It went on to make US$381 million at the box office, making it the third-highest-grossing Chinese film of 2025. It was selected as the Chinese entry for Best International Feature Film at the 98th Academy Awards, but it was not selected for nomination.",
         "url": "https://en.wikipedia.org/wiki/Dead_to_Rights_(film)"
       },
-      "streaming": [],
+      "streaming": [
+        {
+          "id": "6813a50765caad6d41643d2a",
+          "name": "Plex",
+          "url": "https://watch.plex.tv/movie/6813a50765caad6d41643d2a"
+        }
+      ],
       "slug": "dead-to-rights-2025",
       "genres": [
         "Historical"
@@ -28350,7 +28509,18 @@
         "summary": "Nope (stylized in all caps) is a 2022 American science fiction horror film written, directed, and produced by Jordan Peele. It stars Daniel Kaluuya, Keke Palmer, Steven Yeun, Michael Wincott, Brandon Perea, and Keith David. In the film, horse-wrangling siblings Otis \"OJ\" Jr. (Kaluuya) and Emerald (Palmer) attempt to capture evidence of an unidentified flying object in Agua Dulce, California. It was also named one of the top ten films of 2022 by the American Film Institute. Since its release, Nope has been included in lists of the best science fiction films of the 21st century and is considered one of the best science fiction films of all time. On the review aggregator website Rotten Tomatoes, 83% of 477 critics' reviews are positive. The website's consensus reads: \"Admirable for its originality and ambition even when its reach exceeds its grasp, Nope adds Spielbergian spectacle to Jordan Peele's growing arsenal.\" Metacritic, which uses a weighted average, assigned the film a score of 77 out of 100, based on 64 critics, indicating \"generally favorable\" reviews. Audiences polled by CinemaScore gave the film an average grade of \"B\" on an A+ to F scale, the same score as Us, while PostTrak reported 79% of filmgoers gave it a positive score. A.",
         "url": "https://en.wikipedia.org/wiki/Nope_(film)"
       },
-      "streaming": [],
+      "streaming": [
+        {
+          "id": "umc.cmc.5wgdm57j2x5ikq82v129dvx9k",
+          "name": "Apple TV",
+          "url": "https://tv.apple.com/movie/umc.cmc.5wgdm57j2x5ikq82v129dvx9k"
+        },
+        {
+          "id": "5e16338fbc1372003ea68ab3",
+          "name": "Plex",
+          "url": "https://watch.plex.tv/movie/5e16338fbc1372003ea68ab3"
+        }
+      ],
       "slug": "nope-2022",
       "genres": [
         "Horror",
@@ -28386,7 +28556,23 @@
         "summary": "Karate Kid: Legends is a 2025 American martial arts drama film starring Jackie Chan and Ralph Macchio, while introducing Ben Wang as the main lead. It is the sixth film in The Karate Kid franchise, serving as a follow-up to The Karate Kid (2010) and the television series Cobra Kai (2018–2025). Both Chan and Macchio reprise their roles from the franchise. Karate Kid: Legends premiered at the Cinépolis Mitikah in Mexico City, Mexico on May 7, 2025, and was released in the United States by Sony Pictures Releasing on May 30. It received mixed reviews from critics and grossed $117 million worldwide. On the review aggregator website Rotten Tomatoes, 57% of 198 critics' reviews are positive, with an average rating of 5.6/10. The website's consensus reads: \"Leaning heavily on the nostalgic appeal of Jackie Chan and Ralph Macchio's return to the Karate Kid franchise, Legends could be more disciplined with its technique but still lands some crowd pleasing strikes.\" Metacritic, which uses a weighted average, assigned the film a score of 51 out of 100, based on 36 critics, indicating \"mixed or average\" reviews. Audiences polled by CinemaScore gave the film an average grade of \"A-\" on an A+ to F scale.",
         "url": "https://en.wikipedia.org/wiki/Karate_Kid:_Legends"
       },
-      "streaming": [],
+      "streaming": [
+        {
+          "id": "82064961",
+          "name": "Netflix",
+          "url": "https://www.netflix.com/title/82064961"
+        },
+        {
+          "id": "umc.cmc.7ks2iw2xij2io3kyfye3cw8xp",
+          "name": "Apple TV",
+          "url": "https://tv.apple.com/movie/umc.cmc.7ks2iw2xij2io3kyfye3cw8xp"
+        },
+        {
+          "id": "5d776c719ab5440021516b43",
+          "name": "Plex",
+          "url": "https://watch.plex.tv/movie/5d776c719ab5440021516b43"
+        }
+      ],
       "slug": "karate-kid-legends-2025",
       "genres": [
         "Comedy",
@@ -28458,7 +28644,18 @@
         "summary": "100 Meters is a Japanese sports manga series written and illustrated by Uoto. The story follows a prodigious sprinter named Togashi, whose life becomes intertwined with Komiya, a socially isolated transfer student he introduces to sprinting, unknowingly creating his biggest rival. The manga was originally based on a one-shot called 100'M, it was later serialized online via Kodansha's Magazine Pocket website from November 2018 to August 2019, and was later collected into five tankōbon volumes. An anime film adaptation, produced by Rock 'n' Roll Mountain and directed by Kenji Iwaizawa had its world premiere on June 12 at the 2025 Annecy International Animation Film Festival, followed by a release in Japan on September 19, a limited United States release on October 12, and a limited Australian release on October 16. It was licensed for an English-language release in North America by GKIDS and in Australia by Sugoi Co. The film received positive reviews, with critics praising its rotoscoped animation style, and the score of Hiroaki Tsutsumi. The film was also nominated for several awards, including Animation of the Year at the 49th Japan Academy Film Prize. On the review aggregator website Rotten Tomatoes, 100% of 18 critics' reviews are positive. Metacritic, which uses a weighted average, assigned the film a score of 72 out of 100, based on 5 critics, indicating \"generally favorable\" reviews. The film had received generally positive reviews from critics.",
         "url": "https://en.wikipedia.org/wiki/100_Meters_(film)"
       },
-      "streaming": [],
+      "streaming": [
+        {
+          "id": "81785821",
+          "name": "Netflix",
+          "url": "https://www.netflix.com/title/81785821"
+        },
+        {
+          "id": "666d3537262c3d4a6316466b",
+          "name": "Plex",
+          "url": "https://watch.plex.tv/movie/666d3537262c3d4a6316466b"
+        }
+      ],
       "slug": "100-meters-2025",
       "genres": [
         "Drama",
@@ -28492,7 +28689,23 @@
         "summary": "Borat! Cultural Learnings of America for Make Benefit Glorious Nation of Kazakhstan (known commonly as Borat) is a 2006 mockumentary black comedy film co-written by and starring Sacha Baron Cohen as Borat Sagdiyev, a fictional Kazakh journalist traveling through the United States. Much of the film features unscripted vignettes of Borat interviewing and interacting with real-life Americans who believe he is a foreigner with little or no understanding of the local customs. Borat has since been regarded as one of the greatest comedy films of the 2000s and 21st century. A sequel, Borat Subsequent Moviefilm, followed in 2020. Borat received widespread critical acclaim. On Rotten Tomatoes the film has a score of 90% based on reviews from 219 critics, with an average rating of 8.02/10. The website's consensus for the film reads, \"Part satire, part shockumentary, Borat gets high-fives almost all-around for being offensive in the funniest possible way. Jagshemash!\" On Metacritic, the film has a score of 89 out of 100 based on 38 critics, indicating \"universal acclaim\".",
         "url": "https://en.wikipedia.org/wiki/Borat"
       },
-      "streaming": [],
+      "streaming": [
+        {
+          "id": "70050506",
+          "name": "Netflix",
+          "url": "https://www.netflix.com/title/70050506"
+        },
+        {
+          "id": "umc.cmc.77y3nh5a0spyce0i55yh433p",
+          "name": "Apple TV",
+          "url": "https://tv.apple.com/movie/umc.cmc.77y3nh5a0spyce0i55yh433p"
+        },
+        {
+          "id": "5d776826961905001eb90fd1",
+          "name": "Plex",
+          "url": "https://watch.plex.tv/movie/5d776826961905001eb90fd1"
+        }
+      ],
       "slug": "borat-2006",
       "genres": [
         "Comedy"
@@ -28561,7 +28774,18 @@
         "summary": "KPop Demon Hunters is a 2025 American animated musical urban fantasy film co-written and directed by Maggie Kang and Chris Appelhans. Produced by Sony Pictures Animation for Netflix, the film stars the voices of Arden Cho, Ahn Hyo-seop, May Hong, Ji-young Yoo, Yunjin Kim, Daniel Dae Kim, Ken Jeong, and Lee Byung-hun. The story follows a K-pop girl group, Huntrix, who lead double lives as demon hunters. The recipient of many accolades, it won Best Animated Feature and Best Original Song (\"Golden\") at both the 83rd Golden Globe Awards and the 98th Academy Awards, and won multiple awards at the 53rd Annie Awards. A sequel is in development. KPop Demon Hunters received wide acclaim from both critics and audiences, who praised its animation, music, voice acting, and story. On the review aggregator website Rotten Tomatoes, 91% of 105 critics' reviews are positive, with an average rating of 7.7/10. The website's consensus reads: \"Animated with infectious energy and vibrant colors, KPop Demon Hunters is jaunty family entertainment with a terrific soundtrack to boot.\" Metacritic, which uses a weighted average, assigned the film a score of 77 out of 100, based on 10 critics, indicating \"generally favorable\" reviews. Brandon Yu, for The New York Times, wrote that KPop Demon Hunters \"is an original universe that is charming, funny and artfully punchy\".",
         "url": "https://en.wikipedia.org/wiki/KPop_Demon_Hunters"
       },
-      "streaming": [],
+      "streaming": [
+        {
+          "id": "81498621",
+          "name": "Netflix",
+          "url": "https://www.netflix.com/title/81498621"
+        },
+        {
+          "id": "604b2748c03f34002dd97a16",
+          "name": "Plex",
+          "url": "https://watch.plex.tv/movie/604b2748c03f34002dd97a16"
+        }
+      ],
       "slug": "kpop-demon-hunters-2025",
       "genres": [
         "Musical",
@@ -28597,7 +28821,18 @@
         "summary": "Under Paris (French: Sous la Seine) is a 2024 French action-horror disaster film directed by Xavier Gens, who co-wrote it with Yannick Dahan, Maud Heywang, Yaël Langmann and Olivier Torres. It stars Bérénice Bejo as a grieving marine biologist who is forced to face her tragic past in order to save Paris from a bloodbath when a giant shark appears in the Seine. Produced on a budget of €19.6 million, the film was released by Netflix on 5 June 2024, and received mixed-to-positive reviews, with some critics comparing it to Jaws (1975) and other films of the shark movie genre. On the review aggregator website Rotten Tomatoes, 64% of 42 critics' reviews are positive, with an average rating of 5.9/10. The website's consensus reads: \"Marrying environmental themes with bloody thrills, this Gallic entry into the shark attack canon ultimately lands on the right side of ridiculous fun.\" Metacritic, which uses a weighted average, assigned the film a score of 57 out of 100, based on 6 critics, indicating \"mixed or average\" reviews. The film achieved the number one position on Netflix in the top ten of the most viewed films worldwide on the streaming service. In the first week, the film was viewed more than 40 million times.",
         "url": "https://en.wikipedia.org/wiki/Under_Paris"
       },
-      "streaming": [],
+      "streaming": [
+        {
+          "id": "81210788",
+          "name": "Netflix",
+          "url": "https://www.netflix.com/title/81210788"
+        },
+        {
+          "id": "608f3b24c022b4002def62a7",
+          "name": "Plex",
+          "url": "https://watch.plex.tv/movie/608f3b24c022b4002def62a7"
+        }
+      ],
       "slug": "under-paris-2024",
       "genres": [
         "Action",
@@ -28632,7 +28867,23 @@
         "summary": "Shang-Chi and the Legend of the Ten Rings is a 2021 American superhero film based on Marvel Comics featuring the character Shang-Chi. Produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures, it is the 25th film in the Marvel Cinematic Universe (MCU). The film was directed by Destin Daniel Cretton from a screenplay he wrote with Dave Callaham and Andrew Lanham, and stars Simu Liu as Shang-Chi alongside Awkwafina, Meng'er Zhang, Fala Chen, Florian Munteanu, Benedict Wong, Yuen Wah, Michelle Yeoh, Ben Kingsley, and Tony Leung. The film received various accolades, including a nomination for Best Visual Effects at the 94th Academy Awards. A sequel is in development. The review aggregator website Rotten Tomatoes reported an approval rating of 92%, with an average score of 7.5/10, based on 344 reviews. The website's critical consensus reads, \"Shang-Chi and the Legend of the Ten Rings isn't entirely free of Marvel's familiar formula, but this exciting origin story expands the MCU in more ways than one.\" On Metacritic, the film has a weighted average score of 71 out of 100, based on 52 critics, indicating \"generally favorable\" reviews. Critics commonly praised the film's representation of Asian culture which differentiated it from other MCU films, as well as the performances and action sequences. Audiences polled by CinemaScore gave the film an average grade of \"A\" on an A+ to F scale, while PostTrak reported 91% of audience members gave it a positive score and 78% said they would definitely recommend it.",
         "url": "https://en.wikipedia.org/wiki/Shang-Chi_and_the_Legend_of_the_Ten_Rings"
       },
-      "streaming": [],
+      "streaming": [
+        {
+          "id": "5GyV9sf9Y041",
+          "name": "Disney+",
+          "url": "https://www.disneyplus.com/movies/_/5GyV9sf9Y041"
+        },
+        {
+          "id": "umc.cmc.1r6h2ku90p1e6jaznhnk0m5hd",
+          "name": "Apple TV",
+          "url": "https://tv.apple.com/movie/umc.cmc.1r6h2ku90p1e6jaznhnk0m5hd"
+        },
+        {
+          "id": "5d7770a7fb0d55001f5f5c83",
+          "name": "Plex",
+          "url": "https://watch.plex.tv/movie/5d7770a7fb0d55001f5f5c83"
+        }
+      ],
       "slug": "shang-chi-and-the-legend-of-the-ten-rings-2021",
       "genres": [
         "Martial arts",
@@ -28669,7 +28920,23 @@
         "summary": "Black Panther is a 2018 American superhero film based on the Marvel Comics character of the same name. Produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures, it is the 18th film in the Marvel Cinematic Universe (MCU). The film was directed by Ryan Coogler, who co-wrote the screenplay with Joe Robert Cole, and it stars Chadwick Boseman as T'Challa / Black Panther alongside Michael B. A sequel, Black Panther: Wakanda Forever, was released on November 11, 2022, with Wright taking over as the lead following Boseman's death in 2020, while a third film is scheduled for release in December 2028. An animated series, Eyes of Wakanda, was released in August 2025 on Disney+. The review aggregator Rotten Tomatoes reported an approval rating of 96%, with an average score of 8.3/10, based on 526 reviews. The website's critical consensus reads, \"Black Panther elevates superhero cinema to thrilling new heights while telling one of the MCU's most absorbing stories—and introducing some of its most fully realized characters.\" As of February 18, 2018, it was the best-reviewed live-action superhero film on the site, beating The Dark Knight (2008) and Iron Man (both 94%). Metacritic, which uses a weighted average, assigned the film a score of 88 out of 100 based on 55 critics, indicating \"universal acclaim\". Audiences polled by CinemaScore gave the film an average grade of \"A+\" on an A+ to F scale, the second live-action superhero film to receive that grade after Marvel's The Avengers.",
         "url": "https://en.wikipedia.org/wiki/Black_Panther_(film)"
       },
-      "streaming": [],
+      "streaming": [
+        {
+          "id": "1GuXuYPj99Ke",
+          "name": "Disney+",
+          "url": "https://www.disneyplus.com/movies/_/1GuXuYPj99Ke"
+        },
+        {
+          "id": "umc.cmc.53u1tdqk891nlpuvdh8ne00pb",
+          "name": "Apple TV",
+          "url": "https://tv.apple.com/movie/umc.cmc.53u1tdqk891nlpuvdh8ne00pb"
+        },
+        {
+          "id": "5d776b05fb0d55001f559234",
+          "name": "Plex",
+          "url": "https://watch.plex.tv/movie/5d776b05fb0d55001f559234"
+        }
+      ],
       "slug": "black-panther-2018",
       "genres": [
         "Action",
@@ -28709,7 +28976,23 @@
         "summary": "Drishyam (transl. Visual) is a 2015 Indian Hindi-language crime thriller film, directed by Nishikant Kamat and produced by Viacom 18 Motion Pictures and Panorama Studios. A remake of the eponymous 2013 Malayalam film, the film stars Ajay Devgn, Tabu, Shriya Saran. Upon release, it was a critical and commercial success. A sequel titled Drishyam 2 was released in 2022. Drishyam received positive reviews from critics. On the review aggregator website Rotten Tomatoes, 78% of 18 critics' reviews are positive, with an average rating of 6.5/10. Subhash .K. Jha gave four and a half out of five stars and stated \"Nishikant Kamat's Drishyam is an outright winner.",
         "url": "https://en.wikipedia.org/wiki/Drishyam_(2015_film)"
       },
-      "streaming": [],
+      "streaming": [
+        {
+          "id": "80068117",
+          "name": "Netflix",
+          "url": "https://www.netflix.com/title/80068117"
+        },
+        {
+          "id": "umc.cmc.5kr1ftkcgllxfzgo85ea4tf38",
+          "name": "Apple TV",
+          "url": "https://tv.apple.com/movie/umc.cmc.5kr1ftkcgllxfzgo85ea4tf38"
+        },
+        {
+          "id": "5d776bc5ad5437001f7a982f",
+          "name": "Plex",
+          "url": "https://watch.plex.tv/movie/5d776bc5ad5437001f7a982f"
+        }
+      ],
       "slug": "drishyam-2015",
       "genres": [
         "Drama"
@@ -28742,7 +29025,13 @@
         "summary": "The Best Is Yet to Come (French: Le meilleur reste à venir) is a 2019 French comedy-drama film written and directed by Matthieu Delaporte and Alexandre de la Patellière.",
         "url": "https://en.wikipedia.org/wiki/The_Best_Is_Yet_to_Come_(2019_film)"
       },
-      "streaming": [],
+      "streaming": [
+        {
+          "id": "5d7770ba35102a0020ed9091",
+          "name": "Plex",
+          "url": "https://watch.plex.tv/movie/5d7770ba35102a0020ed9091"
+        }
+      ],
       "slug": "the-best-is-yet-to-come-2020",
       "genres": [
         "Comedy",
@@ -28777,7 +29066,18 @@
         "summary": "Lost in the Stars (Chinese: 消失的她; lit. 'She Who Disappeared') is a 2022 Chinese mystery film directed by Cui Rui and Liu Xiang, and starring Zhu Yilong, Ni Ni, Janice Man, and Du Jiang. The film is adapted from Aleksey Korenev's 1990 Soviet comedy film Trap for a Lonely Man and French playwright Robert Thomas' 1960 play Trap for a Lonely Man (Piege Pour un Homme Seul). It tells the story of businessman He Fei and his wife, Li Muzi, who disappears during an anniversary trip to Southeast Asia; the woman who reappears, claiming to be Li Muzi, is not his wife. It received generally positive reviews from critics. The plot bares resemblance to the 2019 Wang Nuannuan case, where her husband pushed Wang off a cliff in order to inherit her assets and clear gambling debts. On the review aggregator website Rotten Tomatoes, 100% of 6 critics' reviews are positive, with an average rating of 7.6/10. For The Guardian, Leslie Felperin gave it three out of five stars, writing, \"Although the 180-degree plot pivots start to get a little ridiculous by the end, the script zips along with such gleeful mischievousness that the ride is too fun to resist.\" Whang Lee Ying of The Straits Times rated it four out of five stars, calling it \"nothing if not Hitchcockian with its doppelganger and femme fatale\".",
         "url": "https://en.wikipedia.org/wiki/Lost_in_the_Stars_(2022_film)"
       },
-      "streaming": [],
+      "streaming": [
+        {
+          "id": "81711455",
+          "name": "Netflix",
+          "url": "https://www.netflix.com/title/81711455"
+        },
+        {
+          "id": "61fd09bd6a7f5d80c8c8a643",
+          "name": "Plex",
+          "url": "https://watch.plex.tv/movie/61fd09bd6a7f5d80c8c8a643"
+        }
+      ],
       "slug": "lost-in-the-stars-2022",
       "genres": [
         "Mystery",
@@ -28812,7 +29112,13 @@
         "summary": "All Ears (Chinese: 不虚此行) is a 2023 Chinese drama film written and directed by Liu Jiayin. It stars Hu Ge as Wen Shan, an ordinary screenwriter who, after unexpectedly making a living by writing eulogies, finds warmth through encounters with various people and ultimately discovers his own direction in life. The film was theatrically released on September 9, 2023.",
         "url": "https://en.wikipedia.org/wiki/All_Ears"
       },
-      "streaming": [],
+      "streaming": [
+        {
+          "id": "6236ebffcd0b91083d570b10",
+          "name": "Plex",
+          "url": "https://watch.plex.tv/movie/6236ebffcd0b91083d570b10"
+        }
+      ],
       "slug": "all-ears-2023",
       "genres": [
         "Drama"
@@ -28845,7 +29151,13 @@
         "summary": "Fireflies in the Sun (Chinese: 误杀2) is a 2021 Chinese crime thriller film produced by Chen Sicheng, directed by Dai Mo, and starring Xiao Yang, Janice Man, and Simon Yam. Although the film reunites the same production team and the lead actor of Sheep Without a Shepherd, it is not a direct sequel to that film or its source Drishyam. It is a remake of the 2002 American thriller drama film John Q., which was directed by Nick Cassavetes and starring Denzel Washington. It follows the story of Lin Rilang, a father and husband whose son is diagnosed with an enlarged heart and gives all his efforts to collect money for his son's operation. The film premiered in China on 17 December 2021.",
         "url": "https://en.wikipedia.org/wiki/Fireflies_in_the_Sun"
       },
-      "streaming": [],
+      "streaming": [
+        {
+          "id": "6197982895488d82b96f3295",
+          "name": "Plex",
+          "url": "https://watch.plex.tv/movie/6197982895488d82b96f3295"
+        }
+      ],
       "slug": "fireflies-in-the-sun-2021",
       "genres": [
         "Crime",
@@ -28879,7 +29191,18 @@
         "summary": "Hidden Blade  is a 2023 Chinese period spy thriller film directed by Cheng Er and starring Tony Leung and Wang Yibo. The film was released in China on January 22, 2023 (Chinese New Year). The film has grossed $139 million worldwide.",
         "url": "https://en.wikipedia.org/wiki/Hidden_Blade"
       },
-      "streaming": [],
+      "streaming": [
+        {
+          "id": "umc.cmc.57fkjwx0whx4cq1ailqnh0nvk",
+          "name": "Apple TV",
+          "url": "https://tv.apple.com/movie/umc.cmc.57fkjwx0whx4cq1ailqnh0nvk"
+        },
+        {
+          "id": "61c5c51ed271985598adf760",
+          "name": "Plex",
+          "url": "https://watch.plex.tv/movie/61c5c51ed271985598adf760"
+        }
+      ],
       "slug": "hidden-blade-2023",
       "genres": [
         "Thriller"
@@ -28982,7 +29305,18 @@
         "summary": "Enter the Fat Dragon is a 2020 Hong Kong martial arts comedy film directed by Kenji Tanigaki and Aman Chang from a screenplay by and co-starring Wong Jing, who also acted and produced, alongside Connie Wong and lead actor Donnie Yen. Co-stars include Teresa Mo and Niki Chow. The film was a Chinese New Year streaming release on OTT platforms in China and achieved strong streaming numbers across IQiyi, Tencent, and Youku. It was also the highest-grossing film in Malaysia and one of the top ten in Singapore that year. On the review aggregator website Rotten Tomatoes, 64% of 14 critics' reviews are positive, with an average rating of 6/10.",
         "url": "https://en.wikipedia.org/wiki/Enter_the_Fat_Dragon_(2020_film)"
       },
-      "streaming": [],
+      "streaming": [
+        {
+          "id": "umc.cmc.532jjr9fuxcghpx2t1qrifvtd",
+          "name": "Apple TV",
+          "url": "https://tv.apple.com/movie/umc.cmc.532jjr9fuxcghpx2t1qrifvtd"
+        },
+        {
+          "id": "5d776efcad5437001f8078bc",
+          "name": "Plex",
+          "url": "https://watch.plex.tv/movie/5d776efcad5437001f8078bc"
+        }
+      ],
       "slug": "enter-the-fat-dragon-2020",
       "genres": [
         "Martial arts"
@@ -29045,7 +29379,18 @@
         "summary": "Zootopia 2 (titled Zootropolis 2 in some markets) is a 2025 American animated buddy cop comedy film produced by Walt Disney Animation Studios and a sequel to Zootopia (2016). Directed by Jared Bush and Byron Howard and written by Bush, the film stars Ginnifer Goodwin, Jason Bateman, Shakira, Idris Elba, Alan Tudyk, Nate Torrence, Don Lake, Bonnie Hunt and Jenny Slate reprising their roles from the first film, with Ke Huy Quan, Fortune Feimster, Andy Samberg, David Strathairn, Patrick Warburton, Quinta Brunson and Danny Trejo joining the cast. The film follows Judy Hopps and Nick Wilde as they pursue a pit viper named Gary De'Snake across Zootopia and try to clear their names after being framed. The film received positive reviews from critics and grossed $1.87 billion worldwide, becoming the second-highest-grossing animated film of all time, the ninth-highest-grossing film of all time, and the second-highest-grossing film of 2025. It won Best Animated Feature at the 79th British Academy Film Awards and was nominated in the same category at the 83rd Golden Globe Awards (in addition to Cinematic and Box Office Achievement), the 31st Critics' Choice Awards and the 98th Academy Awards, among numerous other accolades. Zootopia 2 received positive reviews from critics. On the review aggregator website Rotten Tomatoes, 92% of 226 critics' reviews are positive, with an average rating of 7.5/10.",
         "url": "https://en.wikipedia.org/wiki/Zootopia_2"
       },
-      "streaming": [],
+      "streaming": [
+        {
+          "id": "umc.cmc.6qp1q2seteiudk0w59ao7hk5t",
+          "name": "Apple TV",
+          "url": "https://tv.apple.com/movie/umc.cmc.6qp1q2seteiudk0w59ao7hk5t"
+        },
+        {
+          "id": "63d15b0b38992be08a0efa6f",
+          "name": "Plex",
+          "url": "https://watch.plex.tv/movie/63d15b0b38992be08a0efa6f"
+        }
+      ],
       "slug": "zootopia-2-2025",
       "genres": [],
       "franchises": []
@@ -29078,7 +29423,28 @@
         "summary": "Monsters, Inc. is a 2001 American animated fantasy comedy film directed by Pete Docter and written by Andrew Stanton and Daniel Gerson. Produced by Pixar Animation Studios for Walt Disney Pictures, the film stars the voices of John Goodman, Billy Crystal, Steve Buscemi, James Coburn, Jennifer Tilly, and Mary Gibbs. It centers on two monsters, the hairy James P. A sequel series titled Monsters at Work premiered on Disney+ in 2021. A third film is in development. Review aggregator Rotten Tomatoes gave the film an approval rating of 96% based on 191 reviews, with an average rating of 8.1/10. The website's critical consensus reads, \"Clever, funny, and delightful to look at, Monsters, Inc. delivers another resounding example of how Pixar elevated the bar for modern all-ages animation.\" Metacritic assigned the film a weighted average score of 79 out of 100 based on 35 critics, indicating \"generally favorable\" reviews. Audiences polled by CinemaScore gave the film a rare \"A+\" grade, becoming the second Pixar film to gain the score after Toy Story 2.",
         "url": "https://en.wikipedia.org/wiki/Monsters,_Inc."
       },
-      "streaming": [],
+      "streaming": [
+        {
+          "id": "60004479",
+          "name": "Netflix",
+          "url": "https://www.netflix.com/title/60004479"
+        },
+        {
+          "id": "5vQuMGjgTZz5",
+          "name": "Disney+",
+          "url": "https://www.disneyplus.com/movies/_/5vQuMGjgTZz5"
+        },
+        {
+          "id": "umc.cmc.3ilsdzy6ghi4adtg3tnwf6jcb",
+          "name": "Apple TV",
+          "url": "https://tv.apple.com/movie/umc.cmc.3ilsdzy6ghi4adtg3tnwf6jcb"
+        },
+        {
+          "id": "5d776826151a60001f24a9cf",
+          "name": "Plex",
+          "url": "https://watch.plex.tv/movie/5d776826151a60001f24a9cf"
+        }
+      ],
       "slug": "monsters-inc-2001",
       "genres": [],
       "franchises": []
@@ -29107,7 +29473,23 @@
         "summary": "Creed is a 2015 American sports drama film directed by Ryan Coogler, who co-wrote the screenplay with Aaron Covington. It is the seventh installment in the Rocky franchise, and serves as a spin-off/sequel to Rocky Balboa (2006). It stars Michael B. The film was followed by Creed II (2018) and Creed III (2023). The film is the first film in the franchise to have been produced by Stallone. The Los Angeles Times reported that the film received \"early critical raves\". On review aggregator website Rotten Tomatoes, the film holds an approval rating of 95% based on 315 reviews, with an average rating of 7.90/10. The website's critical consensus reads, \"Creed brings the Rocky franchise off the mat for a surprisingly effective seventh round that extends the boxer's saga in interesting new directions while staying true to its classic predecessors' roots.\" On Metacritic, the film has a weighted average score of 82 out of 100, based on 42 critics. Audiences polled by CinemaScore gave the film an average grade of \"A\" on an A+ to F scale, while PostTrak reported filmgoers gave it an overall positive score of 85%.",
         "url": "https://en.wikipedia.org/wiki/Creed_(film)"
       },
-      "streaming": [],
+      "streaming": [
+        {
+          "id": "80058397",
+          "name": "Netflix",
+          "url": "https://www.netflix.com/title/80058397"
+        },
+        {
+          "id": "umc.cmc.5qthudwvmhgqhqsm3lgp5efgl",
+          "name": "Apple TV",
+          "url": "https://tv.apple.com/movie/umc.cmc.5qthudwvmhgqhqsm3lgp5efgl"
+        },
+        {
+          "id": "5d776b577a53e9001e72283c",
+          "name": "Plex",
+          "url": "https://watch.plex.tv/movie/5d776b577a53e9001e72283c"
+        }
+      ],
       "slug": "creed",
       "genres": [],
       "franchises": []
@@ -29136,7 +29518,18 @@
         "summary": "Creed III is a 2023 American sports drama film starring and directed by Michael B. Jordan in his directorial debut, and produced by Jordan, Irwin Winkler, Charles Winkler, William Chartoff, David Winkler, Ryan Coogler, Elizabeth Raposo, Jonathan Glickman and Sylvester Stallone. It is the sequel to Creed II (2018), the third installment in the Creed film series, and the ninth overall in the Rocky franchise. Like its predecessors, the film was a box office success, grossing $276.1 million worldwide, making it the highest-grossing Creed film and the second highest grossing Rocky film. A sequel is in development. On the review aggregator website Rotten Tomatoes, 89% of 341 critics' reviews are positive, with an average rating of 7.1/10. The website's consensus reads: \"Stepping out from Rocky Balboa's iconic shadow at last, the Creed franchise reasserts its champion status thanks to star Michael B. Jordan's punchy direction and a nuanced heel turn by Jonathan Majors.\" Metacritic, which uses a weighted average, assigned the film a score of 73 out of 100, based on 62 critics, indicating \"generally favorable\" reviews.",
         "url": "https://en.wikipedia.org/wiki/Creed_III"
       },
-      "streaming": [],
+      "streaming": [
+        {
+          "id": "umc.cmc.75azjpdoaw97ht8p1f4ew6dy7",
+          "name": "Apple TV",
+          "url": "https://tv.apple.com/movie/umc.cmc.75azjpdoaw97ht8p1f4ew6dy7"
+        },
+        {
+          "id": "5e5d3b0bc20b28003df9e33f",
+          "name": "Plex",
+          "url": "https://watch.plex.tv/movie/5e5d3b0bc20b28003df9e33f"
+        }
+      ],
       "slug": "creed-3",
       "genres": [],
       "franchises": []
@@ -29165,7 +29558,18 @@
         "summary": "BlackBerry is a 2023 Canadian biographical comedy-drama film directed by Matt Johnson from a script he wrote with Matthew Miller. It was loosely adapted from Jacquie McNish and Sean Silcoff's book Losing the Signal: The Untold Story Behind the Extraordinary Rise and Spectacular Fall of BlackBerry. The film is a dramatized account of the history of the BlackBerry line of mobile phones created by co-founders Douglas Fregin (played by Johnson) and Mike Lazaridis (Jay Baruchel), and investor Jim Balsillie (Glenn Howerton). The film is the most nominated film in the history of the Canadian Screen Awards, with 17 nominations. It won 14 awards, including Best Motion Picture. On the review aggregator website Rotten Tomatoes, 98% of 209 critics' reviews are positive, with an average rating of 7.8/10. The website's consensus reads: \"With intelligence as sharp as its humor, BlackBerry takes a terrifically entertaining look at the rise and fall of a generation-defining gadget.\" Metacritic, which uses a weighted average, assigned the film a score of 78 out of 100, based on 46 critics, indicating \"generally favorable\" reviews. Barry Hertz of The Globe and Mail named the film as third of the 23 best Canadian comedy films ever made. The film was named to the Toronto International Film Festival's annual Canada's Top Ten list for 2023.",
         "url": "https://en.wikipedia.org/wiki/BlackBerry_(film)"
       },
-      "streaming": [],
+      "streaming": [
+        {
+          "id": "umc.cmc.3l1hmmtt33myfoyr38vfg85js",
+          "name": "Apple TV",
+          "url": "https://tv.apple.com/movie/umc.cmc.3l1hmmtt33myfoyr38vfg85js"
+        },
+        {
+          "id": "6309f715039fb88ac14e0a1a",
+          "name": "Plex",
+          "url": "https://watch.plex.tv/movie/6309f715039fb88ac14e0a1a"
+        }
+      ],
       "slug": "blackberry",
       "genres": [],
       "franchises": []
@@ -29196,7 +29600,13 @@
         "summary": "Avatar Aang: The Last Airbender is a 2026 American animated fantasy action film directed by Lauren Montgomery from a screenplay by Tim Hedrick and Christopher Yost, based on a story by Bryan Konietzko, Michael Dante DiMartino, Hedrick, and Kenneth Lin. A continuation of the animated television series Avatar: The Last Airbender (2005-2008) created by Konietzko and DiMartino, and the first production of Avatar Studios, the film stars the voices of Eric Nam, Dave Bautista, Jessica Matten, Román Zaragoza, Dionne Quan, Taika Waititi, Geraldine Viswanathan, Ronny Chieng, Ken Jeong, Dee Bradley Baker, Steven Yeun, Freida Pinto, and Ke Huy Quan. The story follows Aang and his friends as they discover Tagah, a surviving airbender, and join him in searching for an airbending staff to bring back the Air Nomads. Before release, the entire film was leaked online, prompting staff members of the project to condemn the leaker's actions, while fans advocated for Paramount to revert to their theatrical release plan. The film received favorable reviews from critics, praising the animation but directing some criticism to the narrative. On the review aggregation website Rotten Tomatoes, 89% of 46 critics' reviews are positive, with an average rating of 7.2/10.",
         "url": "https://en.wikipedia.org/wiki/Avatar_Aang:_The_Last_Airbender"
       },
-      "streaming": [],
+      "streaming": [
+        {
+          "id": "621895759fb119c33badc62d",
+          "name": "Plex",
+          "url": "https://watch.plex.tv/movie/621895759fb119c33badc62d"
+        }
+      ],
       "slug": "avatar-aang-the-last-airbender-2026",
       "genres": [],
       "franchises": []
@@ -29267,7 +29677,23 @@
       "shortlisted": false,
       "analysis": null,
       "summary": null,
-      "streaming": [],
+      "streaming": [
+        {
+          "id": "70090313",
+          "name": "Netflix",
+          "url": "https://www.netflix.com/title/70090313"
+        },
+        {
+          "id": "umc.cmc.2e87higtm76je58bisgipuyxg",
+          "name": "Apple TV",
+          "url": "https://tv.apple.com/movie/umc.cmc.2e87higtm76je58bisgipuyxg"
+        },
+        {
+          "id": "5d9f356fe4fc29001eb66c28",
+          "name": "Plex",
+          "url": "https://watch.plex.tv/movie/5d9f356fe4fc29001eb66c28"
+        }
+      ],
       "slug": "flash-point-2007",
       "genres": [],
       "franchises": []
@@ -29289,7 +29715,23 @@
       "shortlisted": false,
       "analysis": null,
       "summary": null,
-      "streaming": [],
+      "streaming": [
+        {
+          "id": "1154883",
+          "name": "Netflix",
+          "url": "https://www.netflix.com/title/1154883"
+        },
+        {
+          "id": "umc.cmc.1tc9skduvbxofsl43p89w5t68",
+          "name": "Apple TV",
+          "url": "https://tv.apple.com/movie/umc.cmc.1tc9skduvbxofsl43p89w5t68"
+        },
+        {
+          "id": "5d776d11fb0d55001f596480",
+          "name": "Plex",
+          "url": "https://watch.plex.tv/movie/5d776d11fb0d55001f596480"
+        }
+      ],
       "slug": "happy-together-1997",
       "genres": [],
       "franchises": []
@@ -29311,7 +29753,23 @@
       "shortlisted": true,
       "analysis": null,
       "summary": null,
-      "streaming": [],
+      "streaming": [
+        {
+          "id": "70042371",
+          "name": "Netflix",
+          "url": "https://www.netflix.com/title/70042371"
+        },
+        {
+          "id": "umc.cmc.1egonyjm2kta171999oa0c8qf",
+          "name": "Apple TV",
+          "url": "https://tv.apple.com/movie/umc.cmc.1egonyjm2kta171999oa0c8qf"
+        },
+        {
+          "id": "5d77682861141d001fb136cd",
+          "name": "Plex",
+          "url": "https://watch.plex.tv/movie/5d77682861141d001fb136cd"
+        }
+      ],
       "slug": "2046-2004",
       "genres": [],
       "franchises": []
@@ -29382,7 +29840,23 @@
         "summary": "Mowgli: Legend of the Jungle (also known and stylized on screen simply as Mowgli) is a 2018 adventure drama film directed by Andy Serkis with a screenplay by Callie Kloves, based on stories collected in All the Mowgli Stories by Rudyard Kipling. The film stars Rohan Chand, Matthew Rhys, and Freida Pinto, along with voice and motion-capture performances from Christian Bale, Cate Blanchett, Benedict Cumberbatch, Naomie Harris, and Serkis. In this film, an orphaned human boy who was raised by wolves, sets out on a journey to find a human village while evading Shere Khan. The film was released in select theaters on 29 November, followed by its subsequent digital Netflix release on 7 December of the same year. It received mixed reviews from critics, who praised the cast, visual effects, and Serkis's direction, but many compared it unfavorably to the Disney film and criticized the uneven tone, calling it a \"messy—if ambitious—misfire\". On review aggregator Rotten Tomatoes, the film holds an approval rating of 52% based on 107 reviews, with an average rating of 5.5/10. The website's critical consensus reads: \"Mowgli: Legend of the Jungle brings impressive special effects to bear on the darker side of its classic source material, but loses track of the story's heart along the way\". On Metacritic, the film has a weighted average score of 51 out of 100, based on 22 critics, indicating \"mixed or average reviews\". Kate Erbland of IndieWire gave the film a \"C+\" and wrote: \"Too dark for kids, too tame for adults.",
         "url": "https://en.wikipedia.org/wiki/Mowgli:_Legend_of_the_Jungle"
       },
-      "streaming": [],
+      "streaming": [
+        {
+          "id": "80993105",
+          "name": "Netflix",
+          "url": "https://www.netflix.com/title/80993105"
+        },
+        {
+          "id": "umc.cmc.xzx7rr52yp2rzqxktay1rotn",
+          "name": "Apple TV",
+          "url": "https://tv.apple.com/movie/umc.cmc.xzx7rr52yp2rzqxktay1rotn"
+        },
+        {
+          "id": "5d776c5a7a53e9001e740ec0",
+          "name": "Plex",
+          "url": "https://watch.plex.tv/movie/5d776c5a7a53e9001e740ec0"
+        }
+      ],
       "slug": "mowgli-legend-of-the-jungle-2018",
       "genres": [
         "Adventure",
@@ -39746,7 +40220,18 @@
       ],
       "format": "Live action",
       "photo": "pursuit-of-jade.jpg",
-      "streaming": [],
+      "streaming": [
+        {
+          "id": "82706180",
+          "name": "Netflix",
+          "url": "https://www.netflix.com/title/82706180"
+        },
+        {
+          "id": "68094bf8e7767590be049e4d",
+          "name": "Plex",
+          "url": "https://watch.plex.tv/movie/68094bf8e7767590be049e4d"
+        }
+      ],
       "slug": "pursuit-of-jade"
     },
     {
@@ -39764,7 +40249,18 @@
       ],
       "format": "Live action",
       "photo": null,
-      "streaming": [],
+      "streaming": [
+        {
+          "id": "81447461",
+          "name": "Netflix",
+          "url": "https://www.netflix.com/title/81447461"
+        },
+        {
+          "id": "61cdd57fcd8c10ae5aca39f4",
+          "name": "Plex",
+          "url": "https://watch.plex.tv/movie/61cdd57fcd8c10ae5aca39f4"
+        }
+      ],
       "slug": "beef"
     },
     {
@@ -39784,7 +40280,18 @@
       ],
       "format": "Live action",
       "photo": "3-body-problem.png",
-      "streaming": [],
+      "streaming": [
+        {
+          "id": "81024821",
+          "name": "Netflix",
+          "url": "https://www.netflix.com/title/81024821"
+        },
+        {
+          "id": "5f57bdaf782ab300435487d0",
+          "name": "Plex",
+          "url": "https://watch.plex.tv/movie/5f57bdaf782ab300435487d0"
+        }
+      ],
       "slug": "3-body-problem"
     },
     {
@@ -39802,7 +40309,18 @@
       ],
       "format": "Live action",
       "photo": "halt-and-catch-fire.jpg",
-      "streaming": [],
+      "streaming": [
+        {
+          "id": "70302182",
+          "name": "Netflix",
+          "url": "https://www.netflix.com/title/70302182"
+        },
+        {
+          "id": "5d9c07ea2192ba001f302993",
+          "name": "Plex",
+          "url": "https://watch.plex.tv/movie/5d9c07ea2192ba001f302993"
+        }
+      ],
       "slug": "halt-and-catch-fire"
     },
     {
@@ -39821,7 +40339,23 @@
       ],
       "format": "Animated",
       "photo": "the-apothecary-diaries.png",
-      "streaming": [],
+      "streaming": [
+        {
+          "id": "81712068",
+          "name": "Netflix",
+          "url": "https://www.netflix.com/title/81712068"
+        },
+        {
+          "id": "G3KHEVDJ7",
+          "name": "Crunchyroll",
+          "url": "https://www.crunchyroll.com/series/G3KHEVDJ7"
+        },
+        {
+          "id": "63edda20eaab3bc0ed18bff2",
+          "name": "Plex",
+          "url": "https://watch.plex.tv/movie/63edda20eaab3bc0ed18bff2"
+        }
+      ],
       "slug": "the-apothecary-diaries"
     },
     {
@@ -39841,7 +40375,18 @@
       ],
       "format": "Live action",
       "photo": "squid-game.png",
-      "streaming": [],
+      "streaming": [
+        {
+          "id": "81040344",
+          "name": "Netflix",
+          "url": "https://www.netflix.com/title/81040344"
+        },
+        {
+          "id": "5e1612d6c2a81f001ed363b3",
+          "name": "Plex",
+          "url": "https://watch.plex.tv/movie/5e1612d6c2a81f001ed363b3"
+        }
+      ],
       "slug": "squid-game"
     },
     {
@@ -39856,7 +40401,13 @@
       "genres": [],
       "format": "Live action",
       "photo": null,
-      "streaming": [],
+      "streaming": [
+        {
+          "id": "81769466",
+          "name": "Netflix",
+          "url": "https://www.netflix.com/title/81769466"
+        }
+      ],
       "slug": "badly-in-love"
     },
     {
@@ -39876,7 +40427,18 @@
       ],
       "format": "Live action",
       "photo": null,
-      "streaming": [],
+      "streaming": [
+        {
+          "id": "70264888",
+          "name": "Netflix",
+          "url": "https://www.netflix.com/title/70264888"
+        },
+        {
+          "id": "5d9c0863ef619b002047f234",
+          "name": "Plex",
+          "url": "https://watch.plex.tv/movie/5d9c0863ef619b002047f234"
+        }
+      ],
       "slug": "black-mirror"
     },
     {
@@ -39893,7 +40455,18 @@
       ],
       "format": "Animated",
       "photo": "blue-lock.png",
-      "streaming": [],
+      "streaming": [
+        {
+          "id": "81640753",
+          "name": "Netflix",
+          "url": "https://www.netflix.com/title/81640753"
+        },
+        {
+          "id": "6117a7257843e7002c680b60",
+          "name": "Plex",
+          "url": "https://watch.plex.tv/movie/6117a7257843e7002c680b60"
+        }
+      ],
       "slug": "blue-lock"
     },
     {
@@ -39912,7 +40485,13 @@
       ],
       "format": "Live action",
       "photo": "queen-mantis.png",
-      "streaming": [],
+      "streaming": [
+        {
+          "id": "82083709",
+          "name": "Netflix",
+          "url": "https://www.netflix.com/title/82083709"
+        }
+      ],
       "slug": "queen-mantis"
     },
     {
@@ -39927,7 +40506,13 @@
       "genres": [],
       "format": "Live action",
       "photo": null,
-      "streaming": [],
+      "streaming": [
+        {
+          "id": "81908905",
+          "name": "Netflix",
+          "url": "https://www.netflix.com/title/81908905"
+        }
+      ],
       "slug": "kiss-or-die"
     },
     {
@@ -39942,7 +40527,13 @@
       "genres": [],
       "format": "Live action",
       "photo": "terrace-house.jpg",
-      "streaming": [],
+      "streaming": [
+        {
+          "id": "80073651",
+          "name": "Netflix",
+          "url": "https://www.netflix.com/title/80073651"
+        }
+      ],
       "slug": "terrace-house"
     },
     {
@@ -39960,7 +40551,18 @@
       ],
       "format": "Live action",
       "photo": "when-life-gives-you-tangerines.png",
-      "streaming": [],
+      "streaming": [
+        {
+          "id": "81681535",
+          "name": "Netflix",
+          "url": "https://www.netflix.com/title/81681535"
+        },
+        {
+          "id": "63d6c36cc0a321ad489085c6",
+          "name": "Plex",
+          "url": "https://watch.plex.tv/movie/63d6c36cc0a321ad489085c6"
+        }
+      ],
       "slug": "when-life-gives-you-tangerines"
     },
     {
@@ -39977,7 +40579,18 @@
       ],
       "format": "Live action",
       "photo": "queen-of-tears.png",
-      "streaming": [],
+      "streaming": [
+        {
+          "id": "81707950",
+          "name": "Netflix",
+          "url": "https://www.netflix.com/title/81707950"
+        },
+        {
+          "id": "638f9f5450f0397631c2207d",
+          "name": "Plex",
+          "url": "https://watch.plex.tv/movie/638f9f5450f0397631c2207d"
+        }
+      ],
       "slug": "queen-of-tears"
     }
   ],
