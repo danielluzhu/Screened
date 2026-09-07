@@ -13827,6 +13827,23 @@
         ],
         "qid": "Q1306553",
         "poster": "days-of-being-wild-1990.jpg",
+        "streaming": [
+          {
+            "id": "70012909",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/70012909"
+          },
+          {
+            "id": "umc.cmc.61gk3u7hcrqhn3k83kr8v98hf",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.61gk3u7hcrqhn3k83kr8v98hf"
+          },
+          {
+            "id": "5d776d14fb0d55001f596b8b",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776d14fb0d55001f596b8b"
+          }
+        ],
         "upcoming": false
       },
       {
@@ -13876,6 +13893,23 @@
         ],
         "qid": "Q182071",
         "poster": "the-wedding-banquet-1993.png",
+        "streaming": [
+          {
+            "id": "60011421",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/60011421"
+          },
+          {
+            "id": "umc.cmc.6qznr93aelsdqr8tftici9v8p",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.6qznr93aelsdqr8tftici9v8p"
+          },
+          {
+            "id": "5d776d1723d5a3001f52034b",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776d1723d5a3001f52034b"
+          }
+        ],
         "upcoming": false
       },
       {
@@ -13914,6 +13948,13 @@
         ],
         "qid": "Q19840443",
         "poster": null,
+        "streaming": [
+          {
+            "id": "5d7769d5ad5437001f769150",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d7769d5ad5437001f769150"
+          }
+        ],
         "upcoming": false
       },
       {
@@ -13955,6 +13996,23 @@
         ],
         "qid": "Q1353408",
         "poster": null,
+        "streaming": [
+          {
+            "id": "490450",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/490450"
+          },
+          {
+            "id": "umc.cmc.5m4aec1bqgnl54e5k35ma0jfa",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.5m4aec1bqgnl54e5k35ma0jfa"
+          },
+          {
+            "id": "5d776d11ad5437001f7cc1e6",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776d11ad5437001f7cc1e6"
+          }
+        ],
         "upcoming": false
       },
       {
@@ -13993,6 +14051,7 @@
         ],
         "qid": "Q10934550",
         "poster": null,
+        "streaming": [],
         "upcoming": false
       },
       {
@@ -14031,6 +14090,18 @@
         ],
         "qid": "Q5051119",
         "poster": "cat-vs-rat-1982.jpg",
+        "streaming": [
+          {
+            "id": "umc.cmc.4m9a53a3fmib0dgxn1grizha",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.4m9a53a3fmib0dgxn1grizha"
+          },
+          {
+            "id": "5d7768b97a53e9001e6d76a1",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d7768b97a53e9001e6d76a1"
+          }
+        ],
         "upcoming": false
       },
       {
@@ -14069,6 +14140,18 @@
         ],
         "qid": "Q2984949",
         "poster": "challenge-of-the-masters-1976.jpg",
+        "streaming": [
+          {
+            "id": "umc.cmc.2zs8bwuravl9iion24dyty9az",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.2zs8bwuravl9iion24dyty9az"
+          },
+          {
+            "id": "5d776852eb5d26001f1e5fd9",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776852eb5d26001f1e5fd9"
+          }
+        ],
         "upcoming": false
       },
       {
@@ -14107,6 +14190,13 @@
         ],
         "qid": "Q24865305",
         "poster": null,
+        "streaming": [
+          {
+            "id": "5d776f007a53e9001e789245",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776f007a53e9001e789245"
+          }
+        ],
         "upcoming": false
       },
       {
@@ -14154,6 +14244,18 @@
         ],
         "qid": "Q82579",
         "poster": null,
+        "streaming": [
+          {
+            "id": "60024911",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/60024911"
+          },
+          {
+            "id": "5d77683861141d001fb15fba",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d77683861141d001fb15fba"
+          }
+        ],
         "upcoming": false
       },
       {
@@ -14201,6 +14303,23 @@
         ],
         "qid": "Q28016163",
         "poster": null,
+        "streaming": [
+          {
+            "id": "81046846",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/81046846"
+          },
+          {
+            "id": "umc.cmc.4b5nlyr7k2l6rtsy4ogl9a3wm",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.4b5nlyr7k2l6rtsy4ogl9a3wm"
+          },
+          {
+            "id": "5d776d5123d5a3001f5223c3",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776d5123d5a3001f5223c3"
+          }
+        ],
         "upcoming": false
       },
       {
@@ -14244,6 +14363,28 @@
         ],
         "qid": "Q9321426",
         "poster": "finding-dory-2015.jpg",
+        "streaming": [
+          {
+            "id": "80094319",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/80094319"
+          },
+          {
+            "id": "2L6w30vnqebX",
+            "name": "Disney+",
+            "url": "https://www.disneyplus.com/movies/_/2L6w30vnqebX"
+          },
+          {
+            "id": "umc.cmc.7k1eigpw7zixnwe61ll44zzis",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.7k1eigpw7zixnwe61ll44zzis"
+          },
+          {
+            "id": "5d77698aad5437001f75fe33",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d77698aad5437001f75fe33"
+          }
+        ],
         "upcoming": false
       },
       {
@@ -14283,6 +14424,18 @@
         ],
         "qid": "Q112646942",
         "poster": null,
+        "streaming": [
+          {
+            "id": "umc.cmc.wbd6vkiv2xxi6j5ykh3peik5",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.wbd6vkiv2xxi6j5ykh3peik5"
+          },
+          {
+            "id": "61bf2de44e448998660e3b9e",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/61bf2de44e448998660e3b9e"
+          }
+        ],
         "upcoming": false
       },
       {
@@ -14324,6 +14477,18 @@
         ],
         "qid": "Q100889636",
         "poster": "decision-to-leave-2022.jpg",
+        "streaming": [
+          {
+            "id": "umc.cmc.7ikt8jklfvyxvrj5i0r0ola8c",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.7ikt8jklfvyxvrj5i0r0ola8c"
+          },
+          {
+            "id": "5ec75f80fc16bb004178907d",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5ec75f80fc16bb004178907d"
+          }
+        ],
         "upcoming": false
       },
       {
@@ -14363,6 +14528,18 @@
         ],
         "qid": "Q14948460",
         "poster": "master-of-thunder-2006.jpg",
+        "streaming": [
+          {
+            "id": "70078623",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/70078623"
+          },
+          {
+            "id": "5d77688c33f255001e8595da",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d77688c33f255001e8595da"
+          }
+        ],
         "upcoming": false
       },
       {
@@ -14403,6 +14580,18 @@
         ],
         "qid": "Q495134",
         "poster": null,
+        "streaming": [
+          {
+            "id": "umc.cmc.60wjzvc8wjrhod5z2lvyhl3g7",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.60wjzvc8wjrhod5z2lvyhl3g7"
+          },
+          {
+            "id": "5d9f34f1e4fc29001eb6485c",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d9f34f1e4fc29001eb6485c"
+          }
+        ],
         "upcoming": false
       },
       {
@@ -14441,6 +14630,13 @@
         ],
         "qid": "Q130396871",
         "poster": "the-embers-2024.jpg",
+        "streaming": [
+          {
+            "id": "64d546838109f56520c0216e",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/64d546838109f56520c0216e"
+          }
+        ],
         "upcoming": false
       },
       {
@@ -14479,6 +14675,13 @@
         ],
         "qid": "Q15925271",
         "poster": null,
+        "streaming": [
+          {
+            "id": "5d776ab7ad5437001f786861",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776ab7ad5437001f786861"
+          }
+        ],
         "upcoming": false
       },
       {
@@ -14517,6 +14720,18 @@
         ],
         "qid": "Q4912219",
         "poster": null,
+        "streaming": [
+          {
+            "id": "60025082",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/60025082"
+          },
+          {
+            "id": "5d7768883ab0e7001f503bb0",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d7768883ab0e7001f503bb0"
+          }
+        ],
         "upcoming": false
       },
       {
@@ -14555,6 +14770,13 @@
         ],
         "qid": "Q55614511",
         "poster": "integrity-2019.jpg",
+        "streaming": [
+          {
+            "id": "5d7770b331d95e001f1a7b70",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d7770b331d95e001f1a7b70"
+          }
+        ],
         "upcoming": false
       },
       {
@@ -14594,6 +14816,13 @@
         ],
         "qid": "Q4184013",
         "poster": "lady-cop-papa-crook-2008.jpg",
+        "streaming": [
+          {
+            "id": "5d7768757a53e9001e6cf674",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d7768757a53e9001e6cf674"
+          }
+        ],
         "upcoming": false
       },
       {
@@ -14632,6 +14861,7 @@
         ],
         "qid": "Q3482275",
         "poster": null,
+        "streaming": [],
         "upcoming": false
       },
       {
@@ -14670,6 +14900,13 @@
         ],
         "qid": "Q3233407",
         "poster": null,
+        "streaming": [
+          {
+            "id": "5d77686c374a5b001fec5401",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d77686c374a5b001fec5401"
+          }
+        ],
         "upcoming": false
       },
       {
@@ -14711,6 +14948,23 @@
         ],
         "qid": "Q488169",
         "poster": null,
+        "streaming": [
+          {
+            "id": "70035995",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/70035995"
+          },
+          {
+            "id": "umc.cmc.6b9ma5kk94pcz9gzc7ovtq2dr",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.6b9ma5kk94pcz9gzc7ovtq2dr"
+          },
+          {
+            "id": "5d776836eb5d26001f1e1022",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776836eb5d26001f1e1022"
+          }
+        ],
         "upcoming": false
       },
       {
@@ -14754,6 +15008,23 @@
         ],
         "qid": "Q485759",
         "poster": "tokyo-2008.jpg",
+        "streaming": [
+          {
+            "id": "70100411",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/70100411"
+          },
+          {
+            "id": "umc.cmc.3ijvhvjux5xnfe9lurxmbxmxd",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.3ijvhvjux5xnfe9lurxmbxmxd"
+          },
+          {
+            "id": "5d776832eb5d26001f1dff9b",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776832eb5d26001f1dff9b"
+          }
+        ],
         "upcoming": false
       },
       {
@@ -14793,6 +15064,28 @@
         ],
         "qid": "Q888131",
         "poster": "the-wind-rises-2013.jpg",
+        "streaming": [
+          {
+            "id": "70293674",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/70293674"
+          },
+          {
+            "id": "feature/urn:hbo:feature:GXsQzAw8HPITCwgEAAAAM",
+            "name": "HBO Max",
+            "url": "https://play.max.com/video/watch/feature/urn:hbo:feature:GXsQzAw8HPITCwgEAAAAM"
+          },
+          {
+            "id": "umc.cmc.184qbh86enrlfq7wbce3bf061",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.184qbh86enrlfq7wbce3bf061"
+          },
+          {
+            "id": "5d7769bfad5437001f766d94",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d7769bfad5437001f766d94"
+          }
+        ],
         "upcoming": false
       },
       {
@@ -14833,6 +15126,13 @@
         ],
         "qid": "Q3190284",
         "poster": null,
+        "streaming": [
+          {
+            "id": "5d7768b79ab54400214ea863",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d7768b79ab54400214ea863"
+          }
+        ],
         "upcoming": false
       },
       {
@@ -14871,6 +15171,18 @@
         ],
         "qid": "Q10430860",
         "poster": "blackmail-is-my-life-1968.jpg",
+        "streaming": [
+          {
+            "id": "60033772",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/60033772"
+          },
+          {
+            "id": "5d776920f617c9002015d906",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776920f617c9002015d906"
+          }
+        ],
         "upcoming": false
       },
       {
@@ -14909,6 +15221,13 @@
         ],
         "qid": "Q24868108",
         "poster": null,
+        "streaming": [
+          {
+            "id": "5d7768eefb0d55001f51d2a6",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d7768eefb0d55001f51d2a6"
+          }
+        ],
         "upcoming": false
       },
       {
@@ -14948,6 +15267,13 @@
         ],
         "qid": "Q16202837",
         "poster": "china-white-1989.jpg",
+        "streaming": [
+          {
+            "id": "5d7768ef96b655001fdc57a5",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d7768ef96b655001fdc57a5"
+          }
+        ],
         "upcoming": false
       },
       {
@@ -14988,6 +15314,18 @@
         ],
         "qid": "Q7988443",
         "poster": null,
+        "streaming": [
+          {
+            "id": "umc.cmc.2jv5cp43fn1cw89yiq4zz5gbh",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.2jv5cp43fn1cw89yiq4zz5gbh"
+          },
+          {
+            "id": "5d7769fd7a53e9001e6f6f44",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d7769fd7a53e9001e6f6f44"
+          }
+        ],
         "upcoming": false
       },
       {
@@ -15028,6 +15366,13 @@
         ],
         "qid": "Q10843715",
         "poster": null,
+        "streaming": [
+          {
+            "id": "5d7769137a53e9001e6e0c72",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d7769137a53e9001e6e0c72"
+          }
+        ],
         "upcoming": false
       },
       {
@@ -15066,6 +15411,13 @@
         ],
         "qid": "Q63981780",
         "poster": null,
+        "streaming": [
+          {
+            "id": "5d776c07ad5437001f7b1538",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776c07ad5437001f7b1538"
+          }
+        ],
         "upcoming": false
       },
       {
@@ -15108,6 +15460,23 @@
         ],
         "qid": "Q65061643",
         "poster": "peninsula-2020.jpg",
+        "streaming": [
+          {
+            "id": "81295067",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/81295067"
+          },
+          {
+            "id": "umc.cmc.6825ltzbghuj3zok8xz4pn12p",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.6825ltzbghuj3zok8xz4pn12p"
+          },
+          {
+            "id": "5d7770b881ba41001faf6860",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d7770b881ba41001faf6860"
+          }
+        ],
         "upcoming": false
       },
       {
@@ -15147,6 +15516,23 @@
         ],
         "qid": "Q6434185",
         "poster": null,
+        "streaming": [
+          {
+            "id": "70291121",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/70291121"
+          },
+          {
+            "id": "umc.cmc.6v366c7lqqo9gffg074b35w0c",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.6v366c7lqqo9gffg074b35w0c"
+          },
+          {
+            "id": "5d776a2596b655001fde4985",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776a2596b655001fde4985"
+          }
+        ],
         "upcoming": false
       },
       {
@@ -15187,6 +15573,18 @@
         ],
         "qid": "Q1072777",
         "poster": null,
+        "streaming": [
+          {
+            "id": "umc.cmc.1zsxlgkrc0ss0kkrq1hmve90x",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.1zsxlgkrc0ss0kkrq1hmve90x"
+          },
+          {
+            "id": "5d7768c09ab54400214eb193",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d7768c09ab54400214eb193"
+          }
+        ],
         "upcoming": false
       },
       {
@@ -15227,6 +15625,18 @@
         ],
         "qid": "Q51800443",
         "poster": "asako-i-ii-2018.png",
+        "streaming": [
+          {
+            "id": "umc.cmc.10k5gocbdfvkutl7zsllnodo2",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.10k5gocbdfvkutl7zsllnodo2"
+          },
+          {
+            "id": "5d776d86f617c90020189a20",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776d86f617c90020189a20"
+          }
+        ],
         "upcoming": false
       },
       {
@@ -15268,6 +15678,18 @@
         ],
         "qid": "Q25207551",
         "poster": "seoul-station-2016.jpeg",
+        "streaming": [
+          {
+            "id": "umc.cmc.4c25jos0rua0nw9qfslxg9eft",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.4c25jos0rua0nw9qfslxg9eft"
+          },
+          {
+            "id": "5d776c2dfb0d55001f57f325",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776c2dfb0d55001f57f325"
+          }
+        ],
         "upcoming": false
       },
       {
@@ -15314,6 +15736,18 @@
         ],
         "qid": "Q97300316",
         "poster": "my-people-my-homeland-2020.jpg",
+        "streaming": [
+          {
+            "id": "umc.cmc.1n5mbb99a89bk8bisw2g4g56c",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.1n5mbb99a89bk8bisw2g4g56c"
+          },
+          {
+            "id": "5f3f8651743bd90042d8ca08",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5f3f8651743bd90042d8ca08"
+          }
+        ],
         "upcoming": false
       },
       {
@@ -15355,6 +15789,7 @@
         ],
         "qid": "Q137946980",
         "poster": "all-of-a-sudden-2026.jpg",
+        "streaming": [],
         "upcoming": false
       },
       {
@@ -15394,6 +15829,13 @@
         ],
         "qid": "Q17052226",
         "poster": "my-last-day-2011.jpg",
+        "streaming": [
+          {
+            "id": "5d77703ef617c9002019ca44",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d77703ef617c9002019ca44"
+          }
+        ],
         "upcoming": false
       },
       {
@@ -15435,6 +15877,28 @@
         ],
         "qid": "Q216153",
         "poster": "a-bug-s-life-1998.jpg",
+        "streaming": [
+          {
+            "id": "18110943",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/18110943"
+          },
+          {
+            "id": "2kV0c48TF0Ea",
+            "name": "Disney+",
+            "url": "https://www.disneyplus.com/movies/_/2kV0c48TF0Ea"
+          },
+          {
+            "id": "umc.cmc.40rxsni23f92ibvz5qio38enq",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.40rxsni23f92ibvz5qio38enq"
+          },
+          {
+            "id": "5d77683385719b001f3a3310",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d77683385719b001f3a3310"
+          }
+        ],
         "upcoming": false
       },
       {
@@ -15474,6 +15938,18 @@
         ],
         "qid": "Q122341144",
         "poster": null,
+        "streaming": [
+          {
+            "id": "81731618",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/81731618"
+          },
+          {
+            "id": "614485a8893a0e64c5066660",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/614485a8893a0e64c5066660"
+          }
+        ],
         "upcoming": false
       },
       {
@@ -15513,6 +15989,23 @@
         ],
         "qid": "Q980677",
         "poster": "lage-raho-munna-bhai-2006.jpg",
+        "streaming": [
+          {
+            "id": "70058505",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/70058505"
+          },
+          {
+            "id": "umc.cmc.5pl27s4devx7t0am36g1srcuf",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.5pl27s4devx7t0am36g1srcuf"
+          },
+          {
+            "id": "5d77684761141d001fb17afa",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d77684761141d001fb17afa"
+          }
+        ],
         "upcoming": false
       },
       {
@@ -15559,6 +16052,23 @@
         ],
         "qid": "Q21834546",
         "poster": null,
+        "streaming": [
+          {
+            "id": "80099085",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/80099085"
+          },
+          {
+            "id": "umc.cmc.3fwvmz24rmurjymrbizl6r6uz",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.3fwvmz24rmurjymrbizl6r6uz"
+          },
+          {
+            "id": "5d776c1896b655001fe25f17",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776c1896b655001fe25f17"
+          }
+        ],
         "upcoming": false
       },
       {
@@ -15598,6 +16108,13 @@
         ],
         "qid": "Q27536739",
         "poster": "vanishing-time-a-boy-who-returned-2016.jpg",
+        "streaming": [
+          {
+            "id": "5d776c19fb0d55001f57cbb1",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776c19fb0d55001f57cbb1"
+          }
+        ],
         "upcoming": false
       },
       {
@@ -15639,6 +16156,18 @@
         ],
         "qid": "Q2706517",
         "poster": null,
+        "streaming": [
+          {
+            "id": "60003714",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/60003714"
+          },
+          {
+            "id": "5d77689251dd69001fe0e34f",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d77689251dd69001fe0e34f"
+          }
+        ],
         "upcoming": false
       },
       {
@@ -15678,6 +16207,7 @@
         ],
         "qid": "Q19794946",
         "poster": null,
+        "streaming": [],
         "upcoming": false
       },
       {
@@ -15716,6 +16246,13 @@
         ],
         "qid": "Q11073676",
         "poster": null,
+        "streaming": [
+          {
+            "id": "5d776853e6d55c0020410d6f",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776853e6d55c0020410d6f"
+          }
+        ],
         "upcoming": false
       },
       {
@@ -15754,6 +16291,18 @@
         ],
         "qid": "Q2661044",
         "poster": null,
+        "streaming": [
+          {
+            "id": "70004032",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/70004032"
+          },
+          {
+            "id": "5d7768973ab0e7001f505287",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d7768973ab0e7001f505287"
+          }
+        ],
         "upcoming": false
       },
       {
@@ -15795,6 +16344,13 @@
         ],
         "qid": "Q125469653",
         "poster": null,
+        "streaming": [
+          {
+            "id": "5f40c5b158b26e00426b96f9",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5f40c5b158b26e00426b96f9"
+          }
+        ],
         "upcoming": false
       },
       {
@@ -15835,6 +16391,18 @@
         ],
         "qid": "Q838900",
         "poster": null,
+        "streaming": [
+          {
+            "id": "70028512",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/70028512"
+          },
+          {
+            "id": "5d776cf223d5a3001f51f2f1",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776cf223d5a3001f51f2f1"
+          }
+        ],
         "upcoming": false
       },
       {
@@ -15875,6 +16443,23 @@
         ],
         "qid": "Q28045442",
         "poster": null,
+        "streaming": [
+          {
+            "id": "80188596",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/80188596"
+          },
+          {
+            "id": "51I8lcYa1cdE",
+            "name": "Disney+",
+            "url": "https://www.disneyplus.com/movies/_/51I8lcYa1cdE"
+          },
+          {
+            "id": "5d776d2147dd6e001f6f052d",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776d2147dd6e001f6f052d"
+          }
+        ],
         "upcoming": false
       },
       {
@@ -15914,6 +16499,18 @@
         ],
         "qid": "Q11088774",
         "poster": null,
+        "streaming": [
+          {
+            "id": "80997397",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/80997397"
+          },
+          {
+            "id": "5d776918594b2b001e69ce4f",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776918594b2b001e69ce4f"
+          }
+        ],
         "upcoming": false
       },
       {
@@ -15961,6 +16558,28 @@
         ],
         "qid": "Q61117344",
         "poster": "the-batman-2022.jpg",
+        "streaming": [
+          {
+            "id": "B0BZMFTYPH",
+            "name": "Prime Video",
+            "url": "https://www.amazon.com/dp/B0BZMFTYPH"
+          },
+          {
+            "id": "movie/dfa50804-e6f6-4fa2-a732-693dbc50527b",
+            "name": "HBO Max",
+            "url": "https://play.max.com/video/watch/movie/dfa50804-e6f6-4fa2-a732-693dbc50527b"
+          },
+          {
+            "id": "umc.cmc.75o96q32hcm2kzx4ilop1ylmx",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.75o96q32hcm2kzx4ilop1ylmx"
+          },
+          {
+            "id": "5d776c6fad5437001f7be040",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776c6fad5437001f7be040"
+          }
+        ],
         "upcoming": false
       },
       {
@@ -16000,6 +16619,13 @@
         ],
         "qid": "Q22098899",
         "poster": null,
+        "streaming": [
+          {
+            "id": "5d776cffad5437001f7ca45c",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776cffad5437001f7ca45c"
+          }
+        ],
         "upcoming": false
       },
       {
@@ -16043,6 +16669,23 @@
         ],
         "qid": "Q51737",
         "poster": "curse-of-the-golden-flower-2006.jpg",
+        "streaming": [
+          {
+            "id": "70058097",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/70058097"
+          },
+          {
+            "id": "umc.cmc.79jx1jariz8notx1rl4f9xlsa",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.79jx1jariz8notx1rl4f9xlsa"
+          },
+          {
+            "id": "5d776829880197001ec9137f",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776829880197001ec9137f"
+          }
+        ],
         "upcoming": false
       },
       {
@@ -16082,6 +16725,23 @@
         ],
         "qid": "Q15706898",
         "poster": "the-gambler-2014.jpg",
+        "streaming": [
+          {
+            "id": "80017111",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/80017111"
+          },
+          {
+            "id": "umc.cmc.23txy6wzge5x89mas08rgnana",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.23txy6wzge5x89mas08rgnana"
+          },
+          {
+            "id": "5d776b07fb0d55001f559689",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776b07fb0d55001f559689"
+          }
+        ],
         "upcoming": false
       },
       {
@@ -16121,6 +16781,13 @@
         ],
         "qid": "Q55630320",
         "poster": null,
+        "streaming": [
+          {
+            "id": "5d776b2d51dd69001fe2d184",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776b2d51dd69001fe2d184"
+          }
+        ],
         "upcoming": false
       },
       {
@@ -16160,6 +16827,28 @@
         ],
         "qid": "Q602289",
         "poster": null,
+        "streaming": [
+          {
+            "id": "839778",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/839778"
+          },
+          {
+            "id": "4ce03da9-adf9-4864-a5fc-313c2106b5ec",
+            "name": "Hulu",
+            "url": "https://www.hulu.com/movie/4ce03da9-adf9-4864-a5fc-313c2106b5ec"
+          },
+          {
+            "id": "umc.cmc.18wcpxobkvnf77trc9qv3r803",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.18wcpxobkvnf77trc9qv3r803"
+          },
+          {
+            "id": "5d77684ceb5d26001f1e5035",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d77684ceb5d26001f1e5035"
+          }
+        ],
         "upcoming": false
       },
       {
@@ -16198,6 +16887,23 @@
         ],
         "qid": "Q30947890",
         "poster": "mon-mon-mon-monsters-2017.jpg",
+        "streaming": [
+          {
+            "id": "81032951",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/81032951"
+          },
+          {
+            "id": "umc.cmc.6rjwi9hh9s3afji1uezypfsgx",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.6rjwi9hh9s3afji1uezypfsgx"
+          },
+          {
+            "id": "5d776d1dad5437001f7cd8bd",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776d1dad5437001f7cd8bd"
+          }
+        ],
         "upcoming": false
       },
       {
@@ -16239,6 +16945,23 @@
         ],
         "qid": "Q1347278",
         "poster": "valmont-1989.jpg",
+        "streaming": [
+          {
+            "id": "60011522",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/60011522"
+          },
+          {
+            "id": "umc.cmc.79ok9ab2prinrq3whx8mgk5fy",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.79ok9ab2prinrq3whx8mgk5fy"
+          },
+          {
+            "id": "5d9f35716fc551001ef81a62",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d9f35716fc551001ef81a62"
+          }
+        ],
         "upcoming": false
       },
       {
@@ -16280,6 +17003,23 @@
         ],
         "qid": "Q18703064",
         "poster": "animal-crackers-2016.jpg",
+        "streaming": [
+          {
+            "id": "81191856",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/81191856"
+          },
+          {
+            "id": "umc.cmc.152drh1zzvpw2gta9xtijfj2u",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.152drh1zzvpw2gta9xtijfj2u"
+          },
+          {
+            "id": "5d9f3c8f4441b1001fa152b6",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d9f3c8f4441b1001fa152b6"
+          }
+        ],
         "upcoming": false
       },
       {
@@ -16327,6 +17067,28 @@
         ],
         "qid": "Q109331",
         "poster": null,
+        "streaming": [
+          {
+            "id": "60010111",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/60010111"
+          },
+          {
+            "id": "B08XW5CKQG",
+            "name": "Prime Video",
+            "url": "https://www.amazon.com/dp/B08XW5CKQG"
+          },
+          {
+            "id": "umc.cmc.5voem26uknighvs9ac01dku4y",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.5voem26uknighvs9ac01dku4y"
+          },
+          {
+            "id": "5d776d1023d5a3001f52001d",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776d1023d5a3001f52001d"
+          }
+        ],
         "upcoming": false
       },
       {
@@ -16368,6 +17130,23 @@
         ],
         "qid": "Q3224298",
         "poster": null,
+        "streaming": [
+          {
+            "id": "76OFplGYDJQk",
+            "name": "Disney+",
+            "url": "https://www.disneyplus.com/movies/_/76OFplGYDJQk"
+          },
+          {
+            "id": "umc.cmc.5fjhyisg0jc9m3qhbd67wwylm",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.5fjhyisg0jc9m3qhbd67wwylm"
+          },
+          {
+            "id": "5d7768cadecfcd001f2f2ae4",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d7768cadecfcd001f2f2ae4"
+          }
+        ],
         "upcoming": false
       },
       {
@@ -16416,6 +17195,28 @@
         ],
         "qid": "Q579928",
         "poster": "the-spongebob-squarepants-movie-2004.jpg",
+        "streaming": [
+          {
+            "id": "70011204",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/70011204"
+          },
+          {
+            "id": "xIib0RQzhlochSQUGRYGnTQtYjoA6h0N",
+            "name": "Paramount+",
+            "url": "https://www.paramountplus.com/video/xIib0RQzhlochSQUGRYGnTQtYjoA6h0N"
+          },
+          {
+            "id": "umc.cmc.4r2hb26y4nwd6fsdsi0r916t4",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.4r2hb26y4nwd6fsdsi0r916t4"
+          },
+          {
+            "id": "5d9f350006d220001feb3f8c",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d9f350006d220001feb3f8c"
+          }
+        ],
         "upcoming": false
       },
       {
@@ -16455,6 +17256,7 @@
         ],
         "qid": "Q137589538",
         "poster": null,
+        "streaming": [],
         "upcoming": false
       },
       {
@@ -16496,6 +17298,18 @@
         ],
         "qid": "Q123469290",
         "poster": null,
+        "streaming": [
+          {
+            "id": "81721676",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/81721676"
+          },
+          {
+            "id": "6547c795beb074ef2bc506d8",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/6547c795beb074ef2bc506d8"
+          }
+        ],
         "upcoming": false
       },
       {
@@ -16538,6 +17352,23 @@
         ],
         "qid": "Q24904727",
         "poster": "gnomeo-and-juliet-2-sherlock-gnomes-2018.png",
+        "streaming": [
+          {
+            "id": "3b42cd57-439c-498b-b636-8074ae989450",
+            "name": "Hulu",
+            "url": "https://www.hulu.com/movie/3b42cd57-439c-498b-b636-8074ae989450"
+          },
+          {
+            "id": "umc.cmc.58u0sbwphneymdn581lxgzalr",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.58u0sbwphneymdn581lxgzalr"
+          },
+          {
+            "id": "5d776bfb23d5a3001f516223",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776bfb23d5a3001f516223"
+          }
+        ],
         "upcoming": false
       },
       {
@@ -16576,6 +17407,23 @@
         ],
         "qid": "Q2881384",
         "poster": "balls-out-gary-the-tennis-coach-2009.jpg",
+        "streaming": [
+          {
+            "id": "70110724",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/70110724"
+          },
+          {
+            "id": "umc.cmc.5p434coai6crc9puzmzxof6fk",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.5p434coai6crc9puzmzxof6fk"
+          },
+          {
+            "id": "5d9f35059dd5f4001e8436fc",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d9f35059dd5f4001e8436fc"
+          }
+        ],
         "upcoming": false
       },
       {
@@ -16614,6 +17462,13 @@
         ],
         "qid": "Q6505579",
         "poster": null,
+        "streaming": [
+          {
+            "id": "5d776b9dfb0d55001f56d47b",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776b9dfb0d55001f56d47b"
+          }
+        ],
         "upcoming": false
       },
       {
@@ -16653,6 +17508,13 @@
         ],
         "qid": "Q98114583",
         "poster": null,
+        "streaming": [
+          {
+            "id": "5d776973594b2b001e6a13d7",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776973594b2b001e6a13d7"
+          }
+        ],
         "upcoming": false
       },
       {
@@ -16691,6 +17553,18 @@
         ],
         "qid": "Q3362144",
         "poster": null,
+        "streaming": [
+          {
+            "id": "2ezl1j2CzTh7",
+            "name": "Disney+",
+            "url": "https://www.disneyplus.com/movies/_/2ezl1j2CzTh7"
+          },
+          {
+            "id": "5d7768ca23d5a3001f4f180e",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d7768ca23d5a3001f4f180e"
+          }
+        ],
         "upcoming": false
       },
       {
@@ -16723,6 +17597,7 @@
         ],
         "qid": "Q82811617",
         "poster": null,
+        "streaming": [],
         "upcoming": false
       },
       {
@@ -16764,6 +17639,28 @@
         ],
         "qid": "Q188439",
         "poster": "tangled-2010.jpg",
+        "streaming": [
+          {
+            "id": "70128681",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/70128681"
+          },
+          {
+            "id": "3V3ALy4SHStq",
+            "name": "Disney+",
+            "url": "https://www.disneyplus.com/movies/_/3V3ALy4SHStq"
+          },
+          {
+            "id": "umc.cmc.4bofe8sikofs0fnarn3pd6u5p",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.4bofe8sikofs0fnarn3pd6u5p"
+          },
+          {
+            "id": "5d77686eeb5d26001f1eb339",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d77686eeb5d26001f1eb339"
+          }
+        ],
         "upcoming": false
       },
       {
@@ -16799,6 +17696,23 @@
         ],
         "qid": "Q1214524",
         "poster": null,
+        "streaming": [
+          {
+            "id": "60010616",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/60010616"
+          },
+          {
+            "id": "umc.cmc.6b7axkrwtykes29owthqo8mdb",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.6b7axkrwtykes29owthqo8mdb"
+          },
+          {
+            "id": "5d776870d11dd3002022610f",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776870d11dd3002022610f"
+          }
+        ],
         "upcoming": false
       },
       {
@@ -16833,6 +17747,23 @@
         ],
         "qid": "Q955057",
         "poster": null,
+        "streaming": [
+          {
+            "id": "70084212",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/70084212"
+          },
+          {
+            "id": "umc.cmc.576ckt2xa4pehnv7gles8f5n2",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.576ckt2xa4pehnv7gles8f5n2"
+          },
+          {
+            "id": "5d77683c7e9a3c0020c6e4c1",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d77683c7e9a3c0020c6e4c1"
+          }
+        ],
         "upcoming": false
       },
       {
@@ -16874,6 +17805,23 @@
         ],
         "qid": "Q1299823",
         "poster": null,
+        "streaming": [
+          {
+            "id": "60010528",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/60010528"
+          },
+          {
+            "id": "umc.cmc.5ic3i06gg2x45l13vs2pm6l5t",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.5ic3i06gg2x45l13vs2pm6l5t"
+          },
+          {
+            "id": "5d776876eb5d26001f1ec818",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776876eb5d26001f1ec818"
+          }
+        ],
         "upcoming": false
       },
       {
@@ -16916,6 +17864,23 @@
         ],
         "qid": "Q25167044",
         "poster": "ralph-breaks-the-internet-2018.png",
+        "streaming": [
+          {
+            "id": "33T1xWWWLhFR",
+            "name": "Disney+",
+            "url": "https://www.disneyplus.com/movies/_/33T1xWWWLhFR"
+          },
+          {
+            "id": "umc.cmc.4zwfz519ttvahehhgkmaw4e8z",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.4zwfz519ttvahehhgkmaw4e8z"
+          },
+          {
+            "id": "5d776c5323d5a3001f51a443",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776c5323d5a3001f51a443"
+          }
+        ],
         "upcoming": false
       },
       {
@@ -16959,6 +17924,28 @@
         ],
         "qid": "Q5815826",
         "poster": "coco-2017.jpg",
+        "streaming": [
+          {
+            "id": "80189213",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/80189213"
+          },
+          {
+            "id": "db9orsI5O4gC",
+            "name": "Disney+",
+            "url": "https://www.disneyplus.com/movies/_/db9orsI5O4gC"
+          },
+          {
+            "id": "umc.cmc.5y1554je00oslx5xtkxv9uk7s",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.5y1554je00oslx5xtkxv9uk7s"
+          },
+          {
+            "id": "5d776bcd7a53e9001e73069f",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776bcd7a53e9001e73069f"
+          }
+        ],
         "upcoming": false
       },
       {
@@ -16998,6 +17985,7 @@
         ],
         "qid": "Q5688662",
         "poster": "he-man-2011.jpg",
+        "streaming": [],
         "upcoming": false
       },
       {
@@ -17042,6 +18030,23 @@
         ],
         "qid": "Q330663",
         "poster": "my-name-is-khan-2010.jpg",
+        "streaming": [
+          {
+            "id": "70131174",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/70131174"
+          },
+          {
+            "id": "umc.cmc.1gp13dap44kaetn9pscd6404f",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.1gp13dap44kaetn9pscd6404f"
+          },
+          {
+            "id": "5d7768517228e5001f1e2005",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d7768517228e5001f1e2005"
+          }
+        ],
         "upcoming": false
       },
       {
@@ -17084,6 +18089,23 @@
         ],
         "qid": "Q172975",
         "poster": "the-departed-2006.jpg",
+        "streaming": [
+          {
+            "id": "70044689",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/70044689"
+          },
+          {
+            "id": "umc.cmc.6795ameca08rcfnqch2u5vmj8",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.6795ameca08rcfnqch2u5vmj8"
+          },
+          {
+            "id": "5d77682985719b001f3a14bd",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d77682985719b001f3a14bd"
+          }
+        ],
         "upcoming": false
       },
       {
@@ -17124,6 +18146,23 @@
         ],
         "qid": "Q109984826",
         "poster": "twilight-of-the-warriors-walled-in-2024.jpg",
+        "streaming": [
+          {
+            "id": "81983720",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/81983720"
+          },
+          {
+            "id": "umc.cmc.4q7vnax57u982fowbem38ggpc",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.4q7vnax57u982fowbem38ggpc"
+          },
+          {
+            "id": "629734af2d1c1d124459edb8",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/629734af2d1c1d124459edb8"
+          }
+        ],
         "upcoming": false
       },
       {
@@ -17166,6 +18205,23 @@
         ],
         "qid": "Q17548046",
         "poster": "mission-impossible-rogue-nation-2015.jpg",
+        "streaming": [
+          {
+            "id": "80038359",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/80038359"
+          },
+          {
+            "id": "umc.cmc.5v3hpkm4ni9b2mf4585utgmjg",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.5v3hpkm4ni9b2mf4585utgmjg"
+          },
+          {
+            "id": "5d7769f77a53e9001e6f630d",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d7769f77a53e9001e6f630d"
+          }
+        ],
         "upcoming": false
       },
       {
@@ -17208,6 +18264,28 @@
         ],
         "qid": "Q18391038",
         "poster": null,
+        "streaming": [
+          {
+            "id": "80079479",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/80079479"
+          },
+          {
+            "id": "2ITVP3QEFD44",
+            "name": "Disney+",
+            "url": "https://www.disneyplus.com/movies/_/2ITVP3QEFD44"
+          },
+          {
+            "id": "umc.cmc.32k0dnd1oxf1vxjhqknmt0ex5",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.32k0dnd1oxf1vxjhqknmt0ex5"
+          },
+          {
+            "id": "5d776b9023d5a3001f511c3d",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776b9023d5a3001f511c3d"
+          }
+        ],
         "upcoming": false
       },
       {
@@ -17250,6 +18328,23 @@
         ],
         "qid": "Q934739",
         "poster": "safe-house-2012.jpg",
+        "streaming": [
+          {
+            "id": "70208104",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/70208104"
+          },
+          {
+            "id": "umc.cmc.5ukjqcczcddoss3xeqinjji09",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.5ukjqcczcddoss3xeqinjji09"
+          },
+          {
+            "id": "5d77689f96b655001fdbd2fc",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d77689f96b655001fdbd2fc"
+          }
+        ],
         "upcoming": false
       },
       {
@@ -17292,6 +18387,23 @@
         ],
         "qid": "Q327685",
         "poster": "the-karate-kid-2010.jpg",
+        "streaming": [
+          {
+            "id": "70125931",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/70125931"
+          },
+          {
+            "id": "umc.cmc.7iigdw3fuua2oqv2qlq1g8ocb",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.7iigdw3fuua2oqv2qlq1g8ocb"
+          },
+          {
+            "id": "5d77686e8718ba001e31be8f",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d77686e8718ba001e31be8f"
+          }
+        ],
         "upcoming": false
       },
       {
@@ -17334,6 +18446,28 @@
         ],
         "qid": "Q213208",
         "poster": null,
+        "streaming": [
+          {
+            "id": "70044885",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/70044885"
+          },
+          {
+            "id": "5d25dec5-4b58-41b8-b71d-151c9e280c3e",
+            "name": "Hulu",
+            "url": "https://www.hulu.com/movie/5d25dec5-4b58-41b8-b71d-151c9e280c3e"
+          },
+          {
+            "id": "umc.cmc.5607u94s7rdwititvuxm1su1o",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.5607u94s7rdwititvuxm1su1o"
+          },
+          {
+            "id": "5d7768332ec6b5001f6bb969",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d7768332ec6b5001f6bb969"
+          }
+        ],
         "upcoming": false
       },
       {
@@ -17381,6 +18515,23 @@
         ],
         "qid": "Q18816889",
         "poster": null,
+        "streaming": [
+          {
+            "id": "80117445",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/80117445"
+          },
+          {
+            "id": "umc.cmc.4o6bng1brlpy68jz4qmcud94l",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.4o6bng1brlpy68jz4qmcud94l"
+          },
+          {
+            "id": "5d77697aad5437001f75e07c",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d77697aad5437001f75e07c"
+          }
+        ],
         "upcoming": false
       },
       {
@@ -17422,6 +18573,23 @@
         ],
         "qid": "Q107270",
         "poster": null,
+        "streaming": [
+          {
+            "id": "B001NLCBJI",
+            "name": "Prime Video",
+            "url": "https://www.amazon.com/dp/B001NLCBJI"
+          },
+          {
+            "id": "umc.cmc.4e1hhenepzwuv36lgkmm8ns84",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.4e1hhenepzwuv36lgkmm8ns84"
+          },
+          {
+            "id": "5d776824151a60001f24a29a",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776824151a60001f24a29a"
+          }
+        ],
         "upcoming": false
       },
       {
@@ -17460,6 +18628,13 @@
         ],
         "qid": "Q17039529",
         "poster": null,
+        "streaming": [
+          {
+            "id": "5d7768a46f6af7001ee59700",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d7768a46f6af7001ee59700"
+          }
+        ],
         "upcoming": false
       },
       {
@@ -17505,6 +18680,23 @@
         ],
         "qid": "Q167437",
         "poster": null,
+        "streaming": [
+          {
+            "id": "1181643",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/1181643"
+          },
+          {
+            "id": "umc.cmc.77gachmfs619tzwbanwqghkbk",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.77gachmfs619tzwbanwqghkbk"
+          },
+          {
+            "id": "5d776d16fb0d55001f5972c6",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776d16fb0d55001f5972c6"
+          }
+        ],
         "upcoming": false
       }
     ],
@@ -17554,6 +18746,23 @@
         ],
         "slug": "pushing-hands-1991",
         "poster": "pushing-hands-1991.jpg",
+        "streaming": [
+          {
+            "id": "B01LXG6P6U",
+            "name": "Prime Video",
+            "url": "https://www.amazon.com/dp/B01LXG6P6U"
+          },
+          {
+            "id": "umc.cmc.6xszp1pcvy8gire9qwvpaw587",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.6xszp1pcvy8gire9qwvpaw587"
+          },
+          {
+            "id": "5d77684f6f4521001eaa0d7f",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d77684f6f4521001eaa0d7f"
+          }
+        ],
         "country": "Chinese"
       },
       {
@@ -17594,6 +18803,18 @@
         ],
         "slug": "enter-the-fat-dragon-2020",
         "poster": "enter-the-fat-dragon-2020.jpg",
+        "streaming": [
+          {
+            "id": "umc.cmc.532jjr9fuxcghpx2t1qrifvtd",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.532jjr9fuxcghpx2t1qrifvtd"
+          },
+          {
+            "id": "5d776efcad5437001f8078bc",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776efcad5437001f8078bc"
+          }
+        ],
         "country": "HK"
       },
       {
@@ -17633,6 +18854,23 @@
         ],
         "slug": "ashes-of-time-1994",
         "poster": "ashes-of-time-1994.jpg",
+        "streaming": [
+          {
+            "id": "81580526",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/81580526"
+          },
+          {
+            "id": "umc.cmc.vcy914qjcgs6j13fswjdsmm7",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.vcy914qjcgs6j13fswjdsmm7"
+          },
+          {
+            "id": "5d776874fb0d55001f510a23",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776874fb0d55001f510a23"
+          }
+        ],
         "country": "Chinese"
       },
       {
@@ -17676,6 +18914,28 @@
         ],
         "slug": "kiki-s-delivery-service-1989",
         "poster": "kiki-s-delivery-service-1989.jpg",
+        "streaming": [
+          {
+            "id": "60027106",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/60027106"
+          },
+          {
+            "id": "feature/urn:hbo:feature:GXrHTGwYHRnUYOAEAAABC",
+            "name": "HBO Max",
+            "url": "https://play.max.com/video/watch/feature/urn:hbo:feature:GXrHTGwYHRnUYOAEAAABC"
+          },
+          {
+            "id": "umc.cmc.5w5rol5j2y9kaxsrrtbfme7dh",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.5w5rol5j2y9kaxsrrtbfme7dh"
+          },
+          {
+            "id": "5d77683fe6d55c002040ecbd",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d77683fe6d55c002040ecbd"
+          }
+        ],
         "country": "Japanese"
       },
       {
@@ -17718,6 +18978,28 @@
         ],
         "slug": "my-neighbor-totoro-1988",
         "poster": "my-neighbor-totoro-1988.jpg",
+        "streaming": [
+          {
+            "id": "60032294",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/60032294"
+          },
+          {
+            "id": "feature/urn:hbo:feature:GXrHaagZAIKu9KwEAAAAm",
+            "name": "HBO Max",
+            "url": "https://play.max.com/video/watch/feature/urn:hbo:feature:GXrHaagZAIKu9KwEAAAAm"
+          },
+          {
+            "id": "umc.cmc.4j11jg8g8n6tei5d7cupfy40k",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.4j11jg8g8n6tei5d7cupfy40k"
+          },
+          {
+            "id": "5d7768328a7581001f12d0df",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d7768328a7581001f12d0df"
+          }
+        ],
         "country": "Japanese"
       },
       {
@@ -17759,6 +19041,23 @@
         ],
         "slug": "the-killer-1989",
         "poster": "the-killer-1989.jpg",
+        "streaming": [
+          {
+            "id": "70020140",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/70020140"
+          },
+          {
+            "id": "umc.cmc.3s50u6f75gpt2ztlml4nvm26h",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.3s50u6f75gpt2ztlml4nvm26h"
+          },
+          {
+            "id": "5d7768356f4521001ea9c249",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d7768356f4521001ea9c249"
+          }
+        ],
         "country": "HK"
       },
       {
@@ -17803,6 +19102,28 @@
         ],
         "slug": "nausica-of-the-valley-of-the-wind-1984",
         "poster": "nausica-of-the-valley-of-the-wind-1984.jpg",
+        "streaming": [
+          {
+            "id": "70019062",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/70019062"
+          },
+          {
+            "id": "feature/urn:hbo:feature:GXrHVaQyRPXUYOAEAAABO",
+            "name": "HBO Max",
+            "url": "https://play.max.com/video/watch/feature/urn:hbo:feature:GXrHVaQyRPXUYOAEAAABO"
+          },
+          {
+            "id": "umc.cmc.5a19fikldgwe4cnl8smazz6tx",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.5a19fikldgwe4cnl8smazz6tx"
+          },
+          {
+            "id": "5d7768247e9a3c0020c6a8f4",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d7768247e9a3c0020c6a8f4"
+          }
+        ],
         "country": "Japanese"
       },
       {
@@ -17847,6 +19168,28 @@
         ],
         "slug": "howl-s-moving-castle-2004",
         "poster": "howl-s-moving-castle-2004.jpg",
+        "streaming": [
+          {
+            "id": "70028883",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/70028883"
+          },
+          {
+            "id": "feature/urn:hbo:feature:GXrHR0QRNbnUYOAEAAABB",
+            "name": "HBO Max",
+            "url": "https://play.max.com/video/watch/feature/urn:hbo:feature:GXrHR0QRNbnUYOAEAAABB"
+          },
+          {
+            "id": "umc.cmc.5iztg97thy2l82qn0euzqjjza",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.5iztg97thy2l82qn0euzqjjza"
+          },
+          {
+            "id": "5d77682e6f4521001ea9abd0",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d77682e6f4521001ea9abd0"
+          }
+        ],
         "country": "Japanese"
       },
       {
@@ -17890,6 +19233,23 @@
         ],
         "slug": "lust-caution-2007",
         "poster": "lust-caution-2007.jpg",
+        "streaming": [
+          {
+            "id": "70059999",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/70059999"
+          },
+          {
+            "id": "umc.cmc.31t8m66yjq1f499poggu1npye",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.31t8m66yjq1f499poggu1npye"
+          },
+          {
+            "id": "5d77682ee6d55c002040bd4b",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d77682ee6d55c002040bd4b"
+          }
+        ],
         "country": "Taiwan"
       },
       {
@@ -17932,6 +19292,28 @@
         ],
         "slug": "the-host-2006",
         "poster": "the-host-2006.jpg",
+        "streaming": [
+          {
+            "id": "70059029",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/70059029"
+          },
+          {
+            "id": "9d02a3d0-3b1e-4723-933d-d345ccd9cc95",
+            "name": "Hulu",
+            "url": "https://www.hulu.com/movie/9d02a3d0-3b1e-4723-933d-d345ccd9cc95"
+          },
+          {
+            "id": "umc.cmc.k1e6cehkytpyaw0ksg5l5paa",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.k1e6cehkytpyaw0ksg5l5paa"
+          },
+          {
+            "id": "5d776829103a2d001f564b4f",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776829103a2d001f564b4f"
+          }
+        ],
         "country": "Korea"
       },
       {
@@ -17976,6 +19358,23 @@
         ],
         "slug": "crouching-tiger-hidden-dragon-2000",
         "poster": "crouching-tiger-hidden-dragon-2000.png",
+        "streaming": [
+          {
+            "id": "60002907",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/60002907"
+          },
+          {
+            "id": "umc.cmc.1qyopok7zvm57lvbxa2oz4ibq",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.1qyopok7zvm57lvbxa2oz4ibq"
+          },
+          {
+            "id": "5d77682454f42c001f8c24c9",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d77682454f42c001f8c24c9"
+          }
+        ],
         "country": "Taiwan"
       },
       {
@@ -18001,6 +19400,23 @@
         ],
         "slug": "2046-2004",
         "poster": "2046-2004.jpg",
+        "streaming": [
+          {
+            "id": "70042371",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/70042371"
+          },
+          {
+            "id": "umc.cmc.1egonyjm2kta171999oa0c8qf",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.1egonyjm2kta171999oa0c8qf"
+          },
+          {
+            "id": "5d77682861141d001fb136cd",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d77682861141d001fb136cd"
+          }
+        ],
         "country": null
       },
       {
@@ -18026,6 +19442,23 @@
         ],
         "slug": "happy-together-1997",
         "poster": "happy-together-1997.jpg",
+        "streaming": [
+          {
+            "id": "1154883",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/1154883"
+          },
+          {
+            "id": "umc.cmc.1tc9skduvbxofsl43p89w5t68",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.1tc9skduvbxofsl43p89w5t68"
+          },
+          {
+            "id": "5d776d11fb0d55001f596480",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776d11fb0d55001f596480"
+          }
+        ],
         "country": null
       },
       {
@@ -18066,6 +19499,23 @@
         ],
         "slug": "red-cliff-2008",
         "poster": "red-cliff-2008.jpg",
+        "streaming": [
+          {
+            "id": "70104342",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/70104342"
+          },
+          {
+            "id": "umc.cmc.1qugt8gowcl1xt84mdyub6u33",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.1qugt8gowcl1xt84mdyub6u33"
+          },
+          {
+            "id": "5d776838f59e580021898faa",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776838f59e580021898faa"
+          }
+        ],
         "country": "Chinese"
       },
       {
@@ -18091,6 +19541,23 @@
         ],
         "slug": "flash-point-2007",
         "poster": "flash-point-2007.jpg",
+        "streaming": [
+          {
+            "id": "70090313",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/70090313"
+          },
+          {
+            "id": "umc.cmc.2e87higtm76je58bisgipuyxg",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.2e87higtm76je58bisgipuyxg"
+          },
+          {
+            "id": "5d9f356fe4fc29001eb66c28",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d9f356fe4fc29001eb66c28"
+          }
+        ],
         "country": null
       },
       {
@@ -18131,6 +19598,23 @@
         ],
         "slug": "our-little-sister-2015",
         "poster": "our-little-sister-2015.jpeg",
+        "streaming": [
+          {
+            "id": "80057568",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/80057568"
+          },
+          {
+            "id": "umc.cmc.5c4psszc1og3dw9p04n7xzl9t",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.5c4psszc1og3dw9p04n7xzl9t"
+          },
+          {
+            "id": "5d776b5f96b655001fe0e978",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776b5f96b655001fe0e978"
+          }
+        ],
         "country": "Japanese"
       },
       {
@@ -18171,6 +19655,23 @@
         ],
         "slug": "brokeback-mountain-2005",
         "poster": "brokeback-mountain-2005.jpg",
+        "streaming": [
+          {
+            "id": "70023965",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/70023965"
+          },
+          {
+            "id": "umc.cmc.rgagpqyoonuqiddm96d66tu2",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.rgagpqyoonuqiddm96d66tu2"
+          },
+          {
+            "id": "5d776824eb5d26001f1dd003",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776824eb5d26001f1dd003"
+          }
+        ],
         "country": "American"
       },
       {
@@ -18205,6 +19706,18 @@
         ],
         "slug": "the-mission-1999",
         "poster": "the-mission-1999.jpg",
+        "streaming": [
+          {
+            "id": "60000149",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/60000149"
+          },
+          {
+            "id": "5d7768811999bc0020dc726a",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d7768811999bc0020dc726a"
+          }
+        ],
         "country": "HK"
       },
       {
@@ -18245,6 +19758,7 @@
         ],
         "slug": "yolo-2024",
         "poster": "yolo-2024.jpg",
+        "streaming": [],
         "country": "Chinese"
       },
       {
@@ -18291,6 +19805,23 @@
         ],
         "slug": "house-of-flying-daggers-2004",
         "poster": "house-of-flying-daggers-2004.jpg",
+        "streaming": [
+          {
+            "id": "70012785",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/70012785"
+          },
+          {
+            "id": "umc.cmc.5zs1fxtj2wj5m8tfhakbe5ari",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.5zs1fxtj2wj5m8tfhakbe5ari"
+          },
+          {
+            "id": "5d7768338a7581001f12d1ea",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d7768338a7581001f12d1ea"
+          }
+        ],
         "country": "China"
       },
       {
@@ -18331,6 +19862,23 @@
         ],
         "slug": "riding-alone-for-thousands-of-miles-2005",
         "poster": "riding-alone-for-thousands-of-miles-2005.jpg",
+        "streaming": [
+          {
+            "id": "70053127",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/70053127"
+          },
+          {
+            "id": "umc.cmc.5r6dlfcnwgcjsv8xre24xa6z2",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.5r6dlfcnwgcjsv8xre24xa6z2"
+          },
+          {
+            "id": "5d9f3512d74e670020020a43",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d9f3512d74e670020020a43"
+          }
+        ],
         "country": "Chinese"
       },
       {
@@ -18370,6 +19918,23 @@
         ],
         "slug": "to-live-1994",
         "poster": "to-live-1994.jpg",
+        "streaming": [
+          {
+            "id": "60028524",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/60028524"
+          },
+          {
+            "id": "umc.cmc.7j6ln6relis6lwh0drwfi03h0",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.7j6ln6relis6lwh0drwfi03h0"
+          },
+          {
+            "id": "5d776d13ad5437001f7cc4f5",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776d13ad5437001f7cc4f5"
+          }
+        ],
         "country": "Chinese"
       },
       {
@@ -18411,6 +19976,18 @@
         ],
         "slug": "raise-the-red-lantern-1991",
         "poster": "raise-the-red-lantern-1991.jpg",
+        "streaming": [
+          {
+            "id": "umc.cmc.7d9d3fuq7cjkbdti3karllw9z",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.7d9d3fuq7cjkbdti3karllw9z"
+          },
+          {
+            "id": "5d776834961905001eb93c98",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776834961905001eb93c98"
+          }
+        ],
         "country": "Chinese"
       },
       {
@@ -18450,6 +20027,18 @@
         ],
         "slug": "police-story-1985",
         "poster": "police-story-1985.jpg",
+        "streaming": [
+          {
+            "id": "umc.cmc.2da13mt8to8420h87it6yi6br",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.2da13mt8to8420h87it6yi6br"
+          },
+          {
+            "id": "5d776d0d96b655001fe3dcba",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776d0d96b655001fe3dcba"
+          }
+        ],
         "country": "HK"
       },
       {
@@ -18485,6 +20074,7 @@
         ],
         "slug": "lost-and-found-1996",
         "poster": "lost-and-found-1996.jpg",
+        "streaming": [],
         "country": "HK"
       },
       {
@@ -18521,6 +20111,23 @@
         ],
         "slug": "election-2005",
         "poster": "election-2005.jpg",
+        "streaming": [
+          {
+            "id": "70080481",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/70080481"
+          },
+          {
+            "id": "umc.cmc.6vlf7dqk4oxbmewh7e7sttexg",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.6vlf7dqk4oxbmewh7e7sttexg"
+          },
+          {
+            "id": "5d776842eb5d26001f1e3c66",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776842eb5d26001f1e3c66"
+          }
+        ],
         "country": "HK"
       },
       {
@@ -18557,6 +20164,23 @@
         ],
         "slug": "exiled-2006",
         "poster": "exiled-2006.jpg",
+        "streaming": [
+          {
+            "id": "70068644",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/70068644"
+          },
+          {
+            "id": "umc.cmc.6eakmqrmao7b0rlgxidyx1fcx",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.6eakmqrmao7b0rlgxidyx1fcx"
+          },
+          {
+            "id": "5d9f3505d5fd3f001ee15643",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d9f3505d5fd3f001ee15643"
+          }
+        ],
         "country": "HK"
       },
       {
@@ -18593,6 +20217,23 @@
         ],
         "slug": "drunken-master-1978",
         "poster": "drunken-master-1978.jpg",
+        "streaming": [
+          {
+            "id": "60000221",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/60000221"
+          },
+          {
+            "id": "umc.cmc.1g6u0qin1yv7tw65pay5nrr95",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.1g6u0qin1yv7tw65pay5nrr95"
+          },
+          {
+            "id": "5d776d157a53e9001e7506b2",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776d157a53e9001e7506b2"
+          }
+        ],
         "country": "HK"
       },
       {
@@ -18631,6 +20272,18 @@
         ],
         "slug": "once-upon-a-time-in-china-1991",
         "poster": "once-upon-a-time-in-china-1991.jpg",
+        "streaming": [
+          {
+            "id": "17078070",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/17078070"
+          },
+          {
+            "id": "5d7768355af944001f1f9eb1",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d7768355af944001f1f9eb1"
+          }
+        ],
         "country": "HK"
       },
       {
@@ -18665,6 +20318,23 @@
         ],
         "slug": "a-brighter-summer-day-1991",
         "poster": "a-brighter-summer-day-1991.jpg",
+        "streaming": [
+          {
+            "id": "80097378",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/80097378"
+          },
+          {
+            "id": "umc.cmc.74x4bm7genqpkt29yfobtb0q4",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.74x4bm7genqpkt29yfobtb0q4"
+          },
+          {
+            "id": "5d77683e2ec6b5001f6bd69a",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d77683e2ec6b5001f6bd69a"
+          }
+        ],
         "country": "Taiwan"
       },
       {
@@ -18692,6 +20362,28 @@
         ],
         "slug": "monsters-inc-2001",
         "poster": "monsters-inc-2001.jpg",
+        "streaming": [
+          {
+            "id": "60004479",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/60004479"
+          },
+          {
+            "id": "5vQuMGjgTZz5",
+            "name": "Disney+",
+            "url": "https://www.disneyplus.com/movies/_/5vQuMGjgTZz5"
+          },
+          {
+            "id": "umc.cmc.3ilsdzy6ghi4adtg3tnwf6jcb",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.3ilsdzy6ghi4adtg3tnwf6jcb"
+          },
+          {
+            "id": "5d776826151a60001f24a9cf",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776826151a60001f24a9cf"
+          }
+        ],
         "country": null
       },
       {
@@ -18729,6 +20421,23 @@
         ],
         "slug": "perfect-blue-1997",
         "poster": "perfect-blue-1997.png",
+        "streaming": [
+          {
+            "id": "60000043",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/60000043"
+          },
+          {
+            "id": "umc.cmc.32vyvgm93ui4f12azahnlvip1",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.32vyvgm93ui4f12azahnlvip1"
+          },
+          {
+            "id": "5d77683585719b001f3a3b8c",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d77683585719b001f3a3b8c"
+          }
+        ],
         "country": "Japanese"
       },
       {
@@ -18763,6 +20472,13 @@
         ],
         "slug": "crystal-sky-of-yesterday-2018",
         "poster": null,
+        "streaming": [
+          {
+            "id": "5d7770327a53e9001e79d505",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d7770327a53e9001e79d505"
+          }
+        ],
         "country": "Chinese"
       },
       {
@@ -18798,6 +20514,23 @@
         ],
         "slug": "a-silent-voice-2016",
         "poster": "a-silent-voice-2016.jpg",
+        "streaming": [
+          {
+            "id": "80223226",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/80223226"
+          },
+          {
+            "id": "umc.cmc.282ki73q0ozcam7a76c50mizk",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.282ki73q0ozcam7a76c50mizk"
+          },
+          {
+            "id": "5d776c0ead5437001f7b25d6",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776c0ead5437001f7b25d6"
+          }
+        ],
         "country": "Japanese"
       },
       {
@@ -18834,6 +20567,23 @@
         ],
         "slug": "suzhou-river-2000",
         "poster": "suzhou-river-2000.jpg",
+        "streaming": [
+          {
+            "id": "60000655",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/60000655"
+          },
+          {
+            "id": "umc.cmc.55c7sidy25jvcndutmy9jckg1",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.55c7sidy25jvcndutmy9jckg1"
+          },
+          {
+            "id": "5d776837e6d55c002040d926",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776837e6d55c002040d926"
+          }
+        ],
         "country": "Chinese"
       },
       {
@@ -18869,6 +20619,18 @@
         ],
         "slug": "100-meters-2025",
         "poster": null,
+        "streaming": [
+          {
+            "id": "81785821",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/81785821"
+          },
+          {
+            "id": "666d3537262c3d4a6316466b",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/666d3537262c3d4a6316466b"
+          }
+        ],
         "country": "Japanese"
       },
       {
@@ -18905,6 +20667,28 @@
         ],
         "slug": "better-days-2019",
         "poster": "better-days-2019.jpg",
+        "streaming": [
+          {
+            "id": "81143111",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/81143111"
+          },
+          {
+            "id": "6GSXsLKF1BSj",
+            "name": "Disney+",
+            "url": "https://www.disneyplus.com/movies/_/6GSXsLKF1BSj"
+          },
+          {
+            "id": "umc.cmc.1vhimr43xyy8wqurxuzyoyyo",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.1vhimr43xyy8wqurxuzyoyyo"
+          },
+          {
+            "id": "5d7770b647dd6e001f70bd69",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d7770b647dd6e001f70bd69"
+          }
+        ],
         "country": "Chinese"
       },
       {
@@ -18940,6 +20724,13 @@
         ],
         "slug": "fireflies-in-the-sun-2021",
         "poster": "fireflies-in-the-sun-2021.jpg",
+        "streaming": [
+          {
+            "id": "6197982895488d82b96f3295",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/6197982895488d82b96f3295"
+          }
+        ],
         "country": "Chinese"
       },
       {
@@ -18977,6 +20768,18 @@
         ],
         "slug": "lost-in-the-stars-2022",
         "poster": "lost-in-the-stars-2022.webp",
+        "streaming": [
+          {
+            "id": "81711455",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/81711455"
+          },
+          {
+            "id": "61fd09bd6a7f5d80c8c8a643",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/61fd09bd6a7f5d80c8c8a643"
+          }
+        ],
         "country": "Chinese"
       },
       {
@@ -19022,6 +20825,28 @@
         ],
         "slug": "the-dark-knight-2008",
         "poster": "the-dark-knight-2008.jpg",
+        "streaming": [
+          {
+            "id": "70079583",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/70079583"
+          },
+          {
+            "id": "B0BR1P5KD7",
+            "name": "Prime Video",
+            "url": "https://www.amazon.com/dp/B0BR1P5KD7"
+          },
+          {
+            "id": "umc.cmc.1uf4c3neuc9yxhnjv7t4rd5wa",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.1uf4c3neuc9yxhnjv7t4rd5wa"
+          },
+          {
+            "id": "5d7768247e9a3c0020c6a8f3",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d7768247e9a3c0020c6a8f3"
+          }
+        ],
         "country": "American"
       },
       {
@@ -19058,6 +20883,13 @@
         ],
         "slug": "havoc-in-heaven-1961",
         "poster": "havoc-in-heaven-1961.jpg",
+        "streaming": [
+          {
+            "id": "5d776885fb0d55001f512b98",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776885fb0d55001f512b98"
+          }
+        ],
         "country": "Chinese"
       },
       {
@@ -19095,6 +20927,23 @@
         ],
         "slug": "fist-of-fury-1972",
         "poster": "fist-of-fury-1972.jpg",
+        "streaming": [
+          {
+            "id": "B075YHBNNK",
+            "name": "Prime Video",
+            "url": "https://www.amazon.com/dp/B075YHBNNK"
+          },
+          {
+            "id": "umc.cmc.1zszifqb2kyk1lfqgx7oh1i0j",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.1zszifqb2kyk1lfqgx7oh1i0j"
+          },
+          {
+            "id": "5d9f3dc106d220001febeec0",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d9f3dc106d220001febeec0"
+          }
+        ],
         "country": "China"
       },
       {
@@ -19132,6 +20981,23 @@
         ],
         "slug": "big-fish-begonia-2016",
         "poster": "big-fish-begonia-2016.jpeg",
+        "streaming": [
+          {
+            "id": "80233883",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/80233883"
+          },
+          {
+            "id": "umc.cmc.3zi1bh0h75abnb5q83dsybk2r",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.3zi1bh0h75abnb5q83dsybk2r"
+          },
+          {
+            "id": "5d776ade7a53e9001e71240c",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776ade7a53e9001e71240c"
+          }
+        ],
         "country": "China"
       },
       {
@@ -19170,6 +21036,18 @@
         ],
         "slug": "grave-of-the-fireflies-1988",
         "poster": "grave-of-the-fireflies-1988.jpg",
+        "streaming": [
+          {
+            "id": "557010",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/557010"
+          },
+          {
+            "id": "5d776d11fb0d55001f596587",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776d11fb0d55001f596587"
+          }
+        ],
         "country": "Japanese"
       },
       {
@@ -19204,6 +21082,23 @@
         ],
         "slug": "perfect-days-2024",
         "poster": "perfect-days-2024.jpg",
+        "streaming": [
+          {
+            "id": "81716892",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/81716892"
+          },
+          {
+            "id": "umc.cmc.4144icbf4p6lsxokikch0zfzq",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.4144icbf4p6lsxokikch0zfzq"
+          },
+          {
+            "id": "628503d3bdd8ca5baee4b0d5",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/628503d3bdd8ca5baee4b0d5"
+          }
+        ],
         "country": "Japanese"
       },
       {
@@ -19240,6 +21135,18 @@
         ],
         "slug": "enter-the-fat-dragon-1978",
         "poster": "enter-the-fat-dragon-1978.jpg",
+        "streaming": [
+          {
+            "id": "20824723",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/20824723"
+          },
+          {
+            "id": "5d7768bd96b655001fdc0809",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d7768bd96b655001fdc0809"
+          }
+        ],
         "country": "Chinese"
       },
       {
@@ -19277,6 +21184,18 @@
         ],
         "slug": "gallants-2010",
         "poster": "gallants-2010.jpg",
+        "streaming": [
+          {
+            "id": "70142784",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/70142784"
+          },
+          {
+            "id": "5d776878103a2d001f572858",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776878103a2d001f572858"
+          }
+        ],
         "country": "Chinese"
       },
       {
@@ -19311,6 +21230,23 @@
         ],
         "slug": "let-the-bullets-fly-2010",
         "poster": "let-the-bullets-fly-2010.jpg",
+        "streaming": [
+          {
+            "id": "70184151",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/70184151"
+          },
+          {
+            "id": "umc.cmc.66qmnv5jtdzeeb3z3r8q1u9g4",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.66qmnv5jtdzeeb3z3r8q1u9g4"
+          },
+          {
+            "id": "5d77688fd11dd30020227b32",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d77688fd11dd30020227b32"
+          }
+        ],
         "country": "Chinese"
       },
       {
@@ -19346,6 +21282,7 @@
         ],
         "slug": "the-hutong-cowboy-2024",
         "poster": null,
+        "streaming": [],
         "country": "China"
       },
       {
@@ -19383,6 +21320,28 @@
         ],
         "slug": "akira-1988",
         "poster": "akira-1988.jpg",
+        "streaming": [
+          {
+            "id": "60021103",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/60021103"
+          },
+          {
+            "id": "7deaERMwSFfl",
+            "name": "Disney+",
+            "url": "https://www.disneyplus.com/movies/_/7deaERMwSFfl"
+          },
+          {
+            "id": "64a5a8d0-1406-4178-97a5-2649504faa85",
+            "name": "Hulu",
+            "url": "https://www.hulu.com/movie/64a5a8d0-1406-4178-97a5-2649504faa85"
+          },
+          {
+            "id": "5d77682454c0f0001f301a42",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d77682454c0f0001f301a42"
+          }
+        ],
         "country": "Japanese"
       },
       {
@@ -19419,6 +21378,18 @@
         ],
         "slug": "rurouni-kenshin-2012",
         "poster": "rurouni-kenshin-2012.jpg",
+        "streaming": [
+          {
+            "id": "70293105",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/70293105"
+          },
+          {
+            "id": "5d77698b23d5a3001f4f9320",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d77698b23d5a3001f4f9320"
+          }
+        ],
         "country": "Japanese"
       },
       {
@@ -19454,6 +21425,13 @@
         ],
         "slug": "dahufa-2017",
         "poster": "dahufa-2017.jpg",
+        "streaming": [
+          {
+            "id": "5d776d40ad5437001f7d1093",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776d40ad5437001f7d1093"
+          }
+        ],
         "country": "Chinese"
       },
       {
@@ -19493,6 +21471,23 @@
         ],
         "slug": "ghost-in-the-shell-1995",
         "poster": "ghost-in-the-shell-1995.jpg",
+        "streaming": [
+          {
+            "id": "540533",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/540533"
+          },
+          {
+            "id": "umc.cmc.rjmilfye6al93novdmu2l28c",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.rjmilfye6al93novdmu2l28c"
+          },
+          {
+            "id": "5d7768334de0ee001fccaf95",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d7768334de0ee001fccaf95"
+          }
+        ],
         "country": "Japanese"
       },
       {
@@ -19529,6 +21524,7 @@
         ],
         "slug": "neko-samurai-2014",
         "poster": null,
+        "streaming": [],
         "country": "Japanese"
       },
       {
@@ -19563,6 +21559,13 @@
         ],
         "slug": "all-ears-2023",
         "poster": "all-ears-2023.jpg",
+        "streaming": [
+          {
+            "id": "6236ebffcd0b91083d570b10",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/6236ebffcd0b91083d570b10"
+          }
+        ],
         "country": "Chinese"
       },
       {
@@ -19597,6 +21600,23 @@
         ],
         "slug": "yi-yi-2000",
         "poster": "yi-yi-2000.jpg",
+        "streaming": [
+          {
+            "id": "60003452",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/60003452"
+          },
+          {
+            "id": "umc.cmc.47b2dvmf6b4f4d9doxpma3gm9",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.47b2dvmf6b4f4d9doxpma3gm9"
+          },
+          {
+            "id": "5d77684f880197001ec98094",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d77684f880197001ec98094"
+          }
+        ],
         "country": "Chinese"
       },
       {
@@ -19632,6 +21652,7 @@
         ],
         "slug": "good-news-2025",
         "poster": "good-news-2025.jpg",
+        "streaming": [],
         "country": "South Korea"
       },
       {
@@ -19668,6 +21689,23 @@
         ],
         "slug": "farewell-my-concubine-1993",
         "poster": "farewell-my-concubine-1993.jpg",
+        "streaming": [
+          {
+            "id": "22466132",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/22466132"
+          },
+          {
+            "id": "umc.cmc.6s1coheb1ztmrauxfa4r09nak",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.6s1coheb1ztmrauxfa4r09nak"
+          },
+          {
+            "id": "5d776d1796b655001fe3f321",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776d1796b655001fe3f321"
+          }
+        ],
         "country": "China"
       },
       {
@@ -19703,6 +21741,23 @@
         ],
         "slug": "extreme-job-2019",
         "poster": "extreme-job-2019.jpg",
+        "streaming": [
+          {
+            "id": "81168885",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/81168885"
+          },
+          {
+            "id": "umc.cmc.5zr3qspjghvbmvafmhkjgc78i",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.5zr3qspjghvbmvafmhkjgc78i"
+          },
+          {
+            "id": "5d7770a935102a0020ed8a9b",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d7770a935102a0020ed8a9b"
+          }
+        ],
         "country": "Korea"
       },
       {
@@ -19737,6 +21792,18 @@
         ],
         "slug": "hidden-blade-2023",
         "poster": "hidden-blade-2023.jpg",
+        "streaming": [
+          {
+            "id": "umc.cmc.57fkjwx0whx4cq1ailqnh0nvk",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.57fkjwx0whx4cq1ailqnh0nvk"
+          },
+          {
+            "id": "61c5c51ed271985598adf760",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/61c5c51ed271985598adf760"
+          }
+        ],
         "country": "Chinese"
       },
       {
@@ -19771,6 +21838,23 @@
         ],
         "slug": "drishyam-2015",
         "poster": "drishyam-2015.jpg",
+        "streaming": [
+          {
+            "id": "80068117",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/80068117"
+          },
+          {
+            "id": "umc.cmc.5kr1ftkcgllxfzgo85ea4tf38",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.5kr1ftkcgllxfzgo85ea4tf38"
+          },
+          {
+            "id": "5d776bc5ad5437001f7a982f",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776bc5ad5437001f7a982f"
+          }
+        ],
         "country": "Indian"
       },
       {
@@ -19807,6 +21891,28 @@
         ],
         "slug": "a-taxi-driver-2017",
         "poster": "a-taxi-driver-2017.jpg",
+        "streaming": [
+          {
+            "id": "80200945",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/80200945"
+          },
+          {
+            "id": "30ffb310-a407-450f-9f2a-2aeb2c1c81e1",
+            "name": "Hulu",
+            "url": "https://www.hulu.com/movie/30ffb310-a407-450f-9f2a-2aeb2c1c81e1"
+          },
+          {
+            "id": "umc.cmc.4mhs8ww0bmnpembmqj4lii6b0",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.4mhs8ww0bmnpembmqj4lii6b0"
+          },
+          {
+            "id": "5d776d3896b655001fe42d7e",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776d3896b655001fe42d7e"
+          }
+        ],
         "country": "Korea"
       },
       {
@@ -19843,6 +21949,18 @@
         ],
         "slug": "assassination-2015",
         "poster": "assassination-2015.jpg",
+        "streaming": [
+          {
+            "id": "umc.cmc.4ned25d8jqfukxu7bjzhp50dq",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.4ned25d8jqfukxu7bjzhp50dq"
+          },
+          {
+            "id": "5d776b1e96b655001fe04e76",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776b1e96b655001fe04e76"
+          }
+        ],
         "country": "Korea"
       },
       {
@@ -19880,6 +21998,7 @@
         ],
         "slug": "white-snake-2019",
         "poster": "white-snake.jpg",
+        "streaming": [],
         "country": "Chinese"
       },
       {
@@ -19914,6 +22033,13 @@
         ],
         "slug": "rrr-2022",
         "poster": "rrr-2022.jpg",
+        "streaming": [
+          {
+            "id": "5d7770b496b655001fe9cbd7",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d7770b496b655001fe9cbd7"
+          }
+        ],
         "country": "Indian"
       },
       {
@@ -19949,6 +22075,23 @@
         ],
         "slug": "paprika-2006",
         "poster": "paprika-2006.jpg",
+        "streaming": [
+          {
+            "id": "70065105",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/70065105"
+          },
+          {
+            "id": "umc.cmc.6i2m8ev8mr7b498w9orw4kiht",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.6i2m8ev8mr7b498w9orw4kiht"
+          },
+          {
+            "id": "5d9f34f268e4c8001fb5d878",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d9f34f268e4c8001fb5d878"
+          }
+        ],
         "country": "Japanese"
       },
       {
@@ -19986,6 +22129,18 @@
         ],
         "slug": "the-eight-hundred-2020",
         "poster": "the-eight-hundred-2020.jpg",
+        "streaming": [
+          {
+            "id": "umc.cmc.33z94l3d7v3n8r66p8mxmohzx",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.33z94l3d7v3n8r66p8mxmohzx"
+          },
+          {
+            "id": "5d77709281ba41001faf356a",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d77709281ba41001faf356a"
+          }
+        ],
         "country": "China"
       },
       {
@@ -20022,6 +22177,7 @@
         ],
         "slug": "the-wind-guardians-2018",
         "poster": null,
+        "streaming": [],
         "country": "Chinese"
       },
       {
@@ -20060,6 +22216,18 @@
         ],
         "slug": "the-battle-at-lake-changjin-2021",
         "poster": "the-battle-at-lake-changjin-2021.png",
+        "streaming": [
+          {
+            "id": "umc.cmc.lm8zaqzmh5tx52byi0ukqxuq",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.lm8zaqzmh5tx52byi0ukqxuq"
+          },
+          {
+            "id": "5fb23363168108002e5ac85a",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5fb23363168108002e5ac85a"
+          }
+        ],
         "country": "China"
       },
       {
@@ -20094,6 +22262,23 @@
         ],
         "slug": "ikiru-1952",
         "poster": "ikiru-1952.jpg",
+        "streaming": [
+          {
+            "id": "60033661",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/60033661"
+          },
+          {
+            "id": "umc.cmc.52fkxbe3toqs259outmn47cdg",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.52fkxbe3toqs259outmn47cdg"
+          },
+          {
+            "id": "5d77682d7228e5001f1dd9ca",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d77682d7228e5001f1dd9ca"
+          }
+        ],
         "country": "Japanese"
       },
       {
@@ -20130,6 +22315,23 @@
         ],
         "slug": "joker-2019",
         "poster": "joker-2019.jpg",
+        "streaming": [
+          {
+            "id": "81092221",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/81092221"
+          },
+          {
+            "id": "umc.cmc.3xaju2323jxib2du70d9ey4b4",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.3xaju2323jxib2du70d9ey4b4"
+          },
+          {
+            "id": "5d776f3c96b655001fe80905",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776f3c96b655001fe80905"
+          }
+        ],
         "country": "American"
       },
       {
@@ -20167,6 +22369,33 @@
         ],
         "slug": "pulp-fiction-1994",
         "poster": "pulp-fiction-1994.jpg",
+        "streaming": [
+          {
+            "id": "880640",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/880640"
+          },
+          {
+            "id": "B008Y6W4I8",
+            "name": "Prime Video",
+            "url": "https://www.amazon.com/dp/B008Y6W4I8"
+          },
+          {
+            "id": "GliQztWneaDE_136OH3GxD5Q7SI0dfn0",
+            "name": "Paramount+",
+            "url": "https://www.paramountplus.com/video/GliQztWneaDE_136OH3GxD5Q7SI0dfn0"
+          },
+          {
+            "id": "umc.cmc.1hfvw2p79f9qdeydow8nmrn7t",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.1hfvw2p79f9qdeydow8nmrn7t"
+          },
+          {
+            "id": "5d776827103a2d001f564488",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776827103a2d001f564488"
+          }
+        ],
         "country": "American"
       },
       {
@@ -20203,6 +22432,23 @@
         ],
         "slug": "dragon-the-bruce-lee-story-1993",
         "poster": "dragon-the-bruce-lee-story-1993.jpg",
+        "streaming": [
+          {
+            "id": "459378",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/459378"
+          },
+          {
+            "id": "umc.cmc.75leilt2xmesm3d7y2gqz2tj0",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.75leilt2xmesm3d7y2gqz2tj0"
+          },
+          {
+            "id": "5d776834880197001ec932b7",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776834880197001ec932b7"
+          }
+        ],
         "country": "American"
       },
       {
@@ -20242,6 +22488,28 @@
         ],
         "slug": "the-godfather-1972",
         "poster": "the-godfather-1972.jpg",
+        "streaming": [
+          {
+            "id": "60011152",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/60011152"
+          },
+          {
+            "id": "gUufhVPlJy5i5HLTbS8li1LruEeMH_3x",
+            "name": "Paramount+",
+            "url": "https://www.paramountplus.com/video/gUufhVPlJy5i5HLTbS8li1LruEeMH_3x"
+          },
+          {
+            "id": "umc.cmc.3ew9fykdnpfaq9t2jq5da011c",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.3ew9fykdnpfaq9t2jq5da011c"
+          },
+          {
+            "id": "5d7768248a7581001f12bc72",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d7768248a7581001f12bc72"
+          }
+        ],
         "country": "American"
       },
       {
@@ -20276,6 +22544,18 @@
         ],
         "slug": "gook-2017",
         "poster": "gook-2017.jpg",
+        "streaming": [
+          {
+            "id": "umc.cmc.3dwitb547is4ctnh8xbjm8fh5",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.3dwitb547is4ctnh8xbjm8fh5"
+          },
+          {
+            "id": "5d776c9dad5437001f7c39dc",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776c9dad5437001f7c39dc"
+          }
+        ],
         "country": "American"
       },
       {
@@ -20301,6 +22581,18 @@
         ],
         "slug": "the-story-of-david",
         "poster": null,
+        "streaming": [
+          {
+            "id": "umc.cmc.7d9mhaklhczstzsf54j7nfiiz",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.7d9mhaklhczstzsf54j7nfiiz"
+          },
+          {
+            "id": "5d776b1623d5a3001f50c820",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776b1623d5a3001f50c820"
+          }
+        ],
         "country": "Chinese"
       },
       {
@@ -20318,6 +22610,7 @@
         "reasons": [],
         "slug": "5-centimeters-per-second",
         "poster": "5-centimeters-per-second.jpg",
+        "streaming": [],
         "country": null
       },
       {
@@ -20335,6 +22628,7 @@
         "reasons": [],
         "slug": "96-minutes",
         "poster": null,
+        "streaming": [],
         "country": null
       },
       {
@@ -20361,6 +22655,23 @@
         "reasons": [],
         "slug": "get-out-2017",
         "poster": "get-out-2017.png",
+        "streaming": [
+          {
+            "id": "80149258",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/80149258"
+          },
+          {
+            "id": "umc.cmc.2nh80sbq32nedy9rm09gtv8rb",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.2nh80sbq32nedy9rm09gtv8rb"
+          },
+          {
+            "id": "5d776c7b594b2b001e6f4c9c",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776c7b594b2b001e6f4c9c"
+          }
+        ],
         "country": "American"
       },
       {
@@ -20378,6 +22689,7 @@
         "reasons": [],
         "slug": "once-upon-a-time-in-the-middle-east",
         "poster": null,
+        "streaming": [],
         "country": null
       }
     ],

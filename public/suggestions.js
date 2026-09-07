@@ -148,6 +148,43 @@ function rateControl(entry) {
   return select;
 }
 
+// Wordmark files, keyed by service name — the same map the film pages use.
+let LOGOS = {};
+
+// Where you could actually watch it. Links leave the site, so they get the
+// brand-marked chip the film list uses rather than another pill that looks
+// like a filter.
+function serviceChips(entry, limit = 4) {
+  const services = entry.streaming ?? [];
+  if (!services.length) return null;
+  const wrap = text("div", "services-sm");
+  for (const service of services.slice(0, limit)) {
+    const link = text("a", "service-sm");
+    link.href = service.url;
+    link.target = "_blank";
+    link.rel = "noopener noreferrer";
+    link.title = `Open ${entry.title} on ${service.name}`;
+    link.dataset.service = service.name;
+    const file = LOGOS[service.name];
+    if (file) {
+      const logo = document.createElement("img");
+      logo.className = "service-logo";
+      logo.src = `/logos/${file}`;
+      // The wordmark carries the name, so it would be read out twice.
+      logo.alt = "";
+      logo.loading = "lazy";
+      link.append(logo, text("span", "sr-only", service.name));
+    } else {
+      link.append(text("span", null, service.name));
+    }
+    wrap.append(link);
+  }
+  if (services.length > limit) {
+    wrap.append(text("span", "service-more", `+${services.length - limit}`));
+  }
+  return wrap;
+}
+
 function reasonList(entry) {
   const ul = text("ul", "reasons");
   for (const reason of entry.reasons ?? []) {
@@ -210,6 +247,9 @@ function suggestionCard(entry, best) {
   if ((entry.genres ?? []).length) {
     body.append(text("div", "sug-genres", entry.genres.join(" · ")));
   }
+
+  const watch = serviceChips(entry);
+  if (watch) body.append(watch);
 
   body.append(reasonList(entry));
 
@@ -280,6 +320,7 @@ function tasteStrip(taste) {
 }
 
 function render(data) {
+  LOGOS = data.serviceLogos ?? {};
   for (const director of data.directors ?? []) KNOWN_DIRECTORS.add(director.name);
   const suggestions = data.suggestions ?? {};
   const films = suggestions.films ?? [];
@@ -321,12 +362,16 @@ function render(data) {
     let active = "all";
     let director = "all";
     let genre = "all";
+    let service = "all";
 
     const draw = () => {
       const shown = queue.filter((f) => {
         if (active !== "all" && !(f.reasons ?? []).some((r) => r.kind === active)) return false;
         if (director !== "all" && !(f.directors ?? []).includes(director)) return false;
         if (genre !== "all" && !(f.genres ?? []).includes(genre)) return false;
+        if (service !== "all" && !(f.streaming ?? []).some((s) => s.name === service)) {
+          return false;
+        }
         return true;
       });
       grid.replaceChildren(...shown.map((f) => suggestionCard(f, best)));
@@ -380,7 +425,12 @@ function render(data) {
 
     bar.append(
       facet("directors", (f) => f.directors ?? [], (v) => (director = v)),
-      facet("genres", (f) => f.genres ?? [], (v) => (genre = v))
+      facet("genres", (f) => f.genres ?? [], (v) => (genre = v)),
+      facet(
+        "services",
+        (f) => [...new Set((f.streaming ?? []).map((s) => s.name))],
+        (v) => (service = v)
+      )
     );
     bar.append(count);
 
@@ -396,7 +446,8 @@ function render(data) {
       "Suggestions come from the rest of your directors' filmographies, the series you've " +
         "started, and each year's biggest earners — scored against your own ratings, never " +
         "anyone else's, and never fetched from anywhere at page load. They update as soon " +
-        "as you rate something."
+        "as you rate something. Services come from Wikidata: the title has a page there, " +
+        "which is not the same as it streaming in your country today."
     )
   );
   main.append(note);

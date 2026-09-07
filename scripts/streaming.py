@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """Record which streaming services carry each film and show.
 
-    python3 scripts/streaming.py            # dry run
-    python3 scripts/streaming.py --apply    # write streaming.json
+    python3 scripts/streaming.py                 # dry run
+    python3 scripts/streaming.py --apply         # write streaming.json
+    python3 scripts/streaming.py --suggestions   # the what-to-watch page too
 
 Wikidata stores a per-service identifier when a title has a page on that
 service (Netflix ID, Crunchyroll series ID, and so on). That is the best signal
@@ -29,6 +30,12 @@ import shows as shows_mod
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DST = os.path.join(ROOT, "streaming.json")
+# Services for films that aren't in the sheet — the what-to-watch page. Kept in
+# its own file for the same reason suggestion-posters.json is: streaming.json is
+# "which of my films is where", and remove_film.py should never have to reason
+# about a film that was never mine.
+SUGGEST_DST = os.path.join(ROOT, "suggestion-streaming.json")
+DATA = os.path.join(ROOT, "data.json")
 
 # Verified property ids — P11460 is Plex, not Crunchyroll, despite the guess
 # that a "Crunchyroll ID" would sit near the other streaming properties.
@@ -68,8 +75,66 @@ def services_for(qid):
     return out
 
 
+def fetch_suggestions(apply):
+    """Services for the films on the what-to-watch page.
+
+    Those entries already carry a QID from the candidate pool, so there is no
+    title matching to do — one claims lookup each. The ranking moves as ratings
+    change, so this is worth rerunning now and then; a film that has since been
+    added to the sheet is dropped, because streaming.json now covers it.
+    """
+    autofill.load_cache()
+
+    entries = read(DATA, {}).get("suggestions", {}).get("films", [])
+    if not entries:
+        print("no suggestions in data.json — run scripts/extract.py first")
+        return
+
+    owned = read(DST, {}).get("films", {})
+    out = {}
+    for n, entry in enumerate(entries, 1):
+        qid = entry.get("qid")
+        if not qid:
+            continue
+        key = io.film_key(entry["title"], entry.get("year"))
+        if key in owned:
+            continue
+        if n % 25 == 0:
+            autofill.save_cache()
+        found = services_for(qid)
+        if found:
+            out[key] = found
+            print(f"  {entry['title'][:34]:34} {', '.join(s['name'] for s in found)}", flush=True)
+
+    autofill.save_cache()
+    print(f"\n{len(out)} of {len(entries)} suggestions have a listed service")
+
+    if not apply:
+        print("dry run; nothing written")
+        return
+    write(SUGGEST_DST, out)
+    print(f"wrote {SUGGEST_DST}")
+
+
+def read(path, default):
+    try:
+        with open(path) as fh:
+            return json.load(fh)
+    except (OSError, ValueError):
+        return default
+
+
+def write(path, value):
+    with open(path, "w") as fh:
+        json.dump(value, fh, indent=2, ensure_ascii=False, sort_keys=True)
+        fh.write("\n")
+
+
 def main():
     apply = "--apply" in sys.argv
+    if "--suggestions" in sys.argv:
+        fetch_suggestions(apply)
+        return
     autofill.load_cache()
 
     doc = io.open_doc()
@@ -118,9 +183,7 @@ def main():
     if not apply:
         print("dry run; nothing written")
         return
-    with open(DST, "w") as fh:
-        json.dump(out, fh, indent=2, ensure_ascii=False, sort_keys=True)
-        fh.write("\n")
+    write(DST, out)
     print(f"wrote {DST}")
 
 

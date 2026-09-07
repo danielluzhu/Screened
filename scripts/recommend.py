@@ -34,6 +34,10 @@ from numbers_io import film_key  # the one definition of "which film is this"
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 HERE = os.path.dirname(os.path.abspath(__file__))
 CACHE = os.path.join(HERE, ".wikidata-cache.json")
+# Written by scripts/streaming.py --suggestions. A film already in the sheet
+# carries its own services from streaming.json, so this only covers the
+# recommendations.
+SUGGEST_STREAMING = os.path.join(ROOT, "suggestion-streaming.json")
 
 # S is worth more than A is worth more than B; C down to F is a warning, not a
 # shrug — "something missing that does not let me enjoy" should push a director
@@ -455,6 +459,10 @@ def build(films):
         # Downloaded by scripts/posters.py --suggestions; absent until that has
         # been run, in which case the cards render a placeholder.
         art = read(os.path.join(ROOT, "suggestion-posters.json"), {})
+        # Where each one can be watched, so the page can rank the queue by what
+        # you could start tonight. Absent until streaming.py --suggestions has
+        # been run, in which case the cards simply show no services.
+        services = read(SUGGEST_STREAMING, {})
         pool = collect(films, cache)
         best = rank(pool, taste, LIMIT)
 
@@ -486,6 +494,7 @@ def build(films):
                     "reasons": entry["reasons"],
                     "qid": entry["qid"],
                     "poster": art.get(film_key(entry["title"], entry["year"])),
+                    "streaming": services.get(film_key(entry["title"], entry["year"]), []),
                     "upcoming": bool(entry["year"] and entry["year"] > this_year),
                 }
             )
@@ -515,6 +524,8 @@ def build(films):
                     **verdict,
                     "slug": film.get("slug"),
                     "poster": film.get("poster"),
+                    # Already in the sheet, so extract.py has attached these.
+                    "streaming": film.get("streaming") or [],
                     "country": film.get("country"),
                 }
             )

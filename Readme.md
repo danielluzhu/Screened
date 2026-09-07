@@ -659,12 +659,20 @@ ranking rather than parked under it; both scores come out of the same pass in
 so, links to its page, and offers a rating rather than an add — rating it is
 also what takes it off the queue.
 
-The queue filters three ways at once: the reason a film is being suggested (the
-buttons), and a director and a genre (the two dropdowns). The dropdowns are built
-from the queue itself, most-used first with counts, so they never offer an option
-that matches nothing, and the count reads `N of M · K already on your list`
-whenever a filter is on. All three combine — *Drama*, by *Wong Kar-wai*,
-suggested because of a director you like.
+The queue filters four ways at once: the reason a film is being suggested (the
+buttons), and a director, a genre and a streaming service (the three dropdowns).
+The dropdowns are built from the queue itself, most-used first with counts, so
+they never offer an option that matches nothing, and the count reads
+`N of M · K already on your list` whenever a filter is on. They all combine —
+*Drama*, by *Wong Kar-wai*, on *Netflix*, suggested because of a director you
+like.
+
+Each card carries the services that list the film, as the same brand-marked,
+logo-first chips the film list uses: they leave the site, so they shouldn't read
+as another filter. The chips answer the question the page is actually for —
+*what can I start tonight* — which a ranking alone can't. Four fit, and the rest
+count as `+N`. Read them for what Wikidata says: the title has a page on that
+service, not that it's streaming where you are today.
 
 Nothing is fetched when the page loads. The candidates are what the other
 scripts already wrote:
@@ -725,6 +733,19 @@ dashed placeholder the film list uses.
 
 Adding a suggestion claims the poster that's already on disk instead of
 re-resolving and re-downloading the identical image.
+
+Services come the same way, off the same QID:
+
+```sh
+python3 scripts/streaming.py --suggestions --apply
+```
+
+`streaming.json` only covers films in the sheet, so suggestions get their own
+index, `suggestion-streaming.json`, on the same reasoning as the posters — one
+file answers "which of my films is where", and removing a film never has to
+think about one that was never yours. A suggestion that has since been added is
+skipped, since `streaming.json` now carries it. Unrated films already in the
+sheet need none of this: `extract.py` has attached their services already.
 
 **Add to list** on a suggestion drops it into the sheet unrated, poster and all,
 without retyping it. A director's page carries the same one-click add against
