@@ -128,6 +128,62 @@ function summaryBox(film) {
   return box;
 }
 
+// The trailer, as YouTube's own player. Nothing is hosted here — trailers.json
+// holds a video id and who posted it, and the embed below is the studios' own
+// way of handing the video out.
+//
+// It loads as a still that swaps itself for the player on click. An iframe
+// dropped straight into the page would pull about a megabyte of YouTube player
+// on every film page, whether or not anyone plays it, and would let YouTube set
+// cookies for a visitor who only came to read a critique. The still costs one
+// image; -nocookie and rel=0 keep the rest as quiet as an embed gets.
+function trailerBox(film) {
+  const trailer = film.trailer;
+  if (!trailer?.id) return null;
+
+  const box = text("section", "trailer");
+  box.append(text("h2", null, "Trailer"));
+
+  const frame = text("div", "trailer-frame");
+  const play = document.createElement("button");
+  play.type = "button";
+  play.className = "trailer-play";
+  play.setAttribute("aria-label", `Play the trailer for ${film.title}`);
+
+  const still = document.createElement("img");
+  still.className = "trailer-still";
+  still.src = `https://i.ytimg.com/vi/${trailer.id}/hqdefault.jpg`;
+  still.alt = "";
+  still.loading = "lazy";
+  play.append(still, text("span", "trailer-triangle"));
+
+  play.addEventListener("click", () => {
+    const player = document.createElement("iframe");
+    player.className = "trailer-player";
+    player.src = `https://www.youtube-nocookie.com/embed/${trailer.id}?autoplay=1&rel=0`;
+    player.title = `${film.title} trailer`;
+    player.allow =
+      "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
+    player.allowFullscreen = true;
+    player.referrerPolicy = "strict-origin-when-cross-origin";
+    frame.replaceChildren(player);
+  });
+
+  frame.append(play);
+  box.append(frame);
+
+  // Who posted it, so a trailer from a retro-trailer channel rather than the
+  // distributor is visible as such rather than passing for official.
+  const credit = text("p", "trailer-credit");
+  const link = text("a", null, trailer.channel || "YouTube");
+  link.href = trailer.url || `https://www.youtube.com/watch?v=${trailer.id}`;
+  link.target = "_blank";
+  link.rel = "noopener noreferrer";
+  credit.append(document.createTextNode("On YouTube, from "), link, document.createTextNode("."));
+  box.append(credit);
+  return box;
+}
+
 function render(film, data) {
   document.title = `${film.title} — Screened`;
   const main = el("main");
@@ -181,6 +237,10 @@ function render(film, data) {
 
   const overview = summaryBox(film);
   if (overview) main.append(overview);
+
+  // Trailer then where to watch: see what it looks like, then go find it.
+  const preview = trailerBox(film);
+  if (preview) main.append(preview);
 
   const watch = streamingRow(film);
   if (watch) main.append(watch);

@@ -1343,6 +1343,109 @@ a.title-text:hover,
   font-size: 0.85rem;
 }
 
+/* The trailer sits between the summary and where-to-watch. Capped well short
+   of the wrap: a 16:9 video at full width would tower over the poster beside
+   it and turn the page into a video page. */
+.trailer {
+  margin: 22px 0 28px;
+  max-width: 640px;
+}
+
+.trailer h2 {
+  font-size: 1.05rem;
+  margin: 0 0 10px;
+}
+
+/* aspect-ratio holds the box at 16:9 before the still or the player has
+   loaded, so nothing below it jumps when either arrives. */
+.trailer-frame {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.trailer-play {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+}
+
+/* YouTube's 16:9 stills are letterboxed inside a 4:3 frame, so cover and let
+   the bars crop rather than showing black edges inside our own box. */
+.trailer-still {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: opacity 120ms ease;
+}
+
+.trailer-play:hover .trailer-still,
+.trailer-play:focus-visible .trailer-still {
+  opacity: 0.72;
+}
+
+.trailer-triangle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 64px;
+  height: 44px;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.66);
+  border: 1px solid var(--line);
+}
+
+/* The play mark itself: one triangle, drawn with borders so there is no asset
+   to load for it. */
+.trailer-triangle::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-40%, -50%);
+  border-style: solid;
+  border-width: 9px 0 9px 15px;
+  border-color: transparent transparent transparent var(--text);
+}
+
+.trailer-play:hover .trailer-triangle {
+  background: var(--accent);
+}
+
+.trailer-play:hover .trailer-triangle::after {
+  border-left-color: #000;
+}
+
+.trailer-player {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  display: block;
+}
+
+.trailer-credit {
+  margin: 8px 0 0;
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.trailer-credit a {
+  color: var(--muted);
+}
+
+.trailer-credit a:hover {
+  color: var(--text);
+}
+
 .streaming {
   margin-bottom: 28px;
 }

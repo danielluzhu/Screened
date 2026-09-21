@@ -40,6 +40,8 @@ SHOW_PHOTOS = os.path.join(ROOT, "show-photos.json")
 STREAMING = os.path.join(ROOT, "streaming.json")
 SERVICE_LOGOS = os.path.join(ROOT, "service-logos.json")
 SUMMARIES = os.path.join(ROOT, "summaries.json")
+# Written by scripts/trailers.py. Absent until that has run.
+TRAILERS = os.path.join(ROOT, "trailers.json")
 BOX_OFFICE = os.path.join(ROOT, "box-office.json")
 
 # The Country column is typed by hand on the Films sheet, so the same place
@@ -155,6 +157,13 @@ def main():
         with open(SUMMARIES) as fh:
             summaries = json.load(fh)
 
+    # Filled in by scripts/trailers.py. Just the YouTube id and who posted it —
+    # the film page embeds YouTube's own player rather than hosting anything.
+    trailers = {}
+    if os.path.exists(TRAILERS):
+        with open(TRAILERS) as fh:
+            trailers = json.load(fh)
+
     films = []
     for row in sheets["Films"][1:]:
         cols = (list(map(clean, row)) + [None] * 12)[:12]
@@ -191,6 +200,9 @@ def main():
                 ),
                 "streaming": streaming["films"].get(
                     f"{str(title).strip()}|{year if isinstance(year, int) else ''}", []
+                ),
+                "trailer": trailers.get(
+                    f"{str(title).strip()}|{year if isinstance(year, int) else ''}"
                 ),
                 # Stable id for the film's own page; made unique below.
                 "slug": film_slug(title, year if isinstance(year, int) else None),
