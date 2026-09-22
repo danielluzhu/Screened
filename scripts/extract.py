@@ -42,6 +42,8 @@ SERVICE_LOGOS = os.path.join(ROOT, "service-logos.json")
 SUMMARIES = os.path.join(ROOT, "summaries.json")
 # Written by scripts/trailers.py. Absent until that has run.
 TRAILERS = os.path.join(ROOT, "trailers.json")
+# Written by scripts/scores.py. Rated films only, so most rows have none.
+SCORES = os.path.join(ROOT, "scores.json")
 BOX_OFFICE = os.path.join(ROOT, "box-office.json")
 
 # The Country column is typed by hand on the Films sheet, so the same place
@@ -164,6 +166,14 @@ def main():
         with open(TRAILERS) as fh:
             trailers = json.load(fh)
 
+    # Filled in by scripts/scores.py: what IMDb, Rotten Tomatoes, and
+    # Letterboxd make of the films I've rated. Numbers only, each on its own
+    # scale, with the date they were read — they drift.
+    scores = {}
+    if os.path.exists(SCORES):
+        with open(SCORES) as fh:
+            scores = json.load(fh)
+
     films = []
     for row in sheets["Films"][1:]:
         cols = (list(map(clean, row)) + [None] * 12)[:12]
@@ -202,6 +212,9 @@ def main():
                     f"{str(title).strip()}|{year if isinstance(year, int) else ''}", []
                 ),
                 "trailer": trailers.get(
+                    f"{str(title).strip()}|{year if isinstance(year, int) else ''}"
+                ),
+                "scores": scores.get(
                     f"{str(title).strip()}|{year if isinstance(year, int) else ''}"
                 ),
                 # Stable id for the film's own page; made unique below.

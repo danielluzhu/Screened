@@ -128,6 +128,72 @@ function summaryBox(film) {
   return box;
 }
 
+// "1196984" -> "1.2M". Vote counts are context for how settled a score is,
+// not figures anyone reads digit by digit.
+function votes(count) {
+  if (!count) return null;
+  if (count >= 1e6) return `${(count / 1e6).toFixed(1).replace(/\.0$/, "")}M votes`;
+  if (count >= 1e3) return `${Math.round(count / 1e3)}K votes`;
+  return `${count} ${count === 1 ? "vote" : "votes"}`;
+}
+
+function scoreCard(name, url, value, scale, sub, note) {
+  const card = text(url ? "a" : "div", "score-card");
+  if (url) {
+    card.href = url;
+    card.target = "_blank";
+    card.rel = "noopener noreferrer";
+  }
+  card.append(text("span", "score-site", name));
+  const line = text("span", "score-value");
+  line.append(text("strong", null, value));
+  if (scale) line.append(text("span", "score-scale", scale));
+  card.append(line);
+  if (sub) card.append(text("span", "score-sub", sub));
+  if (note) card.append(text("span", "score-note", note));
+  return card;
+}
+
+// What everyone else thought. Sits below my own rating and reads smaller than
+// it on purpose — this is a list of my ratings, and these are here as context,
+// not as a correction.
+//
+// Each score keeps its own scale rather than being normalised to one bar:
+// IMDb's 10-point mean, a Tomatometer that is the share of critics who liked
+// it at all, and Letterboxd's 5 stars are three different measurements, and
+// rescaling them to look comparable would imply they measure the same thing.
+function scoresBox(film) {
+  const scores = film.scores;
+  if (!scores) return null;
+  const { imdb, rottenTomatoes: rt, letterboxd: lb } = scores;
+  if (!imdb && !rt && !lb) return null;
+
+  const box = text("section", "scores");
+  box.append(text("h2", null, "Elsewhere"));
+  const row = text("div", "score-row");
+
+  if (imdb?.score != null) {
+    row.append(scoreCard("IMDb", imdb.url, imdb.score.toFixed(1), "/10", votes(imdb.votes)));
+  }
+  if (rt && (rt.critics != null || rt.audience != null)) {
+    // The Tomatometer leads because it is the one people mean by "the RT
+    // score"; the audience number is the more interesting half often enough
+    // to keep, so it sits underneath rather than in its own card.
+    const critics = rt.critics != null ? `${rt.critics}%` : "—";
+    const audience = rt.audience != null ? `Audience ${rt.audience}%` : null;
+    row.append(scoreCard("Rotten Tomatoes", rt.url, critics, null, audience, "Tomatometer"));
+  }
+  if (lb?.score != null) {
+    row.append(scoreCard("Letterboxd", lb.url, lb.score.toFixed(2), "/5", votes(lb.votes)));
+  }
+
+  box.append(row);
+  if (scores.fetched) {
+    box.append(text("p", "hint", `Read ${scores.fetched}. Scores move; this is a snapshot.`));
+  }
+  return box;
+}
+
 // The trailer, as YouTube's own player. Nothing is hosted here — trailers.json
 // holds a video id and who posted it, and the embed below is the studios' own
 // way of handing the video out.
@@ -234,6 +300,10 @@ function render(film, data) {
   // be empty to the poster's right.
   head.append(facts(film, data));
   main.append(head);
+
+  // My rating is above; the outside world's is here, under the facts.
+  const elsewhere = scoresBox(film);
+  if (elsewhere) main.append(elsewhere);
 
   const overview = summaryBox(film);
   if (overview) main.append(overview);

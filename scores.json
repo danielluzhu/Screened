@@ -1,0 +1,2450 @@
+{
+  "12.12: The Day|2023": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt22507524",
+      "score": 7.5,
+      "url": "https://www.imdb.com/title/tt22507524/",
+      "votes": 5191
+    },
+    "letterboxd": {
+      "id": "1212-the-day",
+      "score": 3.76,
+      "url": "https://letterboxd.com/film/1212-the-day/",
+      "votes": 9182
+    },
+    "rottenTomatoes": {
+      "audience": 98,
+      "critics": null,
+      "id": "m/1212_the_day",
+      "url": "https://www.rottentomatoes.com/m/1212_the_day"
+    }
+  },
+  "18×2 Beyond Youthful Days|2024": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt31039829",
+      "score": 7.5,
+      "url": "https://www.imdb.com/title/tt31039829/",
+      "votes": 3563
+    },
+    "letterboxd": {
+      "id": "182-beyond-youthful-days",
+      "score": 4.08,
+      "url": "https://letterboxd.com/film/182-beyond-youthful-days/",
+      "votes": 73242
+    },
+    "rottenTomatoes": {
+      "audience": 93,
+      "critics": null,
+      "id": "m/18x2_beyond_youthful_days",
+      "url": "https://www.rottentomatoes.com/m/18x2_beyond_youthful_days"
+    }
+  },
+  "3 Idiots|2009": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt1187043",
+      "score": 8.4,
+      "url": "https://www.imdb.com/title/tt1187043/",
+      "votes": 489945
+    },
+    "letterboxd": {
+      "id": "3-idiots",
+      "score": 4.18,
+      "url": "https://letterboxd.com/film/3-idiots/",
+      "votes": 241291
+    },
+    "rottenTomatoes": {
+      "audience": 93,
+      "critics": 94,
+      "id": "m/3_idiots",
+      "url": "https://www.rottentomatoes.com/m/3_idiots"
+    }
+  },
+  "A Sun|2019": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt10883506",
+      "score": 7.6,
+      "url": "https://www.imdb.com/title/tt10883506/",
+      "votes": 11714
+    },
+    "letterboxd": {
+      "id": "a-sun",
+      "score": 3.95,
+      "url": "https://letterboxd.com/film/a-sun/",
+      "votes": 35916
+    },
+    "rottenTomatoes": {
+      "audience": 89,
+      "critics": 94,
+      "id": "m/a_sun_2019",
+      "url": "https://www.rottentomatoes.com/m/a_sun_2019"
+    }
+  },
+  "Afraid|2024": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt24577462",
+      "score": 5.2,
+      "url": "https://www.imdb.com/title/tt24577462/",
+      "votes": 18646
+    },
+    "letterboxd": {
+      "id": "afraid-2024-1",
+      "score": 1.77,
+      "url": "https://letterboxd.com/film/afraid-2024-1/",
+      "votes": 64114
+    },
+    "rottenTomatoes": {
+      "audience": 50,
+      "critics": 25,
+      "id": "m/afraid_2024",
+      "url": "https://www.rottentomatoes.com/m/afraid_2024"
+    }
+  },
+  "Anora|2025": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt28607951",
+      "score": 7.4,
+      "url": "https://www.imdb.com/title/tt28607951/",
+      "votes": 308012
+    },
+    "letterboxd": {
+      "id": "anora",
+      "score": 3.77,
+      "url": "https://letterboxd.com/film/anora/",
+      "votes": 2608807
+    },
+    "rottenTomatoes": {
+      "audience": 84,
+      "critics": 93,
+      "id": "m/anora",
+      "url": "https://www.rottentomatoes.com/m/anora"
+    }
+  },
+  "Avatar Aang: The Last Airbender|2026": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt18259538",
+      "score": 7.7,
+      "url": "https://www.imdb.com/title/tt18259538/",
+      "votes": 27629
+    },
+    "letterboxd": {
+      "id": "aang-the-last-airbender",
+      "score": 3.73,
+      "url": "https://letterboxd.com/film/aang-the-last-airbender/",
+      "votes": 269726
+    },
+    "rottenTomatoes": {
+      "audience": 99,
+      "critics": 90,
+      "id": "m/the_legend_of_aang_the_last_airbender",
+      "url": "https://www.rottentomatoes.com/m/the_legend_of_aang_the_last_airbender"
+    }
+  },
+  "Avatar: The Way of Water|2022": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt1630029",
+      "score": 7.5,
+      "url": "https://www.imdb.com/title/tt1630029/",
+      "votes": 648277
+    },
+    "letterboxd": {
+      "id": "avatar-the-way-of-water",
+      "score": 3.65,
+      "url": "https://letterboxd.com/film/avatar-the-way-of-water/",
+      "votes": 2791851
+    },
+    "rottenTomatoes": {
+      "audience": 92,
+      "critics": 76,
+      "id": "m/avatar_the_way_of_water",
+      "url": "https://www.rottentomatoes.com/m/avatar_the_way_of_water"
+    }
+  },
+  "Avatar|2009": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt0499549",
+      "score": 7.9,
+      "url": "https://www.imdb.com/title/tt0499549/",
+      "votes": 1516475
+    },
+    "letterboxd": {
+      "id": "avatar",
+      "score": 3.77,
+      "url": "https://letterboxd.com/film/avatar/",
+      "votes": 3289469
+    },
+    "rottenTomatoes": {
+      "audience": 82,
+      "critics": 81,
+      "id": "m/avatar",
+      "url": "https://www.rottentomatoes.com/m/avatar"
+    }
+  },
+  "Avengers: Infinity War|2018": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt4154756",
+      "score": 8.4,
+      "url": "https://www.imdb.com/title/tt4154756/",
+      "votes": 1411004
+    },
+    "letterboxd": {
+      "id": "avengers-infinity-war",
+      "score": 4.09,
+      "url": "https://letterboxd.com/film/avengers-infinity-war/",
+      "votes": 4007079
+    },
+    "rottenTomatoes": {
+      "audience": 92,
+      "critics": 85,
+      "id": "m/avengers_infinity_war",
+      "url": "https://www.rottentomatoes.com/m/avengers_infinity_war"
+    }
+  },
+  "Ballerina|2023": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt26350277",
+      "score": 6.3,
+      "url": "https://www.imdb.com/title/tt26350277/",
+      "votes": 20032
+    },
+    "letterboxd": {
+      "id": "ballerina-2023",
+      "score": 3.56,
+      "url": "https://letterboxd.com/film/ballerina-2023/",
+      "votes": 149157
+    },
+    "rottenTomatoes": {
+      "audience": 73,
+      "critics": 91,
+      "id": "m/ballerina_2023",
+      "url": "https://www.rottentomatoes.com/m/ballerina_2023"
+    }
+  },
+  "Battle Royale|2000": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt0266308",
+      "score": 7.5,
+      "url": "https://www.imdb.com/title/tt0266308/",
+      "votes": 208910
+    },
+    "letterboxd": {
+      "id": "battle-royale",
+      "score": 3.86,
+      "url": "https://letterboxd.com/film/battle-royale/",
+      "votes": 444417
+    },
+    "rottenTomatoes": {
+      "audience": 88,
+      "critics": 90,
+      "id": "m/battle_royale",
+      "url": "https://www.rottentomatoes.com/m/battle_royale"
+    }
+  },
+  "Black Panther|2018": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt1825683",
+      "score": 7.3,
+      "url": "https://www.imdb.com/title/tt1825683/",
+      "votes": 926859
+    },
+    "letterboxd": {
+      "id": "black-panther",
+      "score": 3.72,
+      "url": "https://letterboxd.com/film/black-panther/",
+      "votes": 3092379
+    },
+    "rottenTomatoes": {
+      "audience": 79,
+      "critics": 96,
+      "id": "m/black_panther_2018",
+      "url": "https://www.rottentomatoes.com/m/black_panther_2018"
+    }
+  },
+  "Blackberry|": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt21867434",
+      "score": 7.3,
+      "url": "https://www.imdb.com/title/tt21867434/",
+      "votes": 72904
+    },
+    "letterboxd": {
+      "id": "blackberry-2023",
+      "score": 3.77,
+      "url": "https://letterboxd.com/film/blackberry-2023/",
+      "votes": 289384
+    },
+    "rottenTomatoes": {
+      "audience": 94,
+      "critics": 97,
+      "id": "m/blackberry",
+      "url": "https://www.rottentomatoes.com/m/blackberry"
+    }
+  },
+  "Borat|2006": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt0443453",
+      "score": 7.4,
+      "url": "https://www.imdb.com/title/tt0443453/",
+      "votes": 483397
+    },
+    "letterboxd": {
+      "id": "borat-cultural-learnings-of-america-for-make-benefit-glorious-nation-of-kazakhstan",
+      "score": 3.72,
+      "url": "https://letterboxd.com/film/borat-cultural-learnings-of-america-for-make-benefit-glorious-nation-of-kazakhstan/",
+      "votes": 919924
+    },
+    "rottenTomatoes": {
+      "audience": 79,
+      "critics": 90,
+      "id": "m/borat",
+      "url": "https://www.rottentomatoes.com/m/borat"
+    }
+  },
+  "Chungking Express|1994": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt0109424",
+      "score": 7.9,
+      "url": "https://www.imdb.com/title/tt0109424/",
+      "votes": 114027
+    },
+    "letterboxd": {
+      "id": "chungking-express",
+      "score": 4.27,
+      "url": "https://letterboxd.com/film/chungking-express/",
+      "votes": 838347
+    },
+    "rottenTomatoes": {
+      "audience": 93,
+      "critics": 89,
+      "id": "m/chungking_express",
+      "url": "https://www.rottentomatoes.com/m/chungking_express"
+    }
+  },
+  "Cold War 1994|2026": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt36576750",
+      "score": 6.3,
+      "url": "https://www.imdb.com/title/tt36576750/",
+      "votes": 748
+    }
+  },
+  "Comrades: Almost a Love Story|1996": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt0117905",
+      "score": 8.1,
+      "url": "https://www.imdb.com/title/tt0117905/",
+      "votes": 9259
+    },
+    "letterboxd": {
+      "id": "comrades-almost-a-love-story",
+      "score": 4.21,
+      "url": "https://letterboxd.com/film/comrades-almost-a-love-story/",
+      "votes": 34342
+    },
+    "rottenTomatoes": {
+      "audience": 92,
+      "critics": 91,
+      "id": "m/comrades_almost_a_love_story",
+      "url": "https://www.rottentomatoes.com/m/comrades_almost_a_love_story"
+    }
+  },
+  "Concrete Utopia|2023": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt13086266",
+      "score": 6.6,
+      "url": "https://www.imdb.com/title/tt13086266/",
+      "votes": 9520
+    },
+    "letterboxd": {
+      "id": "concrete-utopia",
+      "score": 3.45,
+      "url": "https://letterboxd.com/film/concrete-utopia/",
+      "votes": 31979
+    },
+    "rottenTomatoes": {
+      "audience": 75,
+      "critics": 100,
+      "id": "m/concrete_utopia",
+      "url": "https://www.rottentomatoes.com/m/concrete_utopia"
+    }
+  },
+  "Creed 3|": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt11145118",
+      "score": 6.7,
+      "url": "https://www.imdb.com/title/tt11145118/",
+      "votes": 111225
+    },
+    "letterboxd": {
+      "id": "creed-iii",
+      "score": 3.44,
+      "url": "https://letterboxd.com/film/creed-iii/",
+      "votes": 477351
+    },
+    "rottenTomatoes": {
+      "audience": 95,
+      "critics": 89,
+      "id": "m/creed_iii",
+      "url": "https://www.rottentomatoes.com/m/creed_iii"
+    }
+  },
+  "Creed|": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt3076658",
+      "score": 7.6,
+      "url": "https://www.imdb.com/title/tt3076658/",
+      "votes": 340260
+    },
+    "letterboxd": {
+      "id": "creed",
+      "score": 3.83,
+      "url": "https://letterboxd.com/film/creed/",
+      "votes": 832972
+    },
+    "rottenTomatoes": {
+      "audience": 89,
+      "critics": 95,
+      "id": "m/creed_2015",
+      "url": "https://www.rottentomatoes.com/m/creed_2015"
+    }
+  },
+  "Dawn of the Planet of the Apes|2014": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt2103281",
+      "score": 7.6,
+      "url": "https://www.imdb.com/title/tt2103281/",
+      "votes": 515376
+    },
+    "letterboxd": {
+      "id": "dawn-of-the-planet-of-the-apes",
+      "score": 3.86,
+      "url": "https://letterboxd.com/film/dawn-of-the-planet-of-the-apes/",
+      "votes": 869707
+    },
+    "rottenTomatoes": {
+      "audience": 88,
+      "critics": 91,
+      "id": "m/dawn_of_the_planet_of_the_apes",
+      "url": "https://www.rottentomatoes.com/m/dawn_of_the_planet_of_the_apes"
+    }
+  },
+  "Dead to Rights|2025": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt36598036",
+      "score": 7.6,
+      "url": "https://www.imdb.com/title/tt36598036/",
+      "votes": 3780
+    },
+    "letterboxd": {
+      "id": "dead-to-rights-2025",
+      "score": 3.94,
+      "url": "https://letterboxd.com/film/dead-to-rights-2025/",
+      "votes": 8597
+    },
+    "rottenTomatoes": {
+      "audience": 97,
+      "critics": 100,
+      "id": "m/dead_to_rights_2025",
+      "url": "https://www.rottentomatoes.com/m/dead_to_rights_2025"
+    }
+  },
+  "Dear Ex|": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt8443704",
+      "score": 7.3,
+      "url": "https://www.imdb.com/title/tt8443704/",
+      "votes": 8165
+    },
+    "letterboxd": {
+      "id": "dear-ex",
+      "score": 3.89,
+      "url": "https://letterboxd.com/film/dear-ex/",
+      "votes": 37459
+    },
+    "rottenTomatoes": {
+      "audience": 86,
+      "critics": 90,
+      "id": "m/dear_ex",
+      "url": "https://www.rottentomatoes.com/m/dear_ex"
+    }
+  },
+  "Dear You|2026": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt41791573",
+      "score": 8.2,
+      "url": "https://www.imdb.com/title/tt41791573/",
+      "votes": 2441
+    },
+    "letterboxd": {
+      "id": "dear-you-2026",
+      "score": 4.0,
+      "url": "https://letterboxd.com/film/dear-you-2026/",
+      "votes": 14012
+    },
+    "rottenTomatoes": {
+      "audience": 98,
+      "critics": 91,
+      "id": "m/dear_you",
+      "url": "https://www.rottentomatoes.com/m/dear_you"
+    }
+  },
+  "Demon Slayer: Kimetsu no Yaiba – Infinity Castle|2025": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt32820897",
+      "score": 8.4,
+      "url": "https://www.imdb.com/title/tt32820897/",
+      "votes": 84519
+    },
+    "letterboxd": {
+      "id": "demon-slayer-kimetsu-no-yaiba-infinity-castle",
+      "score": 4.06,
+      "url": "https://letterboxd.com/film/demon-slayer-kimetsu-no-yaiba-infinity-castle/",
+      "votes": 525106
+    },
+    "rottenTomatoes": {
+      "audience": 98,
+      "critics": 98,
+      "id": "m/demon_slayer_kimetsu_no_yaiba_the_movie_infinity_castle",
+      "url": "https://www.rottentomatoes.com/m/demon_slayer_kimetsu_no_yaiba_the_movie_infinity_castle"
+    }
+  },
+  "Demon Slayer: Kimetsu no Yaiba – The Movie: Mugen Train|2020": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt11032374",
+      "score": 8.2,
+      "url": "https://www.imdb.com/title/tt11032374/",
+      "votes": 103403
+    },
+    "letterboxd": {
+      "id": "demon-slayer-kimetsu-no-yaiba-the-movie-mugen-train",
+      "score": 3.95,
+      "url": "https://letterboxd.com/film/demon-slayer-kimetsu-no-yaiba-the-movie-mugen-train/",
+      "votes": 340675
+    },
+    "rottenTomatoes": {
+      "audience": 99,
+      "critics": 98,
+      "id": "m/demon_slayer_kimetsu_no_yaiba_the_movie_mugen_train",
+      "url": "https://www.rottentomatoes.com/m/demon_slayer_kimetsu_no_yaiba_the_movie_mugen_train"
+    }
+  },
+  "Drive My Car|2021": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt14039582",
+      "score": 7.5,
+      "url": "https://www.imdb.com/title/tt14039582/",
+      "votes": 78094
+    },
+    "letterboxd": {
+      "id": "drive-my-car",
+      "score": 4.21,
+      "url": "https://letterboxd.com/film/drive-my-car/",
+      "votes": 397586
+    },
+    "rottenTomatoes": {
+      "audience": 83,
+      "critics": 97,
+      "id": "m/drive_my_car",
+      "url": "https://www.rottentomatoes.com/m/drive_my_car"
+    }
+  },
+  "Drunken Master II|1994": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt0111512",
+      "score": 7.5,
+      "url": "https://www.imdb.com/title/tt0111512/",
+      "votes": 52214
+    },
+    "letterboxd": {
+      "id": "drunken-master-ii",
+      "score": 3.96,
+      "url": "https://letterboxd.com/film/drunken-master-ii/",
+      "votes": 45444
+    },
+    "rottenTomatoes": {
+      "audience": 88,
+      "critics": 85,
+      "id": "m/legend_of_drunken_master",
+      "url": "https://www.rottentomatoes.com/m/legend_of_drunken_master"
+    }
+  },
+  "Dune: Part Two|2024": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt15239678",
+      "score": 8.4,
+      "url": "https://www.imdb.com/title/tt15239678/",
+      "votes": 794225
+    },
+    "letterboxd": {
+      "id": "dune-part-two",
+      "score": 4.38,
+      "url": "https://letterboxd.com/film/dune-part-two/",
+      "votes": 3660659
+    },
+    "rottenTomatoes": {
+      "audience": 95,
+      "critics": 92,
+      "id": "m/dune_part_two",
+      "url": "https://www.rottentomatoes.com/m/dune_part_two"
+    }
+  },
+  "Dìdi|2024": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt30319503",
+      "score": 7.3,
+      "url": "https://www.imdb.com/title/tt30319503/",
+      "votes": 16781
+    },
+    "letterboxd": {
+      "id": "didi-2024",
+      "score": 3.98,
+      "url": "https://letterboxd.com/film/didi-2024/",
+      "votes": 332991
+    },
+    "rottenTomatoes": {
+      "audience": 91,
+      "critics": 96,
+      "id": "m/didi_2024",
+      "url": "https://www.rottentomatoes.com/m/didi_2024"
+    }
+  },
+  "Eat Drink Man Woman|1994": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt0111797",
+      "score": 7.8,
+      "url": "https://www.imdb.com/title/tt0111797/",
+      "votes": 25544
+    },
+    "letterboxd": {
+      "id": "eat-drink-man-woman",
+      "score": 4.14,
+      "url": "https://letterboxd.com/film/eat-drink-man-woman/",
+      "votes": 47282
+    },
+    "rottenTomatoes": {
+      "audience": 92,
+      "critics": 88,
+      "id": "m/eat_drink_man_woman",
+      "url": "https://www.rottentomatoes.com/m/eat_drink_man_woman"
+    }
+  },
+  "Fearless|2006": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt0446059",
+      "score": 7.5,
+      "url": "https://www.imdb.com/title/tt0446059/",
+      "votes": 81801
+    },
+    "letterboxd": {
+      "id": "fearless-2006",
+      "score": 3.69,
+      "url": "https://letterboxd.com/film/fearless-2006/",
+      "votes": 24520
+    },
+    "rottenTomatoes": {
+      "audience": 86,
+      "critics": 73,
+      "id": "m/fearless",
+      "url": "https://www.rottentomatoes.com/m/fearless"
+    }
+  },
+  "Finding Nemo|2003": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt0266543",
+      "score": 8.2,
+      "url": "https://www.imdb.com/title/tt0266543/",
+      "votes": 1225831
+    },
+    "letterboxd": {
+      "id": "finding-nemo",
+      "score": 4.02,
+      "url": "https://letterboxd.com/film/finding-nemo/",
+      "votes": 2606738
+    },
+    "rottenTomatoes": {
+      "audience": 86,
+      "critics": 99,
+      "id": "m/finding_nemo",
+      "url": "https://www.rottentomatoes.com/m/finding_nemo"
+    }
+  },
+  "Forrest Gump|1994": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt0109830",
+      "score": 8.8,
+      "url": "https://www.imdb.com/title/tt0109830/",
+      "votes": 2536393
+    },
+    "letterboxd": {
+      "id": "forrest-gump",
+      "score": 4.19,
+      "url": "https://letterboxd.com/film/forrest-gump/",
+      "votes": 4299702
+    },
+    "rottenTomatoes": {
+      "audience": 95,
+      "critics": 75,
+      "id": "m/forrest_gump",
+      "url": "https://www.rottentomatoes.com/m/forrest_gump"
+    }
+  },
+  "Full River Red|2023": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt21148018",
+      "score": 6.4,
+      "url": "https://www.imdb.com/title/tt21148018/",
+      "votes": 4119
+    },
+    "letterboxd": {
+      "id": "the-red-river",
+      "score": 3.24,
+      "url": "https://letterboxd.com/film/the-red-river/",
+      "votes": 4764
+    },
+    "rottenTomatoes": {
+      "audience": 70,
+      "critics": 95,
+      "id": "m/full_river_red",
+      "url": "https://www.rottentomatoes.com/m/full_river_red"
+    }
+  },
+  "Hard Boiled|1992": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt0104684",
+      "score": 7.7,
+      "url": "https://www.imdb.com/title/tt0104684/",
+      "votes": 60774
+    },
+    "letterboxd": {
+      "id": "hard-boiled",
+      "score": 4.2,
+      "url": "https://letterboxd.com/film/hard-boiled/",
+      "votes": 143278
+    },
+    "rottenTomatoes": {
+      "audience": 92,
+      "critics": 92,
+      "id": "m/hard_boiled",
+      "url": "https://www.rottentomatoes.com/m/hard_boiled"
+    }
+  },
+  "Harold & Kumar Escape from Guantanamo Bay|2008": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt0481536",
+      "score": 6.5,
+      "url": "https://www.imdb.com/title/tt0481536/",
+      "votes": 146802
+    },
+    "letterboxd": {
+      "id": "harold-kumar-escape-from-guantanamo-bay",
+      "score": 3.03,
+      "url": "https://letterboxd.com/film/harold-kumar-escape-from-guantanamo-bay/",
+      "votes": 83247
+    },
+    "rottenTomatoes": {
+      "audience": 60,
+      "critics": 53,
+      "id": "m/harold_and_kumar_2",
+      "url": "https://www.rottentomatoes.com/m/harold_and_kumar_2"
+    }
+  },
+  "Harold & Kumar Go to White Castle|2004": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt0366551",
+      "score": 7.0,
+      "url": "https://www.imdb.com/title/tt0366551/",
+      "votes": 216582
+    },
+    "letterboxd": {
+      "id": "harold-kumar-go-to-white-castle",
+      "score": 3.41,
+      "url": "https://letterboxd.com/film/harold-kumar-go-to-white-castle/",
+      "votes": 188420
+    },
+    "rottenTomatoes": {
+      "audience": 80,
+      "critics": 75,
+      "id": "m/harold_and_kumar_go_to_white_castle",
+      "url": "https://www.rottentomatoes.com/m/harold_and_kumar_go_to_white_castle"
+    }
+  },
+  "Hero|2002": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt0299977",
+      "score": 7.9,
+      "url": "https://www.imdb.com/title/tt0299977/",
+      "votes": 195444
+    },
+    "letterboxd": {
+      "id": "hero-2002",
+      "score": 4.01,
+      "url": "https://letterboxd.com/film/hero-2002/",
+      "votes": 128203
+    },
+    "rottenTomatoes": {
+      "audience": 87,
+      "critics": 94,
+      "id": "m/hero",
+      "url": "https://www.rottentomatoes.com/m/hero"
+    }
+  },
+  "Hi, Mom|2021": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt13364790",
+      "score": 6.9,
+      "url": "https://www.imdb.com/title/tt13364790/",
+      "votes": 3787
+    },
+    "letterboxd": {
+      "id": "hi-mom-2021",
+      "score": 3.51,
+      "url": "https://letterboxd.com/film/hi-mom-2021/",
+      "votes": 4995
+    },
+    "rottenTomatoes": {
+      "audience": 93,
+      "critics": null,
+      "id": "m/hi_mom_2021",
+      "url": "https://www.rottentomatoes.com/m/hi_mom_2021"
+    }
+  },
+  "In the Mood for Love|2000": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt0118694",
+      "score": 8.0,
+      "url": "https://www.imdb.com/title/tt0118694/",
+      "votes": 191663
+    },
+    "letterboxd": {
+      "id": "in-the-mood-for-love",
+      "score": 4.37,
+      "url": "https://letterboxd.com/film/in-the-mood-for-love/",
+      "votes": 1085273
+    },
+    "rottenTomatoes": {
+      "audience": 94,
+      "critics": 92,
+      "id": "m/in_the_mood_for_love_2001",
+      "url": "https://www.rottentomatoes.com/m/in_the_mood_for_love_2001"
+    }
+  },
+  "Infernal Affairs|2002": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt0338564",
+      "score": 8.0,
+      "url": "https://www.imdb.com/title/tt0338564/",
+      "votes": 139437
+    },
+    "letterboxd": {
+      "id": "infernal-affairs",
+      "score": 4.06,
+      "url": "https://letterboxd.com/film/infernal-affairs/",
+      "votes": 121221
+    },
+    "rottenTomatoes": {
+      "audience": 95,
+      "critics": 94,
+      "id": "m/infernal_affairs",
+      "url": "https://www.rottentomatoes.com/m/infernal_affairs"
+    }
+  },
+  "Interstellar|2014": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt0816692",
+      "score": 8.7,
+      "url": "https://www.imdb.com/title/tt0816692/",
+      "votes": 2609349
+    },
+    "letterboxd": {
+      "id": "interstellar",
+      "score": 4.46,
+      "url": "https://letterboxd.com/film/interstellar/",
+      "votes": 6430059
+    },
+    "rottenTomatoes": {
+      "audience": 87,
+      "critics": 73,
+      "id": "m/interstellar_2014",
+      "url": "https://www.rottentomatoes.com/m/interstellar_2014"
+    }
+  },
+  "Ip Man 2|2010": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt1386932",
+      "score": 7.5,
+      "url": "https://www.imdb.com/title/tt1386932/",
+      "votes": 117837
+    },
+    "letterboxd": {
+      "id": "ip-man-2",
+      "score": 3.65,
+      "url": "https://letterboxd.com/film/ip-man-2/",
+      "votes": 79375
+    },
+    "rottenTomatoes": {
+      "audience": 84,
+      "critics": 97,
+      "id": "m/ip_man_2_legend_of_the_grandmaster",
+      "url": "https://www.rottentomatoes.com/m/ip_man_2_legend_of_the_grandmaster"
+    }
+  },
+  "Ip Man 3|2015": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt2888046",
+      "score": 7.0,
+      "url": "https://www.imdb.com/title/tt2888046/",
+      "votes": 65487
+    },
+    "letterboxd": {
+      "id": "ip-man-3",
+      "score": 3.27,
+      "url": "https://letterboxd.com/film/ip-man-3/",
+      "votes": 58927
+    },
+    "rottenTomatoes": {
+      "audience": 73,
+      "critics": 76,
+      "id": "m/ip_man_3",
+      "url": "https://www.rottentomatoes.com/m/ip_man_3"
+    }
+  },
+  "Ip Man 4: The Finale|2019": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt2076298",
+      "score": 7.0,
+      "url": "https://www.imdb.com/title/tt2076298/",
+      "votes": 41643
+    },
+    "letterboxd": {
+      "id": "ip-man-4-the-finale",
+      "score": 3.28,
+      "url": "https://letterboxd.com/film/ip-man-4-the-finale/",
+      "votes": 45159
+    },
+    "rottenTomatoes": {
+      "audience": 95,
+      "critics": 85,
+      "id": "m/ip_man_4_the_finale",
+      "url": "https://www.rottentomatoes.com/m/ip_man_4_the_finale"
+    }
+  },
+  "Ip Man|2008": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt1220719",
+      "score": 8.0,
+      "url": "https://www.imdb.com/title/tt1220719/",
+      "votes": 245318
+    },
+    "letterboxd": {
+      "id": "ip-man",
+      "score": 3.98,
+      "url": "https://letterboxd.com/film/ip-man/",
+      "votes": 140266
+    },
+    "rottenTomatoes": {
+      "audience": 93,
+      "critics": 86,
+      "id": "m/ip_man",
+      "url": "https://www.rottentomatoes.com/m/ip_man"
+    }
+  },
+  "KPop Demon Hunters|2025": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt14205554",
+      "score": 7.4,
+      "url": "https://www.imdb.com/title/tt14205554/",
+      "votes": 143367
+    },
+    "letterboxd": {
+      "id": "kpop-demon-hunters",
+      "score": 3.53,
+      "url": "https://letterboxd.com/film/kpop-demon-hunters/",
+      "votes": 1942834
+    },
+    "rottenTomatoes": {
+      "audience": 99,
+      "critics": 92,
+      "id": "m/kpop_demon_hunters",
+      "url": "https://www.rottentomatoes.com/m/kpop_demon_hunters"
+    }
+  },
+  "Karate Kid: Legends|2025": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt1674782",
+      "score": 6.3,
+      "url": "https://www.imdb.com/title/tt1674782/",
+      "votes": 50423
+    },
+    "letterboxd": {
+      "id": "karate-kid",
+      "score": 2.79,
+      "url": "https://letterboxd.com/film/karate-kid/",
+      "votes": 224316
+    },
+    "rottenTomatoes": {
+      "audience": 89,
+      "critics": 57,
+      "id": "m/karate_kid_legends",
+      "url": "https://www.rottentomatoes.com/m/karate_kid_legends"
+    }
+  },
+  "Kingdom of the Planet of the Apes|2024": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt11389872",
+      "score": 6.8,
+      "url": "https://www.imdb.com/title/tt11389872/",
+      "votes": 172450
+    },
+    "letterboxd": {
+      "id": "kingdom-of-the-planet-of-the-apes",
+      "score": 3.32,
+      "url": "https://letterboxd.com/film/kingdom-of-the-planet-of-the-apes/",
+      "votes": 661822
+    },
+    "rottenTomatoes": {
+      "audience": 77,
+      "critics": 80,
+      "id": "m/kingdom_of_the_planet_of_the_apes",
+      "url": "https://www.rottentomatoes.com/m/kingdom_of_the_planet_of_the_apes"
+    }
+  },
+  "Kung Fu Hustle|2004": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt0373074",
+      "score": 7.7,
+      "url": "https://www.imdb.com/title/tt0373074/",
+      "votes": 166565
+    },
+    "letterboxd": {
+      "id": "kung-fu-hustle",
+      "score": 4.03,
+      "url": "https://letterboxd.com/film/kung-fu-hustle/",
+      "votes": 248884
+    },
+    "rottenTomatoes": {
+      "audience": 89,
+      "critics": 90,
+      "id": "m/kung_fu_hustle",
+      "url": "https://www.rottentomatoes.com/m/kung_fu_hustle"
+    }
+  },
+  "Kung Fu Panda|2008": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt0441773",
+      "score": 7.6,
+      "url": "https://www.imdb.com/title/tt0441773/",
+      "votes": 590550
+    },
+    "letterboxd": {
+      "id": "kung-fu-panda",
+      "score": 3.94,
+      "url": "https://letterboxd.com/film/kung-fu-panda/",
+      "votes": 1808825
+    },
+    "rottenTomatoes": {
+      "audience": 83,
+      "critics": 87,
+      "id": "m/kung_fu_panda",
+      "url": "https://www.rottentomatoes.com/m/kung_fu_panda"
+    }
+  },
+  "La La Land|2016": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt3783958",
+      "score": 8.0,
+      "url": "https://www.imdb.com/title/tt3783958/",
+      "votes": 779096
+    },
+    "letterboxd": {
+      "id": "la-la-land",
+      "score": 4.13,
+      "url": "https://letterboxd.com/film/la-la-land/",
+      "votes": 5241825
+    },
+    "rottenTomatoes": {
+      "audience": 82,
+      "critics": 91,
+      "id": "m/la_la_land",
+      "url": "https://www.rottentomatoes.com/m/la_la_land"
+    }
+  },
+  "Life of Pi|2012": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt0454876",
+      "score": 7.9,
+      "url": "https://www.imdb.com/title/tt0454876/",
+      "votes": 706151
+    },
+    "letterboxd": {
+      "id": "life-of-pi",
+      "score": 3.77,
+      "url": "https://letterboxd.com/film/life-of-pi/",
+      "votes": 1059454
+    },
+    "rottenTomatoes": {
+      "audience": 84,
+      "critics": 86,
+      "id": "m/life-of-pi",
+      "url": "https://www.rottentomatoes.com/m/life-of-pi"
+    }
+  },
+  "Little Big Soldier|2010": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt1319718",
+      "score": 6.8,
+      "url": "https://www.imdb.com/title/tt1319718/",
+      "votes": 16770
+    },
+    "letterboxd": {
+      "id": "little-big-soldier",
+      "score": 3.32,
+      "url": "https://letterboxd.com/film/little-big-soldier/",
+      "votes": 4411
+    },
+    "rottenTomatoes": {
+      "audience": 69,
+      "critics": 79,
+      "id": "m/little_big_soldier",
+      "url": "https://www.rottentomatoes.com/m/little_big_soldier"
+    }
+  },
+  "Love in a Puff|2010": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt1602479",
+      "score": 7.1,
+      "url": "https://www.imdb.com/title/tt1602479/",
+      "votes": 3064
+    },
+    "letterboxd": {
+      "id": "love-in-a-puff",
+      "score": 3.62,
+      "url": "https://letterboxd.com/film/love-in-a-puff/",
+      "votes": 3205
+    },
+    "rottenTomatoes": {
+      "audience": 70,
+      "critics": null,
+      "id": "m/love_in_a_puff",
+      "url": "https://www.rottentomatoes.com/m/love_in_a_puff"
+    }
+  },
+  "Monster|2023": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt29941084",
+      "score": 4.7,
+      "url": "https://www.imdb.com/title/tt29941084/",
+      "votes": 1897
+    },
+    "letterboxd": {
+      "id": "monster-2023-1",
+      "score": 2.36,
+      "url": "https://letterboxd.com/film/monster-2023-1/",
+      "votes": 7911
+    },
+    "rottenTomatoes": {
+      "audience": 89,
+      "critics": null,
+      "id": "m/monster_2023_2",
+      "url": "https://www.rottentomatoes.com/m/monster_2023_2"
+    }
+  },
+  "Mowgli: Legend of the Jungle|2018": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt2388771",
+      "score": 6.5,
+      "url": "https://www.imdb.com/title/tt2388771/",
+      "votes": 70082
+    },
+    "letterboxd": {
+      "id": "mowgli-legend-of-the-jungle",
+      "score": 2.76,
+      "url": "https://letterboxd.com/film/mowgli-legend-of-the-jungle/",
+      "votes": 81477
+    },
+    "rottenTomatoes": {
+      "audience": 51,
+      "critics": 51,
+      "id": "m/mowgli_legend_of_the_jungle",
+      "url": "https://www.rottentomatoes.com/m/mowgli_legend_of_the_jungle"
+    }
+  },
+  "Mulan|1998": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt0120762",
+      "score": 7.7,
+      "url": "https://www.imdb.com/title/tt0120762/",
+      "votes": 351262
+    },
+    "letterboxd": {
+      "id": "mulan",
+      "score": 4.18,
+      "url": "https://letterboxd.com/film/mulan/",
+      "votes": 1405995
+    },
+    "rottenTomatoes": {
+      "audience": 85,
+      "critics": 92,
+      "id": "m/mulan",
+      "url": "https://www.rottentomatoes.com/m/mulan"
+    }
+  },
+  "Mulan|2020": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt4566758",
+      "score": 5.8,
+      "url": "https://www.imdb.com/title/tt4566758/",
+      "votes": 168745
+    },
+    "letterboxd": {
+      "id": "mulan-2020",
+      "score": 2.34,
+      "url": "https://letterboxd.com/film/mulan-2020/",
+      "votes": 345573
+    },
+    "rottenTomatoes": {
+      "audience": 46,
+      "critics": 71,
+      "id": "m/mulan_2020",
+      "url": "https://www.rottentomatoes.com/m/mulan_2020"
+    }
+  },
+  "Ne Zha 2|2025": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt34956443",
+      "score": 7.9,
+      "url": "https://www.imdb.com/title/tt34956443/",
+      "votes": 25940
+    },
+    "letterboxd": {
+      "id": "ne-zha-2",
+      "score": 4.13,
+      "url": "https://letterboxd.com/film/ne-zha-2/",
+      "votes": 91010
+    },
+    "rottenTomatoes": {
+      "audience": 98,
+      "critics": 91,
+      "id": "m/ne_zha_2",
+      "url": "https://www.rottentomatoes.com/m/ne_zha_2"
+    }
+  },
+  "Ne Zha|2019": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt10627720",
+      "score": 7.3,
+      "url": "https://www.imdb.com/title/tt10627720/",
+      "votes": 24183
+    },
+    "letterboxd": {
+      "id": "ne-zha",
+      "score": 3.57,
+      "url": "https://letterboxd.com/film/ne-zha/",
+      "votes": 91352
+    },
+    "rottenTomatoes": {
+      "audience": 98,
+      "critics": 90,
+      "id": "m/ne_zha",
+      "url": "https://www.rottentomatoes.com/m/ne_zha"
+    }
+  },
+  "No More Bets|2023": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt28076784",
+      "score": 6.8,
+      "url": "https://www.imdb.com/title/tt28076784/",
+      "votes": 3939
+    },
+    "letterboxd": {
+      "id": "no-more-bets",
+      "score": 3.25,
+      "url": "https://letterboxd.com/film/no-more-bets/",
+      "votes": 10147
+    }
+  },
+  "Nobody|2025": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt36733027",
+      "score": 7.8,
+      "url": "https://www.imdb.com/title/tt36733027/",
+      "votes": 2757
+    },
+    "letterboxd": {
+      "id": "nobody-2025",
+      "score": 4.05,
+      "url": "https://letterboxd.com/film/nobody-2025/",
+      "votes": 8751
+    }
+  },
+  "Nope|2022": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt10954984",
+      "score": 6.8,
+      "url": "https://www.imdb.com/title/tt10954984/",
+      "votes": 323222
+    },
+    "letterboxd": {
+      "id": "nope",
+      "score": 3.66,
+      "url": "https://letterboxd.com/film/nope/",
+      "votes": 2183289
+    },
+    "rottenTomatoes": {
+      "audience": 69,
+      "critics": 83,
+      "id": "m/nope",
+      "url": "https://www.rottentomatoes.com/m/nope"
+    }
+  },
+  "Obsession|2026": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt37287335",
+      "score": 7.8,
+      "url": "https://www.imdb.com/title/tt37287335/",
+      "votes": 372776
+    },
+    "letterboxd": {
+      "id": "obsession-2025-2",
+      "score": 4.07,
+      "url": "https://letterboxd.com/film/obsession-2025-2/",
+      "votes": 4959144
+    },
+    "rottenTomatoes": {
+      "audience": 94,
+      "critics": 93,
+      "id": "m/obsession_2025",
+      "url": "https://www.rottentomatoes.com/m/obsession_2025"
+    }
+  },
+  "Oldboy|2003": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt0364569",
+      "score": 8.3,
+      "url": "https://www.imdb.com/title/tt0364569/",
+      "votes": 732948
+    },
+    "letterboxd": {
+      "id": "oldboy",
+      "score": 4.36,
+      "url": "https://letterboxd.com/film/oldboy/",
+      "votes": 1716817
+    },
+    "rottenTomatoes": {
+      "audience": 94,
+      "critics": 82,
+      "id": "m/oldboy",
+      "url": "https://www.rottentomatoes.com/m/oldboy"
+    }
+  },
+  "One Battle After Another|2025": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt30144839",
+      "score": 7.6,
+      "url": "https://www.imdb.com/title/tt30144839/",
+      "votes": 446722
+    },
+    "letterboxd": {
+      "id": "the-battle-of-baktan-cross",
+      "score": 4.12,
+      "url": "https://letterboxd.com/film/the-battle-of-baktan-cross/",
+      "votes": 2864376
+    },
+    "rottenTomatoes": {
+      "audience": 85,
+      "critics": 94,
+      "id": "m/one_battle_after_another",
+      "url": "https://www.rottentomatoes.com/m/one_battle_after_another"
+    }
+  },
+  "One Flew Over the Cuckoo's Nest|1975": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt0073486",
+      "score": 8.6,
+      "url": "https://www.imdb.com/title/tt0073486/",
+      "votes": 1167610
+    },
+    "letterboxd": {
+      "id": "one-flew-over-the-cuckoos-nest",
+      "score": 4.37,
+      "url": "https://letterboxd.com/film/one-flew-over-the-cuckoos-nest/",
+      "votes": 1044765
+    },
+    "rottenTomatoes": {
+      "audience": 96,
+      "critics": 92,
+      "id": "m/one_flew_over_the_cuckoos_nest",
+      "url": "https://www.rottentomatoes.com/m/one_flew_over_the_cuckoos_nest"
+    }
+  },
+  "Oppenheimer|2023": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt15398776",
+      "score": 8.2,
+      "url": "https://www.imdb.com/title/tt15398776/",
+      "votes": 1098785
+    },
+    "letterboxd": {
+      "id": "oppenheimer-2023",
+      "score": 4.16,
+      "url": "https://letterboxd.com/film/oppenheimer-2023/",
+      "votes": 4631143
+    },
+    "rottenTomatoes": {
+      "audience": 91,
+      "critics": 93,
+      "id": "m/oppenheimer_2023",
+      "url": "https://www.rottentomatoes.com/m/oppenheimer_2023"
+    }
+  },
+  "Parasite|2019": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt6751668",
+      "score": 8.5,
+      "url": "https://www.imdb.com/title/tt6751668/",
+      "votes": 1196984
+    },
+    "letterboxd": {
+      "id": "parasite-2019",
+      "score": 4.52,
+      "url": "https://letterboxd.com/film/parasite-2019/",
+      "votes": 5862083
+    },
+    "rottenTomatoes": {
+      "audience": 90,
+      "critics": 99,
+      "id": "m/parasite_2019",
+      "url": "https://www.rottentomatoes.com/m/parasite_2019"
+    }
+  },
+  "Past Lives|2023": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt13238346",
+      "score": 7.8,
+      "url": "https://www.imdb.com/title/tt13238346/",
+      "votes": 178172
+    },
+    "letterboxd": {
+      "id": "past-lives",
+      "score": 4.16,
+      "url": "https://letterboxd.com/film/past-lives/",
+      "votes": 1871380
+    },
+    "rottenTomatoes": {
+      "audience": 93,
+      "critics": 95,
+      "id": "m/past_lives",
+      "url": "https://www.rottentomatoes.com/m/past_lives"
+    }
+  },
+  "Pokémon: The First Movie|1998": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt0190641",
+      "score": 6.4,
+      "url": "https://www.imdb.com/title/tt0190641/",
+      "votes": 50864
+    },
+    "letterboxd": {
+      "id": "pokemon-the-first-movie-mewtwo-strikes-back",
+      "score": 3.69,
+      "url": "https://letterboxd.com/film/pokemon-the-first-movie-mewtwo-strikes-back/",
+      "votes": 148813
+    },
+    "rottenTomatoes": {
+      "audience": 79,
+      "critics": 17,
+      "id": "m/pokemon_the_first_movie_mewtwo_vs_mew",
+      "url": "https://www.rottentomatoes.com/m/pokemon_the_first_movie_mewtwo_vs_mew"
+    }
+  },
+  "Ponyo|2008": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt0876563",
+      "score": 7.6,
+      "url": "https://www.imdb.com/title/tt0876563/",
+      "votes": 189176
+    },
+    "letterboxd": {
+      "id": "ponyo",
+      "score": 4.13,
+      "url": "https://letterboxd.com/film/ponyo/",
+      "votes": 1469475
+    },
+    "rottenTomatoes": {
+      "audience": 84,
+      "critics": 91,
+      "id": "m/ponyo",
+      "url": "https://www.rottentomatoes.com/m/ponyo"
+    }
+  },
+  "Porco Rosso|1992": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt0104652",
+      "score": 7.7,
+      "url": "https://www.imdb.com/title/tt0104652/",
+      "votes": 118788
+    },
+    "letterboxd": {
+      "id": "porco-rosso",
+      "score": 4.04,
+      "url": "https://letterboxd.com/film/porco-rosso/",
+      "votes": 612721
+    },
+    "rottenTomatoes": {
+      "audience": 87,
+      "critics": 96,
+      "id": "m/porco_rosso",
+      "url": "https://www.rottentomatoes.com/m/porco_rosso"
+    }
+  },
+  "Princess Mononoke|1997": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt0119698",
+      "score": 8.3,
+      "url": "https://www.imdb.com/title/tt0119698/",
+      "votes": 491244
+    },
+    "letterboxd": {
+      "id": "princess-mononoke",
+      "score": 4.4,
+      "url": "https://letterboxd.com/film/princess-mononoke/",
+      "votes": 1821815
+    },
+    "rottenTomatoes": {
+      "audience": 94,
+      "critics": 93,
+      "id": "m/princess_mononoke",
+      "url": "https://www.rottentomatoes.com/m/princess_mononoke"
+    }
+  },
+  "Project Hail Mary|": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt12042730",
+      "score": 8.2,
+      "url": "https://www.imdb.com/title/tt12042730/",
+      "votes": 551923
+    },
+    "letterboxd": {
+      "id": "project-hail-mary",
+      "score": 4.31,
+      "url": "https://letterboxd.com/film/project-hail-mary/",
+      "votes": 4479151
+    },
+    "rottenTomatoes": {
+      "audience": 95,
+      "critics": 95,
+      "id": "m/project_hail_mary",
+      "url": "https://www.rottentomatoes.com/m/project_hail_mary"
+    }
+  },
+  "Rise of the Planet of the Apes|2011": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt1318514",
+      "score": 7.6,
+      "url": "https://www.imdb.com/title/tt1318514/",
+      "votes": 610257
+    },
+    "letterboxd": {
+      "id": "rise-of-the-planet-of-the-apes",
+      "score": 3.69,
+      "url": "https://letterboxd.com/film/rise-of-the-planet-of-the-apes/",
+      "votes": 1027099
+    },
+    "rottenTomatoes": {
+      "audience": 77,
+      "critics": 82,
+      "id": "m/rise_of_the_planet_of_the_apes",
+      "url": "https://www.rottentomatoes.com/m/rise_of_the_planet_of_the_apes"
+    }
+  },
+  "Searching|2018": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt7668870",
+      "score": 7.6,
+      "url": "https://www.imdb.com/title/tt7668870/",
+      "votes": 195096
+    },
+    "letterboxd": {
+      "id": "searching-2018",
+      "score": 3.71,
+      "url": "https://letterboxd.com/film/searching-2018/",
+      "votes": 341517
+    },
+    "rottenTomatoes": {
+      "audience": 88,
+      "critics": 92,
+      "id": "m/searching_2018",
+      "url": "https://www.rottentomatoes.com/m/searching_2018"
+    }
+  },
+  "Seven Samurai|1954": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt0047478",
+      "score": 8.6,
+      "url": "https://www.imdb.com/title/tt0047478/",
+      "votes": 405971
+    },
+    "letterboxd": {
+      "id": "seven-samurai",
+      "score": 4.6,
+      "url": "https://letterboxd.com/film/seven-samurai/",
+      "votes": 472006
+    },
+    "rottenTomatoes": {
+      "audience": 97,
+      "critics": 100,
+      "id": "m/seven_samurai_1956",
+      "url": "https://www.rottentomatoes.com/m/seven_samurai_1956"
+    }
+  },
+  "Shang-Chi and the Legend of the Ten Rings|2021": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt9376612",
+      "score": 7.3,
+      "url": "https://www.imdb.com/title/tt9376612/",
+      "votes": 502228
+    },
+    "letterboxd": {
+      "id": "shang-chi-and-the-legend-of-the-ten-rings",
+      "score": 3.41,
+      "url": "https://letterboxd.com/film/shang-chi-and-the-legend-of-the-ten-rings/",
+      "votes": 1616152
+    },
+    "rottenTomatoes": {
+      "audience": 98,
+      "critics": 92,
+      "id": "m/shang_chi_and_the_legend_of_the_ten_rings",
+      "url": "https://www.rottentomatoes.com/m/shang_chi_and_the_legend_of_the_ten_rings"
+    }
+  },
+  "Shortcomings|2023": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt14483774",
+      "score": 6.4,
+      "url": "https://www.imdb.com/title/tt14483774/",
+      "votes": 4574
+    },
+    "letterboxd": {
+      "id": "shortcomings",
+      "score": 3.24,
+      "url": "https://letterboxd.com/film/shortcomings/",
+      "votes": 27584
+    },
+    "rottenTomatoes": {
+      "audience": 85,
+      "critics": 85,
+      "id": "m/shortcomings_2023",
+      "url": "https://www.rottentomatoes.com/m/shortcomings_2023"
+    }
+  },
+  "Snowpiercer|2013": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt1706620",
+      "score": 7.1,
+      "url": "https://www.imdb.com/title/tt1706620/",
+      "votes": 425714
+    },
+    "letterboxd": {
+      "id": "snowpiercer",
+      "score": 3.67,
+      "url": "https://letterboxd.com/film/snowpiercer/",
+      "votes": 922803
+    },
+    "rottenTomatoes": {
+      "audience": 72,
+      "critics": 94,
+      "id": "m/snowpiercer",
+      "url": "https://www.rottentomatoes.com/m/snowpiercer"
+    }
+  },
+  "Spider-Man: Across the Spider-Verse|2023": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt9362722",
+      "score": 8.5,
+      "url": "https://www.imdb.com/title/tt9362722/",
+      "votes": 553908
+    },
+    "letterboxd": {
+      "id": "spider-man-across-the-spider-verse",
+      "score": 4.4,
+      "url": "https://letterboxd.com/film/spider-man-across-the-spider-verse/",
+      "votes": 4106922
+    },
+    "rottenTomatoes": {
+      "audience": 95,
+      "critics": 95,
+      "id": "m/spider_man_across_the_spider_verse",
+      "url": "https://www.rottentomatoes.com/m/spider_man_across_the_spider_verse"
+    }
+  },
+  "Spirited Away|2001": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt0245429",
+      "score": 8.6,
+      "url": "https://www.imdb.com/title/tt0245429/",
+      "votes": 985536
+    },
+    "letterboxd": {
+      "id": "spirited-away",
+      "score": 4.43,
+      "url": "https://letterboxd.com/film/spirited-away/",
+      "votes": 4014415
+    },
+    "rottenTomatoes": {
+      "audience": 96,
+      "critics": 96,
+      "id": "m/spirited_away",
+      "url": "https://www.rottentomatoes.com/m/spirited_away"
+    }
+  },
+  "The Admiral: Roaring Currents|2014": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt3541262",
+      "score": 7.1,
+      "url": "https://www.imdb.com/title/tt3541262/",
+      "votes": 14268
+    },
+    "letterboxd": {
+      "id": "the-admiral-roaring-currents",
+      "score": 3.47,
+      "url": "https://letterboxd.com/film/the-admiral-roaring-currents/",
+      "votes": 10099
+    },
+    "rottenTomatoes": {
+      "audience": 79,
+      "critics": 88,
+      "id": "m/the_admiral_roaring_currents",
+      "url": "https://www.rottentomatoes.com/m/the_admiral_roaring_currents"
+    }
+  },
+  "The Banker|2020": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt6285944",
+      "score": 7.3,
+      "url": "https://www.imdb.com/title/tt6285944/",
+      "votes": 43745
+    },
+    "letterboxd": {
+      "id": "the-banker-2020",
+      "score": 3.51,
+      "url": "https://letterboxd.com/film/the-banker-2020/",
+      "votes": 34989
+    },
+    "rottenTomatoes": {
+      "audience": 100,
+      "critics": 78,
+      "id": "m/the_banker_2020",
+      "url": "https://www.rottentomatoes.com/m/the_banker_2020"
+    }
+  },
+  "The Best Is Yet to Come|2020": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt9284430",
+      "score": 6.7,
+      "url": "https://www.imdb.com/title/tt9284430/",
+      "votes": 2715
+    },
+    "letterboxd": {
+      "id": "the-best-is-yet-to-come-2019",
+      "score": 3.37,
+      "url": "https://letterboxd.com/film/the-best-is-yet-to-come-2019/",
+      "votes": 3549
+    },
+    "rottenTomatoes": {
+      "audience": 80,
+      "critics": null,
+      "id": "m/the_best_is_yet_to_come_2019",
+      "url": "https://www.rottentomatoes.com/m/the_best_is_yet_to_come_2019"
+    }
+  },
+  "The Farewell|2019": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt8637428",
+      "score": 7.5,
+      "url": "https://www.imdb.com/title/tt8637428/",
+      "votes": 76159
+    },
+    "letterboxd": {
+      "id": "the-farewell-2019",
+      "score": 4.06,
+      "url": "https://letterboxd.com/film/the-farewell-2019/",
+      "votes": 334336
+    },
+    "rottenTomatoes": {
+      "audience": 87,
+      "critics": 97,
+      "id": "m/the_farewell_2019",
+      "url": "https://www.rottentomatoes.com/m/the_farewell_2019"
+    }
+  },
+  "The Foreigner|2017": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt1615160",
+      "score": 7.0,
+      "url": "https://www.imdb.com/title/tt1615160/",
+      "votes": 133794
+    },
+    "letterboxd": {
+      "id": "the-foreigner-2017",
+      "score": 3.22,
+      "url": "https://letterboxd.com/film/the-foreigner-2017/",
+      "votes": 82428
+    },
+    "rottenTomatoes": {
+      "audience": 72,
+      "critics": 66,
+      "id": "m/the_foreigner_2017",
+      "url": "https://www.rottentomatoes.com/m/the_foreigner_2017"
+    }
+  },
+  "The Furious|2025": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt33311069",
+      "score": 7.2,
+      "url": "https://www.imdb.com/title/tt33311069/",
+      "votes": 26776
+    },
+    "letterboxd": {
+      "id": "the-furious",
+      "score": 3.82,
+      "url": "https://letterboxd.com/film/the-furious/",
+      "votes": 148534
+    },
+    "rottenTomatoes": {
+      "audience": 95,
+      "critics": 98,
+      "id": "m/the_furious_2025",
+      "url": "https://www.rottentomatoes.com/m/the_furious_2025"
+    }
+  },
+  "The God of Cookery|1996": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt0116426",
+      "score": 7.2,
+      "url": "https://www.imdb.com/title/tt0116426/",
+      "votes": 10937
+    },
+    "letterboxd": {
+      "id": "the-god-of-cookery",
+      "score": 3.76,
+      "url": "https://letterboxd.com/film/the-god-of-cookery/",
+      "votes": 13485
+    },
+    "rottenTomatoes": {
+      "audience": 86,
+      "critics": null,
+      "id": "m/the_god_of_cookery",
+      "url": "https://www.rottentomatoes.com/m/the_god_of_cookery"
+    }
+  },
+  "The Great Gatsby|2013": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt1343092",
+      "score": 7.2,
+      "url": "https://www.imdb.com/title/tt1343092/",
+      "votes": 650050
+    },
+    "letterboxd": {
+      "id": "the-great-gatsby-2013",
+      "score": 3.49,
+      "url": "https://letterboxd.com/film/the-great-gatsby-2013/",
+      "votes": 1602795
+    },
+    "rottenTomatoes": {
+      "audience": 67,
+      "critics": 49,
+      "id": "m/the_great_gatsby_2013",
+      "url": "https://www.rottentomatoes.com/m/the_great_gatsby_2013"
+    }
+  },
+  "The Last Dance|2024": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt31648020",
+      "score": 7.6,
+      "url": "https://www.imdb.com/title/tt31648020/",
+      "votes": 3716
+    },
+    "letterboxd": {
+      "id": "the-last-dance-2024-1",
+      "score": 3.69,
+      "url": "https://letterboxd.com/film/the-last-dance-2024-1/",
+      "votes": 9390
+    },
+    "rottenTomatoes": {
+      "audience": 97,
+      "critics": 100,
+      "id": "m/the_last_dance_2024",
+      "url": "https://www.rottentomatoes.com/m/the_last_dance_2024"
+    }
+  },
+  "The Legend of Hei 2|2025": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt37284198",
+      "score": 8.1,
+      "url": "https://www.imdb.com/title/tt37284198/",
+      "votes": 2009
+    }
+  },
+  "The Legend of Hei|2019": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt10734928",
+      "score": 7.4,
+      "url": "https://www.imdb.com/title/tt10734928/",
+      "votes": 4741
+    },
+    "letterboxd": {
+      "id": "the-legend-of-hei",
+      "score": 3.89,
+      "url": "https://letterboxd.com/film/the-legend-of-hei/",
+      "votes": 22076
+    }
+  },
+  "The Odyssey|2026": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt33764258",
+      "score": 8.4,
+      "url": "https://www.imdb.com/title/tt33764258/",
+      "votes": 501920
+    },
+    "letterboxd": {
+      "id": "the-odyssey-2026",
+      "score": 4.35,
+      "url": "https://letterboxd.com/film/the-odyssey-2026/",
+      "votes": 4393128
+    },
+    "rottenTomatoes": {
+      "audience": 96,
+      "critics": 94,
+      "id": "m/the_odyssey_2026",
+      "url": "https://www.rottentomatoes.com/m/the_odyssey_2026"
+    }
+  },
+  "The Wandering Earth|2019": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt7605074",
+      "score": 5.9,
+      "url": "https://www.imdb.com/title/tt7605074/",
+      "votes": 39945
+    },
+    "letterboxd": {
+      "id": "the-wandering-earth",
+      "score": 2.86,
+      "url": "https://letterboxd.com/film/the-wandering-earth/",
+      "votes": 29413
+    },
+    "rottenTomatoes": {
+      "audience": 51,
+      "critics": 70,
+      "id": "m/the_wandering_earth",
+      "url": "https://www.rottentomatoes.com/m/the_wandering_earth"
+    }
+  },
+  "The Wild Robot|2024": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt29623480",
+      "score": 8.1,
+      "url": "https://www.imdb.com/title/tt29623480/",
+      "votes": 238093
+    },
+    "letterboxd": {
+      "id": "the-wild-robot",
+      "score": 4.21,
+      "url": "https://letterboxd.com/film/the-wild-robot/",
+      "votes": 1441969
+    },
+    "rottenTomatoes": {
+      "audience": 98,
+      "critics": 97,
+      "id": "m/the_wild_robot",
+      "url": "https://www.rottentomatoes.com/m/the_wild_robot"
+    }
+  },
+  "Those who wish me dead|": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt3215824",
+      "score": 6.0,
+      "url": "https://www.imdb.com/title/tt3215824/",
+      "votes": 82293
+    },
+    "letterboxd": {
+      "id": "those-who-wish-me-dead",
+      "score": 2.76,
+      "url": "https://letterboxd.com/film/those-who-wish-me-dead/",
+      "votes": 97918
+    },
+    "rottenTomatoes": {
+      "audience": 86,
+      "critics": 63,
+      "id": "m/those_who_wish_me_dead",
+      "url": "https://www.rottentomatoes.com/m/those_who_wish_me_dead"
+    }
+  },
+  "Time Still Turns the Pages|2023": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt27881474",
+      "score": 7.7,
+      "url": "https://www.imdb.com/title/tt27881474/",
+      "votes": 2295
+    },
+    "letterboxd": {
+      "id": "time-still-turns-the-pages",
+      "score": 4.1,
+      "url": "https://letterboxd.com/film/time-still-turns-the-pages/",
+      "votes": 12892
+    }
+  },
+  "Toy Story|1995": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt0114709",
+      "score": 8.3,
+      "url": "https://www.imdb.com/title/tt0114709/",
+      "votes": 1199662
+    },
+    "letterboxd": {
+      "id": "toy-story",
+      "score": 4.11,
+      "url": "https://letterboxd.com/film/toy-story/",
+      "votes": 2752758
+    },
+    "rottenTomatoes": {
+      "audience": 92,
+      "critics": 100,
+      "id": "m/toy_story",
+      "url": "https://www.rottentomatoes.com/m/toy_story"
+    }
+  },
+  "Train to Busan|2016": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt5700672",
+      "score": 7.6,
+      "url": "https://www.imdb.com/title/tt5700672/",
+      "votes": 315388
+    },
+    "letterboxd": {
+      "id": "train-to-busan",
+      "score": 4.0,
+      "url": "https://letterboxd.com/film/train-to-busan/",
+      "votes": 1313801
+    },
+    "rottenTomatoes": {
+      "audience": 90,
+      "critics": 95,
+      "id": "m/train_to_busan",
+      "url": "https://www.rottentomatoes.com/m/train_to_busan"
+    }
+  },
+  "Under Paris|2024": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt13964390",
+      "score": 5.2,
+      "url": "https://www.imdb.com/title/tt13964390/",
+      "votes": 40678
+    },
+    "letterboxd": {
+      "id": "under-paris",
+      "score": 2.17,
+      "url": "https://letterboxd.com/film/under-paris/",
+      "votes": 236501
+    },
+    "rottenTomatoes": {
+      "audience": 30,
+      "critics": 63,
+      "id": "m/under_paris",
+      "url": "https://www.rottentomatoes.com/m/under_paris"
+    }
+  },
+  "Uprising|2024": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt27987046",
+      "score": 6.6,
+      "url": "https://www.imdb.com/title/tt27987046/",
+      "votes": 7518
+    },
+    "rottenTomatoes": {
+      "audience": 80,
+      "critics": 80,
+      "id": "m/uprising",
+      "url": "https://www.rottentomatoes.com/m/uprising"
+    }
+  },
+  "Us and Them|2018": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt8033592",
+      "score": 7.4,
+      "url": "https://www.imdb.com/title/tt8033592/",
+      "votes": 6536
+    },
+    "letterboxd": {
+      "id": "us-and-them-2018",
+      "score": 4.14,
+      "url": "https://letterboxd.com/film/us-and-them-2018/",
+      "votes": 58775
+    },
+    "rottenTomatoes": {
+      "audience": 64,
+      "critics": 60,
+      "id": "m/us_and_them",
+      "url": "https://www.rottentomatoes.com/m/us_and_them"
+    }
+  },
+  "Vanishing Point|2026": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt34885279",
+      "score": 6.8,
+      "url": "https://www.imdb.com/title/tt34885279/",
+      "votes": 539
+    }
+  },
+  "WALL-E|2008": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt0910970",
+      "score": 8.4,
+      "url": "https://www.imdb.com/title/tt0910970/",
+      "votes": 1342583
+    },
+    "letterboxd": {
+      "id": "walle",
+      "score": 4.25,
+      "url": "https://letterboxd.com/film/walle/",
+      "votes": 2936592
+    },
+    "rottenTomatoes": {
+      "audience": 90,
+      "critics": 95,
+      "id": "m/wall_e",
+      "url": "https://www.rottentomatoes.com/m/wall_e"
+    }
+  },
+  "Wandering Earth 2|": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt13539646",
+      "score": 6.7,
+      "url": "https://www.imdb.com/title/tt13539646/",
+      "votes": 16727
+    },
+    "letterboxd": {
+      "id": "the-wandering-earth-ii",
+      "score": 3.27,
+      "url": "https://letterboxd.com/film/the-wandering-earth-ii/",
+      "votes": 8759
+    },
+    "rottenTomatoes": {
+      "audience": 97,
+      "critics": 83,
+      "id": "m/the_wandering_earth_ii",
+      "url": "https://www.rottentomatoes.com/m/the_wandering_earth_ii"
+    }
+  },
+  "War for the Planet of the Apes|2017": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt3450958",
+      "score": 7.4,
+      "url": "https://www.imdb.com/title/tt3450958/",
+      "votes": 330389
+    },
+    "letterboxd": {
+      "id": "war-for-the-planet-of-the-apes",
+      "score": 3.83,
+      "url": "https://letterboxd.com/film/war-for-the-planet-of-the-apes/",
+      "votes": 746217
+    },
+    "rottenTomatoes": {
+      "audience": 84,
+      "critics": 94,
+      "id": "m/war_for_the_planet_of_the_apes",
+      "url": "https://www.rottentomatoes.com/m/war_for_the_planet_of_the_apes"
+    }
+  },
+  "Weathering with You|2019": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt9426210",
+      "score": 7.5,
+      "url": "https://www.imdb.com/title/tt9426210/",
+      "votes": 72489
+    },
+    "letterboxd": {
+      "id": "weathering-with-you",
+      "score": 3.72,
+      "url": "https://letterboxd.com/film/weathering-with-you/",
+      "votes": 327386
+    },
+    "rottenTomatoes": {
+      "audience": 95,
+      "critics": 92,
+      "id": "m/weathering_with_you",
+      "url": "https://www.rottentomatoes.com/m/weathering_with_you"
+    }
+  },
+  "Whiplash|2014": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt2582802",
+      "score": 8.5,
+      "url": "https://www.imdb.com/title/tt2582802/",
+      "votes": 1182368
+    },
+    "letterboxd": {
+      "id": "whiplash-2014",
+      "score": 4.42,
+      "url": "https://letterboxd.com/film/whiplash-2014/",
+      "votes": 4810289
+    },
+    "rottenTomatoes": {
+      "audience": 94,
+      "critics": 94,
+      "id": "m/whiplash_2014",
+      "url": "https://www.rottentomatoes.com/m/whiplash_2014"
+    }
+  },
+  "Wolf Warrior 2|2017": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt7131870",
+      "score": 5.9,
+      "url": "https://www.imdb.com/title/tt7131870/",
+      "votes": 9713
+    },
+    "letterboxd": {
+      "id": "wolf-warrior-2",
+      "score": 2.74,
+      "url": "https://letterboxd.com/film/wolf-warrior-2/",
+      "votes": 5642
+    },
+    "rottenTomatoes": {
+      "audience": 74,
+      "critics": 67,
+      "id": "m/wolf_warrior_ii",
+      "url": "https://www.rottentomatoes.com/m/wolf_warrior_ii"
+    }
+  },
+  "Wolf Warrior|2015": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt3540136",
+      "score": 5.3,
+      "url": "https://www.imdb.com/title/tt3540136/",
+      "votes": 6554
+    },
+    "letterboxd": {
+      "id": "wolf-warrior",
+      "score": 2.56,
+      "url": "https://letterboxd.com/film/wolf-warrior/",
+      "votes": 4286
+    },
+    "rottenTomatoes": {
+      "audience": 22,
+      "critics": null,
+      "id": "m/wolf_warrior_2015",
+      "url": "https://www.rottentomatoes.com/m/wolf_warrior_2015"
+    }
+  },
+  "You Are the Apple of My Eye|2011": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt2036416",
+      "score": 7.5,
+      "url": "https://www.imdb.com/title/tt2036416/",
+      "votes": 12521
+    },
+    "letterboxd": {
+      "id": "you-are-the-apple-of-my-eye",
+      "score": 3.65,
+      "url": "https://letterboxd.com/film/you-are-the-apple-of-my-eye/",
+      "votes": 18191
+    }
+  },
+  "Your Name|2016": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt5311514",
+      "score": 8.4,
+      "url": "https://www.imdb.com/title/tt5311514/",
+      "votes": 405460
+    },
+    "letterboxd": {
+      "id": "your-name",
+      "score": 4.24,
+      "url": "https://letterboxd.com/film/your-name/",
+      "votes": 1686778
+    },
+    "rottenTomatoes": {
+      "audience": 95,
+      "critics": 98,
+      "id": "m/your_name_2017",
+      "url": "https://www.rottentomatoes.com/m/your_name_2017"
+    }
+  },
+  "Zootopia 2|2025": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt26443597",
+      "score": 7.3,
+      "url": "https://www.imdb.com/title/tt26443597/",
+      "votes": 155259
+    },
+    "letterboxd": {
+      "id": "zootopia-2",
+      "score": 3.67,
+      "url": "https://letterboxd.com/film/zootopia-2/",
+      "votes": 1969473
+    },
+    "rottenTomatoes": {
+      "audience": 95,
+      "critics": 92,
+      "id": "m/zootopia_2",
+      "url": "https://www.rottentomatoes.com/m/zootopia_2"
+    }
+  },
+  "Zootopia|2016": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt2948356",
+      "score": 8.0,
+      "url": "https://www.imdb.com/title/tt2948356/",
+      "votes": 650061
+    },
+    "letterboxd": {
+      "id": "zootopia",
+      "score": 3.78,
+      "url": "https://letterboxd.com/film/zootopia/",
+      "votes": 2243035
+    },
+    "rottenTomatoes": {
+      "audience": 92,
+      "critics": 98,
+      "id": "m/zootopia",
+      "url": "https://www.rottentomatoes.com/m/zootopia"
+    }
+  },
+  "keanu|": {
+    "fetched": "2026-09-22",
+    "imdb": {
+      "id": "tt4139124",
+      "score": 6.2,
+      "url": "https://www.imdb.com/title/tt4139124/",
+      "votes": 56040
+    },
+    "letterboxd": {
+      "id": "keanu",
+      "score": 3.03,
+      "url": "https://letterboxd.com/film/keanu/",
+      "votes": 78948
+    },
+    "rottenTomatoes": {
+      "audience": 55,
+      "critics": 78,
+      "id": "m/keanu_2016",
+      "url": "https://www.rottentomatoes.com/m/keanu_2016"
+    }
+  }
+}

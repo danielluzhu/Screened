@@ -1343,6 +1343,88 @@ a.title-text:hover,
   font-size: 0.85rem;
 }
 
+/* Outside scores, under the facts. Deliberately quieter than the tier badge
+   above them: smaller type, panel grey rather than the accent, no bars or
+   meters. They are context for my rating, not a scoreboard competing with it. */
+.scores {
+  margin: 4px 0 22px;
+}
+
+.scores h2 {
+  font-size: 1.05rem;
+  margin: 0 0 10px;
+}
+
+.score-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+/* Fixed minimum so three cards line up even though "8.5", "99%" and "4.52"
+   are different widths; they wrap to two rows on a phone rather than
+   squeezing. */
+.score-card {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 132px;
+  padding: 10px 14px;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  text-decoration: none;
+  color: inherit;
+}
+
+a.score-card:hover {
+  border-color: var(--accent);
+  background: var(--panel-2);
+}
+
+.score-site {
+  font-size: 0.72rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.score-value {
+  display: flex;
+  align-items: baseline;
+  gap: 3px;
+}
+
+.score-value strong {
+  font-size: 1.5rem;
+  font-weight: 650;
+  line-height: 1.1;
+}
+
+/* "/10" and "/5" ride along with the number so nobody has to guess the scale
+   — the three sites don't share one. */
+.score-scale {
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.score-sub {
+  font-size: 0.78rem;
+  color: var(--muted);
+}
+
+.score-note {
+  font-size: 0.7rem;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--muted);
+  opacity: 0.75;
+}
+
+.scores .hint {
+  margin: 8px 0 0;
+}
+
 /* The trailer sits between the summary and where-to-watch. Capped well short
    of the wrap: a 16:9 video at full width would tower over the poster beside
    it and turn the page into a video page. */

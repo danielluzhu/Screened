@@ -22697,7 +22697,7 @@
         "country": null
       }
     ],
-    "rated": 118,
+    "rated": 122,
     "taste": {
       "directors": [
         {
@@ -22889,6 +22889,27 @@
         "title": "Ne Zha 2 | Official Trailer HD | A24",
         "url": "https://www.youtube.com/watch?v=ETlOSBR92Fs"
       },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt34956443",
+          "score": 7.9,
+          "url": "https://www.imdb.com/title/tt34956443/",
+          "votes": 25940
+        },
+        "letterboxd": {
+          "id": "ne-zha-2",
+          "score": 4.13,
+          "url": "https://letterboxd.com/film/ne-zha-2/",
+          "votes": 91010
+        },
+        "rottenTomatoes": {
+          "audience": 98,
+          "critics": 91,
+          "id": "m/ne_zha_2",
+          "url": "https://www.rottentomatoes.com/m/ne_zha_2"
+        }
+      },
       "slug": "ne-zha-2-2025",
       "genres": [
         "Adventure",
@@ -22963,6 +22984,27 @@
         "title": "Parasite 기생충 - Official Trailer",
         "url": "https://www.youtube.com/watch?v=SEUXfv87Wpk"
       },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt6751668",
+          "score": 8.5,
+          "url": "https://www.imdb.com/title/tt6751668/",
+          "votes": 1196984
+        },
+        "letterboxd": {
+          "id": "parasite-2019",
+          "score": 4.52,
+          "url": "https://letterboxd.com/film/parasite-2019/",
+          "votes": 5862083
+        },
+        "rottenTomatoes": {
+          "audience": 90,
+          "critics": 99,
+          "id": "m/parasite_2019",
+          "url": "https://www.rottentomatoes.com/m/parasite_2019"
+        }
+      },
       "slug": "parasite-2019",
       "genres": [
         "Comedy",
@@ -23020,6 +23062,27 @@
         "seconds": 117,
         "title": "OLDBOY - Official Trailer",
         "url": "https://www.youtube.com/watch?v=tAaBkFChaRg"
+      },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt0364569",
+          "score": 8.3,
+          "url": "https://www.imdb.com/title/tt0364569/",
+          "votes": 732948
+        },
+        "letterboxd": {
+          "id": "oldboy",
+          "score": 4.36,
+          "url": "https://letterboxd.com/film/oldboy/",
+          "votes": 1716817
+        },
+        "rottenTomatoes": {
+          "audience": 94,
+          "critics": 82,
+          "id": "m/oldboy",
+          "url": "https://www.rottentomatoes.com/m/oldboy"
+        }
       },
       "slug": "oldboy-2003",
       "genres": [
@@ -23082,6 +23145,27 @@
         "title": "IP MAN 4 (2019) Official US Teaser | Donnie Yen, Scott Adkins Martial Arts Movie",
         "url": "https://www.youtube.com/watch?v=BSwVBI_HcFo"
       },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt2076298",
+          "score": 7.0,
+          "url": "https://www.imdb.com/title/tt2076298/",
+          "votes": 41643
+        },
+        "letterboxd": {
+          "id": "ip-man-4-the-finale",
+          "score": 3.28,
+          "url": "https://letterboxd.com/film/ip-man-4-the-finale/",
+          "votes": 45159
+        },
+        "rottenTomatoes": {
+          "audience": 95,
+          "critics": 85,
+          "id": "m/ip_man_4_the_finale",
+          "url": "https://www.rottentomatoes.com/m/ip_man_4_the_finale"
+        }
+      },
       "slug": "ip-man-4-the-finale-2019",
       "genres": [
         "Martial arts",
@@ -23140,6 +23224,27 @@
         "seconds": 85,
         "title": "IN THE MOOD FOR LOVE | Official Trailer | 20th Anniversary Restoration",
         "url": "https://www.youtube.com/watch?v=m8GuedsQnWQ"
+      },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt0118694",
+          "score": 8.0,
+          "url": "https://www.imdb.com/title/tt0118694/",
+          "votes": 191663
+        },
+        "letterboxd": {
+          "id": "in-the-mood-for-love",
+          "score": 4.37,
+          "url": "https://letterboxd.com/film/in-the-mood-for-love/",
+          "votes": 1085273
+        },
+        "rottenTomatoes": {
+          "audience": 94,
+          "critics": 92,
+          "id": "m/in_the_mood_for_love_2001",
+          "url": "https://www.rottentomatoes.com/m/in_the_mood_for_love_2001"
+        }
       },
       "slug": "in-the-mood-for-love-2000",
       "genres": [
@@ -23200,6 +23305,27 @@
         "title": "Eat Drink Man Woman Official Trailer #1 - Sihung Lung Movie (1994) HD",
         "url": "https://www.youtube.com/watch?v=l7pKpO8NErU"
       },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt0111797",
+          "score": 7.8,
+          "url": "https://www.imdb.com/title/tt0111797/",
+          "votes": 25544
+        },
+        "letterboxd": {
+          "id": "eat-drink-man-woman",
+          "score": 4.14,
+          "url": "https://letterboxd.com/film/eat-drink-man-woman/",
+          "votes": 47282
+        },
+        "rottenTomatoes": {
+          "audience": 92,
+          "critics": 88,
+          "id": "m/eat_drink_man_woman",
+          "url": "https://www.rottentomatoes.com/m/eat_drink_man_woman"
+        }
+      },
       "slug": "eat-drink-man-woman-1994",
       "genres": [
         "Drama",
@@ -23253,6 +23379,27 @@
         "seconds": 91,
         "title": "18×2 Beyond Youthful Days - Official Trailer",
         "url": "https://www.youtube.com/watch?v=PSuYA5JQV-Y"
+      },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt31039829",
+          "score": 7.5,
+          "url": "https://www.imdb.com/title/tt31039829/",
+          "votes": 3563
+        },
+        "letterboxd": {
+          "id": "182-beyond-youthful-days",
+          "score": 4.08,
+          "url": "https://letterboxd.com/film/182-beyond-youthful-days/",
+          "votes": 73242
+        },
+        "rottenTomatoes": {
+          "audience": 93,
+          "critics": null,
+          "id": "m/18x2_beyond_youthful_days",
+          "url": "https://www.rottentomatoes.com/m/18x2_beyond_youthful_days"
+        }
       },
       "slug": "18-2-beyond-youthful-days-2024",
       "genres": [
@@ -23310,6 +23457,27 @@
         "title": "3 Idiots | OFFICIAL trailer #1 US/indian (2009)",
         "url": "https://www.youtube.com/watch?v=K0eDlFX9GMc"
       },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt1187043",
+          "score": 8.4,
+          "url": "https://www.imdb.com/title/tt1187043/",
+          "votes": 489945
+        },
+        "letterboxd": {
+          "id": "3-idiots",
+          "score": 4.18,
+          "url": "https://letterboxd.com/film/3-idiots/",
+          "votes": 241291
+        },
+        "rottenTomatoes": {
+          "audience": 93,
+          "critics": 94,
+          "id": "m/3_idiots",
+          "url": "https://www.rottentomatoes.com/m/3_idiots"
+        }
+      },
       "slug": "3-idiots-2009",
       "genres": [
         "Comedy",
@@ -23352,6 +23520,21 @@
         "seconds": 48,
         "title": "TIME STILL TURNS THE PAGES 年少日記 (2023) Official Hong Kong Trailer English Subtitles 4K",
         "url": "https://www.youtube.com/watch?v=Vwc7vJC4PR0"
+      },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt27881474",
+          "score": 7.7,
+          "url": "https://www.imdb.com/title/tt27881474/",
+          "votes": 2295
+        },
+        "letterboxd": {
+          "id": "time-still-turns-the-pages",
+          "score": 4.1,
+          "url": "https://letterboxd.com/film/time-still-turns-the-pages/",
+          "votes": 12892
+        }
       },
       "slug": "time-still-turns-the-pages-2023",
       "genres": [
@@ -23414,6 +23597,27 @@
         "title": "IP MAN Trailer (2009)",
         "url": "https://www.youtube.com/watch?v=n3fCl5CXoM0"
       },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt1220719",
+          "score": 8.0,
+          "url": "https://www.imdb.com/title/tt1220719/",
+          "votes": 245318
+        },
+        "letterboxd": {
+          "id": "ip-man",
+          "score": 3.98,
+          "url": "https://letterboxd.com/film/ip-man/",
+          "votes": 140266
+        },
+        "rottenTomatoes": {
+          "audience": 93,
+          "critics": 86,
+          "id": "m/ip_man",
+          "url": "https://www.rottentomatoes.com/m/ip_man"
+        }
+      },
       "slug": "ip-man-2008",
       "genres": [
         "Action",
@@ -23475,6 +23679,27 @@
         "title": "Your Name. | Official Trailer",
         "url": "https://www.youtube.com/watch?v=RuyHIkXdYf8"
       },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt5311514",
+          "score": 8.4,
+          "url": "https://www.imdb.com/title/tt5311514/",
+          "votes": 405460
+        },
+        "letterboxd": {
+          "id": "your-name",
+          "score": 4.24,
+          "url": "https://letterboxd.com/film/your-name/",
+          "votes": 1686778
+        },
+        "rottenTomatoes": {
+          "audience": 95,
+          "critics": 98,
+          "id": "m/your_name_2017",
+          "url": "https://www.rottentomatoes.com/m/your_name_2017"
+        }
+      },
       "slug": "your-name-2016",
       "genres": [
         "Coming-of-age",
@@ -23528,6 +23753,27 @@
         "seconds": 113,
         "title": "Pokémon: The First Movie (1999) Trailer #1 | Movieclips Classic Trailers",
         "url": "https://www.youtube.com/watch?v=egDYQSUEsHg"
+      },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt0190641",
+          "score": 6.4,
+          "url": "https://www.imdb.com/title/tt0190641/",
+          "votes": 50864
+        },
+        "letterboxd": {
+          "id": "pokemon-the-first-movie-mewtwo-strikes-back",
+          "score": 3.69,
+          "url": "https://letterboxd.com/film/pokemon-the-first-movie-mewtwo-strikes-back/",
+          "votes": 148813
+        },
+        "rottenTomatoes": {
+          "audience": 79,
+          "critics": 17,
+          "id": "m/pokemon_the_first_movie_mewtwo_vs_mew",
+          "url": "https://www.rottentomatoes.com/m/pokemon_the_first_movie_mewtwo_vs_mew"
+        }
       },
       "slug": "pok-mon-the-first-movie-1998",
       "genres": [
@@ -23592,6 +23838,27 @@
         "title": "Trailer | Drunken Master II | Warner Archive",
         "url": "https://www.youtube.com/watch?v=p4X2naY_2-k"
       },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt0111512",
+          "score": 7.5,
+          "url": "https://www.imdb.com/title/tt0111512/",
+          "votes": 52214
+        },
+        "letterboxd": {
+          "id": "drunken-master-ii",
+          "score": 3.96,
+          "url": "https://letterboxd.com/film/drunken-master-ii/",
+          "votes": 45444
+        },
+        "rottenTomatoes": {
+          "audience": 88,
+          "critics": 85,
+          "id": "m/legend_of_drunken_master",
+          "url": "https://www.rottentomatoes.com/m/legend_of_drunken_master"
+        }
+      },
       "slug": "drunken-master-ii-1994",
       "genres": [
         "Martial arts",
@@ -23633,6 +23900,27 @@
         "seconds": 82,
         "title": "Hero   - Official Trailer [HD]",
         "url": "https://www.youtube.com/watch?v=Az6bTMh6_hs"
+      },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt0299977",
+          "score": 7.9,
+          "url": "https://www.imdb.com/title/tt0299977/",
+          "votes": 195444
+        },
+        "letterboxd": {
+          "id": "hero-2002",
+          "score": 4.01,
+          "url": "https://letterboxd.com/film/hero-2002/",
+          "votes": 128203
+        },
+        "rottenTomatoes": {
+          "audience": 87,
+          "critics": 94,
+          "id": "m/hero",
+          "url": "https://www.rottentomatoes.com/m/hero"
+        }
       },
       "slug": "hero-2002",
       "genres": [
@@ -23690,6 +23978,27 @@
         "seconds": 105,
         "title": "Kung Fu Hustle (2004) Official Trailer HD",
         "url": "https://www.youtube.com/watch?v=kr4vFDZBegM"
+      },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt0373074",
+          "score": 7.7,
+          "url": "https://www.imdb.com/title/tt0373074/",
+          "votes": 166565
+        },
+        "letterboxd": {
+          "id": "kung-fu-hustle",
+          "score": 4.03,
+          "url": "https://letterboxd.com/film/kung-fu-hustle/",
+          "votes": 248884
+        },
+        "rottenTomatoes": {
+          "audience": 89,
+          "critics": 90,
+          "id": "m/kung_fu_hustle",
+          "url": "https://www.rottentomatoes.com/m/kung_fu_hustle"
+        }
       },
       "slug": "kung-fu-hustle-2004",
       "genres": [
@@ -23749,6 +24058,27 @@
         "seconds": 105,
         "title": "Infernal Affairs (2002) Official Trailer #1 - Alan Mak Movie HD",
         "url": "https://www.youtube.com/watch?v=ZSeDiGRFVUk"
+      },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt0338564",
+          "score": 8.0,
+          "url": "https://www.imdb.com/title/tt0338564/",
+          "votes": 139437
+        },
+        "letterboxd": {
+          "id": "infernal-affairs",
+          "score": 4.06,
+          "url": "https://letterboxd.com/film/infernal-affairs/",
+          "votes": 121221
+        },
+        "rottenTomatoes": {
+          "audience": 95,
+          "critics": 94,
+          "id": "m/infernal_affairs",
+          "url": "https://www.rottentomatoes.com/m/infernal_affairs"
+        }
       },
       "slug": "infernal-affairs-2002",
       "genres": [
@@ -23811,6 +24141,7 @@
         "title": "'' house of flying daggers '' - official trailer 2004.",
         "url": "https://www.youtube.com/watch?v=Q2wESvbtVLE"
       },
+      "scores": null,
       "slug": "house-of-flying-daggers-2004",
       "genres": [
         "Fantasy",
@@ -23874,6 +24205,27 @@
         "title": "Fearless | Official Trailer [HD] | Netflix",
         "url": "https://www.youtube.com/watch?v=DT0avi4Qy3E"
       },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt0446059",
+          "score": 7.5,
+          "url": "https://www.imdb.com/title/tt0446059/",
+          "votes": 81801
+        },
+        "letterboxd": {
+          "id": "fearless-2006",
+          "score": 3.69,
+          "url": "https://letterboxd.com/film/fearless-2006/",
+          "votes": 24520
+        },
+        "rottenTomatoes": {
+          "audience": 86,
+          "critics": 73,
+          "id": "m/fearless",
+          "url": "https://www.rottentomatoes.com/m/fearless"
+        }
+      },
       "slug": "fearless-2006",
       "genres": [
         "Action",
@@ -23932,6 +24284,27 @@
         "seconds": 162,
         "title": "CHUNGKING EXPRESS 4K | Official Trailer (English)",
         "url": "https://www.youtube.com/watch?v=OPCug9jyG9k"
+      },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt0109424",
+          "score": 7.9,
+          "url": "https://www.imdb.com/title/tt0109424/",
+          "votes": 114027
+        },
+        "letterboxd": {
+          "id": "chungking-express",
+          "score": 4.27,
+          "url": "https://letterboxd.com/film/chungking-express/",
+          "votes": 838347
+        },
+        "rottenTomatoes": {
+          "audience": 93,
+          "critics": 89,
+          "id": "m/chungking_express",
+          "url": "https://www.rottentomatoes.com/m/chungking_express"
+        }
       },
       "slug": "chungking-express-1994",
       "genres": [
@@ -23992,6 +24365,27 @@
         "title": "Hard Boiled  | Official Trailer | 4K",
         "url": "https://www.youtube.com/watch?v=N_XBwks_MB8"
       },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt0104684",
+          "score": 7.7,
+          "url": "https://www.imdb.com/title/tt0104684/",
+          "votes": 60774
+        },
+        "letterboxd": {
+          "id": "hard-boiled",
+          "score": 4.2,
+          "url": "https://letterboxd.com/film/hard-boiled/",
+          "votes": 143278
+        },
+        "rottenTomatoes": {
+          "audience": 92,
+          "critics": 92,
+          "id": "m/hard_boiled",
+          "url": "https://www.rottentomatoes.com/m/hard_boiled"
+        }
+      },
       "slug": "hard-boiled-1992",
       "genres": [
         "Action",
@@ -24049,6 +24443,27 @@
         "seconds": 90,
         "title": "One Flew Over the Cuckoo's Nest | 4K Restoration - Official UK Trailer",
         "url": "https://www.youtube.com/watch?v=F4da9uRIg8c"
+      },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt0073486",
+          "score": 8.6,
+          "url": "https://www.imdb.com/title/tt0073486/",
+          "votes": 1167610
+        },
+        "letterboxd": {
+          "id": "one-flew-over-the-cuckoos-nest",
+          "score": 4.37,
+          "url": "https://letterboxd.com/film/one-flew-over-the-cuckoos-nest/",
+          "votes": 1044765
+        },
+        "rottenTomatoes": {
+          "audience": 96,
+          "critics": 92,
+          "id": "m/one_flew_over_the_cuckoos_nest",
+          "url": "https://www.rottentomatoes.com/m/one_flew_over_the_cuckoos_nest"
+        }
       },
       "slug": "one-flew-over-the-cuckoo-s-nest-1975",
       "genres": [
@@ -24118,6 +24533,27 @@
         "title": "Spirited Away - Official Trailer",
         "url": "https://www.youtube.com/watch?v=ByXuk9QqQkk"
       },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt0245429",
+          "score": 8.6,
+          "url": "https://www.imdb.com/title/tt0245429/",
+          "votes": 985536
+        },
+        "letterboxd": {
+          "id": "spirited-away",
+          "score": 4.43,
+          "url": "https://letterboxd.com/film/spirited-away/",
+          "votes": 4014415
+        },
+        "rottenTomatoes": {
+          "audience": 96,
+          "critics": 96,
+          "id": "m/spirited_away",
+          "url": "https://www.rottentomatoes.com/m/spirited_away"
+        }
+      },
       "slug": "spirited-away-2001",
       "genres": [
         "Fantasy",
@@ -24183,6 +24619,7 @@
         "title": "My Neighbor Totoro - Official Trailer",
         "url": "https://www.youtube.com/watch?v=92a7Hj0ijLs"
       },
+      "scores": null,
       "slug": "my-neighbor-totoro-1988",
       "genres": [
         "Fantasy",
@@ -24242,6 +24679,7 @@
         "title": "PERFECT DAYS - Official Trailer",
         "url": "https://www.youtube.com/watch?v=QzZBbX5A1FA"
       },
+      "scores": null,
       "slug": "perfect-days-2024",
       "genres": [
         "Drama"
@@ -24298,6 +24736,7 @@
         "title": "PERFECT BLUE | Official Trailer",
         "url": "https://www.youtube.com/watch?v=Olsdzqe2y9Y"
       },
+      "scores": null,
       "slug": "perfect-blue-1997",
       "genres": [
         "Anime",
@@ -24352,6 +24791,7 @@
         "title": "Rurouni Kenshin - Official Trailer",
         "url": "https://www.youtube.com/watch?v=f8cFqHeUVMs"
       },
+      "scores": null,
       "slug": "rurouni-kenshin-2012",
       "genres": [
         "Action"
@@ -24410,6 +24850,7 @@
         "title": "A Silent Voice - Official Trailer",
         "url": "https://www.youtube.com/watch?v=nfK6UgLra7g"
       },
+      "scores": null,
       "slug": "a-silent-voice-2016",
       "genres": [
         "Drama",
@@ -24472,6 +24913,7 @@
         "title": "Howl's Moving Castle - Official Trailer",
         "url": "https://www.youtube.com/watch?v=iwROgK94zcM"
       },
+      "scores": null,
       "slug": "howl-s-moving-castle-2004",
       "genres": [
         "Fantasy",
@@ -24528,6 +24970,7 @@
         "title": "Grave of the Fireflies | Official Trailer | Netflix",
         "url": "https://www.youtube.com/watch?v=lhlh7JVcTt8"
       },
+      "scores": null,
       "slug": "grave-of-the-fireflies-1988",
       "genres": [
         "Anime",
@@ -24593,6 +25036,7 @@
         "title": "Akira | Official Trailer | Crunchyroll",
         "url": "https://www.youtube.com/watch?v=E-FH3O_753Q"
       },
+      "scores": null,
       "slug": "akira-1988",
       "genres": [
         "Science fiction",
@@ -24657,6 +25101,7 @@
         "title": "Nausicaä of the Valley of the Wind - Official Trailer",
         "url": "https://www.youtube.com/watch?v=6zhLBe319KE"
       },
+      "scores": null,
       "slug": "nausica-of-the-valley-of-the-wind-1984",
       "genres": [
         "Anime",
@@ -24718,6 +25163,7 @@
         "title": "Ghost in The Shell | Official Trailer | 4K Remaster | Experience It In IMAX®",
         "url": "https://www.youtube.com/watch?v=aADTX6CmIx4"
       },
+      "scores": null,
       "slug": "ghost-in-the-shell-1995",
       "genres": [
         "Science fiction",
@@ -24779,6 +25225,7 @@
         "title": "PAPRIKA [2007] - Official Trailer (HD)",
         "url": "https://www.youtube.com/watch?v=PIUqozzyW2k"
       },
+      "scores": null,
       "slug": "paprika-2006",
       "genres": [
         "Science fiction",
@@ -24836,6 +25283,7 @@
         "title": "Ikiru (1952) Original Trailer [4K]",
         "url": "https://www.youtube.com/watch?v=geKhyNerWM8"
       },
+      "scores": null,
       "slug": "ikiru-1952",
       "genres": [
         "Drama"
@@ -24892,6 +25340,7 @@
         "title": "CROUCHING TIGER, HIDDEN DRAGON | Official Trailer",
         "url": "https://www.youtube.com/watch?v=q-HrIQLdaNE"
       },
+      "scores": null,
       "slug": "crouching-tiger-hidden-dragon-2000",
       "genres": [
         "Romance",
@@ -24950,6 +25399,7 @@
         "title": "THE BATTLE AT LAKE CHANGJIN  Official Trailer | 长津湖官方预告片",
         "url": "https://www.youtube.com/watch?v=7MlTVsKHoC0"
       },
+      "scores": null,
       "slug": "the-battle-at-lake-changjin-2021",
       "genres": [
         "War",
@@ -25002,6 +25452,27 @@
         "seconds": 126,
         "title": "The Wandering Earth | Official Trailer [HD] | Netflix",
         "url": "https://www.youtube.com/watch?v=0TDII5IkI3Y"
+      },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt7605074",
+          "score": 5.9,
+          "url": "https://www.imdb.com/title/tt7605074/",
+          "votes": 39945
+        },
+        "letterboxd": {
+          "id": "the-wandering-earth",
+          "score": 2.86,
+          "url": "https://letterboxd.com/film/the-wandering-earth/",
+          "votes": 29413
+        },
+        "rottenTomatoes": {
+          "audience": 51,
+          "critics": 70,
+          "id": "m/the_wandering_earth",
+          "url": "https://www.rottentomatoes.com/m/the_wandering_earth"
+        }
       },
       "slug": "the-wandering-earth-2019",
       "genres": [
@@ -25066,6 +25537,27 @@
         "title": "WOLF WARRIOR 2 Official Trailer | Dramatic Action Martial Arts Adventure | Directed by Wu Jing",
         "url": "https://www.youtube.com/watch?v=Wy4WQdkgxQk"
       },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt7131870",
+          "score": 5.9,
+          "url": "https://www.imdb.com/title/tt7131870/",
+          "votes": 9713
+        },
+        "letterboxd": {
+          "id": "wolf-warrior-2",
+          "score": 2.74,
+          "url": "https://letterboxd.com/film/wolf-warrior-2/",
+          "votes": 5642
+        },
+        "rottenTomatoes": {
+          "audience": 74,
+          "critics": 67,
+          "id": "m/wolf_warrior_ii",
+          "url": "https://www.rottentomatoes.com/m/wolf_warrior_ii"
+        }
+      },
       "slug": "wolf-warrior-2-2017",
       "genres": [
         "Action",
@@ -25123,6 +25615,21 @@
         "title": "No More Bets - Official Trailer",
         "url": "https://www.youtube.com/watch?v=-4x7bVqclYY"
       },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt28076784",
+          "score": 6.8,
+          "url": "https://www.imdb.com/title/tt28076784/",
+          "votes": 3939
+        },
+        "letterboxd": {
+          "id": "no-more-bets",
+          "score": 3.25,
+          "url": "https://letterboxd.com/film/no-more-bets/",
+          "votes": 10147
+        }
+      },
       "slug": "no-more-bets-2023",
       "genres": [
         "Crime",
@@ -25175,6 +25682,7 @@
         "title": "THE EIGHT HUNDRED Official Trailer (2020) War Movie",
         "url": "https://www.youtube.com/watch?v=CBt8WtcG8Dw"
       },
+      "scores": null,
       "slug": "the-eight-hundred-2020",
       "genres": [
         "Action",
@@ -25228,6 +25736,27 @@
         "seconds": 97,
         "title": "The Admiral: Roaring Currents - Official Trailer",
         "url": "https://www.youtube.com/watch?v=KoVntru_qUo"
+      },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt3541262",
+          "score": 7.1,
+          "url": "https://www.imdb.com/title/tt3541262/",
+          "votes": 14268
+        },
+        "letterboxd": {
+          "id": "the-admiral-roaring-currents",
+          "score": 3.47,
+          "url": "https://letterboxd.com/film/the-admiral-roaring-currents/",
+          "votes": 10099
+        },
+        "rottenTomatoes": {
+          "audience": 79,
+          "critics": 88,
+          "id": "m/the_admiral_roaring_currents",
+          "url": "https://www.rottentomatoes.com/m/the_admiral_roaring_currents"
+        }
       },
       "slug": "the-admiral-roaring-currents-2014",
       "genres": [
@@ -25289,6 +25818,7 @@
         "title": "Extreme Job (2019) | Tráiler Subtitulado en Español Latino",
         "url": "https://www.youtube.com/watch?v=rW_lbNfOwmE"
       },
+      "scores": null,
       "slug": "extreme-job-2019",
       "genres": [
         "Comedy",
@@ -25351,6 +25881,7 @@
         "title": "TAXI DRIVER - Trailer Oficial Português",
         "url": "https://www.youtube.com/watch?v=PQhQWubUnws"
       },
+      "scores": null,
       "slug": "a-taxi-driver-2017",
       "genres": [
         "Action",
@@ -25414,6 +25945,7 @@
         "title": "The Host - Official Trailer",
         "url": "https://www.youtube.com/watch?v=xrLY0wO06l4"
       },
+      "scores": null,
       "slug": "the-host-2006",
       "genres": [
         "Horror",
@@ -25468,6 +26000,7 @@
         "title": "Assassination Classroom - Official Trailer",
         "url": "https://www.youtube.com/watch?v=kgNkGohA20k"
       },
+      "scores": null,
       "slug": "assassination-2015",
       "genres": [
         "Drama",
@@ -25526,6 +26059,7 @@
         "title": "THE KILLER 4K Restoration | Official Trailer",
         "url": "https://www.youtube.com/watch?v=0pWmMNXE3YI"
       },
+      "scores": null,
       "slug": "the-killer-1989",
       "genres": [
         "Action",
@@ -25584,6 +26118,7 @@
         "title": "\"Lust, Caution\" Trailer",
         "url": "https://www.youtube.com/watch?v=CizN-DvGhrc"
       },
+      "scores": null,
       "slug": "lust-caution-2007",
       "genres": [
         "Crime",
@@ -25644,6 +26179,7 @@
         "title": "Drunken Master (1978) trailer",
         "url": "https://www.youtube.com/watch?v=KQMNllz6aE0"
       },
+      "scores": null,
       "slug": "drunken-master-1978",
       "genres": [
         "Action",
@@ -25697,6 +26233,7 @@
         "title": "POLICE STORY Trailer",
         "url": "https://www.youtube.com/watch?v=EpXMJ3wo0kI"
       },
+      "scores": null,
       "slug": "police-story-1985",
       "genres": [
         "Action",
@@ -25758,6 +26295,7 @@
         "title": "Fist of Fury (1972) - Official Trailer ",
         "url": "https://www.youtube.com/watch?v=jo9p60FeZ64"
       },
+      "scores": null,
       "slug": "fist-of-fury-1972",
       "genres": [
         "Action",
@@ -25817,6 +26355,7 @@
         "title": "Farewell My Concubine  — Official Trailer (1993)",
         "url": "https://www.youtube.com/watch?v=atCm9rzt1KI"
       },
+      "scores": null,
       "slug": "farewell-my-concubine-1993",
       "genres": [
         "Drama",
@@ -25870,6 +26409,7 @@
         "title": "Once Upon a Time in China (1991) ORIGINAL TRAILER [SUB]",
         "url": "https://www.youtube.com/watch?v=6vWSoSki3XI"
       },
+      "scores": null,
       "slug": "once-upon-a-time-in-china-1991",
       "genres": [
         "Action",
@@ -25930,6 +26470,7 @@
         "title": "Get Out - In Theaters This February - Official Trailer",
         "url": "https://www.youtube.com/watch?v=sRfnevzM9kQ"
       },
+      "scores": null,
       "slug": "get-out-2017",
       "genres": [
         "Horror",
@@ -25994,6 +26535,7 @@
         "title": "The Dark Knight - Official Trailer 2 [HD]",
         "url": "https://www.youtube.com/watch?v=TQfATDZY5Y4"
       },
+      "scores": null,
       "slug": "the-dark-knight-2008",
       "genres": [
         "Action",
@@ -26061,6 +26603,7 @@
         "title": "THE GODFATHER Trailer (1972)",
         "url": "https://www.youtube.com/watch?v=5pJ7W4MksY0"
       },
+      "scores": null,
       "slug": "the-godfather-1972",
       "genres": [
         "Historical",
@@ -26132,6 +26675,7 @@
         "title": "Pulp Fiction Official Trailer #1 - (1994) HD",
         "url": "https://www.youtube.com/watch?v=s7EdQ4FqbhY"
       },
+      "scores": null,
       "slug": "pulp-fiction-1994",
       "genres": [
         "Crime",
@@ -26191,6 +26735,7 @@
         "title": "JOKER – Final Trailer – Warner Bros.",
         "url": "https://www.youtube.com/watch?v=xRjvmVaFHkk"
       },
+      "scores": null,
       "slug": "joker-2019",
       "genres": [
         "Crime",
@@ -26249,6 +26794,7 @@
         "title": "A Brighter Summer Day   Trailer",
         "url": "https://www.youtube.com/watch?v=anQZGICuIZk"
       },
+      "scores": null,
       "slug": "a-brighter-summer-day-1991",
       "genres": [
         "Drama"
@@ -26299,6 +26845,27 @@
         "seconds": 77,
         "title": "A Sun (2019) | Official Trailer",
         "url": "https://www.youtube.com/watch?v=4nP8upbpMIc"
+      },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt10883506",
+          "score": 7.6,
+          "url": "https://www.imdb.com/title/tt10883506/",
+          "votes": 11714
+        },
+        "letterboxd": {
+          "id": "a-sun",
+          "score": 3.95,
+          "url": "https://letterboxd.com/film/a-sun/",
+          "votes": 35916
+        },
+        "rottenTomatoes": {
+          "audience": 89,
+          "critics": 94,
+          "id": "m/a_sun_2019",
+          "url": "https://www.rottentomatoes.com/m/a_sun_2019"
+        }
       },
       "slug": "a-sun-2019",
       "genres": [
@@ -26357,6 +26924,7 @@
         "title": "Big Fish & Begonia | Official Trailer [HD] | Netflix",
         "url": "https://www.youtube.com/watch?v=ErQLQMpRPXk"
       },
+      "scores": null,
       "slug": "big-fish-begonia-2016",
       "genres": [
         "Fantasy",
@@ -26399,6 +26967,7 @@
         "title": "Lost and Found (1996) DVD Trailer 天涯海角",
         "url": "https://www.youtube.com/watch?v=y9lP6AHlNm4"
       },
+      "scores": null,
       "slug": "lost-and-found-1996",
       "genres": [
         "Drama",
@@ -26456,6 +27025,7 @@
         "title": "Exiled (2006) Original Trailer [FHD]",
         "url": "https://www.youtube.com/watch?v=XfiLZ1WLV0c"
       },
+      "scores": null,
       "slug": "exiled-2006",
       "genres": [
         "Action",
@@ -26509,6 +27079,7 @@
         "title": "The Mission Trailer",
         "url": "https://www.youtube.com/watch?v=HU14R9hbUFc"
       },
+      "scores": null,
       "slug": "the-mission-1999",
       "genres": [
         "Crime"
@@ -26565,6 +27136,7 @@
         "title": "Election (2005) Original Trailer [FHD]",
         "url": "https://www.youtube.com/watch?v=nDkN8rhoX34"
       },
+      "scores": null,
       "slug": "election-2005",
       "genres": [
         "Crime",
@@ -26606,6 +27178,27 @@
         "seconds": 144,
         "title": "Us And Them - Official Trailer [HD] | Netflix",
         "url": "https://www.youtube.com/watch?v=-xSs_xsf5sI"
+      },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt8033592",
+          "score": 7.4,
+          "url": "https://www.imdb.com/title/tt8033592/",
+          "votes": 6536
+        },
+        "letterboxd": {
+          "id": "us-and-them-2018",
+          "score": 4.14,
+          "url": "https://letterboxd.com/film/us-and-them-2018/",
+          "votes": 58775
+        },
+        "rottenTomatoes": {
+          "audience": 64,
+          "critics": 60,
+          "id": "m/us_and_them",
+          "url": "https://www.rottentomatoes.com/m/us_and_them"
+        }
       },
       "slug": "us-and-them-2018",
       "genres": [
@@ -26669,6 +27262,27 @@
         "title": "Princess Mononoke - Official Trailer",
         "url": "https://www.youtube.com/watch?v=4OiMOHRDs14"
       },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt0119698",
+          "score": 8.3,
+          "url": "https://www.imdb.com/title/tt0119698/",
+          "votes": 491244
+        },
+        "letterboxd": {
+          "id": "princess-mononoke",
+          "score": 4.4,
+          "url": "https://letterboxd.com/film/princess-mononoke/",
+          "votes": 1821815
+        },
+        "rottenTomatoes": {
+          "audience": 94,
+          "critics": 93,
+          "id": "m/princess_mononoke",
+          "url": "https://www.rottentomatoes.com/m/princess_mononoke"
+        }
+      },
       "slug": "princess-mononoke-1997",
       "genres": [
         "Fantasy",
@@ -26729,6 +27343,27 @@
         "seconds": 104,
         "title": "Battle Royale Official Blu-Ray Trailer - Cult Classic Movie (2000)",
         "url": "https://www.youtube.com/watch?v=N0p1t-dC7Ko"
+      },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt0266308",
+          "score": 7.5,
+          "url": "https://www.imdb.com/title/tt0266308/",
+          "votes": 208910
+        },
+        "letterboxd": {
+          "id": "battle-royale",
+          "score": 3.86,
+          "url": "https://letterboxd.com/film/battle-royale/",
+          "votes": 444417
+        },
+        "rottenTomatoes": {
+          "audience": 88,
+          "critics": 90,
+          "id": "m/battle_royale",
+          "url": "https://www.rottentomatoes.com/m/battle_royale"
+        }
       },
       "slug": "battle-royale-2000",
       "genres": [
@@ -26795,6 +27430,27 @@
         "title": "Ip Man 2 - Official Trailer",
         "url": "https://www.youtube.com/watch?v=4ynwOQX1A7k"
       },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt1386932",
+          "score": 7.5,
+          "url": "https://www.imdb.com/title/tt1386932/",
+          "votes": 117837
+        },
+        "letterboxd": {
+          "id": "ip-man-2",
+          "score": 3.65,
+          "url": "https://letterboxd.com/film/ip-man-2/",
+          "votes": 79375
+        },
+        "rottenTomatoes": {
+          "audience": 84,
+          "critics": 97,
+          "id": "m/ip_man_2_legend_of_the_grandmaster",
+          "url": "https://www.rottentomatoes.com/m/ip_man_2_legend_of_the_grandmaster"
+        }
+      },
       "slug": "ip-man-2-2010",
       "genres": [
         "Action",
@@ -26854,6 +27510,27 @@
         "seconds": 98,
         "title": "Train to Busan Official Trailer 1 (2016) - Yoo Gong Movie",
         "url": "https://www.youtube.com/watch?v=1ovgxN2VWNc"
+      },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt5700672",
+          "score": 7.6,
+          "url": "https://www.imdb.com/title/tt5700672/",
+          "votes": 315388
+        },
+        "letterboxd": {
+          "id": "train-to-busan",
+          "score": 4.0,
+          "url": "https://letterboxd.com/film/train-to-busan/",
+          "votes": 1313801
+        },
+        "rottenTomatoes": {
+          "audience": 90,
+          "critics": 95,
+          "id": "m/train_to_busan",
+          "url": "https://www.rottentomatoes.com/m/train_to_busan"
+        }
       },
       "slug": "train-to-busan-2016",
       "genres": [
@@ -26916,6 +27593,27 @@
         "title": "SEARCHING - Official International Trailer - In Cinemas September 2018",
         "url": "https://www.youtube.com/watch?v=9eccvs0b_oU"
       },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt7668870",
+          "score": 7.6,
+          "url": "https://www.imdb.com/title/tt7668870/",
+          "votes": 195096
+        },
+        "letterboxd": {
+          "id": "searching-2018",
+          "score": 3.71,
+          "url": "https://letterboxd.com/film/searching-2018/",
+          "votes": 341517
+        },
+        "rottenTomatoes": {
+          "audience": 88,
+          "critics": 92,
+          "id": "m/searching_2018",
+          "url": "https://www.rottentomatoes.com/m/searching_2018"
+        }
+      },
       "slug": "searching-2018",
       "genres": [
         "Drama",
@@ -26973,6 +27671,27 @@
         "seconds": 140,
         "title": "Harold and Kumar Go to White Castle - Original Theatrical Trailer",
         "url": "https://www.youtube.com/watch?v=PjPSqp12wtk"
+      },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt0366551",
+          "score": 7.0,
+          "url": "https://www.imdb.com/title/tt0366551/",
+          "votes": 216582
+        },
+        "letterboxd": {
+          "id": "harold-kumar-go-to-white-castle",
+          "score": 3.41,
+          "url": "https://letterboxd.com/film/harold-kumar-go-to-white-castle/",
+          "votes": 188420
+        },
+        "rottenTomatoes": {
+          "audience": 80,
+          "critics": 75,
+          "id": "m/harold_and_kumar_go_to_white_castle",
+          "url": "https://www.rottentomatoes.com/m/harold_and_kumar_go_to_white_castle"
+        }
       },
       "slug": "harold-kumar-go-to-white-castle-2004",
       "genres": [
@@ -27033,6 +27752,27 @@
         "title": "Harold and Kumar Escape From Guantanamo Bay - Original Theatrical Trailer",
         "url": "https://www.youtube.com/watch?v=HCsrvuxF9AM"
       },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt0481536",
+          "score": 6.5,
+          "url": "https://www.imdb.com/title/tt0481536/",
+          "votes": 146802
+        },
+        "letterboxd": {
+          "id": "harold-kumar-escape-from-guantanamo-bay",
+          "score": 3.03,
+          "url": "https://letterboxd.com/film/harold-kumar-escape-from-guantanamo-bay/",
+          "votes": 83247
+        },
+        "rottenTomatoes": {
+          "audience": 60,
+          "critics": 53,
+          "id": "m/harold_and_kumar_2",
+          "url": "https://www.rottentomatoes.com/m/harold_and_kumar_2"
+        }
+      },
       "slug": "harold-kumar-escape-from-guantanamo-bay-2008",
       "genres": [
         "Comedy",
@@ -27091,6 +27831,27 @@
         "seconds": 306,
         "title": "Forrest Gump - Official Trailer (1994)",
         "url": "https://www.youtube.com/watch?v=YNh9Es8Ut6U"
+      },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt0109830",
+          "score": 8.8,
+          "url": "https://www.imdb.com/title/tt0109830/",
+          "votes": 2536393
+        },
+        "letterboxd": {
+          "id": "forrest-gump",
+          "score": 4.19,
+          "url": "https://letterboxd.com/film/forrest-gump/",
+          "votes": 4299702
+        },
+        "rottenTomatoes": {
+          "audience": 95,
+          "critics": 75,
+          "id": "m/forrest_gump",
+          "url": "https://www.rottentomatoes.com/m/forrest_gump"
+        }
       },
       "slug": "forrest-gump-1994",
       "genres": [
@@ -27152,6 +27913,27 @@
         "seconds": 89,
         "title": "Finding Nemo (2003) DVD Trailer ￼",
         "url": "https://www.youtube.com/watch?v=hr4Xd5GrSeQ"
+      },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt0266543",
+          "score": 8.2,
+          "url": "https://www.imdb.com/title/tt0266543/",
+          "votes": 1225831
+        },
+        "letterboxd": {
+          "id": "finding-nemo",
+          "score": 4.02,
+          "url": "https://letterboxd.com/film/finding-nemo/",
+          "votes": 2606738
+        },
+        "rottenTomatoes": {
+          "audience": 86,
+          "critics": 99,
+          "id": "m/finding_nemo",
+          "url": "https://www.rottentomatoes.com/m/finding_nemo"
+        }
       },
       "slug": "finding-nemo-2003",
       "genres": [
@@ -27217,6 +27999,27 @@
         "seconds": 88,
         "title": "WALL-E 2008 Official Teaser Trailer ",
         "url": "https://www.youtube.com/watch?v=8PFqz6dI6BQ"
+      },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt0910970",
+          "score": 8.4,
+          "url": "https://www.imdb.com/title/tt0910970/",
+          "votes": 1342583
+        },
+        "letterboxd": {
+          "id": "walle",
+          "score": 4.25,
+          "url": "https://letterboxd.com/film/walle/",
+          "votes": 2936592
+        },
+        "rottenTomatoes": {
+          "audience": 90,
+          "critics": 95,
+          "id": "m/wall_e",
+          "url": "https://www.rottentomatoes.com/m/wall_e"
+        }
       },
       "slug": "wall-e-2008",
       "genres": [
@@ -27285,6 +28088,27 @@
         "title": "Mulan (1998) Official Trailer",
         "url": "https://www.youtube.com/watch?v=sRtZaSkBp58"
       },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt0120762",
+          "score": 7.7,
+          "url": "https://www.imdb.com/title/tt0120762/",
+          "votes": 351262
+        },
+        "letterboxd": {
+          "id": "mulan",
+          "score": 4.18,
+          "url": "https://letterboxd.com/film/mulan/",
+          "votes": 1405995
+        },
+        "rottenTomatoes": {
+          "audience": 85,
+          "critics": 92,
+          "id": "m/mulan",
+          "url": "https://www.rottentomatoes.com/m/mulan"
+        }
+      },
       "slug": "mulan-1998",
       "genres": [
         "Musical",
@@ -27348,6 +28172,27 @@
         "title": "Kung Fu Panda IMAX® Trailer",
         "url": "https://www.youtube.com/watch?v=5BNTVQznCAU"
       },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt0441773",
+          "score": 7.6,
+          "url": "https://www.imdb.com/title/tt0441773/",
+          "votes": 590550
+        },
+        "letterboxd": {
+          "id": "kung-fu-panda",
+          "score": 3.94,
+          "url": "https://letterboxd.com/film/kung-fu-panda/",
+          "votes": 1808825
+        },
+        "rottenTomatoes": {
+          "audience": 83,
+          "critics": 87,
+          "id": "m/kung_fu_panda",
+          "url": "https://www.rottentomatoes.com/m/kung_fu_panda"
+        }
+      },
       "slug": "kung-fu-panda-2008",
       "genres": [
         "Action",
@@ -27404,6 +28249,27 @@
         "seconds": 62,
         "title": "Comrades, Almost a Love Story 甜蜜蜜 (1996) Official Hong Kong Trailer HD 1080 HK Neo Film Shop",
         "url": "https://www.youtube.com/watch?v=x1g7VSYwJ44"
+      },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt0117905",
+          "score": 8.1,
+          "url": "https://www.imdb.com/title/tt0117905/",
+          "votes": 9259
+        },
+        "letterboxd": {
+          "id": "comrades-almost-a-love-story",
+          "score": 4.21,
+          "url": "https://letterboxd.com/film/comrades-almost-a-love-story/",
+          "votes": 34342
+        },
+        "rottenTomatoes": {
+          "audience": 92,
+          "critics": 91,
+          "id": "m/comrades_almost_a_love_story",
+          "url": "https://www.rottentomatoes.com/m/comrades_almost_a_love_story"
+        }
       },
       "slug": "comrades-almost-a-love-story-1996",
       "genres": [
@@ -27467,6 +28333,27 @@
         "seconds": 164,
         "title": "Rise of the Planet of the Apes | Official  International Trailer | 2011",
         "url": "https://www.youtube.com/watch?v=VzDt7uBBIOI"
+      },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt1318514",
+          "score": 7.6,
+          "url": "https://www.imdb.com/title/tt1318514/",
+          "votes": 610257
+        },
+        "letterboxd": {
+          "id": "rise-of-the-planet-of-the-apes",
+          "score": 3.69,
+          "url": "https://letterboxd.com/film/rise-of-the-planet-of-the-apes/",
+          "votes": 1027099
+        },
+        "rottenTomatoes": {
+          "audience": 77,
+          "critics": 82,
+          "id": "m/rise_of_the_planet_of_the_apes",
+          "url": "https://www.rottentomatoes.com/m/rise_of_the_planet_of_the_apes"
+        }
       },
       "slug": "rise-of-the-planet-of-the-apes-2011",
       "genres": [
@@ -27534,6 +28421,27 @@
         "title": "Dawn of the Planet of the Apes | Official Trailer #2 HD | 2014",
         "url": "https://www.youtube.com/watch?v=rf5e7Xc1Hwk"
       },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt2103281",
+          "score": 7.6,
+          "url": "https://www.imdb.com/title/tt2103281/",
+          "votes": 515376
+        },
+        "letterboxd": {
+          "id": "dawn-of-the-planet-of-the-apes",
+          "score": 3.86,
+          "url": "https://letterboxd.com/film/dawn-of-the-planet-of-the-apes/",
+          "votes": 869707
+        },
+        "rottenTomatoes": {
+          "audience": 88,
+          "critics": 91,
+          "id": "m/dawn_of_the_planet_of_the_apes",
+          "url": "https://www.rottentomatoes.com/m/dawn_of_the_planet_of_the_apes"
+        }
+      },
       "slug": "dawn-of-the-planet-of-the-apes-2014",
       "genres": [
         "Science fiction",
@@ -27592,6 +28500,27 @@
         "title": "Past Lives | Official Trailer HD | A24",
         "url": "https://www.youtube.com/watch?v=kA244xewjcI"
       },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt13238346",
+          "score": 7.8,
+          "url": "https://www.imdb.com/title/tt13238346/",
+          "votes": 178172
+        },
+        "letterboxd": {
+          "id": "past-lives",
+          "score": 4.16,
+          "url": "https://letterboxd.com/film/past-lives/",
+          "votes": 1871380
+        },
+        "rottenTomatoes": {
+          "audience": 93,
+          "critics": 95,
+          "id": "m/past_lives",
+          "url": "https://www.rottentomatoes.com/m/past_lives"
+        }
+      },
       "slug": "past-lives-2023",
       "genres": [
         "Drama"
@@ -27637,6 +28566,27 @@
         "seconds": 109,
         "title": "Monster - Official Trailer",
         "url": "https://www.youtube.com/watch?v=aEZ6_iPNn3E"
+      },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt29941084",
+          "score": 4.7,
+          "url": "https://www.imdb.com/title/tt29941084/",
+          "votes": 1897
+        },
+        "letterboxd": {
+          "id": "monster-2023-1",
+          "score": 2.36,
+          "url": "https://letterboxd.com/film/monster-2023-1/",
+          "votes": 7911
+        },
+        "rottenTomatoes": {
+          "audience": 89,
+          "critics": null,
+          "id": "m/monster_2023_2",
+          "url": "https://www.rottentomatoes.com/m/monster_2023_2"
+        }
       },
       "slug": "monster-2023",
       "genres": [
@@ -27697,6 +28647,27 @@
         "title": "Weathering With You [Official English Dub Trailer - GKIDS] - January 15",
         "url": "https://www.youtube.com/watch?v=ps8qwWG8Uio"
       },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt9426210",
+          "score": 7.5,
+          "url": "https://www.imdb.com/title/tt9426210/",
+          "votes": 72489
+        },
+        "letterboxd": {
+          "id": "weathering-with-you",
+          "score": 3.72,
+          "url": "https://letterboxd.com/film/weathering-with-you/",
+          "votes": 327386
+        },
+        "rottenTomatoes": {
+          "audience": 95,
+          "critics": 92,
+          "id": "m/weathering_with_you",
+          "url": "https://www.rottentomatoes.com/m/weathering_with_you"
+        }
+      },
       "slug": "weathering-with-you-2019",
       "genres": [
         "Anime",
@@ -27754,6 +28725,27 @@
         "title": "Seven Samurai - Official 70th Anniversary 4K Restoration Trailer",
         "url": "https://www.youtube.com/watch?v=GWhUEKyTU6I"
       },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt0047478",
+          "score": 8.6,
+          "url": "https://www.imdb.com/title/tt0047478/",
+          "votes": 405971
+        },
+        "letterboxd": {
+          "id": "seven-samurai",
+          "score": 4.6,
+          "url": "https://letterboxd.com/film/seven-samurai/",
+          "votes": 472006
+        },
+        "rottenTomatoes": {
+          "audience": 97,
+          "critics": 100,
+          "id": "m/seven_samurai_1956",
+          "url": "https://www.rottentomatoes.com/m/seven_samurai_1956"
+        }
+      },
       "slug": "seven-samurai-1954",
       "genres": [
         "Drama",
@@ -27797,6 +28789,27 @@
         "seconds": 93,
         "title": "Ballerina | Official Trailer | Netflix [ENG SUB]",
         "url": "https://www.youtube.com/watch?v=IhXfUTGVEUI"
+      },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt26350277",
+          "score": 6.3,
+          "url": "https://www.imdb.com/title/tt26350277/",
+          "votes": 20032
+        },
+        "letterboxd": {
+          "id": "ballerina-2023",
+          "score": 3.56,
+          "url": "https://letterboxd.com/film/ballerina-2023/",
+          "votes": 149157
+        },
+        "rottenTomatoes": {
+          "audience": 73,
+          "critics": 91,
+          "id": "m/ballerina_2023",
+          "url": "https://www.rottentomatoes.com/m/ballerina_2023"
+        }
       },
       "slug": "ballerina-2023",
       "genres": [
@@ -27860,6 +28873,27 @@
         "title": "PORCO ROSSO | Official English Trailer",
         "url": "https://www.youtube.com/watch?v=3LRyNwYg1f8"
       },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt0104652",
+          "score": 7.7,
+          "url": "https://www.imdb.com/title/tt0104652/",
+          "votes": 118788
+        },
+        "letterboxd": {
+          "id": "porco-rosso",
+          "score": 4.04,
+          "url": "https://letterboxd.com/film/porco-rosso/",
+          "votes": 612721
+        },
+        "rottenTomatoes": {
+          "audience": 87,
+          "critics": 96,
+          "id": "m/porco_rosso",
+          "url": "https://www.rottentomatoes.com/m/porco_rosso"
+        }
+      },
       "slug": "porco-rosso-1992",
       "genres": [
         "Fantasy",
@@ -27913,6 +28947,27 @@
         "title": "Wolf Warrior Official Trailer #2 (2015) - Scott Adkins Action Movie HD",
         "url": "https://www.youtube.com/watch?v=xTRgUN5JcGo"
       },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt3540136",
+          "score": 5.3,
+          "url": "https://www.imdb.com/title/tt3540136/",
+          "votes": 6554
+        },
+        "letterboxd": {
+          "id": "wolf-warrior",
+          "score": 2.56,
+          "url": "https://letterboxd.com/film/wolf-warrior/",
+          "votes": 4286
+        },
+        "rottenTomatoes": {
+          "audience": 22,
+          "critics": null,
+          "id": "m/wolf_warrior_2015",
+          "url": "https://www.rottentomatoes.com/m/wolf_warrior_2015"
+        }
+      },
       "slug": "wolf-warrior-2015",
       "genres": [
         "Action",
@@ -27960,6 +29015,27 @@
         "seconds": 111,
         "title": "HI, MOM | 你好，李焕英 (Official Trailer) - In Cinemas 1 April 2021",
         "url": "https://www.youtube.com/watch?v=GjrtxkuFBtk"
+      },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt13364790",
+          "score": 6.9,
+          "url": "https://www.imdb.com/title/tt13364790/",
+          "votes": 3787
+        },
+        "letterboxd": {
+          "id": "hi-mom-2021",
+          "score": 3.51,
+          "url": "https://letterboxd.com/film/hi-mom-2021/",
+          "votes": 4995
+        },
+        "rottenTomatoes": {
+          "audience": 93,
+          "critics": null,
+          "id": "m/hi_mom_2021",
+          "url": "https://www.rottentomatoes.com/m/hi_mom_2021"
+        }
       },
       "slug": "hi-mom-2021",
       "genres": [
@@ -28018,6 +29094,27 @@
         "seconds": 212,
         "title": "Avatar | Official Trailer (HD) | 20th Century FOX",
         "url": "https://www.youtube.com/watch?v=5PSNL1qE6VY"
+      },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt0499549",
+          "score": 7.9,
+          "url": "https://www.imdb.com/title/tt0499549/",
+          "votes": 1516475
+        },
+        "letterboxd": {
+          "id": "avatar",
+          "score": 3.77,
+          "url": "https://letterboxd.com/film/avatar/",
+          "votes": 3289469
+        },
+        "rottenTomatoes": {
+          "audience": 82,
+          "critics": 81,
+          "id": "m/avatar",
+          "url": "https://www.rottentomatoes.com/m/avatar"
+        }
       },
       "slug": "avatar-2009",
       "genres": [
@@ -28087,6 +29184,27 @@
         "title": "Snowpiercer | Official Trailer | Netflix",
         "url": "https://www.youtube.com/watch?v=lGcJL6TG5cA"
       },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt1706620",
+          "score": 7.1,
+          "url": "https://www.imdb.com/title/tt1706620/",
+          "votes": 425714
+        },
+        "letterboxd": {
+          "id": "snowpiercer",
+          "score": 3.67,
+          "url": "https://letterboxd.com/film/snowpiercer/",
+          "votes": 922803
+        },
+        "rottenTomatoes": {
+          "audience": 72,
+          "critics": 94,
+          "id": "m/snowpiercer",
+          "url": "https://www.rottentomatoes.com/m/snowpiercer"
+        }
+      },
       "slug": "snowpiercer-2013",
       "genres": [
         "Thriller",
@@ -28141,6 +29259,27 @@
         "seconds": 147,
         "title": "THE FAREWELL | Official Trailer 2019 [HD]",
         "url": "https://www.youtube.com/watch?v=XnrPumkL-GQ"
+      },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt8637428",
+          "score": 7.5,
+          "url": "https://www.imdb.com/title/tt8637428/",
+          "votes": 76159
+        },
+        "letterboxd": {
+          "id": "the-farewell-2019",
+          "score": 4.06,
+          "url": "https://letterboxd.com/film/the-farewell-2019/",
+          "votes": 334336
+        },
+        "rottenTomatoes": {
+          "audience": 87,
+          "critics": 97,
+          "id": "m/the_farewell_2019",
+          "url": "https://www.rottentomatoes.com/m/the_farewell_2019"
+        }
       },
       "slug": "the-farewell-2019",
       "genres": [
@@ -28198,6 +29337,27 @@
         "seconds": 122,
         "title": "THE FOREIGNER | Official Trailer | 2017 [HD]",
         "url": "https://www.youtube.com/watch?v=JauYW-8qq0o"
+      },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt1615160",
+          "score": 7.0,
+          "url": "https://www.imdb.com/title/tt1615160/",
+          "votes": 133794
+        },
+        "letterboxd": {
+          "id": "the-foreigner-2017",
+          "score": 3.22,
+          "url": "https://letterboxd.com/film/the-foreigner-2017/",
+          "votes": 82428
+        },
+        "rottenTomatoes": {
+          "audience": 72,
+          "critics": 66,
+          "id": "m/the_foreigner_2017",
+          "url": "https://www.rottentomatoes.com/m/the_foreigner_2017"
+        }
       },
       "slug": "the-foreigner-2017",
       "genres": [
@@ -28259,6 +29419,27 @@
         "seconds": 149,
         "title": "The Great Gatsby - Official Trailer #1 [HD]",
         "url": "https://www.youtube.com/watch?v=4w8lohkQtbY"
+      },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt1343092",
+          "score": 7.2,
+          "url": "https://www.imdb.com/title/tt1343092/",
+          "votes": 650050
+        },
+        "letterboxd": {
+          "id": "the-great-gatsby-2013",
+          "score": 3.49,
+          "url": "https://letterboxd.com/film/the-great-gatsby-2013/",
+          "votes": 1602795
+        },
+        "rottenTomatoes": {
+          "audience": 67,
+          "critics": 49,
+          "id": "m/the_great_gatsby_2013",
+          "url": "https://www.rottentomatoes.com/m/the_great_gatsby_2013"
+        }
       },
       "slug": "the-great-gatsby-2013",
       "genres": [
@@ -28323,6 +29504,27 @@
         "title": "Interstellar (2014) Official Trailer [HD]",
         "url": "https://www.youtube.com/watch?v=Hd45707pEDI"
       },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt0816692",
+          "score": 8.7,
+          "url": "https://www.imdb.com/title/tt0816692/",
+          "votes": 2609349
+        },
+        "letterboxd": {
+          "id": "interstellar",
+          "score": 4.46,
+          "url": "https://letterboxd.com/film/interstellar/",
+          "votes": 6430059
+        },
+        "rottenTomatoes": {
+          "audience": 87,
+          "critics": 73,
+          "id": "m/interstellar_2014",
+          "url": "https://www.rottentomatoes.com/m/interstellar_2014"
+        }
+      },
       "slug": "interstellar-2014",
       "genres": [
         "Science fiction",
@@ -28373,6 +29575,21 @@
         "title": "那些年，我们一起追的女孩 (YOU ARE THE APPLE OF MY EYE) - Trailer A - Singapore",
         "url": "https://www.youtube.com/watch?v=3J6yuyjN5Wg"
       },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt2036416",
+          "score": 7.5,
+          "url": "https://www.imdb.com/title/tt2036416/",
+          "votes": 12521
+        },
+        "letterboxd": {
+          "id": "you-are-the-apple-of-my-eye",
+          "score": 3.65,
+          "url": "https://letterboxd.com/film/you-are-the-apple-of-my-eye/",
+          "votes": 18191
+        }
+      },
       "slug": "you-are-the-apple-of-my-eye-2011",
       "genres": [
         "Romance"
@@ -28412,6 +29629,27 @@
         "seconds": 195,
         "title": "VENOM: THE LAST DANCE – Official Trailer (HD)",
         "url": "https://www.youtube.com/watch?v=__2bjWbetsA"
+      },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt31648020",
+          "score": 7.6,
+          "url": "https://www.imdb.com/title/tt31648020/",
+          "votes": 3716
+        },
+        "letterboxd": {
+          "id": "the-last-dance-2024-1",
+          "score": 3.69,
+          "url": "https://letterboxd.com/film/the-last-dance-2024-1/",
+          "votes": 9390
+        },
+        "rottenTomatoes": {
+          "audience": 97,
+          "critics": 100,
+          "id": "m/the_last_dance_2024",
+          "url": "https://www.rottentomatoes.com/m/the_last_dance_2024"
+        }
       },
       "slug": "the-last-dance-2024",
       "genres": [
@@ -28459,6 +29697,27 @@
         "seconds": 178,
         "title": "The God Of Cookery (1996) Official Trailer",
         "url": "https://www.youtube.com/watch?v=ynDJ-7Q2gDI"
+      },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt0116426",
+          "score": 7.2,
+          "url": "https://www.imdb.com/title/tt0116426/",
+          "votes": 10937
+        },
+        "letterboxd": {
+          "id": "the-god-of-cookery",
+          "score": 3.76,
+          "url": "https://letterboxd.com/film/the-god-of-cookery/",
+          "votes": 13485
+        },
+        "rottenTomatoes": {
+          "audience": 86,
+          "critics": null,
+          "id": "m/the_god_of_cookery",
+          "url": "https://www.rottentomatoes.com/m/the_god_of_cookery"
+        }
       },
       "slug": "the-god-of-cookery-1996",
       "genres": [
@@ -28522,6 +29781,27 @@
         "title": "War for the Planet of the Apes | Official HD Trailer #4 | 2017",
         "url": "https://www.youtube.com/watch?v=1TxqmlIv1Iw"
       },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt3450958",
+          "score": 7.4,
+          "url": "https://www.imdb.com/title/tt3450958/",
+          "votes": 330389
+        },
+        "letterboxd": {
+          "id": "war-for-the-planet-of-the-apes",
+          "score": 3.83,
+          "url": "https://letterboxd.com/film/war-for-the-planet-of-the-apes/",
+          "votes": 746217
+        },
+        "rottenTomatoes": {
+          "audience": 84,
+          "critics": 94,
+          "id": "m/war_for_the_planet_of_the_apes",
+          "url": "https://www.rottentomatoes.com/m/war_for_the_planet_of_the_apes"
+        }
+      },
       "slug": "war-for-the-planet-of-the-apes-2017",
       "genres": [
         "Science fiction",
@@ -28578,6 +29858,27 @@
         "seconds": 73,
         "title": "Ne Zha (2019) | Official IMAX® Trailer",
         "url": "https://www.youtube.com/watch?v=0S7_LgTiHnA"
+      },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt10627720",
+          "score": 7.3,
+          "url": "https://www.imdb.com/title/tt10627720/",
+          "votes": 24183
+        },
+        "letterboxd": {
+          "id": "ne-zha",
+          "score": 3.57,
+          "url": "https://letterboxd.com/film/ne-zha/",
+          "votes": 91352
+        },
+        "rottenTomatoes": {
+          "audience": 98,
+          "critics": 90,
+          "id": "m/ne_zha",
+          "url": "https://www.rottentomatoes.com/m/ne_zha"
+        }
       },
       "slug": "ne-zha-2019",
       "genres": [
@@ -28641,6 +29942,27 @@
         "title": "Ip Man 3 - Official Trailer",
         "url": "https://www.youtube.com/watch?v=kchw9Bgvk4A"
       },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt2888046",
+          "score": 7.0,
+          "url": "https://www.imdb.com/title/tt2888046/",
+          "votes": 65487
+        },
+        "letterboxd": {
+          "id": "ip-man-3",
+          "score": 3.27,
+          "url": "https://letterboxd.com/film/ip-man-3/",
+          "votes": 58927
+        },
+        "rottenTomatoes": {
+          "audience": 73,
+          "critics": 76,
+          "id": "m/ip_man_3",
+          "url": "https://www.rottentomatoes.com/m/ip_man_3"
+        }
+      },
       "slug": "ip-man-3-2015",
       "genres": [
         "Drama",
@@ -28695,6 +30017,27 @@
         "seconds": 113,
         "title": "Full River Red (满江红) 2023 - Official Movie Trailer",
         "url": "https://www.youtube.com/watch?v=53rip6C4KjY"
+      },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt21148018",
+          "score": 6.4,
+          "url": "https://www.imdb.com/title/tt21148018/",
+          "votes": 4119
+        },
+        "letterboxd": {
+          "id": "the-red-river",
+          "score": 3.24,
+          "url": "https://letterboxd.com/film/the-red-river/",
+          "votes": 4764
+        },
+        "rottenTomatoes": {
+          "audience": 70,
+          "critics": 95,
+          "id": "m/full_river_red",
+          "url": "https://www.rottentomatoes.com/m/full_river_red"
+        }
       },
       "slug": "full-river-red-2023",
       "genres": [
@@ -28753,6 +30096,27 @@
         "title": "12.12: The Day - Official Trailer",
         "url": "https://www.youtube.com/watch?v=SKvQhxWDvi4"
       },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt22507524",
+          "score": 7.5,
+          "url": "https://www.imdb.com/title/tt22507524/",
+          "votes": 5191
+        },
+        "letterboxd": {
+          "id": "1212-the-day",
+          "score": 3.76,
+          "url": "https://letterboxd.com/film/1212-the-day/",
+          "votes": 9182
+        },
+        "rottenTomatoes": {
+          "audience": 98,
+          "critics": null,
+          "id": "m/1212_the_day",
+          "url": "https://www.rottentomatoes.com/m/1212_the_day"
+        }
+      },
       "slug": "12-12-the-day-2023",
       "genres": [
         "Drama",
@@ -28808,6 +30172,27 @@
         "title": "AFRAID - Official Trailer (HD)",
         "url": "https://www.youtube.com/watch?v=LE5QzD_qtxs"
       },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt24577462",
+          "score": 5.2,
+          "url": "https://www.imdb.com/title/tt24577462/",
+          "votes": 18646
+        },
+        "letterboxd": {
+          "id": "afraid-2024-1",
+          "score": 1.77,
+          "url": "https://letterboxd.com/film/afraid-2024-1/",
+          "votes": 64114
+        },
+        "rottenTomatoes": {
+          "audience": 50,
+          "critics": 25,
+          "id": "m/afraid_2024",
+          "url": "https://www.rottentomatoes.com/m/afraid_2024"
+        }
+      },
       "slug": "afraid-2024",
       "genres": [
         "Horror",
@@ -28861,6 +30246,27 @@
         "seconds": 150,
         "title": "SPIDER-MAN: ACROSS THE SPIDER-VERSE - Official Trailer (HD)",
         "url": "https://www.youtube.com/watch?v=cqGjhVJWtEg"
+      },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt9362722",
+          "score": 8.5,
+          "url": "https://www.imdb.com/title/tt9362722/",
+          "votes": 553908
+        },
+        "letterboxd": {
+          "id": "spider-man-across-the-spider-verse",
+          "score": 4.4,
+          "url": "https://letterboxd.com/film/spider-man-across-the-spider-verse/",
+          "votes": 4106922
+        },
+        "rottenTomatoes": {
+          "audience": 95,
+          "critics": 95,
+          "id": "m/spider_man_across_the_spider_verse",
+          "url": "https://www.rottentomatoes.com/m/spider_man_across_the_spider_verse"
+        }
       },
       "slug": "spider-man-across-the-spider-verse-2023",
       "genres": [
@@ -28923,6 +30329,27 @@
         "seconds": 145,
         "title": "Marvel Studios' Avengers: Infinity War Official Trailer",
         "url": "https://www.youtube.com/watch?v=6ZfuNTqbHE8"
+      },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt4154756",
+          "score": 8.4,
+          "url": "https://www.imdb.com/title/tt4154756/",
+          "votes": 1411004
+        },
+        "letterboxd": {
+          "id": "avengers-infinity-war",
+          "score": 4.09,
+          "url": "https://letterboxd.com/film/avengers-infinity-war/",
+          "votes": 4007079
+        },
+        "rottenTomatoes": {
+          "audience": 92,
+          "critics": 85,
+          "id": "m/avengers_infinity_war",
+          "url": "https://www.rottentomatoes.com/m/avengers_infinity_war"
+        }
       },
       "slug": "avengers-infinity-war-2018",
       "genres": [
@@ -28997,6 +30424,27 @@
         "title": "Toy Story | Original Trailer | Disney+",
         "url": "https://www.youtube.com/watch?v=CxwTLktovTU"
       },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt0114709",
+          "score": 8.3,
+          "url": "https://www.imdb.com/title/tt0114709/",
+          "votes": 1199662
+        },
+        "letterboxd": {
+          "id": "toy-story",
+          "score": 4.11,
+          "url": "https://letterboxd.com/film/toy-story/",
+          "votes": 2752758
+        },
+        "rottenTomatoes": {
+          "audience": 92,
+          "critics": 100,
+          "id": "m/toy_story",
+          "url": "https://www.rottentomatoes.com/m/toy_story"
+        }
+      },
       "slug": "toy-story-1995",
       "genres": [
         "Comedy",
@@ -29051,6 +30499,27 @@
         "seconds": 100,
         "title": "Kingdom of the Planet of the Apes | Official trailer | HD | FR/NL | 2024",
         "url": "https://www.youtube.com/watch?v=g17FcPZXuWI"
+      },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt11389872",
+          "score": 6.8,
+          "url": "https://www.imdb.com/title/tt11389872/",
+          "votes": 172450
+        },
+        "letterboxd": {
+          "id": "kingdom-of-the-planet-of-the-apes",
+          "score": 3.32,
+          "url": "https://letterboxd.com/film/kingdom-of-the-planet-of-the-apes/",
+          "votes": 661822
+        },
+        "rottenTomatoes": {
+          "audience": 77,
+          "critics": 80,
+          "id": "m/kingdom_of_the_planet_of_the_apes",
+          "url": "https://www.rottentomatoes.com/m/kingdom_of_the_planet_of_the_apes"
+        }
       },
       "slug": "kingdom-of-the-planet-of-the-apes-2024",
       "genres": [
@@ -29109,6 +30578,27 @@
         "title": "Oppenheimer | Official Trailer",
         "url": "https://www.youtube.com/watch?v=bK6ldnjE3Y0"
       },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt15398776",
+          "score": 8.2,
+          "url": "https://www.imdb.com/title/tt15398776/",
+          "votes": 1098785
+        },
+        "letterboxd": {
+          "id": "oppenheimer-2023",
+          "score": 4.16,
+          "url": "https://letterboxd.com/film/oppenheimer-2023/",
+          "votes": 4631143
+        },
+        "rottenTomatoes": {
+          "audience": 91,
+          "critics": 93,
+          "id": "m/oppenheimer_2023",
+          "url": "https://www.rottentomatoes.com/m/oppenheimer_2023"
+        }
+      },
       "slug": "oppenheimer-2023",
       "genres": [
         "Historical",
@@ -29166,6 +30656,27 @@
         "seconds": 145,
         "title": "Dune: Part Two | Official Trailer",
         "url": "https://www.youtube.com/watch?v=Way9Dexny3w"
+      },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt15239678",
+          "score": 8.4,
+          "url": "https://www.imdb.com/title/tt15239678/",
+          "votes": 794225
+        },
+        "letterboxd": {
+          "id": "dune-part-two",
+          "score": 4.38,
+          "url": "https://letterboxd.com/film/dune-part-two/",
+          "votes": 3660659
+        },
+        "rottenTomatoes": {
+          "audience": 95,
+          "critics": 92,
+          "id": "m/dune_part_two",
+          "url": "https://www.rottentomatoes.com/m/dune_part_two"
+        }
       },
       "slug": "dune-part-two-2024",
       "genres": [
@@ -29228,6 +30739,27 @@
         "title": "Avatar: The Way of Water | Official Teaser Trailer | Experience It In IMAX®",
         "url": "https://www.youtube.com/watch?v=tDersMldOI0"
       },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt1630029",
+          "score": 7.5,
+          "url": "https://www.imdb.com/title/tt1630029/",
+          "votes": 648277
+        },
+        "letterboxd": {
+          "id": "avatar-the-way-of-water",
+          "score": 3.65,
+          "url": "https://letterboxd.com/film/avatar-the-way-of-water/",
+          "votes": 2791851
+        },
+        "rottenTomatoes": {
+          "audience": 92,
+          "critics": 76,
+          "id": "m/avatar_the_way_of_water",
+          "url": "https://www.rottentomatoes.com/m/avatar_the_way_of_water"
+        }
+      },
       "slug": "avatar-the-way-of-water-2022",
       "genres": [
         "Science fiction",
@@ -29279,6 +30811,27 @@
         "seconds": 145,
         "title": "The Wild Robot | Official Trailer",
         "url": "https://www.youtube.com/watch?v=67vbA5ZJdKQ"
+      },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt29623480",
+          "score": 8.1,
+          "url": "https://www.imdb.com/title/tt29623480/",
+          "votes": 238093
+        },
+        "letterboxd": {
+          "id": "the-wild-robot",
+          "score": 4.21,
+          "url": "https://letterboxd.com/film/the-wild-robot/",
+          "votes": 1441969
+        },
+        "rottenTomatoes": {
+          "audience": 98,
+          "critics": 97,
+          "id": "m/the_wild_robot",
+          "url": "https://www.rottentomatoes.com/m/the_wild_robot"
+        }
       },
       "slug": "the-wild-robot-2024",
       "genres": [
@@ -29343,6 +30896,27 @@
         "title": "ANORA | Official International Trailer",
         "url": "https://www.youtube.com/watch?v=wvSwg5gv88w"
       },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt28607951",
+          "score": 7.4,
+          "url": "https://www.imdb.com/title/tt28607951/",
+          "votes": 308012
+        },
+        "letterboxd": {
+          "id": "anora",
+          "score": 3.77,
+          "url": "https://letterboxd.com/film/anora/",
+          "votes": 2608807
+        },
+        "rottenTomatoes": {
+          "audience": 84,
+          "critics": 93,
+          "id": "m/anora",
+          "url": "https://www.rottentomatoes.com/m/anora"
+        }
+      },
       "slug": "anora-2025",
       "genres": [
         "Comedy",
@@ -29383,6 +30957,27 @@
         "seconds": 147,
         "title": "La La Land (2016 Movie) Official Trailer – 'Dreamers'",
         "url": "https://www.youtube.com/watch?v=0pdqf4P9MB8"
+      },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt3783958",
+          "score": 8.0,
+          "url": "https://www.imdb.com/title/tt3783958/",
+          "votes": 779096
+        },
+        "letterboxd": {
+          "id": "la-la-land",
+          "score": 4.13,
+          "url": "https://letterboxd.com/film/la-la-land/",
+          "votes": 5241825
+        },
+        "rottenTomatoes": {
+          "audience": 82,
+          "critics": 91,
+          "id": "m/la_la_land",
+          "url": "https://www.rottentomatoes.com/m/la_la_land"
+        }
       },
       "slug": "la-la-land-2016",
       "genres": [
@@ -29443,6 +31038,27 @@
         "title": "LITTLE BIG SOLDIER Official Trailer | Starring Jackie Chan & Wang Leehom | Directed by Ding Sheng",
         "url": "https://www.youtube.com/watch?v=OuqpelCg6kA"
       },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt1319718",
+          "score": 6.8,
+          "url": "https://www.imdb.com/title/tt1319718/",
+          "votes": 16770
+        },
+        "letterboxd": {
+          "id": "little-big-soldier",
+          "score": 3.32,
+          "url": "https://letterboxd.com/film/little-big-soldier/",
+          "votes": 4411
+        },
+        "rottenTomatoes": {
+          "audience": 69,
+          "critics": 79,
+          "id": "m/little_big_soldier",
+          "url": "https://www.rottentomatoes.com/m/little_big_soldier"
+        }
+      },
       "slug": "little-big-soldier-2010",
       "genres": [
         "Comedy"
@@ -29499,6 +31115,7 @@
         "title": "Dragon: The Bruce Lee Story Official Trailer #1 - Robert Wagner Movie (1993) HD",
         "url": "https://www.youtube.com/watch?v=MDKTBiHBmeI"
       },
+      "scores": null,
       "slug": "dragon-the-bruce-lee-story-1993",
       "genres": [
         "Action",
@@ -29558,6 +31175,7 @@
         "title": "RIDING ALONE FOR THOUSANDS OF MILES Official Trailer (2005, Ken Takakura, Zhang Yimou)",
         "url": "https://www.youtube.com/watch?v=rvhkBvrNntM"
       },
+      "scores": null,
       "slug": "riding-alone-for-thousands-of-miles-2005",
       "genres": [
         "Drama"
@@ -29584,6 +31202,7 @@
       "summary": null,
       "streaming": [],
       "trailer": null,
+      "scores": null,
       "slug": "the-hutong-cowboy-2024",
       "genres": [
         "Comedy"
@@ -29645,6 +31264,7 @@
         "title": "Better Days Trailer #1 (2019) | Movieclips Indie",
         "url": "https://www.youtube.com/watch?v=E82xfU1Ptaw"
       },
+      "scores": null,
       "slug": "better-days-2019",
       "genres": [
         "Romance",
@@ -29703,6 +31323,7 @@
         "title": "Brokeback Mountain (2005) Official HD Trailer [1080p]",
         "url": "https://www.youtube.com/watch?v=z89xU8l5wn8"
       },
+      "scores": null,
       "slug": "brokeback-mountain-2005",
       "genres": [
         "Romance",
@@ -29743,6 +31364,27 @@
         "seconds": 134,
         "title": "Obsession | Official Trailer",
         "url": "https://www.youtube.com/watch?v=gMC8kkwbIQQ"
+      },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt37287335",
+          "score": 7.8,
+          "url": "https://www.imdb.com/title/tt37287335/",
+          "votes": 372776
+        },
+        "letterboxd": {
+          "id": "obsession-2025-2",
+          "score": 4.07,
+          "url": "https://letterboxd.com/film/obsession-2025-2/",
+          "votes": 4959144
+        },
+        "rottenTomatoes": {
+          "audience": 94,
+          "critics": 93,
+          "id": "m/obsession_2025",
+          "url": "https://www.rottentomatoes.com/m/obsession_2025"
+        }
       },
       "slug": "obsession-2026",
       "genres": [
@@ -29796,6 +31438,21 @@
         "title": "Legend of Hei (2019) Movie Trailer Original Chinese Audio, with English Subs",
         "url": "https://www.youtube.com/watch?v=ehO-3Xk72Wk"
       },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt10734928",
+          "score": 7.4,
+          "url": "https://www.imdb.com/title/tt10734928/",
+          "votes": 4741
+        },
+        "letterboxd": {
+          "id": "the-legend-of-hei",
+          "score": 3.89,
+          "url": "https://letterboxd.com/film/the-legend-of-hei/",
+          "votes": 22076
+        }
+      },
       "slug": "the-legend-of-hei-2019",
       "genres": [
         "Action",
@@ -29844,6 +31501,15 @@
         "seconds": 88,
         "title": "THE LEGEND OF HEI 2 | Official Trailer",
         "url": "https://www.youtube.com/watch?v=sL6rUxTWl1g"
+      },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt37284198",
+          "score": 8.1,
+          "url": "https://www.imdb.com/title/tt37284198/",
+          "votes": 2009
+        }
       },
       "slug": "the-legend-of-hei-2-2025",
       "genres": [
@@ -29899,6 +31565,27 @@
         "title": "The Banker — Official Trailer | Apple TV",
         "url": "https://www.youtube.com/watch?v=J_-nk9-sMus"
       },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt6285944",
+          "score": 7.3,
+          "url": "https://www.imdb.com/title/tt6285944/",
+          "votes": 43745
+        },
+        "letterboxd": {
+          "id": "the-banker-2020",
+          "score": 3.51,
+          "url": "https://letterboxd.com/film/the-banker-2020/",
+          "votes": 34989
+        },
+        "rottenTomatoes": {
+          "audience": 100,
+          "critics": 78,
+          "id": "m/the_banker_2020",
+          "url": "https://www.rottentomatoes.com/m/the_banker_2020"
+        }
+      },
       "slug": "the-banker-2020",
       "genres": [
         "Drama"
@@ -29950,6 +31637,27 @@
         "title": "Love in a Puff - trailer",
         "url": "https://www.youtube.com/watch?v=bFSvJ9C1-N4"
       },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt1602479",
+          "score": 7.1,
+          "url": "https://www.imdb.com/title/tt1602479/",
+          "votes": 3064
+        },
+        "letterboxd": {
+          "id": "love-in-a-puff",
+          "score": 3.62,
+          "url": "https://letterboxd.com/film/love-in-a-puff/",
+          "votes": 3205
+        },
+        "rottenTomatoes": {
+          "audience": 70,
+          "critics": null,
+          "id": "m/love_in_a_puff",
+          "url": "https://www.rottentomatoes.com/m/love_in_a_puff"
+        }
+      },
       "slug": "love-in-a-puff-2010",
       "genres": [
         "Romance",
@@ -29982,6 +31690,7 @@
         "title": "CRAZY RICH ASIANS - Official Trailer",
         "url": "https://www.youtube.com/watch?v=ZQ-YX-5bAs0"
       },
+      "scores": null,
       "slug": "crazy-rich-asians-2016",
       "genres": [
         "Drama",
@@ -30036,6 +31745,27 @@
         "seconds": 91,
         "title": "Demon Slayer - Kimetsu no Yaiba - The Movie: Mugen Train Official Trailer",
         "url": "https://www.youtube.com/watch?v=ATJYac_dORw"
+      },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt11032374",
+          "score": 8.2,
+          "url": "https://www.imdb.com/title/tt11032374/",
+          "votes": 103403
+        },
+        "letterboxd": {
+          "id": "demon-slayer-kimetsu-no-yaiba-the-movie-mugen-train",
+          "score": 3.95,
+          "url": "https://letterboxd.com/film/demon-slayer-kimetsu-no-yaiba-the-movie-mugen-train/",
+          "votes": 340675
+        },
+        "rottenTomatoes": {
+          "audience": 99,
+          "critics": 98,
+          "id": "m/demon_slayer_kimetsu_no_yaiba_the_movie_mugen_train",
+          "url": "https://www.rottentomatoes.com/m/demon_slayer_kimetsu_no_yaiba_the_movie_mugen_train"
+        }
       },
       "slug": "demon-slayer-kimetsu-no-yaiba-the-movie-mugen-train-2020",
       "genres": [
@@ -30092,6 +31822,27 @@
         "title": "CONCRETE UTOPIA Official Trailer (2023)",
         "url": "https://www.youtube.com/watch?v=57CJngvMoqg"
       },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt13086266",
+          "score": 6.6,
+          "url": "https://www.imdb.com/title/tt13086266/",
+          "votes": 9520
+        },
+        "letterboxd": {
+          "id": "concrete-utopia",
+          "score": 3.45,
+          "url": "https://letterboxd.com/film/concrete-utopia/",
+          "votes": 31979
+        },
+        "rottenTomatoes": {
+          "audience": 75,
+          "critics": 100,
+          "id": "m/concrete_utopia",
+          "url": "https://www.rottentomatoes.com/m/concrete_utopia"
+        }
+      },
       "slug": "concrete-utopia-2023",
       "genres": [
         "Thriller"
@@ -30145,6 +31896,27 @@
         "title": "SHORTCOMINGS | Official Trailer (2023)",
         "url": "https://www.youtube.com/watch?v=6fLypuUnAfw"
       },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt14483774",
+          "score": 6.4,
+          "url": "https://www.imdb.com/title/tt14483774/",
+          "votes": 4574
+        },
+        "letterboxd": {
+          "id": "shortcomings",
+          "score": 3.24,
+          "url": "https://letterboxd.com/film/shortcomings/",
+          "votes": 27584
+        },
+        "rottenTomatoes": {
+          "audience": 85,
+          "critics": 85,
+          "id": "m/shortcomings_2023",
+          "url": "https://www.rottentomatoes.com/m/shortcomings_2023"
+        }
+      },
       "slug": "shortcomings-2023",
       "genres": [
         "Comedy",
@@ -30196,6 +31968,27 @@
         "seconds": 149,
         "title": "Demon Slayer: Kimetsu no Yaiba Infinity Castle | Official Trailer | Crunchyroll",
         "url": "https://www.youtube.com/watch?v=wyiZWYMilgk"
+      },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt32820897",
+          "score": 8.4,
+          "url": "https://www.imdb.com/title/tt32820897/",
+          "votes": 84519
+        },
+        "letterboxd": {
+          "id": "demon-slayer-kimetsu-no-yaiba-infinity-castle",
+          "score": 4.06,
+          "url": "https://letterboxd.com/film/demon-slayer-kimetsu-no-yaiba-infinity-castle/",
+          "votes": 525106
+        },
+        "rottenTomatoes": {
+          "audience": 98,
+          "critics": 98,
+          "id": "m/demon_slayer_kimetsu_no_yaiba_the_movie_infinity_castle",
+          "url": "https://www.rottentomatoes.com/m/demon_slayer_kimetsu_no_yaiba_the_movie_infinity_castle"
+        }
       },
       "slug": "demon-slayer-kimetsu-no-yaiba-infinity-castle-2025",
       "genres": [
@@ -30262,6 +32055,27 @@
         "title": "Drive My Car - Official Trailer",
         "url": "https://www.youtube.com/watch?v=wxSecn55IS8"
       },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt14039582",
+          "score": 7.5,
+          "url": "https://www.imdb.com/title/tt14039582/",
+          "votes": 78094
+        },
+        "letterboxd": {
+          "id": "drive-my-car",
+          "score": 4.21,
+          "url": "https://letterboxd.com/film/drive-my-car/",
+          "votes": 397586
+        },
+        "rottenTomatoes": {
+          "audience": 83,
+          "critics": 97,
+          "id": "m/drive_my_car",
+          "url": "https://www.rottentomatoes.com/m/drive_my_car"
+        }
+      },
       "slug": "drive-my-car-2021",
       "genres": [
         "Drama"
@@ -30309,6 +32123,7 @@
         "title": "Monkey King havoc in heaven teaser trailer #sunwukong",
         "url": "https://www.youtube.com/watch?v=PGHj4z9INZU"
       },
+      "scores": null,
       "slug": "havoc-in-heaven-1961",
       "genres": [
         "Fantasy",
@@ -30341,6 +32156,7 @@
         "title": "[TH Official] NEKO SAMURAI ซามูไรแมวเหมียว Trailer #1, 2015",
         "url": "https://www.youtube.com/watch?v=V7vuR6FNiUI"
       },
+      "scores": null,
       "slug": "neko-samurai-2014",
       "genres": [
         "Comedy",
@@ -30392,6 +32208,7 @@
         "title": "Giants Do Fall......The Story of David Official Trailer",
         "url": "https://www.youtube.com/watch?v=SoVYZFp9yAk"
       },
+      "scores": null,
       "slug": "the-story-of-david",
       "genres": [],
       "franchises": []
@@ -30431,6 +32248,7 @@
         "title": "White Snake [Official English Trailer]",
         "url": "https://www.youtube.com/watch?v=FCY7E0oHW6Y"
       },
+      "scores": null,
       "slug": "white-snake-2019",
       "genres": [
         "Fantasy",
@@ -30473,6 +32291,7 @@
         }
       ],
       "trailer": null,
+      "scores": null,
       "slug": "dahufa-2017",
       "genres": [
         "Fantasy",
@@ -30511,6 +32330,7 @@
         "title": "Chinese Anime Movie \"Crystal Sky of Yesterday\" Official Teaser Trailer",
         "url": "https://www.youtube.com/watch?v=9HoSwjc2Va4"
       },
+      "scores": null,
       "slug": "crystal-sky-of-yesterday-2018",
       "genres": [
         "Romance"
@@ -30536,6 +32356,7 @@
       "summary": null,
       "streaming": [],
       "trailer": null,
+      "scores": null,
       "slug": "the-wind-guardians-2018",
       "genres": [
         "Fantasy",
@@ -30599,6 +32420,7 @@
         "title": "Kiki's Delivery Service - Official Trailer",
         "url": "https://www.youtube.com/watch?v=4bG17OYs-GA"
       },
+      "scores": null,
       "slug": "kiki-s-delivery-service-1989",
       "genres": [
         "Fantasy",
@@ -30654,6 +32476,7 @@
         "title": "Gook Trailer #1 (2017) | Movieclips Indie",
         "url": "https://www.youtube.com/watch?v=6Duh20o-qWs"
       },
+      "scores": null,
       "slug": "gook-2017",
       "genres": [
         "Drama"
@@ -30710,6 +32533,7 @@
         "title": "Our Little Sister | Official Trailer HD (2016)",
         "url": "https://www.youtube.com/watch?v=Iy2ZidLDgyk"
       },
+      "scores": null,
       "slug": "our-little-sister-2015",
       "genres": [
         "Drama",
@@ -30767,6 +32591,7 @@
         "title": "Red Cliff Official HD Trailer John Woo Film",
         "url": "https://www.youtube.com/watch?v=pd0bqLQrtdE"
       },
+      "scores": null,
       "slug": "red-cliff-2008",
       "genres": [
         "Historical",
@@ -30829,6 +32654,27 @@
         "title": "Life Of Pi - Official Trailer",
         "url": "https://www.youtube.com/watch?v=j9Hjrs6WQ8M"
       },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt0454876",
+          "score": 7.9,
+          "url": "https://www.imdb.com/title/tt0454876/",
+          "votes": 706151
+        },
+        "letterboxd": {
+          "id": "life-of-pi",
+          "score": 3.77,
+          "url": "https://letterboxd.com/film/life-of-pi/",
+          "votes": 1059454
+        },
+        "rottenTomatoes": {
+          "audience": 84,
+          "critics": 86,
+          "id": "m/life-of-pi",
+          "url": "https://www.rottentomatoes.com/m/life-of-pi"
+        }
+      },
       "slug": "life-of-pi-2012",
       "genres": [
         "Fantasy",
@@ -30884,6 +32730,7 @@
         "title": "Gallants (2010) - Official Trailer",
         "url": "https://www.youtube.com/watch?v=fL5s0nNsphU"
       },
+      "scores": null,
       "slug": "gallants-2010",
       "genres": [
         "Martial arts",
@@ -30937,6 +32784,7 @@
         "title": "Enter the Fat Dragon (Fei Lung gwoh gong) - action - comedy - 1978 - trailer",
         "url": "https://www.youtube.com/watch?v=3yx8EH9sVRw"
       },
+      "scores": null,
       "slug": "enter-the-fat-dragon-1978",
       "genres": [
         "Action",
@@ -30985,6 +32833,7 @@
         "title": "RRR #encoRRRe (Official Trailer)",
         "url": "https://www.youtube.com/watch?v=AVVO3Yat_Bw"
       },
+      "scores": null,
       "slug": "rrr-2022",
       "genres": [
         "Action"
@@ -31041,6 +32890,7 @@
         "title": "Ashes of Time: Redux - Trailer",
         "url": "https://www.youtube.com/watch?v=9rTMs7TYU7c"
       },
+      "scores": null,
       "slug": "ashes-of-time-1994",
       "genres": [
         "Martial arts"
@@ -31097,6 +32947,7 @@
         "title": "Yi Yi (2000) 一一 - Movie Trailer | Far East Films",
         "url": "https://www.youtube.com/watch?v=LFekzt74GJQ"
       },
+      "scores": null,
       "slug": "yi-yi-2000",
       "genres": [
         "Drama"
@@ -31147,6 +32998,7 @@
         }
       ],
       "trailer": null,
+      "scores": null,
       "slug": "to-live-1994",
       "genres": [
         "Drama"
@@ -31198,6 +33050,7 @@
         "title": "Raise the Red Lantern 1991 Official Trailer",
         "url": "https://www.youtube.com/watch?v=x8kwb4qFrT4"
       },
+      "scores": null,
       "slug": "raise-the-red-lantern-1991",
       "genres": [
         "Romance",
@@ -31256,6 +33109,7 @@
         "title": "Suzhou River | Official Trailer HD | Strand Releasing",
         "url": "https://www.youtube.com/watch?v=yQHbhnYrcmg"
       },
+      "scores": null,
       "slug": "suzhou-river-2000",
       "genres": [
         "Crime",
@@ -31314,6 +33168,7 @@
         "title": "[C-MOVIE] Let the Bullets Fly (2010) OFFICIAL TRAILER",
         "url": "https://www.youtube.com/watch?v=UgtriAkfDdg"
       },
+      "scores": null,
       "slug": "let-the-bullets-fly-2010",
       "genres": [
         "Comedy"
@@ -31353,6 +33208,27 @@
         "seconds": 152,
         "title": "The Odyssey | Official New Trailer",
         "url": "https://www.youtube.com/watch?v=f_bKjZeJBBI"
+      },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt33764258",
+          "score": 8.4,
+          "url": "https://www.imdb.com/title/tt33764258/",
+          "votes": 501920
+        },
+        "letterboxd": {
+          "id": "the-odyssey-2026",
+          "score": 4.35,
+          "url": "https://letterboxd.com/film/the-odyssey-2026/",
+          "votes": 4393128
+        },
+        "rottenTomatoes": {
+          "audience": 96,
+          "critics": 94,
+          "id": "m/the_odyssey_2026",
+          "url": "https://www.rottentomatoes.com/m/the_odyssey_2026"
+        }
       },
       "slug": "the-odyssey-2026",
       "genres": [
@@ -31413,6 +33289,7 @@
         "title": "Pushing Hands Official Trailer — (HD)",
         "url": "https://www.youtube.com/watch?v=_cQe_lbcB3w"
       },
+      "scores": null,
       "slug": "pushing-hands-1991",
       "genres": [
         "Comedy",
@@ -31479,6 +33356,27 @@
         "title": "Zootopia | Official Trailer #1 | English",
         "url": "https://www.youtube.com/watch?v=zMvrGUb2J68"
       },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt2948356",
+          "score": 8.0,
+          "url": "https://www.imdb.com/title/tt2948356/",
+          "votes": 650061
+        },
+        "letterboxd": {
+          "id": "zootopia",
+          "score": 3.78,
+          "url": "https://letterboxd.com/film/zootopia/",
+          "votes": 2243035
+        },
+        "rottenTomatoes": {
+          "audience": 92,
+          "critics": 98,
+          "id": "m/zootopia",
+          "url": "https://www.rottentomatoes.com/m/zootopia"
+        }
+      },
       "slug": "zootopia-2016",
       "genres": [
         "Action",
@@ -31542,6 +33440,27 @@
         "title": "Mulan Trailer #1 (2020) | Movieclips Trailers",
         "url": "https://www.youtube.com/watch?v=XrAmQS9jJJo"
       },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt4566758",
+          "score": 5.8,
+          "url": "https://www.imdb.com/title/tt4566758/",
+          "votes": 168745
+        },
+        "letterboxd": {
+          "id": "mulan-2020",
+          "score": 2.34,
+          "url": "https://letterboxd.com/film/mulan-2020/",
+          "votes": 345573
+        },
+        "rottenTomatoes": {
+          "audience": 46,
+          "critics": 71,
+          "id": "m/mulan_2020",
+          "url": "https://www.rottentomatoes.com/m/mulan_2020"
+        }
+      },
       "slug": "mulan-2020",
       "genres": [
         "Adventure",
@@ -31591,6 +33510,27 @@
         "title": "Furious | Official Trailer | Hulu",
         "url": "https://www.youtube.com/watch?v=UBSqPDxmNZs"
       },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt33311069",
+          "score": 7.2,
+          "url": "https://www.imdb.com/title/tt33311069/",
+          "votes": 26776
+        },
+        "letterboxd": {
+          "id": "the-furious",
+          "score": 3.82,
+          "url": "https://letterboxd.com/film/the-furious/",
+          "votes": 148534
+        },
+        "rottenTomatoes": {
+          "audience": 95,
+          "critics": 98,
+          "id": "m/the_furious_2025",
+          "url": "https://www.rottentomatoes.com/m/the_furious_2025"
+        }
+      },
       "slug": "the-furious-2025",
       "genres": [
         "Action"
@@ -31630,6 +33570,15 @@
         "seconds": 133,
         "title": "《寒战1994》COLD WAR 1994 (OFFICIAL TRAILER | 官方预告) IN CINEMAS 1 MAY 2026",
         "url": "https://www.youtube.com/watch?v=ni1mMiXVzOI"
+      },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt36576750",
+          "score": 6.3,
+          "url": "https://www.imdb.com/title/tt36576750/",
+          "votes": 748
+        }
       },
       "slug": "cold-war-1994-2026",
       "genres": [
@@ -31691,6 +33640,27 @@
         "seconds": 98,
         "title": "Ponyo - Official Trailer",
         "url": "https://www.youtube.com/watch?v=CsR3KVgBzSM"
+      },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt0876563",
+          "score": 7.6,
+          "url": "https://www.imdb.com/title/tt0876563/",
+          "votes": 189176
+        },
+        "letterboxd": {
+          "id": "ponyo",
+          "score": 4.13,
+          "url": "https://letterboxd.com/film/ponyo/",
+          "votes": 1469475
+        },
+        "rottenTomatoes": {
+          "audience": 84,
+          "critics": 91,
+          "id": "m/ponyo",
+          "url": "https://www.rottentomatoes.com/m/ponyo"
+        }
       },
       "slug": "ponyo-2008",
       "genres": [
@@ -31755,6 +33725,27 @@
         "title": "One Battle After Another  - Official Trailer - Warner Bros. UK & Ireland",
         "url": "https://www.youtube.com/watch?v=feOQFKv2Lw4"
       },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt30144839",
+          "score": 7.6,
+          "url": "https://www.imdb.com/title/tt30144839/",
+          "votes": 446722
+        },
+        "letterboxd": {
+          "id": "the-battle-of-baktan-cross",
+          "score": 4.12,
+          "url": "https://letterboxd.com/film/the-battle-of-baktan-cross/",
+          "votes": 2864376
+        },
+        "rottenTomatoes": {
+          "audience": 85,
+          "critics": 94,
+          "id": "m/one_battle_after_another",
+          "url": "https://www.rottentomatoes.com/m/one_battle_after_another"
+        }
+      },
       "slug": "one-battle-after-another-2025",
       "genres": [
         "Drama",
@@ -31815,6 +33806,27 @@
         "title": "Whiplash | Official Trailer HD (2014)",
         "url": "https://www.youtube.com/watch?v=Df1xkYYbYrY"
       },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt2582802",
+          "score": 8.5,
+          "url": "https://www.imdb.com/title/tt2582802/",
+          "votes": 1182368
+        },
+        "letterboxd": {
+          "id": "whiplash-2014",
+          "score": 4.42,
+          "url": "https://letterboxd.com/film/whiplash-2014/",
+          "votes": 4810289
+        },
+        "rottenTomatoes": {
+          "audience": 94,
+          "critics": 94,
+          "id": "m/whiplash_2014",
+          "url": "https://www.rottentomatoes.com/m/whiplash_2014"
+        }
+      },
       "slug": "whiplash-2014",
       "genres": [
         "Musical",
@@ -31862,6 +33874,27 @@
         "title": "Dead to Rights - Official Trailer (ซับไทย)",
         "url": "https://www.youtube.com/watch?v=gCiaOqq9KmU"
       },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt36598036",
+          "score": 7.6,
+          "url": "https://www.imdb.com/title/tt36598036/",
+          "votes": 3780
+        },
+        "letterboxd": {
+          "id": "dead-to-rights-2025",
+          "score": 3.94,
+          "url": "https://letterboxd.com/film/dead-to-rights-2025/",
+          "votes": 8597
+        },
+        "rottenTomatoes": {
+          "audience": 97,
+          "critics": 100,
+          "id": "m/dead_to_rights_2025",
+          "url": "https://www.rottentomatoes.com/m/dead_to_rights_2025"
+        }
+      },
       "slug": "dead-to-rights-2025",
       "genres": [
         "Historical"
@@ -31902,6 +33935,7 @@
         "title": "Good News | Official Trailer | Netflix [ENG SUB]",
         "url": "https://www.youtube.com/watch?v=YkyzNk-UJ4o"
       },
+      "scores": null,
       "slug": "good-news-2025",
       "genres": [
         "Comedy",
@@ -31953,6 +33987,27 @@
         "seconds": 125,
         "title": "NOPE | Official Trailer",
         "url": "https://www.youtube.com/watch?v=In8fuzj3gck"
+      },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt10954984",
+          "score": 6.8,
+          "url": "https://www.imdb.com/title/tt10954984/",
+          "votes": 323222
+        },
+        "letterboxd": {
+          "id": "nope",
+          "score": 3.66,
+          "url": "https://letterboxd.com/film/nope/",
+          "votes": 2183289
+        },
+        "rottenTomatoes": {
+          "audience": 69,
+          "critics": 83,
+          "id": "m/nope",
+          "url": "https://www.rottentomatoes.com/m/nope"
+        }
       },
       "slug": "nope-2022",
       "genres": [
@@ -32013,6 +34068,27 @@
         "title": "KARATE KID: LEGENDS - Official Trailer (HD)",
         "url": "https://www.youtube.com/watch?v=uPzOyzsnmio"
       },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt1674782",
+          "score": 6.3,
+          "url": "https://www.imdb.com/title/tt1674782/",
+          "votes": 50423
+        },
+        "letterboxd": {
+          "id": "karate-kid",
+          "score": 2.79,
+          "url": "https://letterboxd.com/film/karate-kid/",
+          "votes": 224316
+        },
+        "rottenTomatoes": {
+          "audience": 89,
+          "critics": 57,
+          "id": "m/karate_kid_legends",
+          "url": "https://www.rottentomatoes.com/m/karate_kid_legends"
+        }
+      },
       "slug": "karate-kid-legends-2025",
       "genres": [
         "Comedy",
@@ -32056,6 +34132,27 @@
         "seconds": 145,
         "title": "DÌDI (弟弟) |  Official Trailer",
         "url": "https://www.youtube.com/watch?v=fHQnGVqOY1w"
+      },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt30319503",
+          "score": 7.3,
+          "url": "https://www.imdb.com/title/tt30319503/",
+          "votes": 16781
+        },
+        "letterboxd": {
+          "id": "didi-2024",
+          "score": 3.98,
+          "url": "https://letterboxd.com/film/didi-2024/",
+          "votes": 332991
+        },
+        "rottenTomatoes": {
+          "audience": 91,
+          "critics": 96,
+          "id": "m/didi_2024",
+          "url": "https://www.rottentomatoes.com/m/didi_2024"
+        }
       },
       "slug": "d-di-2024",
       "genres": [
@@ -32110,6 +34207,7 @@
         "title": "100 METERS | Official Trailer | Netflix",
         "url": "https://www.youtube.com/watch?v=GNgK75OZ0mQ"
       },
+      "scores": null,
       "slug": "100-meters-2025",
       "genres": [
         "Drama",
@@ -32167,6 +34265,27 @@
         "title": "BORAT - Trailer - (2006)",
         "url": "https://www.youtube.com/watch?v=dL6_G1z6ymw"
       },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt0443453",
+          "score": 7.4,
+          "url": "https://www.imdb.com/title/tt0443453/",
+          "votes": 483397
+        },
+        "letterboxd": {
+          "id": "borat-cultural-learnings-of-america-for-make-benefit-glorious-nation-of-kazakhstan",
+          "score": 3.72,
+          "url": "https://letterboxd.com/film/borat-cultural-learnings-of-america-for-make-benefit-glorious-nation-of-kazakhstan/",
+          "votes": 919924
+        },
+        "rottenTomatoes": {
+          "audience": 79,
+          "critics": 90,
+          "id": "m/borat",
+          "url": "https://www.rottentomatoes.com/m/borat"
+        }
+      },
       "slug": "borat-2006",
       "genres": [
         "Comedy"
@@ -32206,6 +34325,21 @@
         "seconds": 101,
         "title": "Uprising | Official Trailer | Netflix",
         "url": "https://www.youtube.com/watch?v=TqfaCAA1UeE"
+      },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt27987046",
+          "score": 6.6,
+          "url": "https://www.imdb.com/title/tt27987046/",
+          "votes": 7518
+        },
+        "rottenTomatoes": {
+          "audience": 80,
+          "critics": 80,
+          "id": "m/uprising",
+          "url": "https://www.rottentomatoes.com/m/uprising"
+        }
       },
       "slug": "uprising-2024",
       "genres": [
@@ -32261,6 +34395,27 @@
         "title": "KPop Demon Hunters | Official Trailer | Netflix",
         "url": "https://www.youtube.com/watch?v=AzCAwdp1uIQ"
       },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt14205554",
+          "score": 7.4,
+          "url": "https://www.imdb.com/title/tt14205554/",
+          "votes": 143367
+        },
+        "letterboxd": {
+          "id": "kpop-demon-hunters",
+          "score": 3.53,
+          "url": "https://letterboxd.com/film/kpop-demon-hunters/",
+          "votes": 1942834
+        },
+        "rottenTomatoes": {
+          "audience": 99,
+          "critics": 92,
+          "id": "m/kpop_demon_hunters",
+          "url": "https://www.rottentomatoes.com/m/kpop_demon_hunters"
+        }
+      },
       "slug": "kpop-demon-hunters-2025",
       "genres": [
         "Musical",
@@ -32314,6 +34469,27 @@
         "seconds": 112,
         "title": "Under Paris | Official Trailer | Netflix",
         "url": "https://www.youtube.com/watch?v=jnCefPQIH98"
+      },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt13964390",
+          "score": 5.2,
+          "url": "https://www.imdb.com/title/tt13964390/",
+          "votes": 40678
+        },
+        "letterboxd": {
+          "id": "under-paris",
+          "score": 2.17,
+          "url": "https://letterboxd.com/film/under-paris/",
+          "votes": 236501
+        },
+        "rottenTomatoes": {
+          "audience": 30,
+          "critics": 63,
+          "id": "m/under_paris",
+          "url": "https://www.rottentomatoes.com/m/under_paris"
+        }
       },
       "slug": "under-paris-2024",
       "genres": [
@@ -32372,6 +34548,27 @@
         "seconds": 119,
         "title": "Marvel Studios’ Shang-Chi and the Legend of the Ten Rings | Official Trailer",
         "url": "https://www.youtube.com/watch?v=8YjFbMbfXaQ"
+      },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt9376612",
+          "score": 7.3,
+          "url": "https://www.imdb.com/title/tt9376612/",
+          "votes": 502228
+        },
+        "letterboxd": {
+          "id": "shang-chi-and-the-legend-of-the-ten-rings",
+          "score": 3.41,
+          "url": "https://letterboxd.com/film/shang-chi-and-the-legend-of-the-ten-rings/",
+          "votes": 1616152
+        },
+        "rottenTomatoes": {
+          "audience": 98,
+          "critics": 92,
+          "id": "m/shang_chi_and_the_legend_of_the_ten_rings",
+          "url": "https://www.rottentomatoes.com/m/shang_chi_and_the_legend_of_the_ten_rings"
+        }
       },
       "slug": "shang-chi-and-the-legend-of-the-ten-rings-2021",
       "genres": [
@@ -32432,6 +34629,27 @@
         "seconds": 143,
         "title": "Black Panther - Official New UK Trailer | HD",
         "url": "https://www.youtube.com/watch?v=lAwL6CK-D_Q"
+      },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt1825683",
+          "score": 7.3,
+          "url": "https://www.imdb.com/title/tt1825683/",
+          "votes": 926859
+        },
+        "letterboxd": {
+          "id": "black-panther",
+          "score": 3.72,
+          "url": "https://letterboxd.com/film/black-panther/",
+          "votes": 3092379
+        },
+        "rottenTomatoes": {
+          "audience": 79,
+          "critics": 96,
+          "id": "m/black_panther_2018",
+          "url": "https://www.rottentomatoes.com/m/black_panther_2018"
+        }
       },
       "slug": "black-panther-2018",
       "genres": [
@@ -32496,6 +34714,7 @@
         "title": "Drishyam Trailer Full HD",
         "url": "https://www.youtube.com/watch?v=nD8dPfUvgMs"
       },
+      "scores": null,
       "slug": "drishyam-2015",
       "genres": [
         "Drama"
@@ -32541,6 +34760,27 @@
         "seconds": 117,
         "title": "The Best Is Yet to Come - Trailer - Stockholm International Film Festival 2020",
         "url": "https://www.youtube.com/watch?v=ROAgQ1jVDQc"
+      },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt9284430",
+          "score": 6.7,
+          "url": "https://www.imdb.com/title/tt9284430/",
+          "votes": 2715
+        },
+        "letterboxd": {
+          "id": "the-best-is-yet-to-come-2019",
+          "score": 3.37,
+          "url": "https://letterboxd.com/film/the-best-is-yet-to-come-2019/",
+          "votes": 3549
+        },
+        "rottenTomatoes": {
+          "audience": 80,
+          "critics": null,
+          "id": "m/the_best_is_yet_to_come_2019",
+          "url": "https://www.rottentomatoes.com/m/the_best_is_yet_to_come_2019"
+        }
       },
       "slug": "the-best-is-yet-to-come-2020",
       "genres": [
@@ -32595,6 +34835,7 @@
         "title": "Lost In The Stars - Official Trailer (ซับไทย)",
         "url": "https://www.youtube.com/watch?v=ePihwpXg9oU"
       },
+      "scores": null,
       "slug": "lost-in-the-stars-2022",
       "genres": [
         "Mystery",
@@ -32643,6 +34884,7 @@
         "title": "All Ears Official Trailer",
         "url": "https://www.youtube.com/watch?v=IKc8JSuAG-k"
       },
+      "scores": null,
       "slug": "all-ears-2023",
       "genres": [
         "Drama"
@@ -32683,6 +34925,7 @@
         }
       ],
       "trailer": null,
+      "scores": null,
       "slug": "fireflies-in-the-sun-2021",
       "genres": [
         "Crime",
@@ -32735,6 +34978,7 @@
         "title": "HIDDEN BLADE (2023) Official International Trailer | Watch Online July 18, 2023",
         "url": "https://www.youtube.com/watch?v=yzZ_oHR5wRE"
       },
+      "scores": null,
       "slug": "hidden-blade-2023",
       "genres": [
         "Thriller"
@@ -32775,6 +35019,7 @@
         "title": "YOLO 热辣滚烫 (2024) - FINAL OFFICIAL TRAILER (HD) ENG",
         "url": "https://www.youtube.com/watch?v=1JvFpX1dUIA"
       },
+      "scores": null,
       "slug": "yolo-2024",
       "genres": [
         "Comedy",
@@ -32815,6 +35060,21 @@
         "seconds": 179,
         "title": "Nobody - Official Trailer (HD)",
         "url": "https://www.youtube.com/watch?v=wZti8QKBWPo"
+      },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt36733027",
+          "score": 7.8,
+          "url": "https://www.imdb.com/title/tt36733027/",
+          "votes": 2757
+        },
+        "letterboxd": {
+          "id": "nobody-2025",
+          "score": 4.05,
+          "url": "https://letterboxd.com/film/nobody-2025/",
+          "votes": 8751
+        }
       },
       "slug": "nobody-2025",
       "genres": [
@@ -32870,6 +35130,7 @@
         "title": "ENTER THE FAT DRAGON (2020) Official Trailer | Donnie Yen Martial Arts Movie",
         "url": "https://www.youtube.com/watch?v=5T8GHGqvtOw"
       },
+      "scores": null,
       "slug": "enter-the-fat-dragon-2020",
       "genres": [
         "Martial arts"
@@ -32907,6 +35168,27 @@
         "seconds": 112,
         "title": "THE WANDERING EARTH II (2023) Official International Trailer | In North American Theaters January 22",
         "url": "https://www.youtube.com/watch?v=8ZIfInUTiIg"
+      },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt13539646",
+          "score": 6.7,
+          "url": "https://www.imdb.com/title/tt13539646/",
+          "votes": 16727
+        },
+        "letterboxd": {
+          "id": "the-wandering-earth-ii",
+          "score": 3.27,
+          "url": "https://letterboxd.com/film/the-wandering-earth-ii/",
+          "votes": 8759
+        },
+        "rottenTomatoes": {
+          "audience": 97,
+          "critics": 83,
+          "id": "m/the_wandering_earth_ii",
+          "url": "https://www.rottentomatoes.com/m/the_wandering_earth_ii"
+        }
       },
       "slug": "wandering-earth-2",
       "genres": [],
@@ -32957,6 +35239,27 @@
         "seconds": 145,
         "title": "Zootopia 2 | Final Trailer | In Cinemas November 2025",
         "url": "https://www.youtube.com/watch?v=AnZePbb4uog"
+      },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt26443597",
+          "score": 7.3,
+          "url": "https://www.imdb.com/title/tt26443597/",
+          "votes": 155259
+        },
+        "letterboxd": {
+          "id": "zootopia-2",
+          "score": 3.67,
+          "url": "https://letterboxd.com/film/zootopia-2/",
+          "votes": 1969473
+        },
+        "rottenTomatoes": {
+          "audience": 95,
+          "critics": 92,
+          "id": "m/zootopia_2",
+          "url": "https://www.rottentomatoes.com/m/zootopia_2"
+        }
       },
       "slug": "zootopia-2-2025",
       "genres": [],
@@ -33019,6 +35322,7 @@
         "title": "Monsters Inc 3D | Official Trailer | Disney Pixar | HD",
         "url": "https://www.youtube.com/watch?v=ZhTb-gvUOEk"
       },
+      "scores": null,
       "slug": "monsters-inc-2001",
       "genres": [],
       "franchises": []
@@ -33071,6 +35375,27 @@
         "title": "Creed - Official Trailer [HD]",
         "url": "https://www.youtube.com/watch?v=Uv554B7YHk4"
       },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt3076658",
+          "score": 7.6,
+          "url": "https://www.imdb.com/title/tt3076658/",
+          "votes": 340260
+        },
+        "letterboxd": {
+          "id": "creed",
+          "score": 3.83,
+          "url": "https://letterboxd.com/film/creed/",
+          "votes": 832972
+        },
+        "rottenTomatoes": {
+          "audience": 89,
+          "critics": 95,
+          "id": "m/creed_2015",
+          "url": "https://www.rottentomatoes.com/m/creed_2015"
+        }
+      },
       "slug": "creed",
       "genres": [],
       "franchises": []
@@ -33117,6 +35442,27 @@
         "seconds": 160,
         "title": "CREED 3 Trailer 2 (2023)",
         "url": "https://www.youtube.com/watch?v=A5Ir4PonZ48"
+      },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt11145118",
+          "score": 6.7,
+          "url": "https://www.imdb.com/title/tt11145118/",
+          "votes": 111225
+        },
+        "letterboxd": {
+          "id": "creed-iii",
+          "score": 3.44,
+          "url": "https://letterboxd.com/film/creed-iii/",
+          "votes": 477351
+        },
+        "rottenTomatoes": {
+          "audience": 95,
+          "critics": 89,
+          "id": "m/creed_iii",
+          "url": "https://www.rottentomatoes.com/m/creed_iii"
+        }
       },
       "slug": "creed-3",
       "genres": [],
@@ -33165,6 +35511,27 @@
         "title": "BlackBerry | Official Trailer",
         "url": "https://www.youtube.com/watch?v=d0oskTqbi0I"
       },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt21867434",
+          "score": 7.3,
+          "url": "https://www.imdb.com/title/tt21867434/",
+          "votes": 72904
+        },
+        "letterboxd": {
+          "id": "blackberry-2023",
+          "score": 3.77,
+          "url": "https://letterboxd.com/film/blackberry-2023/",
+          "votes": 289384
+        },
+        "rottenTomatoes": {
+          "audience": 94,
+          "critics": 97,
+          "id": "m/blackberry",
+          "url": "https://www.rottentomatoes.com/m/blackberry"
+        }
+      },
       "slug": "blackberry",
       "genres": [],
       "franchises": []
@@ -33209,6 +35576,27 @@
         "title": "Avatar Aang: The Last Airbender | Official Movie Trailer | Paramount+ | Avatar",
         "url": "https://www.youtube.com/watch?v=7b20GRFZBFE"
       },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt18259538",
+          "score": 7.7,
+          "url": "https://www.imdb.com/title/tt18259538/",
+          "votes": 27629
+        },
+        "letterboxd": {
+          "id": "aang-the-last-airbender",
+          "score": 3.73,
+          "url": "https://letterboxd.com/film/aang-the-last-airbender/",
+          "votes": 269726
+        },
+        "rottenTomatoes": {
+          "audience": 99,
+          "critics": 90,
+          "id": "m/the_legend_of_aang_the_last_airbender",
+          "url": "https://www.rottentomatoes.com/m/the_legend_of_aang_the_last_airbender"
+        }
+      },
       "slug": "avatar-aang-the-last-airbender-2026",
       "genres": [],
       "franchises": []
@@ -33245,6 +35633,15 @@
         "title": "VANISHING POINT Official Trailer (2026)",
         "url": "https://www.youtube.com/watch?v=OoJcA5K-rdo"
       },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt34885279",
+          "score": 6.8,
+          "url": "https://www.imdb.com/title/tt34885279/",
+          "votes": 539
+        }
+      },
       "slug": "vanishing-point-2026",
       "genres": [],
       "franchises": []
@@ -33272,6 +35669,7 @@
         "title": "ONCE UPON A TIME IN THE MIDDLE EAST — Official Trailer (2026)",
         "url": "https://www.youtube.com/watch?v=ed0e9v5yOfk"
       },
+      "scores": null,
       "slug": "once-upon-a-time-in-the-middle-east",
       "genres": [],
       "franchises": []
@@ -33317,6 +35715,7 @@
         "title": "《導火綫》預告 Flash Point Trailer (2007)",
         "url": "https://www.youtube.com/watch?v=2BVfX1aC9Nc"
       },
+      "scores": null,
       "slug": "flash-point-2007",
       "genres": [],
       "franchises": []
@@ -33362,6 +35761,7 @@
         "title": "HAPPY TOGETHER 4K | Official Trailer (English)",
         "url": "https://www.youtube.com/watch?v=5VPvFaAWX9U"
       },
+      "scores": null,
       "slug": "happy-together-1997",
       "genres": [],
       "franchises": []
@@ -33407,6 +35807,7 @@
         "title": "2046 - Official Movie Trailer ( 2004 )",
         "url": "https://www.youtube.com/watch?v=3Tz6KgPfeuk"
       },
+      "scores": null,
       "slug": "2046-2004",
       "genres": [],
       "franchises": []
@@ -33434,6 +35835,7 @@
         "title": "96分鐘｜96 Minutes | Official Trailer | 正式預告片 ",
         "url": "https://www.youtube.com/watch?v=BeR_NIREjKY"
       },
+      "scores": null,
       "slug": "96-minutes",
       "genres": [],
       "franchises": []
@@ -33461,6 +35863,7 @@
         "title": "5 Centimeters per Second (Anime) -- Trailer",
         "url": "https://www.youtube.com/watch?v=xqQmBoaU-d4"
       },
+      "scores": null,
       "slug": "5-centimeters-per-second",
       "genres": [],
       "franchises": []
@@ -33515,6 +35918,27 @@
         "title": "Mowgli: Legend of the Jungle | Official Trailer [HD] | Netflix",
         "url": "https://www.youtube.com/watch?v=6btOgVUZu00"
       },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt2388771",
+          "score": 6.5,
+          "url": "https://www.imdb.com/title/tt2388771/",
+          "votes": 70082
+        },
+        "letterboxd": {
+          "id": "mowgli-legend-of-the-jungle",
+          "score": 2.76,
+          "url": "https://letterboxd.com/film/mowgli-legend-of-the-jungle/",
+          "votes": 81477
+        },
+        "rottenTomatoes": {
+          "audience": 51,
+          "critics": 51,
+          "id": "m/mowgli_legend_of_the_jungle",
+          "url": "https://www.rottentomatoes.com/m/mowgli_legend_of_the_jungle"
+        }
+      },
       "slug": "mowgli-legend-of-the-jungle-2018",
       "genres": [
         "Adventure",
@@ -33545,6 +35969,7 @@
         "title": "STUDIO GHIBLI: THE GRAVE OF FIREFLIES - Official Trailer",
         "url": "https://www.youtube.com/watch?v=ALT7-2c8eq8"
       },
+      "scores": null,
       "slug": "grave-of-fireflies",
       "genres": [],
       "franchises": []
@@ -33572,6 +35997,7 @@
         "title": "HOPE | Official Trailer | In Cinemas October",
         "url": "https://www.youtube.com/watch?v=mYRc2Gl7geY"
       },
+      "scores": null,
       "slug": "hope-2026",
       "genres": [],
       "franchises": []
@@ -33599,7 +36025,196 @@
         "title": "DEAR YOU Official Trailer (2026)",
         "url": "https://www.youtube.com/watch?v=zndGtY2ADOo"
       },
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt41791573",
+          "score": 8.2,
+          "url": "https://www.imdb.com/title/tt41791573/",
+          "votes": 2441
+        },
+        "letterboxd": {
+          "id": "dear-you-2026",
+          "score": 4.0,
+          "url": "https://letterboxd.com/film/dear-you-2026/",
+          "votes": 14012
+        },
+        "rottenTomatoes": {
+          "audience": 98,
+          "critics": 91,
+          "id": "m/dear_you",
+          "url": "https://www.rottentomatoes.com/m/dear_you"
+        }
+      },
       "slug": "dear-you-2026",
+      "genres": [],
+      "franchises": []
+    },
+    {
+      "title": "Those who wish me dead",
+      "year": null,
+      "tier": "E",
+      "country": null,
+      "region": "Unknown",
+      "note": null,
+      "director": null,
+      "directors": [],
+      "poster": "those-who-wish-me-dead.png",
+      "nativeTitle": null,
+      "critique": null,
+      "shortlisted": false,
+      "analysis": null,
+      "summary": null,
+      "streaming": [],
+      "trailer": null,
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt3215824",
+          "score": 6.0,
+          "url": "https://www.imdb.com/title/tt3215824/",
+          "votes": 82293
+        },
+        "letterboxd": {
+          "id": "those-who-wish-me-dead",
+          "score": 2.76,
+          "url": "https://letterboxd.com/film/those-who-wish-me-dead/",
+          "votes": 97918
+        },
+        "rottenTomatoes": {
+          "audience": 86,
+          "critics": 63,
+          "id": "m/those_who_wish_me_dead",
+          "url": "https://www.rottentomatoes.com/m/those_who_wish_me_dead"
+        }
+      },
+      "slug": "those-who-wish-me-dead",
+      "genres": [],
+      "franchises": []
+    },
+    {
+      "title": "Project Hail Mary",
+      "year": null,
+      "tier": "B",
+      "country": null,
+      "region": "Unknown",
+      "note": null,
+      "director": null,
+      "directors": [],
+      "poster": "project-hail-mary.jpg",
+      "nativeTitle": null,
+      "critique": null,
+      "shortlisted": false,
+      "analysis": null,
+      "summary": null,
+      "streaming": [],
+      "trailer": null,
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt12042730",
+          "score": 8.2,
+          "url": "https://www.imdb.com/title/tt12042730/",
+          "votes": 551923
+        },
+        "letterboxd": {
+          "id": "project-hail-mary",
+          "score": 4.31,
+          "url": "https://letterboxd.com/film/project-hail-mary/",
+          "votes": 4479151
+        },
+        "rottenTomatoes": {
+          "audience": 95,
+          "critics": 95,
+          "id": "m/project_hail_mary",
+          "url": "https://www.rottentomatoes.com/m/project_hail_mary"
+        }
+      },
+      "slug": "project-hail-mary",
+      "genres": [],
+      "franchises": []
+    },
+    {
+      "title": "keanu",
+      "year": null,
+      "tier": "E",
+      "country": null,
+      "region": "Unknown",
+      "note": null,
+      "director": null,
+      "directors": [],
+      "poster": "keanu.png",
+      "nativeTitle": null,
+      "critique": null,
+      "shortlisted": false,
+      "analysis": null,
+      "summary": null,
+      "streaming": [],
+      "trailer": null,
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt4139124",
+          "score": 6.2,
+          "url": "https://www.imdb.com/title/tt4139124/",
+          "votes": 56040
+        },
+        "letterboxd": {
+          "id": "keanu",
+          "score": 3.03,
+          "url": "https://letterboxd.com/film/keanu/",
+          "votes": 78948
+        },
+        "rottenTomatoes": {
+          "audience": 55,
+          "critics": 78,
+          "id": "m/keanu_2016",
+          "url": "https://www.rottentomatoes.com/m/keanu_2016"
+        }
+      },
+      "slug": "keanu",
+      "genres": [],
+      "franchises": []
+    },
+    {
+      "title": "Dear Ex",
+      "year": null,
+      "tier": "B",
+      "country": null,
+      "region": "Unknown",
+      "note": null,
+      "director": null,
+      "directors": [],
+      "poster": "dear-ex.jpg",
+      "nativeTitle": null,
+      "critique": null,
+      "shortlisted": false,
+      "analysis": null,
+      "summary": null,
+      "streaming": [],
+      "trailer": null,
+      "scores": {
+        "fetched": "2026-09-22",
+        "imdb": {
+          "id": "tt8443704",
+          "score": 7.3,
+          "url": "https://www.imdb.com/title/tt8443704/",
+          "votes": 8165
+        },
+        "letterboxd": {
+          "id": "dear-ex",
+          "score": 3.89,
+          "url": "https://letterboxd.com/film/dear-ex/",
+          "votes": 37459
+        },
+        "rottenTomatoes": {
+          "audience": 86,
+          "critics": 90,
+          "id": "m/dear_ex",
+          "url": "https://www.rottentomatoes.com/m/dear_ex"
+        }
+      },
+      "slug": "dear-ex",
       "genres": [],
       "franchises": []
     }
