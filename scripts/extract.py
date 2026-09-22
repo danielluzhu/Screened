@@ -33,6 +33,13 @@ DIRECTORS = os.path.join(ROOT, "directors.json")
 # read this, and folding 40KB gzipped into the payload every page fetches to
 # serve one page type is a poor trade.
 OTHER_FILMS = os.path.join(ROOT, "other-films.json")
+# Split out of data.json for the same reason: summary, trailer and scores are
+# read only by the film page, and together they are about three quarters of
+# films[] — the Wikipedia summaries alone run to 476KB. Every page fetches
+# data.json, so keeping them there made the front page pay to download text it
+# never shows. One entry per slug; the film page fetches its own.
+FILM_DETAILS = os.path.join(ROOT, "film-details.json")
+DETAIL_FIELDS = ("summary", "trailer", "scores")
 # Written by scripts/director_photos.py. Absent until that has run.
 DIRECTOR_PHOTOS = os.path.join(ROOT, "director-photos.json")
 CHAR_PHOTOS = os.path.join(ROOT, "character-photos.json")
@@ -555,8 +562,25 @@ def main():
         ],
     }
 
+    # Lift the film-page-only fields out before data.json is written. Done
+    # here rather than at build time so the dev server and the static site
+    # serve the same shape.
+    details = {}
+    for film in films:
+        detail = {}
+        for field in DETAIL_FIELDS:
+            value = film.pop(field, None)
+            if value is not None:
+                detail[field] = value
+        if detail:
+            details[film["slug"]] = detail
+
     with open(DST, "w") as fh:
         json.dump(data, fh, indent=2, ensure_ascii=False)
+        fh.write("\n")
+
+    with open(FILM_DETAILS, "w") as fh:
+        json.dump(details, fh, indent=2, ensure_ascii=False, sort_keys=True)
         fh.write("\n")
 
     with open(OTHER_FILMS, "w") as fh:

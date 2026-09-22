@@ -39,7 +39,7 @@ BASE = (sys.argv[1] if len(sys.argv) > 1 else os.environ.get("BASE_PATH", "/Scre
 # the slug back out of location.pathname.
 ROUTES = ("film", "show", "character", "director", "year", "other")
 # Directories under public/ that the pages link to with absolute paths.
-ASSETS = ("posters", "logos", "characters", "shows", "portraits")
+ASSETS = ("posters", "thumbs", "logos", "characters", "shows", "portraits")
 # Pages that are not per-item routes but still need their own directory, as
 # (url segment, source file in public/, title). The three views share the front
 # page's markup — app.js picks which one to show from the path.
@@ -121,6 +121,18 @@ def main() -> int:
     # Fetched only by the /other/ pages; see extract.py.
     other_films = json.loads((ROOT / "other-films.json").read_text())
     shutil.copyfile(ROOT / "other-films.json", api / "other-films.json")
+
+    # One file per film, fetched only by that film's own page. Exploded into
+    # separate files rather than copied whole: a film page wants its own
+    # summary, not the other two hundred, and these are static files on Pages
+    # so there is no cost to having many of them.
+    details = json.loads((ROOT / "film-details.json").read_text())
+    detail_dir = api / "detail"
+    detail_dir.mkdir()
+    for slug, detail in details.items():
+        (detail_dir / f"{slug}.json").write_text(
+            json.dumps(detail, ensure_ascii=False), encoding="utf-8"
+        )
 
     # One real directory per slug, built from the same shell the server serves.
     shells = {r: (PUBLIC / f"{r}.html").read_text() for r in ROUTES}

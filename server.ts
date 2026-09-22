@@ -163,6 +163,18 @@ const server = Bun.serve({
       });
     }
 
+    // Only the film page reads these, so they are their own fetch rather than
+    // three quarters of every page's /api/data. The static build explodes
+    // film-details.json into one file per slug; here it is one file, read and
+    // indexed, so both serve the same shape.
+    if (path.startsWith("/api/detail/") && path.endsWith(".json")) {
+      const slug = path.slice("/api/detail/".length, -".json".length);
+      const details = await file(join(ROOT, "film-details.json"))
+        .json()
+        .catch(() => ({}));
+      return Response.json(details[slug] ?? {}, { headers: { "cache-control": "no-store" } });
+    }
+
     if (path === "/api/data") {
       return Response.json(await loadData(), { headers: { "cache-control": "no-store" } });
     }

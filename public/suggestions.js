@@ -25,6 +25,22 @@ const FILTERS = [
 ];
 
 let toastTimer;
+// List views draw posters into a 30-62px slot, so they load the 124px WebP
+// copy scripts/thumbs.py keeps rather than the full poster — the artwork on
+// the front page went from about 17MB to roughly 1MB that way. A film whose
+// thumbnail hasn't been built yet falls back to the real poster, so a newly
+// added film looks right straight away.
+function posterSrc(img, poster) {
+  img.src = `/thumbs/${poster.replace(/\.[^.]+$/, ".webp")}`;
+  img.addEventListener(
+    "error",
+    () => {
+      img.src = `/posters/${poster}`;
+    },
+    { once: true }
+  );
+}
+
 function toast(message, kind = "info") {
   const node = el("toast");
   node.textContent = message;
@@ -204,7 +220,7 @@ function suggestionCard(entry, best) {
   const art = document.createElement(entry.poster ? "img" : "div");
   art.className = entry.poster ? "sug-poster" : "sug-poster is-blank";
   if (entry.poster) {
-    art.src = `/posters/${entry.poster}`;
+    posterSrc(art, entry.poster);
     art.alt = `${entry.title} poster`;
     art.loading = "lazy";
     art.decoding = "async";

@@ -543,6 +543,10 @@ function facts(film, data) {
         fresh.films.find((f) => f.slug === film.slug);
       if (!updated) return read();
       if (updated.slug !== film.slug) history.replaceState({}, "", `/Screened/film/${updated.slug}`);
+      // The index no longer carries summary/trailer/scores, and a year edit
+      // moves the film to a new slug, so re-read the detail under whichever
+      // slug it now has rather than dropping those sections off the page.
+      Object.assign(updated, await loadDetail(updated.slug));
       render(updated, fresh);
     } catch (err) {
       toast(`Saved, but couldn't refresh the page: ${err.message}`, "error");
@@ -608,14 +612,33 @@ function editor({ cls, heading, rows, value, placeholder, field, film }) {
   return section;
 }
 
+// summary, trailer and scores live in their own per-film file rather than in
+// the index every page fetches — they were about three quarters of it, and no
+// other page reads them. A film with none of the three has no file at all,
+// which is a page without those sections rather than an error, so this never
+// rejects.
+async function loadDetail(slug) {
+  try {
+    const res = await fetch(`/Screened/api/detail/${slug}.json`);
+    if (!res.ok) return {};
+    return await res.json();
+  } catch {
+    return {};
+  }
+}
+
 async function init() {
   const slug = decodeURIComponent(location.pathname.replace(/^\/Screened\/film\/?/, "").replace(/\/$/, "")).trim();
   let data;
+  let detail = {};
   try {
-    const res = await fetch("/Screened/api/data.json");
+    // Asked for together: the detail file doesn't depend on the index, so
+    // waiting for one before starting the other would cost a round trip.
+    const [res, loaded] = await Promise.all([fetch("/Screened/api/data.json"), loadDetail(slug)]);
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     data = await res.json();
     LOGOS = data.serviceLogos ?? {};
+    detail = loaded;
   } catch (err) {
     el("main").replaceChildren(text("p", "empty", `Couldn't load the data (${err.message}).`));
     return;
@@ -630,6 +653,7 @@ async function init() {
     main.append(back);
     return;
   }
+  Object.assign(film, detail);
   render(film, data);
 }
 

@@ -245,6 +245,22 @@ function artLink(art, href) {
   return link;
 }
 
+// List views draw posters into a 30-62px slot, so they load the 124px WebP
+// copy scripts/thumbs.py keeps rather than the full poster — the artwork on
+// the front page went from about 17MB to roughly 1MB that way. A film whose
+// thumbnail hasn't been built yet falls back to the real poster, so a newly
+// added film looks right straight away.
+function posterSrc(img, poster) {
+  img.src = `/Screened/thumbs/${poster.replace(/\.[^.]+$/, ".webp")}`;
+  img.addEventListener(
+    "error",
+    () => {
+      img.src = `/Screened/posters/${poster}`;
+    },
+    { once: true }
+  );
+}
+
 function poster(film, cls = "poster", href = null) {
   if (!film.poster) {
     // Keep the same footprint so rows stay aligned without an image.
@@ -254,7 +270,7 @@ function poster(film, cls = "poster", href = null) {
   }
   const img = document.createElement("img");
   img.className = cls;
-  img.src = `/Screened/posters/${film.poster}`;
+  posterSrc(img, film.poster);
   img.alt = `${film.title} poster`;
   img.loading = "lazy";
   img.decoding = "async";
