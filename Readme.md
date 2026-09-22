@@ -135,6 +135,12 @@ python3 scripts/extract.py                     # after editing the Numbers file
 The server re-reads `data.json` on each request, so a refresh picks up changes
 without a restart.
 
+`summary`, `trailer` and `scores` are read only by a film's own page and were
+about three quarters of `films[]`, so `extract.py` writes them to
+`film-details.json` instead and the film page fetches its own entry — the same
+trade `other-films.json` makes. `data.json` is 140KB gzipped rather than 280KB,
+on every page.
+
 **Country** is normalized: `China`/`Chinese`/`chinese` and friends collapse into
 a `region` field used for filtering. The original string is kept and is what the
 page shows.
@@ -312,6 +318,46 @@ posters had one. Needs Pillow.
 Note these are non-free posters that Wikipedia hosts under fair use. A local copy
 for a private list is comparable use; check that still holds before putting this
 site on a public domain.
+
+### Thumbnails
+
+```sh
+python3 scripts/thumbs.py                    # anything not built yet
+python3 scripts/thumbs.py --force            # rebuild all of them
+python3 scripts/thumbs.py --prune            # drop thumbs with no original
+python3 scripts/thumbs.py posters portraits  # only these sets
+```
+
+Every image set was loading at full size and being drawn at a fraction of it.
+A poster averages 89KB and renders into a 52px slot, so scrolling the front page
+pulled about 17MB of artwork; the JSON the page fetches first is a tenth of that
+and arrives gzipped. Director portraits are stored at 330px and drawn at 44px,
+and the character art runs to 968px median against a 240px tile.
+
+So each set gets a WebP copy in `public/thumbs/<set>/`, sized at twice the
+largest slot the pages draw it into:
+
+| set | width | why |
+| --- | --- | --- |
+| `posters` | 124px | the 62px suggestion card, widest of the list slots |
+| `portraits` | 176px | the 88px avatar on a director's own page |
+| `characters` | 480px | the 240px tile in the characters grid |
+| `shows` | 600px | the 300px tile, which is the wide grid |
+
+That is 33.7MB of artwork down to 3.0MB. Originals are untouched — they are what
+these are rebuilt from, and what a page falls back to.
+
+A thumbnail keeps the original's full filename and adds `.webp`, so
+`naruto.png` and `naruto.webp` — `public/shows` has both — can't collapse onto
+one file whose source depends on directory order. Pages derive the thumb path
+from the image URL at runtime rather than storing a second one, so the base path
+`build_static.py` rewrites into those literals carries across, and an image with
+no thumbnail yet loads the original instead of breaking.
+
+`posters.py` runs this for its own set after a download, and `build_static.py`
+runs all four before publishing, so the deployed site is current whichever image
+script ran last. Needs Pillow; without it both callers skip it and the pages
+serve full-size images.
 
 ### Autofilling year, director, and franchise
 

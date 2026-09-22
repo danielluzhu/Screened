@@ -11,17 +11,23 @@ const TIER_MEANING = {
   "?": "Unrated",
 };
 
-// List views draw posters into a 30-62px slot, so they load the 124px WebP
-// copy scripts/thumbs.py keeps rather than the full poster — the artwork on
-// the front page went from about 17MB to roughly 1MB that way. A film whose
-// thumbnail hasn't been built yet falls back to the real poster, so a newly
-// added film looks right straight away.
-function posterSrc(img, poster) {
-  img.src = `/thumbs/${poster.replace(/\.[^.]+$/, ".webp")}`;
+
+// Pages draw artwork far smaller than it is stored, so they load the WebP copy
+// scripts/thumbs.py builds beside each image — that took the front page from
+// about 17MB of artwork to roughly 1MB. The thumb path is derived from the
+// full URL at runtime rather than written as its own literal, so the base path
+// the static build rewrites into these strings carries across; an image with no
+// thumbnail yet falls back to the original, so a newly added one works before
+// thumbs.py next runs.
+function thumbSrc(img, url) {
+  img.src = url.replace(
+    /^(.*)\/([^/]+)\/([^/]+)$/,
+    (_, base, dir, file) => `${base}/thumbs/${dir}/${file}.webp`
+  );
   img.addEventListener(
     "error",
     () => {
-      img.src = `/posters/${poster}`;
+      img.src = url;
     },
     { once: true }
   );
@@ -53,7 +59,7 @@ function watchedRow(film) {
   if (film.poster) {
     const img = document.createElement("img");
     img.className = "poster-sm";
-    posterSrc(img, film.poster);
+    thumbSrc(img, `/posters/${film.poster}`);
     img.alt = "";
     img.loading = "lazy";
     li.append(artLink(img, `/film/${film.slug}`));
@@ -162,7 +168,7 @@ function render(director) {
   if (director.photo) {
     const img = document.createElement("img");
     img.className = "director-photo";
-    img.src = `/portraits/${director.photo}`;
+    thumbSrc(img, `/portraits/${director.photo}`);
     img.alt = `${director.name}`;
     img.loading = "lazy";
     head.append(img);

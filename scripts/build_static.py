@@ -29,6 +29,9 @@ import shutil
 import sys
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import thumbs  # noqa: E402
+
 ROOT = Path(__file__).resolve().parent.parent
 PUBLIC = ROOT / "public"
 OUT = ROOT / "docs"
@@ -103,6 +106,12 @@ def esc(s: str) -> str:
 
 
 def main() -> int:
+    # Build any missing thumbnails first, so whatever is copied below is
+    # current whichever image script ran last. Cheap when there is nothing to
+    # do, and a no-op without Pillow — the pages fall back to the originals.
+    print("thumbnails:")
+    thumbs.refresh_all()
+
     if OUT.exists():
         shutil.rmtree(OUT)
     shutil.copytree(PUBLIC, OUT)

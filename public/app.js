@@ -11,6 +11,27 @@ const charState = { sort: "tier" };
 // the film vocabularies; format is the one thing only a show is asked.
 const showState = { region: "all", genre: "all", format: "all" };
 
+// Pages draw artwork far smaller than it is stored, so they load the WebP copy
+// scripts/thumbs.py builds beside each image — that took the front page from
+// about 17MB of artwork to roughly 1MB. The thumb path is derived from the
+// full URL at runtime rather than written as its own literal, so the base path
+// the static build rewrites into these strings carries across; an image with no
+// thumbnail yet falls back to the original, so a newly added one works before
+// thumbs.py next runs.
+function thumbSrc(img, url) {
+  img.src = url.replace(
+    /^(.*)\/([^/]+)\/([^/]+)$/,
+    (_, base, dir, file) => `${base}/thumbs/${dir}/${file}.webp`
+  );
+  img.addEventListener(
+    "error",
+    () => {
+      img.src = url;
+    },
+    { once: true }
+  );
+}
+
 function text(tag, cls, value) {
   const node = document.createElement(tag);
   if (cls) node.className = cls;
@@ -245,21 +266,6 @@ function artLink(art, href) {
   return link;
 }
 
-// List views draw posters into a 30-62px slot, so they load the 124px WebP
-// copy scripts/thumbs.py keeps rather than the full poster — the artwork on
-// the front page went from about 17MB to roughly 1MB that way. A film whose
-// thumbnail hasn't been built yet falls back to the real poster, so a newly
-// added film looks right straight away.
-function posterSrc(img, poster) {
-  img.src = `/thumbs/${poster.replace(/\.[^.]+$/, ".webp")}`;
-  img.addEventListener(
-    "error",
-    () => {
-      img.src = `/posters/${poster}`;
-    },
-    { once: true }
-  );
-}
 
 function poster(film, cls = "poster", href = null) {
   if (!film.poster) {
@@ -270,7 +276,7 @@ function poster(film, cls = "poster", href = null) {
   }
   const img = document.createElement("img");
   img.className = cls;
-  posterSrc(img, film.poster);
+  thumbSrc(img, `/posters/${film.poster}`);
   img.alt = `${film.title} poster`;
   img.loading = "lazy";
   img.decoding = "async";
@@ -346,7 +352,7 @@ function tile({ art, badge, pin = null, title, lines = [], wide = false, href = 
   if (art) {
     const img = document.createElement("img");
     img.className = "tile-art";
-    img.src = art;
+    thumbSrc(img, art);
     // Decorative: the title is right there in the overlay, so announcing the
     // artwork as well would just repeat it.
     img.alt = "";

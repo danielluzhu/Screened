@@ -27,6 +27,7 @@ import urllib.request
 
 import autofill
 import numbers_io as io
+import thumbs
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, "public", "posters")
@@ -555,6 +556,12 @@ def main():
         for r in films
         if io.film_key(str(r[io.COL_TITLE]).strip(), io.year_of(r[io.COL_YEAR])) not in index
     ]
+    # A poster is drawn at 52px in the lists, so a new one needs its thumbnail
+    # before it helps. Cheap: only the ones just downloaded are missing.
+    if got:
+        print("\nthumbnails:")
+        thumbs.refresh("posters")
+
     print(f"\ndownloaded {got}, already had {skipped}, failed {failed}")
     print(f"{len(index)} of {len(films)} films have a poster")
     print(f"\nno poster ({len(missing)}):")

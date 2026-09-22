@@ -1,109 +1,173 @@
 #!/usr/bin/env python3
-"""Make list-sized thumbnails of every poster.
+"""Make display-sized copies of every image the pages draw small.
 
-    python3 scripts/thumbs.py            # only posters with no thumbnail yet
-    python3 scripts/thumbs.py --force    # rebuild all of them
-    python3 scripts/thumbs.py --prune    # also delete thumbs with no poster
+    python3 scripts/thumbs.py                    # anything not built yet
+    python3 scripts/thumbs.py --force            # rebuild all of them
+    python3 scripts/thumbs.py --prune            # drop thumbs with no original
+    python3 scripts/thumbs.py posters portraits  # only these sets
 
-The film list renders posters into a 52px slot (30px on a director or year
-page, 62px on the suggestions page) but was loading the full poster to do it —
-89KB on average, for something drawn 52px wide. Scrolling the front page
-pulled about 17MB of artwork. That is the whole of why the site felt slow; the
-JSON it fetches first is a tenth of that and arrives gzipped.
+Every set here was being loaded at full size and drawn at a fraction of it.
+Posters are the worst of it — 89KB of artwork average, rendered into a 52px
+slot, about 17MB to scroll the front page — but the same is true of the
+director avatars (330px stored, 44px drawn) and the character art (968px
+median, one of them 2001px, drawn into a 240px tile).
 
-So the lists get their own copy: 124px wide, which covers the widest of those
-slots at 2x on a retina screen, in WebP. That lands around 4KB each, and takes
-the library from 24MB to under 2MB.
+So each set gets a WebP copy at the size its largest small use actually needs,
+doubled for retina:
 
-The originals stay exactly as they are. The film page draws its poster at
-180px and still loads the real file — downscaling that one would be visible,
-and it is one image on a page about one film.
+    posters     124px   62px suggestion card, the widest of the list slots
+    portraits   176px   88px avatar on a director's own page
+    characters  480px   240px tile in the characters grid
+    shows       600px   300px tile, which is the wide grid
 
-Run this after scripts/posters.py. Pages fall back to the full poster for
-anything that has no thumbnail yet, so a new film looks right immediately and
-merely costs what it used to until this runs again.
+Originals stay untouched and are what the fallback loads. The film, character
+and show pages draw their own artwork at 180px, which these cover; the point of
+keeping the originals is that they are the source these are rebuilt from, and
+that a newly added image works before this has run again.
+
+An image smaller than its target is copied across rather than blown up.
+
+posters.py runs this for its own set, and build_static.py runs the lot before
+publishing, so the deployed site always has current thumbnails whichever image
+script last ran.
 """
 import os
+import shutil
 import sys
 
-try:
-    from PIL import Image
-except ImportError:  # pragma: no cover - depends on the machine
-    sys.exit("thumbs.py needs Pillow: python3 -m pip install Pillow")
-
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-SRC = os.path.join(ROOT, "public", "posters")
-DST = os.path.join(ROOT, "public", "thumbs")
+PUBLIC = os.path.join(ROOT, "public")
+THUMBS = os.path.join(PUBLIC, "thumbs")
 
-# Widest list slot is 62px (suggestions), doubled for retina.
-WIDTH = 124
+# set -> width in px, each twice the largest slot the pages draw it into.
+SETS = {
+    "posters": 124,
+    "portraits": 176,
+    "characters": 480,
+    "shows": 600,
+}
+
 QUALITY = 80
 
 
-def thumb_name(poster):
-    """poster.jpg -> poster.webp, so the page can derive one from the other."""
-    return os.path.splitext(poster)[0] + ".webp"
+def thumb_name(original):
+    """poster.jpg -> poster.jpg.webp, so a page can derive one from the other.
+
+    The extension is kept rather than replaced: public/shows holds both a
+    naruto.png and a naruto.webp, and swapping the extension collapsed them
+    onto one thumbnail whose source depended on directory order.
+    """
+    return original + ".webp"
 
 
-def build(name, force):
-    src = os.path.join(SRC, name)
-    dst = os.path.join(DST, thumb_name(name))
-    if not force and os.path.exists(dst) and os.path.getmtime(dst) >= os.path.getmtime(src):
-        return None
+def _build(src, dst, width):
+    from PIL import Image
 
     with Image.open(src) as im:
-        # Posters arrive as RGB, RGBA (the PNGs) and the odd palette image;
-        # WebP wants one of the first two and the alpha is never meaningful
-        # on a poster, so flatten everything to RGB.
+        # Originals arrive as RGB, RGBA (the PNGs), and the odd palette image.
+        # WebP wants one of the first two, and alpha is never meaningful on a
+        # poster or a portrait, so flatten everything.
         im = im.convert("RGB")
-        if im.width > WIDTH:
-            im = im.resize((WIDTH, round(im.height * WIDTH / im.width)), Image.LANCZOS)
+        if im.width > width:
+            im = im.resize((width, round(im.height * width / im.width)), Image.LANCZOS)
         im.save(dst, "WEBP", quality=QUALITY, method=6)
-    return os.path.getsize(dst)
+
+
+def refresh(name, force=False, prune=False, quiet=False):
+    """Build the thumbnails for one set. Returns (built, skipped, failed).
+
+    Importable so posters.py and build_static.py can keep the thumbnails
+    current without shelling out. Missing Pillow is reported, not raised: the
+    pages fall back to the original image, so a machine without it still
+    builds a working site, just a heavier one.
+    """
+    try:
+        import PIL  # noqa: F401
+    except ImportError:
+        if not quiet:
+            print("  thumbs: Pillow not installed, skipping (pages use full images)")
+        return 0, 0, 0
+
+    src_dir = os.path.join(PUBLIC, name)
+    if not os.path.isdir(src_dir):
+        return 0, 0, 0
+    dst_dir = os.path.join(THUMBS, name)
+    os.makedirs(dst_dir, exist_ok=True)
+    width = SETS[name]
+
+    originals = sorted(
+        n
+        for n in os.listdir(src_dir)
+        if not n.startswith(".") and os.path.isfile(os.path.join(src_dir, n))
+    )
+    built = skipped = failed = 0
+    before = after = 0
+    for original in originals:
+        src = os.path.join(src_dir, original)
+        dst = os.path.join(dst_dir, thumb_name(original))
+        if not force and os.path.exists(dst) and os.path.getmtime(dst) >= os.path.getmtime(src):
+            skipped += 1
+            continue
+        try:
+            _build(src, dst, width)
+        except (OSError, ValueError) as err:
+            # A file Pillow can't read is better left to the fallback than
+            # left as a half-written thumb.
+            if os.path.exists(dst):
+                os.remove(dst)
+            failed += 1
+            if not quiet:
+                print(f"  {name}/{original}: {err}")
+            continue
+        built += 1
+        before += os.path.getsize(src)
+        after += os.path.getsize(dst)
+
+    if prune:
+        keep = {thumb_name(n) for n in originals}
+        for stale in sorted(os.listdir(dst_dir)):
+            if stale not in keep:
+                os.remove(os.path.join(dst_dir, stale))
+                if not quiet:
+                    print(f"  removed {name}/{stale}")
+
+    if not quiet:
+        total_src = sum(os.path.getsize(os.path.join(src_dir, n)) for n in originals)
+        total_dst = sum(
+            os.path.getsize(os.path.join(dst_dir, n)) for n in os.listdir(dst_dir)
+        )
+        note = f", {failed} failed" if failed else ""
+        print(
+            f"  {name:11} {built:4} built, {skipped:4} current{note}"
+            f"   {total_src / 1048576:5.2f}MB -> {total_dst / 1048576:5.2f}MB"
+        )
+    return built, skipped, failed
+
+
+def refresh_all(force=False, prune=False, quiet=False, names=None):
+    total = [0, 0, 0]
+    for name in names or SETS:
+        for i, n in enumerate(refresh(name, force, prune, quiet)):
+            total[i] += n
+    return tuple(total)
 
 
 def main():
-    force = "--force" in sys.argv
-    prune = "--prune" in sys.argv
+    argv = sys.argv[1:]
+    force = "--force" in argv
+    prune = "--prune" in argv
+    names = [a for a in argv if not a.startswith("-")]
+    for name in names:
+        if name not in SETS:
+            sys.exit(f"unknown set {name!r}; try {', '.join(SETS)}")
 
-    if not os.path.isdir(SRC):
-        sys.exit(f"no posters at {SRC}")
-    os.makedirs(DST, exist_ok=True)
+    try:
+        import PIL  # noqa: F401
+    except ImportError:
+        sys.exit("thumbs.py needs Pillow: python3 -m pip install Pillow")
 
-    posters = sorted(
-        n for n in os.listdir(SRC) if not n.startswith(".") and os.path.isfile(os.path.join(SRC, n))
-    )
-    made = skipped = failed = 0
-    before = after = 0
-    for name in posters:
-        try:
-            size = build(name, force)
-        except (OSError, ValueError) as err:
-            failed += 1
-            print(f"  {name}: {err}")
-            continue
-        if size is None:
-            skipped += 1
-            continue
-        made += 1
-        before += os.path.getsize(os.path.join(SRC, name))
-        after += size
-
-    if prune:
-        keep = {thumb_name(n) for n in posters}
-        for name in sorted(os.listdir(DST)):
-            if name not in keep:
-                os.remove(os.path.join(DST, name))
-                print(f"  removed {name}")
-
-    total_src = sum(os.path.getsize(os.path.join(SRC, n)) for n in posters)
-    total_dst = sum(
-        os.path.getsize(os.path.join(DST, n)) for n in os.listdir(DST) if n.endswith(".webp")
-    )
-    print(f"{made} built, {skipped} already current" + (f", {failed} failed" if failed else ""))
-    if made:
-        print(f"  those {made}: {before / 1048576:.1f}MB -> {after / 1048576:.2f}MB")
-    print(f"  library: {total_src / 1048576:.1f}MB of posters, {total_dst / 1048576:.2f}MB of thumbs")
+    built, skipped, failed = refresh_all(force, prune, names=names or None)
+    print(f"\n{built} built, {skipped} already current" + (f", {failed} failed" if failed else ""))
 
 
 if __name__ == "__main__":
