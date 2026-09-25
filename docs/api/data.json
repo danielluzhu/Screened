@@ -20303,6 +20303,24 @@
         "country": null
       },
       {
+        "title": "Twilight of the Warriors: Walled In",
+        "year": null,
+        "directors": [],
+        "franchises": [],
+        "genres": [],
+        "regions": [],
+        "sources": [
+          "your list"
+        ],
+        "box": null,
+        "score": 0.0,
+        "reasons": [],
+        "slug": "twilight-of-the-warriors-walled-in",
+        "poster": "twilight-of-the-warriors-walled-in.jpg",
+        "streaming": [],
+        "country": null
+      },
+      {
         "title": "fist of legend",
         "year": null,
         "directors": [],
@@ -28148,6 +28166,25 @@
       "analysis": null,
       "streaming": [],
       "slug": "spl-sha-po-lang-2005",
+      "genres": [],
+      "franchises": []
+    },
+    {
+      "title": "Twilight of the Warriors: Walled In",
+      "year": null,
+      "tier": "?",
+      "country": null,
+      "region": "Unknown",
+      "note": null,
+      "director": null,
+      "directors": [],
+      "poster": "twilight-of-the-warriors-walled-in.jpg",
+      "nativeTitle": null,
+      "critique": null,
+      "shortlisted": false,
+      "analysis": null,
+      "streaming": [],
+      "slug": "twilight-of-the-warriors-walled-in",
       "genres": [],
       "franchises": []
     }
