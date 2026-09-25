@@ -20357,7 +20357,7 @@
         "country": null
       }
     ],
-    "rated": 125,
+    "rated": 126,
     "taste": {
       "directors": [
         {
@@ -28185,6 +28185,25 @@
       "analysis": null,
       "streaming": [],
       "slug": "twilight-of-the-warriors-walled-in",
+      "genres": [],
+      "franchises": []
+    },
+    {
+      "title": "suzume",
+      "year": null,
+      "tier": "B",
+      "country": null,
+      "region": "Unknown",
+      "note": null,
+      "director": null,
+      "directors": [],
+      "poster": "suzume.jpg",
+      "nativeTitle": null,
+      "critique": null,
+      "shortlisted": false,
+      "analysis": null,
+      "streaming": [],
+      "slug": "suzume",
       "genres": [],
       "franchises": []
     }
