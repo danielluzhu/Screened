@@ -20357,7 +20357,7 @@
         "country": null
       }
     ],
-    "rated": 126,
+    "rated": 127,
     "taste": {
       "directors": [
         {
@@ -28204,6 +28204,25 @@
       "analysis": null,
       "streaming": [],
       "slug": "suzume",
+      "genres": [],
+      "franchises": []
+    },
+    {
+      "title": "the boy and the heron",
+      "year": null,
+      "tier": "B",
+      "country": null,
+      "region": "Unknown",
+      "note": null,
+      "director": null,
+      "directors": [],
+      "poster": "the-boy-and-the-heron.jpg",
+      "nativeTitle": null,
+      "critique": null,
+      "shortlisted": false,
+      "analysis": null,
+      "streaming": [],
+      "slug": "the-boy-and-the-heron",
       "genres": [],
       "franchises": []
     }
