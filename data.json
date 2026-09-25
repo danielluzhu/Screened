@@ -436,6 +436,14 @@
           "slug": "18-2-beyond-youthful-days-2024"
         },
         {
+          "title": "Her Story",
+          "year": 2024,
+          "tier": "A",
+          "director": "Yihui Shao",
+          "poster": "her-story-2024.jpg",
+          "slug": "her-story-2024"
+        },
+        {
           "title": "The Last Dance",
           "year": 2024,
           "tier": "A",
@@ -16373,7 +16381,7 @@
           "your list"
         ],
         "box": null,
-        "score": 6.04,
+        "score": 6.072,
         "reasons": [
           {
             "kind": "director",
@@ -16393,7 +16401,7 @@
           {
             "kind": "region",
             "name": "China",
-            "text": "From China, where you've rated 20 films"
+            "text": "From China, where you've rated 21 films"
           }
         ],
         "slug": "pushing-hands-1991",
@@ -16486,7 +16494,7 @@
           "your list"
         ],
         "box": null,
-        "score": 5.762,
+        "score": 5.794,
         "reasons": [
           {
             "kind": "director",
@@ -16501,7 +16509,7 @@
           {
             "kind": "region",
             "name": "China",
-            "text": "From China, where you've rated 20 films"
+            "text": "From China, where you've rated 21 films"
           }
         ],
         "slug": "ashes-of-time-1994",
@@ -17047,7 +17055,7 @@
           "your list"
         ],
         "box": null,
-        "score": 3.673,
+        "score": 3.705,
         "reasons": [
           {
             "kind": "director",
@@ -17062,7 +17070,7 @@
           {
             "kind": "region",
             "name": "China",
-            "text": "From China, where you've rated 20 films"
+            "text": "From China, where you've rated 21 films"
           }
         ],
         "slug": "red-cliff-2008",
@@ -17285,6 +17293,110 @@
         "country": "American"
       },
       {
+        "title": "YOLO",
+        "year": 2024,
+        "directors": [
+          "Jia Ling"
+        ],
+        "franchises": [],
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "regions": [
+          "China"
+        ],
+        "sources": [
+          "your list"
+        ],
+        "box": null,
+        "score": 2.939,
+        "reasons": [
+          {
+            "kind": "director",
+            "name": "Jia Ling",
+            "text": "You rated Hi, Mom (B) by Jia Ling"
+          },
+          {
+            "kind": "genre",
+            "name": "Comedy, Drama",
+            "text": "Comedy, Drama — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "China",
+            "text": "From China, where you've rated 21 films"
+          }
+        ],
+        "slug": "yolo-2024",
+        "poster": "yolo-2024.jpg",
+        "streaming": [],
+        "country": "Chinese"
+      },
+      {
+        "title": "House of Flying Daggers",
+        "year": 2004,
+        "directors": [
+          "Zhang Yimou"
+        ],
+        "franchises": [
+          "Wuxia Trilogy"
+        ],
+        "genres": [
+          "Fantasy",
+          "Martial arts",
+          "Action",
+          "Romance",
+          "Drama",
+          "Adventure"
+        ],
+        "regions": [
+          "China"
+        ],
+        "sources": [
+          "your list"
+        ],
+        "box": null,
+        "score": 2.921,
+        "reasons": [
+          {
+            "kind": "director",
+            "name": "Zhang Yimou",
+            "text": "You rated Hero (A) and Full River Red (C) by Zhang Yimou"
+          },
+          {
+            "kind": "genre",
+            "name": "Romance, Martial arts, Drama",
+            "text": "Romance, Martial arts, Drama — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "China",
+            "text": "From China, where you've rated 21 films"
+          }
+        ],
+        "slug": "house-of-flying-daggers-2004",
+        "poster": "house-of-flying-daggers-2004.jpg",
+        "streaming": [
+          {
+            "id": "70012785",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/70012785"
+          },
+          {
+            "id": "umc.cmc.5zs1fxtj2wj5m8tfhakbe5ari",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.5zs1fxtj2wj5m8tfhakbe5ari"
+          },
+          {
+            "id": "5d7768338a7581001f12d1ea",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d7768338a7581001f12d1ea"
+          }
+        ],
+        "country": "China"
+      },
+      {
         "title": "The Mission",
         "year": 1999,
         "directors": [
@@ -17331,110 +17443,6 @@
         "country": "HK"
       },
       {
-        "title": "YOLO",
-        "year": 2024,
-        "directors": [
-          "Jia Ling"
-        ],
-        "franchises": [],
-        "genres": [
-          "Comedy",
-          "Drama"
-        ],
-        "regions": [
-          "China"
-        ],
-        "sources": [
-          "your list"
-        ],
-        "box": null,
-        "score": 2.907,
-        "reasons": [
-          {
-            "kind": "director",
-            "name": "Jia Ling",
-            "text": "You rated Hi, Mom (B) by Jia Ling"
-          },
-          {
-            "kind": "genre",
-            "name": "Comedy, Drama",
-            "text": "Comedy, Drama — genres you rate well"
-          },
-          {
-            "kind": "region",
-            "name": "China",
-            "text": "From China, where you've rated 20 films"
-          }
-        ],
-        "slug": "yolo-2024",
-        "poster": "yolo-2024.jpg",
-        "streaming": [],
-        "country": "Chinese"
-      },
-      {
-        "title": "House of Flying Daggers",
-        "year": 2004,
-        "directors": [
-          "Zhang Yimou"
-        ],
-        "franchises": [
-          "Wuxia Trilogy"
-        ],
-        "genres": [
-          "Fantasy",
-          "Martial arts",
-          "Action",
-          "Romance",
-          "Drama",
-          "Adventure"
-        ],
-        "regions": [
-          "China"
-        ],
-        "sources": [
-          "your list"
-        ],
-        "box": null,
-        "score": 2.889,
-        "reasons": [
-          {
-            "kind": "director",
-            "name": "Zhang Yimou",
-            "text": "You rated Hero (A) and Full River Red (C) by Zhang Yimou"
-          },
-          {
-            "kind": "genre",
-            "name": "Romance, Martial arts, Drama",
-            "text": "Romance, Martial arts, Drama — genres you rate well"
-          },
-          {
-            "kind": "region",
-            "name": "China",
-            "text": "From China, where you've rated 20 films"
-          }
-        ],
-        "slug": "house-of-flying-daggers-2004",
-        "poster": "house-of-flying-daggers-2004.jpg",
-        "streaming": [
-          {
-            "id": "70012785",
-            "name": "Netflix",
-            "url": "https://www.netflix.com/title/70012785"
-          },
-          {
-            "id": "umc.cmc.5zs1fxtj2wj5m8tfhakbe5ari",
-            "name": "Apple TV",
-            "url": "https://tv.apple.com/movie/umc.cmc.5zs1fxtj2wj5m8tfhakbe5ari"
-          },
-          {
-            "id": "5d7768338a7581001f12d1ea",
-            "name": "Plex",
-            "url": "https://watch.plex.tv/movie/5d7768338a7581001f12d1ea"
-          }
-        ],
-        "country": "China"
-      },
-      {
         "title": "Riding Alone for Thousands of Miles",
         "year": 2005,
         "directors": [
@@ -17452,7 +17460,7 @@
           "your list"
         ],
         "box": null,
-        "score": 2.879,
+        "score": 2.911,
         "reasons": [
           {
             "kind": "director",
@@ -17467,7 +17475,7 @@
           {
             "kind": "region",
             "name": "China",
-            "text": "From China, where you've rated 20 films"
+            "text": "From China, where you've rated 21 films"
           }
         ],
         "slug": "riding-alone-for-thousands-of-miles-2005",
@@ -17508,7 +17516,7 @@
           "your list"
         ],
         "box": null,
-        "score": 2.879,
+        "score": 2.911,
         "reasons": [
           {
             "kind": "director",
@@ -17523,7 +17531,7 @@
           {
             "kind": "region",
             "name": "China",
-            "text": "From China, where you've rated 20 films"
+            "text": "From China, where you've rated 21 films"
           }
         ],
         "slug": "to-live-1994",
@@ -17566,7 +17574,7 @@
           "your list"
         ],
         "box": null,
-        "score": 2.858,
+        "score": 2.89,
         "reasons": [
           {
             "kind": "director",
@@ -17581,7 +17589,7 @@
           {
             "kind": "region",
             "name": "China",
-            "text": "From China, where you've rated 20 films"
+            "text": "From China, where you've rated 21 films"
           }
         ],
         "slug": "raise-the-red-lantern-1991",
@@ -17948,6 +17956,47 @@
         "country": "HK"
       },
       {
+        "title": "Crystal Sky of Yesterday",
+        "year": 2018,
+        "directors": [
+          "Chao Xi"
+        ],
+        "franchises": [],
+        "genres": [
+          "Romance"
+        ],
+        "regions": [
+          "China"
+        ],
+        "sources": [
+          "your list"
+        ],
+        "box": null,
+        "score": 2.227,
+        "reasons": [
+          {
+            "kind": "genre",
+            "name": "Romance",
+            "text": "Romance — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "China",
+            "text": "From China, where you've rated 21 films"
+          }
+        ],
+        "slug": "crystal-sky-of-yesterday-2018",
+        "poster": "crystal-sky-of-yesterday-2018.jpg",
+        "streaming": [
+          {
+            "id": "5d7770327a53e9001e79d505",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d7770327a53e9001e79d505"
+          }
+        ],
+        "country": "Chinese"
+      },
+      {
         "title": "Monsters, Inc.",
         "year": 2001,
         "directors": [
@@ -17995,47 +18044,6 @@
           }
         ],
         "country": null
-      },
-      {
-        "title": "Crystal Sky of Yesterday",
-        "year": 2018,
-        "directors": [
-          "Chao Xi"
-        ],
-        "franchises": [],
-        "genres": [
-          "Romance"
-        ],
-        "regions": [
-          "China"
-        ],
-        "sources": [
-          "your list"
-        ],
-        "box": null,
-        "score": 2.195,
-        "reasons": [
-          {
-            "kind": "genre",
-            "name": "Romance",
-            "text": "Romance — genres you rate well"
-          },
-          {
-            "kind": "region",
-            "name": "China",
-            "text": "From China, where you've rated 20 films"
-          }
-        ],
-        "slug": "crystal-sky-of-yesterday-2018",
-        "poster": "crystal-sky-of-yesterday-2018.jpg",
-        "streaming": [
-          {
-            "id": "5d7770327a53e9001e79d505",
-            "name": "Plex",
-            "url": "https://watch.plex.tv/movie/5d7770327a53e9001e79d505"
-          }
-        ],
-        "country": "Chinese"
       },
       {
         "title": "Perfect Blue",
@@ -18162,7 +18170,7 @@
           "your list"
         ],
         "box": null,
-        "score": 2.119,
+        "score": 2.151,
         "reasons": [
           {
             "kind": "genre",
@@ -18172,7 +18180,7 @@
           {
             "kind": "region",
             "name": "China",
-            "text": "From China, where you've rated 20 films"
+            "text": "From China, where you've rated 21 films"
           }
         ],
         "slug": "suzhou-river-2000",
@@ -18215,7 +18223,7 @@
           "your list"
         ],
         "box": null,
-        "score": 2.099,
+        "score": 2.131,
         "reasons": [
           {
             "kind": "genre",
@@ -18225,7 +18233,7 @@
           {
             "kind": "region",
             "name": "China",
-            "text": "From China, where you've rated 20 films"
+            "text": "From China, where you've rated 21 films"
           }
         ],
         "slug": "better-days-2019",
@@ -18272,7 +18280,7 @@
           "your list"
         ],
         "box": null,
-        "score": 2.08,
+        "score": 2.112,
         "reasons": [
           {
             "kind": "genre",
@@ -18282,7 +18290,7 @@
           {
             "kind": "region",
             "name": "China",
-            "text": "From China, where you've rated 20 films"
+            "text": "From China, where you've rated 21 films"
           }
         ],
         "slug": "fireflies-in-the-sun-2021",
@@ -18292,6 +18300,55 @@
             "id": "6197982895488d82b96f3295",
             "name": "Plex",
             "url": "https://watch.plex.tv/movie/6197982895488d82b96f3295"
+          }
+        ],
+        "country": "Chinese"
+      },
+      {
+        "title": "Lost in the Stars",
+        "year": 2022,
+        "directors": [
+          "Cui Rui",
+          "Liu Xiang"
+        ],
+        "franchises": [],
+        "genres": [
+          "Mystery",
+          "Thriller",
+          "Crime"
+        ],
+        "regions": [
+          "China"
+        ],
+        "sources": [
+          "your list"
+        ],
+        "box": null,
+        "score": 2.078,
+        "reasons": [
+          {
+            "kind": "genre",
+            "name": "Crime, Mystery, Thriller",
+            "text": "Crime, Mystery, Thriller — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "China",
+            "text": "From China, where you've rated 21 films"
+          }
+        ],
+        "slug": "lost-in-the-stars-2022",
+        "poster": "lost-in-the-stars-2022.webp",
+        "streaming": [
+          {
+            "id": "81711455",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/81711455"
+          },
+          {
+            "id": "61fd09bd6a7f5d80c8c8a643",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/61fd09bd6a7f5d80c8c8a643"
           }
         ],
         "country": "Chinese"
@@ -18344,55 +18401,6 @@
         "country": "Japanese"
       },
       {
-        "title": "Lost in the Stars",
-        "year": 2022,
-        "directors": [
-          "Cui Rui",
-          "Liu Xiang"
-        ],
-        "franchises": [],
-        "genres": [
-          "Mystery",
-          "Thriller",
-          "Crime"
-        ],
-        "regions": [
-          "China"
-        ],
-        "sources": [
-          "your list"
-        ],
-        "box": null,
-        "score": 2.046,
-        "reasons": [
-          {
-            "kind": "genre",
-            "name": "Crime, Mystery, Thriller",
-            "text": "Crime, Mystery, Thriller — genres you rate well"
-          },
-          {
-            "kind": "region",
-            "name": "China",
-            "text": "From China, where you've rated 20 films"
-          }
-        ],
-        "slug": "lost-in-the-stars-2022",
-        "poster": "lost-in-the-stars-2022.webp",
-        "streaming": [
-          {
-            "id": "81711455",
-            "name": "Netflix",
-            "url": "https://www.netflix.com/title/81711455"
-          },
-          {
-            "id": "61fd09bd6a7f5d80c8c8a643",
-            "name": "Plex",
-            "url": "https://watch.plex.tv/movie/61fd09bd6a7f5d80c8c8a643"
-          }
-        ],
-        "country": "Chinese"
-      },
-      {
         "title": "Havoc in Heaven",
         "year": 1961,
         "directors": [
@@ -18411,7 +18419,7 @@
           "your list"
         ],
         "box": null,
-        "score": 1.979,
+        "score": 2.011,
         "reasons": [
           {
             "kind": "genre",
@@ -18421,7 +18429,7 @@
           {
             "kind": "region",
             "name": "China",
-            "text": "From China, where you've rated 20 films"
+            "text": "From China, where you've rated 21 films"
           }
         ],
         "slug": "havoc-in-heaven-1961",
@@ -18455,7 +18463,7 @@
           "your list"
         ],
         "box": null,
-        "score": 1.939,
+        "score": 1.971,
         "reasons": [
           {
             "kind": "genre",
@@ -18465,7 +18473,7 @@
           {
             "kind": "region",
             "name": "China",
-            "text": "From China, where you've rated 20 films"
+            "text": "From China, where you've rated 21 films"
           }
         ],
         "slug": "big-fish-begonia-2016",
@@ -18509,7 +18517,7 @@
           "your list"
         ],
         "box": null,
-        "score": 1.929,
+        "score": 1.961,
         "reasons": [
           {
             "kind": "genre",
@@ -18519,7 +18527,7 @@
           {
             "kind": "region",
             "name": "China",
-            "text": "From China, where you've rated 20 films"
+            "text": "From China, where you've rated 21 films"
           }
         ],
         "slug": "fist-of-fury-1972",
@@ -18661,6 +18669,103 @@
         "country": "Japanese"
       },
       {
+        "title": "Enter the Fat Dragon",
+        "year": 1978,
+        "directors": [
+          "Sammo Hung"
+        ],
+        "franchises": [],
+        "genres": [
+          "Action",
+          "Comedy",
+          "Martial arts"
+        ],
+        "regions": [
+          "China"
+        ],
+        "sources": [
+          "your list"
+        ],
+        "box": null,
+        "score": 1.89,
+        "reasons": [
+          {
+            "kind": "genre",
+            "name": "Martial arts, Comedy, Action",
+            "text": "Martial arts, Comedy, Action — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "China",
+            "text": "From China, where you've rated 21 films"
+          }
+        ],
+        "slug": "enter-the-fat-dragon-1978",
+        "poster": "enter-the-fat-dragon-1978.jpg",
+        "streaming": [
+          {
+            "id": "20824723",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/20824723"
+          },
+          {
+            "id": "5d7768bd96b655001fdc0809",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d7768bd96b655001fdc0809"
+          }
+        ],
+        "country": "Chinese"
+      },
+      {
+        "title": "Gallants",
+        "year": 2010,
+        "directors": [
+          "Derek Kwok",
+          "Clement Cheung"
+        ],
+        "franchises": [],
+        "genres": [
+          "Martial arts",
+          "Action",
+          "Comedy"
+        ],
+        "regions": [
+          "China"
+        ],
+        "sources": [
+          "your list"
+        ],
+        "box": null,
+        "score": 1.89,
+        "reasons": [
+          {
+            "kind": "genre",
+            "name": "Martial arts, Comedy, Action",
+            "text": "Martial arts, Comedy, Action — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "China",
+            "text": "From China, where you've rated 21 films"
+          }
+        ],
+        "slug": "gallants-2010",
+        "poster": "gallants-2010.jpg",
+        "streaming": [
+          {
+            "id": "70142784",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/70142784"
+          },
+          {
+            "id": "5d776878103a2d001f572858",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776878103a2d001f572858"
+          }
+        ],
+        "country": "Chinese"
+      },
+      {
         "title": "Perfect Days",
         "year": 2024,
         "directors": [
@@ -18712,103 +18817,6 @@
         "country": "Japanese"
       },
       {
-        "title": "Enter the Fat Dragon",
-        "year": 1978,
-        "directors": [
-          "Sammo Hung"
-        ],
-        "franchises": [],
-        "genres": [
-          "Action",
-          "Comedy",
-          "Martial arts"
-        ],
-        "regions": [
-          "China"
-        ],
-        "sources": [
-          "your list"
-        ],
-        "box": null,
-        "score": 1.858,
-        "reasons": [
-          {
-            "kind": "genre",
-            "name": "Martial arts, Comedy, Action",
-            "text": "Martial arts, Comedy, Action — genres you rate well"
-          },
-          {
-            "kind": "region",
-            "name": "China",
-            "text": "From China, where you've rated 20 films"
-          }
-        ],
-        "slug": "enter-the-fat-dragon-1978",
-        "poster": "enter-the-fat-dragon-1978.jpg",
-        "streaming": [
-          {
-            "id": "20824723",
-            "name": "Netflix",
-            "url": "https://www.netflix.com/title/20824723"
-          },
-          {
-            "id": "5d7768bd96b655001fdc0809",
-            "name": "Plex",
-            "url": "https://watch.plex.tv/movie/5d7768bd96b655001fdc0809"
-          }
-        ],
-        "country": "Chinese"
-      },
-      {
-        "title": "Gallants",
-        "year": 2010,
-        "directors": [
-          "Derek Kwok",
-          "Clement Cheung"
-        ],
-        "franchises": [],
-        "genres": [
-          "Martial arts",
-          "Action",
-          "Comedy"
-        ],
-        "regions": [
-          "China"
-        ],
-        "sources": [
-          "your list"
-        ],
-        "box": null,
-        "score": 1.858,
-        "reasons": [
-          {
-            "kind": "genre",
-            "name": "Martial arts, Comedy, Action",
-            "text": "Martial arts, Comedy, Action — genres you rate well"
-          },
-          {
-            "kind": "region",
-            "name": "China",
-            "text": "From China, where you've rated 20 films"
-          }
-        ],
-        "slug": "gallants-2010",
-        "poster": "gallants-2010.jpg",
-        "streaming": [
-          {
-            "id": "70142784",
-            "name": "Netflix",
-            "url": "https://www.netflix.com/title/70142784"
-          },
-          {
-            "id": "5d776878103a2d001f572858",
-            "name": "Plex",
-            "url": "https://watch.plex.tv/movie/5d776878103a2d001f572858"
-          }
-        ],
-        "country": "Chinese"
-      },
-      {
         "title": "Let the Bullets Fly",
         "year": 2010,
         "directors": [
@@ -18825,7 +18833,7 @@
           "your list"
         ],
         "box": null,
-        "score": 1.835,
+        "score": 1.867,
         "reasons": [
           {
             "kind": "genre",
@@ -18835,7 +18843,7 @@
           {
             "kind": "region",
             "name": "China",
-            "text": "From China, where you've rated 20 films"
+            "text": "From China, where you've rated 21 films"
           }
         ],
         "slug": "let-the-bullets-fly-2010",
@@ -18877,7 +18885,7 @@
           "your list"
         ],
         "box": null,
-        "score": 1.835,
+        "score": 1.867,
         "reasons": [
           {
             "kind": "genre",
@@ -18887,7 +18895,7 @@
           {
             "kind": "region",
             "name": "China",
-            "text": "From China, where you've rated 20 films"
+            "text": "From China, where you've rated 21 films"
           }
         ],
         "slug": "the-hutong-cowboy-2024",
@@ -18913,7 +18921,7 @@
           "your list"
         ],
         "box": null,
-        "score": 1.804,
+        "score": 1.836,
         "reasons": [
           {
             "kind": "genre",
@@ -18923,7 +18931,7 @@
           {
             "kind": "region",
             "name": "China",
-            "text": "From China, where you've rated 20 films"
+            "text": "From China, where you've rated 21 films"
           }
         ],
         "slug": "dahufa-2017",
@@ -18933,6 +18941,98 @@
             "id": "5d776d40ad5437001f7d1093",
             "name": "Plex",
             "url": "https://watch.plex.tv/movie/5d776d40ad5437001f7d1093"
+          }
+        ],
+        "country": "Chinese"
+      },
+      {
+        "title": "All Ears",
+        "year": 2023,
+        "directors": [
+          "Liu Jiayin"
+        ],
+        "franchises": [],
+        "genres": [
+          "Drama"
+        ],
+        "regions": [
+          "China"
+        ],
+        "sources": [
+          "your list"
+        ],
+        "box": null,
+        "score": 1.811,
+        "reasons": [
+          {
+            "kind": "genre",
+            "name": "Drama",
+            "text": "Drama — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "China",
+            "text": "From China, where you've rated 21 films"
+          }
+        ],
+        "slug": "all-ears-2023",
+        "poster": "all-ears-2023.jpg",
+        "streaming": [
+          {
+            "id": "6236ebffcd0b91083d570b10",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/6236ebffcd0b91083d570b10"
+          }
+        ],
+        "country": "Chinese"
+      },
+      {
+        "title": "Yi Yi",
+        "year": 2000,
+        "directors": [
+          "Edward Yang"
+        ],
+        "franchises": [],
+        "genres": [
+          "Drama"
+        ],
+        "regions": [
+          "China"
+        ],
+        "sources": [
+          "your list"
+        ],
+        "box": null,
+        "score": 1.811,
+        "reasons": [
+          {
+            "kind": "genre",
+            "name": "Drama",
+            "text": "Drama — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "China",
+            "text": "From China, where you've rated 21 films"
+          }
+        ],
+        "slug": "yi-yi-2000",
+        "poster": "yi-yi-2000.jpg",
+        "streaming": [
+          {
+            "id": "60003452",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/60003452"
+          },
+          {
+            "id": "umc.cmc.47b2dvmf6b4f4d9doxpma3gm9",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.47b2dvmf6b4f4d9doxpma3gm9"
+          },
+          {
+            "id": "5d77684f880197001ec98094",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d77684f880197001ec98094"
           }
         ],
         "country": "Chinese"
@@ -18997,98 +19097,6 @@
         "country": "Japanese"
       },
       {
-        "title": "All Ears",
-        "year": 2023,
-        "directors": [
-          "Liu Jiayin"
-        ],
-        "franchises": [],
-        "genres": [
-          "Drama"
-        ],
-        "regions": [
-          "China"
-        ],
-        "sources": [
-          "your list"
-        ],
-        "box": null,
-        "score": 1.779,
-        "reasons": [
-          {
-            "kind": "genre",
-            "name": "Drama",
-            "text": "Drama — genres you rate well"
-          },
-          {
-            "kind": "region",
-            "name": "China",
-            "text": "From China, where you've rated 20 films"
-          }
-        ],
-        "slug": "all-ears-2023",
-        "poster": "all-ears-2023.jpg",
-        "streaming": [
-          {
-            "id": "6236ebffcd0b91083d570b10",
-            "name": "Plex",
-            "url": "https://watch.plex.tv/movie/6236ebffcd0b91083d570b10"
-          }
-        ],
-        "country": "Chinese"
-      },
-      {
-        "title": "Yi Yi",
-        "year": 2000,
-        "directors": [
-          "Edward Yang"
-        ],
-        "franchises": [],
-        "genres": [
-          "Drama"
-        ],
-        "regions": [
-          "China"
-        ],
-        "sources": [
-          "your list"
-        ],
-        "box": null,
-        "score": 1.779,
-        "reasons": [
-          {
-            "kind": "genre",
-            "name": "Drama",
-            "text": "Drama — genres you rate well"
-          },
-          {
-            "kind": "region",
-            "name": "China",
-            "text": "From China, where you've rated 20 films"
-          }
-        ],
-        "slug": "yi-yi-2000",
-        "poster": "yi-yi-2000.jpg",
-        "streaming": [
-          {
-            "id": "60003452",
-            "name": "Netflix",
-            "url": "https://www.netflix.com/title/60003452"
-          },
-          {
-            "id": "umc.cmc.47b2dvmf6b4f4d9doxpma3gm9",
-            "name": "Apple TV",
-            "url": "https://tv.apple.com/movie/umc.cmc.47b2dvmf6b4f4d9doxpma3gm9"
-          },
-          {
-            "id": "5d77684f880197001ec98094",
-            "name": "Plex",
-            "url": "https://watch.plex.tv/movie/5d77684f880197001ec98094"
-          }
-        ],
-        "country": "Chinese"
-      },
-      {
         "title": "Farewell my Concubine",
         "year": 1993,
         "directors": [
@@ -19107,7 +19115,7 @@
           "your list"
         ],
         "box": null,
-        "score": 1.758,
+        "score": 1.79,
         "reasons": [
           {
             "kind": "genre",
@@ -19117,7 +19125,7 @@
           {
             "kind": "region",
             "name": "China",
-            "text": "From China, where you've rated 20 films"
+            "text": "From China, where you've rated 21 films"
           }
         ],
         "slug": "farewell-my-concubine-1993",
@@ -19246,6 +19254,52 @@
         "country": "Japanese"
       },
       {
+        "title": "Hidden Blade",
+        "year": 2023,
+        "directors": [
+          "Er Cheng"
+        ],
+        "franchises": [],
+        "genres": [
+          "Thriller"
+        ],
+        "regions": [
+          "China"
+        ],
+        "sources": [
+          "your list"
+        ],
+        "box": null,
+        "score": 1.747,
+        "reasons": [
+          {
+            "kind": "genre",
+            "name": "Thriller",
+            "text": "Thriller — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "China",
+            "text": "From China, where you've rated 21 films"
+          }
+        ],
+        "slug": "hidden-blade-2023",
+        "poster": "hidden-blade-2023.jpg",
+        "streaming": [
+          {
+            "id": "umc.cmc.57fkjwx0whx4cq1ailqnh0nvk",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.57fkjwx0whx4cq1ailqnh0nvk"
+          },
+          {
+            "id": "61c5c51ed271985598adf760",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/61c5c51ed271985598adf760"
+          }
+        ],
+        "country": "Chinese"
+      },
+      {
         "title": "Neko Samurai",
         "year": 2014,
         "directors": [
@@ -19283,14 +19337,17 @@
         "country": "Japanese"
       },
       {
-        "title": "Hidden Blade",
-        "year": 2023,
+        "title": "White Snake",
+        "year": 2019,
         "directors": [
-          "Er Cheng"
+          "Amp Wong",
+          "Zhao Ji"
         ],
         "franchises": [],
         "genres": [
-          "Thriller"
+          "Fantasy",
+          "Animation",
+          "Romance"
         ],
         "regions": [
           "China"
@@ -19299,33 +19356,22 @@
           "your list"
         ],
         "box": null,
-        "score": 1.715,
+        "score": 1.7,
         "reasons": [
           {
             "kind": "genre",
-            "name": "Thriller",
-            "text": "Thriller — genres you rate well"
+            "name": "Romance, Fantasy, Animation",
+            "text": "Romance, Fantasy, Animation — genres you rate well"
           },
           {
             "kind": "region",
             "name": "China",
-            "text": "From China, where you've rated 20 films"
+            "text": "From China, where you've rated 21 films"
           }
         ],
-        "slug": "hidden-blade-2023",
-        "poster": "hidden-blade-2023.jpg",
-        "streaming": [
-          {
-            "id": "umc.cmc.57fkjwx0whx4cq1ailqnh0nvk",
-            "name": "Apple TV",
-            "url": "https://tv.apple.com/movie/umc.cmc.57fkjwx0whx4cq1ailqnh0nvk"
-          },
-          {
-            "id": "61c5c51ed271985598adf760",
-            "name": "Plex",
-            "url": "https://watch.plex.tv/movie/61c5c51ed271985598adf760"
-          }
-        ],
+        "slug": "white-snake-2019",
+        "poster": "white-snake.jpg",
+        "streaming": [],
         "country": "Chinese"
       },
       {
@@ -19378,44 +19424,6 @@
           }
         ],
         "country": "Indian"
-      },
-      {
-        "title": "White Snake",
-        "year": 2019,
-        "directors": [
-          "Amp Wong",
-          "Zhao Ji"
-        ],
-        "franchises": [],
-        "genres": [
-          "Fantasy",
-          "Animation",
-          "Romance"
-        ],
-        "regions": [
-          "China"
-        ],
-        "sources": [
-          "your list"
-        ],
-        "box": null,
-        "score": 1.668,
-        "reasons": [
-          {
-            "kind": "genre",
-            "name": "Romance, Fantasy, Animation",
-            "text": "Romance, Fantasy, Animation — genres you rate well"
-          },
-          {
-            "kind": "region",
-            "name": "China",
-            "text": "From China, where you've rated 20 films"
-          }
-        ],
-        "slug": "white-snake-2019",
-        "poster": "white-snake.jpg",
-        "streaming": [],
-        "country": "Chinese"
       },
       {
         "title": "Good News",
@@ -19724,7 +19732,7 @@
           "your list"
         ],
         "box": null,
-        "score": 1.436,
+        "score": 1.468,
         "reasons": [
           {
             "kind": "genre",
@@ -19734,7 +19742,7 @@
           {
             "kind": "region",
             "name": "China",
-            "text": "From China, where you've rated 20 films"
+            "text": "From China, where you've rated 21 films"
           }
         ],
         "slug": "the-eight-hundred-2020",
@@ -19772,7 +19780,7 @@
           "your list"
         ],
         "box": null,
-        "score": 1.373,
+        "score": 1.405,
         "reasons": [
           {
             "kind": "genre",
@@ -19782,7 +19790,7 @@
           {
             "kind": "region",
             "name": "China",
-            "text": "From China, where you've rated 20 films"
+            "text": "From China, where you've rated 21 films"
           }
         ],
         "slug": "the-wind-guardians-2018",
@@ -19811,7 +19819,7 @@
           "your list"
         ],
         "box": null,
-        "score": 1.367,
+        "score": 1.399,
         "reasons": [
           {
             "kind": "genre",
@@ -19821,7 +19829,7 @@
           {
             "kind": "region",
             "name": "China",
-            "text": "From China, where you've rated 20 films"
+            "text": "From China, where you've rated 21 films"
           }
         ],
         "slug": "the-battle-at-lake-changjin-2021",
@@ -20181,12 +20189,12 @@
           "your list"
         ],
         "box": null,
-        "score": 0.895,
+        "score": 0.927,
         "reasons": [
           {
             "kind": "region",
             "name": "China",
-            "text": "From China, where you've rated 20 films"
+            "text": "From China, where you've rated 21 films"
           }
         ],
         "slug": "the-story-of-david",
@@ -20393,7 +20401,7 @@
         "country": null
       }
     ],
-    "rated": 131,
+    "rated": 132,
     "taste": {
       "directors": [
         {
@@ -20507,8 +20515,8 @@
         },
         {
           "name": "China",
-          "affinity": 1.12,
-          "count": 20
+          "affinity": 1.16,
+          "count": 21
         },
         {
           "name": "India",
@@ -28373,6 +28381,27 @@
       "analysis": null,
       "streaming": [],
       "slug": "evil-unbound",
+      "genres": [],
+      "franchises": []
+    },
+    {
+      "title": "Her Story",
+      "year": 2024,
+      "tier": "A",
+      "country": "China",
+      "region": "China",
+      "note": null,
+      "director": "Yihui Shao",
+      "directors": [
+        "Yihui Shao"
+      ],
+      "poster": "her-story-2024.jpg",
+      "nativeTitle": null,
+      "critique": null,
+      "shortlisted": false,
+      "analysis": null,
+      "streaming": [],
+      "slug": "her-story-2024",
       "genres": [],
       "franchises": []
     }
@@ -38095,6 +38124,23 @@
         "licence": "CC BY-SA 4.0",
         "author": "John Sears"
       }
+    },
+    {
+      "name": "Yihui Shao",
+      "slug": "yihui-shao",
+      "films": [
+        {
+          "title": "Her Story",
+          "year": 2024,
+          "tier": "A",
+          "director": "Yihui Shao",
+          "poster": "her-story-2024.jpg",
+          "slug": "her-story-2024"
+        }
+      ],
+      "others": [],
+      "photo": null,
+      "photoCredit": null
     },
     {
       "name": "Yu Shui",
