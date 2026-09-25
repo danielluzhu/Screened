@@ -259,7 +259,8 @@ function render(film, data) {
   if (film.poster) {
     const img = document.createElement("img");
     img.className = "film-poster";
-    img.src = `/Screened/posters/${film.poster}`;
+    // The page's own subject: paint the small copy at once, then sharpen.
+    thumbSrc(img, `/Screened/posters/${film.poster}`, { priority: true });
     img.alt = `${film.title} poster`;
     head.append(img);
   }

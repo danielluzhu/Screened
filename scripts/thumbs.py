@@ -15,15 +15,24 @@ median, one of them 2001px, drawn into a 240px tile).
 So each set gets a WebP copy at the size its largest small use actually needs,
 doubled for retina:
 
-    posters     124px   62px suggestion card, the widest of the list slots
+    posters     124px   62px suggestion card, the widest of the *row* slots
     portraits   176px   88px avatar on a director's own page
     characters  480px   240px tile in the characters grid
     shows       600px   300px tile, which is the wide grid
 
-Originals stay untouched and are what the fallback loads. The film, character
-and show pages draw their own artwork at 180px, which these cover; the point of
-keeping the originals is that they are the source these are rebuilt from, and
-that a newly added image works before this has run again.
+Posters are the exception, and deliberately so. The film grid draws them as
+tiles at `minmax(190px, 1fr)`, so 124px does not cover that slot and was never
+going to — sized this way it is a *placeholder*, not the final image. public/
+art.js paints it immediately and then swaps the original in behind it, only for
+the slots where the extra pixels would actually show. Widening it here would
+slow the first paint to save a request the page is already making lazily.
+
+The other three sets do cover their largest slot, so art.js leaves them alone
+and they are still loaded exactly once.
+
+Originals stay untouched and are what art.js upgrades to, and what the fallback
+loads. Keeping them matters twice over: they are the source these are rebuilt
+from, and a newly added image works before this has run again.
 
 An image smaller than its target is copied across rather than blown up.
 
@@ -39,7 +48,8 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PUBLIC = os.path.join(ROOT, "public")
 THUMBS = os.path.join(PUBLIC, "thumbs")
 
-# set -> width in px, each twice the largest slot the pages draw it into.
+# set -> width in px. Twice the largest slot the pages draw it into, except
+# posters, where it is the placeholder width art.js upgrades away from.
 SETS = {
     "posters": 124,
     "portraits": 176,
