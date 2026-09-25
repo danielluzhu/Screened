@@ -473,19 +473,19 @@ def main():
     print(f"{len(links)} have an English Wikipedia article")
 
     wanted = {k: links[q] for k, q in qid_of.items() if q in links}
-    thumbs = thumbnails(sorted(set(wanted.values())))
-    print(f"{len(thumbs)} articles have a lead image")
+    lead_images = thumbnails(sorted(set(wanted.values())))
+    print(f"{len(lead_images)} articles have a lead image")
 
     index = {}
     if os.path.exists(INDEX) and not force:
         with open(INDEX) as fh:
             index = json.load(fh)
 
-    def fetch_all(mapping, thumbs, index):
+    def fetch_all(mapping, lead_images, index):
         """Download a poster per {film key: article} pair. Returns counts."""
         got = skipped = failed = 0
         for key, article in sorted(mapping.items()):
-            url = thumbs.get(article)
+            url = lead_images.get(article)
             if not url:
                 continue
             title, year = film_of[key]
@@ -509,7 +509,7 @@ def main():
                 failed += 1
         return got, skipped, failed
 
-    got, skipped, failed = fetch_all(wanted, thumbs, index)
+    got, skipped, failed = fetch_all(wanted, lead_images, index)
 
     # Second pass: search for anything still missing.
     still = [r for r in films if io.film_key(str(r[io.COL_TITLE]).strip(), io.year_of(r[io.COL_YEAR])) not in index]
