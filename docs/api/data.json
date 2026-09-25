@@ -20295,6 +20295,24 @@
         "country": null
       },
       {
+        "title": "fist of legend",
+        "year": null,
+        "directors": [],
+        "franchises": [],
+        "genres": [],
+        "regions": [],
+        "sources": [
+          "your list"
+        ],
+        "box": null,
+        "score": 0.0,
+        "reasons": [],
+        "slug": "fist-of-legend",
+        "poster": "fist-of-legend.jpg",
+        "streaming": [],
+        "country": null
+      },
+      {
         "title": "grave of fireflies",
         "year": null,
         "directors": [],
@@ -28084,6 +28102,25 @@
       "analysis": null,
       "streaming": [],
       "slug": "sleepless-in-seattle",
+      "genres": [],
+      "franchises": []
+    },
+    {
+      "title": "fist of legend",
+      "year": null,
+      "tier": "?",
+      "country": null,
+      "region": "Unknown",
+      "note": null,
+      "director": null,
+      "directors": [],
+      "poster": "fist-of-legend.jpg",
+      "nativeTitle": null,
+      "critique": null,
+      "shortlisted": false,
+      "analysis": null,
+      "streaming": [],
+      "slug": "fist-of-legend",
       "genres": [],
       "franchises": []
     }
