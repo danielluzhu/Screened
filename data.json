@@ -5058,7 +5058,7 @@
         {
           "title": "Harold & Kumar Go to White Castle",
           "year": 2004,
-          "tier": "A",
+          "tier": "B",
           "director": "Danny Leiner",
           "poster": "harold-kumar-go-to-white-castle-2004.jpg",
           "slug": "harold-kumar-go-to-white-castle-2004"
@@ -15138,47 +15138,6 @@
         "upcoming": false
       },
       {
-        "title": "Balls Out: Gary the Tennis Coach",
-        "year": 2009,
-        "directors": [
-          "Danny Leiner"
-        ],
-        "franchises": [],
-        "genres": [],
-        "regions": [],
-        "sources": [
-          "director"
-        ],
-        "score": 2.2,
-        "reasons": [
-          {
-            "kind": "director",
-            "name": "Danny Leiner",
-            "text": "You rated Harold & Kumar Go to White Castle (A) by Danny Leiner"
-          }
-        ],
-        "qid": "Q2881384",
-        "poster": "balls-out-gary-the-tennis-coach-2009.jpg",
-        "streaming": [
-          {
-            "id": "70110724",
-            "name": "Netflix",
-            "url": "https://www.netflix.com/title/70110724"
-          },
-          {
-            "id": "umc.cmc.5p434coai6crc9puzmzxof6fk",
-            "name": "Apple TV",
-            "url": "https://tv.apple.com/movie/umc.cmc.5p434coai6crc9puzmzxof6fk"
-          },
-          {
-            "id": "5d9f35059dd5f4001e8436fc",
-            "name": "Plex",
-            "url": "https://watch.plex.tv/movie/5d9f35059dd5f4001e8436fc"
-          }
-        ],
-        "upcoming": false
-      },
-      {
         "title": "Battle Royale II: Requiem",
         "year": 2003,
         "directors": [
@@ -15531,31 +15490,6 @@
           }
         ],
         "qid": "Q85861955",
-        "poster": null,
-        "streaming": [],
-        "upcoming": false
-      },
-      {
-        "title": "Dude, Where's My Car?",
-        "year": 2000,
-        "directors": [
-          "Danny Leiner"
-        ],
-        "franchises": [],
-        "genres": [],
-        "regions": [],
-        "sources": [
-          "director"
-        ],
-        "score": 2.2,
-        "reasons": [
-          {
-            "kind": "director",
-            "name": "Danny Leiner",
-            "text": "You rated Harold & Kumar Go to White Castle (A) by Danny Leiner"
-          }
-        ],
-        "qid": "Q933798",
         "poster": null,
         "streaming": [],
         "upcoming": false
@@ -16067,33 +16001,6 @@
         "upcoming": false
       },
       {
-        "title": "A Very Harold & Kumar Christmas",
-        "year": 2011,
-        "directors": [
-          "Todd Strauss-Schulson"
-        ],
-        "franchises": [
-          "Harold & Kumar"
-        ],
-        "genres": [],
-        "regions": [],
-        "sources": [
-          "franchise"
-        ],
-        "score": 1.6,
-        "reasons": [
-          {
-            "kind": "franchise",
-            "name": "Harold & Kumar",
-            "text": "Part of Harold & Kumar, where you rated Harold & Kumar Go to White Castle (A) and Harold & Kumar Escape from Guantanamo Bay (B)"
-          }
-        ],
-        "qid": "Q43408",
-        "poster": null,
-        "streaming": [],
-        "upcoming": false
-      },
-      {
         "title": "Badland Hunters",
         "year": 2024,
         "directors": [
@@ -16324,6 +16231,101 @@
         "poster": null,
         "streaming": [],
         "upcoming": false
+      },
+      {
+        "title": "Planet of the Apes",
+        "year": 2001,
+        "directors": [
+          "Tim Burton"
+        ],
+        "franchises": [
+          "Planet of the Apes"
+        ],
+        "genres": [],
+        "regions": [],
+        "sources": [
+          "franchise",
+          "box office"
+        ],
+        "score": 1.26,
+        "reasons": [
+          {
+            "kind": "franchise",
+            "name": "Planet of the Apes",
+            "text": "Part of Planet of the Apes, where you rated Dawn of the Planet of the Apes (A) and Rise of the Planet of the Apes (A)"
+          },
+          {
+            "kind": "popular",
+            "name": "",
+            "text": "One of 2001's biggest earners"
+          }
+        ],
+        "qid": "Q469624",
+        "poster": null,
+        "streaming": [],
+        "upcoming": false
+      },
+      {
+        "title": "GoldenEye",
+        "year": 1995,
+        "directors": [
+          "Martin Campbell"
+        ],
+        "franchises": [],
+        "genres": [],
+        "regions": [],
+        "sources": [
+          "director",
+          "box office"
+        ],
+        "score": 1.237,
+        "reasons": [
+          {
+            "kind": "director",
+            "name": "Martin Campbell",
+            "text": "You rated The Foreigner (B) by Martin Campbell"
+          },
+          {
+            "kind": "popular",
+            "name": "",
+            "text": "One of 1995's biggest earners"
+          }
+        ],
+        "qid": "Q19089",
+        "poster": null,
+        "streaming": [],
+        "upcoming": false
+      },
+      {
+        "title": "The Great Wall",
+        "year": 2016,
+        "directors": [
+          "Zhang Yimou"
+        ],
+        "franchises": [],
+        "genres": [],
+        "regions": [],
+        "sources": [
+          "director",
+          "box office"
+        ],
+        "score": 1.231,
+        "reasons": [
+          {
+            "kind": "director",
+            "name": "Zhang Yimou",
+            "text": "You rated Hero (A) and Full River Red (C) by Zhang Yimou"
+          },
+          {
+            "kind": "popular",
+            "name": "",
+            "text": "One of 2016's biggest earners"
+          }
+        ],
+        "qid": "Q19587336",
+        "poster": null,
+        "streaming": [],
+        "upcoming": false
       }
     ],
     "unrated": [
@@ -16347,7 +16349,7 @@
           "your list"
         ],
         "box": null,
-        "score": 6.043,
+        "score": 6.028,
         "reasons": [
           {
             "kind": "director",
@@ -16647,7 +16649,7 @@
           "your list"
         ],
         "box": null,
-        "score": 4.646,
+        "score": 4.636,
         "reasons": [
           {
             "kind": "director",
@@ -16959,7 +16961,7 @@
           "your list"
         ],
         "box": null,
-        "score": 4.081,
+        "score": 4.074,
         "reasons": [
           {
             "kind": "director",
@@ -17261,7 +17263,7 @@
           "your list"
         ],
         "box": null,
-        "score": 3.016,
+        "score": 2.999,
         "reasons": [
           {
             "kind": "director",
@@ -17364,7 +17366,7 @@
           "your list"
         ],
         "box": null,
-        "score": 2.91,
+        "score": 2.895,
         "reasons": [
           {
             "kind": "director",
@@ -17638,7 +17640,7 @@
           "your list"
         ],
         "box": null,
-        "score": 2.468,
+        "score": 2.46,
         "reasons": [
           {
             "kind": "genre",
@@ -17810,59 +17812,6 @@
         "country": "HK"
       },
       {
-        "title": "Drunken Master",
-        "year": 1978,
-        "directors": [
-          "Yuen Woo-ping"
-        ],
-        "franchises": [],
-        "genres": [
-          "Action",
-          "Comedy",
-          "Martial arts"
-        ],
-        "regions": [
-          "Hong Kong"
-        ],
-        "sources": [
-          "your list"
-        ],
-        "box": null,
-        "score": 2.318,
-        "reasons": [
-          {
-            "kind": "genre",
-            "name": "Martial arts, Comedy, Action",
-            "text": "Martial arts, Comedy, Action — genres you rate well"
-          },
-          {
-            "kind": "region",
-            "name": "Hong Kong",
-            "text": "From Hong Kong, where you've rated 16 films"
-          }
-        ],
-        "slug": "drunken-master-1978",
-        "poster": "drunken-master-1978.jpg",
-        "streaming": [
-          {
-            "id": "60000221",
-            "name": "Netflix",
-            "url": "https://www.netflix.com/title/60000221"
-          },
-          {
-            "id": "umc.cmc.1g6u0qin1yv7tw65pay5nrr95",
-            "name": "Apple TV",
-            "url": "https://tv.apple.com/movie/umc.cmc.1g6u0qin1yv7tw65pay5nrr95"
-          },
-          {
-            "id": "5d776d157a53e9001e7506b2",
-            "name": "Plex",
-            "url": "https://watch.plex.tv/movie/5d776d157a53e9001e7506b2"
-          }
-        ],
-        "country": "HK"
-      },
-      {
         "title": "A Brighter Summer Day",
         "year": 1991,
         "directors": [
@@ -17912,6 +17861,59 @@
           }
         ],
         "country": "Taiwan"
+      },
+      {
+        "title": "Drunken Master",
+        "year": 1978,
+        "directors": [
+          "Yuen Woo-ping"
+        ],
+        "franchises": [],
+        "genres": [
+          "Action",
+          "Comedy",
+          "Martial arts"
+        ],
+        "regions": [
+          "Hong Kong"
+        ],
+        "sources": [
+          "your list"
+        ],
+        "box": null,
+        "score": 2.308,
+        "reasons": [
+          {
+            "kind": "genre",
+            "name": "Martial arts, Comedy, Action",
+            "text": "Martial arts, Comedy, Action — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "Hong Kong",
+            "text": "From Hong Kong, where you've rated 16 films"
+          }
+        ],
+        "slug": "drunken-master-1978",
+        "poster": "drunken-master-1978.jpg",
+        "streaming": [
+          {
+            "id": "60000221",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/60000221"
+          },
+          {
+            "id": "umc.cmc.1g6u0qin1yv7tw65pay5nrr95",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.1g6u0qin1yv7tw65pay5nrr95"
+          },
+          {
+            "id": "5d776d157a53e9001e7506b2",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776d157a53e9001e7506b2"
+          }
+        ],
+        "country": "HK"
       },
       {
         "title": "Once Upon a Time in China",
@@ -18506,73 +18508,6 @@
         "country": "China"
       },
       {
-        "title": "The Dark Knight",
-        "year": 2008,
-        "directors": [
-          "Christopher Nolan"
-        ],
-        "franchises": [
-          "The Dark Knight trilogy",
-          "Batman in film"
-        ],
-        "genres": [
-          "Action",
-          "Crime",
-          "Thriller",
-          "Drama"
-        ],
-        "regions": [
-          "USA"
-        ],
-        "sources": [
-          "your list"
-        ],
-        "box": null,
-        "score": 1.917,
-        "reasons": [
-          {
-            "kind": "director",
-            "name": "Christopher Nolan",
-            "text": "You rated Interstellar (B) and The Odyssey (B) by Christopher Nolan"
-          },
-          {
-            "kind": "genre",
-            "name": "Crime, Drama, Thriller",
-            "text": "Crime, Drama, Thriller — genres you rate well"
-          },
-          {
-            "kind": "region",
-            "name": "USA",
-            "text": "From USA, where you've rated 45 films"
-          }
-        ],
-        "slug": "the-dark-knight-2008",
-        "poster": "the-dark-knight-2008.jpg",
-        "streaming": [
-          {
-            "id": "70079583",
-            "name": "Netflix",
-            "url": "https://www.netflix.com/title/70079583"
-          },
-          {
-            "id": "B0BR1P5KD7",
-            "name": "Prime Video",
-            "url": "https://www.amazon.com/dp/B0BR1P5KD7"
-          },
-          {
-            "id": "umc.cmc.1uf4c3neuc9yxhnjv7t4rd5wa",
-            "name": "Apple TV",
-            "url": "https://tv.apple.com/movie/umc.cmc.1uf4c3neuc9yxhnjv7t4rd5wa"
-          },
-          {
-            "id": "5d7768247e9a3c0020c6a8f3",
-            "name": "Plex",
-            "url": "https://watch.plex.tv/movie/5d7768247e9a3c0020c6a8f3"
-          }
-        ],
-        "country": "American"
-      },
-      {
         "title": "Fist of Fury",
         "year": 1972,
         "directors": [
@@ -18625,6 +18560,73 @@
           }
         ],
         "country": "China"
+      },
+      {
+        "title": "The Dark Knight",
+        "year": 2008,
+        "directors": [
+          "Christopher Nolan"
+        ],
+        "franchises": [
+          "The Dark Knight trilogy",
+          "Batman in film"
+        ],
+        "genres": [
+          "Action",
+          "Crime",
+          "Thriller",
+          "Drama"
+        ],
+        "regions": [
+          "USA"
+        ],
+        "sources": [
+          "your list"
+        ],
+        "box": null,
+        "score": 1.9,
+        "reasons": [
+          {
+            "kind": "director",
+            "name": "Christopher Nolan",
+            "text": "You rated Interstellar (B) and The Odyssey (B) by Christopher Nolan"
+          },
+          {
+            "kind": "genre",
+            "name": "Crime, Drama, Thriller",
+            "text": "Crime, Drama, Thriller — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "USA",
+            "text": "From USA, where you've rated 45 films"
+          }
+        ],
+        "slug": "the-dark-knight-2008",
+        "poster": "the-dark-knight-2008.jpg",
+        "streaming": [
+          {
+            "id": "70079583",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/70079583"
+          },
+          {
+            "id": "B0BR1P5KD7",
+            "name": "Prime Video",
+            "url": "https://www.amazon.com/dp/B0BR1P5KD7"
+          },
+          {
+            "id": "umc.cmc.1uf4c3neuc9yxhnjv7t4rd5wa",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.1uf4c3neuc9yxhnjv7t4rd5wa"
+          },
+          {
+            "id": "5d7768247e9a3c0020c6a8f3",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d7768247e9a3c0020c6a8f3"
+          }
+        ],
+        "country": "American"
       },
       {
         "title": "Grave of the Fireflies",
@@ -18728,6 +18730,103 @@
         "country": "Japanese"
       },
       {
+        "title": "Enter the Fat Dragon",
+        "year": 1978,
+        "directors": [
+          "Sammo Hung"
+        ],
+        "franchises": [],
+        "genres": [
+          "Action",
+          "Comedy",
+          "Martial arts"
+        ],
+        "regions": [
+          "China"
+        ],
+        "sources": [
+          "your list"
+        ],
+        "box": null,
+        "score": 1.839,
+        "reasons": [
+          {
+            "kind": "genre",
+            "name": "Martial arts, Comedy, Action",
+            "text": "Martial arts, Comedy, Action — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "China",
+            "text": "From China, where you've rated 20 films"
+          }
+        ],
+        "slug": "enter-the-fat-dragon-1978",
+        "poster": "enter-the-fat-dragon-1978.jpg",
+        "streaming": [
+          {
+            "id": "20824723",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/20824723"
+          },
+          {
+            "id": "5d7768bd96b655001fdc0809",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d7768bd96b655001fdc0809"
+          }
+        ],
+        "country": "Chinese"
+      },
+      {
+        "title": "Gallants",
+        "year": 2010,
+        "directors": [
+          "Derek Kwok",
+          "Clement Cheung"
+        ],
+        "franchises": [],
+        "genres": [
+          "Martial arts",
+          "Action",
+          "Comedy"
+        ],
+        "regions": [
+          "China"
+        ],
+        "sources": [
+          "your list"
+        ],
+        "box": null,
+        "score": 1.839,
+        "reasons": [
+          {
+            "kind": "genre",
+            "name": "Martial arts, Comedy, Action",
+            "text": "Martial arts, Comedy, Action — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "China",
+            "text": "From China, where you've rated 20 films"
+          }
+        ],
+        "slug": "gallants-2010",
+        "poster": "gallants-2010.jpg",
+        "streaming": [
+          {
+            "id": "70142784",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/70142784"
+          },
+          {
+            "id": "5d776878103a2d001f572858",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776878103a2d001f572858"
+          }
+        ],
+        "country": "Chinese"
+      },
+      {
         "title": "Let the Bullets Fly",
         "year": 2010,
         "directors": [
@@ -18744,7 +18843,7 @@
           "your list"
         ],
         "box": null,
-        "score": 1.85,
+        "score": 1.819,
         "reasons": [
           {
             "kind": "genre",
@@ -18796,7 +18895,7 @@
           "your list"
         ],
         "box": null,
-        "score": 1.85,
+        "score": 1.819,
         "reasons": [
           {
             "kind": "genre",
@@ -18813,103 +18912,6 @@
         "poster": "the-hutong-cowboy-2024.jpg",
         "streaming": [],
         "country": "China"
-      },
-      {
-        "title": "Enter the Fat Dragon",
-        "year": 1978,
-        "directors": [
-          "Sammo Hung"
-        ],
-        "franchises": [],
-        "genres": [
-          "Action",
-          "Comedy",
-          "Martial arts"
-        ],
-        "regions": [
-          "China"
-        ],
-        "sources": [
-          "your list"
-        ],
-        "box": null,
-        "score": 1.849,
-        "reasons": [
-          {
-            "kind": "genre",
-            "name": "Martial arts, Comedy, Action",
-            "text": "Martial arts, Comedy, Action — genres you rate well"
-          },
-          {
-            "kind": "region",
-            "name": "China",
-            "text": "From China, where you've rated 20 films"
-          }
-        ],
-        "slug": "enter-the-fat-dragon-1978",
-        "poster": "enter-the-fat-dragon-1978.jpg",
-        "streaming": [
-          {
-            "id": "20824723",
-            "name": "Netflix",
-            "url": "https://www.netflix.com/title/20824723"
-          },
-          {
-            "id": "5d7768bd96b655001fdc0809",
-            "name": "Plex",
-            "url": "https://watch.plex.tv/movie/5d7768bd96b655001fdc0809"
-          }
-        ],
-        "country": "Chinese"
-      },
-      {
-        "title": "Gallants",
-        "year": 2010,
-        "directors": [
-          "Derek Kwok",
-          "Clement Cheung"
-        ],
-        "franchises": [],
-        "genres": [
-          "Martial arts",
-          "Action",
-          "Comedy"
-        ],
-        "regions": [
-          "China"
-        ],
-        "sources": [
-          "your list"
-        ],
-        "box": null,
-        "score": 1.849,
-        "reasons": [
-          {
-            "kind": "genre",
-            "name": "Martial arts, Comedy, Action",
-            "text": "Martial arts, Comedy, Action — genres you rate well"
-          },
-          {
-            "kind": "region",
-            "name": "China",
-            "text": "From China, where you've rated 20 films"
-          }
-        ],
-        "slug": "gallants-2010",
-        "poster": "gallants-2010.jpg",
-        "streaming": [
-          {
-            "id": "70142784",
-            "name": "Netflix",
-            "url": "https://www.netflix.com/title/70142784"
-          },
-          {
-            "id": "5d776878103a2d001f572858",
-            "name": "Plex",
-            "url": "https://watch.plex.tv/movie/5d776878103a2d001f572858"
-          }
-        ],
-        "country": "Chinese"
       },
       {
         "title": "Dahufa",
@@ -19214,43 +19216,6 @@
         "country": "Japanese"
       },
       {
-        "title": "Neko Samurai",
-        "year": 2014,
-        "directors": [
-          "Takeshi Watanabe"
-        ],
-        "franchises": [],
-        "genres": [
-          "Comedy",
-          "Historical",
-          "Drama"
-        ],
-        "regions": [
-          "Japan"
-        ],
-        "sources": [
-          "your list"
-        ],
-        "box": null,
-        "score": 1.745,
-        "reasons": [
-          {
-            "kind": "genre",
-            "name": "Comedy, Drama, Historical",
-            "text": "Comedy, Drama, Historical — genres you rate well"
-          },
-          {
-            "kind": "region",
-            "name": "Japan",
-            "text": "From Japan, where you've rated 13 films"
-          }
-        ],
-        "slug": "neko-samurai-2014",
-        "poster": null,
-        "streaming": [],
-        "country": "Japanese"
-      },
-      {
         "title": "Rurouni Kenshin",
         "year": 2012,
         "directors": [
@@ -19296,6 +19261,43 @@
             "url": "https://watch.plex.tv/movie/5d77698b23d5a3001f4f9320"
           }
         ],
+        "country": "Japanese"
+      },
+      {
+        "title": "Neko Samurai",
+        "year": 2014,
+        "directors": [
+          "Takeshi Watanabe"
+        ],
+        "franchises": [],
+        "genres": [
+          "Comedy",
+          "Historical",
+          "Drama"
+        ],
+        "regions": [
+          "Japan"
+        ],
+        "sources": [
+          "your list"
+        ],
+        "box": null,
+        "score": 1.735,
+        "reasons": [
+          {
+            "kind": "genre",
+            "name": "Comedy, Drama, Historical",
+            "text": "Comedy, Drama, Historical — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "Japan",
+            "text": "From Japan, where you've rated 13 films"
+          }
+        ],
+        "slug": "neko-samurai-2014",
+        "poster": null,
+        "streaming": [],
         "country": "Japanese"
       },
       {
@@ -19451,7 +19453,7 @@
           "your list"
         ],
         "box": null,
-        "score": 1.615,
+        "score": 1.599,
         "reasons": [
           {
             "kind": "genre",
@@ -19487,7 +19489,7 @@
           "your list"
         ],
         "box": null,
-        "score": 1.575,
+        "score": 1.559,
         "reasons": [
           {
             "kind": "genre",
@@ -19926,7 +19928,7 @@
           "your list"
         ],
         "box": null,
-        "score": 1.177,
+        "score": 1.16,
         "reasons": [
           {
             "kind": "genre",
@@ -19980,7 +19982,7 @@
           "your list"
         ],
         "box": null,
-        "score": 1.092,
+        "score": 1.075,
         "reasons": [
           {
             "kind": "genre",
@@ -20043,7 +20045,7 @@
           "your list"
         ],
         "box": null,
-        "score": 1.023,
+        "score": 1.005,
         "reasons": [
           {
             "kind": "genre",
@@ -20099,7 +20101,7 @@
           "your list"
         ],
         "box": null,
-        "score": 1.008,
+        "score": 0.991,
         "reasons": [
           {
             "kind": "genre",
@@ -20155,7 +20157,7 @@
           "your list"
         ],
         "box": null,
-        "score": 0.971,
+        "score": 0.953,
         "reasons": [
           {
             "kind": "genre",
@@ -20424,7 +20426,7 @@
         },
         {
           "name": "Comedy",
-          "affinity": 0.95,
+          "affinity": 0.92,
           "count": 32
         },
         {
@@ -20466,7 +20468,7 @@
         },
         {
           "name": "USA",
-          "affinity": 0.12,
+          "affinity": 0.1,
           "count": 45
         }
       ]
@@ -23377,7 +23379,7 @@
     {
       "title": "Harold & Kumar Go to White Castle",
       "year": 2004,
-      "tier": "A",
+      "tier": "B",
       "country": "American",
       "region": "USA",
       "note": null,
@@ -32046,7 +32048,7 @@
         {
           "title": "Harold & Kumar Go to White Castle",
           "year": 2004,
-          "tier": "A",
+          "tier": "B",
           "director": "Danny Leiner",
           "poster": "harold-kumar-go-to-white-castle-2004.jpg",
           "slug": "harold-kumar-go-to-white-castle-2004"
@@ -39439,7 +39441,7 @@
         {
           "title": "Harold & Kumar Go to White Castle",
           "year": 2004,
-          "tier": "A",
+          "tier": "B",
           "director": "Danny Leiner",
           "poster": "harold-kumar-go-to-white-castle-2004.jpg",
           "slug": "harold-kumar-go-to-white-castle-2004"
