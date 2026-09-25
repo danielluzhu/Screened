@@ -20393,7 +20393,7 @@
         "country": null
       }
     ],
-    "rated": 129,
+    "rated": 130,
     "taste": {
       "directors": [
         {
@@ -28335,6 +28335,25 @@
       "analysis": null,
       "streaming": [],
       "slug": "the-lychee-road",
+      "genres": [],
+      "franchises": []
+    },
+    {
+      "title": "shadow",
+      "year": null,
+      "tier": "C",
+      "country": null,
+      "region": "Unknown",
+      "note": null,
+      "director": null,
+      "directors": [],
+      "poster": "shadow.jpg",
+      "nativeTitle": null,
+      "critique": null,
+      "shortlisted": false,
+      "analysis": null,
+      "streaming": [],
+      "slug": "shadow",
       "genres": [],
       "franchises": []
     }
