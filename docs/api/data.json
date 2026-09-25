@@ -20393,7 +20393,7 @@
         "country": null
       }
     ],
-    "rated": 130,
+    "rated": 131,
     "taste": {
       "directors": [
         {
@@ -28354,6 +28354,25 @@
       "analysis": null,
       "streaming": [],
       "slug": "shadow",
+      "genres": [],
+      "franchises": []
+    },
+    {
+      "title": "Evil Unbound",
+      "year": null,
+      "tier": "C",
+      "country": null,
+      "region": "Unknown",
+      "note": null,
+      "director": null,
+      "directors": [],
+      "poster": "evil-unbound.jpg",
+      "nativeTitle": null,
+      "critique": null,
+      "shortlisted": false,
+      "analysis": null,
+      "streaming": [],
+      "slug": "evil-unbound",
       "genres": [],
       "franchises": []
     }
