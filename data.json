@@ -4417,7 +4417,7 @@
         {
           "title": "Flash Point",
           "year": 2007,
-          "tier": "?",
+          "tier": "B",
           "director": "Wilson Yip",
           "poster": "flash-point-2007.jpg",
           "slug": "flash-point-2007"
@@ -14214,56 +14214,6 @@
         "upcoming": false
       },
       {
-        "title": "01:00 A.M.",
-        "year": 1995,
-        "directors": [
-          "Wilson Yip"
-        ],
-        "franchises": [],
-        "genres": [],
-        "regions": [],
-        "sources": [
-          "director"
-        ],
-        "score": 3.3,
-        "reasons": [
-          {
-            "kind": "director",
-            "name": "Wilson Yip",
-            "text": "You rated Ip Man (S) and Ip Man 4: The Finale (S) by Wilson Yip"
-          }
-        ],
-        "qid": "Q67103401",
-        "poster": null,
-        "streaming": [],
-        "upcoming": false
-      },
-      {
-        "title": "2002",
-        "year": 2001,
-        "directors": [
-          "Wilson Yip"
-        ],
-        "franchises": [],
-        "genres": [],
-        "regions": [],
-        "sources": [
-          "director"
-        ],
-        "score": 3.3,
-        "reasons": [
-          {
-            "kind": "director",
-            "name": "Wilson Yip",
-            "text": "You rated Ip Man (S) and Ip Man 4: The Finale (S) by Wilson Yip"
-          }
-        ],
-        "qid": "Q2813946",
-        "poster": null,
-        "streaming": [],
-        "upcoming": false
-      },
-      {
         "title": "7s",
         "year": 2015,
         "directors": [
@@ -14498,6 +14448,56 @@
           }
         ],
         "qid": "Q3482275",
+        "poster": null,
+        "streaming": [],
+        "upcoming": false
+      },
+      {
+        "title": "01:00 A.M.",
+        "year": 1995,
+        "directors": [
+          "Wilson Yip"
+        ],
+        "franchises": [],
+        "genres": [],
+        "regions": [],
+        "sources": [
+          "director"
+        ],
+        "score": 3.117,
+        "reasons": [
+          {
+            "kind": "director",
+            "name": "Wilson Yip",
+            "text": "You rated Ip Man (S) and Ip Man 4: The Finale (S) by Wilson Yip"
+          }
+        ],
+        "qid": "Q67103401",
+        "poster": null,
+        "streaming": [],
+        "upcoming": false
+      },
+      {
+        "title": "2002",
+        "year": 2001,
+        "directors": [
+          "Wilson Yip"
+        ],
+        "franchises": [],
+        "genres": [],
+        "regions": [],
+        "sources": [
+          "director"
+        ],
+        "score": 3.117,
+        "reasons": [
+          {
+            "kind": "director",
+            "name": "Wilson Yip",
+            "text": "You rated Ip Man (S) and Ip Man 4: The Finale (S) by Wilson Yip"
+          }
+        ],
+        "qid": "Q2813946",
         "poster": null,
         "streaming": [],
         "upcoming": false
@@ -17142,48 +17142,6 @@
             "id": "5d776d11fb0d55001f596480",
             "name": "Plex",
             "url": "https://watch.plex.tv/movie/5d776d11fb0d55001f596480"
-          }
-        ],
-        "country": null
-      },
-      {
-        "title": "Flash Point",
-        "year": 2007,
-        "directors": [
-          "Wilson Yip"
-        ],
-        "franchises": [],
-        "genres": [],
-        "regions": [],
-        "sources": [
-          "your list"
-        ],
-        "box": null,
-        "score": 3.3,
-        "reasons": [
-          {
-            "kind": "director",
-            "name": "Wilson Yip",
-            "text": "You rated Ip Man (S) and Ip Man 4: The Finale (S) by Wilson Yip"
-          }
-        ],
-        "slug": "flash-point-2007",
-        "poster": "flash-point-2007.jpg",
-        "streaming": [
-          {
-            "id": "70090313",
-            "name": "Netflix",
-            "url": "https://www.netflix.com/title/70090313"
-          },
-          {
-            "id": "umc.cmc.2e87higtm76je58bisgipuyxg",
-            "name": "Apple TV",
-            "url": "https://tv.apple.com/movie/umc.cmc.2e87higtm76je58bisgipuyxg"
-          },
-          {
-            "id": "5d9f356fe4fc29001eb66c28",
-            "name": "Plex",
-            "url": "https://watch.plex.tv/movie/5d9f356fe4fc29001eb66c28"
           }
         ],
         "country": null
@@ -20339,7 +20297,7 @@
         "country": null
       }
     ],
-    "rated": 122,
+    "rated": 123,
     "taste": {
       "directors": [
         {
@@ -20379,8 +20337,8 @@
         },
         {
           "name": "Wilson Yip",
-          "affinity": 1.5,
-          "count": 4
+          "affinity": 1.42,
+          "count": 5
         }
       ],
       "genres": [
@@ -27775,7 +27733,7 @@
     {
       "title": "Flash Point",
       "year": 2007,
-      "tier": "?",
+      "tier": "B",
       "country": null,
       "region": "Unknown",
       "note": null,
@@ -28527,7 +28485,7 @@
         {
           "title": "Flash Point",
           "year": 2007,
-          "tier": "?",
+          "tier": "B",
           "director": "Wilson Yip",
           "poster": "flash-point-2007.jpg",
           "slug": "flash-point-2007"
