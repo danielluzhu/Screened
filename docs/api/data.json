@@ -225,6 +225,14 @@
           "slug": "100-meters-2025"
         },
         {
+          "title": "96 minutes",
+          "year": 2025,
+          "tier": "?",
+          "director": null,
+          "poster": "96-minutes-2025.jpg",
+          "slug": "96-minutes-2025"
+        },
+        {
           "title": "Good News",
           "year": 2025,
           "tier": "?",
@@ -20209,7 +20217,7 @@
       },
       {
         "title": "96 minutes",
-        "year": null,
+        "year": 2025,
         "directors": [],
         "franchises": [],
         "genres": [],
@@ -20220,8 +20228,8 @@
         "box": null,
         "score": 0.0,
         "reasons": [],
-        "slug": "96-minutes",
-        "poster": null,
+        "slug": "96-minutes-2025",
+        "poster": "96-minutes-2025.jpg",
         "streaming": [],
         "country": null
       },
@@ -27851,20 +27859,20 @@
     },
     {
       "title": "96 minutes",
-      "year": null,
+      "year": 2025,
       "tier": "?",
       "country": null,
       "region": "Unknown",
       "note": null,
       "director": null,
       "directors": [],
-      "poster": null,
+      "poster": "96-minutes-2025.jpg",
       "nativeTitle": null,
       "critique": null,
       "shortlisted": false,
       "analysis": null,
       "streaming": [],
-      "slug": "96-minutes",
+      "slug": "96-minutes-2025",
       "genres": [],
       "franchises": []
     },
