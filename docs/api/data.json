@@ -4861,6 +4861,14 @@
       "year": 2005,
       "films": [
         {
+          "title": "SPL Sha Po Lang",
+          "year": 2005,
+          "tier": "B",
+          "director": null,
+          "poster": "spl-sha-po-lang-2005.jpg",
+          "slug": "spl-sha-po-lang-2005"
+        },
+        {
           "title": "Brokeback Mountain",
           "year": 2005,
           "tier": "?",
@@ -20331,7 +20339,7 @@
         "country": null
       }
     ],
-    "rated": 124,
+    "rated": 125,
     "taste": {
       "directors": [
         {
@@ -28121,6 +28129,25 @@
       "analysis": null,
       "streaming": [],
       "slug": "fist-of-legend",
+      "genres": [],
+      "franchises": []
+    },
+    {
+      "title": "SPL Sha Po Lang",
+      "year": 2005,
+      "tier": "B",
+      "country": null,
+      "region": "Unknown",
+      "note": null,
+      "director": null,
+      "directors": [],
+      "poster": "spl-sha-po-lang-2005.jpg",
+      "nativeTitle": null,
+      "critique": null,
+      "shortlisted": false,
+      "analysis": null,
+      "streaming": [],
+      "slug": "spl-sha-po-lang-2005",
       "genres": [],
       "franchises": []
     }
