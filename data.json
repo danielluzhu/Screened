@@ -20393,7 +20393,7 @@
         "country": null
       }
     ],
-    "rated": 128,
+    "rated": 129,
     "taste": {
       "directors": [
         {
@@ -28316,6 +28316,25 @@
       "analysis": null,
       "streaming": [],
       "slug": "john-wick",
+      "genres": [],
+      "franchises": []
+    },
+    {
+      "title": "The Lychee Road",
+      "year": null,
+      "tier": "A",
+      "country": null,
+      "region": "Unknown",
+      "note": null,
+      "director": null,
+      "directors": [],
+      "poster": "the-lychee-road.jpg",
+      "nativeTitle": null,
+      "critique": null,
+      "shortlisted": false,
+      "analysis": null,
+      "streaming": [],
+      "slug": "the-lychee-road",
       "genres": [],
       "franchises": []
     }
