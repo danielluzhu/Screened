@@ -13846,13 +13846,19 @@
         "franchises": [
           "Love trilogy"
         ],
-        "genres": [],
-        "regions": [],
+        "genres": [
+          "Romance",
+          "Drama",
+          "Crime"
+        ],
+        "regions": [
+          "Hong Kong"
+        ],
         "sources": [
           "director",
           "franchise"
         ],
-        "score": 6.067,
+        "score": 8.676,
         "reasons": [
           {
             "kind": "director",
@@ -13863,6 +13869,16 @@
             "kind": "franchise",
             "name": "Love trilogy",
             "text": "Part of Love trilogy, where you rated In the Mood for Love (S)"
+          },
+          {
+            "kind": "genre",
+            "name": "Crime, Romance, Drama",
+            "text": "Crime, Romance, Drama — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "Hong Kong",
+            "text": "From Hong Kong, where you've rated 16 films"
           }
         ],
         "qid": "Q1306553",
@@ -13887,6 +13903,482 @@
         "upcoming": false
       },
       {
+        "title": "The Wedding Banquet",
+        "year": 1993,
+        "directors": [
+          "Ang Lee"
+        ],
+        "franchises": [
+          "Father Knows Best trilogy"
+        ],
+        "genres": [
+          "Romance",
+          "Comedy",
+          "Drama"
+        ],
+        "regions": [
+          "USA",
+          "Taiwan"
+        ],
+        "sources": [
+          "director",
+          "franchise"
+        ],
+        "score": 6.714,
+        "reasons": [
+          {
+            "kind": "director",
+            "name": "Ang Lee",
+            "text": "You rated Eat Drink Man Woman (S) and Life of Pi (C) by Ang Lee"
+          },
+          {
+            "kind": "franchise",
+            "name": "Father Knows Best trilogy",
+            "text": "Part of Father Knows Best trilogy, where you rated Eat Drink Man Woman (S)"
+          },
+          {
+            "kind": "genre",
+            "name": "Romance, Comedy, Drama",
+            "text": "Romance, Comedy, Drama — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "Taiwan",
+            "text": "From Taiwan, where you've rated 4 films"
+          }
+        ],
+        "qid": "Q182071",
+        "poster": "the-wedding-banquet-1993.png",
+        "streaming": [
+          {
+            "id": "60011421",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/60011421"
+          },
+          {
+            "id": "umc.cmc.6qznr93aelsdqr8tftici9v8p",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.6qznr93aelsdqr8tftici9v8p"
+          },
+          {
+            "id": "5d776d1723d5a3001f52034b",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776d1723d5a3001f52034b"
+          }
+        ],
+        "upcoming": false
+      },
+      {
+        "title": "Fallen Angels",
+        "year": 1995,
+        "directors": [
+          "Wong Kar-wai"
+        ],
+        "franchises": [],
+        "genres": [
+          "Drama",
+          "Romance",
+          "Crime",
+          "Comedy"
+        ],
+        "regions": [
+          "Hong Kong"
+        ],
+        "sources": [
+          "director"
+        ],
+        "score": 6.2,
+        "reasons": [
+          {
+            "kind": "director",
+            "name": "Wong Kar-wai",
+            "text": "You rated In the Mood for Love (S) and Chungking Express (A) by Wong Kar-wai"
+          },
+          {
+            "kind": "genre",
+            "name": "Crime, Romance, Comedy",
+            "text": "Crime, Romance, Comedy — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "Hong Kong",
+            "text": "From Hong Kong, where you've rated 16 films"
+          }
+        ],
+        "qid": "Q1353408",
+        "poster": null,
+        "streaming": [
+          {
+            "id": "490450",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/490450"
+          },
+          {
+            "id": "umc.cmc.5m4aec1bqgnl54e5k35ma0jfa",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.5m4aec1bqgnl54e5k35ma0jfa"
+          },
+          {
+            "id": "5d776d11ad5437001f7cc1e6",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776d11ad5437001f7cc1e6"
+          }
+        ],
+        "upcoming": false
+      },
+      {
+        "title": "Mongkok Story",
+        "year": 1996,
+        "directors": [
+          "Wilson Yip"
+        ],
+        "franchises": [],
+        "genres": [
+          "Crime"
+        ],
+        "regions": [
+          "Hong Kong"
+        ],
+        "sources": [
+          "director"
+        ],
+        "score": 6.031,
+        "reasons": [
+          {
+            "kind": "director",
+            "name": "Wilson Yip",
+            "text": "You rated Ip Man (S) and Ip Man 4: The Finale (S) by Wilson Yip"
+          },
+          {
+            "kind": "genre",
+            "name": "Crime",
+            "text": "Crime — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "Hong Kong",
+            "text": "From Hong Kong, where you've rated 16 films"
+          }
+        ],
+        "qid": "Q19840443",
+        "poster": null,
+        "streaming": [
+          {
+            "id": "5d7769d5ad5437001f769150",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d7769d5ad5437001f769150"
+          }
+        ],
+        "upcoming": false
+      },
+      {
+        "title": "Cat vs. Rat",
+        "year": 1982,
+        "directors": [
+          "Lau Kar-leung"
+        ],
+        "franchises": [],
+        "genres": [
+          "Martial arts"
+        ],
+        "regions": [
+          "Hong Kong"
+        ],
+        "sources": [
+          "director"
+        ],
+        "score": 5.865,
+        "reasons": [
+          {
+            "kind": "director",
+            "name": "Lau Kar-leung",
+            "text": "You rated Drunken Master II (S) by Lau Kar-leung"
+          },
+          {
+            "kind": "genre",
+            "name": "Martial arts",
+            "text": "Martial arts — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "Hong Kong",
+            "text": "From Hong Kong, where you've rated 16 films"
+          }
+        ],
+        "qid": "Q5051119",
+        "poster": "cat-vs-rat-1982.jpg",
+        "streaming": [
+          {
+            "id": "umc.cmc.4m9a53a3fmib0dgxn1grizha",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.4m9a53a3fmib0dgxn1grizha"
+          },
+          {
+            "id": "5d7768b97a53e9001e6d76a1",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d7768b97a53e9001e6d76a1"
+          }
+        ],
+        "upcoming": false
+      },
+      {
+        "title": "Challenge of the Masters",
+        "year": 1976,
+        "directors": [
+          "Lau Kar-leung"
+        ],
+        "franchises": [],
+        "genres": [
+          "Martial arts"
+        ],
+        "regions": [
+          "Hong Kong"
+        ],
+        "sources": [
+          "director"
+        ],
+        "score": 5.865,
+        "reasons": [
+          {
+            "kind": "director",
+            "name": "Lau Kar-leung",
+            "text": "You rated Drunken Master II (S) by Lau Kar-leung"
+          },
+          {
+            "kind": "genre",
+            "name": "Martial arts",
+            "text": "Martial arts — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "Hong Kong",
+            "text": "From Hong Kong, where you've rated 16 films"
+          }
+        ],
+        "qid": "Q2984949",
+        "poster": "challenge-of-the-masters-1976.jpg",
+        "streaming": [
+          {
+            "id": "umc.cmc.2zs8bwuravl9iion24dyty9az",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.2zs8bwuravl9iion24dyty9az"
+          },
+          {
+            "id": "5d776852eb5d26001f1e5fd9",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776852eb5d26001f1e5fd9"
+          }
+        ],
+        "upcoming": false
+      },
+      {
+        "title": "Leaving Me Loving You",
+        "year": 2004,
+        "directors": [
+          "Wilson Yip"
+        ],
+        "franchises": [],
+        "genres": [
+          "Romance"
+        ],
+        "regions": [
+          "Hong Kong"
+        ],
+        "sources": [
+          "director"
+        ],
+        "score": 5.781,
+        "reasons": [
+          {
+            "kind": "director",
+            "name": "Wilson Yip",
+            "text": "You rated Ip Man (S) and Ip Man 4: The Finale (S) by Wilson Yip"
+          },
+          {
+            "kind": "genre",
+            "name": "Romance",
+            "text": "Romance — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "Hong Kong",
+            "text": "From Hong Kong, where you've rated 16 films"
+          }
+        ],
+        "qid": "Q10934550",
+        "poster": null,
+        "streaming": [],
+        "upcoming": false
+      },
+      {
+        "title": "7s",
+        "year": 2015,
+        "directors": [
+          "Michihito Fujii"
+        ],
+        "franchises": [],
+        "genres": [
+          "Coming-of-age"
+        ],
+        "regions": [
+          "Japan"
+        ],
+        "sources": [
+          "director"
+        ],
+        "score": 5.729,
+        "reasons": [
+          {
+            "kind": "director",
+            "name": "Michihito Fujii",
+            "text": "You rated 18×2 Beyond Youthful Days (S) by Michihito Fujii"
+          },
+          {
+            "kind": "genre",
+            "name": "Coming-of-age",
+            "text": "Coming-of-age — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "Japan",
+            "text": "From Japan, where you've rated 13 films"
+          }
+        ],
+        "qid": "Q24865305",
+        "poster": null,
+        "streaming": [
+          {
+            "id": "5d776f007a53e9001e789245",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776f007a53e9001e789245"
+          }
+        ],
+        "upcoming": false
+      },
+      {
+        "title": "Pokémon 4Ever",
+        "year": 2001,
+        "directors": [
+          "Kunihiko Yuyama"
+        ],
+        "franchises": [
+          "Pokémon"
+        ],
+        "genres": [
+          "Adventure",
+          "Family"
+        ],
+        "regions": [
+          "Japan"
+        ],
+        "sources": [
+          "director",
+          "franchise"
+        ],
+        "score": 5.682,
+        "reasons": [
+          {
+            "kind": "director",
+            "name": "Kunihiko Yuyama",
+            "text": "You rated Pokémon: The First Movie (A) by Kunihiko Yuyama"
+          },
+          {
+            "kind": "franchise",
+            "name": "Pokémon",
+            "text": "Part of Pokémon, where you rated Pokémon: The First Movie (A)"
+          },
+          {
+            "kind": "genre",
+            "name": "Family, Adventure",
+            "text": "Family, Adventure — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "Japan",
+            "text": "From Japan, where you've rated 13 films"
+          }
+        ],
+        "qid": "Q82579",
+        "poster": null,
+        "streaming": [
+          {
+            "id": "60024911",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/60024911"
+          },
+          {
+            "id": "5d77683861141d001fb15fba",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d77683861141d001fb15fba"
+          }
+        ],
+        "upcoming": false
+      },
+      {
+        "title": "Pokémon the Movie: I Choose You!",
+        "year": 2017,
+        "directors": [
+          "Kunihiko Yuyama"
+        ],
+        "franchises": [
+          "Pokémon"
+        ],
+        "genres": [
+          "Family",
+          "Adventure"
+        ],
+        "regions": [
+          "Japan"
+        ],
+        "sources": [
+          "director",
+          "franchise"
+        ],
+        "score": 5.682,
+        "reasons": [
+          {
+            "kind": "director",
+            "name": "Kunihiko Yuyama",
+            "text": "You rated Pokémon: The First Movie (A) by Kunihiko Yuyama"
+          },
+          {
+            "kind": "franchise",
+            "name": "Pokémon",
+            "text": "Part of Pokémon, where you rated Pokémon: The First Movie (A)"
+          },
+          {
+            "kind": "genre",
+            "name": "Family, Adventure",
+            "text": "Family, Adventure — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "Japan",
+            "text": "From Japan, where you've rated 13 films"
+          }
+        ],
+        "qid": "Q28016163",
+        "poster": null,
+        "streaming": [
+          {
+            "id": "81046846",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/81046846"
+          },
+          {
+            "id": "umc.cmc.4b5nlyr7k2l6rtsy4ogl9a3wm",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.4b5nlyr7k2l6rtsy4ogl9a3wm"
+          },
+          {
+            "id": "5d776d5123d5a3001f5223c3",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776d5123d5a3001f5223c3"
+          }
+        ],
+        "upcoming": false
+      },
+      {
         "title": "Finding Dory",
         "year": 2015,
         "directors": [
@@ -13896,13 +14388,18 @@
         "franchises": [
           "Finding Nemo"
         ],
-        "genres": [],
+        "genres": [
+          "Comedy",
+          "Adventure",
+          "Family",
+          "Drama"
+        ],
         "regions": [],
         "sources": [
           "director",
           "franchise"
         ],
-        "score": 4.533,
+        "score": 5.43,
         "reasons": [
           {
             "kind": "director",
@@ -13913,6 +14410,11 @@
             "kind": "franchise",
             "name": "Finding Nemo",
             "text": "Part of Finding Nemo, where you rated Finding Nemo (A)"
+          },
+          {
+            "kind": "genre",
+            "name": "Family, Comedy, Drama",
+            "text": "Family, Comedy, Drama — genres you rate well"
           }
         ],
         "qid": "Q9321426",
@@ -13942,120 +14444,1092 @@
         "upcoming": false
       },
       {
-        "title": "The Wedding Banquet",
-        "year": 1993,
+        "title": "The Last Ten Years",
+        "year": 2022,
         "directors": [
-          "Ang Lee"
+          "Michihito Fujii"
         ],
-        "franchises": [
-          "Father Knows Best trilogy"
+        "franchises": [],
+        "genres": [
+          "Drama",
+          "Romance"
         ],
-        "genres": [],
-        "regions": [],
+        "regions": [
+          "Japan"
+        ],
         "sources": [
-          "director",
-          "franchise"
+          "director"
         ],
-        "score": 4.233,
+        "score": 5.392,
         "reasons": [
           {
             "kind": "director",
-            "name": "Ang Lee",
-            "text": "You rated Eat Drink Man Woman (S) and Life of Pi (C) by Ang Lee"
+            "name": "Michihito Fujii",
+            "text": "You rated 18×2 Beyond Youthful Days (S) by Michihito Fujii"
           },
           {
-            "kind": "franchise",
-            "name": "Father Knows Best trilogy",
-            "text": "Part of Father Knows Best trilogy, where you rated Eat Drink Man Woman (S)"
+            "kind": "genre",
+            "name": "Romance, Drama",
+            "text": "Romance, Drama — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "Japan",
+            "text": "From Japan, where you've rated 13 films"
           }
         ],
-        "qid": "Q182071",
-        "poster": "the-wedding-banquet-1993.png",
+        "qid": "Q112646942",
+        "poster": null,
         "streaming": [
           {
-            "id": "60011421",
-            "name": "Netflix",
-            "url": "https://www.netflix.com/title/60011421"
-          },
-          {
-            "id": "umc.cmc.6qznr93aelsdqr8tftici9v8p",
+            "id": "umc.cmc.wbd6vkiv2xxi6j5ykh3peik5",
             "name": "Apple TV",
-            "url": "https://tv.apple.com/movie/umc.cmc.6qznr93aelsdqr8tftici9v8p"
+            "url": "https://tv.apple.com/movie/umc.cmc.wbd6vkiv2xxi6j5ykh3peik5"
           },
           {
-            "id": "5d776d1723d5a3001f52034b",
+            "id": "61bf2de44e448998660e3b9e",
             "name": "Plex",
-            "url": "https://watch.plex.tv/movie/5d776d1723d5a3001f52034b"
+            "url": "https://watch.plex.tv/movie/61bf2de44e448998660e3b9e"
           }
         ],
         "upcoming": false
       },
       {
-        "title": "Infernal Affairs II",
-        "year": 2003,
+        "title": "Master of Thunder",
+        "year": 2006,
         "directors": [
-          "Alan Mak",
-          "Andrew Lau"
+          "Kenji Tanigaki"
         ],
-        "franchises": [
-          "Infernal Affairs"
+        "franchises": [],
+        "genres": [
+          "Action",
+          "Martial arts"
         ],
-        "genres": [],
-        "regions": [],
+        "regions": [
+          "Japan"
+        ],
         "sources": [
-          "director",
-          "franchise"
+          "director"
         ],
-        "score": 3.8,
+        "score": 5.275,
         "reasons": [
           {
             "kind": "director",
-            "name": "Alan Mak and Andrew Lau",
-            "text": "You rated Infernal Affairs (A) by Alan Mak and Andrew Lau"
+            "name": "Kenji Tanigaki",
+            "text": "You rated The Furious (S) by Kenji Tanigaki"
           },
           {
-            "kind": "franchise",
-            "name": "Infernal Affairs",
-            "text": "Part of Infernal Affairs, where you rated Infernal Affairs (A)"
+            "kind": "genre",
+            "name": "Martial arts, Action",
+            "text": "Martial arts, Action — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "Japan",
+            "text": "From Japan, where you've rated 13 films"
           }
         ],
-        "qid": "Q767751",
+        "qid": "Q14948460",
+        "poster": "master-of-thunder-2006.jpg",
+        "streaming": [
+          {
+            "id": "70078623",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/70078623"
+          },
+          {
+            "id": "5d77688c33f255001e8595da",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d77688c33f255001e8595da"
+          }
+        ],
+        "upcoming": false
+      },
+      {
+        "title": "Decision to Leave",
+        "year": 2022,
+        "directors": [
+          "Park Chan-wook"
+        ],
+        "franchises": [],
+        "genres": [
+          "Mystery",
+          "Crime",
+          "Drama",
+          "Romance"
+        ],
+        "regions": [
+          "Korea"
+        ],
+        "sources": [
+          "director"
+        ],
+        "score": 5.231,
+        "reasons": [
+          {
+            "kind": "director",
+            "name": "Park Chan-wook",
+            "text": "You rated Oldboy (S) by Park Chan-wook"
+          },
+          {
+            "kind": "genre",
+            "name": "Crime, Romance, Mystery",
+            "text": "Crime, Romance, Mystery — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "Korea",
+            "text": "From Korea, where you've rated 10 films"
+          }
+        ],
+        "qid": "Q100889636",
+        "poster": "decision-to-leave-2022.jpg",
+        "streaming": [
+          {
+            "id": "umc.cmc.7ikt8jklfvyxvrj5i0r0ola8c",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.7ikt8jklfvyxvrj5i0r0ola8c"
+          },
+          {
+            "id": "5ec75f80fc16bb004178907d",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5ec75f80fc16bb004178907d"
+          }
+        ],
+        "upcoming": false
+      },
+      {
+        "title": "The Embers",
+        "year": 2024,
+        "directors": [
+          "Chung Mong-hong"
+        ],
+        "franchises": [],
+        "genres": [
+          "Crime"
+        ],
+        "regions": [
+          "Taiwan"
+        ],
+        "sources": [
+          "director"
+        ],
+        "score": 5.19,
+        "reasons": [
+          {
+            "kind": "director",
+            "name": "Chung Mong-hong",
+            "text": "You rated A Sun (A) by Chung Mong-hong"
+          },
+          {
+            "kind": "genre",
+            "name": "Crime",
+            "text": "Crime — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "Taiwan",
+            "text": "From Taiwan, where you've rated 4 films"
+          }
+        ],
+        "qid": "Q130396871",
+        "poster": "the-embers-2024.jpg",
+        "streaming": [
+          {
+            "id": "64d546838109f56520c0216e",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/64d546838109f56520c0216e"
+          }
+        ],
+        "upcoming": false
+      },
+      {
+        "title": "Against All",
+        "year": 1990,
+        "directors": [
+          "Andrew Lau"
+        ],
+        "franchises": [],
+        "genres": [
+          "Crime"
+        ],
+        "regions": [
+          "Hong Kong"
+        ],
+        "sources": [
+          "director"
+        ],
+        "score": 5.115,
+        "reasons": [
+          {
+            "kind": "director",
+            "name": "Andrew Lau",
+            "text": "You rated Infernal Affairs (A) by Andrew Lau"
+          },
+          {
+            "kind": "genre",
+            "name": "Crime",
+            "text": "Crime — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "Hong Kong",
+            "text": "From Hong Kong, where you've rated 16 films"
+          }
+        ],
+        "qid": "Q15925271",
+        "poster": null,
+        "streaming": [
+          {
+            "id": "5d776ab7ad5437001f786861",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776ab7ad5437001f786861"
+          }
+        ],
+        "upcoming": false
+      },
+      {
+        "title": "Born to Be King",
+        "year": 2000,
+        "directors": [
+          "Andrew Lau"
+        ],
+        "franchises": [],
+        "genres": [
+          "Crime"
+        ],
+        "regions": [
+          "Hong Kong"
+        ],
+        "sources": [
+          "director"
+        ],
+        "score": 5.115,
+        "reasons": [
+          {
+            "kind": "director",
+            "name": "Andrew Lau",
+            "text": "You rated Infernal Affairs (A) by Andrew Lau"
+          },
+          {
+            "kind": "genre",
+            "name": "Crime",
+            "text": "Crime — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "Hong Kong",
+            "text": "From Hong Kong, where you've rated 16 films"
+          }
+        ],
+        "qid": "Q4912219",
+        "poster": null,
+        "streaming": [
+          {
+            "id": "60025082",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/60025082"
+          },
+          {
+            "id": "5d7768883ab0e7001f503bb0",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d7768883ab0e7001f503bb0"
+          }
+        ],
+        "upcoming": false
+      },
+      {
+        "title": "Integrity",
+        "year": 2019,
+        "directors": [
+          "Alan Mak"
+        ],
+        "franchises": [],
+        "genres": [
+          "Crime"
+        ],
+        "regions": [
+          "Hong Kong"
+        ],
+        "sources": [
+          "director"
+        ],
+        "score": 5.115,
+        "reasons": [
+          {
+            "kind": "director",
+            "name": "Alan Mak",
+            "text": "You rated Infernal Affairs (A) by Alan Mak"
+          },
+          {
+            "kind": "genre",
+            "name": "Crime",
+            "text": "Crime — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "Hong Kong",
+            "text": "From Hong Kong, where you've rated 16 films"
+          }
+        ],
+        "qid": "Q55614511",
+        "poster": "integrity-2019.jpg",
+        "streaming": [
+          {
+            "id": "5d7770b331d95e001f1a7b70",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d7770b331d95e001f1a7b70"
+          }
+        ],
+        "upcoming": false
+      },
+      {
+        "title": "Lady Cop & Papa Crook",
+        "year": 2008,
+        "directors": [
+          "Alan Mak",
+          "Felix Chong"
+        ],
+        "franchises": [],
+        "genres": [
+          "Crime"
+        ],
+        "regions": [
+          "Hong Kong"
+        ],
+        "sources": [
+          "director"
+        ],
+        "score": 5.115,
+        "reasons": [
+          {
+            "kind": "director",
+            "name": "Alan Mak",
+            "text": "You rated Infernal Affairs (A) by Alan Mak"
+          },
+          {
+            "kind": "genre",
+            "name": "Crime",
+            "text": "Crime — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "Hong Kong",
+            "text": "From Hong Kong, where you've rated 16 films"
+          }
+        ],
+        "qid": "Q4184013",
+        "poster": "lady-cop-papa-crook-2008.jpg",
+        "streaming": [
+          {
+            "id": "5d7768757a53e9001e6cf674",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d7768757a53e9001e6cf674"
+          }
+        ],
+        "upcoming": false
+      },
+      {
+        "title": "Sympathy for Lady Vengeance",
+        "year": 2005,
+        "directors": [
+          "Park Chan-wook"
+        ],
+        "franchises": [],
+        "genres": [
+          "Drama",
+          "Thriller",
+          "Crime"
+        ],
+        "regions": [
+          "Korea"
+        ],
+        "sources": [
+          "director"
+        ],
+        "score": 5.112,
+        "reasons": [
+          {
+            "kind": "director",
+            "name": "Park Chan-wook",
+            "text": "You rated Oldboy (S) by Park Chan-wook"
+          },
+          {
+            "kind": "genre",
+            "name": "Crime, Drama, Thriller",
+            "text": "Crime, Drama, Thriller — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "Korea",
+            "text": "From Korea, where you've rated 10 films"
+          }
+        ],
+        "qid": "Q495134",
+        "poster": null,
+        "streaming": [
+          {
+            "id": "umc.cmc.60wjzvc8wjrhod5z2lvyhl3g7",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.60wjzvc8wjrhod5z2lvyhl3g7"
+          },
+          {
+            "id": "5d9f34f1e4fc29001eb6485c",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d9f34f1e4fc29001eb6485c"
+          }
+        ],
+        "upcoming": false
+      },
+      {
+        "title": "Shinobi 3: Hidden Techniques",
+        "year": 2002,
+        "directors": [
+          "Kenji Tanigaki"
+        ],
+        "franchises": [],
+        "genres": [
+          "Action"
+        ],
+        "regions": [
+          "Japan"
+        ],
+        "sources": [
+          "director"
+        ],
+        "score": 5.05,
+        "reasons": [
+          {
+            "kind": "director",
+            "name": "Kenji Tanigaki",
+            "text": "You rated The Furious (S) by Kenji Tanigaki"
+          },
+          {
+            "kind": "genre",
+            "name": "Action",
+            "text": "Action — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "Japan",
+            "text": "From Japan, where you've rated 13 films"
+          }
+        ],
+        "qid": "Q3482275",
         "poster": null,
         "streaming": [],
         "upcoming": false
       },
       {
-        "title": "Infernal Affairs III",
-        "year": 2003,
+        "title": "Tokyo!",
+        "year": 2008,
         "directors": [
-          "Alan Mak",
-          "Andrew Lau"
+          "Bong Joon-ho",
+          "Michel Gondry",
+          "Leos Carax"
         ],
-        "franchises": [
-          "Infernal Affairs"
+        "franchises": [],
+        "genres": [
+          "Drama"
         ],
-        "genres": [],
-        "regions": [],
+        "regions": [
+          "France",
+          "Germany",
+          "Japan",
+          "Korea"
+        ],
         "sources": [
-          "director",
-          "franchise"
+          "director"
         ],
-        "score": 3.8,
+        "score": 4.817,
         "reasons": [
           {
             "kind": "director",
-            "name": "Alan Mak and Andrew Lau",
-            "text": "You rated Infernal Affairs (A) by Alan Mak and Andrew Lau"
+            "name": "Bong Joon-ho",
+            "text": "You rated Parasite (S) and Snowpiercer (B) by Bong Joon-ho"
           },
           {
-            "kind": "franchise",
-            "name": "Infernal Affairs",
-            "text": "Part of Infernal Affairs, where you rated Infernal Affairs (A)"
+            "kind": "genre",
+            "name": "Drama",
+            "text": "Drama — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "Japan",
+            "text": "From Japan, where you've rated 13 films"
           }
         ],
-        "qid": "Q248354",
+        "qid": "Q485759",
+        "poster": "tokyo-2008.jpg",
+        "streaming": [
+          {
+            "id": "70100411",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/70100411"
+          },
+          {
+            "id": "umc.cmc.3ijvhvjux5xnfe9lurxmbxmxd",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.3ijvhvjux5xnfe9lurxmbxmxd"
+          },
+          {
+            "id": "5d776832eb5d26001f1dff9b",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776832eb5d26001f1dff9b"
+          }
+        ],
+        "upcoming": false
+      },
+      {
+        "title": "The Wind Rises",
+        "year": 2013,
+        "directors": [
+          "Hayao Miyazaki"
+        ],
+        "franchises": [],
+        "genres": [
+          "Drama",
+          "Coming-of-age"
+        ],
+        "regions": [
+          "Japan"
+        ],
+        "sources": [
+          "director"
+        ],
+        "score": 4.796,
+        "reasons": [
+          {
+            "kind": "director",
+            "name": "Hayao Miyazaki",
+            "text": "You rated Princess Mononoke (A) and Spirited Away (A) by Hayao Miyazaki"
+          },
+          {
+            "kind": "genre",
+            "name": "Coming-of-age, Drama",
+            "text": "Coming-of-age, Drama — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "Japan",
+            "text": "From Japan, where you've rated 13 films"
+          }
+        ],
+        "qid": "Q888131",
+        "poster": "the-wind-rises-2013.jpg",
+        "streaming": [
+          {
+            "id": "70293674",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/70293674"
+          },
+          {
+            "id": "feature/urn:hbo:feature:GXsQzAw8HPITCwgEAAAAM",
+            "name": "HBO Max",
+            "url": "https://play.max.com/video/watch/feature/urn:hbo:feature:GXsQzAw8HPITCwgEAAAAM"
+          },
+          {
+            "id": "umc.cmc.184qbh86enrlfq7wbce3bf061",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.184qbh86enrlfq7wbce3bf061"
+          },
+          {
+            "id": "5d7769bfad5437001f766d94",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d7769bfad5437001f766d94"
+          }
+        ],
+        "upcoming": false
+      },
+      {
+        "title": "Just Heroes",
+        "year": 1989,
+        "directors": [
+          "John Woo",
+          "Wu Ma"
+        ],
+        "franchises": [],
+        "genres": [
+          "Drama",
+          "Crime"
+        ],
+        "regions": [
+          "Hong Kong"
+        ],
+        "sources": [
+          "director"
+        ],
+        "score": 4.781,
+        "reasons": [
+          {
+            "kind": "director",
+            "name": "John Woo",
+            "text": "You rated Hard Boiled (A) by John Woo"
+          },
+          {
+            "kind": "genre",
+            "name": "Crime, Drama",
+            "text": "Crime, Drama — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "Hong Kong",
+            "text": "From Hong Kong, where you've rated 16 films"
+          }
+        ],
+        "qid": "Q3190284",
         "poster": null,
-        "streaming": [],
+        "streaming": [
+          {
+            "id": "5d7768b79ab54400214ea863",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d7768b79ab54400214ea863"
+          }
+        ],
+        "upcoming": false
+      },
+      {
+        "title": "The Young Dragons",
+        "year": 1974,
+        "directors": [
+          "John Woo"
+        ],
+        "franchises": [],
+        "genres": [
+          "Martial arts"
+        ],
+        "regions": [
+          "Hong Kong"
+        ],
+        "sources": [
+          "director"
+        ],
+        "score": 4.765,
+        "reasons": [
+          {
+            "kind": "director",
+            "name": "John Woo",
+            "text": "You rated Hard Boiled (A) by John Woo"
+          },
+          {
+            "kind": "genre",
+            "name": "Martial arts",
+            "text": "Martial arts — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "Hong Kong",
+            "text": "From Hong Kong, where you've rated 16 films"
+          }
+        ],
+        "qid": "Q3233407",
+        "poster": null,
+        "streaming": [
+          {
+            "id": "5d77686c374a5b001fec5401",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d77686c374a5b001fec5401"
+          }
+        ],
+        "upcoming": false
+      },
+      {
+        "title": "Blackmail Is My Life",
+        "year": 1968,
+        "directors": [
+          "Kinji Fukasaku"
+        ],
+        "franchises": [],
+        "genres": [
+          "Crime"
+        ],
+        "regions": [
+          "Japan"
+        ],
+        "sources": [
+          "director"
+        ],
+        "score": 4.75,
+        "reasons": [
+          {
+            "kind": "director",
+            "name": "Kinji Fukasaku",
+            "text": "You rated Battle Royale (A) by Kinji Fukasaku"
+          },
+          {
+            "kind": "genre",
+            "name": "Crime",
+            "text": "Crime — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "Japan",
+            "text": "From Japan, where you've rated 13 films"
+          }
+        ],
+        "qid": "Q10430860",
+        "poster": "blackmail-is-my-life-1968.jpg",
+        "streaming": [
+          {
+            "id": "60033772",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/60033772"
+          },
+          {
+            "id": "5d776920f617c9002015d906",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776920f617c9002015d906"
+          }
+        ],
+        "upcoming": false
+      },
+      {
+        "title": "Bloodstained Clan Honor",
+        "year": 1970,
+        "directors": [
+          "Kinji Fukasaku"
+        ],
+        "franchises": [],
+        "genres": [
+          "Crime"
+        ],
+        "regions": [
+          "Japan"
+        ],
+        "sources": [
+          "director"
+        ],
+        "score": 4.75,
+        "reasons": [
+          {
+            "kind": "director",
+            "name": "Kinji Fukasaku",
+            "text": "You rated Battle Royale (A) by Kinji Fukasaku"
+          },
+          {
+            "kind": "genre",
+            "name": "Crime",
+            "text": "Crime — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "Japan",
+            "text": "From Japan, where you've rated 13 films"
+          }
+        ],
+        "qid": "Q24868108",
+        "poster": null,
+        "streaming": [
+          {
+            "id": "5d7768eefb0d55001f51d2a6",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d7768eefb0d55001f51d2a6"
+          }
+        ],
+        "upcoming": false
+      },
+      {
+        "title": "China White",
+        "year": 1989,
+        "directors": [
+          "Ronny Yu"
+        ],
+        "franchises": [],
+        "genres": [
+          "Thriller",
+          "Crime"
+        ],
+        "regions": [
+          "Hong Kong"
+        ],
+        "sources": [
+          "director"
+        ],
+        "score": 4.75,
+        "reasons": [
+          {
+            "kind": "director",
+            "name": "Ronny Yu",
+            "text": "You rated Fearless (A) by Ronny Yu"
+          },
+          {
+            "kind": "genre",
+            "name": "Crime, Thriller",
+            "text": "Crime, Thriller — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "Hong Kong",
+            "text": "From Hong Kong, where you've rated 16 films"
+          }
+        ],
+        "qid": "Q16202837",
+        "poster": "china-white-1989.jpg",
+        "streaming": [
+          {
+            "id": "5d7768ef96b655001fdc57a5",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d7768ef96b655001fdc57a5"
+          }
+        ],
+        "upcoming": false
+      },
+      {
+        "title": "Memories of Murder",
+        "year": 2003,
+        "directors": [
+          "Bong Joon-ho"
+        ],
+        "franchises": [],
+        "genres": [
+          "Crime",
+          "Thriller",
+          "Mystery",
+          "Drama"
+        ],
+        "regions": [
+          "Korea"
+        ],
+        "sources": [
+          "director"
+        ],
+        "score": 4.716,
+        "reasons": [
+          {
+            "kind": "director",
+            "name": "Bong Joon-ho",
+            "text": "You rated Parasite (S) and Snowpiercer (B) by Bong Joon-ho"
+          },
+          {
+            "kind": "genre",
+            "name": "Crime, Mystery, Comedy",
+            "text": "Crime, Mystery, Comedy — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "Korea",
+            "text": "From Korea, where you've rated 10 films"
+          }
+        ],
+        "qid": "Q488169",
+        "poster": null,
+        "streaming": [
+          {
+            "id": "70035995",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/70035995"
+          },
+          {
+            "id": "umc.cmc.6b9ma5kk94pcz9gzc7ovtq2dr",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.6b9ma5kk94pcz9gzc7ovtq2dr"
+          },
+          {
+            "id": "5d776836eb5d26001f1e1022",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776836eb5d26001f1e1022"
+          }
+        ],
+        "upcoming": false
+      },
+      {
+        "title": "Saving General Yang",
+        "year": 2013,
+        "directors": [
+          "Ronny Yu",
+          "Wong Pak Ming"
+        ],
+        "franchises": [],
+        "genres": [
+          "Action",
+          "Martial arts"
+        ],
+        "regions": [
+          "Hong Kong"
+        ],
+        "sources": [
+          "director"
+        ],
+        "score": 4.54,
+        "reasons": [
+          {
+            "kind": "director",
+            "name": "Ronny Yu",
+            "text": "You rated Fearless (A) by Ronny Yu"
+          },
+          {
+            "kind": "genre",
+            "name": "Martial arts, Action",
+            "text": "Martial arts, Action — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "Hong Kong",
+            "text": "From Hong Kong, where you've rated 16 films"
+          }
+        ],
+        "qid": "Q7988443",
+        "poster": null,
+        "streaming": [
+          {
+            "id": "umc.cmc.2jv5cp43fn1cw89yiq4zz5gbh",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.2jv5cp43fn1cw89yiq4zz5gbh"
+          },
+          {
+            "id": "5d7769fd7a53e9001e6f6f44",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d7769fd7a53e9001e6f6f44"
+          }
+        ],
+        "upcoming": false
+      },
+      {
+        "title": "10+10",
+        "year": 2011,
+        "directors": [
+          "Chung Mong-hong",
+          "Wang Shaudi",
+          "Chang Tso-chi"
+        ],
+        "franchises": [],
+        "genres": [
+          "Drama"
+        ],
+        "regions": [
+          "Taiwan"
+        ],
+        "sources": [
+          "director"
+        ],
+        "score": 4.523,
+        "reasons": [
+          {
+            "kind": "director",
+            "name": "Chung Mong-hong",
+            "text": "You rated A Sun (A) by Chung Mong-hong"
+          },
+          {
+            "kind": "genre",
+            "name": "Drama",
+            "text": "Drama — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "Taiwan",
+            "text": "From Taiwan, where you've rated 4 films"
+          }
+        ],
+        "qid": "Q10843715",
+        "poster": null,
+        "streaming": [
+          {
+            "id": "5d7769137a53e9001e6e0c72",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d7769137a53e9001e6e0c72"
+          }
+        ],
+        "upcoming": false
+      },
+      {
+        "title": "Yuki's Sun",
+        "year": 1972,
+        "directors": [
+          "Hayao Miyazaki"
+        ],
+        "franchises": [],
+        "genres": [
+          "Drama"
+        ],
+        "regions": [
+          "Japan"
+        ],
+        "sources": [
+          "director"
+        ],
+        "score": 4.523,
+        "reasons": [
+          {
+            "kind": "director",
+            "name": "Hayao Miyazaki",
+            "text": "You rated Princess Mononoke (A) and Spirited Away (A) by Hayao Miyazaki"
+          },
+          {
+            "kind": "genre",
+            "name": "Drama",
+            "text": "Drama — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "Japan",
+            "text": "From Japan, where you've rated 13 films"
+          }
+        ],
+        "qid": "Q63981780",
+        "poster": null,
+        "streaming": [
+          {
+            "id": "5d776c07ad5437001f7b1538",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776c07ad5437001f7b1538"
+          }
+        ],
+        "upcoming": false
+      },
+      {
+        "title": "The Garden of Words",
+        "year": 2013,
+        "directors": [
+          "Makoto Shinkai"
+        ],
+        "franchises": [],
+        "genres": [
+          "Drama",
+          "Coming-of-age"
+        ],
+        "regions": [
+          "Japan"
+        ],
+        "sources": [
+          "director"
+        ],
+        "score": 4.356,
+        "reasons": [
+          {
+            "kind": "director",
+            "name": "Makoto Shinkai",
+            "text": "You rated Your Name (A) and Weathering with You (B) by Makoto Shinkai"
+          },
+          {
+            "kind": "genre",
+            "name": "Coming-of-age, Drama",
+            "text": "Coming-of-age, Drama — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "Japan",
+            "text": "From Japan, where you've rated 13 films"
+          }
+        ],
+        "qid": "Q6434185",
+        "poster": null,
+        "streaming": [
+          {
+            "id": "70291121",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/70291121"
+          },
+          {
+            "id": "umc.cmc.6v366c7lqqo9gffg074b35w0c",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.6v366c7lqqo9gffg074b35w0c"
+          },
+          {
+            "id": "5d776a2596b655001fde4985",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776a2596b655001fde4985"
+          }
+        ],
         "upcoming": false
       },
       {
@@ -14067,13 +15541,18 @@
         "franchises": [
           "Train to Busan"
         ],
-        "genres": [],
+        "genres": [
+          "Horror",
+          "Action",
+          "Thriller",
+          "Dystopian"
+        ],
         "regions": [],
         "sources": [
           "director",
           "franchise"
         ],
-        "score": 3.8,
+        "score": 4.353,
         "reasons": [
           {
             "kind": "director",
@@ -14084,6 +15563,11 @@
             "kind": "franchise",
             "name": "Train to Busan",
             "text": "Part of Train to Busan, where you rated Train to Busan (A)"
+          },
+          {
+            "kind": "genre",
+            "name": "Dystopian, Thriller, Action",
+            "text": "Dystopian, Thriller, Action — genres you rate well"
           }
         ],
         "qid": "Q65061643",
@@ -14108,78 +15592,163 @@
         "upcoming": false
       },
       {
-        "title": "Pokémon 3: The Movie",
-        "year": 2000,
+        "title": "Children Who Chase Lost Voices",
+        "year": 2011,
         "directors": [
-          "Kunihiko Yuyama"
+          "Makoto Shinkai"
         ],
-        "franchises": [
-          "Pokémon"
+        "franchises": [],
+        "genres": [
+          "Anime",
+          "Romance",
+          "Drama"
         ],
-        "genres": [],
-        "regions": [],
+        "regions": [
+          "Japan"
+        ],
         "sources": [
-          "director",
-          "franchise"
+          "director"
         ],
-        "score": 3.8,
+        "score": 4.344,
         "reasons": [
           {
             "kind": "director",
-            "name": "Kunihiko Yuyama",
-            "text": "You rated Pokémon: The First Movie (A) by Kunihiko Yuyama"
+            "name": "Makoto Shinkai",
+            "text": "You rated Your Name (A) and Weathering with You (B) by Makoto Shinkai"
           },
           {
-            "kind": "franchise",
-            "name": "Pokémon",
-            "text": "Part of Pokémon, where you rated Pokémon: The First Movie (A)"
-          }
-        ],
-        "qid": "Q890665",
-        "poster": "pok-mon-3-the-movie-2000.jpg",
-        "streaming": [],
-        "upcoming": false
-      },
-      {
-        "title": "Pokémon 4Ever",
-        "year": 2001,
-        "directors": [
-          "Kunihiko Yuyama"
-        ],
-        "franchises": [
-          "Pokémon"
-        ],
-        "genres": [],
-        "regions": [],
-        "sources": [
-          "director",
-          "franchise"
-        ],
-        "score": 3.8,
-        "reasons": [
-          {
-            "kind": "director",
-            "name": "Kunihiko Yuyama",
-            "text": "You rated Pokémon: The First Movie (A) by Kunihiko Yuyama"
+            "kind": "genre",
+            "name": "Romance, Anime, Drama",
+            "text": "Romance, Anime, Drama — genres you rate well"
           },
           {
-            "kind": "franchise",
-            "name": "Pokémon",
-            "text": "Part of Pokémon, where you rated Pokémon: The First Movie (A)"
+            "kind": "region",
+            "name": "Japan",
+            "text": "From Japan, where you've rated 13 films"
           }
         ],
-        "qid": "Q82579",
+        "qid": "Q1072777",
         "poster": null,
         "streaming": [
           {
-            "id": "60024911",
-            "name": "Netflix",
-            "url": "https://www.netflix.com/title/60024911"
+            "id": "umc.cmc.1zsxlgkrc0ss0kkrq1hmve90x",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.1zsxlgkrc0ss0kkrq1hmve90x"
           },
           {
-            "id": "5d77683861141d001fb15fba",
+            "id": "5d7768c09ab54400214eb193",
             "name": "Plex",
-            "url": "https://watch.plex.tv/movie/5d77683861141d001fb15fba"
+            "url": "https://watch.plex.tv/movie/5d7768c09ab54400214eb193"
+          }
+        ],
+        "upcoming": false
+      },
+      {
+        "title": "Asako I & II",
+        "year": 2018,
+        "directors": [
+          "Ryusuke Hamaguchi"
+        ],
+        "franchises": [],
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "regions": [
+          "Japan",
+          "France"
+        ],
+        "sources": [
+          "director"
+        ],
+        "score": 4.292,
+        "reasons": [
+          {
+            "kind": "director",
+            "name": "Ryusuke Hamaguchi",
+            "text": "You rated Drive My Car (A) by Ryusuke Hamaguchi"
+          },
+          {
+            "kind": "genre",
+            "name": "Romance, Drama",
+            "text": "Romance, Drama — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "Japan",
+            "text": "From Japan, where you've rated 13 films"
+          }
+        ],
+        "qid": "Q51800443",
+        "poster": "asako-i-ii-2018.png",
+        "streaming": [
+          {
+            "id": "umc.cmc.10k5gocbdfvkutl7zsllnodo2",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.10k5gocbdfvkutl7zsllnodo2"
+          },
+          {
+            "id": "5d776d86f617c90020189a20",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776d86f617c90020189a20"
+          }
+        ],
+        "upcoming": false
+      },
+      {
+        "title": "My People, My Homeland",
+        "year": 2020,
+        "directors": [
+          "Ao Shen",
+          "Ning Hao",
+          "Chen Sicheng"
+        ],
+        "franchises": [],
+        "genres": [
+          "Comedy"
+        ],
+        "regions": [
+          "China"
+        ],
+        "sources": [
+          "director",
+          "box office"
+        ],
+        "score": 4.221,
+        "reasons": [
+          {
+            "kind": "director",
+            "name": "Ao Shen",
+            "text": "You rated No More Bets (A) by Ao Shen"
+          },
+          {
+            "kind": "genre",
+            "name": "Comedy",
+            "text": "Comedy — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "China",
+            "text": "From China, where you've rated 22 films"
+          },
+          {
+            "kind": "popular",
+            "name": "",
+            "text": "One of 2020's biggest earners"
+          }
+        ],
+        "qid": "Q97300316",
+        "poster": "my-people-my-homeland-2020.jpg",
+        "streaming": [
+          {
+            "id": "umc.cmc.1n5mbb99a89bk8bisw2g4g56c",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.1n5mbb99a89bk8bisw2g4g56c"
+          },
+          {
+            "id": "5f3f8651743bd90042d8ca08",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5f3f8651743bd90042d8ca08"
           }
         ],
         "upcoming": false
@@ -14193,13 +15762,17 @@
         "franchises": [
           "Train to Busan"
         ],
-        "genres": [],
-        "regions": [],
+        "genres": [
+          "Horror"
+        ],
+        "regions": [
+          "Korea"
+        ],
         "sources": [
           "director",
           "franchise"
         ],
-        "score": 3.8,
+        "score": 4.17,
         "reasons": [
           {
             "kind": "director",
@@ -14210,6 +15783,11 @@
             "kind": "franchise",
             "name": "Train to Busan",
             "text": "Part of Train to Busan, where you rated Train to Busan (A)"
+          },
+          {
+            "kind": "region",
+            "name": "Korea",
+            "text": "From Korea, where you've rated 10 films"
           }
         ],
         "qid": "Q25207551",
@@ -14229,333 +15807,113 @@
         "upcoming": false
       },
       {
-        "title": "As Tears Go By",
-        "year": 1988,
+        "title": "All of a Sudden",
+        "year": 2026,
         "directors": [
-          "Wong Kar-wai"
+          "Ryusuke Hamaguchi"
         ],
         "franchises": [],
-        "genres": [],
-        "regions": [],
+        "genres": [
+          "Drama"
+        ],
+        "regions": [
+          "France",
+          "Japan",
+          "Germany",
+          "Belgium"
+        ],
         "sources": [
           "director"
         ],
-        "score": 3.667,
+        "score": 4.083,
         "reasons": [
           {
             "kind": "director",
-            "name": "Wong Kar-wai",
-            "text": "You rated In the Mood for Love (S) and Chungking Express (A) by Wong Kar-wai"
-          }
-        ],
-        "qid": "Q1203742",
-        "poster": null,
-        "streaming": [],
-        "upcoming": false
-      },
-      {
-        "title": "7s",
-        "year": 2015,
-        "directors": [
-          "Michihito Fujii"
-        ],
-        "franchises": [],
-        "genres": [],
-        "regions": [],
-        "sources": [
-          "director"
-        ],
-        "score": 3.3,
-        "reasons": [
-          {
-            "kind": "director",
-            "name": "Michihito Fujii",
-            "text": "You rated 18×2 Beyond Youthful Days (S) by Michihito Fujii"
-          }
-        ],
-        "qid": "Q24865305",
-        "poster": null,
-        "streaming": [
-          {
-            "id": "5d776f007a53e9001e789245",
-            "name": "Plex",
-            "url": "https://watch.plex.tv/movie/5d776f007a53e9001e789245"
-          }
-        ],
-        "upcoming": false
-      },
-      {
-        "title": "Aces Go Places 5: The Terracotta Hit",
-        "year": 1989,
-        "directors": [
-          "Lau Kar-leung"
-        ],
-        "franchises": [],
-        "genres": [],
-        "regions": [],
-        "sources": [
-          "director"
-        ],
-        "score": 3.3,
-        "reasons": [
-          {
-            "kind": "director",
-            "name": "Lau Kar-leung",
-            "text": "You rated Drunken Master II (S) by Lau Kar-leung"
-          }
-        ],
-        "qid": "Q3275147",
-        "poster": null,
-        "streaming": [],
-        "upcoming": false
-      },
-      {
-        "title": "Cat vs. Rat",
-        "year": 1982,
-        "directors": [
-          "Lau Kar-leung"
-        ],
-        "franchises": [],
-        "genres": [],
-        "regions": [],
-        "sources": [
-          "director"
-        ],
-        "score": 3.3,
-        "reasons": [
-          {
-            "kind": "director",
-            "name": "Lau Kar-leung",
-            "text": "You rated Drunken Master II (S) by Lau Kar-leung"
-          }
-        ],
-        "qid": "Q5051119",
-        "poster": "cat-vs-rat-1982.jpg",
-        "streaming": [
-          {
-            "id": "umc.cmc.4m9a53a3fmib0dgxn1grizha",
-            "name": "Apple TV",
-            "url": "https://tv.apple.com/movie/umc.cmc.4m9a53a3fmib0dgxn1grizha"
+            "name": "Ryusuke Hamaguchi",
+            "text": "You rated Drive My Car (A) by Ryusuke Hamaguchi"
           },
           {
-            "id": "5d7768b97a53e9001e6d76a1",
-            "name": "Plex",
-            "url": "https://watch.plex.tv/movie/5d7768b97a53e9001e6d76a1"
-          }
-        ],
-        "upcoming": false
-      },
-      {
-        "title": "DIVOC-12",
-        "year": 2021,
-        "directors": [
-          "Michihito Fujii"
-        ],
-        "franchises": [],
-        "genres": [],
-        "regions": [],
-        "sources": [
-          "director"
-        ],
-        "score": 3.3,
-        "reasons": [
-          {
-            "kind": "director",
-            "name": "Michihito Fujii",
-            "text": "You rated 18×2 Beyond Youthful Days (S) by Michihito Fujii"
-          }
-        ],
-        "qid": "Q109603216",
-        "poster": null,
-        "streaming": [],
-        "upcoming": false
-      },
-      {
-        "title": "Day Trip",
-        "year": 2012,
-        "directors": [
-          "Park Chan-wook"
-        ],
-        "franchises": [],
-        "genres": [],
-        "regions": [],
-        "sources": [
-          "director"
-        ],
-        "score": 3.3,
-        "reasons": [
-          {
-            "kind": "director",
-            "name": "Park Chan-wook",
-            "text": "You rated Oldboy (S) by Park Chan-wook"
-          }
-        ],
-        "qid": "Q5242875",
-        "poster": null,
-        "streaming": [],
-        "upcoming": false
-      },
-      {
-        "title": "Decision to Leave",
-        "year": 2022,
-        "directors": [
-          "Park Chan-wook"
-        ],
-        "franchises": [],
-        "genres": [],
-        "regions": [],
-        "sources": [
-          "director"
-        ],
-        "score": 3.3,
-        "reasons": [
-          {
-            "kind": "director",
-            "name": "Park Chan-wook",
-            "text": "You rated Oldboy (S) by Park Chan-wook"
-          }
-        ],
-        "qid": "Q100889636",
-        "poster": "decision-to-leave-2022.jpg",
-        "streaming": [
-          {
-            "id": "umc.cmc.7ikt8jklfvyxvrj5i0r0ola8c",
-            "name": "Apple TV",
-            "url": "https://tv.apple.com/movie/umc.cmc.7ikt8jklfvyxvrj5i0r0ola8c"
+            "kind": "genre",
+            "name": "Drama",
+            "text": "Drama — genres you rate well"
           },
           {
-            "id": "5ec75f80fc16bb004178907d",
-            "name": "Plex",
-            "url": "https://watch.plex.tv/movie/5ec75f80fc16bb004178907d"
+            "kind": "region",
+            "name": "Japan",
+            "text": "From Japan, where you've rated 13 films"
           }
         ],
+        "qid": "Q137946980",
+        "poster": "all-of-a-sudden-2026.jpg",
+        "streaming": [],
         "upcoming": false
       },
       {
-        "title": "Master of Thunder",
-        "year": 2006,
+        "title": "My Last Day",
+        "year": 2011,
         "directors": [
-          "Kenji Tanigaki"
+          "Barry Cook"
         ],
         "franchises": [],
-        "genres": [],
-        "regions": [],
+        "genres": [
+          "Drama"
+        ],
+        "regions": [
+          "Japan",
+          "USA"
+        ],
         "sources": [
           "director"
         ],
-        "score": 3.3,
+        "score": 4.083,
         "reasons": [
           {
             "kind": "director",
-            "name": "Kenji Tanigaki",
-            "text": "You rated The Furious (S) by Kenji Tanigaki"
-          }
-        ],
-        "qid": "Q14948460",
-        "poster": "master-of-thunder-2006.jpg",
-        "streaming": [
-          {
-            "id": "70078623",
-            "name": "Netflix",
-            "url": "https://www.netflix.com/title/70078623"
+            "name": "Barry Cook",
+            "text": "You rated Mulan (A) by Barry Cook"
           },
           {
-            "id": "5d77688c33f255001e8595da",
+            "kind": "genre",
+            "name": "Drama",
+            "text": "Drama — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "Japan",
+            "text": "From Japan, where you've rated 13 films"
+          }
+        ],
+        "qid": "Q17052226",
+        "poster": "my-last-day-2011.jpg",
+        "streaming": [
+          {
+            "id": "5d77703ef617c9002019ca44",
             "name": "Plex",
-            "url": "https://watch.plex.tv/movie/5d77688c33f255001e8595da"
+            "url": "https://watch.plex.tv/movie/5d77703ef617c9002019ca44"
           }
         ],
         "upcoming": false
       },
       {
-        "title": "Shinobi 3: Hidden Techniques",
-        "year": 2002,
+        "title": "A Bug's Life",
+        "year": 1998,
         "directors": [
-          "Kenji Tanigaki"
+          "Andrew Stanton",
+          "John Lasseter"
         ],
         "franchises": [],
-        "genres": [],
-        "regions": [],
+        "genres": [
+          "Comedy",
+          "Adventure",
+          "Family"
+        ],
+        "regions": [
+          "USA"
+        ],
         "sources": [
           "director"
         ],
-        "score": 3.3,
-        "reasons": [
-          {
-            "kind": "director",
-            "name": "Kenji Tanigaki",
-            "text": "You rated The Furious (S) by Kenji Tanigaki"
-          }
-        ],
-        "qid": "Q3482275",
-        "poster": null,
-        "streaming": [],
-        "upcoming": false
-      },
-      {
-        "title": "01:00 A.M.",
-        "year": 1995,
-        "directors": [
-          "Wilson Yip"
-        ],
-        "franchises": [],
-        "genres": [],
-        "regions": [],
-        "sources": [
-          "director"
-        ],
-        "score": 3.117,
-        "reasons": [
-          {
-            "kind": "director",
-            "name": "Wilson Yip",
-            "text": "You rated Ip Man (S) and Ip Man 4: The Finale (S) by Wilson Yip"
-          }
-        ],
-        "qid": "Q67103401",
-        "poster": null,
-        "streaming": [],
-        "upcoming": false
-      },
-      {
-        "title": "2002",
-        "year": 2001,
-        "directors": [
-          "Wilson Yip"
-        ],
-        "franchises": [],
-        "genres": [],
-        "regions": [],
-        "sources": [
-          "director"
-        ],
-        "score": 3.117,
-        "reasons": [
-          {
-            "kind": "director",
-            "name": "Wilson Yip",
-            "text": "You rated Ip Man (S) and Ip Man 4: The Finale (S) by Wilson Yip"
-          }
-        ],
-        "qid": "Q2813946",
-        "poster": null,
-        "streaming": [],
-        "upcoming": false
-      },
-      {
-        "title": "John Carter",
-        "year": 2012,
-        "directors": [
-          "Andrew Stanton"
-        ],
-        "franchises": [],
-        "genres": [],
-        "regions": [],
-        "sources": [
-          "director",
-          "box office"
-        ],
-        "score": 3.047,
+        "score": 3.921,
         "reasons": [
           {
             "kind": "director",
@@ -14563,114 +15921,758 @@
             "text": "You rated Finding Nemo (A) and WALL-E (A) by Andrew Stanton"
           },
           {
+            "kind": "genre",
+            "name": "Family, Comedy, Adventure",
+            "text": "Family, Comedy, Adventure — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "USA",
+            "text": "From USA, where you've rated 45 films"
+          }
+        ],
+        "qid": "Q216153",
+        "poster": "a-bug-s-life-1998.jpg",
+        "streaming": [
+          {
+            "id": "18110943",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/18110943"
+          },
+          {
+            "id": "2kV0c48TF0Ea",
+            "name": "Disney+",
+            "url": "https://www.disneyplus.com/movies/_/2kV0c48TF0Ea"
+          },
+          {
+            "id": "umc.cmc.40rxsni23f92ibvz5qio38enq",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.40rxsni23f92ibvz5qio38enq"
+          },
+          {
+            "id": "5d77683385719b001f3a3310",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d77683385719b001f3a3310"
+          }
+        ],
+        "upcoming": false
+      },
+      {
+        "title": "Dunki",
+        "year": 2023,
+        "directors": [
+          "Rajkumar Hirani"
+        ],
+        "franchises": [],
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "regions": [
+          "India"
+        ],
+        "sources": [
+          "director"
+        ],
+        "score": 3.911,
+        "reasons": [
+          {
+            "kind": "director",
+            "name": "Rajkumar Hirani",
+            "text": "You rated 3 Idiots (A) by Rajkumar Hirani"
+          },
+          {
+            "kind": "genre",
+            "name": "Comedy, Drama",
+            "text": "Comedy, Drama — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "India",
+            "text": "From India, where you've rated 1 films"
+          }
+        ],
+        "qid": "Q122341144",
+        "poster": null,
+        "streaming": [
+          {
+            "id": "81731618",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/81731618"
+          },
+          {
+            "id": "614485a8893a0e64c5066660",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/614485a8893a0e64c5066660"
+          }
+        ],
+        "upcoming": false
+      },
+      {
+        "title": "Lage Raho Munna Bhai",
+        "year": 2006,
+        "directors": [
+          "Rajkumar Hirani"
+        ],
+        "franchises": [],
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "regions": [
+          "India"
+        ],
+        "sources": [
+          "director"
+        ],
+        "score": 3.911,
+        "reasons": [
+          {
+            "kind": "director",
+            "name": "Rajkumar Hirani",
+            "text": "You rated 3 Idiots (A) by Rajkumar Hirani"
+          },
+          {
+            "kind": "genre",
+            "name": "Comedy, Drama",
+            "text": "Comedy, Drama — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "India",
+            "text": "From India, where you've rated 1 films"
+          }
+        ],
+        "qid": "Q980677",
+        "poster": "lage-raho-munna-bhai-2006.jpg",
+        "streaming": [
+          {
+            "id": "70058505",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/70058505"
+          },
+          {
+            "id": "umc.cmc.5pl27s4devx7t0am36g1srcuf",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.5pl27s4devx7t0am36g1srcuf"
+          },
+          {
+            "id": "5d77684761141d001fb17afa",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d77684761141d001fb17afa"
+          }
+        ],
+        "upcoming": false
+      },
+      {
+        "title": "The Mermaid",
+        "year": 2016,
+        "directors": [
+          "Stephen Chow"
+        ],
+        "franchises": [],
+        "genres": [
+          "Comedy",
+          "Fantasy"
+        ],
+        "regions": [
+          "China",
+          "Hong Kong"
+        ],
+        "sources": [
+          "director",
+          "box office"
+        ],
+        "score": 3.896,
+        "reasons": [
+          {
+            "kind": "director",
+            "name": "Stephen Chow",
+            "text": "You rated Kung Fu Hustle (B) and The God of Cookery (B) by Stephen Chow"
+          },
+          {
+            "kind": "genre",
+            "name": "Comedy, Fantasy",
+            "text": "Comedy, Fantasy — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "Hong Kong",
+            "text": "From Hong Kong, where you've rated 16 films"
+          },
+          {
             "kind": "popular",
             "name": "",
-            "text": "One of 2012's biggest earners"
+            "text": "One of 2016's biggest earners"
           }
         ],
-        "qid": "Q235347",
+        "qid": "Q21834546",
+        "poster": null,
+        "streaming": [
+          {
+            "id": "80099085",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/80099085"
+          },
+          {
+            "id": "umc.cmc.3fwvmz24rmurjymrbizl6r6uz",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.3fwvmz24rmurjymrbizl6r6uz"
+          },
+          {
+            "id": "5d776c1896b655001fe25f17",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776c1896b655001fe25f17"
+          }
+        ],
+        "upcoming": false
+      },
+      {
+        "title": "King of Comedy",
+        "year": 1999,
+        "directors": [
+          "Lee Lik-chee",
+          "Stephen Chow"
+        ],
+        "franchises": [],
+        "genres": [
+          "Romance",
+          "Comedy",
+          "Drama"
+        ],
+        "regions": [
+          "Hong Kong"
+        ],
+        "sources": [
+          "director"
+        ],
+        "score": 3.872,
+        "reasons": [
+          {
+            "kind": "director",
+            "name": "Lee Lik-chee and Stephen Chow",
+            "text": "You rated Kung Fu Hustle (B) and The God of Cookery (B) by Lee Lik-chee and Stephen Chow"
+          },
+          {
+            "kind": "genre",
+            "name": "Romance, Comedy, Drama",
+            "text": "Romance, Comedy, Drama — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "Hong Kong",
+            "text": "From Hong Kong, where you've rated 16 films"
+          }
+        ],
+        "qid": "Q2706517",
+        "poster": null,
+        "streaming": [
+          {
+            "id": "60003714",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/60003714"
+          },
+          {
+            "id": "5d77689251dd69001fe0e34f",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d77689251dd69001fe0e34f"
+          }
+        ],
+        "upcoming": false
+      },
+      {
+        "title": "L-O-V-E.",
+        "year": 2009,
+        "directors": [
+          "Giddens Ko"
+        ],
+        "franchises": [],
+        "genres": [
+          "Romance"
+        ],
+        "regions": [
+          "Taiwan"
+        ],
+        "sources": [
+          "director"
+        ],
+        "score": 3.84,
+        "reasons": [
+          {
+            "kind": "director",
+            "name": "Giddens Ko",
+            "text": "You rated You Are the Apple of My Eye (B) by Giddens Ko"
+          },
+          {
+            "kind": "genre",
+            "name": "Romance",
+            "text": "Romance — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "Taiwan",
+            "text": "From Taiwan, where you've rated 4 films"
+          }
+        ],
+        "qid": "Q11073676",
+        "poster": null,
+        "streaming": [
+          {
+            "id": "5d776853e6d55c0020410d6f",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776853e6d55c0020410d6f"
+          }
+        ],
+        "upcoming": false
+      },
+      {
+        "title": "Vanishing Time: A Boy Who Returned",
+        "year": 2016,
+        "directors": [
+          "Um Tae-hwa"
+        ],
+        "franchises": [],
+        "genres": [
+          "Fantasy",
+          "Drama"
+        ],
+        "regions": [
+          "Korea"
+        ],
+        "sources": [
+          "director"
+        ],
+        "score": 3.778,
+        "reasons": [
+          {
+            "kind": "director",
+            "name": "Um Tae-hwa",
+            "text": "You rated Concrete Utopia (A) by Um Tae-hwa"
+          },
+          {
+            "kind": "genre",
+            "name": "Drama, Fantasy",
+            "text": "Drama, Fantasy — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "Korea",
+            "text": "From Korea, where you've rated 10 films"
+          }
+        ],
+        "qid": "Q27536739",
+        "poster": "vanishing-time-a-boy-who-returned-2016.jpg",
+        "streaming": [
+          {
+            "id": "5d776c19fb0d55001f57cbb1",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776c19fb0d55001f57cbb1"
+          }
+        ],
+        "upcoming": false
+      },
+      {
+        "title": "INGtoogi: The Battle of Surpluses",
+        "year": 2013,
+        "directors": [
+          "Um Tae-hwa"
+        ],
+        "franchises": [],
+        "genres": [
+          "Action",
+          "Drama"
+        ],
+        "regions": [
+          "Korea"
+        ],
+        "sources": [
+          "director"
+        ],
+        "score": 3.744,
+        "reasons": [
+          {
+            "kind": "director",
+            "name": "Um Tae-hwa",
+            "text": "You rated Concrete Utopia (A) by Um Tae-hwa"
+          },
+          {
+            "kind": "genre",
+            "name": "Drama, Action",
+            "text": "Drama, Action — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "Korea",
+            "text": "From Korea, where you've rated 10 films"
+          }
+        ],
+        "qid": "Q19794946",
         "poster": null,
         "streaming": [],
         "upcoming": false
       },
       {
-        "title": "Ally",
-        "year": null,
+        "title": "I Wanna Hold Your Hand",
+        "year": 1978,
         "directors": [
-          "Bong Joon-ho"
+          "Robert Zemeckis"
         ],
         "franchises": [],
-        "genres": [],
-        "regions": [],
+        "genres": [
+          "Coming-of-age"
+        ],
+        "regions": [
+          "USA"
+        ],
         "sources": [
           "director"
         ],
-        "score": 2.933,
+        "score": 3.716,
         "reasons": [
           {
             "kind": "director",
-            "name": "Bong Joon-ho",
-            "text": "You rated Parasite (S) and Snowpiercer (B) by Bong Joon-ho"
+            "name": "Robert Zemeckis",
+            "text": "You rated Forrest Gump (A) by Robert Zemeckis"
+          },
+          {
+            "kind": "genre",
+            "name": "Coming-of-age",
+            "text": "Coming-of-age — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "USA",
+            "text": "From USA, where you've rated 45 films"
           }
         ],
-        "qid": "Q132802212",
+        "qid": "Q2661044",
         "poster": null,
-        "streaming": [],
+        "streaming": [
+          {
+            "id": "70004032",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/70004032"
+          },
+          {
+            "id": "5d7768973ab0e7001f505287",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d7768973ab0e7001f505287"
+          }
+        ],
         "upcoming": false
       },
       {
-        "title": "Barking Dogs Never Bite",
-        "year": 2000,
+        "title": "She's Got No Name",
+        "year": 2024,
         "directors": [
-          "Bong Joon-ho"
+          "Peter Chan"
         ],
         "franchises": [],
-        "genres": [],
-        "regions": [],
-        "sources": [
-          "director"
+        "genres": [
+          "Drama",
+          "Crime"
         ],
-        "score": 2.933,
+        "regions": [
+          "China",
+          "Hong Kong"
+        ],
+        "sources": [
+          "director",
+          "box office"
+        ],
+        "score": 3.681,
         "reasons": [
           {
             "kind": "director",
-            "name": "Bong Joon-ho",
-            "text": "You rated Parasite (S) and Snowpiercer (B) by Bong Joon-ho"
+            "name": "Peter Chan",
+            "text": "You rated Comrades: Almost a Love Story (B) by Peter Chan"
+          },
+          {
+            "kind": "genre",
+            "name": "Crime, Drama",
+            "text": "Crime, Drama — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "Hong Kong",
+            "text": "From Hong Kong, where you've rated 16 films"
           }
         ],
-        "qid": "Q498765",
+        "qid": "Q125469653",
         "poster": null,
-        "streaming": [],
+        "streaming": [
+          {
+            "id": "5f40c5b158b26e00426b96f9",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5f40c5b158b26e00426b96f9"
+          }
+        ],
         "upcoming": false
       },
       {
-        "title": "Castle in the Sky",
-        "year": 1986,
+        "title": "Flirting Scholar",
+        "year": 1993,
         "directors": [
-          "Hayao Miyazaki"
+          "Lee Lik-chee"
         ],
         "franchises": [],
-        "genres": [],
-        "regions": [],
+        "genres": [
+          "Romance",
+          "Comedy",
+          "Martial arts"
+        ],
+        "regions": [
+          "Hong Kong"
+        ],
         "sources": [
           "director"
         ],
-        "score": 2.64,
+        "score": 3.611,
         "reasons": [
           {
             "kind": "director",
-            "name": "Hayao Miyazaki",
-            "text": "You rated Princess Mononoke (A) and Spirited Away (A) by Hayao Miyazaki"
+            "name": "Lee Lik-chee",
+            "text": "You rated The God of Cookery (B) by Lee Lik-chee"
+          },
+          {
+            "kind": "genre",
+            "name": "Romance, Martial arts, Comedy",
+            "text": "Romance, Martial arts, Comedy — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "Hong Kong",
+            "text": "From Hong Kong, where you've rated 16 films"
           }
         ],
-        "qid": "Q498577",
+        "qid": "Q838900",
         "poster": null,
-        "streaming": [],
+        "streaming": [
+          {
+            "id": "70028512",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/70028512"
+          },
+          {
+            "id": "5d776cf223d5a3001f51f2f1",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776cf223d5a3001f51f2f1"
+          }
+        ],
         "upcoming": false
       },
       {
-        "title": "Nandarō",
-        "year": 1992,
+        "title": "Love Off the Cuff",
+        "year": 2017,
         "directors": [
-          "Hayao Miyazaki"
+          "Pang Ho-cheung"
         ],
         "franchises": [],
-        "genres": [],
-        "regions": [],
+        "genres": [
+          "Romance",
+          "Comedy"
+        ],
+        "regions": [
+          "China",
+          "Hong Kong"
+        ],
         "sources": [
           "director"
         ],
-        "score": 2.64,
+        "score": 3.584,
         "reasons": [
           {
             "kind": "director",
-            "name": "Hayao Miyazaki",
-            "text": "You rated Princess Mononoke (A) and Spirited Away (A) by Hayao Miyazaki"
+            "name": "Pang Ho-cheung",
+            "text": "You rated Love in a Puff (B) by Pang Ho-cheung"
+          },
+          {
+            "kind": "genre",
+            "name": "Romance, Comedy",
+            "text": "Romance, Comedy — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "Hong Kong",
+            "text": "From Hong Kong, where you've rated 16 films"
           }
         ],
-        "qid": "Q3870108",
+        "qid": "Q28045442",
         "poster": null,
-        "streaming": [],
+        "streaming": [
+          {
+            "id": "80188596",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/80188596"
+          },
+          {
+            "id": "51I8lcYa1cdE",
+            "name": "Disney+",
+            "url": "https://www.disneyplus.com/movies/_/51I8lcYa1cdE"
+          },
+          {
+            "id": "5d776d2147dd6e001f6f052d",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776d2147dd6e001f6f052d"
+          }
+        ],
+        "upcoming": false
+      },
+      {
+        "title": "Love in the Buff",
+        "year": 2012,
+        "directors": [
+          "Pang Ho-cheung"
+        ],
+        "franchises": [],
+        "genres": [
+          "Romance",
+          "Comedy"
+        ],
+        "regions": [
+          "Hong Kong"
+        ],
+        "sources": [
+          "director"
+        ],
+        "score": 3.584,
+        "reasons": [
+          {
+            "kind": "director",
+            "name": "Pang Ho-cheung",
+            "text": "You rated Love in a Puff (B) by Pang Ho-cheung"
+          },
+          {
+            "kind": "genre",
+            "name": "Romance, Comedy",
+            "text": "Romance, Comedy — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "Hong Kong",
+            "text": "From Hong Kong, where you've rated 16 films"
+          }
+        ],
+        "qid": "Q11088774",
+        "poster": null,
+        "streaming": [
+          {
+            "id": "80997397",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/80997397"
+          },
+          {
+            "id": "5d776918594b2b001e69ce4f",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776918594b2b001e69ce4f"
+          }
+        ],
+        "upcoming": false
+      },
+      {
+        "title": "Alan & Eric: Between Hello and Goodbye",
+        "year": 1991,
+        "directors": [
+          "Peter Chan"
+        ],
+        "franchises": [],
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "regions": [
+          "Hong Kong"
+        ],
+        "sources": [
+          "director"
+        ],
+        "score": 3.556,
+        "reasons": [
+          {
+            "kind": "director",
+            "name": "Peter Chan",
+            "text": "You rated Comrades: Almost a Love Story (B) by Peter Chan"
+          },
+          {
+            "kind": "genre",
+            "name": "Romance, Drama",
+            "text": "Romance, Drama — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "Hong Kong",
+            "text": "From Hong Kong, where you've rated 16 films"
+          }
+        ],
+        "qid": "Q22098899",
+        "poster": null,
+        "streaming": [
+          {
+            "id": "5d776cffad5437001f7ca45c",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776cffad5437001f7ca45c"
+          }
+        ],
+        "upcoming": false
+      },
+      {
+        "title": "Curse of the Golden Flower",
+        "year": 2006,
+        "directors": [
+          "Zhang Yimou"
+        ],
+        "franchises": [
+          "Wuxia Trilogy"
+        ],
+        "genres": [
+          "Romance",
+          "Drama"
+        ],
+        "regions": [
+          "Hong Kong",
+          "China"
+        ],
+        "sources": [
+          "director",
+          "franchise"
+        ],
+        "score": 3.556,
+        "reasons": [
+          {
+            "kind": "director",
+            "name": "Zhang Yimou",
+            "text": "You rated Hero (A) and Full River Red (C) by Zhang Yimou"
+          },
+          {
+            "kind": "genre",
+            "name": "Romance, Drama",
+            "text": "Romance, Drama — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "Hong Kong",
+            "text": "From Hong Kong, where you've rated 16 films"
+          }
+        ],
+        "qid": "Q51737",
+        "poster": "curse-of-the-golden-flower-2006.jpg",
+        "streaming": [
+          {
+            "id": "70058097",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/70058097"
+          },
+          {
+            "id": "umc.cmc.79jx1jariz8notx1rl4f9xlsa",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.79jx1jariz8notx1rl4f9xlsa"
+          },
+          {
+            "id": "5d776829880197001ec9137f",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776829880197001ec9137f"
+          }
+        ],
         "upcoming": false
       },
       {
@@ -14680,18 +16682,35 @@
           "Matt Reeves"
         ],
         "franchises": [],
-        "genres": [],
-        "regions": [],
+        "genres": [
+          "Action",
+          "Drama",
+          "Mystery",
+          "Thriller"
+        ],
+        "regions": [
+          "USA"
+        ],
         "sources": [
           "director",
           "box office"
         ],
-        "score": 2.422,
+        "score": 3.526,
         "reasons": [
           {
             "kind": "director",
             "name": "Matt Reeves",
             "text": "You rated Dawn of the Planet of the Apes (A) and War for the Planet of the Apes (B) by Matt Reeves"
+          },
+          {
+            "kind": "genre",
+            "name": "Crime, Mystery, Drama",
+            "text": "Crime, Mystery, Drama — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "USA",
+            "text": "From USA, where you've rated 45 films"
           },
           {
             "kind": "popular",
@@ -14726,50 +16745,241 @@
         "upcoming": false
       },
       {
-        "title": "Mission: Impossible 2",
-        "year": 2000,
+        "title": "The Gambler",
+        "year": 2014,
         "directors": [
-          "John Woo"
+          "Rupert Wyatt"
         ],
         "franchises": [],
-        "genres": [],
-        "regions": [],
-        "sources": [
-          "director",
-          "box office"
+        "genres": [
+          "Drama",
+          "Crime"
         ],
-        "score": 2.384,
+        "regions": [
+          "USA"
+        ],
+        "sources": [
+          "director"
+        ],
+        "score": 3.504,
         "reasons": [
           {
             "kind": "director",
-            "name": "John Woo",
-            "text": "You rated Hard Boiled (A) by John Woo"
+            "name": "Rupert Wyatt",
+            "text": "You rated Rise of the Planet of the Apes (A) by Rupert Wyatt"
           },
           {
-            "kind": "popular",
-            "name": "",
-            "text": "One of 2000's biggest earners"
+            "kind": "genre",
+            "name": "Crime, Drama",
+            "text": "Crime, Drama — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "USA",
+            "text": "From USA, where you've rated 45 films"
           }
         ],
-        "qid": "Q505790",
-        "poster": null,
-        "streaming": [],
+        "qid": "Q15706898",
+        "poster": "the-gambler-2014.jpg",
+        "streaming": [
+          {
+            "id": "80017111",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/80017111"
+          },
+          {
+            "id": "umc.cmc.23txy6wzge5x89mas08rgnana",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.23txy6wzge5x89mas08rgnana"
+          },
+          {
+            "id": "5d776b07fb0d55001f559689",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776b07fb0d55001f559689"
+          }
+        ],
         "upcoming": false
       },
       {
-        "title": "My People, My Homeland",
-        "year": 2020,
+        "title": "Mon Mon Mon Monsters",
+        "year": 2017,
+        "directors": [
+          "Giddens Ko"
+        ],
+        "franchises": [],
+        "genres": [
+          "Drama"
+        ],
+        "regions": [
+          "Taiwan"
+        ],
+        "sources": [
+          "director"
+        ],
+        "score": 3.423,
+        "reasons": [
+          {
+            "kind": "director",
+            "name": "Giddens Ko",
+            "text": "You rated You Are the Apple of My Eye (B) by Giddens Ko"
+          },
+          {
+            "kind": "genre",
+            "name": "Drama",
+            "text": "Drama — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "Taiwan",
+            "text": "From Taiwan, where you've rated 4 films"
+          }
+        ],
+        "qid": "Q30947890",
+        "poster": "mon-mon-mon-monsters-2017.jpg",
+        "streaming": [
+          {
+            "id": "81032951",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/81032951"
+          },
+          {
+            "id": "umc.cmc.6rjwi9hh9s3afji1uezypfsgx",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.6rjwi9hh9s3afji1uezypfsgx"
+          },
+          {
+            "id": "5d776d1dad5437001f7cd8bd",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776d1dad5437001f7cd8bd"
+          }
+        ],
+        "upcoming": false
+      },
+      {
+        "title": "Posthumous",
+        "year": 2014,
+        "directors": [
+          "Lulu Wang"
+        ],
+        "franchises": [],
+        "genres": [
+          "Romance",
+          "Comedy"
+        ],
+        "regions": [
+          "USA"
+        ],
+        "sources": [
+          "director"
+        ],
+        "score": 3.407,
+        "reasons": [
+          {
+            "kind": "director",
+            "name": "Lulu Wang",
+            "text": "You rated The Farewell (A) by Lulu Wang"
+          },
+          {
+            "kind": "genre",
+            "name": "Romance, Comedy",
+            "text": "Romance, Comedy — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "USA",
+            "text": "From USA, where you've rated 45 films"
+          }
+        ],
+        "qid": "Q55630320",
+        "poster": null,
+        "streaming": [
+          {
+            "id": "5d776b2d51dd69001fe2d184",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776b2d51dd69001fe2d184"
+          }
+        ],
+        "upcoming": false
+      },
+      {
+        "title": "The Pallbearer",
+        "year": 1996,
+        "directors": [
+          "Matt Reeves"
+        ],
+        "franchises": [],
+        "genres": [
+          "Romance",
+          "Comedy"
+        ],
+        "regions": [
+          "USA"
+        ],
+        "sources": [
+          "director"
+        ],
+        "score": 3.407,
+        "reasons": [
+          {
+            "kind": "director",
+            "name": "Matt Reeves",
+            "text": "You rated Dawn of the Planet of the Apes (A) and War for the Planet of the Apes (B) by Matt Reeves"
+          },
+          {
+            "kind": "genre",
+            "name": "Romance, Comedy",
+            "text": "Romance, Comedy — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "USA",
+            "text": "From USA, where you've rated 45 films"
+          }
+        ],
+        "qid": "Q602289",
+        "poster": null,
+        "streaming": [
+          {
+            "id": "839778",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/839778"
+          },
+          {
+            "id": "4ce03da9-adf9-4864-a5fc-313c2106b5ec",
+            "name": "Hulu",
+            "url": "https://www.hulu.com/movie/4ce03da9-adf9-4864-a5fc-313c2106b5ec"
+          },
+          {
+            "id": "umc.cmc.18wcpxobkvnf77trc9qv3r803",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.18wcpxobkvnf77trc9qv3r803"
+          },
+          {
+            "id": "5d77684ceb5d26001f1e5035",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d77684ceb5d26001f1e5035"
+          }
+        ],
+        "upcoming": false
+      },
+      {
+        "title": "Escape From The Outland",
+        "year": 2025,
         "directors": [
           "Ao Shen"
         ],
         "franchises": [],
-        "genres": [],
-        "regions": [],
-        "sources": [
-          "director",
-          "box office"
+        "genres": [
+          "War",
+          "Adventure"
         ],
-        "score": 2.36,
+        "regions": [
+          "China"
+        ],
+        "sources": [
+          "director"
+        ],
+        "score": 3.391,
         "reasons": [
           {
             "kind": "director",
@@ -14777,41 +16987,158 @@
             "text": "You rated No More Bets (A) by Ao Shen"
           },
           {
-            "kind": "popular",
-            "name": "",
-            "text": "One of 2020's biggest earners"
+            "kind": "genre",
+            "name": "Adventure, War",
+            "text": "Adventure, War — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "China",
+            "text": "From China, where you've rated 22 films"
           }
         ],
-        "qid": "Q97300316",
-        "poster": "my-people-my-homeland-2020.jpg",
+        "qid": "Q137589538",
+        "poster": null,
+        "streaming": [],
+        "upcoming": false
+      },
+      {
+        "title": "Valmont",
+        "year": 1989,
+        "directors": [
+          "Miloš Forman"
+        ],
+        "franchises": [],
+        "genres": [
+          "Romance",
+          "Drama"
+        ],
+        "regions": [
+          "France",
+          "USA",
+          "UK"
+        ],
+        "sources": [
+          "director"
+        ],
+        "score": 3.379,
+        "reasons": [
+          {
+            "kind": "director",
+            "name": "Miloš Forman",
+            "text": "You rated One Flew Over the Cuckoo's Nest (A) by Miloš Forman"
+          },
+          {
+            "kind": "genre",
+            "name": "Romance, Drama",
+            "text": "Romance, Drama — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "USA",
+            "text": "From USA, where you've rated 45 films"
+          }
+        ],
+        "qid": "Q1347278",
+        "poster": "valmont-1989.jpg",
         "streaming": [
           {
-            "id": "umc.cmc.1n5mbb99a89bk8bisw2g4g56c",
+            "id": "60011522",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/60011522"
+          },
+          {
+            "id": "umc.cmc.79ok9ab2prinrq3whx8mgk5fy",
             "name": "Apple TV",
-            "url": "https://tv.apple.com/movie/umc.cmc.1n5mbb99a89bk8bisw2g4g56c"
+            "url": "https://tv.apple.com/movie/umc.cmc.79ok9ab2prinrq3whx8mgk5fy"
           },
           {
-            "id": "5f3f8651743bd90042d8ca08",
+            "id": "5d9f35716fc551001ef81a62",
             "name": "Plex",
-            "url": "https://watch.plex.tv/movie/5f3f8651743bd90042d8ca08"
+            "url": "https://watch.plex.tv/movie/5d9f35716fc551001ef81a62"
           }
         ],
         "upcoming": false
       },
       {
-        "title": "Cast Away",
-        "year": 2000,
+        "title": "Animal Crackers",
+        "year": 2016,
+        "directors": [
+          "Tony Bancroft",
+          "Scott Christian Sava"
+        ],
+        "franchises": [],
+        "genres": [
+          "Family",
+          "Fantasy"
+        ],
+        "regions": [
+          "USA",
+          "Spain"
+        ],
+        "sources": [
+          "director"
+        ],
+        "score": 3.371,
+        "reasons": [
+          {
+            "kind": "director",
+            "name": "Tony Bancroft",
+            "text": "You rated Mulan (A) by Tony Bancroft"
+          },
+          {
+            "kind": "genre",
+            "name": "Family, Fantasy",
+            "text": "Family, Fantasy — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "USA",
+            "text": "From USA, where you've rated 45 films"
+          }
+        ],
+        "qid": "Q18703064",
+        "poster": "animal-crackers-2016.jpg",
+        "streaming": [
+          {
+            "id": "81191856",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/81191856"
+          },
+          {
+            "id": "umc.cmc.152drh1zzvpw2gta9xtijfj2u",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.152drh1zzvpw2gta9xtijfj2u"
+          },
+          {
+            "id": "5d9f3c8f4441b1001fa152b6",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d9f3c8f4441b1001fa152b6"
+          }
+        ],
+        "upcoming": false
+      },
+      {
+        "title": "Back to the Future Part II",
+        "year": 1989,
         "directors": [
           "Robert Zemeckis"
         ],
         "franchises": [],
-        "genres": [],
-        "regions": [],
+        "genres": [
+          "Science fiction",
+          "Coming-of-age",
+          "Comedy",
+          "Dystopian"
+        ],
+        "regions": [
+          "USA"
+        ],
         "sources": [
           "director",
           "box office"
         ],
-        "score": 2.358,
+        "score": 3.312,
         "reasons": [
           {
             "kind": "director",
@@ -14819,97 +17146,142 @@
             "text": "You rated Forrest Gump (A) by Robert Zemeckis"
           },
           {
-            "kind": "popular",
-            "name": "",
-            "text": "One of 2000's biggest earners"
-          }
-        ],
-        "qid": "Q213411",
-        "poster": null,
-        "streaming": [],
-        "upcoming": false
-      },
-      {
-        "title": "Back to the Future",
-        "year": 1985,
-        "directors": [
-          "Robert Zemeckis"
-        ],
-        "franchises": [],
-        "genres": [],
-        "regions": [],
-        "sources": [
-          "director",
-          "box office"
-        ],
-        "score": 2.346,
-        "reasons": [
+            "kind": "genre",
+            "name": "Coming-of-age, Dystopian, Comedy",
+            "text": "Coming-of-age, Dystopian, Comedy — genres you rate well"
+          },
           {
-            "kind": "director",
-            "name": "Robert Zemeckis",
-            "text": "You rated Forrest Gump (A) by Robert Zemeckis"
+            "kind": "region",
+            "name": "USA",
+            "text": "From USA, where you've rated 45 films"
           },
           {
             "kind": "popular",
             "name": "",
-            "text": "One of 1985's biggest earners"
+            "text": "One of 1989's biggest earners"
           }
         ],
-        "qid": "Q91540",
+        "qid": "Q109331",
         "poster": null,
-        "streaming": [],
+        "streaming": [
+          {
+            "id": "60010111",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/60010111"
+          },
+          {
+            "id": "B08XW5CKQG",
+            "name": "Prime Video",
+            "url": "https://www.amazon.com/dp/B08XW5CKQG"
+          },
+          {
+            "id": "umc.cmc.5voem26uknighvs9ac01dku4y",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.5voem26uknighvs9ac01dku4y"
+          },
+          {
+            "id": "5d776d1023d5a3001f52001d",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776d1023d5a3001f52001d"
+          }
+        ],
         "upcoming": false
       },
       {
-        "title": "Face/Off",
-        "year": 1997,
+        "title": "Tangled Ever After",
+        "year": 2012,
         "directors": [
-          "John Woo"
+          "Byron Howard",
+          "Nathan Greno"
         ],
         "franchises": [],
-        "genres": [],
-        "regions": [],
-        "sources": [
-          "director",
-          "box office"
+        "genres": [
+          "Romance",
+          "Comedy",
+          "Fantasy"
         ],
-        "score": 2.298,
+        "regions": [
+          "USA"
+        ],
+        "sources": [
+          "director"
+        ],
+        "score": 3.306,
         "reasons": [
           {
             "kind": "director",
-            "name": "John Woo",
-            "text": "You rated Hard Boiled (A) by John Woo"
+            "name": "Byron Howard",
+            "text": "You rated Zootopia (A) and Zootopia 2 (B) by Byron Howard"
           },
           {
-            "kind": "popular",
-            "name": "",
-            "text": "One of 1997's biggest earners"
+            "kind": "genre",
+            "name": "Romance, Comedy, Fantasy",
+            "text": "Romance, Comedy, Fantasy — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "USA",
+            "text": "From USA, where you've rated 45 films"
           }
         ],
-        "qid": "Q223887",
+        "qid": "Q3224298",
         "poster": null,
-        "streaming": [],
+        "streaming": [
+          {
+            "id": "76OFplGYDJQk",
+            "name": "Disney+",
+            "url": "https://www.disneyplus.com/movies/_/76OFplGYDJQk"
+          },
+          {
+            "id": "umc.cmc.5fjhyisg0jc9m3qhbd67wwylm",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.5fjhyisg0jc9m3qhbd67wwylm"
+          },
+          {
+            "id": "5d7768cadecfcd001f2f2ae4",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d7768cadecfcd001f2f2ae4"
+          }
+        ],
         "upcoming": false
       },
       {
         "title": "The SpongeBob SquarePants Movie",
         "year": 2004,
         "directors": [
-          "Mark Osborne"
+          "Mark Osborne",
+          "Stephen Hillenburg"
         ],
         "franchises": [],
-        "genres": [],
-        "regions": [],
+        "genres": [
+          "Comedy",
+          "Family",
+          "Coming-of-age",
+          "Animation"
+        ],
+        "regions": [
+          "USA"
+        ],
         "sources": [
           "director",
           "box office"
         ],
-        "score": 2.237,
+        "score": 3.304,
         "reasons": [
           {
             "kind": "director",
             "name": "Mark Osborne",
             "text": "You rated Kung Fu Panda (A) by Mark Osborne"
+          },
+          {
+            "kind": "genre",
+            "name": "Coming-of-age, Family, Comedy",
+            "text": "Coming-of-age, Family, Comedy — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "USA",
+            "text": "From USA, where you've rated 45 films"
           },
           {
             "kind": "popular",
@@ -14944,468 +17316,589 @@
         "upcoming": false
       },
       {
-        "title": "\"Weird Al\" Yankovic: The Ultimate Video Collection",
-        "year": 2003,
-        "directors": [
-          "Mark Osborne"
-        ],
-        "franchises": [],
-        "genres": [],
-        "regions": [],
-        "sources": [
-          "director"
-        ],
-        "score": 2.2,
-        "reasons": [
-          {
-            "kind": "director",
-            "name": "Mark Osborne",
-            "text": "You rated Kung Fu Panda (A) by Mark Osborne"
-          }
-        ],
-        "qid": "Q3596112",
-        "poster": null,
-        "streaming": [],
-        "upcoming": false
-      },
-      {
-        "title": "10+10",
-        "year": 2011,
-        "directors": [
-          "Chung Mong-hong"
-        ],
-        "franchises": [],
-        "genres": [],
-        "regions": [],
-        "sources": [
-          "director"
-        ],
-        "score": 2.2,
-        "reasons": [
-          {
-            "kind": "director",
-            "name": "Chung Mong-hong",
-            "text": "You rated A Sun (A) by Chung Mong-hong"
-          }
-        ],
-        "qid": "Q10843715",
-        "poster": null,
-        "streaming": [
-          {
-            "id": "5d7769137a53e9001e6e0c72",
-            "name": "Plex",
-            "url": "https://watch.plex.tv/movie/5d7769137a53e9001e6e0c72"
-          }
-        ],
-        "upcoming": false
-      },
-      {
-        "title": "A Chaos of Flowers",
-        "year": 1988,
-        "directors": [
-          "Kinji Fukasaku"
-        ],
-        "franchises": [],
-        "genres": [],
-        "regions": [],
-        "sources": [
-          "director"
-        ],
-        "score": 2.2,
-        "reasons": [
-          {
-            "kind": "director",
-            "name": "Kinji Fukasaku",
-            "text": "You rated Battle Royale (A) by Kinji Fukasaku"
-          }
-        ],
-        "qid": "Q4655825",
-        "poster": null,
-        "streaming": [],
-        "upcoming": false
-      },
-      {
-        "title": "All of a Sudden",
-        "year": 2026,
-        "directors": [
-          "Ryusuke Hamaguchi"
-        ],
-        "franchises": [],
-        "genres": [],
-        "regions": [],
-        "sources": [
-          "director"
-        ],
-        "score": 2.2,
-        "reasons": [
-          {
-            "kind": "director",
-            "name": "Ryusuke Hamaguchi",
-            "text": "You rated Drive My Car (A) by Ryusuke Hamaguchi"
-          }
-        ],
-        "qid": "Q137946980",
-        "poster": "all-of-a-sudden-2026.jpg",
-        "streaming": [],
-        "upcoming": false
-      },
-      {
-        "title": "Amadeus",
-        "year": 1984,
-        "directors": [
-          "Miloš Forman"
-        ],
-        "franchises": [],
-        "genres": [],
-        "regions": [],
-        "sources": [
-          "director",
-          "box office"
-        ],
-        "score": 2.2,
-        "reasons": [
-          {
-            "kind": "director",
-            "name": "Miloš Forman",
-            "text": "You rated One Flew Over the Cuckoo's Nest (A) by Miloš Forman"
-          }
-        ],
-        "qid": "Q190956",
-        "poster": null,
-        "streaming": [],
-        "upcoming": false
-      },
-      {
-        "title": "Animal Crackers",
-        "year": 2016,
-        "directors": [
-          "Tony Bancroft"
-        ],
-        "franchises": [],
-        "genres": [],
-        "regions": [],
-        "sources": [
-          "director"
-        ],
-        "score": 2.2,
-        "reasons": [
-          {
-            "kind": "director",
-            "name": "Tony Bancroft",
-            "text": "You rated Mulan (A) by Tony Bancroft"
-          }
-        ],
-        "qid": "Q18703064",
-        "poster": "animal-crackers-2016.jpg",
-        "streaming": [
-          {
-            "id": "81191856",
-            "name": "Netflix",
-            "url": "https://www.netflix.com/title/81191856"
-          },
-          {
-            "id": "umc.cmc.152drh1zzvpw2gta9xtijfj2u",
-            "name": "Apple TV",
-            "url": "https://tv.apple.com/movie/umc.cmc.152drh1zzvpw2gta9xtijfj2u"
-          },
-          {
-            "id": "5d9f3c8f4441b1001fa152b6",
-            "name": "Plex",
-            "url": "https://watch.plex.tv/movie/5d9f3c8f4441b1001fa152b6"
-          }
-        ],
-        "upcoming": false
-      },
-      {
-        "title": "Asako I & II",
+        "title": "Gnomeo and Juliet 2: Sherlock Gnomes",
         "year": 2018,
         "directors": [
-          "Ryusuke Hamaguchi"
+          "John Stevenson"
         ],
         "franchises": [],
-        "genres": [],
-        "regions": [],
+        "genres": [
+          "Comedy",
+          "Family",
+          "Adventure",
+          "Romance"
+        ],
+        "regions": [
+          "USA",
+          "UK"
+        ],
         "sources": [
           "director"
         ],
-        "score": 2.2,
+        "score": 3.288,
         "reasons": [
           {
             "kind": "director",
-            "name": "Ryusuke Hamaguchi",
-            "text": "You rated Drive My Car (A) by Ryusuke Hamaguchi"
-          }
-        ],
-        "qid": "Q51800443",
-        "poster": "asako-i-ii-2018.png",
-        "streaming": [
-          {
-            "id": "umc.cmc.10k5gocbdfvkutl7zsllnodo2",
-            "name": "Apple TV",
-            "url": "https://tv.apple.com/movie/umc.cmc.10k5gocbdfvkutl7zsllnodo2"
+            "name": "John Stevenson",
+            "text": "You rated Kung Fu Panda (A) by John Stevenson"
           },
           {
-            "id": "5d776d86f617c90020189a20",
+            "kind": "genre",
+            "name": "Family, Romance, Comedy",
+            "text": "Family, Romance, Comedy — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "USA",
+            "text": "From USA, where you've rated 45 films"
+          }
+        ],
+        "qid": "Q24904727",
+        "poster": "gnomeo-and-juliet-2-sherlock-gnomes-2018.png",
+        "streaming": [
+          {
+            "id": "3b42cd57-439c-498b-b636-8074ae989450",
+            "name": "Hulu",
+            "url": "https://www.hulu.com/movie/3b42cd57-439c-498b-b636-8074ae989450"
+          },
+          {
+            "id": "umc.cmc.58u0sbwphneymdn581lxgzalr",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.58u0sbwphneymdn581lxgzalr"
+          },
+          {
+            "id": "5d776bfb23d5a3001f516223",
             "name": "Plex",
-            "url": "https://watch.plex.tv/movie/5d776d86f617c90020189a20"
+            "url": "https://watch.plex.tv/movie/5d776bfb23d5a3001f516223"
           }
         ],
         "upcoming": false
       },
       {
-        "title": "Audition",
-        "year": 1964,
+        "title": "The Runner",
+        "year": 1980,
+        "directors": [
+          "Ang Lee"
+        ],
+        "franchises": [],
+        "genres": [],
+        "regions": [
+          "Taiwan",
+          "USA"
+        ],
+        "sources": [
+          "director"
+        ],
+        "score": 3.273,
+        "reasons": [
+          {
+            "kind": "director",
+            "name": "Ang Lee",
+            "text": "You rated Eat Drink Man Woman (S) and Life of Pi (C) by Ang Lee"
+          },
+          {
+            "kind": "region",
+            "name": "Taiwan",
+            "text": "From Taiwan, where you've rated 4 films"
+          }
+        ],
+        "qid": "Q82811617",
+        "poster": null,
+        "streaming": [],
+        "upcoming": false
+      },
+      {
+        "title": "Loves of a Blonde",
+        "year": 1965,
         "directors": [
           "Miloš Forman"
         ],
         "franchises": [],
-        "genres": [],
-        "regions": [],
+        "genres": [
+          "Drama",
+          "Comedy",
+          "Romance"
+        ],
+        "regions": [
+          "Czechoslovakia"
+        ],
         "sources": [
           "director"
         ],
-        "score": 2.2,
+        "score": 3.241,
         "reasons": [
           {
             "kind": "director",
             "name": "Miloš Forman",
             "text": "You rated One Flew Over the Cuckoo's Nest (A) by Miloš Forman"
+          },
+          {
+            "kind": "genre",
+            "name": "Romance, Comedy, Drama",
+            "text": "Romance, Comedy, Drama — genres you rate well"
           }
         ],
-        "qid": "Q2565826",
+        "qid": "Q1214524",
         "poster": null,
-        "streaming": [],
+        "streaming": [
+          {
+            "id": "60010616",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/60010616"
+          },
+          {
+            "id": "umc.cmc.6b7axkrwtykes29owthqo8mdb",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.6b7axkrwtykes29owthqo8mdb"
+          },
+          {
+            "id": "5d776870d11dd3002022610f",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776870d11dd3002022610f"
+          }
+        ],
         "upcoming": false
       },
       {
-        "title": "Battle Royale II: Requiem",
-        "year": 2003,
+        "title": "Shanghai Triad",
+        "year": 1995,
         "directors": [
-          "Kinji Fukasaku"
+          "Zhang Yimou"
         ],
         "franchises": [],
-        "genres": [],
-        "regions": [],
+        "genres": [
+          "Drama",
+          "Crime"
+        ],
+        "regions": [
+          "China",
+          "France"
+        ],
         "sources": [
           "director"
         ],
-        "score": 2.2,
+        "score": 3.238,
         "reasons": [
           {
             "kind": "director",
-            "name": "Kinji Fukasaku",
-            "text": "You rated Battle Royale (A) by Kinji Fukasaku"
-          }
-        ],
-        "qid": "Q798199",
-        "poster": null,
-        "streaming": [],
-        "upcoming": false
-      },
-      {
-        "title": "Bless this house",
-        "year": 1988,
-        "directors": [
-          "Ronny Yu"
-        ],
-        "franchises": [],
-        "genres": [],
-        "regions": [],
-        "sources": [
-          "director"
-        ],
-        "score": 2.2,
-        "reasons": [
+            "name": "Zhang Yimou",
+            "text": "You rated Hero (A) and Full River Red (C) by Zhang Yimou"
+          },
           {
-            "kind": "director",
-            "name": "Ronny Yu",
-            "text": "You rated Fearless (A) by Ronny Yu"
-          }
-        ],
-        "qid": "Q123330430",
-        "poster": null,
-        "streaming": [],
-        "upcoming": false
-      },
-      {
-        "title": "Bolt",
-        "year": 2008,
-        "directors": [
-          "Byron Howard"
-        ],
-        "franchises": [],
-        "genres": [],
-        "regions": [],
-        "sources": [
-          "director"
-        ],
-        "score": 2.2,
-        "reasons": [
+            "kind": "genre",
+            "name": "Crime, Drama",
+            "text": "Crime, Drama — genres you rate well"
+          },
           {
-            "kind": "director",
-            "name": "Byron Howard",
-            "text": "You rated Zootopia (A) and Zootopia 2 (B) by Byron Howard"
+            "kind": "region",
+            "name": "China",
+            "text": "From China, where you've rated 22 films"
           }
         ],
-        "qid": "Q212792",
+        "qid": "Q2276999",
         "poster": null,
         "streaming": [],
         "upcoming": false
       },
       {
-        "title": "Bride of Chucky",
-        "year": 1998,
+        "title": "The Origin of Stitch",
+        "year": 2005,
         "directors": [
-          "Ronny Yu"
+          "Tony Bancroft",
+          "Mike Disa"
         ],
         "franchises": [],
-        "genres": [],
-        "regions": [],
+        "genres": [
+          "Comedy"
+        ],
+        "regions": [
+          "USA"
+        ],
         "sources": [
           "director"
         ],
-        "score": 2.2,
-        "reasons": [
-          {
-            "kind": "director",
-            "name": "Ronny Yu",
-            "text": "You rated Fearless (A) by Ronny Yu"
-          }
-        ],
-        "qid": "Q1089303",
-        "poster": null,
-        "streaming": [],
-        "upcoming": false
-      },
-      {
-        "title": "Bunyan and Babe",
-        "year": 2017,
-        "directors": [
-          "Tony Bancroft"
-        ],
-        "franchises": [],
-        "genres": [],
-        "regions": [],
-        "sources": [
-          "director"
-        ],
-        "score": 2.2,
+        "score": 3.226,
         "reasons": [
           {
             "kind": "director",
             "name": "Tony Bancroft",
             "text": "You rated Mulan (A) by Tony Bancroft"
+          },
+          {
+            "kind": "genre",
+            "name": "Comedy",
+            "text": "Comedy — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "USA",
+            "text": "From USA, where you've rated 45 films"
           }
         ],
-        "qid": "Q4997970",
+        "qid": "Q98114583",
         "poster": null,
-        "streaming": [],
+        "streaming": [
+          {
+            "id": "5d776973594b2b001e6a13d7",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776973594b2b001e6a13d7"
+          }
+        ],
         "upcoming": false
       },
       {
-        "title": "Captive State",
-        "year": 2019,
+        "title": "Trail Mix-Up",
+        "year": 1993,
+        "directors": [
+          "Barry Cook"
+        ],
+        "franchises": [],
+        "genres": [
+          "Comedy"
+        ],
+        "regions": [
+          "USA"
+        ],
+        "sources": [
+          "director"
+        ],
+        "score": 3.226,
+        "reasons": [
+          {
+            "kind": "director",
+            "name": "Barry Cook",
+            "text": "You rated Mulan (A) by Barry Cook"
+          },
+          {
+            "kind": "genre",
+            "name": "Comedy",
+            "text": "Comedy — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "USA",
+            "text": "From USA, where you've rated 45 films"
+          }
+        ],
+        "qid": "Q3362144",
+        "poster": null,
+        "streaming": [
+          {
+            "id": "2ezl1j2CzTh7",
+            "name": "Disney+",
+            "url": "https://www.disneyplus.com/movies/_/2ezl1j2CzTh7"
+          },
+          {
+            "id": "5d7768ca23d5a3001f4f180e",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d7768ca23d5a3001f4f180e"
+          }
+        ],
+        "upcoming": false
+      },
+      {
+        "title": "The Escapist",
+        "year": 2008,
         "directors": [
           "Rupert Wyatt"
         ],
         "franchises": [],
-        "genres": [],
-        "regions": [],
+        "genres": [
+          "Crime",
+          "Drama"
+        ],
+        "regions": [
+          "UK"
+        ],
         "sources": [
           "director"
         ],
-        "score": 2.2,
+        "score": 3.217,
         "reasons": [
           {
             "kind": "director",
             "name": "Rupert Wyatt",
             "text": "You rated Rise of the Planet of the Apes (A) by Rupert Wyatt"
-          }
-        ],
-        "qid": "Q28863791",
-        "poster": null,
-        "streaming": [],
-        "upcoming": false
-      },
-      {
-        "title": "Children Who Chase Lost Voices",
-        "year": 2011,
-        "directors": [
-          "Makoto Shinkai"
-        ],
-        "franchises": [],
-        "genres": [],
-        "regions": [],
-        "sources": [
-          "director"
-        ],
-        "score": 2.2,
-        "reasons": [
+          },
           {
-            "kind": "director",
-            "name": "Makoto Shinkai",
-            "text": "You rated Your Name (A) and Weathering with You (B) by Makoto Shinkai"
+            "kind": "genre",
+            "name": "Crime, Drama",
+            "text": "Crime, Drama — genres you rate well"
           }
         ],
-        "qid": "Q1072777",
+        "qid": "Q955057",
         "poster": null,
         "streaming": [
           {
-            "id": "umc.cmc.1zsxlgkrc0ss0kkrq1hmve90x",
-            "name": "Apple TV",
-            "url": "https://tv.apple.com/movie/umc.cmc.1zsxlgkrc0ss0kkrq1hmve90x"
+            "id": "70084212",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/70084212"
           },
           {
-            "id": "5d7768c09ab54400214eb193",
+            "id": "umc.cmc.576ckt2xa4pehnv7gles8f5n2",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.576ckt2xa4pehnv7gles8f5n2"
+          },
+          {
+            "id": "5d77683c7e9a3c0020c6e4c1",
             "name": "Plex",
-            "url": "https://watch.plex.tv/movie/5d7768c09ab54400214eb193"
+            "url": "https://watch.plex.tv/movie/5d77683c7e9a3c0020c6e4c1"
           }
         ],
         "upcoming": false
       },
       {
-        "title": "Cloverfield",
-        "year": 2008,
+        "title": "Tangled",
+        "year": 2010,
         "directors": [
-          "Matt Reeves"
+          "Byron Howard",
+          "Nathan Greno"
         ],
         "franchises": [],
-        "genres": [],
-        "regions": [],
+        "genres": [
+          "Musical",
+          "Comedy",
+          "Coming-of-age"
+        ],
+        "regions": [
+          "USA"
+        ],
         "sources": [
           "director"
         ],
-        "score": 2.2,
+        "score": 3.215,
         "reasons": [
           {
             "kind": "director",
-            "name": "Matt Reeves",
-            "text": "You rated Dawn of the Planet of the Apes (A) and War for the Planet of the Apes (B) by Matt Reeves"
+            "name": "Byron Howard",
+            "text": "You rated Zootopia (A) and Zootopia 2 (B) by Byron Howard"
+          },
+          {
+            "kind": "genre",
+            "name": "Coming-of-age, Comedy, Musical",
+            "text": "Coming-of-age, Comedy, Musical — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "USA",
+            "text": "From USA, where you've rated 45 films"
           }
         ],
-        "qid": "Q123742",
+        "qid": "Q188439",
+        "poster": "tangled-2010.jpg",
+        "streaming": [
+          {
+            "id": "70128681",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/70128681"
+          },
+          {
+            "id": "3V3ALy4SHStq",
+            "name": "Disney+",
+            "url": "https://www.disneyplus.com/movies/_/3V3ALy4SHStq"
+          },
+          {
+            "id": "umc.cmc.4bofe8sikofs0fnarn3pd6u5p",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.4bofe8sikofs0fnarn3pd6u5p"
+          },
+          {
+            "id": "5d77686eeb5d26001f1eb339",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d77686eeb5d26001f1eb339"
+          }
+        ],
+        "upcoming": false
+      },
+      {
+        "title": "Badland Hunters",
+        "year": 2024,
+        "directors": [
+          "Heo Myeong-haeng"
+        ],
+        "franchises": [
+          "Concrete Universe"
+        ],
+        "genres": [
+          "Action",
+          "Dystopian"
+        ],
+        "regions": [
+          "Korea"
+        ],
+        "sources": [
+          "franchise"
+        ],
+        "score": 3.202,
+        "reasons": [
+          {
+            "kind": "franchise",
+            "name": "Concrete Universe",
+            "text": "Part of Concrete Universe, where you rated Concrete Utopia (A)"
+          },
+          {
+            "kind": "genre",
+            "name": "Dystopian, Action",
+            "text": "Dystopian, Action — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "Korea",
+            "text": "From Korea, where you've rated 10 films"
+          }
+        ],
+        "qid": "Q123469290",
         "poster": null,
+        "streaming": [
+          {
+            "id": "81721676",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/81721676"
+          },
+          {
+            "id": "6547c795beb074ef2bc506d8",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/6547c795beb074ef2bc506d8"
+          }
+        ],
+        "upcoming": false
+      },
+      {
+        "title": "He-Man",
+        "year": 2011,
+        "directors": [
+          "Ding Sheng"
+        ],
+        "franchises": [],
+        "genres": [
+          "Action",
+          "Crime"
+        ],
+        "regions": [
+          "China"
+        ],
+        "sources": [
+          "director"
+        ],
+        "score": 3.172,
+        "reasons": [
+          {
+            "kind": "director",
+            "name": "Ding Sheng",
+            "text": "You rated Little Big Soldier (B) by Ding Sheng"
+          },
+          {
+            "kind": "genre",
+            "name": "Crime, Action",
+            "text": "Crime, Action — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "China",
+            "text": "From China, where you've rated 22 films"
+          }
+        ],
+        "qid": "Q5688662",
+        "poster": "he-man-2011.jpg",
         "streaming": [],
+        "upcoming": false
+      },
+      {
+        "title": "Ralph Breaks the Internet",
+        "year": 2018,
+        "directors": [
+          "Rich Moore",
+          "Phil Johnston"
+        ],
+        "franchises": [],
+        "genres": [
+          "Family",
+          "Adventure",
+          "Comedy",
+          "Action"
+        ],
+        "regions": [
+          "USA"
+        ],
+        "sources": [
+          "director"
+        ],
+        "score": 3.141,
+        "reasons": [
+          {
+            "kind": "director",
+            "name": "Rich Moore",
+            "text": "You rated Zootopia (A) by Rich Moore"
+          },
+          {
+            "kind": "genre",
+            "name": "Family, Comedy, Fantasy",
+            "text": "Family, Comedy, Fantasy — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "USA",
+            "text": "From USA, where you've rated 45 films"
+          }
+        ],
+        "qid": "Q25167044",
+        "poster": "ralph-breaks-the-internet-2018.png",
+        "streaming": [
+          {
+            "id": "33T1xWWWLhFR",
+            "name": "Disney+",
+            "url": "https://www.disneyplus.com/movies/_/33T1xWWWLhFR"
+          },
+          {
+            "id": "umc.cmc.4zwfz519ttvahehhgkmaw4e8z",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.4zwfz519ttvahehhgkmaw4e8z"
+          },
+          {
+            "id": "5d776c5323d5a3001f51a443",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776c5323d5a3001f51a443"
+          }
+        ],
         "upcoming": false
       },
       {
         "title": "Coco",
         "year": 2017,
         "directors": [
-          "Lee Unkrich"
+          "Lee Unkrich",
+          "Adrian Molina"
         ],
         "franchises": [],
-        "genres": [],
-        "regions": [],
+        "genres": [
+          "Musical",
+          "Fantasy",
+          "Adventure",
+          "Mystery"
+        ],
+        "regions": [
+          "USA",
+          "Mexico"
+        ],
         "sources": [
           "director"
         ],
-        "score": 2.2,
+        "score": 3.13,
         "reasons": [
           {
             "kind": "director",
             "name": "Lee Unkrich",
             "text": "You rated Finding Nemo (A) by Lee Unkrich"
+          },
+          {
+            "kind": "genre",
+            "name": "Family, Mystery, Comedy",
+            "text": "Family, Mystery, Comedy — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "USA",
+            "text": "From USA, where you've rated 45 films"
           }
         ],
         "qid": "Q5815826",
@@ -15435,831 +17928,177 @@
         "upcoming": false
       },
       {
-        "title": "Coco 2",
+        "title": "Last Scene",
         "year": null,
         "directors": [
-          "Lee Unkrich"
+          "Hirokazu Koreeda"
         ],
         "franchises": [],
-        "genres": [],
-        "regions": [],
+        "genres": [
+          "Family",
+          "Fantasy",
+          "Drama"
+        ],
+        "regions": [
+          "Japan"
+        ],
         "sources": [
           "director"
         ],
-        "score": 2.2,
+        "score": 3.117,
         "reasons": [
           {
             "kind": "director",
-            "name": "Lee Unkrich",
-            "text": "You rated Finding Nemo (A) by Lee Unkrich"
+            "name": "Hirokazu Koreeda",
+            "text": "You rated Monster (B) by Hirokazu Koreeda"
+          },
+          {
+            "kind": "genre",
+            "name": "Family, Drama, Fantasy",
+            "text": "Family, Drama, Fantasy — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "Japan",
+            "text": "From Japan, where you've rated 13 films"
           }
         ],
-        "qid": "Q133454317",
+        "qid": "Q134489422",
         "poster": null,
         "streaming": [],
         "upcoming": false
       },
       {
-        "title": "Dareka no Manazashi",
-        "year": 2013,
+        "title": "The Little Prince",
+        "year": 2015,
         "directors": [
-          "Makoto Shinkai"
+          "Mark Osborne"
         ],
         "franchises": [],
-        "genres": [],
-        "regions": [],
+        "genres": [
+          "Fantasy",
+          "Family",
+          "Adventure",
+          "Drama"
+        ],
+        "regions": [
+          "France",
+          "Italy",
+          "Canada"
+        ],
         "sources": [
           "director"
         ],
-        "score": 2.2,
+        "score": 3.066,
         "reasons": [
           {
             "kind": "director",
-            "name": "Makoto Shinkai",
-            "text": "You rated Your Name (A) and Weathering with You (B) by Makoto Shinkai"
+            "name": "Mark Osborne",
+            "text": "You rated Kung Fu Panda (A) by Mark Osborne"
+          },
+          {
+            "kind": "genre",
+            "name": "Family, Drama, Fantasy",
+            "text": "Family, Drama, Fantasy — genres you rate well"
           }
         ],
-        "qid": "Q16607557",
+        "qid": "Q16386722",
         "poster": null,
         "streaming": [],
         "upcoming": false
       },
       {
-        "title": "Desert Warrior",
-        "year": 2025,
+        "title": "My Name Is Khan",
+        "year": 2010,
         "directors": [
-          "Rupert Wyatt"
+          "Karan Johar"
         ],
         "franchises": [],
-        "genres": [],
-        "regions": [],
-        "sources": [
-          "director"
+        "genres": [
+          "Drama",
+          "Romance",
+          "Historical",
+          "Action"
         ],
-        "score": 2.2,
+        "regions": [
+          "India",
+          "USA",
+          "United Arab Emirates",
+          "Hong Kong"
+        ],
+        "sources": [
+          "box office"
+        ],
+        "score": 2.449,
         "reasons": [
           {
-            "kind": "director",
-            "name": "Rupert Wyatt",
-            "text": "You rated Rise of the Planet of the Apes (A) by Rupert Wyatt"
-          }
-        ],
-        "qid": "Q110903821",
-        "poster": null,
-        "streaming": [],
-        "upcoming": false
-      },
-      {
-        "title": "Duck Dodgers in Attack of the Drones",
-        "year": 2004,
-        "directors": [
-          "Rich Moore"
-        ],
-        "franchises": [],
-        "genres": [],
-        "regions": [],
-        "sources": [
-          "director"
-        ],
-        "score": 2.2,
-        "reasons": [
+            "kind": "genre",
+            "name": "Crime, Romance, Mystery",
+            "text": "Crime, Romance, Mystery — genres you rate well"
+          },
           {
-            "kind": "director",
-            "name": "Rich Moore",
-            "text": "You rated Zootopia (A) by Rich Moore"
-          }
-        ],
-        "qid": "Q85861955",
-        "poster": null,
-        "streaming": [],
-        "upcoming": false
-      },
-      {
-        "title": "Dunki",
-        "year": 2023,
-        "directors": [
-          "Rajkumar Hirani"
-        ],
-        "franchises": [],
-        "genres": [],
-        "regions": [],
-        "sources": [
-          "director"
-        ],
-        "score": 2.2,
-        "reasons": [
+            "kind": "region",
+            "name": "Hong Kong",
+            "text": "From Hong Kong, where you've rated 16 films"
+          },
           {
-            "kind": "director",
-            "name": "Rajkumar Hirani",
-            "text": "You rated 3 Idiots (A) by Rajkumar Hirani"
+            "kind": "popular",
+            "name": "",
+            "text": "One of 2010's biggest earners"
           }
         ],
-        "qid": "Q122341144",
-        "poster": null,
+        "qid": "Q330663",
+        "poster": "my-name-is-khan-2010.jpg",
         "streaming": [
           {
-            "id": "81731618",
+            "id": "70131174",
             "name": "Netflix",
-            "url": "https://www.netflix.com/title/81731618"
+            "url": "https://www.netflix.com/title/70131174"
           },
           {
-            "id": "614485a8893a0e64c5066660",
-            "name": "Plex",
-            "url": "https://watch.plex.tv/movie/614485a8893a0e64c5066660"
-          }
-        ],
-        "upcoming": false
-      },
-      {
-        "title": "Encanto",
-        "year": 2021,
-        "directors": [
-          "Byron Howard",
-          "Jared Bush"
-        ],
-        "franchises": [],
-        "genres": [],
-        "regions": [],
-        "sources": [
-          "director"
-        ],
-        "score": 2.2,
-        "reasons": [
-          {
-            "kind": "director",
-            "name": "Byron Howard and Jared Bush",
-            "text": "You rated Zootopia (A) and Zootopia 2 (B) by Byron Howard and Jared Bush"
-          }
-        ],
-        "qid": "Q103372692",
-        "poster": null,
-        "streaming": [],
-        "upcoming": false
-      },
-      {
-        "title": "Escape From The Outland",
-        "year": 2025,
-        "directors": [
-          "Ao Shen"
-        ],
-        "franchises": [],
-        "genres": [],
-        "regions": [],
-        "sources": [
-          "director"
-        ],
-        "score": 2.2,
-        "reasons": [
-          {
-            "kind": "director",
-            "name": "Ao Shen",
-            "text": "You rated No More Bets (A) by Ao Shen"
-          }
-        ],
-        "qid": "Q137589538",
-        "poster": null,
-        "streaming": [],
-        "upcoming": false
-      },
-      {
-        "title": "Gnomeo and Juliet 2: Sherlock Gnomes",
-        "year": 2018,
-        "directors": [
-          "John Stevenson"
-        ],
-        "franchises": [],
-        "genres": [],
-        "regions": [],
-        "sources": [
-          "director"
-        ],
-        "score": 2.2,
-        "reasons": [
-          {
-            "kind": "director",
-            "name": "John Stevenson",
-            "text": "You rated Kung Fu Panda (A) by John Stevenson"
-          }
-        ],
-        "qid": "Q24904727",
-        "poster": "gnomeo-and-juliet-2-sherlock-gnomes-2018.png",
-        "streaming": [
-          {
-            "id": "3b42cd57-439c-498b-b636-8074ae989450",
-            "name": "Hulu",
-            "url": "https://www.hulu.com/movie/3b42cd57-439c-498b-b636-8074ae989450"
-          },
-          {
-            "id": "umc.cmc.58u0sbwphneymdn581lxgzalr",
+            "id": "umc.cmc.1gp13dap44kaetn9pscd6404f",
             "name": "Apple TV",
-            "url": "https://tv.apple.com/movie/umc.cmc.58u0sbwphneymdn581lxgzalr"
+            "url": "https://tv.apple.com/movie/umc.cmc.1gp13dap44kaetn9pscd6404f"
           },
           {
-            "id": "5d776bfb23d5a3001f516223",
+            "id": "5d7768517228e5001f1e2005",
             "name": "Plex",
-            "url": "https://watch.plex.tv/movie/5d776bfb23d5a3001f516223"
+            "url": "https://watch.plex.tv/movie/5d7768517228e5001f1e2005"
           }
         ],
         "upcoming": false
       },
       {
-        "title": "Godspeed",
-        "year": 2016,
-        "directors": [
-          "Chung Mong-hong"
-        ],
-        "franchises": [],
-        "genres": [],
-        "regions": [],
-        "sources": [
-          "director"
-        ],
-        "score": 2.2,
-        "reasons": [
-          {
-            "kind": "director",
-            "name": "Chung Mong-hong",
-            "text": "You rated A Sun (A) by Chung Mong-hong"
-          }
-        ],
-        "qid": "Q27901264",
-        "poster": null,
-        "streaming": [],
-        "upcoming": false
-      },
-      {
-        "title": "INGtoogi: The Battle of Surpluses",
-        "year": 2013,
-        "directors": [
-          "Um Tae-hwa"
-        ],
-        "franchises": [],
-        "genres": [],
-        "regions": [],
-        "sources": [
-          "director"
-        ],
-        "score": 2.2,
-        "reasons": [
-          {
-            "kind": "director",
-            "name": "Um Tae-hwa",
-            "text": "You rated Concrete Utopia (A) by Um Tae-hwa"
-          }
-        ],
-        "qid": "Q19794946",
-        "poster": null,
-        "streaming": [],
-        "upcoming": false
-      },
-      {
-        "title": "Lage Raho Munna Bhai",
+        "title": "The Departed",
         "year": 2006,
         "directors": [
-          "Rajkumar Hirani"
+          "Martin Scorsese"
         ],
         "franchises": [],
-        "genres": [],
-        "regions": [],
+        "genres": [
+          "Drama",
+          "Crime",
+          "Thriller",
+          "Mystery"
+        ],
+        "regions": [
+          "USA",
+          "Hong Kong"
+        ],
         "sources": [
-          "director"
-        ],
-        "score": 2.2,
-        "reasons": [
-          {
-            "kind": "director",
-            "name": "Rajkumar Hirani",
-            "text": "You rated 3 Idiots (A) by Rajkumar Hirani"
-          }
-        ],
-        "qid": "Q980677",
-        "poster": "lage-raho-munna-bhai-2006.jpg",
-        "streaming": [
-          {
-            "id": "70058505",
-            "name": "Netflix",
-            "url": "https://www.netflix.com/title/70058505"
-          },
-          {
-            "id": "umc.cmc.5pl27s4devx7t0am36g1srcuf",
-            "name": "Apple TV",
-            "url": "https://tv.apple.com/movie/umc.cmc.5pl27s4devx7t0am36g1srcuf"
-          },
-          {
-            "id": "5d77684761141d001fb17afa",
-            "name": "Plex",
-            "url": "https://watch.plex.tv/movie/5d77684761141d001fb17afa"
-          }
-        ],
-        "upcoming": false
-      },
-      {
-        "title": "My Last Day",
-        "year": 2011,
-        "directors": [
-          "Barry Cook"
-        ],
-        "franchises": [],
-        "genres": [],
-        "regions": [],
-        "sources": [
-          "director"
-        ],
-        "score": 2.2,
-        "reasons": [
-          {
-            "kind": "director",
-            "name": "Barry Cook",
-            "text": "You rated Mulan (A) by Barry Cook"
-          }
-        ],
-        "qid": "Q17052226",
-        "poster": "my-last-day-2011.jpg",
-        "streaming": [
-          {
-            "id": "5d77703ef617c9002019ca44",
-            "name": "Plex",
-            "url": "https://watch.plex.tv/movie/5d77703ef617c9002019ca44"
-          }
-        ],
-        "upcoming": false
-      },
-      {
-        "title": "Off His Rockers",
-        "year": 1992,
-        "directors": [
-          "Barry Cook"
-        ],
-        "franchises": [],
-        "genres": [],
-        "regions": [],
-        "sources": [
-          "director"
-        ],
-        "score": 2.2,
-        "reasons": [
-          {
-            "kind": "director",
-            "name": "Barry Cook",
-            "text": "You rated Mulan (A) by Barry Cook"
-          }
-        ],
-        "qid": "Q18636760",
-        "poster": null,
-        "streaming": [],
-        "upcoming": false
-      },
-      {
-        "title": "Posthumous",
-        "year": 2014,
-        "directors": [
-          "Lulu Wang"
-        ],
-        "franchises": [],
-        "genres": [],
-        "regions": [],
-        "sources": [
-          "director"
-        ],
-        "score": 2.2,
-        "reasons": [
-          {
-            "kind": "director",
-            "name": "Lulu Wang",
-            "text": "You rated The Farewell (A) by Lulu Wang"
-          }
-        ],
-        "qid": "Q55630320",
-        "poster": null,
-        "streaming": [
-          {
-            "id": "5d776b2d51dd69001fe2d184",
-            "name": "Plex",
-            "url": "https://watch.plex.tv/movie/5d776b2d51dd69001fe2d184"
-          }
-        ],
-        "upcoming": false
-      },
-      {
-        "title": "Ralph Breaks the Internet",
-        "year": 2018,
-        "directors": [
-          "Rich Moore"
-        ],
-        "franchises": [],
-        "genres": [],
-        "regions": [],
-        "sources": [
-          "director"
-        ],
-        "score": 2.2,
-        "reasons": [
-          {
-            "kind": "director",
-            "name": "Rich Moore",
-            "text": "You rated Zootopia (A) by Rich Moore"
-          }
-        ],
-        "qid": "Q25167044",
-        "poster": "ralph-breaks-the-internet-2018.png",
-        "streaming": [
-          {
-            "id": "33T1xWWWLhFR",
-            "name": "Disney+",
-            "url": "https://www.disneyplus.com/movies/_/33T1xWWWLhFR"
-          },
-          {
-            "id": "umc.cmc.4zwfz519ttvahehhgkmaw4e8z",
-            "name": "Apple TV",
-            "url": "https://tv.apple.com/movie/umc.cmc.4zwfz519ttvahehhgkmaw4e8z"
-          },
-          {
-            "id": "5d776c5323d5a3001f51a443",
-            "name": "Plex",
-            "url": "https://watch.plex.tv/movie/5d776c5323d5a3001f51a443"
-          }
-        ],
-        "upcoming": false
-      },
-      {
-        "title": "Run",
-        "year": 2020,
-        "directors": [
-          "Aneesh Chaganty"
-        ],
-        "franchises": [],
-        "genres": [],
-        "regions": [],
-        "sources": [
-          "director"
-        ],
-        "score": 2.2,
-        "reasons": [
-          {
-            "kind": "director",
-            "name": "Aneesh Chaganty",
-            "text": "You rated Searching (A) by Aneesh Chaganty"
-          }
-        ],
-        "qid": "Q60737911",
-        "poster": null,
-        "streaming": [],
-        "upcoming": false
-      },
-      {
-        "title": "The Polar Bears",
-        "year": 2012,
-        "directors": [
-          "John Stevenson"
-        ],
-        "franchises": [],
-        "genres": [],
-        "regions": [],
-        "sources": [
-          "director"
-        ],
-        "score": 2.2,
-        "reasons": [
-          {
-            "kind": "director",
-            "name": "John Stevenson",
-            "text": "You rated Kung Fu Panda (A) by John Stevenson"
-          }
-        ],
-        "qid": "Q19866395",
-        "poster": null,
-        "streaming": [],
-        "upcoming": false
-      },
-      {
-        "title": "Vanishing Time: A Boy Who Returned",
-        "year": 2016,
-        "directors": [
-          "Um Tae-hwa"
-        ],
-        "franchises": [],
-        "genres": [],
-        "regions": [],
-        "sources": [
-          "director"
-        ],
-        "score": 2.2,
-        "reasons": [
-          {
-            "kind": "director",
-            "name": "Um Tae-hwa",
-            "text": "You rated Concrete Utopia (A) by Um Tae-hwa"
-          }
-        ],
-        "qid": "Q27536739",
-        "poster": "vanishing-time-a-boy-who-returned-2016.jpg",
-        "streaming": [
-          {
-            "id": "5d776c19fb0d55001f57cbb1",
-            "name": "Plex",
-            "url": "https://watch.plex.tv/movie/5d776c19fb0d55001f57cbb1"
-          }
-        ],
-        "upcoming": false
-      },
-      {
-        "title": "Hulk",
-        "year": 2003,
-        "directors": [
-          "Ang Lee"
-        ],
-        "franchises": [],
-        "genres": [],
-        "regions": [],
-        "sources": [
-          "director",
           "box office"
         ],
-        "score": 1.931,
+        "score": 2.429,
         "reasons": [
           {
-            "kind": "director",
-            "name": "Ang Lee",
-            "text": "You rated Eat Drink Man Woman (S) and Life of Pi (C) by Ang Lee"
+            "kind": "genre",
+            "name": "Crime, Mystery, Drama",
+            "text": "Crime, Mystery, Drama — genres you rate well"
           },
           {
-            "kind": "popular",
-            "name": "",
-            "text": "One of 2003's biggest earners"
-          }
-        ],
-        "qid": "Q696042",
-        "poster": null,
-        "streaming": [],
-        "upcoming": false
-      },
-      {
-        "title": "The Mermaid",
-        "year": 2016,
-        "directors": [
-          "Stephen Chow"
-        ],
-        "franchises": [],
-        "genres": [],
-        "regions": [],
-        "sources": [
-          "director",
-          "box office"
-        ],
-        "score": 1.653,
-        "reasons": [
-          {
-            "kind": "director",
-            "name": "Stephen Chow",
-            "text": "You rated Kung Fu Hustle (B) and The God of Cookery (B) by Stephen Chow"
-          },
-          {
-            "kind": "popular",
-            "name": "",
-            "text": "One of 2016's biggest earners"
-          }
-        ],
-        "qid": "Q21834546",
-        "poster": null,
-        "streaming": [
-          {
-            "id": "80099085",
-            "name": "Netflix",
-            "url": "https://www.netflix.com/title/80099085"
-          },
-          {
-            "id": "umc.cmc.3fwvmz24rmurjymrbizl6r6uz",
-            "name": "Apple TV",
-            "url": "https://tv.apple.com/movie/umc.cmc.3fwvmz24rmurjymrbizl6r6uz"
-          },
-          {
-            "id": "5d776c1896b655001fe25f17",
-            "name": "Plex",
-            "url": "https://watch.plex.tv/movie/5d776c1896b655001fe25f17"
-          }
-        ],
-        "upcoming": false
-      },
-      {
-        "title": "Badland Hunters",
-        "year": 2024,
-        "directors": [
-          "Heo Myeong-haeng"
-        ],
-        "franchises": [
-          "Concrete Universe"
-        ],
-        "genres": [],
-        "regions": [],
-        "sources": [
-          "franchise"
-        ],
-        "score": 1.6,
-        "reasons": [
-          {
-            "kind": "franchise",
-            "name": "Concrete Universe",
-            "text": "Part of Concrete Universe, where you rated Concrete Utopia (A)"
-          }
-        ],
-        "qid": "Q123469290",
-        "poster": null,
-        "streaming": [
-          {
-            "id": "81721676",
-            "name": "Netflix",
-            "url": "https://www.netflix.com/title/81721676"
-          },
-          {
-            "id": "6547c795beb074ef2bc506d8",
-            "name": "Plex",
-            "url": "https://watch.plex.tv/movie/6547c795beb074ef2bc506d8"
-          }
-        ],
-        "upcoming": false
-      },
-      {
-        "title": "Kung Fu Panda 2",
-        "year": 2011,
-        "directors": [
-          "Jennifer Yuh Nelson"
-        ],
-        "franchises": [
-          "Kung Fu Panda"
-        ],
-        "genres": [],
-        "regions": [],
-        "sources": [
-          "franchise"
-        ],
-        "score": 1.6,
-        "reasons": [
-          {
-            "kind": "franchise",
-            "name": "Kung Fu Panda",
-            "text": "Part of Kung Fu Panda, where you rated Kung Fu Panda (A)"
-          }
-        ],
-        "qid": "Q487447",
-        "poster": null,
-        "streaming": [],
-        "upcoming": false
-      },
-      {
-        "title": "Kung Fu Panda 3",
-        "year": 2016,
-        "directors": [
-          "Jennifer Yuh Nelson",
-          "Alessandro Carloni"
-        ],
-        "franchises": [
-          "Kung Fu Panda"
-        ],
-        "genres": [],
-        "regions": [],
-        "sources": [
-          "franchise"
-        ],
-        "score": 1.6,
-        "reasons": [
-          {
-            "kind": "franchise",
-            "name": "Kung Fu Panda",
-            "text": "Part of Kung Fu Panda, where you rated Kung Fu Panda (A)"
-          }
-        ],
-        "qid": "Q15055043",
-        "poster": null,
-        "streaming": [],
-        "upcoming": false
-      },
-      {
-        "title": "CJ7",
-        "year": 2008,
-        "directors": [
-          "Stephen Chow"
-        ],
-        "franchises": [],
-        "genres": [],
-        "regions": [],
-        "sources": [
-          "director"
-        ],
-        "score": 1.467,
-        "reasons": [
-          {
-            "kind": "director",
-            "name": "Stephen Chow",
-            "text": "You rated Kung Fu Hustle (B) and The God of Cookery (B) by Stephen Chow"
-          }
-        ],
-        "qid": "Q609170",
-        "poster": null,
-        "streaming": [],
-        "upcoming": false
-      },
-      {
-        "title": "Demon Slayer: Kimetsu no Yaiba – To the Hashira Training",
-        "year": 2024,
-        "directors": [
-          "Haruo Sotozaki"
-        ],
-        "franchises": [],
-        "genres": [],
-        "regions": [],
-        "sources": [
-          "director"
-        ],
-        "score": 1.467,
-        "reasons": [
-          {
-            "kind": "director",
-            "name": "Haruo Sotozaki",
-            "text": "You rated Demon Slayer: Kimetsu no Yaiba – Infinity Castle (B) and Demon Slayer: Kimetsu no Yaiba – The Movie: Mugen Train (B) by Haruo Sotozaki"
-          }
-        ],
-        "qid": "Q124338554",
-        "poster": null,
-        "streaming": [],
-        "upcoming": false
-      },
-      {
-        "title": "Demon Slayer: Kimetsu no Yaiba – To the Swordsmith Village",
-        "year": 2023,
-        "directors": [
-          "Haruo Sotozaki"
-        ],
-        "franchises": [],
-        "genres": [],
-        "regions": [],
-        "sources": [
-          "director"
-        ],
-        "score": 1.467,
-        "reasons": [
-          {
-            "kind": "director",
-            "name": "Haruo Sotozaki",
-            "text": "You rated Demon Slayer: Kimetsu no Yaiba – Infinity Castle (B) and Demon Slayer: Kimetsu no Yaiba – The Movie: Mugen Train (B) by Haruo Sotozaki"
-          }
-        ],
-        "qid": "Q111915590",
-        "poster": null,
-        "streaming": [],
-        "upcoming": false
-      },
-      {
-        "title": "Black Panther: Wakanda Forever",
-        "year": 2022,
-        "directors": [
-          "Ryan Coogler"
-        ],
-        "franchises": [
-          "Marvel Cinematic Universe"
-        ],
-        "genres": [],
-        "regions": [],
-        "sources": [
-          "franchise",
-          "box office"
-        ],
-        "score": 1.334,
-        "reasons": [
-          {
-            "kind": "director",
-            "name": "Ryan Coogler",
-            "text": "You rated Black Panther (B) by Ryan Coogler"
-          },
-          {
-            "kind": "popular",
-            "name": "",
-            "text": "One of 2022's biggest earners"
-          }
-        ],
-        "qid": "Q54860489",
-        "poster": null,
-        "streaming": [],
-        "upcoming": false
-      },
-      {
-        "title": "Casino Royale",
-        "year": 2006,
-        "directors": [
-          "Martin Campbell"
-        ],
-        "franchises": [],
-        "genres": [],
-        "regions": [],
-        "sources": [
-          "director",
-          "box office"
-        ],
-        "score": 1.296,
-        "reasons": [
-          {
-            "kind": "director",
-            "name": "Martin Campbell",
-            "text": "You rated The Foreigner (B) by Martin Campbell"
+            "kind": "region",
+            "name": "Hong Kong",
+            "text": "From Hong Kong, where you've rated 16 films"
           },
           {
             "kind": "popular",
@@ -16267,94 +18106,368 @@
             "text": "One of 2006's biggest earners"
           }
         ],
-        "qid": "Q151904",
-        "poster": null,
-        "streaming": [],
-        "upcoming": false
-      },
-      {
-        "title": "Planet of the Apes",
-        "year": 2001,
-        "directors": [
-          "Tim Burton"
-        ],
-        "franchises": [
-          "Planet of the Apes"
-        ],
-        "genres": [],
-        "regions": [],
-        "sources": [
-          "franchise",
-          "box office"
-        ],
-        "score": 1.26,
-        "reasons": [
+        "qid": "Q172975",
+        "poster": "the-departed-2006.jpg",
+        "streaming": [
           {
-            "kind": "franchise",
-            "name": "Planet of the Apes",
-            "text": "Part of Planet of the Apes, where you rated Dawn of the Planet of the Apes (A) and Rise of the Planet of the Apes (A)"
+            "id": "70044689",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/70044689"
           },
           {
-            "kind": "popular",
-            "name": "",
-            "text": "One of 2001's biggest earners"
+            "id": "umc.cmc.6795ameca08rcfnqch2u5vmj8",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.6795ameca08rcfnqch2u5vmj8"
+          },
+          {
+            "id": "5d77682985719b001f3a14bd",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d77682985719b001f3a14bd"
           }
         ],
-        "qid": "Q469624",
-        "poster": null,
-        "streaming": [],
         "upcoming": false
       },
       {
-        "title": "GoldenEye",
-        "year": 1995,
+        "title": "Mission: Impossible – Rogue Nation",
+        "year": 2015,
         "directors": [
-          "Martin Campbell"
+          "Christopher McQuarrie"
         ],
         "franchises": [],
-        "genres": [],
-        "regions": [],
+        "genres": [
+          "Thriller",
+          "Action"
+        ],
+        "regions": [
+          "USA",
+          "China",
+          "Hong Kong",
+          "UK"
+        ],
         "sources": [
-          "director",
           "box office"
         ],
-        "score": 1.237,
+        "score": 2.358,
         "reasons": [
           {
-            "kind": "director",
-            "name": "Martin Campbell",
-            "text": "You rated The Foreigner (B) by Martin Campbell"
+            "kind": "genre",
+            "name": "Thriller, Action",
+            "text": "Thriller, Action — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "Hong Kong",
+            "text": "From Hong Kong, where you've rated 16 films"
           },
           {
             "kind": "popular",
             "name": "",
-            "text": "One of 1995's biggest earners"
+            "text": "One of 2015's biggest earners"
           }
         ],
-        "qid": "Q19089",
-        "poster": null,
-        "streaming": [],
+        "qid": "Q17548046",
+        "poster": "mission-impossible-rogue-nation-2015.jpg",
+        "streaming": [
+          {
+            "id": "80038359",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/80038359"
+          },
+          {
+            "id": "umc.cmc.5v3hpkm4ni9b2mf4585utgmjg",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.5v3hpkm4ni9b2mf4585utgmjg"
+          },
+          {
+            "id": "5d7769f77a53e9001e6f630d",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d7769f77a53e9001e6f630d"
+          }
+        ],
         "upcoming": false
       },
       {
-        "title": "The Great Wall",
+        "title": "The Karate Kid",
+        "year": 2010,
+        "directors": [
+          "Harald Zwart"
+        ],
+        "franchises": [],
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Martial arts",
+          "Family"
+        ],
+        "regions": [
+          "China",
+          "USA"
+        ],
+        "sources": [
+          "box office"
+        ],
+        "score": 2.154,
+        "reasons": [
+          {
+            "kind": "genre",
+            "name": "Family, Martial arts, Comedy",
+            "text": "Family, Martial arts, Comedy — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "China",
+            "text": "From China, where you've rated 22 films"
+          },
+          {
+            "kind": "popular",
+            "name": "",
+            "text": "One of 2010's biggest earners"
+          }
+        ],
+        "qid": "Q327685",
+        "poster": "the-karate-kid-2010.jpg",
+        "streaming": [
+          {
+            "id": "70125931",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/70125931"
+          },
+          {
+            "id": "umc.cmc.7iigdw3fuua2oqv2qlq1g8ocb",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.7iigdw3fuua2oqv2qlq1g8ocb"
+          },
+          {
+            "id": "5d77686e8718ba001e31be8f",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d77686e8718ba001e31be8f"
+          }
+        ],
+        "upcoming": false
+      },
+      {
+        "title": "Monster Hunt",
+        "year": 2015,
+        "directors": [
+          "Raman Hui"
+        ],
+        "franchises": [],
+        "genres": [
+          "Fantasy",
+          "Adventure",
+          "Action",
+          "Comedy"
+        ],
+        "regions": [
+          "China",
+          "Hong Kong"
+        ],
+        "sources": [
+          "box office"
+        ],
+        "score": 2.135,
+        "reasons": [
+          {
+            "kind": "genre",
+            "name": "Comedy, Fantasy, Action",
+            "text": "Comedy, Fantasy, Action — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "Hong Kong",
+            "text": "From Hong Kong, where you've rated 16 films"
+          },
+          {
+            "kind": "popular",
+            "name": "",
+            "text": "One of 2015's biggest earners"
+          }
+        ],
+        "qid": "Q18391038",
+        "poster": null,
+        "streaming": [
+          {
+            "id": "80079479",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/80079479"
+          },
+          {
+            "id": "2ITVP3QEFD44",
+            "name": "Disney+",
+            "url": "https://www.disneyplus.com/movies/_/2ITVP3QEFD44"
+          },
+          {
+            "id": "umc.cmc.32k0dnd1oxf1vxjhqknmt0ex5",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.32k0dnd1oxf1vxjhqknmt0ex5"
+          },
+          {
+            "id": "5d776b9023d5a3001f511c3d",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776b9023d5a3001f511c3d"
+          }
+        ],
+        "upcoming": false
+      },
+      {
+        "title": "Safe House",
+        "year": 2012,
+        "directors": [
+          "Daniel Espinosa"
+        ],
+        "franchises": [],
+        "genres": [
+          "Thriller",
+          "Action",
+          "Crime"
+        ],
+        "regions": [
+          "South Africa",
+          "USA",
+          "Japan"
+        ],
+        "sources": [
+          "box office"
+        ],
+        "score": 2.12,
+        "reasons": [
+          {
+            "kind": "genre",
+            "name": "Crime, Thriller, Action",
+            "text": "Crime, Thriller, Action — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "Japan",
+            "text": "From Japan, where you've rated 13 films"
+          },
+          {
+            "kind": "popular",
+            "name": "",
+            "text": "One of 2012's biggest earners"
+          }
+        ],
+        "qid": "Q934739",
+        "poster": "safe-house-2012.jpg",
+        "streaming": [
+          {
+            "id": "70208104",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/70208104"
+          },
+          {
+            "id": "umc.cmc.5ukjqcczcddoss3xeqinjji09",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.5ukjqcczcddoss3xeqinjji09"
+          },
+          {
+            "id": "5d77689f96b655001fdbd2fc",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d77689f96b655001fdbd2fc"
+          }
+        ],
+        "upcoming": false
+      },
+      {
+        "title": "The Fast and the Furious: Tokyo Drift",
+        "year": 2006,
+        "directors": [
+          "Justin Lin"
+        ],
+        "franchises": [],
+        "genres": [
+          "Action",
+          "Crime",
+          "Thriller"
+        ],
+        "regions": [
+          "USA",
+          "Germany",
+          "Japan"
+        ],
+        "sources": [
+          "box office"
+        ],
+        "score": 2.09,
+        "reasons": [
+          {
+            "kind": "genre",
+            "name": "Crime, Thriller, Action",
+            "text": "Crime, Thriller, Action — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "Japan",
+            "text": "From Japan, where you've rated 13 films"
+          },
+          {
+            "kind": "popular",
+            "name": "",
+            "text": "One of 2006's biggest earners"
+          }
+        ],
+        "qid": "Q213208",
+        "poster": null,
+        "streaming": [
+          {
+            "id": "70044885",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/70044885"
+          },
+          {
+            "id": "5d25dec5-4b58-41b8-b71d-151c9e280c3e",
+            "name": "Hulu",
+            "url": "https://www.hulu.com/movie/5d25dec5-4b58-41b8-b71d-151c9e280c3e"
+          },
+          {
+            "id": "umc.cmc.5607u94s7rdwititvuxm1su1o",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.5607u94s7rdwititvuxm1su1o"
+          },
+          {
+            "id": "5d7768332ec6b5001f6bb969",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d7768332ec6b5001f6bb969"
+          }
+        ],
+        "upcoming": false
+      },
+      {
+        "title": "Assassin's Creed",
         "year": 2016,
         "directors": [
-          "Zhang Yimou"
+          "Justin Kurzel"
         ],
         "franchises": [],
-        "genres": [],
-        "regions": [],
+        "genres": [
+          "Action",
+          "Adventure",
+          "Science fiction",
+          "Fantasy"
+        ],
+        "regions": [
+          "USA",
+          "Spain",
+          "France",
+          "UK",
+          "Hong Kong",
+          "Taiwan",
+          "Malta"
+        ],
         "sources": [
-          "director",
           "box office"
         ],
-        "score": 1.231,
+        "score": 2.084,
         "reasons": [
           {
-            "kind": "director",
-            "name": "Zhang Yimou",
-            "text": "You rated Hero (A) and Full River Red (C) by Zhang Yimou"
+            "kind": "genre",
+            "name": "Fantasy, Action, Adventure",
+            "text": "Fantasy, Action, Adventure — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "Taiwan",
+            "text": "From Taiwan, where you've rated 4 films"
           },
           {
             "kind": "popular",
@@ -16362,9 +18475,230 @@
             "text": "One of 2016's biggest earners"
           }
         ],
-        "qid": "Q19587336",
+        "qid": "Q18816889",
+        "poster": null,
+        "streaming": [
+          {
+            "id": "80117445",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/80117445"
+          },
+          {
+            "id": "umc.cmc.4o6bng1brlpy68jz4qmcud94l",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.4o6bng1brlpy68jz4qmcud94l"
+          },
+          {
+            "id": "5d77697aad5437001f75e07c",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d77697aad5437001f75e07c"
+          }
+        ],
+        "upcoming": false
+      },
+      {
+        "title": "An Encounter to Remember",
+        "year": 2023,
+        "directors": [
+          "Zhichao Ha"
+        ],
+        "franchises": [],
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "regions": [
+          "China"
+        ],
+        "sources": [
+          "box office"
+        ],
+        "score": 2.068,
+        "reasons": [
+          {
+            "kind": "genre",
+            "name": "Romance, Drama",
+            "text": "Romance, Drama — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "China",
+            "text": "From China, where you've rated 22 films"
+          },
+          {
+            "kind": "popular",
+            "name": "",
+            "text": "One of 2023's biggest earners"
+          }
+        ],
+        "qid": "Q123243364",
         "poster": null,
         "streaming": [],
+        "upcoming": false
+      },
+      {
+        "title": "Umizaru 3: The Last Message",
+        "year": 2010,
+        "directors": [
+          "Eiichirō Hasumi"
+        ],
+        "franchises": [],
+        "genres": [
+          "Drama"
+        ],
+        "regions": [
+          "Japan"
+        ],
+        "sources": [
+          "box office"
+        ],
+        "score": 2.068,
+        "reasons": [
+          {
+            "kind": "genre",
+            "name": "Drama",
+            "text": "Drama — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "Japan",
+            "text": "From Japan, where you've rated 13 films"
+          },
+          {
+            "kind": "popular",
+            "name": "",
+            "text": "One of 2010's biggest earners"
+          }
+        ],
+        "qid": "Q17039529",
+        "poster": null,
+        "streaming": [
+          {
+            "id": "5d7768a46f6af7001ee59700",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d7768a46f6af7001ee59700"
+          }
+        ],
+        "upcoming": false
+      },
+      {
+        "title": "Lost in Translation",
+        "year": 2003,
+        "directors": [
+          "Sofia Coppola"
+        ],
+        "franchises": [],
+        "genres": [
+          "Romance",
+          "Comedy",
+          "Drama"
+        ],
+        "regions": [
+          "USA",
+          "Japan"
+        ],
+        "sources": [
+          "box office"
+        ],
+        "score": 2.06,
+        "reasons": [
+          {
+            "kind": "genre",
+            "name": "Romance, Comedy, Drama",
+            "text": "Romance, Comedy, Drama — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "Japan",
+            "text": "From Japan, where you've rated 13 films"
+          },
+          {
+            "kind": "popular",
+            "name": "",
+            "text": "One of 2003's biggest earners"
+          }
+        ],
+        "qid": "Q107270",
+        "poster": null,
+        "streaming": [
+          {
+            "id": "B001NLCBJI",
+            "name": "Prime Video",
+            "url": "https://www.amazon.com/dp/B001NLCBJI"
+          },
+          {
+            "id": "umc.cmc.4e1hhenepzwuv36lgkmm8ns84",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.4e1hhenepzwuv36lgkmm8ns84"
+          },
+          {
+            "id": "5d776824151a60001f24a29a",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776824151a60001f24a29a"
+          }
+        ],
+        "upcoming": false
+      },
+      {
+        "title": "The Jackal",
+        "year": 1997,
+        "directors": [
+          "Michael Caton-Jones"
+        ],
+        "franchises": [],
+        "genres": [
+          "Thriller",
+          "Action",
+          "Drama",
+          "Crime"
+        ],
+        "regions": [
+          "USA",
+          "France",
+          "Germany",
+          "UK",
+          "Japan"
+        ],
+        "sources": [
+          "box office"
+        ],
+        "score": 2.051,
+        "reasons": [
+          {
+            "kind": "genre",
+            "name": "Crime, Drama, Thriller",
+            "text": "Crime, Drama, Thriller — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "Japan",
+            "text": "From Japan, where you've rated 13 films"
+          },
+          {
+            "kind": "popular",
+            "name": "",
+            "text": "One of 1997's biggest earners"
+          }
+        ],
+        "qid": "Q167437",
+        "poster": null,
+        "streaming": [
+          {
+            "id": "1181643",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/1181643"
+          },
+          {
+            "id": "umc.cmc.77gachmfs619tzwbanwqghkbk",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.77gachmfs619tzwbanwqghkbk"
+          },
+          {
+            "id": "5d776d16fb0d55001f5972c6",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776d16fb0d55001f5972c6"
+          }
+        ],
         "upcoming": false
       }
     ],
