@@ -58,6 +58,14 @@
           "director": "Curry Barker",
           "poster": "obsession-2026.jpeg",
           "slug": "obsession-2026"
+        },
+        {
+          "title": "Once Upon a Time in the Middle East",
+          "year": 2026,
+          "tier": "?",
+          "director": null,
+          "poster": "once-upon-a-time-in-the-middle-east-2026.jpg",
+          "slug": "once-upon-a-time-in-the-middle-east-2026"
         }
       ],
       "top": [
@@ -20262,7 +20270,7 @@
       },
       {
         "title": "Once Upon a Time in the Middle East",
-        "year": null,
+        "year": 2026,
         "directors": [],
         "franchises": [],
         "genres": [],
@@ -20273,8 +20281,8 @@
         "box": null,
         "score": 0.0,
         "reasons": [],
-        "slug": "once-upon-a-time-in-the-middle-east",
-        "poster": null,
+        "slug": "once-upon-a-time-in-the-middle-east-2026",
+        "poster": "once-upon-a-time-in-the-middle-east-2026.jpg",
         "streaming": [],
         "country": null
       },
@@ -27713,20 +27721,20 @@
     },
     {
       "title": "Once Upon a Time in the Middle East",
-      "year": null,
+      "year": 2026,
       "tier": "?",
       "country": null,
       "region": "Unknown",
       "note": null,
       "director": null,
       "directors": [],
-      "poster": null,
+      "poster": "once-upon-a-time-in-the-middle-east-2026.jpg",
       "nativeTitle": null,
       "critique": null,
       "shortlisted": false,
       "analysis": null,
       "streaming": [],
-      "slug": "once-upon-a-time-in-the-middle-east",
+      "slug": "once-upon-a-time-in-the-middle-east-2026",
       "genres": [],
       "franchises": []
     },
