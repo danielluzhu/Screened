@@ -22743,7 +22743,7 @@
         "country": null
       }
     ],
-    "rated": 134,
+    "rated": 135,
     "taste": {
       "directors": [
         {
@@ -30782,6 +30782,25 @@
       "analysis": null,
       "streaming": [],
       "slug": "fishes-flew-away-2025",
+      "genres": [],
+      "franchises": []
+    },
+    {
+      "title": "How to make millions before grandma dies",
+      "year": null,
+      "tier": "A",
+      "country": null,
+      "region": "Unknown",
+      "note": null,
+      "director": null,
+      "directors": [],
+      "poster": "how-to-make-millions-before-grandma-dies.jpg",
+      "nativeTitle": null,
+      "critique": null,
+      "shortlisted": false,
+      "analysis": null,
+      "streaming": [],
+      "slug": "how-to-make-millions-before-grandma-dies",
       "genres": [],
       "franchises": []
     }
