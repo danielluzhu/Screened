@@ -246,6 +246,25 @@ const server = Bun.serve({
       return Response.json(result, { status });
     }
 
+    // Currently watching: started, not finished. Same shape as the short list.
+    if (path === "/api/film/watching") {
+      if (req.method !== "POST") return new Response("method not allowed", { status: 405 });
+      let body: Record<string, unknown>;
+      try {
+        body = await req.json();
+      } catch {
+        return Response.json({ ok: false, error: "invalid JSON" }, { status: 400 });
+      }
+      if (!String(body.title ?? "").trim()) {
+        return Response.json({ ok: false, error: "title is required" }, { status: 400 });
+      }
+      const result: WriteResult = await (chain = chain.then(() =>
+        runScript("set_watching.py", body)
+      ) as Promise<WriteResult>);
+      const status = result.ok ? 200 : result.error?.endsWith("is not in the list") ? 404 : 500;
+      return Response.json(result, { status });
+    }
+
     if (path === "/api/film/critique") {
       if (req.method !== "POST") return new Response("method not allowed", { status: 405 });
       let body: Record<string, unknown>;

@@ -175,6 +175,47 @@ function shortlistToggle(film) {
   return button;
 }
 
+// Currently watching: a play mark under the short list's +. It moves the film
+// into the "Currently watching" group at the top of the Films page.
+function watchingToggle(film) {
+  const button = text("button", "pin is-watch", "▶");
+  button.type = "button";
+  const paint = () => {
+    button.classList.toggle("is-on", Boolean(film.watching));
+    button.title = film.watching
+      ? `You're watching ${film.title} — click when you're done`
+      : `Mark ${film.title} as currently watching`;
+    button.setAttribute("aria-pressed", String(Boolean(film.watching)));
+    button.setAttribute("aria-label", button.title);
+  };
+  paint();
+
+  button.addEventListener("click", async (event) => {
+    event.preventDefault();
+    event.stopPropagation();
+    const next = !film.watching;
+    button.disabled = true;
+    try {
+      const res = await fetch("/Screened/api/film/watching", {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify({ title: film.title, year: film.year, on: next }),
+      });
+      const result = await res.json().catch(() => ({ ok: false, error: `HTTP ${res.status}` }));
+      if (!res.ok || !result.ok) throw new Error(result.error || `HTTP ${res.status}`);
+      film.watching = next;
+      paint();
+      toast(next ? `${film.title} → currently watching` : `${film.title} no longer watching`);
+      if (currentView() === "films") renderFilms();
+    } catch (err) {
+      toast(`Couldn't update ${film.title}: ${err.message}`, "error");
+    } finally {
+      button.disabled = false;
+    }
+  });
+  return button;
+}
+
 function tierSelect(film) {
   const label = film.year ? `${film.title} (${film.year})` : film.title;
   const select = tierBadgeSelect(film.tier, label);
@@ -347,7 +388,8 @@ function tile({ art, badge, pin = null, title, lines = [], wide = false, href = 
   card.append(href ? artLink(node, href) : node);
 
   if (badge) card.append(badge);
-  if (pin) card.append(pin);
+  // One control or several, stacked down the left edge.
+  for (const p of [pin].flat()) if (p) card.append(p);
 
   const overlay = text("div", "tile-overlay");
   overlay.append(title);
@@ -382,7 +424,7 @@ function filmCard(film, priority = false) {
     art: film.poster ? `/Screened/posters/${film.poster}` : null,
     priority,
     badge: tierSelect(film),
-    pin: shortlistToggle(film),
+    pin: [shortlistToggle(film), watchingToggle(film)],
     title: titleField(film),
     lines: [
       // Original-language title for films not made in English.
@@ -433,8 +475,29 @@ function renderFilms() {
   }
 
   if (state.sort === "tier") {
+    // Started but not finished goes first, ahead of every tier, and out of the
+    // tier it would otherwise sit in.
+    const watching = films.filter((f) => f.watching);
+    if (watching.length) {
+      const section = text("section", "tier-group is-watching");
+      const head = text("h2", "tier-head");
+      head.append(
+        text("span", "badge is-watching", "▶"),
+        text("span", null, "Currently watching"),
+        text("span", "tier-count", `${watching.length} ${watching.length === 1 ? "film" : "films"}`)
+      );
+      section.append(head);
+      const grid = text("div", "grid is-tiles");
+      for (const f of [...watching].sort((a, b) => a.title.localeCompare(b.title))) {
+        grid.append(filmCard(f, true));
+      }
+      section.append(grid);
+      host.append(section);
+    }
+
     const groups = new Map();
     for (const f of films) {
+      if (f.watching) continue;
       if (!groups.has(f.tier)) groups.set(f.tier, []);
       groups.get(f.tier).push(f);
     }

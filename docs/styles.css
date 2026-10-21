@@ -2472,6 +2472,18 @@ a.sug-title:hover {
   background: rgba(0, 0, 0, 0.72);
 }
 
+/* The watching toggle sits under the short list's +. The play glyph is a solid
+   shape, so it wants a smaller size than + and − to carry the same weight. */
+.pin.is-watch {
+  top: 40px;
+  font-size: 0.7rem;
+}
+
+.badge.is-watching {
+  color: var(--accent);
+  font-size: 0.7rem;
+}
+
 .pin:disabled {
   opacity: 0.5;
   cursor: default;

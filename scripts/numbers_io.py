@@ -30,6 +30,10 @@ SHORTLIST_HEADER = "Short list"
 # What a ticked cell holds. Numbers will show a checkbox if the column is
 # formatted as one; a plain "yes" reads the same either way.
 SHORTLIST_ON = "yes"
+# Currently watching: started, not finished. Its own column after Short list,
+# ticked the same way.
+COL_WATCHING = 12
+WATCHING_HEADER = "Watching"
 
 
 def is_shortlisted(value):
@@ -37,6 +41,10 @@ def is_shortlisted(value):
     if isinstance(value, bool):
         return value
     return str(value or "").strip().lower() in {"yes", "y", "true", "1", "x", "✓"}
+
+
+# A Watching cell is ticked the same way as a Short list one.
+is_watching = is_shortlisted
 
 # Characters sheet layout. Tier was appended after the fact, so rows written
 # before it exists read as blank and are treated as unrated.

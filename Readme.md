@@ -245,6 +245,21 @@ the list until you take it off, and it shouldn't sit among the ones you haven't
 seen. Nothing enforces that only unrated films go on it — the list is yours —
 but that split is what it's shaped for.
 
+### Currently watching
+
+Films you've started and haven't finished. The ▶ under the + on any film's tile
+marks it, and clicking it again clears it. On the Films tab, sorted by tier,
+these films sit in a **Currently watching** group above tier S instead of in
+their own tier.
+
+Like the short list, it's stored in `Favorites.numbers`, in a **Watching** column
+after `Short list`. The column is created the first time you use it.
+
+```sh
+python3 scripts/set_watching.py --list           # what's being watched
+echo '{"title": "Tokyo Taxi", "year": 2025, "on": true}' | python3 scripts/set_watching.py
+```
+
 ### Editing ratings
 
 Click any tier badge on the Films tab to change a rating. The change is written
