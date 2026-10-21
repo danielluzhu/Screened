@@ -12,6 +12,14 @@
           "slug": "dear-you-2026"
         },
         {
+          "title": "Once Upon a Time in the Middle East",
+          "year": 2026,
+          "tier": "A",
+          "director": null,
+          "poster": "once-upon-a-time-in-the-middle-east-2026.jpg",
+          "slug": "once-upon-a-time-in-the-middle-east-2026"
+        },
+        {
           "title": "Vanishing Point",
           "year": 2026,
           "tier": "A",
@@ -58,14 +66,6 @@
           "director": "Curry Barker",
           "poster": "obsession-2026.jpeg",
           "slug": "obsession-2026"
-        },
-        {
-          "title": "Once Upon a Time in the Middle East",
-          "year": 2026,
-          "tier": "?",
-          "director": null,
-          "poster": "once-upon-a-time-in-the-middle-east-2026.jpg",
-          "slug": "once-upon-a-time-in-the-middle-east-2026"
         }
       ],
       "top": [
@@ -22635,24 +22635,6 @@
         "country": null
       },
       {
-        "title": "Once Upon a Time in the Middle East",
-        "year": 2026,
-        "directors": [],
-        "franchises": [],
-        "genres": [],
-        "regions": [],
-        "sources": [
-          "your list"
-        ],
-        "box": null,
-        "score": 0.0,
-        "reasons": [],
-        "slug": "once-upon-a-time-in-the-middle-east-2026",
-        "poster": "once-upon-a-time-in-the-middle-east-2026.jpg",
-        "streaming": [],
-        "country": null
-      },
-      {
         "title": "Twilight of the Warriors: Walled In",
         "year": null,
         "directors": [],
@@ -22725,7 +22707,7 @@
         "country": null
       }
     ],
-    "rated": 136,
+    "rated": 137,
     "taste": {
       "directors": [
         {
@@ -30142,7 +30124,7 @@
     {
       "title": "Once Upon a Time in the Middle East",
       "year": 2026,
-      "tier": "?",
+      "tier": "A",
       "country": null,
       "region": "Unknown",
       "note": null,
