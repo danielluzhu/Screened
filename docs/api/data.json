@@ -247,6 +247,14 @@
           "director": "Byun Sung-hyun",
           "poster": "good-news-2025.jpg",
           "slug": "good-news-2025"
+        },
+        {
+          "title": "Tokyo Taxi",
+          "year": 2025,
+          "tier": "?",
+          "director": "Yoji Yamada",
+          "poster": "tokyo-taxi-2025.jpg",
+          "slug": "tokyo-taxi-2025"
         }
       ],
       "top": [
@@ -22433,6 +22441,34 @@
         "country": "American"
       },
       {
+        "title": "Tokyo Taxi",
+        "year": 2025,
+        "directors": [
+          "Yoji Yamada"
+        ],
+        "franchises": [],
+        "genres": [],
+        "regions": [
+          "Japan"
+        ],
+        "sources": [
+          "your list"
+        ],
+        "box": null,
+        "score": 0.987,
+        "reasons": [
+          {
+            "kind": "region",
+            "name": "Japan",
+            "text": "From Japan, where you've rated 14 films"
+          }
+        ],
+        "slug": "tokyo-taxi-2025",
+        "poster": "tokyo-taxi-2025.jpg",
+        "streaming": [],
+        "country": "Japan"
+      },
+      {
         "title": "Gook",
         "year": 2017,
         "directors": [
@@ -30707,6 +30743,27 @@
       "analysis": null,
       "streaming": [],
       "slug": "passengers-2016",
+      "genres": [],
+      "franchises": []
+    },
+    {
+      "title": "Tokyo Taxi",
+      "year": 2025,
+      "tier": "?",
+      "country": "Japan",
+      "region": "Japan",
+      "note": null,
+      "director": "Yoji Yamada",
+      "directors": [
+        "Yoji Yamada"
+      ],
+      "poster": "tokyo-taxi-2025.jpg",
+      "nativeTitle": null,
+      "critique": null,
+      "shortlisted": false,
+      "analysis": null,
+      "streaming": [],
+      "slug": "tokyo-taxi-2025",
       "genres": [],
       "franchises": []
     }
@@ -40441,6 +40498,23 @@
           "director": "Yihui Shao",
           "poster": "her-story-2024.jpg",
           "slug": "her-story-2024"
+        }
+      ],
+      "others": [],
+      "photo": null,
+      "photoCredit": null
+    },
+    {
+      "name": "Yoji Yamada",
+      "slug": "yoji-yamada",
+      "films": [
+        {
+          "title": "Tokyo Taxi",
+          "year": 2025,
+          "tier": "?",
+          "director": "Yoji Yamada",
+          "poster": "tokyo-taxi-2025.jpg",
+          "slug": "tokyo-taxi-2025"
         }
       ],
       "others": [],
