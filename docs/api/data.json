@@ -8439,20 +8439,20 @@
       "year": 1988,
       "films": [
         {
+          "title": "Grave of the Fireflies",
+          "year": 1988,
+          "tier": "B",
+          "director": "Isao Takahata",
+          "poster": "grave-of-the-fireflies-1988.jpg",
+          "slug": "grave-of-the-fireflies-1988"
+        },
+        {
           "title": "Akira",
           "year": 1988,
           "tier": "?",
           "director": "Katsuhiro Otomo",
           "poster": "akira-1988.jpg",
           "slug": "akira-1988"
-        },
-        {
-          "title": "Grave of the Fireflies",
-          "year": 1988,
-          "tier": "?",
-          "director": "Isao Takahata",
-          "poster": "grave-of-the-fireflies-1988.jpg",
-          "slug": "grave-of-the-fireflies-1988"
         },
         {
           "title": "My Neighbor Totoro",
@@ -13924,7 +13924,7 @@
           "director",
           "franchise"
         ],
-        "score": 6.714,
+        "score": 6.715,
         "reasons": [
           {
             "kind": "director",
@@ -14211,51 +14211,6 @@
         "upcoming": false
       },
       {
-        "title": "7s",
-        "year": 2015,
-        "directors": [
-          "Michihito Fujii"
-        ],
-        "franchises": [],
-        "genres": [
-          "Coming-of-age"
-        ],
-        "regions": [
-          "Japan"
-        ],
-        "sources": [
-          "director"
-        ],
-        "score": 5.729,
-        "reasons": [
-          {
-            "kind": "director",
-            "name": "Michihito Fujii",
-            "text": "You rated 18×2 Beyond Youthful Days (S) by Michihito Fujii"
-          },
-          {
-            "kind": "genre",
-            "name": "Coming-of-age",
-            "text": "Coming-of-age — genres you rate well"
-          },
-          {
-            "kind": "region",
-            "name": "Japan",
-            "text": "From Japan, where you've rated 13 films"
-          }
-        ],
-        "qid": "Q24865305",
-        "poster": null,
-        "streaming": [
-          {
-            "id": "5d776f007a53e9001e789245",
-            "name": "Plex",
-            "url": "https://watch.plex.tv/movie/5d776f007a53e9001e789245"
-          }
-        ],
-        "upcoming": false
-      },
-      {
         "title": "Pokémon 4Ever",
         "year": 2001,
         "directors": [
@@ -14275,7 +14230,7 @@
           "director",
           "franchise"
         ],
-        "score": 5.682,
+        "score": 5.669,
         "reasons": [
           {
             "kind": "director",
@@ -14295,7 +14250,7 @@
           {
             "kind": "region",
             "name": "Japan",
-            "text": "From Japan, where you've rated 13 films"
+            "text": "From Japan, where you've rated 14 films"
           }
         ],
         "qid": "Q82579",
@@ -14334,7 +14289,7 @@
           "director",
           "franchise"
         ],
-        "score": 5.682,
+        "score": 5.669,
         "reasons": [
           {
             "kind": "director",
@@ -14354,7 +14309,7 @@
           {
             "kind": "region",
             "name": "Japan",
-            "text": "From Japan, where you've rated 13 films"
+            "text": "From Japan, where you've rated 14 films"
           }
         ],
         "qid": "Q28016163",
@@ -14374,6 +14329,51 @@
             "id": "5d776d5123d5a3001f5223c3",
             "name": "Plex",
             "url": "https://watch.plex.tv/movie/5d776d5123d5a3001f5223c3"
+          }
+        ],
+        "upcoming": false
+      },
+      {
+        "title": "7s",
+        "year": 2015,
+        "directors": [
+          "Michihito Fujii"
+        ],
+        "franchises": [],
+        "genres": [
+          "Coming-of-age"
+        ],
+        "regions": [
+          "Japan"
+        ],
+        "sources": [
+          "director"
+        ],
+        "score": 5.662,
+        "reasons": [
+          {
+            "kind": "director",
+            "name": "Michihito Fujii",
+            "text": "You rated 18×2 Beyond Youthful Days (S) by Michihito Fujii"
+          },
+          {
+            "kind": "genre",
+            "name": "Coming-of-age",
+            "text": "Coming-of-age — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "Japan",
+            "text": "From Japan, where you've rated 14 films"
+          }
+        ],
+        "qid": "Q24865305",
+        "poster": null,
+        "streaming": [
+          {
+            "id": "5d776f007a53e9001e789245",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776f007a53e9001e789245"
           }
         ],
         "upcoming": false
@@ -14460,7 +14460,7 @@
         "sources": [
           "director"
         ],
-        "score": 5.392,
+        "score": 5.379,
         "reasons": [
           {
             "kind": "director",
@@ -14475,7 +14475,7 @@
           {
             "kind": "region",
             "name": "Japan",
-            "text": "From Japan, where you've rated 13 films"
+            "text": "From Japan, where you've rated 14 films"
           }
         ],
         "qid": "Q112646942",
@@ -14511,7 +14511,7 @@
         "sources": [
           "director"
         ],
-        "score": 5.275,
+        "score": 5.262,
         "reasons": [
           {
             "kind": "director",
@@ -14526,7 +14526,7 @@
           {
             "kind": "region",
             "name": "Japan",
-            "text": "From Japan, where you've rated 13 films"
+            "text": "From Japan, where you've rated 14 films"
           }
         ],
         "qid": "Q14948460",
@@ -14564,7 +14564,7 @@
         "sources": [
           "director"
         ],
-        "score": 5.231,
+        "score": 5.232,
         "reasons": [
           {
             "kind": "director",
@@ -14897,7 +14897,7 @@
         "sources": [
           "director"
         ],
-        "score": 5.05,
+        "score": 5.037,
         "reasons": [
           {
             "kind": "director",
@@ -14912,7 +14912,7 @@
           {
             "kind": "region",
             "name": "Japan",
-            "text": "From Japan, where you've rated 13 films"
+            "text": "From Japan, where you've rated 14 films"
           }
         ],
         "qid": "Q3482275",
@@ -14941,7 +14941,7 @@
         "sources": [
           "director"
         ],
-        "score": 4.817,
+        "score": 4.805,
         "reasons": [
           {
             "kind": "director",
@@ -14956,7 +14956,7 @@
           {
             "kind": "region",
             "name": "Japan",
-            "text": "From Japan, where you've rated 13 films"
+            "text": "From Japan, where you've rated 14 films"
           }
         ],
         "qid": "Q485759",
@@ -14981,67 +14981,6 @@
         "upcoming": false
       },
       {
-        "title": "The Wind Rises",
-        "year": 2013,
-        "directors": [
-          "Hayao Miyazaki"
-        ],
-        "franchises": [],
-        "genres": [
-          "Drama",
-          "Coming-of-age"
-        ],
-        "regions": [
-          "Japan"
-        ],
-        "sources": [
-          "director"
-        ],
-        "score": 4.796,
-        "reasons": [
-          {
-            "kind": "director",
-            "name": "Hayao Miyazaki",
-            "text": "You rated Princess Mononoke (A) and Spirited Away (A) by Hayao Miyazaki"
-          },
-          {
-            "kind": "genre",
-            "name": "Coming-of-age, Drama",
-            "text": "Coming-of-age, Drama — genres you rate well"
-          },
-          {
-            "kind": "region",
-            "name": "Japan",
-            "text": "From Japan, where you've rated 13 films"
-          }
-        ],
-        "qid": "Q888131",
-        "poster": "the-wind-rises-2013.jpg",
-        "streaming": [
-          {
-            "id": "70293674",
-            "name": "Netflix",
-            "url": "https://www.netflix.com/title/70293674"
-          },
-          {
-            "id": "feature/urn:hbo:feature:GXsQzAw8HPITCwgEAAAAM",
-            "name": "HBO Max",
-            "url": "https://play.max.com/video/watch/feature/urn:hbo:feature:GXsQzAw8HPITCwgEAAAAM"
-          },
-          {
-            "id": "umc.cmc.184qbh86enrlfq7wbce3bf061",
-            "name": "Apple TV",
-            "url": "https://tv.apple.com/movie/umc.cmc.184qbh86enrlfq7wbce3bf061"
-          },
-          {
-            "id": "5d7769bfad5437001f766d94",
-            "name": "Plex",
-            "url": "https://watch.plex.tv/movie/5d7769bfad5437001f766d94"
-          }
-        ],
-        "upcoming": false
-      },
-      {
         "title": "Just Heroes",
         "year": 1989,
         "directors": [
@@ -15059,7 +14998,7 @@
         "sources": [
           "director"
         ],
-        "score": 4.781,
+        "score": 4.782,
         "reasons": [
           {
             "kind": "director",
@@ -15134,14 +15073,15 @@
         "upcoming": false
       },
       {
-        "title": "Blackmail Is My Life",
-        "year": 1968,
+        "title": "The Wind Rises",
+        "year": 2013,
         "directors": [
-          "Kinji Fukasaku"
+          "Hayao Miyazaki"
         ],
         "franchises": [],
         "genres": [
-          "Crime"
+          "Drama",
+          "Coming-of-age"
         ],
         "regions": [
           "Japan"
@@ -15149,81 +15089,46 @@
         "sources": [
           "director"
         ],
-        "score": 4.75,
+        "score": 4.757,
         "reasons": [
           {
             "kind": "director",
-            "name": "Kinji Fukasaku",
-            "text": "You rated Battle Royale (A) by Kinji Fukasaku"
+            "name": "Hayao Miyazaki",
+            "text": "You rated Princess Mononoke (A) and Spirited Away (A) by Hayao Miyazaki"
           },
           {
             "kind": "genre",
-            "name": "Crime",
-            "text": "Crime — genres you rate well"
+            "name": "Coming-of-age, Drama",
+            "text": "Coming-of-age, Drama — genres you rate well"
           },
           {
             "kind": "region",
             "name": "Japan",
-            "text": "From Japan, where you've rated 13 films"
+            "text": "From Japan, where you've rated 14 films"
           }
         ],
-        "qid": "Q10430860",
-        "poster": "blackmail-is-my-life-1968.jpg",
+        "qid": "Q888131",
+        "poster": "the-wind-rises-2013.jpg",
         "streaming": [
           {
-            "id": "60033772",
+            "id": "70293674",
             "name": "Netflix",
-            "url": "https://www.netflix.com/title/60033772"
+            "url": "https://www.netflix.com/title/70293674"
           },
           {
-            "id": "5d776920f617c9002015d906",
+            "id": "feature/urn:hbo:feature:GXsQzAw8HPITCwgEAAAAM",
+            "name": "HBO Max",
+            "url": "https://play.max.com/video/watch/feature/urn:hbo:feature:GXsQzAw8HPITCwgEAAAAM"
+          },
+          {
+            "id": "umc.cmc.184qbh86enrlfq7wbce3bf061",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.184qbh86enrlfq7wbce3bf061"
+          },
+          {
+            "id": "5d7769bfad5437001f766d94",
             "name": "Plex",
-            "url": "https://watch.plex.tv/movie/5d776920f617c9002015d906"
-          }
-        ],
-        "upcoming": false
-      },
-      {
-        "title": "Bloodstained Clan Honor",
-        "year": 1970,
-        "directors": [
-          "Kinji Fukasaku"
-        ],
-        "franchises": [],
-        "genres": [
-          "Crime"
-        ],
-        "regions": [
-          "Japan"
-        ],
-        "sources": [
-          "director"
-        ],
-        "score": 4.75,
-        "reasons": [
-          {
-            "kind": "director",
-            "name": "Kinji Fukasaku",
-            "text": "You rated Battle Royale (A) by Kinji Fukasaku"
-          },
-          {
-            "kind": "genre",
-            "name": "Crime",
-            "text": "Crime — genres you rate well"
-          },
-          {
-            "kind": "region",
-            "name": "Japan",
-            "text": "From Japan, where you've rated 13 films"
-          }
-        ],
-        "qid": "Q24868108",
-        "poster": null,
-        "streaming": [
-          {
-            "id": "5d7768eefb0d55001f51d2a6",
-            "name": "Plex",
-            "url": "https://watch.plex.tv/movie/5d7768eefb0d55001f51d2a6"
+            "url": "https://watch.plex.tv/movie/5d7769bfad5437001f766d94"
           }
         ],
         "upcoming": false
@@ -15270,6 +15175,101 @@
             "id": "5d7768ef96b655001fdc57a5",
             "name": "Plex",
             "url": "https://watch.plex.tv/movie/5d7768ef96b655001fdc57a5"
+          }
+        ],
+        "upcoming": false
+      },
+      {
+        "title": "Blackmail Is My Life",
+        "year": 1968,
+        "directors": [
+          "Kinji Fukasaku"
+        ],
+        "franchises": [],
+        "genres": [
+          "Crime"
+        ],
+        "regions": [
+          "Japan"
+        ],
+        "sources": [
+          "director"
+        ],
+        "score": 4.737,
+        "reasons": [
+          {
+            "kind": "director",
+            "name": "Kinji Fukasaku",
+            "text": "You rated Battle Royale (A) by Kinji Fukasaku"
+          },
+          {
+            "kind": "genre",
+            "name": "Crime",
+            "text": "Crime — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "Japan",
+            "text": "From Japan, where you've rated 14 films"
+          }
+        ],
+        "qid": "Q10430860",
+        "poster": "blackmail-is-my-life-1968.jpg",
+        "streaming": [
+          {
+            "id": "60033772",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/60033772"
+          },
+          {
+            "id": "5d776920f617c9002015d906",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776920f617c9002015d906"
+          }
+        ],
+        "upcoming": false
+      },
+      {
+        "title": "Bloodstained Clan Honor",
+        "year": 1970,
+        "directors": [
+          "Kinji Fukasaku"
+        ],
+        "franchises": [],
+        "genres": [
+          "Crime"
+        ],
+        "regions": [
+          "Japan"
+        ],
+        "sources": [
+          "director"
+        ],
+        "score": 4.737,
+        "reasons": [
+          {
+            "kind": "director",
+            "name": "Kinji Fukasaku",
+            "text": "You rated Battle Royale (A) by Kinji Fukasaku"
+          },
+          {
+            "kind": "genre",
+            "name": "Crime",
+            "text": "Crime — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "Japan",
+            "text": "From Japan, where you've rated 14 films"
+          }
+        ],
+        "qid": "Q24868108",
+        "poster": null,
+        "streaming": [
+          {
+            "id": "5d7768eefb0d55001f51d2a6",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d7768eefb0d55001f51d2a6"
           }
         ],
         "upcoming": false
@@ -15402,7 +15402,7 @@
         "sources": [
           "director"
         ],
-        "score": 4.523,
+        "score": 4.525,
         "reasons": [
           {
             "kind": "director",
@@ -15447,7 +15447,7 @@
         "sources": [
           "director"
         ],
-        "score": 4.523,
+        "score": 4.512,
         "reasons": [
           {
             "kind": "director",
@@ -15462,7 +15462,7 @@
           {
             "kind": "region",
             "name": "Japan",
-            "text": "From Japan, where you've rated 13 films"
+            "text": "From Japan, where you've rated 14 films"
           }
         ],
         "qid": "Q63981780",
@@ -15472,62 +15472,6 @@
             "id": "5d776c07ad5437001f7b1538",
             "name": "Plex",
             "url": "https://watch.plex.tv/movie/5d776c07ad5437001f7b1538"
-          }
-        ],
-        "upcoming": false
-      },
-      {
-        "title": "The Garden of Words",
-        "year": 2013,
-        "directors": [
-          "Makoto Shinkai"
-        ],
-        "franchises": [],
-        "genres": [
-          "Drama",
-          "Coming-of-age"
-        ],
-        "regions": [
-          "Japan"
-        ],
-        "sources": [
-          "director"
-        ],
-        "score": 4.356,
-        "reasons": [
-          {
-            "kind": "director",
-            "name": "Makoto Shinkai",
-            "text": "You rated Your Name (A) and Weathering with You (B) by Makoto Shinkai"
-          },
-          {
-            "kind": "genre",
-            "name": "Coming-of-age, Drama",
-            "text": "Coming-of-age, Drama — genres you rate well"
-          },
-          {
-            "kind": "region",
-            "name": "Japan",
-            "text": "From Japan, where you've rated 13 films"
-          }
-        ],
-        "qid": "Q6434185",
-        "poster": null,
-        "streaming": [
-          {
-            "id": "70291121",
-            "name": "Netflix",
-            "url": "https://www.netflix.com/title/70291121"
-          },
-          {
-            "id": "umc.cmc.6v366c7lqqo9gffg074b35w0c",
-            "name": "Apple TV",
-            "url": "https://tv.apple.com/movie/umc.cmc.6v366c7lqqo9gffg074b35w0c"
-          },
-          {
-            "id": "5d776a2596b655001fde4985",
-            "name": "Plex",
-            "url": "https://watch.plex.tv/movie/5d776a2596b655001fde4985"
           }
         ],
         "upcoming": false
@@ -15609,7 +15553,7 @@
         "sources": [
           "director"
         ],
-        "score": 4.344,
+        "score": 4.322,
         "reasons": [
           {
             "kind": "director",
@@ -15624,7 +15568,7 @@
           {
             "kind": "region",
             "name": "Japan",
-            "text": "From Japan, where you've rated 13 films"
+            "text": "From Japan, where you've rated 14 films"
           }
         ],
         "qid": "Q1072777",
@@ -15639,6 +15583,62 @@
             "id": "5d7768c09ab54400214eb193",
             "name": "Plex",
             "url": "https://watch.plex.tv/movie/5d7768c09ab54400214eb193"
+          }
+        ],
+        "upcoming": false
+      },
+      {
+        "title": "The Garden of Words",
+        "year": 2013,
+        "directors": [
+          "Makoto Shinkai"
+        ],
+        "franchises": [],
+        "genres": [
+          "Drama",
+          "Coming-of-age"
+        ],
+        "regions": [
+          "Japan"
+        ],
+        "sources": [
+          "director"
+        ],
+        "score": 4.317,
+        "reasons": [
+          {
+            "kind": "director",
+            "name": "Makoto Shinkai",
+            "text": "You rated Your Name (A) and Weathering with You (B) by Makoto Shinkai"
+          },
+          {
+            "kind": "genre",
+            "name": "Coming-of-age, Drama",
+            "text": "Coming-of-age, Drama — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "Japan",
+            "text": "From Japan, where you've rated 14 films"
+          }
+        ],
+        "qid": "Q6434185",
+        "poster": null,
+        "streaming": [
+          {
+            "id": "70291121",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/70291121"
+          },
+          {
+            "id": "umc.cmc.6v366c7lqqo9gffg074b35w0c",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.6v366c7lqqo9gffg074b35w0c"
+          },
+          {
+            "id": "5d776a2596b655001fde4985",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776a2596b655001fde4985"
           }
         ],
         "upcoming": false
@@ -15661,7 +15661,7 @@
         "sources": [
           "director"
         ],
-        "score": 4.292,
+        "score": 4.279,
         "reasons": [
           {
             "kind": "director",
@@ -15676,7 +15676,7 @@
           {
             "kind": "region",
             "name": "Japan",
-            "text": "From Japan, where you've rated 13 films"
+            "text": "From Japan, where you've rated 14 films"
           }
         ],
         "qid": "Q51800443",
@@ -15825,7 +15825,7 @@
         "sources": [
           "director"
         ],
-        "score": 4.083,
+        "score": 4.072,
         "reasons": [
           {
             "kind": "director",
@@ -15840,7 +15840,7 @@
           {
             "kind": "region",
             "name": "Japan",
-            "text": "From Japan, where you've rated 13 films"
+            "text": "From Japan, where you've rated 14 films"
           }
         ],
         "qid": "Q137946980",
@@ -15865,7 +15865,7 @@
         "sources": [
           "director"
         ],
-        "score": 4.083,
+        "score": 4.072,
         "reasons": [
           {
             "kind": "director",
@@ -15880,7 +15880,7 @@
           {
             "kind": "region",
             "name": "Japan",
-            "text": "From Japan, where you've rated 13 films"
+            "text": "From Japan, where you've rated 14 films"
           }
         ],
         "qid": "Q17052226",
@@ -15974,7 +15974,7 @@
         "sources": [
           "director"
         ],
-        "score": 3.911,
+        "score": 3.912,
         "reasons": [
           {
             "kind": "director",
@@ -16025,7 +16025,7 @@
         "sources": [
           "director"
         ],
-        "score": 3.911,
+        "score": 3.912,
         "reasons": [
           {
             "kind": "director",
@@ -16083,7 +16083,7 @@
           "director",
           "box office"
         ],
-        "score": 3.896,
+        "score": 3.9,
         "reasons": [
           {
             "kind": "director",
@@ -16146,7 +16146,7 @@
         "sources": [
           "director"
         ],
-        "score": 3.872,
+        "score": 3.873,
         "reasons": [
           {
             "kind": "director",
@@ -16242,7 +16242,7 @@
         "sources": [
           "director"
         ],
-        "score": 3.778,
+        "score": 3.783,
         "reasons": [
           {
             "kind": "director",
@@ -16288,7 +16288,7 @@
         "sources": [
           "director"
         ],
-        "score": 3.744,
+        "score": 3.745,
         "reasons": [
           {
             "kind": "director",
@@ -16312,6 +16312,54 @@
         "upcoming": false
       },
       {
+        "title": "She's Got No Name",
+        "year": 2024,
+        "directors": [
+          "Peter Chan"
+        ],
+        "franchises": [],
+        "genres": [
+          "Drama",
+          "Crime"
+        ],
+        "regions": [
+          "China",
+          "Hong Kong"
+        ],
+        "sources": [
+          "director",
+          "box office"
+        ],
+        "score": 3.682,
+        "reasons": [
+          {
+            "kind": "director",
+            "name": "Peter Chan",
+            "text": "You rated Comrades: Almost a Love Story (B) by Peter Chan"
+          },
+          {
+            "kind": "genre",
+            "name": "Crime, Drama",
+            "text": "Crime, Drama — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "Hong Kong",
+            "text": "From Hong Kong, where you've rated 16 films"
+          }
+        ],
+        "qid": "Q125469653",
+        "poster": null,
+        "streaming": [
+          {
+            "id": "5f40c5b158b26e00426b96f9",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5f40c5b158b26e00426b96f9"
+          }
+        ],
+        "upcoming": false
+      },
+      {
         "title": "I Wanna Hold Your Hand",
         "year": 1978,
         "directors": [
@@ -16327,7 +16375,7 @@
         "sources": [
           "director"
         ],
-        "score": 3.716,
+        "score": 3.662,
         "reasons": [
           {
             "kind": "director",
@@ -16357,54 +16405,6 @@
             "id": "5d7768973ab0e7001f505287",
             "name": "Plex",
             "url": "https://watch.plex.tv/movie/5d7768973ab0e7001f505287"
-          }
-        ],
-        "upcoming": false
-      },
-      {
-        "title": "She's Got No Name",
-        "year": 2024,
-        "directors": [
-          "Peter Chan"
-        ],
-        "franchises": [],
-        "genres": [
-          "Drama",
-          "Crime"
-        ],
-        "regions": [
-          "China",
-          "Hong Kong"
-        ],
-        "sources": [
-          "director",
-          "box office"
-        ],
-        "score": 3.681,
-        "reasons": [
-          {
-            "kind": "director",
-            "name": "Peter Chan",
-            "text": "You rated Comrades: Almost a Love Story (B) by Peter Chan"
-          },
-          {
-            "kind": "genre",
-            "name": "Crime, Drama",
-            "text": "Crime, Drama — genres you rate well"
-          },
-          {
-            "kind": "region",
-            "name": "Hong Kong",
-            "text": "From Hong Kong, where you've rated 16 films"
-          }
-        ],
-        "qid": "Q125469653",
-        "poster": null,
-        "streaming": [
-          {
-            "id": "5f40c5b158b26e00426b96f9",
-            "name": "Plex",
-            "url": "https://watch.plex.tv/movie/5f40c5b158b26e00426b96f9"
           }
         ],
         "upcoming": false
@@ -16586,7 +16586,7 @@
         "sources": [
           "director"
         ],
-        "score": 3.556,
+        "score": 3.557,
         "reasons": [
           {
             "kind": "director",
@@ -16636,7 +16636,7 @@
           "director",
           "franchise"
         ],
-        "score": 3.556,
+        "score": 3.557,
         "reasons": [
           {
             "kind": "director",
@@ -16761,7 +16761,7 @@
         "sources": [
           "director"
         ],
-        "score": 3.504,
+        "score": 3.505,
         "reasons": [
           {
             "kind": "director",
@@ -16801,6 +16801,46 @@
         "upcoming": false
       },
       {
+        "title": "Escape From The Outland",
+        "year": 2025,
+        "directors": [
+          "Ao Shen"
+        ],
+        "franchises": [],
+        "genres": [
+          "War",
+          "Adventure"
+        ],
+        "regions": [
+          "China"
+        ],
+        "sources": [
+          "director"
+        ],
+        "score": 3.44,
+        "reasons": [
+          {
+            "kind": "director",
+            "name": "Ao Shen",
+            "text": "You rated No More Bets (A) by Ao Shen"
+          },
+          {
+            "kind": "genre",
+            "name": "Adventure, War",
+            "text": "Adventure, War — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "China",
+            "text": "From China, where you've rated 22 films"
+          }
+        ],
+        "qid": "Q137589538",
+        "poster": null,
+        "streaming": [],
+        "upcoming": false
+      },
+      {
         "title": "Mon Mon Mon Monsters",
         "year": 2017,
         "directors": [
@@ -16816,7 +16856,7 @@
         "sources": [
           "director"
         ],
-        "score": 3.423,
+        "score": 3.425,
         "reasons": [
           {
             "kind": "director",
@@ -16963,46 +17003,6 @@
         "upcoming": false
       },
       {
-        "title": "Escape From The Outland",
-        "year": 2025,
-        "directors": [
-          "Ao Shen"
-        ],
-        "franchises": [],
-        "genres": [
-          "War",
-          "Adventure"
-        ],
-        "regions": [
-          "China"
-        ],
-        "sources": [
-          "director"
-        ],
-        "score": 3.391,
-        "reasons": [
-          {
-            "kind": "director",
-            "name": "Ao Shen",
-            "text": "You rated No More Bets (A) by Ao Shen"
-          },
-          {
-            "kind": "genre",
-            "name": "Adventure, War",
-            "text": "Adventure, War — genres you rate well"
-          },
-          {
-            "kind": "region",
-            "name": "China",
-            "text": "From China, where you've rated 22 films"
-          }
-        ],
-        "qid": "Q137589538",
-        "poster": null,
-        "streaming": [],
-        "upcoming": false
-      },
-      {
         "title": "Valmont",
         "year": 1989,
         "directors": [
@@ -17021,7 +17021,7 @@
         "sources": [
           "director"
         ],
-        "score": 3.379,
+        "score": 3.38,
         "reasons": [
           {
             "kind": "director",
@@ -17079,7 +17079,7 @@
         "sources": [
           "director"
         ],
-        "score": 3.371,
+        "score": 3.375,
         "reasons": [
           {
             "kind": "director",
@@ -17119,6 +17119,64 @@
         "upcoming": false
       },
       {
+        "title": "Tangled Ever After",
+        "year": 2012,
+        "directors": [
+          "Byron Howard",
+          "Nathan Greno"
+        ],
+        "franchises": [],
+        "genres": [
+          "Romance",
+          "Comedy",
+          "Fantasy"
+        ],
+        "regions": [
+          "USA"
+        ],
+        "sources": [
+          "director"
+        ],
+        "score": 3.309,
+        "reasons": [
+          {
+            "kind": "director",
+            "name": "Byron Howard",
+            "text": "You rated Zootopia (A) and Zootopia 2 (B) by Byron Howard"
+          },
+          {
+            "kind": "genre",
+            "name": "Romance, Comedy, Fantasy",
+            "text": "Romance, Comedy, Fantasy — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "USA",
+            "text": "From USA, where you've rated 45 films"
+          }
+        ],
+        "qid": "Q3224298",
+        "poster": null,
+        "streaming": [
+          {
+            "id": "76OFplGYDJQk",
+            "name": "Disney+",
+            "url": "https://www.disneyplus.com/movies/_/76OFplGYDJQk"
+          },
+          {
+            "id": "umc.cmc.5fjhyisg0jc9m3qhbd67wwylm",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.5fjhyisg0jc9m3qhbd67wwylm"
+          },
+          {
+            "id": "5d7768cadecfcd001f2f2ae4",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d7768cadecfcd001f2f2ae4"
+          }
+        ],
+        "upcoming": false
+      },
+      {
         "title": "Back to the Future Part II",
         "year": 1989,
         "directors": [
@@ -17138,7 +17196,7 @@
           "director",
           "box office"
         ],
-        "score": 3.312,
+        "score": 3.299,
         "reasons": [
           {
             "kind": "director",
@@ -17188,64 +17246,6 @@
         "upcoming": false
       },
       {
-        "title": "Tangled Ever After",
-        "year": 2012,
-        "directors": [
-          "Byron Howard",
-          "Nathan Greno"
-        ],
-        "franchises": [],
-        "genres": [
-          "Romance",
-          "Comedy",
-          "Fantasy"
-        ],
-        "regions": [
-          "USA"
-        ],
-        "sources": [
-          "director"
-        ],
-        "score": 3.306,
-        "reasons": [
-          {
-            "kind": "director",
-            "name": "Byron Howard",
-            "text": "You rated Zootopia (A) and Zootopia 2 (B) by Byron Howard"
-          },
-          {
-            "kind": "genre",
-            "name": "Romance, Comedy, Fantasy",
-            "text": "Romance, Comedy, Fantasy — genres you rate well"
-          },
-          {
-            "kind": "region",
-            "name": "USA",
-            "text": "From USA, where you've rated 45 films"
-          }
-        ],
-        "qid": "Q3224298",
-        "poster": null,
-        "streaming": [
-          {
-            "id": "76OFplGYDJQk",
-            "name": "Disney+",
-            "url": "https://www.disneyplus.com/movies/_/76OFplGYDJQk"
-          },
-          {
-            "id": "umc.cmc.5fjhyisg0jc9m3qhbd67wwylm",
-            "name": "Apple TV",
-            "url": "https://tv.apple.com/movie/umc.cmc.5fjhyisg0jc9m3qhbd67wwylm"
-          },
-          {
-            "id": "5d7768cadecfcd001f2f2ae4",
-            "name": "Plex",
-            "url": "https://watch.plex.tv/movie/5d7768cadecfcd001f2f2ae4"
-          }
-        ],
-        "upcoming": false
-      },
-      {
         "title": "The SpongeBob SquarePants Movie",
         "year": 2004,
         "directors": [
@@ -17266,7 +17266,7 @@
           "director",
           "box office"
         ],
-        "score": 3.304,
+        "score": 3.29,
         "reasons": [
           {
             "kind": "director",
@@ -17408,6 +17408,88 @@
         "upcoming": false
       },
       {
+        "title": "Jarinko Chie",
+        "year": 1981,
+        "directors": [
+          "Isao Takahata"
+        ],
+        "franchises": [],
+        "genres": [
+          "Family",
+          "Anime",
+          "Comedy"
+        ],
+        "regions": [
+          "Japan"
+        ],
+        "sources": [
+          "director"
+        ],
+        "score": 3.257,
+        "reasons": [
+          {
+            "kind": "director",
+            "name": "Isao Takahata",
+            "text": "You rated Grave of the Fireflies (B) by Isao Takahata"
+          },
+          {
+            "kind": "genre",
+            "name": "Family, Anime, Comedy",
+            "text": "Family, Anime, Comedy — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "Japan",
+            "text": "From Japan, where you've rated 14 films"
+          }
+        ],
+        "qid": "Q107388993",
+        "poster": null,
+        "streaming": [],
+        "upcoming": false
+      },
+      {
+        "title": "Panda! Go, Panda!",
+        "year": 1972,
+        "directors": [
+          "Isao Takahata"
+        ],
+        "franchises": [],
+        "genres": [
+          "Anime",
+          "Comedy",
+          "Family"
+        ],
+        "regions": [
+          "Japan"
+        ],
+        "sources": [
+          "director"
+        ],
+        "score": 3.257,
+        "reasons": [
+          {
+            "kind": "director",
+            "name": "Isao Takahata",
+            "text": "You rated Grave of the Fireflies (B) by Isao Takahata"
+          },
+          {
+            "kind": "genre",
+            "name": "Family, Anime, Comedy",
+            "text": "Family, Anime, Comedy — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "Japan",
+            "text": "From Japan, where you've rated 14 films"
+          }
+        ],
+        "qid": "Q2338099",
+        "poster": null,
+        "streaming": [],
+        "upcoming": false
+      },
+      {
         "title": "Loves of a Blonde",
         "year": 1965,
         "directors": [
@@ -17425,7 +17507,7 @@
         "sources": [
           "director"
         ],
-        "score": 3.241,
+        "score": 3.242,
         "reasons": [
           {
             "kind": "director",
@@ -17477,7 +17559,7 @@
         "sources": [
           "director"
         ],
-        "score": 3.238,
+        "score": 3.239,
         "reasons": [
           {
             "kind": "director",
@@ -17613,7 +17695,7 @@
         "sources": [
           "director"
         ],
-        "score": 3.217,
+        "score": 3.218,
         "reasons": [
           {
             "kind": "director",
@@ -17643,69 +17725,6 @@
             "id": "5d77683c7e9a3c0020c6e4c1",
             "name": "Plex",
             "url": "https://watch.plex.tv/movie/5d77683c7e9a3c0020c6e4c1"
-          }
-        ],
-        "upcoming": false
-      },
-      {
-        "title": "Tangled",
-        "year": 2010,
-        "directors": [
-          "Byron Howard",
-          "Nathan Greno"
-        ],
-        "franchises": [],
-        "genres": [
-          "Musical",
-          "Comedy",
-          "Coming-of-age"
-        ],
-        "regions": [
-          "USA"
-        ],
-        "sources": [
-          "director"
-        ],
-        "score": 3.215,
-        "reasons": [
-          {
-            "kind": "director",
-            "name": "Byron Howard",
-            "text": "You rated Zootopia (A) and Zootopia 2 (B) by Byron Howard"
-          },
-          {
-            "kind": "genre",
-            "name": "Coming-of-age, Comedy, Musical",
-            "text": "Coming-of-age, Comedy, Musical — genres you rate well"
-          },
-          {
-            "kind": "region",
-            "name": "USA",
-            "text": "From USA, where you've rated 45 films"
-          }
-        ],
-        "qid": "Q188439",
-        "poster": "tangled-2010.jpg",
-        "streaming": [
-          {
-            "id": "70128681",
-            "name": "Netflix",
-            "url": "https://www.netflix.com/title/70128681"
-          },
-          {
-            "id": "3V3ALy4SHStq",
-            "name": "Disney+",
-            "url": "https://www.disneyplus.com/movies/_/3V3ALy4SHStq"
-          },
-          {
-            "id": "umc.cmc.4bofe8sikofs0fnarn3pd6u5p",
-            "name": "Apple TV",
-            "url": "https://tv.apple.com/movie/umc.cmc.4bofe8sikofs0fnarn3pd6u5p"
-          },
-          {
-            "id": "5d77686eeb5d26001f1eb339",
-            "name": "Plex",
-            "url": "https://watch.plex.tv/movie/5d77686eeb5d26001f1eb339"
           }
         ],
         "upcoming": false
@@ -17759,6 +17778,69 @@
             "id": "6547c795beb074ef2bc506d8",
             "name": "Plex",
             "url": "https://watch.plex.tv/movie/6547c795beb074ef2bc506d8"
+          }
+        ],
+        "upcoming": false
+      },
+      {
+        "title": "Tangled",
+        "year": 2010,
+        "directors": [
+          "Byron Howard",
+          "Nathan Greno"
+        ],
+        "franchises": [],
+        "genres": [
+          "Musical",
+          "Comedy",
+          "Coming-of-age"
+        ],
+        "regions": [
+          "USA"
+        ],
+        "sources": [
+          "director"
+        ],
+        "score": 3.197,
+        "reasons": [
+          {
+            "kind": "director",
+            "name": "Byron Howard",
+            "text": "You rated Zootopia (A) and Zootopia 2 (B) by Byron Howard"
+          },
+          {
+            "kind": "genre",
+            "name": "Coming-of-age, Comedy, Musical",
+            "text": "Coming-of-age, Comedy, Musical — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "USA",
+            "text": "From USA, where you've rated 45 films"
+          }
+        ],
+        "qid": "Q188439",
+        "poster": "tangled-2010.jpg",
+        "streaming": [
+          {
+            "id": "70128681",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/70128681"
+          },
+          {
+            "id": "3V3ALy4SHStq",
+            "name": "Disney+",
+            "url": "https://www.disneyplus.com/movies/_/3V3ALy4SHStq"
+          },
+          {
+            "id": "umc.cmc.4bofe8sikofs0fnarn3pd6u5p",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.4bofe8sikofs0fnarn3pd6u5p"
+          },
+          {
+            "id": "5d77686eeb5d26001f1eb339",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d77686eeb5d26001f1eb339"
           }
         ],
         "upcoming": false
@@ -17823,7 +17905,7 @@
         "sources": [
           "director"
         ],
-        "score": 3.141,
+        "score": 3.143,
         "reasons": [
           {
             "kind": "director",
@@ -17883,7 +17965,7 @@
         "sources": [
           "director"
         ],
-        "score": 3.13,
+        "score": 3.132,
         "reasons": [
           {
             "kind": "director",
@@ -17925,86 +18007,6 @@
             "url": "https://watch.plex.tv/movie/5d776bcd7a53e9001e73069f"
           }
         ],
-        "upcoming": false
-      },
-      {
-        "title": "Last Scene",
-        "year": null,
-        "directors": [
-          "Hirokazu Koreeda"
-        ],
-        "franchises": [],
-        "genres": [
-          "Family",
-          "Fantasy",
-          "Drama"
-        ],
-        "regions": [
-          "Japan"
-        ],
-        "sources": [
-          "director"
-        ],
-        "score": 3.117,
-        "reasons": [
-          {
-            "kind": "director",
-            "name": "Hirokazu Koreeda",
-            "text": "You rated Monster (B) by Hirokazu Koreeda"
-          },
-          {
-            "kind": "genre",
-            "name": "Family, Drama, Fantasy",
-            "text": "Family, Drama, Fantasy — genres you rate well"
-          },
-          {
-            "kind": "region",
-            "name": "Japan",
-            "text": "From Japan, where you've rated 13 films"
-          }
-        ],
-        "qid": "Q134489422",
-        "poster": null,
-        "streaming": [],
-        "upcoming": false
-      },
-      {
-        "title": "The Little Prince",
-        "year": 2015,
-        "directors": [
-          "Mark Osborne"
-        ],
-        "franchises": [],
-        "genres": [
-          "Fantasy",
-          "Family",
-          "Adventure",
-          "Drama"
-        ],
-        "regions": [
-          "France",
-          "Italy",
-          "Canada"
-        ],
-        "sources": [
-          "director"
-        ],
-        "score": 3.066,
-        "reasons": [
-          {
-            "kind": "director",
-            "name": "Mark Osborne",
-            "text": "You rated Kung Fu Panda (A) by Mark Osborne"
-          },
-          {
-            "kind": "genre",
-            "name": "Family, Drama, Fantasy",
-            "text": "Family, Drama, Fantasy — genres you rate well"
-          }
-        ],
-        "qid": "Q16386722",
-        "poster": null,
-        "streaming": [],
         "upcoming": false
       },
       {
@@ -18088,7 +18090,7 @@
         "sources": [
           "box office"
         ],
-        "score": 2.429,
+        "score": 2.43,
         "reasons": [
           {
             "kind": "genre",
@@ -18265,7 +18267,7 @@
         "sources": [
           "box office"
         ],
-        "score": 2.135,
+        "score": 2.137,
         "reasons": [
           {
             "kind": "genre",
@@ -18329,7 +18331,7 @@
         "sources": [
           "box office"
         ],
-        "score": 2.12,
+        "score": 2.106,
         "reasons": [
           {
             "kind": "genre",
@@ -18339,7 +18341,7 @@
           {
             "kind": "region",
             "name": "Japan",
-            "text": "From Japan, where you've rated 13 films"
+            "text": "From Japan, where you've rated 14 films"
           },
           {
             "kind": "popular",
@@ -18369,70 +18371,6 @@
         "upcoming": false
       },
       {
-        "title": "The Fast and the Furious: Tokyo Drift",
-        "year": 2006,
-        "directors": [
-          "Justin Lin"
-        ],
-        "franchises": [],
-        "genres": [
-          "Action",
-          "Crime",
-          "Thriller"
-        ],
-        "regions": [
-          "USA",
-          "Germany",
-          "Japan"
-        ],
-        "sources": [
-          "box office"
-        ],
-        "score": 2.09,
-        "reasons": [
-          {
-            "kind": "genre",
-            "name": "Crime, Thriller, Action",
-            "text": "Crime, Thriller, Action — genres you rate well"
-          },
-          {
-            "kind": "region",
-            "name": "Japan",
-            "text": "From Japan, where you've rated 13 films"
-          },
-          {
-            "kind": "popular",
-            "name": "",
-            "text": "One of 2006's biggest earners"
-          }
-        ],
-        "qid": "Q213208",
-        "poster": null,
-        "streaming": [
-          {
-            "id": "70044885",
-            "name": "Netflix",
-            "url": "https://www.netflix.com/title/70044885"
-          },
-          {
-            "id": "5d25dec5-4b58-41b8-b71d-151c9e280c3e",
-            "name": "Hulu",
-            "url": "https://www.hulu.com/movie/5d25dec5-4b58-41b8-b71d-151c9e280c3e"
-          },
-          {
-            "id": "umc.cmc.5607u94s7rdwititvuxm1su1o",
-            "name": "Apple TV",
-            "url": "https://tv.apple.com/movie/umc.cmc.5607u94s7rdwititvuxm1su1o"
-          },
-          {
-            "id": "5d7768332ec6b5001f6bb969",
-            "name": "Plex",
-            "url": "https://watch.plex.tv/movie/5d7768332ec6b5001f6bb969"
-          }
-        ],
-        "upcoming": false
-      },
-      {
         "title": "Assassin's Creed",
         "year": 2016,
         "directors": [
@@ -18457,7 +18395,7 @@
         "sources": [
           "box office"
         ],
-        "score": 2.084,
+        "score": 2.086,
         "reasons": [
           {
             "kind": "genre",
@@ -18492,6 +18430,70 @@
             "id": "5d77697aad5437001f75e07c",
             "name": "Plex",
             "url": "https://watch.plex.tv/movie/5d77697aad5437001f75e07c"
+          }
+        ],
+        "upcoming": false
+      },
+      {
+        "title": "The Fast and the Furious: Tokyo Drift",
+        "year": 2006,
+        "directors": [
+          "Justin Lin"
+        ],
+        "franchises": [],
+        "genres": [
+          "Action",
+          "Crime",
+          "Thriller"
+        ],
+        "regions": [
+          "USA",
+          "Germany",
+          "Japan"
+        ],
+        "sources": [
+          "box office"
+        ],
+        "score": 2.077,
+        "reasons": [
+          {
+            "kind": "genre",
+            "name": "Crime, Thriller, Action",
+            "text": "Crime, Thriller, Action — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "Japan",
+            "text": "From Japan, where you've rated 14 films"
+          },
+          {
+            "kind": "popular",
+            "name": "",
+            "text": "One of 2006's biggest earners"
+          }
+        ],
+        "qid": "Q213208",
+        "poster": null,
+        "streaming": [
+          {
+            "id": "70044885",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/70044885"
+          },
+          {
+            "id": "5d25dec5-4b58-41b8-b71d-151c9e280c3e",
+            "name": "Hulu",
+            "url": "https://www.hulu.com/movie/5d25dec5-4b58-41b8-b71d-151c9e280c3e"
+          },
+          {
+            "id": "umc.cmc.5607u94s7rdwititvuxm1su1o",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.5607u94s7rdwititvuxm1su1o"
+          },
+          {
+            "id": "5d7768332ec6b5001f6bb969",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d7768332ec6b5001f6bb969"
           }
         ],
         "upcoming": false
@@ -18552,7 +18554,7 @@
         "sources": [
           "box office"
         ],
-        "score": 2.068,
+        "score": 2.057,
         "reasons": [
           {
             "kind": "genre",
@@ -18562,7 +18564,7 @@
           {
             "kind": "region",
             "name": "Japan",
-            "text": "From Japan, where you've rated 13 films"
+            "text": "From Japan, where you've rated 14 films"
           },
           {
             "kind": "popular",
@@ -18600,7 +18602,7 @@
         "sources": [
           "box office"
         ],
-        "score": 2.06,
+        "score": 2.047,
         "reasons": [
           {
             "kind": "genre",
@@ -18610,7 +18612,7 @@
           {
             "kind": "region",
             "name": "Japan",
-            "text": "From Japan, where you've rated 13 films"
+            "text": "From Japan, where you've rated 14 films"
           },
           {
             "kind": "popular",
@@ -18662,7 +18664,7 @@
         "sources": [
           "box office"
         ],
-        "score": 2.051,
+        "score": 2.039,
         "reasons": [
           {
             "kind": "genre",
@@ -18672,7 +18674,7 @@
           {
             "kind": "region",
             "name": "Japan",
-            "text": "From Japan, where you've rated 13 films"
+            "text": "From Japan, where you've rated 14 films"
           },
           {
             "kind": "popular",
@@ -18723,7 +18725,7 @@
           "your list"
         ],
         "box": null,
-        "score": 6.066,
+        "score": 6.067,
         "reasons": [
           {
             "kind": "director",
@@ -18896,7 +18898,7 @@
           "your list"
         ],
         "box": null,
-        "score": 4.839,
+        "score": 4.81,
         "reasons": [
           {
             "kind": "director",
@@ -18911,7 +18913,7 @@
           {
             "kind": "region",
             "name": "Japan",
-            "text": "From Japan, where you've rated 13 films"
+            "text": "From Japan, where you've rated 14 films"
           }
         ],
         "slug": "kiki-s-delivery-service-1989",
@@ -18960,7 +18962,7 @@
           "your list"
         ],
         "box": null,
-        "score": 4.715,
+        "score": 4.698,
         "reasons": [
           {
             "kind": "director",
@@ -18975,7 +18977,7 @@
           {
             "kind": "region",
             "name": "Japan",
-            "text": "From Japan, where you've rated 13 films"
+            "text": "From Japan, where you've rated 14 films"
           }
         ],
         "slug": "my-neighbor-totoro-1988",
@@ -19084,7 +19086,7 @@
           "your list"
         ],
         "box": null,
-        "score": 4.38,
+        "score": 4.364,
         "reasons": [
           {
             "kind": "director",
@@ -19099,7 +19101,7 @@
           {
             "kind": "region",
             "name": "Japan",
-            "text": "From Japan, where you've rated 13 films"
+            "text": "From Japan, where you've rated 14 films"
           }
         ],
         "slug": "nausica-of-the-valley-of-the-wind-1984",
@@ -19165,7 +19167,7 @@
           {
             "kind": "region",
             "name": "Japan",
-            "text": "From Japan, where you've rated 13 films"
+            "text": "From Japan, where you've rated 14 films"
           }
         ],
         "slug": "howl-s-moving-castle-2004",
@@ -19215,7 +19217,7 @@
           "your list"
         ],
         "box": null,
-        "score": 4.209,
+        "score": 4.229,
         "reasons": [
           {
             "kind": "director",
@@ -19276,7 +19278,7 @@
           "your list"
         ],
         "box": null,
-        "score": 4.168,
+        "score": 4.169,
         "reasons": [
           {
             "kind": "director",
@@ -19538,7 +19540,7 @@
           "your list"
         ],
         "box": null,
-        "score": 3.217,
+        "score": 3.204,
         "reasons": [
           {
             "kind": "director",
@@ -19553,7 +19555,7 @@
           {
             "kind": "region",
             "name": "Japan",
-            "text": "From Japan, where you've rated 13 films"
+            "text": "From Japan, where you've rated 14 films"
           }
         ],
         "slug": "our-little-sister-2015",
@@ -19595,7 +19597,7 @@
           "your list"
         ],
         "box": null,
-        "score": 3.012,
+        "score": 3.013,
         "reasons": [
           {
             "kind": "director",
@@ -19652,7 +19654,7 @@
           "your list"
         ],
         "box": null,
-        "score": 2.933,
+        "score": 2.934,
         "reasons": [
           {
             "kind": "director",
@@ -19699,7 +19701,7 @@
           "your list"
         ],
         "box": null,
-        "score": 2.916,
+        "score": 2.918,
         "reasons": [
           {
             "kind": "director",
@@ -19802,7 +19804,7 @@
           "your list"
         ],
         "box": null,
-        "score": 2.905,
+        "score": 2.907,
         "reasons": [
           {
             "kind": "director",
@@ -19858,7 +19860,7 @@
           "your list"
         ],
         "box": null,
-        "score": 2.905,
+        "score": 2.907,
         "reasons": [
           {
             "kind": "director",
@@ -19916,7 +19918,7 @@
           "your list"
         ],
         "box": null,
-        "score": 2.885,
+        "score": 2.886,
         "reasons": [
           {
             "kind": "director",
@@ -20019,7 +20021,7 @@
           "your list"
         ],
         "box": null,
-        "score": 2.456,
+        "score": 2.457,
         "reasons": [
           {
             "kind": "genre",
@@ -20056,7 +20058,7 @@
           "your list"
         ],
         "box": null,
-        "score": 2.449,
+        "score": 2.45,
         "reasons": [
           {
             "kind": "genre",
@@ -20213,7 +20215,7 @@
           "your list"
         ],
         "box": null,
-        "score": 2.323,
+        "score": 2.325,
         "reasons": [
           {
             "kind": "genre",
@@ -20268,7 +20270,7 @@
           "your list"
         ],
         "box": null,
-        "score": 2.309,
+        "score": 2.31,
         "reasons": [
           {
             "kind": "genre",
@@ -20407,7 +20409,7 @@
           "your list"
         ],
         "box": null,
-        "score": 2.176,
+        "score": 2.156,
         "reasons": [
           {
             "kind": "genre",
@@ -20417,7 +20419,7 @@
           {
             "kind": "region",
             "name": "Japan",
-            "text": "From Japan, where you've rated 13 films"
+            "text": "From Japan, where you've rated 14 films"
           }
         ],
         "slug": "perfect-blue-1997",
@@ -20437,58 +20439,6 @@
             "id": "5d77683585719b001f3a3b8c",
             "name": "Plex",
             "url": "https://watch.plex.tv/movie/5d77683585719b001f3a3b8c"
-          }
-        ],
-        "country": "Japanese"
-      },
-      {
-        "title": "A Silent Voice",
-        "year": 2016,
-        "directors": [
-          "Naoko Yamada"
-        ],
-        "franchises": [],
-        "genres": [
-          "Drama",
-          "Coming-of-age"
-        ],
-        "regions": [
-          "Japan"
-        ],
-        "sources": [
-          "your list"
-        ],
-        "box": null,
-        "score": 2.156,
-        "reasons": [
-          {
-            "kind": "genre",
-            "name": "Coming-of-age, Drama",
-            "text": "Coming-of-age, Drama — genres you rate well"
-          },
-          {
-            "kind": "region",
-            "name": "Japan",
-            "text": "From Japan, where you've rated 13 films"
-          }
-        ],
-        "slug": "a-silent-voice-2016",
-        "poster": "a-silent-voice-2016.jpg",
-        "streaming": [
-          {
-            "id": "80223226",
-            "name": "Netflix",
-            "url": "https://www.netflix.com/title/80223226"
-          },
-          {
-            "id": "umc.cmc.282ki73q0ozcam7a76c50mizk",
-            "name": "Apple TV",
-            "url": "https://tv.apple.com/movie/umc.cmc.282ki73q0ozcam7a76c50mizk"
-          },
-          {
-            "id": "5d776c0ead5437001f7b25d6",
-            "name": "Plex",
-            "url": "https://watch.plex.tv/movie/5d776c0ead5437001f7b25d6"
           }
         ],
         "country": "Japanese"
@@ -20547,6 +20497,58 @@
         "country": "Chinese"
       },
       {
+        "title": "A Silent Voice",
+        "year": 2016,
+        "directors": [
+          "Naoko Yamada"
+        ],
+        "franchises": [],
+        "genres": [
+          "Drama",
+          "Coming-of-age"
+        ],
+        "regions": [
+          "Japan"
+        ],
+        "sources": [
+          "your list"
+        ],
+        "box": null,
+        "score": 2.117,
+        "reasons": [
+          {
+            "kind": "genre",
+            "name": "Coming-of-age, Drama",
+            "text": "Coming-of-age, Drama — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "Japan",
+            "text": "From Japan, where you've rated 14 films"
+          }
+        ],
+        "slug": "a-silent-voice-2016",
+        "poster": "a-silent-voice-2016.jpg",
+        "streaming": [
+          {
+            "id": "80223226",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/80223226"
+          },
+          {
+            "id": "umc.cmc.282ki73q0ozcam7a76c50mizk",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.282ki73q0ozcam7a76c50mizk"
+          },
+          {
+            "id": "5d776c0ead5437001f7b25d6",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776c0ead5437001f7b25d6"
+          }
+        ],
+        "country": "Japanese"
+      },
+      {
         "title": "Better Days",
         "year": 2019,
         "directors": [
@@ -20565,7 +20567,7 @@
           "your list"
         ],
         "box": null,
-        "score": 2.126,
+        "score": 2.108,
         "reasons": [
           {
             "kind": "genre",
@@ -20713,7 +20715,7 @@
           "your list"
         ],
         "box": null,
-        "score": 2.067,
+        "score": 2.04,
         "reasons": [
           {
             "kind": "genre",
@@ -20723,7 +20725,7 @@
           {
             "kind": "region",
             "name": "Japan",
-            "text": "From Japan, where you've rated 13 films"
+            "text": "From Japan, where you've rated 14 films"
           }
         ],
         "slug": "100-meters-2025",
@@ -20761,7 +20763,7 @@
           "your list"
         ],
         "box": null,
-        "score": 2.006,
+        "score": 2.01,
         "reasons": [
           {
             "kind": "genre",
@@ -20786,60 +20788,6 @@
         "country": "Chinese"
       },
       {
-        "title": "Big Fish & Begonia",
-        "year": 2016,
-        "directors": [
-          "Xuan Liang",
-          "Chun Zhang"
-        ],
-        "franchises": [],
-        "genres": [
-          "Fantasy",
-          "Coming-of-age",
-          "Drama"
-        ],
-        "regions": [
-          "China"
-        ],
-        "sources": [
-          "your list"
-        ],
-        "box": null,
-        "score": 1.965,
-        "reasons": [
-          {
-            "kind": "genre",
-            "name": "Coming-of-age, Drama, Fantasy",
-            "text": "Coming-of-age, Drama, Fantasy — genres you rate well"
-          },
-          {
-            "kind": "region",
-            "name": "China",
-            "text": "From China, where you've rated 22 films"
-          }
-        ],
-        "slug": "big-fish-begonia-2016",
-        "poster": "big-fish-begonia-2016.jpeg",
-        "streaming": [
-          {
-            "id": "80233883",
-            "name": "Netflix",
-            "url": "https://www.netflix.com/title/80233883"
-          },
-          {
-            "id": "umc.cmc.3zi1bh0h75abnb5q83dsybk2r",
-            "name": "Apple TV",
-            "url": "https://tv.apple.com/movie/umc.cmc.3zi1bh0h75abnb5q83dsybk2r"
-          },
-          {
-            "id": "5d776ade7a53e9001e71240c",
-            "name": "Plex",
-            "url": "https://watch.plex.tv/movie/5d776ade7a53e9001e71240c"
-          }
-        ],
-        "country": "China"
-      },
-      {
         "title": "Fist of Fury",
         "year": 1972,
         "directors": [
@@ -20859,7 +20807,7 @@
           "your list"
         ],
         "box": null,
-        "score": 1.955,
+        "score": 1.956,
         "reasons": [
           {
             "kind": "genre",
@@ -20889,6 +20837,60 @@
             "id": "5d9f3dc106d220001febeec0",
             "name": "Plex",
             "url": "https://watch.plex.tv/movie/5d9f3dc106d220001febeec0"
+          }
+        ],
+        "country": "China"
+      },
+      {
+        "title": "Big Fish & Begonia",
+        "year": 2016,
+        "directors": [
+          "Xuan Liang",
+          "Chun Zhang"
+        ],
+        "franchises": [],
+        "genres": [
+          "Fantasy",
+          "Coming-of-age",
+          "Drama"
+        ],
+        "regions": [
+          "China"
+        ],
+        "sources": [
+          "your list"
+        ],
+        "box": null,
+        "score": 1.951,
+        "reasons": [
+          {
+            "kind": "genre",
+            "name": "Coming-of-age, Drama, Fantasy",
+            "text": "Coming-of-age, Drama, Fantasy — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "China",
+            "text": "From China, where you've rated 22 films"
+          }
+        ],
+        "slug": "big-fish-begonia-2016",
+        "poster": "big-fish-begonia-2016.jpeg",
+        "streaming": [
+          {
+            "id": "80233883",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/80233883"
+          },
+          {
+            "id": "umc.cmc.3zi1bh0h75abnb5q83dsybk2r",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.3zi1bh0h75abnb5q83dsybk2r"
+          },
+          {
+            "id": "5d776ade7a53e9001e71240c",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d776ade7a53e9001e71240c"
           }
         ],
         "country": "China"
@@ -20959,56 +20961,6 @@
           }
         ],
         "country": "American"
-      },
-      {
-        "title": "Grave of the Fireflies",
-        "year": 1988,
-        "directors": [
-          "Isao Takahata"
-        ],
-        "franchises": [],
-        "genres": [
-          "Anime",
-          "Drama",
-          "Coming-of-age",
-          "War",
-          "Fantasy"
-        ],
-        "regions": [
-          "Japan"
-        ],
-        "sources": [
-          "your list"
-        ],
-        "box": null,
-        "score": 1.901,
-        "reasons": [
-          {
-            "kind": "genre",
-            "name": "Coming-of-age, Anime, Drama",
-            "text": "Coming-of-age, Anime, Drama — genres you rate well"
-          },
-          {
-            "kind": "region",
-            "name": "Japan",
-            "text": "From Japan, where you've rated 13 films"
-          }
-        ],
-        "slug": "grave-of-the-fireflies-1988",
-        "poster": "grave-of-the-fireflies-1988.jpg",
-        "streaming": [
-          {
-            "id": "557010",
-            "name": "Netflix",
-            "url": "https://www.netflix.com/title/557010"
-          },
-          {
-            "id": "5d776d11fb0d55001f596587",
-            "name": "Plex",
-            "url": "https://watch.plex.tv/movie/5d776d11fb0d55001f596587"
-          }
-        ],
-        "country": "Japanese"
       },
       {
         "title": "Enter the Fat Dragon",
@@ -21124,7 +21076,7 @@
           "your list"
         ],
         "box": null,
-        "score": 1.883,
+        "score": 1.872,
         "reasons": [
           {
             "kind": "genre",
@@ -21134,7 +21086,7 @@
           {
             "kind": "region",
             "name": "Japan",
-            "text": "From Japan, where you've rated 13 films"
+            "text": "From Japan, where you've rated 14 films"
           }
         ],
         "slug": "perfect-days-2024",
@@ -21263,7 +21215,7 @@
           "your list"
         ],
         "box": null,
-        "score": 1.831,
+        "score": 1.835,
         "reasons": [
           {
             "kind": "genre",
@@ -21304,7 +21256,7 @@
           "your list"
         ],
         "box": null,
-        "score": 1.805,
+        "score": 1.807,
         "reasons": [
           {
             "kind": "genre",
@@ -21345,7 +21297,7 @@
           "your list"
         ],
         "box": null,
-        "score": 1.805,
+        "score": 1.807,
         "reasons": [
           {
             "kind": "genre",
@@ -21380,65 +21332,6 @@
         "country": "Chinese"
       },
       {
-        "title": "Akira",
-        "year": 1988,
-        "directors": [
-          "Katsuhiro Otomo"
-        ],
-        "franchises": [],
-        "genres": [
-          "Science fiction",
-          "Dystopian",
-          "Action",
-          "Anime"
-        ],
-        "regions": [
-          "Japan"
-        ],
-        "sources": [
-          "your list"
-        ],
-        "box": null,
-        "score": 1.803,
-        "reasons": [
-          {
-            "kind": "genre",
-            "name": "Anime, Dystopian, Action",
-            "text": "Anime, Dystopian, Action — genres you rate well"
-          },
-          {
-            "kind": "region",
-            "name": "Japan",
-            "text": "From Japan, where you've rated 13 films"
-          }
-        ],
-        "slug": "akira-1988",
-        "poster": "akira-1988.jpg",
-        "streaming": [
-          {
-            "id": "60021103",
-            "name": "Netflix",
-            "url": "https://www.netflix.com/title/60021103"
-          },
-          {
-            "id": "7deaERMwSFfl",
-            "name": "Disney+",
-            "url": "https://www.disneyplus.com/movies/_/7deaERMwSFfl"
-          },
-          {
-            "id": "64a5a8d0-1406-4178-97a5-2649504faa85",
-            "name": "Hulu",
-            "url": "https://www.hulu.com/movie/64a5a8d0-1406-4178-97a5-2649504faa85"
-          },
-          {
-            "id": "5d77682454c0f0001f301a42",
-            "name": "Plex",
-            "url": "https://watch.plex.tv/movie/5d77682454c0f0001f301a42"
-          }
-        ],
-        "country": "Japanese"
-      },
-      {
         "title": "Farewell my Concubine",
         "year": 1993,
         "directors": [
@@ -21457,7 +21350,7 @@
           "your list"
         ],
         "box": null,
-        "score": 1.785,
+        "score": 1.786,
         "reasons": [
           {
             "kind": "genre",
@@ -21492,18 +21385,16 @@
         "country": "China"
       },
       {
-        "title": "Ghost in the Shell",
-        "year": 1995,
+        "title": "Akira",
+        "year": 1988,
         "directors": [
-          "Mamoru Oshii"
+          "Katsuhiro Otomo"
         ],
-        "franchises": [
-          "Ghost in the Shell"
-        ],
+        "franchises": [],
         "genres": [
           "Science fiction",
+          "Dystopian",
           "Action",
-          "Fantasy",
           "Anime"
         ],
         "regions": [
@@ -21513,123 +21404,43 @@
           "your list"
         ],
         "box": null,
-        "score": 1.757,
+        "score": 1.782,
         "reasons": [
           {
             "kind": "genre",
-            "name": "Anime, Fantasy, Action",
-            "text": "Anime, Fantasy, Action — genres you rate well"
+            "name": "Anime, Dystopian, Action",
+            "text": "Anime, Dystopian, Action — genres you rate well"
           },
           {
             "kind": "region",
             "name": "Japan",
-            "text": "From Japan, where you've rated 13 films"
+            "text": "From Japan, where you've rated 14 films"
           }
         ],
-        "slug": "ghost-in-the-shell-1995",
-        "poster": "ghost-in-the-shell-1995.jpg",
+        "slug": "akira-1988",
+        "poster": "akira-1988.jpg",
         "streaming": [
           {
-            "id": "540533",
+            "id": "60021103",
             "name": "Netflix",
-            "url": "https://www.netflix.com/title/540533"
+            "url": "https://www.netflix.com/title/60021103"
           },
           {
-            "id": "umc.cmc.rjmilfye6al93novdmu2l28c",
-            "name": "Apple TV",
-            "url": "https://tv.apple.com/movie/umc.cmc.rjmilfye6al93novdmu2l28c"
+            "id": "7deaERMwSFfl",
+            "name": "Disney+",
+            "url": "https://www.disneyplus.com/movies/_/7deaERMwSFfl"
           },
           {
-            "id": "5d7768334de0ee001fccaf95",
+            "id": "64a5a8d0-1406-4178-97a5-2649504faa85",
+            "name": "Hulu",
+            "url": "https://www.hulu.com/movie/64a5a8d0-1406-4178-97a5-2649504faa85"
+          },
+          {
+            "id": "5d77682454c0f0001f301a42",
             "name": "Plex",
-            "url": "https://watch.plex.tv/movie/5d7768334de0ee001fccaf95"
+            "url": "https://watch.plex.tv/movie/5d77682454c0f0001f301a42"
           }
         ],
-        "country": "Japanese"
-      },
-      {
-        "title": "Rurouni Kenshin",
-        "year": 2012,
-        "directors": [
-          "Keishi Ōtomo"
-        ],
-        "franchises": [
-          "Rurouni Kenshin"
-        ],
-        "genres": [
-          "Action"
-        ],
-        "regions": [
-          "Japan"
-        ],
-        "sources": [
-          "your list"
-        ],
-        "box": null,
-        "score": 1.75,
-        "reasons": [
-          {
-            "kind": "genre",
-            "name": "Action",
-            "text": "Action — genres you rate well"
-          },
-          {
-            "kind": "region",
-            "name": "Japan",
-            "text": "From Japan, where you've rated 13 films"
-          }
-        ],
-        "slug": "rurouni-kenshin-2012",
-        "poster": "rurouni-kenshin-2012.jpg",
-        "streaming": [
-          {
-            "id": "70293105",
-            "name": "Netflix",
-            "url": "https://www.netflix.com/title/70293105"
-          },
-          {
-            "id": "5d77698b23d5a3001f4f9320",
-            "name": "Plex",
-            "url": "https://watch.plex.tv/movie/5d77698b23d5a3001f4f9320"
-          }
-        ],
-        "country": "Japanese"
-      },
-      {
-        "title": "Neko Samurai",
-        "year": 2014,
-        "directors": [
-          "Takeshi Watanabe"
-        ],
-        "franchises": [],
-        "genres": [
-          "Comedy",
-          "Historical",
-          "Drama"
-        ],
-        "regions": [
-          "Japan"
-        ],
-        "sources": [
-          "your list"
-        ],
-        "box": null,
-        "score": 1.743,
-        "reasons": [
-          {
-            "kind": "genre",
-            "name": "Comedy, Drama, Historical",
-            "text": "Comedy, Drama, Historical — genres you rate well"
-          },
-          {
-            "kind": "region",
-            "name": "Japan",
-            "text": "From Japan, where you've rated 13 films"
-          }
-        ],
-        "slug": "neko-samurai-2014",
-        "poster": null,
-        "streaming": [],
         "country": "Japanese"
       },
       {
@@ -21679,6 +21490,147 @@
         "country": "Chinese"
       },
       {
+        "title": "Ghost in the Shell",
+        "year": 1995,
+        "directors": [
+          "Mamoru Oshii"
+        ],
+        "franchises": [
+          "Ghost in the Shell"
+        ],
+        "genres": [
+          "Science fiction",
+          "Action",
+          "Fantasy",
+          "Anime"
+        ],
+        "regions": [
+          "Japan"
+        ],
+        "sources": [
+          "your list"
+        ],
+        "box": null,
+        "score": 1.739,
+        "reasons": [
+          {
+            "kind": "genre",
+            "name": "Anime, Fantasy, Action",
+            "text": "Anime, Fantasy, Action — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "Japan",
+            "text": "From Japan, where you've rated 14 films"
+          }
+        ],
+        "slug": "ghost-in-the-shell-1995",
+        "poster": "ghost-in-the-shell-1995.jpg",
+        "streaming": [
+          {
+            "id": "540533",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/540533"
+          },
+          {
+            "id": "umc.cmc.rjmilfye6al93novdmu2l28c",
+            "name": "Apple TV",
+            "url": "https://tv.apple.com/movie/umc.cmc.rjmilfye6al93novdmu2l28c"
+          },
+          {
+            "id": "5d7768334de0ee001fccaf95",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d7768334de0ee001fccaf95"
+          }
+        ],
+        "country": "Japanese"
+      },
+      {
+        "title": "Rurouni Kenshin",
+        "year": 2012,
+        "directors": [
+          "Keishi Ōtomo"
+        ],
+        "franchises": [
+          "Rurouni Kenshin"
+        ],
+        "genres": [
+          "Action"
+        ],
+        "regions": [
+          "Japan"
+        ],
+        "sources": [
+          "your list"
+        ],
+        "box": null,
+        "score": 1.737,
+        "reasons": [
+          {
+            "kind": "genre",
+            "name": "Action",
+            "text": "Action — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "Japan",
+            "text": "From Japan, where you've rated 14 films"
+          }
+        ],
+        "slug": "rurouni-kenshin-2012",
+        "poster": "rurouni-kenshin-2012.jpg",
+        "streaming": [
+          {
+            "id": "70293105",
+            "name": "Netflix",
+            "url": "https://www.netflix.com/title/70293105"
+          },
+          {
+            "id": "5d77698b23d5a3001f4f9320",
+            "name": "Plex",
+            "url": "https://watch.plex.tv/movie/5d77698b23d5a3001f4f9320"
+          }
+        ],
+        "country": "Japanese"
+      },
+      {
+        "title": "Neko Samurai",
+        "year": 2014,
+        "directors": [
+          "Takeshi Watanabe"
+        ],
+        "franchises": [],
+        "genres": [
+          "Comedy",
+          "Historical",
+          "Drama"
+        ],
+        "regions": [
+          "Japan"
+        ],
+        "sources": [
+          "your list"
+        ],
+        "box": null,
+        "score": 1.73,
+        "reasons": [
+          {
+            "kind": "genre",
+            "name": "Comedy, Drama, Historical",
+            "text": "Comedy, Drama, Historical — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "Japan",
+            "text": "From Japan, where you've rated 14 films"
+          }
+        ],
+        "slug": "neko-samurai-2014",
+        "poster": null,
+        "streaming": [],
+        "country": "Japanese"
+      },
+      {
         "title": "White Snake",
         "year": 2019,
         "directors": [
@@ -21698,7 +21650,7 @@
           "your list"
         ],
         "box": null,
-        "score": 1.694,
+        "score": 1.697,
         "reasons": [
           {
             "kind": "genre",
@@ -21733,7 +21685,7 @@
           "your list"
         ],
         "box": null,
-        "score": 1.683,
+        "score": 1.685,
         "reasons": [
           {
             "kind": "genre",
@@ -21915,7 +21867,7 @@
           "your list"
         ],
         "box": null,
-        "score": 1.545,
+        "score": 1.546,
         "reasons": [
           {
             "kind": "genre",
@@ -21973,7 +21925,7 @@
           "your list"
         ],
         "box": null,
-        "score": 1.545,
+        "score": 1.546,
         "reasons": [
           {
             "kind": "genre",
@@ -22020,7 +21972,7 @@
           "your list"
         ],
         "box": null,
-        "score": 1.515,
+        "score": 1.502,
         "reasons": [
           {
             "kind": "genre",
@@ -22030,7 +21982,7 @@
           {
             "kind": "region",
             "name": "Japan",
-            "text": "From Japan, where you've rated 13 films"
+            "text": "From Japan, where you've rated 14 films"
           }
         ],
         "slug": "paprika-2006",
@@ -22074,7 +22026,7 @@
           "your list"
         ],
         "box": null,
-        "score": 1.463,
+        "score": 1.488,
         "reasons": [
           {
             "kind": "genre",
@@ -22104,43 +22056,6 @@
         "country": "China"
       },
       {
-        "title": "The Wind Guardians",
-        "year": 2018,
-        "directors": [
-          "Liu Kuo"
-        ],
-        "franchises": [],
-        "genres": [
-          "Fantasy",
-          "Animation",
-          "Adventure"
-        ],
-        "regions": [
-          "China"
-        ],
-        "sources": [
-          "your list"
-        ],
-        "box": null,
-        "score": 1.399,
-        "reasons": [
-          {
-            "kind": "genre",
-            "name": "Fantasy, Adventure, Animation",
-            "text": "Fantasy, Adventure, Animation — genres you rate well"
-          },
-          {
-            "kind": "region",
-            "name": "China",
-            "text": "From China, where you've rated 22 films"
-          }
-        ],
-        "slug": "the-wind-guardians-2018",
-        "poster": null,
-        "streaming": [],
-        "country": "Chinese"
-      },
-      {
         "title": "The Battle at Lake Changjin",
         "year": 2021,
         "directors": [
@@ -22161,7 +22076,7 @@
           "your list"
         ],
         "box": null,
-        "score": 1.393,
+        "score": 1.426,
         "reasons": [
           {
             "kind": "genre",
@@ -22191,6 +22106,43 @@
         "country": "China"
       },
       {
+        "title": "The Wind Guardians",
+        "year": 2018,
+        "directors": [
+          "Liu Kuo"
+        ],
+        "franchises": [],
+        "genres": [
+          "Fantasy",
+          "Animation",
+          "Adventure"
+        ],
+        "regions": [
+          "China"
+        ],
+        "sources": [
+          "your list"
+        ],
+        "box": null,
+        "score": 1.402,
+        "reasons": [
+          {
+            "kind": "genre",
+            "name": "Fantasy, Adventure, Animation",
+            "text": "Fantasy, Adventure, Animation — genres you rate well"
+          },
+          {
+            "kind": "region",
+            "name": "China",
+            "text": "From China, where you've rated 22 films"
+          }
+        ],
+        "slug": "the-wind-guardians-2018",
+        "poster": null,
+        "streaming": [],
+        "country": "Chinese"
+      },
+      {
         "title": "Ikiru",
         "year": 1952,
         "directors": [
@@ -22207,7 +22159,7 @@
           "your list"
         ],
         "box": null,
-        "score": 1.333,
+        "score": 1.322,
         "reasons": [
           {
             "kind": "genre",
@@ -22217,7 +22169,7 @@
           {
             "kind": "region",
             "name": "Japan",
-            "text": "From Japan, where you've rated 13 films"
+            "text": "From Japan, where you've rated 14 films"
           }
         ],
         "slug": "ikiru-1952",
@@ -22260,7 +22212,7 @@
           "your list"
         ],
         "box": null,
-        "score": 1.171,
+        "score": 1.172,
         "reasons": [
           {
             "kind": "genre",
@@ -22377,7 +22329,7 @@
           "your list"
         ],
         "box": null,
-        "score": 1.031,
+        "score": 1.032,
         "reasons": [
           {
             "kind": "genre",
@@ -22489,7 +22441,7 @@
           "your list"
         ],
         "box": null,
-        "score": 0.97,
+        "score": 0.972,
         "reasons": [
           {
             "kind": "genre",
@@ -22689,7 +22641,7 @@
         "country": null
       }
     ],
-    "rated": 137,
+    "rated": 138,
     "taste": {
       "directors": [
         {
@@ -22741,8 +22693,8 @@
         },
         {
           "name": "Coming-of-age",
-          "affinity": 1.43,
-          "count": 6
+          "affinity": 1.38,
+          "count": 7
         },
         {
           "name": "Family",
@@ -22756,8 +22708,8 @@
         },
         {
           "name": "Anime",
-          "affinity": 1.25,
-          "count": 7
+          "affinity": 1.22,
+          "count": 8
         },
         {
           "name": "Martial arts",
@@ -22781,8 +22733,8 @@
         },
         {
           "name": "Drama",
-          "affinity": 0.88,
-          "count": 59
+          "affinity": 0.89,
+          "count": 60
         }
       ],
       "regions": [
@@ -22798,8 +22750,8 @@
         },
         {
           "name": "Japan",
-          "affinity": 1.25,
-          "count": 13
+          "affinity": 1.23,
+          "count": 14
         },
         {
           "name": "China",
@@ -24002,7 +23954,7 @@
     {
       "title": "Grave of the Fireflies",
       "year": 1988,
-      "tier": "?",
+      "tier": "B",
       "country": "Japanese",
       "region": "Japan",
       "note": null,
@@ -35602,7 +35554,7 @@
         {
           "title": "Grave of the Fireflies",
           "year": 1988,
-          "tier": "?",
+          "tier": "B",
           "director": "Isao Takahata",
           "poster": "grave-of-the-fireflies-1988.jpg",
           "slug": "grave-of-the-fireflies-1988"
