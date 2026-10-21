@@ -2500,6 +2500,14 @@
           "slug": "crazy-rich-asians-2016"
         },
         {
+          "title": "Passengers",
+          "year": 2016,
+          "tier": "D",
+          "director": null,
+          "poster": "passengers-2016.jpg",
+          "slug": "passengers-2016"
+        },
+        {
           "title": "La La Land",
           "year": 2016,
           "tier": "E",
@@ -22641,7 +22649,7 @@
         "country": null
       }
     ],
-    "rated": 138,
+    "rated": 139,
     "taste": {
       "directors": [
         {
@@ -30680,6 +30688,25 @@
       "analysis": null,
       "streaming": [],
       "slug": "how-to-make-millions-before-grandma-dies",
+      "genres": [],
+      "franchises": []
+    },
+    {
+      "title": "Passengers",
+      "year": 2016,
+      "tier": "D",
+      "country": null,
+      "region": "Unknown",
+      "note": null,
+      "director": null,
+      "directors": [],
+      "poster": "passengers-2016.jpg",
+      "nativeTitle": null,
+      "critique": null,
+      "shortlisted": false,
+      "analysis": null,
+      "streaming": [],
+      "slug": "passengers-2016",
       "genres": [],
       "franchises": []
     }
