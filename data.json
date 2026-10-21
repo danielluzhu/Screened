@@ -217,6 +217,14 @@
           "slug": "karate-kid-legends-2025"
         },
         {
+          "title": "96 minutes",
+          "year": 2025,
+          "tier": "E",
+          "director": null,
+          "poster": "96-minutes-2025.jpg",
+          "slug": "96-minutes-2025"
+        },
+        {
           "title": "Anora",
           "year": 2025,
           "tier": "F",
@@ -231,14 +239,6 @@
           "director": "Kenji Iwaizawa",
           "poster": "100-meters-2025.jpg",
           "slug": "100-meters-2025"
-        },
-        {
-          "title": "96 minutes",
-          "year": 2025,
-          "tier": "?",
-          "director": null,
-          "poster": "96-minutes-2025.jpg",
-          "slug": "96-minutes-2025"
         },
         {
           "title": "Good News",
@@ -22574,24 +22574,6 @@
         "country": null
       },
       {
-        "title": "96 minutes",
-        "year": 2025,
-        "directors": [],
-        "franchises": [],
-        "genres": [],
-        "regions": [],
-        "sources": [
-          "your list"
-        ],
-        "box": null,
-        "score": 0.0,
-        "reasons": [],
-        "slug": "96-minutes-2025",
-        "poster": "96-minutes-2025.jpg",
-        "streaming": [],
-        "country": null
-      },
-      {
         "title": "Get Out",
         "year": 2017,
         "directors": [
@@ -22743,7 +22725,7 @@
         "country": null
       }
     ],
-    "rated": 135,
+    "rated": 136,
     "taste": {
       "directors": [
         {
@@ -30290,7 +30272,7 @@
     {
       "title": "96 minutes",
       "year": 2025,
-      "tier": "?",
+      "tier": "E",
       "country": null,
       "region": "Unknown",
       "note": null,
