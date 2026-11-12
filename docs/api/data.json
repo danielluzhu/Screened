@@ -22685,7 +22685,7 @@
         "country": null
       }
     ],
-    "rated": 139,
+    "rated": 140,
     "taste": {
       "directors": [
         {
@@ -30984,6 +30984,26 @@
       "analysis": null,
       "streaming": [],
       "slug": "tokyo-taxi-2025",
+      "genres": [],
+      "franchises": []
+    },
+    {
+      "title": "article 20",
+      "year": null,
+      "tier": "A",
+      "country": null,
+      "region": "Unknown",
+      "note": null,
+      "director": null,
+      "directors": [],
+      "poster": "article-20.jpg",
+      "nativeTitle": null,
+      "critique": null,
+      "shortlisted": false,
+      "watching": false,
+      "analysis": null,
+      "streaming": [],
+      "slug": "article-20",
       "genres": [],
       "franchises": []
     }
