@@ -58,6 +58,13 @@
   box-sizing: border-box;
 }
 
+/* The film page hero is full bleed via 100vw, which is wider than the page by
+   the scrollbar wherever scrollbars take up space. Clipped here, on the root,
+   because that is the element that scrolls the page. */
+html {
+  overflow-x: clip;
+}
+
 body {
   margin: 0;
   background: var(--bg);
@@ -993,6 +1000,64 @@ a.title-text:hover,
 
 .film-page {
   padding-bottom: 60px;
+}
+
+/* --- Film page hero ---------------------------------------------------- */
+/* Full bleed: the wash runs to the window edges while the content inside
+   keeps the page's column. See html for the scrollbar overflow this causes. */
+.hero {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  margin: -26px calc(50% - 50vw) 24px;
+  padding: 40px calc(50vw - 50%) 8px;
+}
+
+/* The poster itself, blurred into a wash of its colours. Oversized so the
+   blur's soft edge falls outside the box. */
+.hero-backdrop {
+  position: absolute;
+  inset: -60px;
+  z-index: -2;
+  width: calc(100% + 120px);
+  height: calc(100% + 120px);
+  object-fit: cover;
+  filter: blur(48px) saturate(1.4);
+  opacity: 0.5;
+}
+
+/* Fade the wash into the page so the hero has no hard bottom edge. */
+.hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.55) 55%, var(--bg));
+}
+
+.hero .film-head {
+  margin: 0;
+  gap: var(--space-6);
+  flex-wrap: nowrap;
+  align-items: flex-start;
+}
+
+.hero .film-poster {
+  width: 220px;
+  box-shadow: 0 18px 50px rgba(0, 0, 0, 0.6);
+}
+
+.hero-body {
+  flex: 1;
+  min-width: 0;
+}
+
+/* Over the wash, the facts box reads better as a pane of smoked glass than as
+   a solid panel. */
+.hero .film-facts {
+  background: rgba(0, 0, 0, 0.35);
+  border-color: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(6px);
 }
 
 .film-head {
@@ -2744,6 +2809,39 @@ a.sug-title:hover {
 
   .masthead + main {
     margin-top: 20px;
+  }
+
+  /* Hero on a phone: poster centred on top, title and rating centred under
+     it, facts full width. */
+  .hero {
+    margin-top: -20px;
+    padding-top: 28px;
+  }
+
+  .hero .film-head {
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-5);
+  }
+
+  .hero .film-poster {
+    width: min(200px, 52vw);
+  }
+
+  .hero-body {
+    width: 100%;
+  }
+
+  .hero .film-heading {
+    text-align: center;
+  }
+
+  .hero .rating-row {
+    justify-content: center;
+  }
+
+  .hero .chip-toggle:first-of-type {
+    margin-left: 0;
   }
 
   /* Poster grids: two columns on most phones, three on wide ones, rather than

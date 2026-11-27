@@ -287,8 +287,24 @@ function render(film, data) {
   const main = el("main");
   main.replaceChildren();
 
+  // The hero: the poster, blurred and dimmed, as a backdrop behind the sharp
+  // poster, title, rating and facts. Poster beside the text on a wide screen,
+  // above it on a phone.
+  const hero = text("section", "hero");
   const head = text("div", "film-head");
   if (film.poster) {
+    // The blur hides any softness, so the small thumbnail does; it falls back
+    // to the original for a poster thumbs.py hasn't reached yet.
+    const backdrop = document.createElement("img");
+    backdrop.className = "hero-backdrop";
+    backdrop.alt = "";
+    backdrop.setAttribute("aria-hidden", "true");
+    backdrop.addEventListener("error", () => (backdrop.src = `/Screened/posters/${film.poster}`), {
+      once: true,
+    });
+    backdrop.src = `/Screened/thumbs/posters/${film.poster}.webp`;
+    hero.append(backdrop);
+
     const img = document.createElement("img");
     img.className = "film-poster";
     // The page's own subject: paint the small copy at once, then sharpen.
@@ -340,15 +356,13 @@ function render(film, data) {
     })
   );
   heading.append(rating);
-  // The title runs full width above, so it starts on the same left edge as the
-  // tabs and everything else on the page rather than beside the poster.
-  main.append(heading);
 
   const franchiseNames = film.franchises ?? [];
-  // Poster and facts sit side by side, which also fills the space that used to
-  // be empty to the poster's right.
-  head.append(facts(film, data));
-  main.append(head);
+  const body = text("div", "hero-body");
+  body.append(heading, facts(film, data));
+  head.append(body);
+  hero.append(head);
+  main.append(hero);
 
   // Trailer open; then Dan's notes, Summary and Reception folded shut, so the
   // page opens on the film itself and the reading is there when wanted.
