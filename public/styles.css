@@ -2601,4 +2601,55 @@ a.sug-title:hover {
   .masthead + main {
     margin-top: 20px;
   }
+
+  /* Poster grids: two columns on most phones, three on wide ones, rather than
+     one poster the height of the screen per film. At this size a title over
+     the art would cover half of it, so the details drop beneath the poster
+     instead and the tile becomes art plus caption. Show banners stay as they
+     are — they are already wide and short. */
+  .grid.is-tiles {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: var(--space-4) var(--space-3);
+  }
+
+  .tile:not(.is-wide) {
+    aspect-ratio: auto;
+    overflow: visible;
+    border: 0;
+    border-radius: 0;
+    background: none;
+  }
+
+  .tile:not(.is-wide) .art-link,
+  .tile:not(.is-wide) > .tile-art {
+    position: relative;
+    inset: auto;
+    display: block;
+    aspect-ratio: 2 / 3;
+    border-radius: var(--r-md);
+    overflow: hidden;
+    background: var(--panel-2);
+  }
+
+  .tile:not(.is-wide) .tile-overlay {
+    position: static;
+    padding: var(--space-2) 2px 0;
+    background: none;
+    color: var(--text);
+  }
+
+  .tile:not(.is-wide) .title {
+    font-size: var(--fs-sm);
+  }
+
+  .tile:not(.is-wide) .native,
+  .tile:not(.is-wide) .meta,
+  .tile:not(.is-wide) .note {
+    font-size: var(--fs-xs);
+  }
+
+  .tile .badge {
+    top: 6px;
+    right: 6px;
+  }
 }
