@@ -89,7 +89,7 @@ function streamingRow(item) {
 }
 
 // Wikipedia's account of the film and how it was received. Quoted, credited,
-// and kept clear of My notes and Full analysis, which are the sheet's own
+// and kept clear of Dan's notes and Full analysis, which are the sheet's own
 // words — the two should never be mistaken for each other. The story goes
 // under Summary and the reception under Reception, beside the scores, since
 // that is what it is about. Entries written before summaries.py split them
@@ -306,7 +306,7 @@ function render(film, data) {
   head.append(facts(film, data));
   main.append(head);
 
-  // Trailer open; then My notes, Summary and Reception folded shut, so the
+  // Trailer open; then Dan's notes, Summary and Reception folded shut, so the
   // page opens on the film itself and the reading is there when wanted.
   const preview = trailerBox(film);
   if (preview) main.append(preview);
@@ -341,7 +341,7 @@ function render(film, data) {
     })
   );
 
-  const notes = fold("My notes", "notes", notesBox, details);
+  const notes = fold("Dan's notes", "notes", notesBox, details);
   if (film.critique || film.analysis) {
     notes.firstChild.append(text("span", "spoiler-has", "written"));
   }

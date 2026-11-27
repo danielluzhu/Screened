@@ -1161,7 +1161,7 @@ a.title-text:hover,
   margin: 0 0 10px;
 }
 
-/* Quoted from Wikipedia. Set apart from My notes and Full analysis — a rule down
+/* Quoted from Wikipedia. Set apart from Dan's notes and Full analysis — a rule down
    the side and a credit underneath — so someone else's words are never mistaken
    for the sheet's own. */
 .summary {
@@ -1711,7 +1711,7 @@ li.gross .seen {
 }
 
 /* --- notes vs spoiler analysis ---
-   My notes, Summary and Reception fold the same way Full analysis does, so
+   Dan's notes, Summary and Reception fold the same way Full analysis does, so
    every closed section on the page looks like one thing to open. */
 .fold,
 .spoilers {
