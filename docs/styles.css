@@ -1029,9 +1029,46 @@ a.title-text:hover,
 
 .rating-row {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: 10px;
   margin-top: 16px;
+}
+
+/* Short list / Watching on the film page: quiet until switched on. */
+.chip-toggle {
+  appearance: none;
+  padding: 4px 12px;
+  border: 1px solid var(--line);
+  border-radius: var(--r-pill);
+  background: none;
+  color: var(--muted);
+  font: inherit;
+  font-size: var(--fs-sm);
+  font-weight: 600;
+  cursor: pointer;
+  transition: color 0.16s ease, border-color 0.16s ease;
+}
+
+.chip-toggle:first-of-type {
+  margin-left: var(--space-2);
+}
+
+.chip-toggle:hover {
+  color: var(--text);
+}
+
+.chip-toggle.is-on {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
+.chip-toggle.is-on::before {
+  content: "✓ ";
+}
+
+.chip-toggle:disabled {
+  opacity: 0.5;
 }
 
 .rating-meaning {
@@ -2555,6 +2592,28 @@ a.sug-title:hover {
 .pin:focus-visible {
   outline: 2px solid var(--accent);
   outline-offset: 1px;
+}
+
+/* Off-state + and ▶ on every poster were most of the clutter on the grid.
+   With a mouse they appear on hover (or keyboard focus); on a touch screen,
+   which has no hover, only a switched-on one shows — as a marker that the
+   film is shortlisted or being watched — and the film page has the buttons. */
+.tile .pin:not(.is-on) {
+  opacity: 0;
+  transition: opacity 0.16s ease;
+}
+
+@media (hover: hover) {
+  .tile:hover .pin,
+  .tile:focus-within .pin {
+    opacity: 1;
+  }
+}
+
+@media (hover: none) {
+  .tile .pin:not(.is-on) {
+    visibility: hidden;
+  }
 }
 
 /* Filters button and panel (site.js). Wide screens never see the button, and

@@ -50,6 +50,34 @@ async function post(url, body) {
   return result;
 }
 
+// Short list and Currently watching, as on/off buttons beside the rating. The
+// poster grid has the same controls, but on a touch screen they only show
+// once switched on, so this page is where a phone switches them.
+function listToggle(film, { field, url, label, on, off }) {
+  const button = text("button", "chip-toggle", label);
+  button.type = "button";
+  const sync = () => {
+    button.classList.toggle("is-on", Boolean(film[field]));
+    button.setAttribute("aria-pressed", String(Boolean(film[field])));
+  };
+  sync();
+  button.addEventListener("click", async () => {
+    const next = !film[field];
+    button.disabled = true;
+    try {
+      await post(url, { title: film.title, year: film.year, on: next });
+      film[field] = next;
+      sync();
+      toast(next ? on : off);
+    } catch (err) {
+      toast(`Couldn't save: ${err.message}`, "error");
+    } finally {
+      button.disabled = false;
+    }
+  });
+  return button;
+}
+
 let LOGOS = {};
 
 function streamingRow(item) {
@@ -295,6 +323,22 @@ function render(film, data) {
     }
   });
   rating.append(select, meaning);
+  rating.append(
+    listToggle(film, {
+      field: "shortlisted",
+      url: "/Screened/api/film/shortlist",
+      label: "Short list",
+      on: `${film.title} → short list`,
+      off: `${film.title} off the short list`,
+    }),
+    listToggle(film, {
+      field: "watching",
+      url: "/Screened/api/film/watching",
+      label: "Watching",
+      on: `${film.title} → currently watching`,
+      off: `${film.title} no longer watching`,
+    })
+  );
   heading.append(rating);
   // The title runs full width above, so it starts on the same left edge as the
   // tabs and everything else on the page rather than beside the poster.
