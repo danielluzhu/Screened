@@ -7,6 +7,18 @@
    tier badges still separate from the page. Everything below is checked
    against #000: --text ~18:1, --muted ~8:1, --accent ~11:1, all well past the
    4.5:1 floor. `color-scheme` keeps native controls and scrollbars dark. */
+/* Instrument Serif for the wordmark and page titles, system sans for the rest.
+   Self-hosted (Latin subset, 21KB) so the site makes no third-party requests.
+   SIL Open Font License; see fonts/instrument-serif-OFL.txt. Relative URL so
+   it resolves under the static build's base path too. */
+@font-face {
+  font-family: "Instrument Serif";
+  src: url("fonts/instrument-serif.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   --bg: #000000;
   --panel: #101014;
@@ -26,6 +38,9 @@
   --fs-lg: 1.1rem;
   --fs-xl: 1.5rem;
   --fs-2xl: 2rem;
+  --fs-display: clamp(2.1rem, 6vw, 2.75rem);
+
+  --font-display: "Instrument Serif", ui-serif, Georgia, serif;
 
   --space-1: 4px;
   --space-2: 8px;
@@ -126,12 +141,11 @@ body {
      off the h1, which shows up when the two headers are compared. */
   display: block;
   margin: 0;
-  font-size: clamp(2rem, 5vw, 2.9rem);
+  font-family: var(--font-display);
+  font-size: clamp(2.4rem, 6vw, 3.2rem);
   line-height: 1;
   font-weight: 400;
-  /* Looser than it was: the tight tracking was set against a bold weight, and
-     at regular it closed the letters up. */
-  letter-spacing: -0.015em;
+  letter-spacing: -0.01em;
   color: var(--text);
 }
 
@@ -151,10 +165,20 @@ body {
   background: linear-gradient(90deg, var(--accent), rgba(224, 179, 74, 0));
 }
 
+/* Page titles share the wordmark's face. A serif at regular weight reads
+   smaller than the bold sans it replaced, hence the larger size. */
+h1,
+.film-heading h1,
+.director-name {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: var(--fs-display);
+  line-height: 1.1;
+  letter-spacing: -0.01em;
+}
+
 h1 {
   margin: 0;
-  font-size: var(--fs-2xl);
-  letter-spacing: -0.02em;
 }
 
 .tagline {
@@ -984,8 +1008,6 @@ a.title-text:hover,
 
 .film-heading h1 {
   margin: 0;
-  font-size: var(--fs-2xl);
-  letter-spacing: -0.02em;
 }
 
 .native-big {
@@ -1289,8 +1311,6 @@ a.title-text:hover,
 
 .director-name {
   margin: 24px 0 4px;
-  font-size: var(--fs-2xl);
-  letter-spacing: -0.02em;
 }
 
 .director-section {
