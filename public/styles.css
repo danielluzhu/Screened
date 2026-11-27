@@ -21,13 +21,16 @@
 
 :root {
   --bg: #000000;
-  --panel: #101014;
-  --panel-2: #191920;
+  --panel: #131318;
+  --panel-2: #1c1c24;
   --line: #2c2c35;
   --text: #f0f1f5;
   --muted: #9aa2b4;
   --accent: #e0b34a;
   color-scheme: dark;
+
+  /* Panels carry no outline: they separate from the page by fill alone, and
+     a border is kept for things you can click — fields, chips, buttons. */
 
   /* One type scale, one spacing scale, three corner radii. Pages pick from
      these rather than inventing a size each, which is what keeps a director
@@ -435,7 +438,7 @@ select.badge.is-saved {
 
 .franchise {
   background: var(--panel);
-  border: 1px solid var(--line);
+  border: 1px solid transparent;
   border-radius: var(--r-md);
   padding: 14px 16px;
   margin-bottom: 12px;
@@ -533,7 +536,7 @@ select.badge.is-saved {
 
 .film {
   background: var(--panel);
-  border: 1px solid var(--line);
+  border: 1px solid transparent;
   border-radius: var(--r-md);
   padding: 12px 14px;
   display: flex;
@@ -564,7 +567,7 @@ select.badge.is-saved {
   aspect-ratio: 2 / 3;
   border-radius: var(--r-md);
   overflow: hidden;
-  border: 1px solid var(--line);
+  border: 1px solid transparent;
   background: var(--panel-2);
   /* Keeps the scrim from blending with whatever sits behind the card. */
   isolation: isolate;
@@ -749,7 +752,7 @@ select.badge.is-saved {
 
 .card {
   background: var(--panel);
-  border: 1px solid var(--line);
+  border: 1px solid transparent;
   border-radius: var(--r-md);
   padding: 14px;
 }
@@ -816,7 +819,7 @@ code {
 
 .add-form {
   background: var(--panel);
-  border: 1px solid var(--line);
+  border: 1px solid transparent;
   border-radius: var(--r-md);
   padding: 16px;
   margin-bottom: 24px;
@@ -1186,7 +1189,7 @@ a.title-text:hover,
   gap: 14px;
   padding: 16px;
   background: var(--panel);
-  border: 1px solid var(--line);
+  border: 1px solid transparent;
   border-radius: var(--r-md);
 }
 
@@ -1294,7 +1297,7 @@ a.title-text:hover,
   margin: 0;
   padding: 16px;
   background: var(--panel);
-  border: 1px solid var(--line);
+  border: 1px solid transparent;
   border-radius: var(--r-md);
 }
 
@@ -1498,7 +1501,7 @@ a.title-text:hover,
   min-width: 132px;
   padding: 10px 14px;
   background: var(--panel);
-  border: 1px solid var(--line);
+  border: 1px solid transparent;
   border-radius: var(--r-md);
   text-decoration: none;
   color: inherit;
@@ -1571,7 +1574,7 @@ a.score-card:hover {
   position: relative;
   aspect-ratio: 16 / 9;
   background: var(--panel);
-  border: 1px solid var(--line);
+  border: 1px solid transparent;
   border-radius: var(--r-md);
   overflow: hidden;
 }
@@ -1869,7 +1872,7 @@ li.gross .seen {
    every closed section on the page looks like one thing to open. */
 .fold,
 .spoilers {
-  border: 1px solid var(--line);
+  border: 1px solid transparent;
   border-radius: var(--r-md);
   background: var(--panel);
   margin-top: 20px;
@@ -1986,7 +1989,7 @@ li.gross .seen {
 /* A tab that leaves the page rather than switching views. */
 .taste {
   background: var(--panel);
-  border: 1px solid var(--line);
+  border: 1px solid transparent;
   border-radius: var(--r-md);
   padding: 14px 16px;
   margin-bottom: 26px;
@@ -2084,7 +2087,7 @@ a.taste-chip:hover {
   gap: 12px;
   align-items: flex-start;
   background: var(--panel);
-  border: 1px solid var(--line);
+  border: 1px solid transparent;
   border-radius: var(--r-md);
   padding: 14px 16px;
 }
@@ -2273,7 +2276,7 @@ a.sug-title:hover {
   align-items: center;
   gap: 10px;
   background: var(--panel);
-  border: 1px solid var(--line);
+  border: 1px solid transparent;
   border-radius: var(--r-md);
   padding: 8px 12px;
 }
@@ -2375,7 +2378,7 @@ a.sug-title:hover {
 
 .dir-card {
   background: var(--panel);
-  border: 1px solid var(--line);
+  border: 1px solid transparent;
   border-radius: var(--r-md);
   padding: 12px 14px;
   display: flex;
@@ -2555,7 +2558,7 @@ a.sug-title:hover {
   object-fit: cover;
   flex: none;
   background: var(--panel-2);
-  border: 1px solid var(--line);
+  border: 1px solid transparent;
 }
 
 .photo-credit {
@@ -2576,7 +2579,7 @@ a.sug-title:hover {
 .static-note {
   margin: 0 0 18px;
   padding: 10px 12px;
-  border: 1px solid var(--line);
+  border: 1px solid transparent;
   border-left: 2px solid var(--accent);
   border-radius: var(--r-sm);
   background: var(--panel);
