@@ -190,9 +190,14 @@ h1 {
   text-wrap: pretty;
 }
 
+/* One row at every width. Where eight tabs don't fit, the row scrolls sideways
+   rather than wrapping onto three lines; site.js scrolls the active one into
+   view. The scrollbar is hidden — the cut-off tab at the edge says "more". */
 .tabs {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  scrollbar-width: none;
   gap: 2px;
   margin-top: 20px;
   /* Pull the row back by one tab's side padding so the first tab's text sits on
@@ -201,8 +206,14 @@ h1 {
   margin-left: -14px;
 }
 
+.tabs::-webkit-scrollbar {
+  display: none;
+}
+
 .tab {
   position: relative;
+  flex: none;
+  white-space: nowrap;
   appearance: none;
   border: 0;
   background: none;
@@ -2544,4 +2555,50 @@ a.sug-title:hover {
 .pin:focus-visible {
   outline: 2px solid var(--accent);
   outline-offset: 1px;
+}
+
+/* --- Phones ------------------------------------------------------------ */
+@media (max-width: 640px) {
+  .wrap {
+    padding: 0 16px;
+  }
+
+  .masthead {
+    padding-top: 20px;
+  }
+
+  .tagline {
+    font-size: var(--fs-md);
+  }
+
+  .tabs {
+    margin-top: 12px;
+  }
+
+  /* Fade whichever edge has more tabs past it, so the row reads as
+     scrollable. site.js sets these as the row scrolls. */
+  .tabs.more-right {
+    mask-image: linear-gradient(90deg, #000 calc(100% - 40px), transparent);
+  }
+
+  .tabs.more-left {
+    mask-image: linear-gradient(90deg, transparent, #000 40px);
+  }
+
+  .tabs.more-left.more-right {
+    mask-image: linear-gradient(90deg, transparent, #000 40px, #000 calc(100% - 40px), transparent);
+  }
+
+  .tab {
+    padding: 10px 12px 12px;
+  }
+
+  .tab::after {
+    left: 12px;
+    right: 12px;
+  }
+
+  .masthead + main {
+    margin-top: 20px;
+  }
 }
