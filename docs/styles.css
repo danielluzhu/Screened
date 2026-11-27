@@ -16,6 +16,27 @@
   --muted: #9aa2b4;
   --accent: #e0b34a;
   color-scheme: dark;
+
+  /* One type scale, one spacing scale, three corner radii. Pages pick from
+     these rather than inventing a size each, which is what keeps a director
+     page and a film page looking like the same site. */
+  --fs-xs: 0.75rem;
+  --fs-sm: 0.85rem;
+  --fs-md: 0.95rem;
+  --fs-lg: 1.1rem;
+  --fs-xl: 1.5rem;
+  --fs-2xl: 2rem;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+
+  --r-sm: 6px;
+  --r-md: 10px;
+  --r-pill: 999px;
 }
 
 * {
@@ -71,7 +92,7 @@ body {
 
 .eyebrow {
   margin: 0 0 8px;
-  font-size: 0.72rem;
+  font-size: var(--fs-xs);
   font-weight: 600;
   letter-spacing: 0.22em;
   text-transform: uppercase;
@@ -126,13 +147,13 @@ body {
   width: min(180px, 40vw);
   height: 2px;
   margin-top: 12px;
-  border-radius: 2px;
+  border-radius: var(--r-sm);
   background: linear-gradient(90deg, var(--accent), rgba(224, 179, 74, 0));
 }
 
 h1 {
   margin: 0;
-  font-size: 2.1rem;
+  font-size: var(--fs-2xl);
   letter-spacing: -0.02em;
 }
 
@@ -140,7 +161,7 @@ h1 {
   margin: 12px 0 0;
   max-width: 46ch;
   color: var(--muted);
-  font-size: 1.02rem;
+  font-size: var(--fs-lg);
   line-height: 1.55;
   text-wrap: pretty;
 }
@@ -167,9 +188,9 @@ h1 {
   color: var(--muted);
   font: inherit;
   font-weight: 600;
-  font-size: 0.95rem;
+  font-size: var(--fs-md);
   padding: 12px 14px 14px;
-  border-radius: 8px 8px 0 0;
+  border-radius: var(--r-md) var(--r-md) 0 0;
   cursor: pointer;
   transition: color 0.16s ease;
 }
@@ -182,7 +203,7 @@ h1 {
   right: 14px;
   bottom: 0;
   height: 2px;
-  border-radius: 2px;
+  border-radius: var(--r-sm);
   background: transparent;
   transition: background-color 0.16s ease;
 }
@@ -226,7 +247,7 @@ select {
   background: var(--panel);
   color: var(--text);
   border: 1px solid var(--line);
-  border-radius: 8px;
+  border-radius: var(--r-md);
   padding: 9px 12px;
   font: inherit;
 }
@@ -245,7 +266,7 @@ select:focus-visible,
 
 .count {
   color: var(--muted);
-  font-size: 0.9rem;
+  font-size: var(--fs-md);
   margin-left: auto;
 }
 
@@ -258,7 +279,7 @@ select:focus-visible,
   align-items: center;
   gap: 10px;
   margin: 0 0 12px;
-  font-size: 0.95rem;
+  font-size: var(--fs-md);
   color: var(--muted);
   text-transform: uppercase;
   letter-spacing: 0.08em;
@@ -277,12 +298,12 @@ select:focus-visible,
   min-width: 26px;
   height: 26px;
   padding: 0 7px;
-  border-radius: 6px;
+  border-radius: var(--r-sm);
   background: var(--panel-2);
   border: 1px solid var(--line);
   color: var(--text);
   font-weight: 700;
-  font-size: 0.85rem;
+  font-size: var(--fs-sm);
   letter-spacing: 0;
 }
 
@@ -304,7 +325,7 @@ select.badge {
   height: 26px;
   min-width: 34px;
   font-weight: 700;
-  font-size: 0.85rem;
+  font-size: var(--fs-sm);
   line-height: 1;
 }
 
@@ -354,10 +375,10 @@ select.badge.is-saved {
   background: var(--panel);
   color: var(--text);
   border: 1px solid var(--line);
-  border-radius: 8px;
+  border-radius: var(--r-md);
   padding: 10px 16px;
   box-shadow: 0 8px 24px rgb(0 0 0 / 0.35);
-  font-size: 0.9rem;
+  font-size: var(--fs-md);
   z-index: 10;
 }
 
@@ -373,20 +394,20 @@ select.badge.is-saved {
 .franchise {
   background: var(--panel);
   border: 1px solid var(--line);
-  border-radius: 10px;
+  border-radius: var(--r-md);
   padding: 14px 16px;
   margin-bottom: 12px;
 }
 
 .franchise h3 {
   margin: 0 0 4px;
-  font-size: 1.05rem;
+  font-size: var(--fs-lg);
 }
 
 .franchise .n {
   color: var(--muted);
   font-weight: 400;
-  font-size: 0.85rem;
+  font-size: var(--fs-sm);
 }
 
 .franchise ol {
@@ -406,13 +427,13 @@ select.badge.is-saved {
 .franchise li .yr {
   color: var(--muted);
   font-variant-numeric: tabular-nums;
-  font-size: 0.87rem;
+  font-size: var(--fs-sm);
   min-width: 3.2em;
 }
 
 .franchise li .dir {
   color: var(--muted);
-  font-size: 0.87rem;
+  font-size: var(--fs-sm);
   margin-left: auto;
   text-align: right;
 }
@@ -426,7 +447,7 @@ select.badge.is-saved {
 .others summary {
   cursor: pointer;
   color: var(--muted);
-  font-size: 0.87rem;
+  font-size: var(--fs-sm);
   list-style: none;
   display: flex;
   align-items: center;
@@ -455,7 +476,7 @@ select.badge.is-saved {
 .others summary:focus-visible {
   outline: 2px solid var(--accent);
   outline-offset: 2px;
-  border-radius: 4px;
+  border-radius: var(--r-sm);
 }
 
 .others ol {
@@ -471,7 +492,7 @@ select.badge.is-saved {
 .film {
   background: var(--panel);
   border: 1px solid var(--line);
-  border-radius: 10px;
+  border-radius: var(--r-md);
   padding: 12px 14px;
   display: flex;
   gap: 10px;
@@ -499,7 +520,7 @@ select.badge.is-saved {
 .tile {
   position: relative;
   aspect-ratio: 2 / 3;
-  border-radius: 10px;
+  border-radius: var(--r-md);
   overflow: hidden;
   border: 1px solid var(--line);
   background: var(--panel-2);
@@ -570,13 +591,13 @@ select.badge.is-saved {
 
 .tile .native {
   color: rgba(255, 255, 255, 0.72);
-  font-size: 0.82rem;
+  font-size: var(--fs-sm);
   margin-top: 1px;
 }
 
 .tile .meta {
   color: rgba(255, 255, 255, 0.78);
-  font-size: 0.84rem;
+  font-size: var(--fs-sm);
   margin-top: 3px;
   overflow-wrap: anywhere;
 }
@@ -585,7 +606,7 @@ select.badge.is-saved {
    clamp so the scrim can't climb up and swallow the artwork. */
 .tile .note {
   color: rgba(255, 255, 255, 0.72);
-  font-size: 0.82rem;
+  font-size: var(--fs-sm);
   font-style: italic;
   margin-top: 4px;
   display: -webkit-box;
@@ -635,7 +656,7 @@ select.badge.is-saved {
   width: 52px;
   aspect-ratio: 2 / 3;
   object-fit: cover;
-  border-radius: 4px;
+  border-radius: var(--r-sm);
   background: var(--panel-2);
   flex: none;
 }
@@ -644,7 +665,7 @@ select.badge.is-saved {
   width: 30px;
   aspect-ratio: 2 / 3;
   object-fit: cover;
-  border-radius: 3px;
+  border-radius: var(--r-sm);
   background: var(--panel-2);
   flex: none;
 }
@@ -667,13 +688,13 @@ select.badge.is-saved {
 
 .film .meta {
   color: var(--muted);
-  font-size: 0.87rem;
+  font-size: var(--fs-sm);
   margin-top: 2px;
 }
 
 .film .note {
   color: var(--muted);
-  font-size: 0.87rem;
+  font-size: var(--fs-sm);
   font-style: italic;
   margin-top: 4px;
 }
@@ -687,7 +708,7 @@ select.badge.is-saved {
 .card {
   background: var(--panel);
   border: 1px solid var(--line);
-  border-radius: 10px;
+  border-radius: var(--r-md);
   padding: 14px;
 }
 
@@ -697,7 +718,7 @@ select.badge.is-saved {
 
 .card .sub {
   color: var(--muted);
-  font-size: 0.87rem;
+  font-size: var(--fs-sm);
   margin-top: 2px;
 }
 
@@ -712,7 +733,7 @@ select.badge.is-saved {
   padding-top: 16px;
   padding-bottom: 30px;
   color: var(--muted);
-  font-size: 0.85rem;
+  font-size: var(--fs-sm);
 }
 
 code {
@@ -733,7 +754,7 @@ code {
   background: var(--panel);
   color: var(--text);
   border: 1px solid var(--line);
-  border-radius: 8px;
+  border-radius: var(--r-md);
   padding: 9px 14px;
   font: inherit;
   font-weight: 600;
@@ -754,7 +775,7 @@ code {
 .add-form {
   background: var(--panel);
   border: 1px solid var(--line);
-  border-radius: 10px;
+  border-radius: var(--r-md);
   padding: 16px;
   margin-bottom: 24px;
 }
@@ -768,7 +789,7 @@ code {
 .add-form label {
   display: grid;
   gap: 4px;
-  font-size: 0.85rem;
+  font-size: var(--fs-sm);
   color: var(--muted);
 }
 
@@ -781,7 +802,7 @@ code {
   background: var(--bg);
   color: var(--text);
   border: 1px solid var(--line);
-  border-radius: 8px;
+  border-radius: var(--r-md);
   padding: 9px 12px;
   font: inherit;
 }
@@ -799,7 +820,7 @@ code {
   background: var(--panel-2);
   color: var(--text);
   border: 1px solid var(--line);
-  border-radius: 8px;
+  border-radius: var(--r-md);
   padding: 9px 16px;
   font: inherit;
   font-weight: 600;
@@ -819,7 +840,7 @@ code {
 
 .add-actions .hint {
   color: var(--muted);
-  font-size: 0.85rem;
+  font-size: var(--fs-sm);
 }
 
 /* .genres / .genre-tag lived here: the click-to-filter chips that used to sit
@@ -829,7 +850,7 @@ code {
 .tier-meaning {
   text-transform: none;
   letter-spacing: 0;
-  font-size: 0.85rem;
+  font-size: var(--fs-sm);
   opacity: 0.8;
 }
 
@@ -849,7 +870,7 @@ code {
 .legend dd {
   margin: 0;
   color: var(--muted);
-  font-size: 0.85rem;
+  font-size: var(--fs-sm);
 }
 
 .film .title {
@@ -868,10 +889,10 @@ code {
   border: none;
   color: var(--muted);
   font: inherit;
-  font-size: 0.8rem;
+  font-size: var(--fs-sm);
   line-height: 1;
   padding: 2px 4px;
-  border-radius: 4px;
+  border-radius: var(--r-sm);
   cursor: pointer;
   opacity: 0;
   transition: opacity 0.12s ease;
@@ -896,7 +917,7 @@ code {
   background: var(--bg);
   color: var(--text);
   border: 1px solid var(--accent);
-  border-radius: 6px;
+  border-radius: var(--r-sm);
   padding: 4px 6px;
   font: inherit;
   font-weight: 600;
@@ -904,7 +925,7 @@ code {
 
 .film .native {
   color: var(--muted);
-  font-size: 0.9rem;
+  font-size: var(--fs-md);
   margin-top: 1px;
 }
 
@@ -928,7 +949,7 @@ a.title-text:hover,
 .back {
   color: var(--muted);
   text-decoration: none;
-  font-size: 0.9rem;
+  font-size: var(--fs-md);
 }
 
 .back:hover {
@@ -951,7 +972,7 @@ a.title-text:hover,
   width: 180px;
   aspect-ratio: 2 / 3;
   object-fit: cover;
-  border-radius: 8px;
+  border-radius: var(--r-md);
   background: var(--panel-2);
   flex: none;
 }
@@ -963,14 +984,14 @@ a.title-text:hover,
 
 .film-heading h1 {
   margin: 0;
-  font-size: 1.9rem;
+  font-size: var(--fs-2xl);
   letter-spacing: -0.02em;
 }
 
 .native-big {
   margin: 4px 0 0;
   color: var(--muted);
-  font-size: 1.1rem;
+  font-size: var(--fs-lg);
 }
 
 .rating-row {
@@ -982,7 +1003,7 @@ a.title-text:hover,
 
 .rating-meaning {
   color: var(--muted);
-  font-size: 0.9rem;
+  font-size: var(--fs-md);
 }
 
 .facts {
@@ -1010,7 +1031,7 @@ a.title-text:hover,
   border: 0;
   padding: 0;
   font: inherit;
-  font-size: 0.85rem;
+  font-size: var(--fs-sm);
   cursor: pointer;
 }
 
@@ -1021,7 +1042,7 @@ a.title-text:hover,
 .edit-details:focus-visible {
   outline: 2px solid var(--accent);
   outline-offset: 2px;
-  border-radius: 4px;
+  border-radius: var(--r-sm);
 }
 
 /* Same panel as the read-only facts, so editing happens in place. */
@@ -1031,7 +1052,7 @@ a.title-text:hover,
   padding: 16px;
   background: var(--panel);
   border: 1px solid var(--line);
-  border-radius: 10px;
+  border-radius: var(--r-md);
 }
 
 .detail-field {
@@ -1041,14 +1062,14 @@ a.title-text:hover,
 
 .detail-label {
   color: var(--muted);
-  font-size: 0.85rem;
+  font-size: var(--fs-sm);
 }
 
 .detail-field input {
   background: var(--panel-2);
   color: var(--text);
   border: 1px solid var(--line);
-  border-radius: 8px;
+  border-radius: var(--r-md);
   padding: 9px 12px;
   font: inherit;
   width: 100%;
@@ -1077,10 +1098,10 @@ a.title-text:hover,
   background: var(--panel-2);
   color: var(--muted);
   border: 1px solid var(--line);
-  border-radius: 999px;
+  border-radius: var(--r-pill);
   padding: 2px 9px;
   font: inherit;
-  font-size: 0.75rem;
+  font-size: var(--fs-xs);
   line-height: 1.6;
   cursor: pointer;
 }
@@ -1113,7 +1134,7 @@ a.title-text:hover,
   background: var(--accent);
   border: 1px solid var(--accent);
   color: #14161b;
-  border-radius: 8px;
+  border-radius: var(--r-md);
   padding: 9px 18px;
   font: inherit;
   font-weight: 600;
@@ -1139,12 +1160,12 @@ a.title-text:hover,
   padding: 16px;
   background: var(--panel);
   border: 1px solid var(--line);
-  border-radius: 10px;
+  border-radius: var(--r-md);
 }
 
 .film-facts dt {
   color: var(--muted);
-  font-size: 0.85rem;
+  font-size: var(--fs-sm);
 }
 
 .film-facts dd {
@@ -1157,7 +1178,7 @@ a.title-text:hover,
 
 .related h2,
 .critique h2 {
-  font-size: 1.05rem;
+  font-size: var(--fs-lg);
   margin: 0 0 10px;
 }
 
@@ -1179,7 +1200,7 @@ a.title-text:hover,
 .summary-credit {
   margin: 8px 0 0;
   color: var(--muted);
-  font-size: 0.85rem;
+  font-size: var(--fs-sm);
 }
 
 .summary-credit a {
@@ -1219,7 +1240,7 @@ a.title-text:hover,
   background: var(--panel);
   color: var(--text);
   border: 1px solid var(--line);
-  border-radius: 10px;
+  border-radius: var(--r-md);
   padding: 14px;
   font: inherit;
   line-height: 1.6;
@@ -1243,7 +1264,7 @@ a.title-text:hover,
   background: var(--accent);
   border: 1px solid var(--accent);
   color: #14161b;
-  border-radius: 8px;
+  border-radius: var(--r-md);
   padding: 9px 18px;
   font: inherit;
   font-weight: 600;
@@ -1268,7 +1289,7 @@ a.title-text:hover,
 
 .director-name {
   margin: 24px 0 4px;
-  font-size: 1.9rem;
+  font-size: var(--fs-2xl);
   letter-spacing: -0.02em;
 }
 
@@ -1277,7 +1298,7 @@ a.title-text:hover,
 }
 
 .director-section h2 {
-  font-size: 1.05rem;
+  font-size: var(--fs-lg);
   margin: 0 0 10px;
 }
 
@@ -1298,7 +1319,7 @@ a.title-text:hover,
 .director-section li .yr {
   color: var(--muted);
   font-variant-numeric: tabular-nums;
-  font-size: 0.87rem;
+  font-size: var(--fs-sm);
   min-width: 3.2em;
 }
 
@@ -1318,7 +1339,7 @@ a.title-text:hover,
 
 .hint {
   color: var(--muted);
-  font-size: 0.85rem;
+  font-size: var(--fs-sm);
 }
 
 /* Outside scores, under Reception. Deliberately quieter than the tier badge
@@ -1345,7 +1366,7 @@ a.title-text:hover,
   padding: 10px 14px;
   background: var(--panel);
   border: 1px solid var(--line);
-  border-radius: 10px;
+  border-radius: var(--r-md);
   text-decoration: none;
   color: inherit;
 }
@@ -1356,7 +1377,7 @@ a.score-card:hover {
 }
 
 .score-site {
-  font-size: 0.72rem;
+  font-size: var(--fs-xs);
   letter-spacing: 0.04em;
   text-transform: uppercase;
   color: var(--muted);
@@ -1369,7 +1390,7 @@ a.score-card:hover {
 }
 
 .score-value strong {
-  font-size: 1.5rem;
+  font-size: var(--fs-xl);
   font-weight: 650;
   line-height: 1.1;
 }
@@ -1377,17 +1398,17 @@ a.score-card:hover {
 /* "/10" and "/5" ride along with the number so nobody has to guess the scale
    — the three sites don't share one. */
 .score-scale {
-  font-size: 0.85rem;
+  font-size: var(--fs-sm);
   color: var(--muted);
 }
 
 .score-sub {
-  font-size: 0.78rem;
+  font-size: var(--fs-xs);
   color: var(--muted);
 }
 
 .score-note {
-  font-size: 0.7rem;
+  font-size: var(--fs-xs);
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--muted);
@@ -1407,7 +1428,7 @@ a.score-card:hover {
 }
 
 .trailer h2 {
-  font-size: 1.05rem;
+  font-size: var(--fs-lg);
   margin: 0 0 10px;
 }
 
@@ -1418,7 +1439,7 @@ a.score-card:hover {
   aspect-ratio: 16 / 9;
   background: var(--panel);
   border: 1px solid var(--line);
-  border-radius: 10px;
+  border-radius: var(--r-md);
   overflow: hidden;
 }
 
@@ -1454,7 +1475,7 @@ a.score-card:hover {
   transform: translate(-50%, -50%);
   width: 64px;
   height: 44px;
-  border-radius: 10px;
+  border-radius: var(--r-md);
   background: rgba(0, 0, 0, 0.66);
   border: 1px solid var(--line);
 }
@@ -1490,7 +1511,7 @@ a.score-card:hover {
 .trailer-credit {
   margin: 8px 0 0;
   color: var(--muted);
-  font-size: 0.85rem;
+  font-size: var(--fs-sm);
 }
 
 .trailer-credit a {
@@ -1506,7 +1527,7 @@ a.score-card:hover {
 }
 
 .streaming h2 {
-  font-size: 1.05rem;
+  font-size: var(--fs-lg);
   margin: 0 0 10px;
 }
 
@@ -1520,11 +1541,11 @@ a.service {
   display: inline-block;
   background: var(--panel);
   border: 1px solid var(--line);
-  border-radius: 999px;
+  border-radius: var(--r-pill);
   padding: 6px 14px;
   color: var(--text);
   text-decoration: none;
-  font-size: 0.88rem;
+  font-size: var(--fs-sm);
   font-weight: 600;
 }
 
@@ -1547,11 +1568,11 @@ a.service:hover {
 a.service-sm {
   background: transparent;
   border: 1px solid var(--line);
-  border-radius: 999px;
+  border-radius: var(--r-pill);
   padding: 1px 8px;
   color: var(--muted);
   text-decoration: none;
-  font-size: 0.72rem;
+  font-size: var(--fs-xs);
   line-height: 1.6;
   white-space: nowrap;
 }
@@ -1563,7 +1584,7 @@ a.service-sm:hover {
 
 .service-more {
   color: var(--muted);
-  font-size: 0.72rem;
+  font-size: var(--fs-xs);
   align-self: center;
 }
 
@@ -1595,7 +1616,7 @@ a.service-sm {
   gap: 5px;
   background: var(--panel-2);
   border: 1px solid var(--line);
-  border-radius: 5px;
+  border-radius: var(--r-sm);
   padding: 4px 8px;
   min-height: 23px;
 }
@@ -1609,7 +1630,7 @@ a.service-sm:hover {
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  border-radius: 6px;
+  border-radius: var(--r-sm);
   padding: 8px 14px;
 }
 
@@ -1673,7 +1694,7 @@ a.service-sm[data-service],
 .year-nav a {
   color: var(--muted);
   text-decoration: none;
-  font-size: 0.9rem;
+  font-size: var(--fs-md);
 }
 
 .year-nav a:hover {
@@ -1688,13 +1709,13 @@ li.gross {
 li.gross .rank {
   min-width: 2.2em;
   font-variant-numeric: tabular-nums;
-  font-size: 0.85rem;
+  font-size: var(--fs-sm);
 }
 
 li.gross .box {
   margin-left: auto;
   font-variant-numeric: tabular-nums;
-  font-size: 0.87rem;
+  font-size: var(--fs-sm);
 }
 
 li.gross.is-watched {
@@ -1704,9 +1725,9 @@ li.gross.is-watched {
 li.gross .seen {
   background: var(--accent);
   color: #14161b;
-  border-radius: 999px;
+  border-radius: var(--r-pill);
   padding: 1px 8px;
-  font-size: 0.7rem;
+  font-size: var(--fs-xs);
   font-weight: 700;
 }
 
@@ -1716,7 +1737,7 @@ li.gross .seen {
 .fold,
 .spoilers {
   border: 1px solid var(--line);
-  border-radius: 10px;
+  border-radius: var(--r-md);
   background: var(--panel);
   margin-top: 20px;
   overflow: hidden;
@@ -1765,9 +1786,9 @@ li.gross .seen {
 .spoiler-warn {
   background: #b4443c;
   color: #fff;
-  border-radius: 999px;
+  border-radius: var(--r-pill);
   padding: 1px 9px;
-  font-size: 0.7rem;
+  font-size: var(--fs-xs);
   font-weight: 700;
   letter-spacing: 0.04em;
   text-transform: uppercase;
@@ -1775,7 +1796,7 @@ li.gross .seen {
 
 .spoiler-has {
   color: var(--muted);
-  font-size: 0.78rem;
+  font-size: var(--fs-xs);
   font-weight: 400;
   margin-left: auto;
 }
@@ -1821,7 +1842,7 @@ li.gross .seen {
   /* No margin-left:auto — the ::after rule draws a flex-filling line after
      this, and auto margin would collapse it. */
   color: var(--muted);
-  font-size: 0.8rem;
+  font-size: var(--fs-sm);
   text-transform: none;
   letter-spacing: 0;
   white-space: nowrap;
@@ -1833,13 +1854,13 @@ li.gross .seen {
 .taste {
   background: var(--panel);
   border: 1px solid var(--line);
-  border-radius: 10px;
+  border-radius: var(--r-md);
   padding: 14px 16px;
   margin-bottom: 26px;
 }
 
 .taste h2 {
-  font-size: 1.05rem;
+  font-size: var(--fs-lg);
   margin: 0 0 10px;
 }
 
@@ -1853,7 +1874,7 @@ li.gross .seen {
 
 .taste-label {
   color: var(--muted);
-  font-size: 0.85rem;
+  font-size: var(--fs-sm);
   min-width: 5.5em;
 }
 
@@ -1861,9 +1882,9 @@ li.gross .seen {
   background: var(--panel-2);
   color: var(--muted);
   border: 1px solid var(--line);
-  border-radius: 999px;
+  border-radius: var(--r-pill);
   padding: 2px 9px;
-  font-size: 0.78rem;
+  font-size: var(--fs-xs);
   line-height: 1.6;
   text-decoration: none;
 }
@@ -1878,7 +1899,7 @@ a.taste-chip:hover {
 }
 
 .sug-section h2 {
-  font-size: 1.05rem;
+  font-size: var(--fs-lg);
   margin: 0 0 10px;
 }
 
@@ -1895,10 +1916,10 @@ a.taste-chip:hover {
   background: var(--panel);
   color: var(--muted);
   border: 1px solid var(--line);
-  border-radius: 999px;
+  border-radius: var(--r-pill);
   padding: 5px 12px;
   font: inherit;
-  font-size: 0.85rem;
+  font-size: var(--fs-sm);
   cursor: pointer;
 }
 
@@ -1931,7 +1952,7 @@ a.taste-chip:hover {
   align-items: flex-start;
   background: var(--panel);
   border: 1px solid var(--line);
-  border-radius: 10px;
+  border-radius: var(--r-md);
   padding: 14px 16px;
 }
 
@@ -1939,7 +1960,7 @@ a.taste-chip:hover {
   width: 62px;
   aspect-ratio: 2 / 3;
   object-fit: cover;
-  border-radius: 4px;
+  border-radius: var(--r-sm);
   background: var(--panel-2);
   flex: none;
 }
@@ -1979,16 +2000,16 @@ a.sug-title:hover {
 
 .sug-year {
   color: var(--muted);
-  font-size: 0.87rem;
+  font-size: var(--fs-sm);
   font-variant-numeric: tabular-nums;
 }
 
 .chip-soon {
   background: var(--panel-2);
   border: 1px solid var(--line);
-  border-radius: 999px;
+  border-radius: var(--r-pill);
   color: var(--muted);
-  font-size: 0.72rem;
+  font-size: var(--fs-xs);
   padding: 1px 8px;
   text-transform: uppercase;
   letter-spacing: 0.04em;
@@ -1996,12 +2017,12 @@ a.sug-title:hover {
 
 .sug-sub {
   color: var(--muted);
-  font-size: 0.87rem;
+  font-size: var(--fs-sm);
 }
 
 .sug-genres {
   color: var(--muted);
-  font-size: 0.8rem;
+  font-size: var(--fs-sm);
 }
 
 .reasons {
@@ -2013,7 +2034,7 @@ a.sug-title:hover {
 }
 
 .reason {
-  font-size: 0.85rem;
+  font-size: var(--fs-sm);
   line-height: 1.45;
   padding-left: 14px;
   position: relative;
@@ -2045,7 +2066,7 @@ a.sug-title:hover {
 
 .match {
   height: 3px;
-  border-radius: 2px;
+  border-radius: var(--r-sm);
   background: var(--panel-2);
   overflow: hidden;
   margin-top: 8px;
@@ -2069,10 +2090,10 @@ a.sug-title:hover {
   background: var(--panel-2);
   color: var(--text);
   border: 1px solid var(--line);
-  border-radius: 8px;
+  border-radius: var(--r-md);
   padding: 6px 12px;
   font: inherit;
-  font-size: 0.87rem;
+  font-size: var(--fs-sm);
   font-weight: 600;
   cursor: pointer;
 }
@@ -2097,7 +2118,7 @@ a.sug-title:hover {
 
 .sug-link {
   color: var(--muted);
-  font-size: 0.8rem;
+  font-size: var(--fs-sm);
   text-decoration: none;
   margin-left: auto;
 }
@@ -2120,7 +2141,7 @@ a.sug-title:hover {
   gap: 10px;
   background: var(--panel);
   border: 1px solid var(--line);
-  border-radius: 8px;
+  border-radius: var(--r-md);
   padding: 8px 12px;
 }
 
@@ -2147,13 +2168,13 @@ a.sug-title:hover {
 
 .backlog-head .yr {
   color: var(--muted);
-  font-size: 0.85rem;
+  font-size: var(--fs-sm);
   font-variant-numeric: tabular-nums;
 }
 
 .backlog-why {
   color: var(--muted);
-  font-size: 0.85rem;
+  font-size: var(--fs-sm);
 }
 
 .backlog-why.is-quiet {
@@ -2173,10 +2194,10 @@ a.sug-title:hover {
   background: none;
   color: var(--muted);
   border: 1px solid transparent;
-  border-radius: 6px;
+  border-radius: var(--r-sm);
   padding: 1px 8px;
   font: inherit;
-  font-size: 0.8rem;
+  font-size: var(--fs-sm);
   cursor: pointer;
   margin-left: auto;
   opacity: 0;
@@ -2222,7 +2243,7 @@ a.sug-title:hover {
 .dir-card {
   background: var(--panel);
   border: 1px solid var(--line);
-  border-radius: 10px;
+  border-radius: var(--r-md);
   padding: 12px 14px;
   display: flex;
   flex-direction: column;
@@ -2233,7 +2254,7 @@ a.sug-title:hover {
   color: var(--text);
   text-decoration: none;
   font-weight: 600;
-  font-size: 1.05rem;
+  font-size: var(--fs-lg);
 }
 
 .dir-name:hover {
@@ -2256,14 +2277,14 @@ a.sug-title:hover {
 
 .dir-tier-n {
   color: var(--muted);
-  font-size: 0.8rem;
+  font-size: var(--fs-sm);
 }
 
 /* Titles are context, not the point of the card — two lines, then clipped. */
 .dir-films {
   margin: 0;
   color: var(--muted);
-  font-size: 0.85rem;
+  font-size: var(--fs-sm);
   line-height: 1.45;
   display: -webkit-box;
   -webkit-line-clamp: 2;
@@ -2277,7 +2298,7 @@ a.sug-title:hover {
   display: flex;
   gap: 10px;
   color: var(--muted);
-  font-size: 0.85rem;
+  font-size: var(--fs-sm);
   margin-top: auto;
 }
 
@@ -2295,7 +2316,7 @@ a.sug-title:hover {
   align-items: baseline;
   gap: 10px;
   margin: 0 0 10px;
-  font-size: 1.15rem;
+  font-size: var(--fs-lg);
 }
 
 .year-chips {
@@ -2311,7 +2332,7 @@ a.sug-title:hover {
   padding: 7px 11px;
   background: var(--panel);
   border: 1px solid var(--line);
-  border-radius: 999px;
+  border-radius: var(--r-pill);
   color: var(--text);
   text-decoration: none;
 }
@@ -2327,7 +2348,7 @@ a.sug-title:hover {
 
 .year-chip-n {
   color: var(--muted);
-  font-size: 0.82rem;
+  font-size: var(--fs-sm);
 }
 
 /* Years with box-office figures but nothing watched: still a page, still worth
@@ -2407,7 +2428,7 @@ a.sug-title:hover {
 .photo-credit {
   margin: 0 0 10px;
   color: var(--muted);
-  font-size: 0.78rem;
+  font-size: var(--fs-xs);
 }
 
 .photo-credit a {
@@ -2424,18 +2445,18 @@ a.sug-title:hover {
   padding: 10px 12px;
   border: 1px solid var(--line);
   border-left: 2px solid var(--accent);
-  border-radius: 6px;
+  border-radius: var(--r-sm);
   background: var(--panel);
 }
 
 /* Marks a queue card as a film already on the list, waiting on a rating. */
 .chip-owned {
   padding: 2px 8px;
-  border-radius: 999px;
+  border-radius: var(--r-pill);
   border: 1px solid var(--line);
   background: var(--panel-2);
   color: var(--muted);
-  font-size: 0.72rem;
+  font-size: var(--fs-xs);
   font-weight: 600;
   white-space: nowrap;
 }
@@ -2455,14 +2476,14 @@ a.sug-title:hover {
   width: 26px;
   height: 26px;
   padding: 0;
-  border-radius: 6px;
+  border-radius: var(--r-sm);
   border: 1px solid var(--line);
   background: rgba(0, 0, 0, 0.55);
   color: var(--muted);
   /* Bigger and lighter than the star it replaced: + and − are two thin
      strokes rather than a solid shape, so at the star's 0.8rem/600 they read
      as specks of dust on the artwork instead of as a control. */
-  font-size: 1.15rem;
+  font-size: var(--fs-lg);
   font-weight: 400;
   line-height: 1;
   cursor: pointer;
@@ -2487,12 +2508,12 @@ a.sug-title:hover {
    shape, so it wants a smaller size than + and − to carry the same weight. */
 .pin.is-watch {
   top: 40px;
-  font-size: 0.7rem;
+  font-size: var(--fs-xs);
 }
 
 .badge.is-watching {
   color: var(--accent);
-  font-size: 0.7rem;
+  font-size: var(--fs-xs);
 }
 
 .pin:disabled {
