@@ -89,33 +89,14 @@ function streamingRow(item) {
 }
 
 // Wikipedia's account of the film and how it was received. Quoted, credited,
-// and kept clear of Notes and Full analysis below, which are the sheet's own
-// words — the two should never be mistaken for each other.
-function summaryBox(film) {
-  const entry = film.summary;
-  if (!entry?.summary && !entry?.story) return null;
-
-  const box = text("section", "summary");
-  box.append(text("h2", null, "Summary"));
-
-  // What the film is and how it landed are different kinds of reading — a
-  // premise versus scores and takings — so they get their own blocks. Entries
-  // written before summaries.py split them carry only the joined text.
-  const parts = entry.story
-    ? [
-        ["Story", entry.story],
-        ["Reception", entry.reception],
-      ]
-    : [[null, entry.summary]];
-
-  for (const [label, body] of parts) {
-    if (!body) continue;
-    const part = text("div", "summary-part");
-    if (label) part.append(text("h3", "summary-label", label));
-    part.append(text("p", "summary-text", body));
-    box.append(part);
-  }
-
+// and kept clear of My notes and Full analysis, which are the sheet's own
+// words — the two should never be mistaken for each other. The story goes
+// under Summary and the reception under Reception, beside the scores, since
+// that is what it is about. Entries written before summaries.py split them
+// carry only the joined text, which goes under Summary whole.
+function wikiText(body, entry) {
+  const box = text("div", "summary");
+  box.append(text("p", "summary-text", body));
   const credit = text("p", "summary-credit");
   credit.append(document.createTextNode("From "));
   const link = text("a", null, entry.article || "Wikipedia");
@@ -126,6 +107,30 @@ function summaryBox(film) {
   credit.append(document.createTextNode(" on Wikipedia, CC BY-SA 4.0."));
   box.append(credit);
   return box;
+}
+
+function storyText(film) {
+  const entry = film.summary;
+  const body = entry?.story || entry?.summary;
+  return body ? wikiText(body, entry) : null;
+}
+
+function receptionText(film) {
+  const entry = film.summary;
+  return entry?.story && entry.reception ? wikiText(entry.reception, entry) : null;
+}
+
+// A section folded shut until opened: the summary line is the heading.
+function fold(label, cls, ...children) {
+  const parts = children.filter(Boolean);
+  if (!parts.length) return null;
+  const details = document.createElement("details");
+  details.className = `fold ${cls}`;
+  const summary = document.createElement("summary");
+  summary.append(text("span", "spoiler-label", label));
+  details.append(summary, text("div", "fold-body"));
+  details.lastChild.append(...parts);
+  return details;
 }
 
 // "1196984" -> "1.2M". Vote counts are context for how settled a score is,
@@ -154,8 +159,8 @@ function scoreCard(name, url, value, scale, sub, note) {
   return card;
 }
 
-// What everyone else thought. Sits below my own rating and reads smaller than
-// it on purpose — this is a list of my ratings, and these are here as context,
+// What everyone else thought, under Reception. Reads smaller than my rating
+// above on purpose — this is a list of my ratings, and these are here as context,
 // not as a correction.
 //
 // Each score keeps its own scale rather than being normalised to one bar:
@@ -168,8 +173,7 @@ function scoresBox(film) {
   const { imdb, rottenTomatoes: rt, letterboxd: lb } = scores;
   if (!imdb && !rt && !lb) return null;
 
-  const box = text("section", "scores");
-  box.append(text("h2", null, "Elsewhere"));
+  const box = text("div", "scores");
   const row = text("div", "score-row");
 
   if (imdb?.score != null) {
@@ -302,16 +306,53 @@ function render(film, data) {
   head.append(facts(film, data));
   main.append(head);
 
-  // My rating is above; the outside world's is here, under the facts.
-  const elsewhere = scoresBox(film);
-  if (elsewhere) main.append(elsewhere);
-
-  const overview = summaryBox(film);
-  if (overview) main.append(overview);
-
-  // Trailer then where to watch: see what it looks like, then go find it.
+  // Trailer open; then My notes, Summary and Reception folded shut, so the
+  // page opens on the film itself and the reading is there when wanted.
   const preview = trailerBox(film);
   if (preview) main.append(preview);
+
+  // Notes: short. Analysis: long, spoilers, folded away again inside.
+  const notesBox = editor({
+    cls: "critique inner",
+    heading: null,
+    rows: 5,
+    value: film.critique,
+    placeholder: `A line or two on ${film.title} — no spoilers.`,
+    field: "critique",
+    film,
+  });
+
+  const details = document.createElement("details");
+  details.className = "spoilers";
+  const summary = document.createElement("summary");
+  summary.append(text("span", "spoiler-label", "Full analysis"));
+  summary.append(text("span", "spoiler-warn", "spoilers"));
+  if (film.analysis) summary.append(text("span", "spoiler-has", "written"));
+  details.append(summary);
+  details.append(
+    editor({
+      cls: "critique inner",
+      heading: null,
+      rows: 14,
+      value: film.analysis,
+      placeholder: `The whole argument about ${film.title} — assume the reader has seen it.`,
+      field: "analysis",
+      film,
+    })
+  );
+
+  const notes = fold("My notes", "notes", notesBox, details);
+  if (film.critique || film.analysis) {
+    notes.firstChild.append(text("span", "spoiler-has", "written"));
+  }
+  main.append(notes);
+
+  const overview = fold("Summary", "overview", storyText(film));
+  if (overview) main.append(overview);
+
+  // My rating is up top; the outside world's is here, with what critics said.
+  const reception = fold("Reception", "reception", receptionText(film), scoresBox(film));
+  if (reception) main.append(reception);
 
   const watch = streamingRow(film);
   if (watch) main.append(watch);
@@ -340,38 +381,6 @@ function render(film, data) {
       main.append(box);
     }
   }
-
-  // Notes: short and open. Analysis: long, spoilers, folded away.
-  const notesBox = editor({
-    cls: "critique",
-    heading: "Notes",
-    rows: 5,
-    value: film.critique,
-    placeholder: `A line or two on ${film.title} — no spoilers.`,
-    field: "critique",
-    film,
-  });
-  main.append(notesBox);
-
-  const details = document.createElement("details");
-  details.className = "spoilers";
-  const summary = document.createElement("summary");
-  summary.append(text("span", "spoiler-label", "Full analysis"));
-  summary.append(text("span", "spoiler-warn", "spoilers"));
-  if (film.analysis) summary.append(text("span", "spoiler-has", "written"));
-  details.append(summary);
-  details.append(
-    editor({
-      cls: "critique inner",
-      heading: null,
-      rows: 14,
-      value: film.analysis,
-      placeholder: `The whole argument about ${film.title} — assume the reader has seen it.`,
-      field: "analysis",
-      film,
-    })
-  );
-  main.append(details);
 }
 
 // --- facts, and the form that edits them ---------------------------------
